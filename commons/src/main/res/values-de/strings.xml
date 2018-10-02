@@ -232,7 +232,7 @@
     <string name="no">Nein</string>
 
     <plurals name="delete_warning">
-        <item quantity="one">WARNUNG: Ein Ordner soll gelöscht werden</item>
+        <item quantity="one">WARNUNG: %d Ordner soll gelöscht werden</item>
         <item quantity="other">WARNUNG: %d Ordner sollen gelöscht werden</item>
     </plurals>
 
@@ -407,6 +407,11 @@
     <string name="files_restored_successfully">Dateien erfolgreich wiederhergestellt</string>
     <string name="empty_recycle_bin_confirmation">Papierkorb wirklich leeren? Die Dateien sind dann unwiederbringlich gelöscht.</string>
     <string name="recycle_bin_empty">Der Papierkorb ist leer</string>
+
+    <plurals name="moving_items_into_bin">
+        <item quantity="one">Moving %d item into the Recycle Bin</item>
+        <item quantity="other">Moving %d items into the Recycle Bin</item>
+    </plurals>
 
     <!-- Import / Export -->
     <string name="importing">Importiere…</string>

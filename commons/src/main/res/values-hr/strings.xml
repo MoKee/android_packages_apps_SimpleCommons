@@ -235,7 +235,7 @@
     <string name="no">Ne</string>
 
     <plurals name="delete_warning">
-        <item quantity="one">UPOZORENJE: Brišete mapu</item>
+        <item quantity="one">UPOZORENJE: Brišete %d mapu</item>
         <item quantity="other">UPOZORENJE: Brišete %d mapa</item>
     </plurals>
 
@@ -427,6 +427,11 @@
     <string name="files_restored_successfully">Datoteke su uspješno vraćene</string>
     <string name="empty_recycle_bin_confirmation">Jeste li sigurni da želite isprazniti koš za smeće? Datoteke će biti trajno izgubljene.</string>
     <string name="recycle_bin_empty">Koš za smeće je prazan</string>
+
+    <plurals name="moving_items_into_bin">
+        <item quantity="one">Moving %d item into the Recycle Bin</item>
+        <item quantity="other">Moving %d items into the Recycle Bin</item>
+    </plurals>
 
     <!-- Import / Export -->
     <string name="importing">Uvoz…</string>

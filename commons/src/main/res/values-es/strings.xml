@@ -192,6 +192,7 @@
 
     <!-- Actionbar items -->
     <string name="delete">Eliminar</string>
+    <string name="remove">Remove</string>
     <string name="rename">Renombrar</string>
     <string name="share">Compartir</string>
     <string name="share_via">Compartir con</string>
@@ -231,7 +232,7 @@
     <string name="no">No</string>
 
     <plurals name="delete_warning">
-        <item quantity="one">ADVERTENCIA: está eliminando una carpeta</item>
+        <item quantity="one">ADVERTENCIA: está eliminando %d carpeta</item>
         <item quantity="other">ADVERTENCIA: está eliminando %d carpetas</item>
     </plurals>
 
@@ -406,6 +407,11 @@
     <string name="files_restored_successfully">Lo ficheros han sido restaurados correctamente</string>
     <string name="empty_recycle_bin_confirmation">Seguro que quieres vaciar la papelera? Los ficheros se perderan definitivamente.</string>
     <string name="recycle_bin_empty">La papelera está vacia</string>
+
+    <plurals name="moving_items_into_bin">
+        <item quantity="one">Moving %d item into the Recycle Bin</item>
+        <item quantity="other">Moving %d items into the Recycle Bin</item>
+    </plurals>
 
     <!-- Import / Export -->
     <string name="importing">Importando…</string>

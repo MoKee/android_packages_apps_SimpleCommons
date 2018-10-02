@@ -232,7 +232,7 @@
     <string name="no">否</string>
 
     <plurals name="delete_warning">
-        <item quantity="one">警告: 你正在删除此目录</item>
+        <item quantity="one">WARNING: You are deleting %d folder</item>
         <item quantity="other">警告: 你正在删除 %d 目录</item>
     </plurals>
 
@@ -407,6 +407,11 @@
     <string name="files_restored_successfully">恢复文件成功</string>
     <string name="empty_recycle_bin_confirmation">您确定要清空回收站吗？这些文件将永久丢失。</string>
     <string name="recycle_bin_empty">回收站是空的</string>
+
+    <plurals name="moving_items_into_bin">
+        <item quantity="one">Moving %d item into the Recycle Bin</item>
+        <item quantity="other">Moving %d items into the Recycle Bin</item>
+    </plurals>
 
     <!-- Import / Export -->
     <string name="importing">正在导入…</string>

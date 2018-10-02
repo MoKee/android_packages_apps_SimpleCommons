@@ -232,7 +232,7 @@
     <string name="no">Xeyr</string>
 
     <plurals name="delete_warning">
-        <item quantity="one">XƏBƏRDARLIQ: Qovluğu silirsiniz</item>
+        <item quantity="one">WARNING: You are deleting %d folder</item>
         <item quantity="other">XƏBƏRDARLIQ: %d sayda qovluğu silirsiniz</item>
     </plurals>
 
@@ -407,6 +407,11 @@
     <string name="files_restored_successfully">Fayllar uğurla geri qaytarıldı</string>
     <string name="empty_recycle_bin_confirmation">Zibil qutusunu boşaltmaq istədiyinizə əminsiniz? Fayllar tamamilə itiriləcək.</string>
     <string name="recycle_bin_empty">Zibil qutusu boşdur</string>
+
+    <plurals name="moving_items_into_bin">
+        <item quantity="one">Moving %d item into the Recycle Bin</item>
+        <item quantity="other">Moving %d items into the Recycle Bin</item>
+    </plurals>
 
     <!-- Import / Export -->
     <string name="importing">Daxil edilir…</string>

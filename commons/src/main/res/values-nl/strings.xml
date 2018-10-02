@@ -232,7 +232,7 @@
     <string name="no">Nee</string>
 
     <plurals name="delete_warning">
-        <item quantity="one">WAARSCHUWING: Hele map zal worden verwijderd</item>
+        <item quantity="one">WAARSCHUWING: %d map zal worden verwijderd</item>
         <item quantity="other">WAARSCHUWING: %d mappen zullen worden verwijderd</item>
     </plurals>
 
@@ -407,6 +407,11 @@
     <string name="files_restored_successfully">Bestanden zijn hersteld</string>
     <string name="empty_recycle_bin_confirmation">Prullenbak echt leegmaken? De bestanden zullen permanent verwijderd worden.</string>
     <string name="recycle_bin_empty">Prullenbak is leeg</string>
+
+    <plurals name="moving_items_into_bin">
+        <item quantity="one">Moving %d item into the Recycle Bin</item>
+        <item quantity="other">Moving %d items into the Recycle Bin</item>
+    </plurals>
 
     <!-- Import / Export -->
     <string name="importing">Importeren…</string>
