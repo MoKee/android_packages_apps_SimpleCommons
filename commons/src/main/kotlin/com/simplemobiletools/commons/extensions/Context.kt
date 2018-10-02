@@ -374,16 +374,16 @@ fun Context.getUriMimeType(path: String, newUri: Uri): String {
     return mimeType
 }
 
-fun Context.isThankYouInstalled() = isPackageInstalled("com.simplemobiletools.thankyou")
+fun Context.isThankYouInstalled() = true
 
-fun Context.isPackageInstalled(pkgName: String): Boolean {
-    return try {
-        packageManager.getPackageInfo(pkgName, 0)
-        true
-    } catch (e: Exception) {
-        false
-    }
-}
+//fun Context.isPackageInstalled(pkgName: String): Boolean {
+//    return try {
+//        packageManager.getPackageInfo(pkgName, 0)
+//        true
+//    } catch (e: Exception) {
+//        false
+//    }
+//}
 
 // format day bits to strings like "Mon, Tue, Wed"
 fun Context.getSelectedDaysString(bitMask: Int): String {
