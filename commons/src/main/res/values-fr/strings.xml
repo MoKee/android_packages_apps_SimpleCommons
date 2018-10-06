@@ -333,6 +333,14 @@
   <string name="recycle_bin">Corbeille</string>
   <string name="text">Texte</string>
   <!-- Recycle Bin -->
+  <string name="recycle_bin_emptied">La corbeille a été vidée avec succès</string>
+  <string name="files_restored_successfully">Les fichiers ont été restaurés avec succès</string>
+  <string name="empty_recycle_bin_confirmation">Êtes-vous sûr de que vouloir vider la corbeille ? Les fichiers seront définitivement perdues.</string>
+  <string name="recycle_bin_empty">La corbeille est vide</string>
+  <plurals name="moving_items_into_bin">
+    <item quantity="one">Déplacement %d élément dans la corbeille</item>
+    <item quantity="other">Déplacement %d éléments dans la corbeille</item>
+  </plurals>
   <!-- Import / Export -->
   <string name="importing">Importer…</string>
   <string name="exporting">Exporter…</string>
@@ -407,6 +415,7 @@
   <string name="donate">Donner</string>
   <string name="donate_underlined"><u>Donner</u></string>
   <string name="follow_us">Suivez-nous</string>
+  <string name="copyright">v %1$s\nCopyright © Simple Mobile outils %2$d</string>
   <string name="additional_info">Info supplémentaire</string>
   <string name="app_version">Version appli : %s</string>
   <string name="device_os">OS appareil : %s</string>
@@ -419,7 +428,18 @@
     </string>
   <string name="purchase">Acheter</string>
   <string name="update_thank_you">Veuillez mettre à jour Simple Merci à la dernière version</string>
+  <string name="before_asking_question_read_faq">Avant de vous posez une question, veuillez lire la Foire aux Questions tout d’abord, peut-être que la solution y est.</string>
+  <string name="read_it">Le lire</string>
   <!-- New app (do not translate anything on the 4th line) -->
+  <string name="new_app">
+<![CDATA[
+            Hey,<br><br>
+            Nous voulions juste vous faire savoir qu'une nouvelle app est sortie récemment:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            Vous pouvez la télécharger en appuyant sur le titre.<br><br>
+            Merci
+        ]]>
+    </string>
   <!-- FAQ -->
   <string name="frequently_asked_questions">Foire aux questions (FAQ)</string>
   <string name="before_asking_question">Avant de poser une question, lisez d\'abord le</string>
@@ -455,4 +475,9 @@
   <string name="espresso_title">Espresso (assistant de test)</string>
   <string name="gson_title">Gson (parser JSON)</string>
   <string name="leak_canary_title">Leak Canary (détecteur de fuite de mémoire)</string>
+  <string name="number_picker_title">Sélecteur de numéro (sélecteur numéro personnalisable)</string>
+  <string name="exoplayer_title">ExoPlayer (lecteur vidéo)</string>
+  <string name="panorama_view_title">Vue panoramique en VR (affichage des panoramas)</string>
+  <string name="sanselan_title">Apache Sanselan (lecture des métadonnées de l’image)</string>
+  <string name="filters_title">Filtres Photo Android (filtres d’image)</string>
 </resources>

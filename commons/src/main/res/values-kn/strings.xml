@@ -9,6 +9,8 @@
   <string name="details">ವಿವರಗಳು</string>
   <string name="none">ಯಾವುದೂ ಇಲ್ಲ</string>
   <!-- Favorites -->
+  <string name="favorites">ಮೆಚ್ಚಿನ</string>
+  <string name="add_to_favorites">ಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸಿ</string>
   <!-- Search -->
   <string name="search">ಹುಡುಕಿ</string>
   <!-- Filters -->
@@ -48,6 +50,8 @@
   <string name="yes">ಹೌದು</string>
   <!-- Password protection -->
   <!-- Times -->
+  <string name="today">ಈ ದಿನ</string>
+  <string name="tomorrow">ನಾಳೆ</string>
   <string name="seconds_raw">ಸೆಕೆಂಡುಗಳು</string>
   <string name="minutes_raw">ನಿಮಿಷಗಳು</string>
   <string name="hours_raw">ಗಂಟೆಗಳು</string>
@@ -56,6 +60,7 @@
   <!-- For example: Postpone reminder by 3 minutes -->
   <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
   <!-- Alarms -->
+  <string name="snooze">ಲಘು ನಿದ್ದೆ</string>
   <string name="dismiss">ವಜಾ ಮಾಡು</string>
   <!-- Settings -->
   <string name="settings">ಸಂಯೋಜನೆಗಳು</string>

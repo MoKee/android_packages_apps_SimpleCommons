@@ -90,6 +90,10 @@
   <!-- Dates -->
   <!-- in January -->
   <string name="monday">Панядзелак</string>
+  <string name="tuesday">Аўторак</string>
+  <string name="wednesday">Серада</string>
+  <string name="thursday">Чацвер</string>
+  <string name="friday">Пятніца</string>
   <string name="saturday">Субота</string>
   <string name="sunday">Нядзеля</string>
   <string name="wednesday_letter">Зх</string>

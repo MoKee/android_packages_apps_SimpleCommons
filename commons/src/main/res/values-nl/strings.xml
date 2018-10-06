@@ -363,10 +363,10 @@
   <string name="files_restored_successfully">Bestanden zijn hersteld</string>
   <string name="empty_recycle_bin_confirmation">Prullenbak echt leegmaken? De bestanden zullen permanent verwijderd worden.</string>
   <string name="recycle_bin_empty">Prullenbak is leeg</string>
-    <plurals name="moving_items_into_bin">
-        <item quantity="one">%d item naar de prullenbak verplaatsen</item>
-        <item quantity="other">%d items naar de prullenbak verplaatsen</item>
-    </plurals>
+  <plurals name="moving_items_into_bin">
+    <item quantity="one">%d item naar de prullenbak verplaatsen</item>
+    <item quantity="other">%d items naar de prullenbak verplaatsen</item>
+  </plurals>
   <!-- Import / Export -->
   <string name="importing">Importeren…</string>
   <string name="exporting">Exporteren…</string>
