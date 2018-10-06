@@ -431,15 +431,6 @@
   <string name="before_asking_question_read_faq">Avant de vous posez une question, veuillez lire la Foire aux Questions tout d’abord, peut-être que la solution y est.</string>
   <string name="read_it">Le lire</string>
   <!-- New app (do not translate anything on the 4th line) -->
-  <string name="new_app">
-<![CDATA[
-            Hey,<br><br>
-            Nous voulions juste vous faire savoir qu'une nouvelle app est sortie récemment:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            Vous pouvez la télécharger en appuyant sur le titre.<br><br>
-            Merci
-        ]]>
-    </string>
   <!-- FAQ -->
   <string name="frequently_asked_questions">Foire aux questions (FAQ)</string>
   <string name="before_asking_question">Avant de poser une question, lisez d\'abord le</string>
