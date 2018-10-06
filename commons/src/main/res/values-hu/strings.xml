@@ -82,11 +82,26 @@
   <string name="folder">Mappa</string>
   <string name="file">Fájl</string>
   <string name="create_new_folder">Új mappa létrehozása</string>
+  <string name="name_taken">Már létezik ilyen nevű fájl vagy mappa</string>
+  <string name="invalid_name">A név érvénytelen karaktereket tartalmaz</string>
+  <string name="empty_name">Kérjük, írjon be egy nevet</string>
+  <string name="unknown_error_occurred">Ismeretlen hiba történt</string>
   <!-- File operation conflicts -->
+  <string name="file_already_exists">\"%s\" fájl már létezik</string>
+  <string name="file_already_exists_overwrite">\"%s\" fájl már létezik. Felülírja?</string>
+  <string name="folder_already_exists">\"%s\" mappa már létezik</string>
   <string name="merge">Összefűzés</string>
   <string name="overwrite">Felülírás</string>
   <string name="skip">Kihagyás</string>
+  <string name="append">\'_1\' csatolása</string>
+  <string name="apply_to_all">Alkalmazás mindegyikre</string>
   <!-- File picker -->
+  <string name="select_folder">Válasszon egy mappát</string>
+  <string name="select_file">Válasszon ki egy fájlt</string>
+  <string name="confirm_storage_access_title">Külső tárolóelérés megerősítése</string>
+  <string name="confirm_storage_access_text">Az írási engedély garantálásához, kérjük, a következő képernyőn válassza az SD-kártya gyökérkönyvtárát</string>
+  <string name="confirm_storage_access_text_sd">Ha nem látja az SD-kártyát, próbálja meg a következőt</string>
+  <string name="confirm_selection">Kiválasztás megerősítése</string>
   <plurals name="items">
     <item quantity="one">%d elem</item>
     <item quantity="other">%d elem</item>
@@ -96,18 +111,31 @@
     <item quantity="one">%d elem</item>
     <item quantity="other">%d elem</item>
   </plurals>
+  <plurals name="deleting_items">
+    <item quantity="one">%d elem törlése</item>
+    <item quantity="other">%d elem törlése</item>
+  </plurals>
   <!-- Storages -->
+  <string name="select_storage">Tárhely-választás</string>
   <string name="internal">Belső</string>
   <string name="sd_card">SD-kártya</string>
+  <string name="root">Gyökérkönyvtár</string>
+  <string name="wrong_root_selected">Nem a megfelelő mappát választotta. Kérjük, válassza ki az SD-kártya gyökérkönyvtárát</string>
+  <string name="sd_card_otg_same">Az SD-kártya és az OTG elérési útja nem lehet ugyanaz</string>
+  <string name="app_on_sd_card">Úgy tűnik, hogy az alkalmazás az SD-kártyára van telepítve, ami miatt az alkalmazásikonok nem érhetők el. Nem láthatja őket a rendelkezésre álló kisalkalmazások listáján.
+        Ez egy rendszerkorlátozás, ezért ha még szeretné használni ezeket, vissza kell helyeznie az alkalmazást a belső tárhelyre.</string>
   <!-- File properties -->
   <string name="properties">Tulajdonságok</string>
   <string name="path">Elérési út</string>
+  <string name="items_selected">elem kiválasztva</string>
   <string name="resolution">Felbontás</string>
   <string name="duration">Időtartam</string>
   <string name="artist">Előadó</string>
   <string name="album">Album</string>
   <string name="focal_length">Fókusztávolság</string>
   <string name="exposure_time">Exponálási idő</string>
+  <string name="iso_speed">ISO sebesség</string>
+  <string name="f_number">F-szám</string>
   <string name="camera">Kamera</string>
   <string name="exif">EXIF</string>
   <string name="song_title">Zeneszám-cím</string>
@@ -120,15 +148,30 @@
   <string name="restore_defaults">Alapértelmezett beállítások visszaállítása</string>
   <string name="change_color">Színmódosítás</string>
   <string name="theme">Téma</string>
+  <string name="changing_color_description">A színváltoztatás automatikusan átváltja Egyéni témára</string>
   <string name="save">Mentés</string>
   <string name="discard">Mégse</string>
   <string name="undo_changes">Változások elvetése</string>
+  <string name="undo_changes_confirmation">Bizonyos benne, hogy vissza kívánja vonni a változtatásait?</string>
+  <string name="save_before_closing">El nem mentett változtatásai vannak. Menti őket kilépés előtt?</string>
+  <string name="apply_to_all_apps">A szín alkalmazása az összes Simple alkalmazásra</string>
+  <string name="share_colors_success">A színek sikeresen frissítésre kerültek. Az új Téma \'Megosztott\' néven hozzáadásra került, kérjük, használja ezt az összes alkalmazásszín frissítéséhez a jövőben.</string>
+  <string name="purchase_thank_you">
+        <![CDATA[
+            Kérjük, vásárolja meg a <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>-t a funkció feloldásához és a fejlesztés támogatásához. Köszönjük!
+        ]]>
+    </string>
   <!-- Themes -->
   <string name="light_theme">Világos</string>
   <string name="dark_theme">Sötét</string>
   <string name="solarized">Szolarizált</string>
+  <string name="dark_red">Sötétvörös</string>
+  <string name="black_white">Fekete-fehér</string>
   <string name="custom">Egyedi</string>
+  <string name="shared">Megosztott</string>
   <!-- What's new -->
+  <string name="whats_new">Mik az újdonságok?</string>
+  <string name="whats_new_disclaimer">* csak a nagyobb frissítések listázódnak itt, mindig kerülnek a rendszerbe kisebb javítások is</string>
   <!-- Actionbar items -->
   <string name="delete">Törlés</string>
   <string name="remove">Törlés</string>
@@ -136,20 +179,37 @@
   <string name="share">Megosztás</string>
   <string name="share_via">Megosztás a következővel:</string>
   <string name="select_all">Az összes kijelölése</string>
+  <string name="hide">Elrejtés</string>
+  <string name="unhide">Elrejtés feloldása</string>
+  <string name="hide_folder">Mappa elrejtése</string>
+  <string name="unhide_folder">Mappa elrejtésének feloldása</string>
+  <string name="temporarily_show_hidden">Rejtett elemek ideiglenes megjelenítése</string>
+  <string name="stop_showing_hidden">Rejtett elemek megjelenítésének befejezése</string>
+  <string name="maximum_share_reached">Egyszerre nem oszthat meg ennyi mindent</string>
+  <string name="empty_and_disable_recycle_bin">Lomtár ürítése és letiltása</string>
   <string name="undo">Visszavonás</string>
   <string name="redo">Ismétlés</string>
   <!-- Sorting -->
+  <string name="sort_by">Rendezés a következő szerint</string>
   <string name="name">Név:</string>
   <string name="size">Méret</string>
   <string name="last_modified">Utolsó módositás szerint</string>
   <string name="date_taken">Készítés dátuma</string>
   <string name="title">Név</string>
+  <string name="filename">Fájlnév</string>
   <string name="extension">Kiterjesztés szerint</string>
   <string name="ascending">Növekvő</string>
   <string name="descending">Csökkenő</string>
+  <string name="use_for_this_folder">Csak erre a mappára használja</string>
   <!-- Confirmation dialog -->
+  <string name="proceed_with_deletion">Bizonyos benne, hogy törléssel kívánja folytatni?</string>
+  <string name="deletion_confirmation">Bizonyos benne, hogy %s-t törölni kívánja?</string>
   <!-- Are you sure you want to delete 5 items? -->
+  <string name="move_to_recycle_bin_confirmation">Bizonyos benne, hogy %s-t a Lomtárba kívánja dobni?</string>
   <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
+  <string name="are_you_sure_delete">Bizonyos benne, hogy törölni kívánja ezt az elemet?</string>
+  <string name="are_you_sure_recycle_bin">Bizonyos benne, hogy a Lomtárba kívánja dobni ezt az elemet?</string>
+  <string name="do_not_ask_again">Ne kérdezze újra ebben a munkamenetben</string>
   <string name="yes">Igen</string>
   <string name="no">Nem</string>
   <plurals name="delete_warning">
@@ -168,8 +228,15 @@
   <string name="repeat_pattern">Ismételje meg a feloldómintát</string>
   <string name="fingerprint">Ujjlenyomat</string>
   <string name="add_fingerprint">Ujjlenyomat hozzáadása</string>
+  <string name="place_finger">Kérjük, helyezze az ujját az ujjlenyomat-érzékelőre</string>
+  <string name="authentication_failed">Sikertelen hitelesítés</string>
+  <string name="authentication_blocked">A hitelesítés blokkolva, kérjük, próbálja újra kis idő múlva</string>
+  <string name="no_fingerprints_registered">Önnek nincs jelenleg beállított Ujjlenyomata, kérjük, adjon hozzá néhányat a készülék beállításaiban</string>
   <string name="go_to_settings">Beállítások megnyitása</string>
+  <string name="protection_setup_successfully">A jelszó sikeresen beállítva. Kérjük, telepítse újra az alkalmazást, ha elfelejtette a jelszót.</string>
+  <string name="fingerprint_setup_successfully">Védelem sikeresen beállítva. Kérjük, telepítse újra az alkalmazást, ha problémája van a feloldással.</string>
   <!-- Times -->
+  <string name="yesterday">Tegnap</string>
   <string name="today">Ma</string>
   <string name="tomorrow">Holnap</string>
   <string name="seconds_raw">másodperc</string>
@@ -248,25 +315,86 @@
     <item quantity="other">%d óra</item>
   </plurals>
   <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
+  <string name="alarm_goes_off_in">Hátralevő idő, amíg a riasztás ki nem kapcsol:\n%s</string>
+  <string name="reminder_triggers_in">Hátralevő idő, amíg az emlékeztető beindul:\n%s</string>
+  <string name="alarm_warning">Győződjön meg róla, hogy a riasztás megfelelően működik, mielőtt teljesen megbízna benne. Helytelenül működhet az akkumulátorkíméléssel kapcsolatos rendszerkorlátozások miatt.</string>
+  <string name="reminder_warning">Győződjön meg róla, hogy az emlékeztető megfelelően működik, mielőtt teljesen megbízna benne. Helytelenül működhet az akkumulátorkíméléssel kapcsolatos rendszerkorlátozások miatt.</string>
+  <string name="notifications_disabled">Az alkalmazás értesítései le vannak tiltva. Lépjen a készülék beállításaiba és engedélyezze az értesítéseket.</string>
   <!-- Alarms -->
   <string name="alarm">Ébresztő</string>
-  <string name="snooze">Szundi</string>
+  <string name="snooze">Elhalasztás</string>
   <string name="dismiss">Elvetés</string>
+  <string name="no_reminder">Nincs emlékeztető</string>
   <string name="at_start">A kezdetekor</string>
+  <string name="system_sounds">Rendszerhangok</string>
+  <string name="your_sounds">Az Ön saját hangjai</string>
+  <string name="add_new_sound">Új hang hozzáadása</string>
+  <string name="no_sound">Nincs hang</string>
   <!-- Settings -->
   <string name="settings">Beállítások</string>
+  <string name="purchase_simple_thank_you">A Simple Thank You megvásárlása</string>
+  <string name="customize_colors">Színek testreszabása</string>
+  <string name="customize_widget_colors">Kisalkalmazás színeinek testreszabása</string>
+  <string name="use_english_language">Angol nyelv használata</string>
+  <string name="avoid_whats_new">Indításnál nem jeleníti meg a \'Mik az újdonságok?\' feliratot</string>
+  <string name="show_hidden_items">Rejtett elemek megjelenítése</string>
   <string name="font_size">Betűméret</string>
   <string name="small">Kicsi</string>
   <string name="medium">Közepes</string>
   <string name="large">Nagy</string>
   <string name="extra_large">Óriási</string>
+  <string name="password_protect_hidden_items">Jelszóvédett rejtett elem láthatósága</string>
+  <string name="password_protect_whole_app">Jelszóvédett az egész alkalmazás</string>
+  <string name="keep_last_modified">Fájlmásolásnál/áthelyezésnél/átnevezésnél a legutoljára módosított értéket tartsa meg</string>
+  <string name="show_info_bubble">Információ buborék megjelenítése a görgetősávok húzással görgetésekor</string>
+  <string name="prevent_phone_from_sleeping">Megakadályozza a telefon alvó állapotát, amíg egy alkalmazás előtérben fut</string>
+  <string name="skip_delete_confirmation">Mindig hagyja ki a törlésmegerősítés megjelenítését</string>
+  <string name="enable_pull_to_refresh">Engedélyezi a frissítést felülről való lehúzással</string>
+  <string name="use_24_hour_time_format">24-órás időformátum használata</string>
+  <string name="sunday_first">Vasárnappal kezdődik a Hét</string>
   <string name="widgets">Modulok</string>
+  <string name="use_same_snooze">Mindig ugyanazt az elhalasztási időt használja</string>
+  <string name="snooze_time">Elhalasztás ideje</string>
+  <string name="vibrate_on_button_press">Rezgés gomblenyomáskor</string>
+  <string name="move_items_into_recycle_bin">Elemeket helyezhet a Lomtárba a végleges törlés helyett</string>
+  <string name="recycle_bin_cleaning_interval">A Lomtár kiürítési időköze</string>
+  <string name="empty_recycle_bin">A Lomtár kiürítése</string>
+  <string name="force_portrait_mode">Portrémód (álló nézet) kényszerítése</string>
   <!-- Setting sections -->
   <string name="visibility">Láthatóság</string>
+  <string name="security">Biztonság</string>
+  <string name="scrolling">Görgetés</string>
+  <string name="file_operations">Fájlműveletek</string>
+  <string name="recycle_bin">Lomtár</string>
+  <string name="saving_label">Mentés</string>
+  <string name="startup">Indítás</string>
   <string name="text">Szöveg</string>
   <!-- Recycle Bin -->
+  <string name="restore_this_file">Állítsa helyre ezt a fájlt</string>
+  <string name="restore_selected_files">Állítsa helyre a kijelölt fájlokat</string>
+  <string name="restore_all_files">Állítsa helyre az összes fájlt</string>
+  <string name="recycle_bin_emptied">A Lomtár sikeresen kiürítésre került</string>
+  <string name="files_restored_successfully">A fájlok visszaállítása sikeresen megtörtént</string>
+  <string name="empty_recycle_bin_confirmation">Bizonyos benne, hogy végleg kiüríti a Lomtárat? A fájlok végérvényesen törlődnek.</string>
+  <string name="recycle_bin_empty">A Lomtár üres</string>
+  <plurals name="moving_items_into_bin">
+    <item quantity="one">%d elem áthelyezése a Lomtárba</item>
+    <item quantity="other">%d elem áthelyezése a Lomtárba</item>
+  </plurals>
   <!-- Import / Export -->
+  <string name="importing">Importálás…</string>
+  <string name="exporting">Exportálás…</string>
+  <string name="importing_successful">Az importálás sikeresen lezajlott</string>
+  <string name="exporting_successful">Az exportálás sikeresen lezajlott</string>
+  <string name="importing_failed">Az importálás sikertelen volt</string>
+  <string name="exporting_failed">Az exportálás sikertelen volt</string>
+  <string name="importing_some_entries_failed">Egyes tételek importálása meghiúsult</string>
+  <string name="exporting_some_entries_failed">Egyes tételek exportálása meghiúsult</string>
+  <string name="no_entries_for_exporting">Nem található semmi, amit exportálni lehetne</string>
   <!-- OTG devices -->
+  <string name="otg">OTG</string>
+  <string name="confirm_otg_storage_access_text">Az írási engedély garantálásához, kérjük, a következő képernyőn válassza az OTG gyökérkönyvtárát</string>
+  <string name="wrong_root_selected_otg">Nem a megfelelő mappát választotta. Kérjük, válassza ki az OTG gyökérkönyvtárát</string>
   <!-- Dates -->
   <string name="january">Január</string>
   <string name="february">Február</string>
@@ -285,6 +413,12 @@
   <string name="in_february">Februárban</string>
   <string name="in_march">Márciusban</string>
   <string name="in_april">Áprilisban</string>
+  <string name="in_may">Májusban</string>
+  <string name="in_june">Júniusban</string>
+  <string name="in_july">Júliusban</string>
+  <string name="in_august">Augusztusban</string>
+  <string name="in_september">Szeptemberben</string>
+  <string name="in_october">Októberben</string>
   <string name="in_november">Novemberben</string>
   <string name="in_december">Decemberben</string>
   <string name="monday">Hétfő</string>
@@ -312,21 +446,80 @@
   <string name="about">Információ</string>
   <string name="website_label">További egyszerű alkalmazások és a forráskód itt</string>
   <string name="email_label">Visszajelzés és javaslatok</string>
-  <string name="third_party_licences_underlined"><u>Harmadik fél licenszek</u></string>
+  <string name="more_apps_underlined"><u>További alkalmazások</u></string>
+  <string name="third_party_licences_underlined"><u>Harmadik fél licencei</u></string>
   <string name="invite_friends_underlined"><u>Barátok meghívása</u></string>
   <string name="share_text">Szia, ezt nézd meg! %1$s itt: %2$s</string>
   <string name="invite_via">Meghívó küldése itt</string>
   <string name="rate_us_underlined"><u>Értékelés</u></string>
   <string name="donate">Adomány</string>
+  <string name="donate_underlined"><u>Adományozás</u></string>
   <string name="follow_us">Követés</string>
   <string name="copyright">%1$s verzió\nSzerzői jogok: © Simple Mobile Tools %2$d</string>
+  <string name="additional_info">További információ</string>
+  <string name="app_version">Alkalmazásverzió: %s</string>
+  <string name="device_os">A készülék operációs rendszere: %s</string>
+  <string name="donate_please">
+        <![CDATA[
+            Helló,<br><br>
+            reméljük, tetszik az alkalmazás. Ez nem tartalmaz reklámot, kérjük támogatásként vásárolja meg a <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>-t, ha megvásárolja, ez a panel sem fog többé megjelenni újra.<br><br>
+            Köszönjük szépen!
+        ]]>
+    </string>
   <string name="purchase">Vásárlás</string>
+  <string name="update_thank_you">Kérjük, frissítse a Simple Thank You-t a legújabb verzióra</string>
+  <string name="before_asking_question_read_faq">Mielőtt feltenne egy kérdést, kérjük, előbb olvassa el a Gyakran Ismételt Kérdéseket (GYIK), talán ott a válasz a kérdésére.</string>
+  <string name="read_it">Olvassa el</string>
   <!-- New app (do not translate anything on the 4th line) -->
+  <string name="new_app">
+        <![CDATA[
+            Hahó,<br><br>
+            szeretnénk tájékoztatni, hogy nemrég megjelent egy új alkalmazás:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            A címre nyomva letöltheti.<br><br>
+            Köszi
+        ]]>
+    </string>
   <!-- FAQ -->
+  <string name="frequently_asked_questions">Gyakran ismételt kérdések</string>
+  <string name="before_asking_question">Mielőtt kérdezne, olvassa el a következőt </string>
+  <string name="faq_1_title_commons">Hogyhogy nem látom ezt az alkalmazásikont a kisalkalmazások listáján?</string>
+  <string name="faq_1_text_commons">Valószínűleg azért, mert áthelyezte az alkalmazást egy SD kártyára. Ez Android rendszerkorlátozás, amely ebben az esetben elrejti az adott 
+        alkalmazások ikonját. Az egyetlen megoldás az alkalmazás visszahelyezése a belső tárhelyre az készülék beállításaiban.</string>
+  <string name="faq_2_title_commons">Szeretném támogatni a munkátokat, de nincs pénzem. Segíthetek bármi más módon?</string>
+  <string name="faq_2_text_commons">Igen, természetesen. Beszélhet ismerőseinek az alkalmazásról vagy küldhet pozitív visszajelzést, értékelést. Szintén segíthet a fordításban, hogy új nyelv kerülhessen az alkalmazásba, vagy csak a meglévő fordítás frissítésében.
+        Az útmutató megtalálható a https://github.com/SimpleMobileTools/General-Discussion oldalon, vagy küldjön egy üzenetet a hello@simplemobiletools.com címre, ha segítségre van szüksége.</string>
+  <string name="faq_3_title_commons">Véletlenül töröltem fájlokat, hogyan szerezhetem vissza őket?</string>
+  <string name="faq_3_text_commons">Sajnáljuk, sehogy. A fájlok a megerősítés után azonnal törlődnek, nem áll Lomtár a rendelkezésére.</string>
+  <string name="faq_4_title_commons">Nem tetszik a kisalkalmazások színek, meg tudom változtatni őket?</string>
+  <string name="faq_4_text_commons">Igen, csak húzza a kisalkalmazást a főképernyőre, hogy a beállítási kép megjelenjen. Kis négyzeteket fog látni a bal alsó sarokban, csak nyomja meg őket az új szín kiválasztásához. Az átlátszóság állításához a csúszkát használhatja.</string>
+  <string name="faq_5_title_commons">Valahogyan visszaállíthatom a törölt fájlokat?</string>
+  <string name="faq_5_text_commons">Ha végleges törlésre kerültek, akkor nem. Azonban engedélyezheti a végleges törlés helyett a Lomtárat az alkalmazásbeállításokban. Ez ideiglenes tárba helyezi a fájlokat a végleges törlés helyett.</string>
   <!-- License -->
   <string name="notice">Ez az alkalmazás az alábbi könyvtárakat használja, hogy a munkám egyszerűbb legyen. Köszönöm szépen.</string>
-  <string name="third_party_licences">Harmadik fél licenszek</string>
+  <string name="third_party_licences">Harmadik fél licencei</string>
   <string name="kotlin_title">Kotlin (programozási nyelv)</string>
+  <string name="subsampling_title">Subsampling Scale Image View (nagyítható képnézetek)</string>
+  <string name="glide_title">Glide (képbetöltés és gyorsítótárazás)</string>
+  <string name="picasso_title">Picasso (képbetöltés és gyorsítótárazás)</string>
+  <string name="cropper_title">Android Image Cropper (képvágás és forgatás)</string>
+  <string name="multiselect_title">RecyclerView MultiSelect (több listaelem kiválasztása)</string>
+  <string name="rtl_viewpager_title">RtlViewPager (jobb és bal csúsztatás)</string>
   <string name="joda_title">Joda-Time (Java dátum helyettesítérére)</string>
   <string name="stetho_title">Stetho (adatbázisok hibakeresésére)</string>
+  <string name="otto_title">Otto (eseménysín)</string>
+  <string name="photoview_title">PhotoView (nagyítható GIF-ek)</string>
+  <string name="pattern_title">PatternLockView (védelmi minta)</string>
+  <string name="reprint_title">Reprint (ujjlenyomatos védelem)</string>
+  <string name="gif_drawable_title">Gif Drawable (GIF-ek betöltése)</string>
+  <string name="autofittextview_title">AutoFitTextView (szövegméretezés)</string>
+  <string name="robolectric_title">Robolectric (framework tesztelés)</string>
+  <string name="espresso_title">Espresso (tesztelés-segítő)</string>
+  <string name="gson_title">Gson (JSON elemző)</string>
+  <string name="leak_canary_title">Leak Canary (memóriaszivárgás-érzékelő)</string>
+  <string name="number_picker_title">Number Picker (testreszabható számválasztó)</string>
+  <string name="exoplayer_title">ExoPlayer (videólejátszó)</string>
+  <string name="panorama_view_title">VR Panorama VIew (panoráma-megjelenítés)</string>
+  <string name="sanselan_title">Apache Sanselan (kép metaadatolvasás)</string>
+  <string name="filters_title">Android Fényképszűrők (képszűrők)</string>
 </resources>

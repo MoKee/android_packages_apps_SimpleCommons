@@ -77,14 +77,24 @@
   <string name="seconds_raw">ثوانٍ</string>
   <string name="minutes_raw">دقائق</string>
   <string name="hours_raw">ساعات</string>
+  <string name="days_raw">أيام</string>
   <!-- For example: I will be there in 5 minutes -->
   <!-- For example: Event reminder: 3 minutes before -->
   <!-- For example: Postpone reminder by 3 minutes -->
   <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
+  <string name="alarm_warning">يرجى التأكد من أن التنبيه يعمل بشكل صحيح قبل الاعتماد عليه. يمكن أن يسيء التصرف بسبب قيود النظام المتعلقة بتوفير البطارية.</string>
+  <string name="reminder_warning">يرجى التأكد من أن التنبيه يعمل بشكل صحيح قبل الاعتماد عليه. يمكن أن يسيء التصرف بسبب قيود النظام المتعلقة بتوفير البطارية.</string>
+  <string name="notifications_disabled">يتم تعطيل الإشعارات من هذا التطبيق. الرجاء الذهاب إلى إعدادات الجهاز لتمكينها.</string>
   <!-- Alarms -->
   <string name="alarm">المنبّه</string>
   <string name="snooze">غفوة</string>
   <string name="dismiss">تجاهل</string>
+  <string name="no_reminder">لا تذكير</string>
+  <string name="at_start">عند البدء</string>
+  <string name="system_sounds">أصوات النظام</string>
+  <string name="your_sounds">الأصوات الخاصة بك</string>
+  <string name="add_new_sound">إضافة صوت جديد</string>
+  <string name="no_sound">لا يوجد صوت</string>
   <!-- Settings -->
   <string name="settings">الإعدادات</string>
   <string name="small">صغير</string>
@@ -96,6 +106,14 @@
   <string name="text">نص</string>
   <!-- Recycle Bin -->
   <!-- Import / Export -->
+  <string name="importing">جار الاستيراد…</string>
+  <string name="exporting">جاري التصدير…</string>
+  <string name="importing_successful">تم الاستيراد بنجاح</string>
+  <string name="exporting_successful">تم التصدير بنجاح</string>
+  <string name="importing_failed">فشل الاستيراد</string>
+  <string name="exporting_failed">فشل التصدير</string>
+  <string name="importing_some_entries_failed">فشل في استيراد بعض الأدخالات</string>
+  <string name="exporting_some_entries_failed">فشل في تصدير بعض الأدخالات</string>
   <!-- OTG devices -->
   <!-- Dates -->
   <!-- in January -->
@@ -105,11 +123,29 @@
   <string name="wednesday_letter">غرب</string>
   <string name="saturday_letter">جنوب</string>
   <string name="sunday_letter">جنوب</string>
+  <string name="tuesday_short">ثلا</string>
+  <string name="wednesday_short">أرب</string>
+  <string name="thursday_short">خمي</string>
+  <string name="friday_short">جمع</string>
+  <string name="saturday_short">سبت</string>
+  <string name="sunday_short">أحد</string>
   <!-- About -->
   <string name="about">حول</string>
+  <string name="website_label">للحصول على رموز المصدر زيارة</string>
+  <string name="email_label">أرسل تعليقات أو اقتراحات إلى</string>
+  <string name="more_apps_underlined"><u>تطبيقات أكثر</u></string>
+  <string name="third_party_licences_underlined"><u>تراخيص الطرف الثالث</u></string>
+  <string name="invite_friends_underlined"><u>دعوة الأصدقاء</u></string>
+  <string name="share_text">مرحبًا ، تحقق من %1$s في%2$s</string>
+  <string name="invite_via">دعوة عبر</string>
+  <string name="rate_us_underlined"><u>قيّمنا</u></string>
   <string name="donate">تبرع</string>
+  <string name="donate_underlined"><u>التبرع</u></string>
+  <string name="follow_us">تابعونا</string>
   <string name="purchase">الشراء</string>
   <!-- New app (do not translate anything on the 4th line) -->
   <!-- FAQ -->
   <!-- License -->
+  <string name="pattern_title">عرض قفل النمط (حماية النمط)</string>
+  <string name="reprint_title">الطبع (حماية بصمات الأصابع)</string>
 </resources>
