@@ -3,49 +3,188 @@
 <resources>
   <string name="ok">تم</string>
   <string name="cancel">إلغاء</string>
+  <string name="save_as">حفظ كـ</string>
+  <string name="file_saved">تم حفظ الملف بنجاح</string>
+  <string name="invalid_file_format">تنسيق ملف غير صالح</string>
+  <string name="out_of_memory_error">خطأ عدم وجود ذاكرة كافية</string>
+  <string name="an_error_occurred">حدث خطأ ما: %s</string>
+  <string name="open_with">فتح باستخدام</string>
+  <string name="no_app_found">لم يتم العثور على تطبيق صالح</string>
   <string name="set_as">تعيين كـ</string>
+  <string name="value_copied_to_clipboard">تم نسخ القيمة إلى الحافظة</string>
   <string name="unknown">غير معروف</string>
   <string name="always">دائماً</string>
   <string name="never">أبداً</string>
   <string name="details">التفاصيل</string>
+  <string name="notes">الملاحظات</string>
+  <string name="deleting_folder">حذف المجلد \'%s\'</string>
   <string name="none">لا شيء</string>
   <string name="label">التسمية</string>
   <!-- Favorites -->
   <string name="favorites">المفضلة</string>
+  <string name="add_favorites">إضافة مفضلات</string>
   <string name="add_to_favorites">اضافة الى المفضلة</string>
   <string name="remove_from_favorites">حذف من المفضلة</string>
   <!-- Search -->
   <string name="search">بحث</string>
+  <string name="type_2_characters">اكتب حرفين على الأقل لبدء البحث.</string>
   <!-- Filters -->
+  <string name="filter">فلتر</string>
+  <string name="no_items_found">لم يتم العثور على أي عنصر.</string>
+  <string name="change_filter">تغيير الفلتر</string>
   <!-- Permissions -->
+  <string name="no_storage_permissions">الإذن مطلوب للتخزين</string>
+  <string name="no_contacts_permission">مطلوب إذن جهات الاتصال</string>
+  <string name="no_camera_permissions">إذن الكاميرا مطلوب</string>
+  <string name="no_audio_permissions">مطلوب إذن الصوت</string>
   <!-- Renaming -->
+  <string name="rename_file">إعادة تسمية الملف</string>
+  <string name="rename_folder">إعادة تسمية المجلد</string>
+  <string name="rename_file_error">لا يمكن اعادة تسمية الملف</string>
+  <string name="rename_folder_error">لا يمكن اعادة تسمية المجلد</string>
+  <string name="rename_folder_empty">لا يمكن أن يكون اسم المجلد فارغ</string>
+  <string name="rename_folder_exists">مجلد بنفس الاسم موجود مسبقاً</string>
+  <string name="rename_folder_root">لا يمكن إعادة تسمية المجلد الرئيسي للتخزين</string>
+  <string name="rename_folder_ok">تمت إعادة تسمية المجلد بنجاح</string>
+  <string name="renaming_folder">إعادة تسمية المجلد...</string>
+  <string name="filename_cannot_be_empty">لا يمكن أن يكون اسم الملف فارغ</string>
+  <string name="filename_invalid_characters">يحتوي اسم الملف على حروف غير صالحة</string>
+  <string name="filename_invalid_characters_placeholder">اسم الملف \'%s\' يحتوي على حروف غير صالحة</string>
+  <string name="extension_cannot_be_empty">لا يمكن أن يكون الامتداد فارغاً</string>
+  <string name="source_file_doesnt_exist">ملف المصدر %s غير موجود</string>
   <!-- Copy / Move -->
+  <string name="copy">نسخ</string>
+  <string name="move">نقل</string>
+  <string name="copy_move">نسخ/نقل</string>
+  <string name="copy_to">نسخ إلى</string>
+  <string name="move_to">نقل إلى</string>
+  <string name="source">المصدر</string>
+  <string name="destination">الوجهة</string>
+  <string name="select_destination">تحديد الوجهة</string>
+  <string name="click_select_destination">انقر هنا لتحديد الوجهة</string>
+  <string name="invalid_destination">لا يمكن الكتابة إلى الوجهة المحددة</string>
+  <string name="please_select_destination">الرجاء تحديد الوجهة</string>
+  <string name="source_and_destination_same">المصدر والوجهة لا يمكن أن تكون هي نفسها</string>
+  <string name="copy_failed">لا يمكن نسخ الملفات</string>
+  <string name="copying">جارٍ النسخ…</string>
+  <string name="copying_success">تم نسخ الملفات بنجاح</string>
+  <string name="copy_move_failed">حدث خطأ ما</string>
+  <string name="moving">النقل…</string>
+  <string name="moving_success">تم نقل الملفات بنجاح</string>
+  <string name="moving_success_partial">بعض الملفات لا يمكن نقلها</string>
+  <string name="copying_success_partial">بعض الملفات لا يمكن نسخها</string>
+  <string name="no_files_selected">لم يتم إختيار أي ملف</string>
+  <string name="saving">حفظ…</string>
+  <string name="could_not_create_folder">لا يمكن انشاء مجلد %s</string>
+  <string name="could_not_create_file">لا يمكن انشاء ملف %s</string>
   <!-- Create new -->
+  <string name="create_new">إنشاء جديد</string>
   <string name="folder">مجلد</string>
+  <string name="file">ملف</string>
+  <string name="create_new_folder">إنشاء مجلد جديد</string>
+  <string name="name_taken">ملف أو مجلد بهذا الاسم موجود مسبقاً</string>
+  <string name="invalid_name">الاسم يحتوي على أحرف غير صالحة</string>
+  <string name="empty_name">الرجاء ادخال اسم</string>
+  <string name="unknown_error_occurred">حدث خطأ غير معروف</string>
   <!-- File operation conflicts -->
+  <string name="file_already_exists">ملف \"%s\" موجود بالفعل</string>
+  <string name="file_already_exists_overwrite">ملف \"%s\" موجود بالفعل. هل تريد الاستبدال؟</string>
+  <string name="folder_already_exists">مجلد \"%s\" موجود بالفعل</string>
+  <string name="merge">دمج</string>
+  <string name="overwrite">إستبدال</string>
   <string name="skip">تخطي</string>
+  <string name="append">إلحاق مع \'_1\'</string>
+  <string name="apply_to_all">تطبيق على الكل</string>
   <!-- File picker -->
+  <string name="select_folder">إختر مجلد</string>
+  <string name="select_file">إختر ملف</string>
+  <string name="confirm_storage_access_title">تأكيد الوصول إلى وحدة التخزين الخارجية</string>
+  <string name="confirm_storage_access_text">الرجاء اختيار المجلد الجذر لجهاز OTG على الشاشة التالية، لمنح حق الوصول</string>
+  <string name="confirm_storage_access_text_sd">إذا كنت لا ترى بطاقة SD، جرب هذا</string>
+  <string name="confirm_selection">تأكيد الاختيار</string>
+  <plurals name="items">
+    <item quantity="zero">العناصر %d</item>
+    <item quantity="one">عنصر %d</item>
+    <item quantity="two">العناصر %d</item>
+    <item quantity="few">العناصر %d</item>
+    <item quantity="many">العناصر %d</item>
+    <item quantity="other">العناصر %d</item>
+  </plurals>
   <!-- Are you sure you want to delete 5 items? -->
+  <plurals name="delete_items">
+    <item quantity="zero">العناصر %d</item>
+    <item quantity="one">عنصر %d</item>
+    <item quantity="two">العناصر %d</item>
+    <item quantity="few">العناصر %d</item>
+    <item quantity="many">العناصر %d</item>
+    <item quantity="other">العناصر %d</item>
+  </plurals>
+  <plurals name="deleting_items">
+    <item quantity="zero">حذف %d عناصر</item>
+    <item quantity="one">حذف %d عنصر</item>
+    <item quantity="two">حذف %d عناصر</item>
+    <item quantity="few">حذف %d عناصر</item>
+    <item quantity="many">حذف %d عناصر</item>
+    <item quantity="other">حذف %d عناصر</item>
+  </plurals>
   <!-- Storages -->
+  <string name="select_storage">حدد وحدة التخزين</string>
+  <string name="internal">الداخلية</string>
   <string name="sd_card">بطاقة SD</string>
+  <string name="root">الجذر</string>
+  <string name="wrong_root_selected">تم اختيار مجلد خاطئ ، يرجى تحديد المجلد الجذر لجهاز OTG الخاص بك</string>
+  <string name="sd_card_otg_same">لا يمكن أن تكون مسارات بطاقة SD و OTG هي نفسها</string>
+  <string name="app_on_sd_card">يبدو أنك تمتلك التطبيق مثبتًا على بطاقة SD ، مما يجعل أدوات التطبيق غير متاحة. حتى أنك لن تراهم في قائمة الأدوات المتاحة.
+        إنه قيد على النظام ، لذا إذا كنت تريد استخدام الأدوات ، يجب عليك إعادة تشغيل التطبيق على وحدة التخزين الداخلية.</string>
   <!-- File properties -->
+  <string name="properties">خصائص</string>
   <string name="path">المسار</string>
+  <string name="items_selected">العناصر المحددة</string>
+  <string name="direct_children_count">عدد الأطفال المباشر</string>
+  <string name="files_count">عدد الملفات الكلي</string>
+  <string name="resolution">الأبعاد</string>
   <string name="duration">المدة</string>
   <string name="artist">الفنان</string>
   <string name="album">الألبوم</string>
+  <string name="focal_length">البعد البؤري</string>
   <string name="exposure_time">مدة التعرض للضوء</string>
+  <string name="iso_speed">سرعة ISO</string>
+  <string name="f_number">العدد-F</string>
   <string name="camera">الكاميرا</string>
+  <string name="exif">EXIF</string>
+  <string name="song_title">عنوان الأغنية</string>
   <!-- Color customization -->
+  <string name="background_color">لون الخلفية</string>
+  <string name="text_color">لون النص</string>
   <string name="primary_color">اللون الأساسي</string>
+  <string name="foreground_color">لون الواجهة</string>
+  <string name="app_icon_color">لون رمز التطبيق</string>
   <string name="restore_defaults">إستعادة الإفتراضيات</string>
+  <string name="change_color">تغيير اللون</string>
   <string name="theme">السمة</string>
+  <string name="changing_color_description">سيؤدي تغيير اللون إلى الانتقال إلى المظهر المخصص</string>
   <string name="save">حفظ</string>
   <string name="discard">استبعاد</string>
+  <string name="undo_changes">التراجع عن التغييرات</string>
+  <string name="undo_changes_confirmation">هل أنت متأكد من أنك تريد التراجع عن تغييراتك؟</string>
+  <string name="save_before_closing">لديك تغييرات لم تحفظ. حفظ قبل الخروج؟</string>
+  <string name="apply_to_all_apps">تطبيق الألوان على جميع التطبيقات البسيطة</string>
+  <string name="share_colors_success">تم تحديث الألوان بنجاح. تمت إضافة سمة جديدة تسمى \"Shared\" ، يرجى استخدام ذلك لتحديث كل ألوان التطبيقات في المستقبل.</string>
+  <string name="purchase_thank_you">
+<![CDATA[
+            الرجاء شراء <a href="https://play.google.com/store/apps/details؟id=com.simplemobiletools.thankyou"> Simple Thank You </a> لإلغاء قفل هذه الوظيفة ودعم التطوير. شكر!
+        ]]>    </string>
   <!-- Themes -->
   <string name="light_theme">فاتح</string>
   <string name="dark_theme">داكن</string>
+  <string name="solarized">تفتيح</string>
+  <string name="dark_red">أحمر داكن</string>
+  <string name="black_white">أسود وأبيض</string>
   <string name="custom">تخصيص</string>
+  <string name="shared">مشترك</string>
   <!-- What's new -->
+  <string name="whats_new">ما الجديد</string>
+  <string name="whats_new_disclaimer">* يتم فقط سرد التحديثات الكبرى هنا ، وهناك دائماً بعض التحسينات ألاصغر أيضاً</string>
   <!-- Actionbar items -->
   <string name="delete">حذف</string>
   <string name="remove">إزالة</string>
@@ -53,35 +192,216 @@
   <string name="share">مشاركة</string>
   <string name="share_via">مشاركة عبر</string>
   <string name="select_all">تحديد الكل</string>
+  <string name="hide">إخفاء</string>
+  <string name="unhide">إظهار</string>
+  <string name="hide_folder">إخفاء مجلد</string>
+  <string name="unhide_folder">إظهار المجلد</string>
+  <string name="temporarily_show_hidden">عرض المخفي مؤقتاً</string>
+  <string name="stop_showing_hidden">إيقاف إظهار الوسائط المخفية</string>
+  <string name="maximum_share_reached">لا يمكنك مشاركة الكثير من المحتوى في وقت واحد</string>
+  <string name="empty_and_disable_recycle_bin">إفراغ وتعطيل \"سلة المحذوفات\"</string>
   <string name="undo">تراجع</string>
   <string name="redo">إعادة</string>
   <!-- Sorting -->
+  <string name="sort_by">الفرز حسب</string>
   <string name="name">الإسم:</string>
   <string name="size">الحجم</string>
   <string name="last_modified">آخر تعديل</string>
   <string name="date_taken">تاريخ الالتقاط</string>
   <string name="title">العنوان</string>
+  <string name="filename">اسم الملف</string>
   <string name="extension">الإضافة</string>
   <string name="ascending">تصاعدي</string>
   <string name="descending">تنازلي</string>
+  <string name="use_for_this_folder">إستخدم لهذا المجلد فقط</string>
   <!-- Confirmation dialog -->
+  <string name="proceed_with_deletion">هل أنت متأكد من أنك تريد متابعة الحذف؟</string>
+  <string name="deletion_confirmation">هل أنت متأكد أنك تريد حذف %s؟</string>
   <!-- Are you sure you want to delete 5 items? -->
+  <string name="move_to_recycle_bin_confirmation">هل أنت متأكد من أنك تريد نقل %s إلى سلة المحذوفات؟</string>
   <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
+  <string name="are_you_sure_delete">هل أنت متأكد أنك تريد حذف هذه العنصر؟</string>
   <string name="are_you_sure_recycle_bin">Are you sure you want to move this item in the Recycle Bin?</string>
+  <string name="do_not_ask_again">لا تسأل مرة أخرى في هذه الجلسة</string>
   <string name="yes">نعم</string>
   <string name="no">لا</string>
+  <plurals name="delete_warning">
+    <item quantity="zero">تحذير: يتم حذف %d مجلدات</item>
+    <item quantity="one">تحذير: يتم حذف %d مجلد</item>
+    <item quantity="two">تحذير: يتم حذف %d مجلدات</item>
+    <item quantity="few">تحذير: يتم حذف %d مجلدات</item>
+    <item quantity="many">تحذير: يتم حذف %d مجلدات</item>
+    <item quantity="other">تحذير: يتم حذف %d مجلدات</item>
+  </plurals>
   <!-- Password protection -->
+  <string name="pin">‏رمز PIN</string>
+  <string name="enter_pin">‏أدخل رمز PIN</string>
+  <string name="please_enter_pin">الرجاء إدخال رقم PIN</string>
+  <string name="wrong_pin">رقم PIN خاطئ</string>
+  <string name="repeat_pin">تكرار رقم PIN</string>
+  <string name="pattern">النمط</string>
+  <string name="insert_pattern">إدراج نمط</string>
+  <string name="wrong_pattern">نمط غير صحيح</string>
+  <string name="repeat_pattern">تكرار النمط</string>
+  <string name="fingerprint">بصمة الاصبع</string>
+  <string name="add_fingerprint">إضافة بصمة إصبع</string>
+  <string name="place_finger">يرجى وضع الإصبع على جهاز استشعار بصمات الأصابع</string>
+  <string name="authentication_failed">المصادقة فشلت</string>
+  <string name="authentication_blocked">تم منع المصادقة ، يرجى المحاولة مرة أخرى بعد قليل</string>
+  <string name="no_fingerprints_registered">ليس لديك أي بصمات أصابع مسجلة ، يرجى إضافة بعض منها في إعدادات جهازك</string>
+  <string name="go_to_settings">اذهب للإعدادات</string>
+  <string name="protection_setup_successfully">تم إعداد كلمة المرور بنجاح. يرجى إعادة تثبيت التطبيق في حالة نسيانه.</string>
+  <string name="fingerprint_setup_successfully">إعداد الحماية تم بنجاح. يرجى إعادة تثبيت التطبيق في حالة حدوث مشاكل في إعادة تعيينه.</string>
   <!-- Times -->
+  <string name="yesterday">البارحة</string>
   <string name="today">اليوم</string>
   <string name="tomorrow">غدًا</string>
   <string name="seconds_raw">ثوانٍ</string>
   <string name="minutes_raw">دقائق</string>
   <string name="hours_raw">ساعات</string>
   <string name="days_raw">أيام</string>
+  <plurals name="seconds">
+    <item quantity="zero">‏%d ثوانٍ</item>
+    <item quantity="one">%d ثانية</item>
+    <item quantity="two">%d ثوانٍ</item>
+    <item quantity="few">%d ثوانٍ</item>
+    <item quantity="many">%d ثوانٍ</item>
+    <item quantity="other">%d ثوانٍ</item>
+  </plurals>
+  <plurals name="minutes">
+    <item quantity="zero">%d دقائق</item>
+    <item quantity="one">%d دقيقة</item>
+    <item quantity="two">%d دقائق</item>
+    <item quantity="few">%d دقائق</item>
+    <item quantity="many">%d دقائق</item>
+    <item quantity="other">%d دقائق</item>
+  </plurals>
+  <plurals name="hours">
+    <item quantity="zero">%d ساعات</item>
+    <item quantity="one">%d ساعة</item>
+    <item quantity="two">%d ساعات</item>
+    <item quantity="few">%d ساعات</item>
+    <item quantity="many">%d ساعات</item>
+    <item quantity="other">%d ساعات</item>
+  </plurals>
+  <plurals name="days">
+    <item quantity="zero">%d أيام</item>
+    <item quantity="one">%d يوم</item>
+    <item quantity="two">%d أيام</item>
+    <item quantity="few">%d أيام</item>
+    <item quantity="many">%d أيام</item>
+    <item quantity="other">%d أيام</item>
+  </plurals>
+  <plurals name="weeks">
+    <item quantity="zero">%d أسابيع</item>
+    <item quantity="one">%d أسبوع</item>
+    <item quantity="two">%d أسابيع</item>
+    <item quantity="few">%d أسابيع</item>
+    <item quantity="many">%d أسابيع</item>
+    <item quantity="other">%d أسابيع</item>
+  </plurals>
+  <plurals name="months">
+    <item quantity="zero">%d أشهر</item>
+    <item quantity="one">%d أشهر</item>
+    <item quantity="two">%d أشهر</item>
+    <item quantity="few">%d أشهر</item>
+    <item quantity="many">%d أشهر</item>
+    <item quantity="other">%d أشهر</item>
+  </plurals>
+  <plurals name="years">
+    <item quantity="zero">%d سنوات</item>
+    <item quantity="one">%d سنة</item>
+    <item quantity="two">%d سنوات</item>
+    <item quantity="few">%d سنوات</item>
+    <item quantity="many">%d سنوات</item>
+    <item quantity="other">%d سنوات</item>
+  </plurals>
   <!-- For example: I will be there in 5 minutes -->
+  <plurals name="in_seconds">
+    <item quantity="zero">‏%d ثانية</item>
+    <item quantity="one">%d ثانية</item>
+    <item quantity="two">%d ثواني</item>
+    <item quantity="few">%d ثواني</item>
+    <item quantity="many">%d ثواني</item>
+    <item quantity="other">%d ثواني</item>
+  </plurals>
+  <plurals name="in_minutes">
+    <item quantity="zero">%d دقيقة</item>
+    <item quantity="one">%d دقيقة</item>
+    <item quantity="two">%d دقائق</item>
+    <item quantity="few">%d دقائق</item>
+    <item quantity="many">%d دقائق</item>
+    <item quantity="other">%d دقائق</item>
+  </plurals>
+  <plurals name="in_hours">
+    <item quantity="zero">%d ساعة</item>
+    <item quantity="one">%d ساعة</item>
+    <item quantity="two">%d ساعات</item>
+    <item quantity="few">%d ساعات</item>
+    <item quantity="many">%d ساعات</item>
+    <item quantity="other">%d ساعات</item>
+  </plurals>
   <!-- For example: Event reminder: 3 minutes before -->
+  <plurals name="seconds_before">
+    <item quantity="zero">قبل %d ثوانٍ</item>
+    <item quantity="one">قبل %d ثانية</item>
+    <item quantity="two">قبل %d ثوانٍ</item>
+    <item quantity="few">قبل %d ثوانٍ</item>
+    <item quantity="many">قبل %d ثوانٍ</item>
+    <item quantity="other">قبل %d ثوانٍ</item>
+  </plurals>
+  <plurals name="minutes_before">
+    <item quantity="zero">منذ %d دقائق</item>
+    <item quantity="one">منذ %d دقيقة</item>
+    <item quantity="two">منذ %d دقائق</item>
+    <item quantity="few">منذ %d دقائق</item>
+    <item quantity="many">منذ %d دقائق</item>
+    <item quantity="other">منذ %d دقائق</item>
+  </plurals>
+  <plurals name="hours_before">
+    <item quantity="zero">قبل %d ساعات</item>
+    <item quantity="one">قبل %d ساعة</item>
+    <item quantity="two">قبل %d ساعات</item>
+    <item quantity="few">قبل %d ساعات</item>
+    <item quantity="many">قبل %d ساعات</item>
+    <item quantity="other">قبل %d ساعات</item>
+  </plurals>
+  <plurals name="days_before">
+    <item quantity="zero">قبل %d أيام</item>
+    <item quantity="one">قبل %d يوم</item>
+    <item quantity="two">قبل %d أيام</item>
+    <item quantity="few">قبل %d أيام</item>
+    <item quantity="many">قبل %d أيام</item>
+    <item quantity="other">قبل %d أيام</item>
+  </plurals>
   <!-- For example: Postpone reminder by 3 minutes -->
+  <plurals name="by_seconds">
+    <item quantity="zero">%d ثوان</item>
+    <item quantity="one">%d ثانية</item>
+    <item quantity="two">%d ثوان</item>
+    <item quantity="few">%d ثوان</item>
+    <item quantity="many">%d ثوان</item>
+    <item quantity="other">%d ثوان</item>
+  </plurals>
+  <plurals name="by_minutes">
+    <item quantity="zero">%d دقائق</item>
+    <item quantity="one">%d دقيقة</item>
+    <item quantity="two">%d دقائق</item>
+    <item quantity="few">%d دقائق</item>
+    <item quantity="many">%d دقائق</item>
+    <item quantity="other">%d دقائق</item>
+  </plurals>
+  <plurals name="by_hours">
+    <item quantity="zero">%d ساعات</item>
+    <item quantity="one">%d ساعة</item>
+    <item quantity="two">%d ساعات</item>
+    <item quantity="few">%d ساعات</item>
+    <item quantity="many">%d ساعات</item>
+    <item quantity="other">%d ساعات</item>
+  </plurals>
   <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
+  <string name="alarm_goes_off_in">الوقت المتبقي حتى توقف المنبه:\n%s</string>
+  <string name="reminder_triggers_in">الوقت المتبقي حتى يتم تشغيل التذكير:\n%s</string>
   <string name="alarm_warning">يرجى التأكد من أن التنبيه يعمل بشكل صحيح قبل الاعتماد عليه. يمكن أن يسيء التصرف بسبب قيود النظام المتعلقة بتوفير البطارية.</string>
   <string name="reminder_warning">يرجى التأكد من أن التنبيه يعمل بشكل صحيح قبل الاعتماد عليه. يمكن أن يسيء التصرف بسبب قيود النظام المتعلقة بتوفير البطارية.</string>
   <string name="notifications_disabled">يتم تعطيل الإشعارات من هذا التطبيق. الرجاء الذهاب إلى إعدادات الجهاز لتمكينها.</string>
@@ -97,14 +417,59 @@
   <string name="no_sound">لا يوجد صوت</string>
   <!-- Settings -->
   <string name="settings">الإعدادات</string>
+  <string name="purchase_simple_thank_you">شراء بسيط شكرا لك</string>
+  <string name="customize_colors">تخصيص الألوان</string>
+  <string name="customize_widget_colors">تخصيص ألوان أداة الشاشة</string>
+  <string name="use_english_language">استخدام اللغة الإنجليزية</string>
+  <string name="avoid_whats_new">تجنب عرض ما هو جديد عند بدء التشغيل</string>
+  <string name="show_hidden_items">إظهار العناصر المخفية</string>
+  <string name="font_size">حجم الخط</string>
   <string name="small">صغير</string>
   <string name="medium">متوسط</string>
   <string name="large">كبير</string>
+  <string name="extra_large">كبير جداً</string>
+  <string name="password_protect_hidden_items">كلمة مرور لحماية رؤية العنصر المخفي</string>
+  <string name="password_protect_whole_app">كلمة مرور لحماية التطبيق بالكامل</string>
+  <string name="keep_last_modified">احتفظ بالقيمة القديمة المعدلة عند نسخ/نقل/إعادة تسمية الملف</string>
+  <string name="show_info_bubble">عرض فقاعة معلومات في عناصر التمرير بسحب شريط التمرير</string>
+  <string name="prevent_phone_from_sleeping">منع الهاتف من النوم بينما يكون التطبيق في المقدمة</string>
+  <string name="skip_delete_confirmation">دائماً تخطي مربع حوار تأكيد الحذف</string>
+  <string name="enable_pull_to_refresh">تمكين السحب للتحديث من الأعلى</string>
+  <string name="use_24_hour_time_format">استخدم تنسيق 24 ساعة</string>
+  <string name="sunday_first">ابدأ الأسبوع في يوم الأحد</string>
   <string name="widgets">الأدوات</string>
+  <string name="use_same_snooze">استخدم وقت الغفوة نفسه دائماً</string>
+  <string name="snooze_time">وقت الغفوة</string>
+  <string name="vibrate_on_button_press">إهتزاز عند الضغط على الزر</string>
+  <string name="move_items_into_recycle_bin">نقل العناصر إلى \"سلة المحذوفات\" بدلاً من حذفها</string>
+  <string name="recycle_bin_cleaning_interval">الفاصل الزمني لتنظيف سلة المحذوفات</string>
+  <string name="empty_recycle_bin">إفراغ سلة المحذوفات</string>
+  <string name="force_portrait_mode">فرض العرض العمودي</string>
   <!-- Setting sections -->
   <string name="visibility">وضوح الرؤية</string>
+  <string name="security">الحماية</string>
+  <string name="scrolling">التمرير</string>
+  <string name="file_operations">عمليات الملف</string>
+  <string name="recycle_bin">سلة المحذوفات</string>
+  <string name="saving_label">الحفظ...</string>
+  <string name="startup">بدء التشغيل</string>
   <string name="text">نص</string>
   <!-- Recycle Bin -->
+  <string name="restore_this_file">استعادة هذا الملف</string>
+  <string name="restore_selected_files">استعادة الملفات المحددة</string>
+  <string name="restore_all_files">استعادة كافة الملفات</string>
+  <string name="recycle_bin_emptied">تم إفراغ \"سلة المحذوفات\" بنجاح</string>
+  <string name="files_restored_successfully">تمت استعادة الملفات بنجاح</string>
+  <string name="empty_recycle_bin_confirmation">هل أنت متأكد من أنك تريد إفراغ \"سلة المحذوفات\"؟ سوف تفقد الملفات بشكل دائم.</string>
+  <string name="recycle_bin_empty">سلة المحذوفات فارغة</string>
+  <plurals name="moving_items_into_bin">
+    <item quantity="zero">نقل %d عناصر إلى \"سلة المحذوفات\"</item>
+    <item quantity="one">نقل %d عنصر إلى \"سلة المحذوفات\"</item>
+    <item quantity="two">نقل %d عناصر إلى \"سلة المحذوفات\"</item>
+    <item quantity="few">نقل %d عناصر إلى \"سلة المحذوفات\"</item>
+    <item quantity="many">نقل %d عناصر إلى \"سلة المحذوفات\"</item>
+    <item quantity="other">نقل %d عناصر إلى \"سلة المحذوفات\"</item>
+  </plurals>
   <!-- Import / Export -->
   <string name="importing">جار الاستيراد…</string>
   <string name="exporting">جاري التصدير…</string>
@@ -114,15 +479,52 @@
   <string name="exporting_failed">فشل التصدير</string>
   <string name="importing_some_entries_failed">فشل في استيراد بعض الأدخالات</string>
   <string name="exporting_some_entries_failed">فشل في تصدير بعض الأدخالات</string>
+  <string name="no_entries_for_exporting">لم يتم العثور على إدخالات للتصدير</string>
   <!-- OTG devices -->
+  <string name="otg">OTG</string>
+  <string name="confirm_otg_storage_access_text">الرجاء اختيار المجلد الجذر لجهاز OTG على الشاشة التالية، لمنح حق الوصول</string>
+  <string name="wrong_root_selected_otg">تم اختيار مجلد خاطئ ، يرجى تحديد المجلد الجذر لجهاز OTG الخاص بك</string>
   <!-- Dates -->
+  <string name="january">كانون الثاني</string>
+  <string name="february">شباط</string>
+  <string name="march">آذار</string>
+  <string name="april">نيسان</string>
+  <string name="may">أيار</string>
+  <string name="june">حزيران</string>
+  <string name="july">تموز</string>
+  <string name="august">آب</string>
+  <string name="september">أيلول</string>
+  <string name="october">تشرين الأول</string>
+  <string name="november">تشرين الثاني</string>
+  <string name="december">كانون الأول</string>
   <!-- in January -->
+  <string name="in_january">في كانون الثاني</string>
+  <string name="in_february">في شباط</string>
+  <string name="in_march">في أذار</string>
+  <string name="in_april">في نيسان</string>
+  <string name="in_may">في أيار</string>
+  <string name="in_june">في حزيران</string>
+  <string name="in_july">في تموز</string>
+  <string name="in_august">في أغسطس</string>
+  <string name="in_september">في سبتمبر</string>
+  <string name="in_october">في اكتوبر</string>
+  <string name="in_november">في نوفمبر</string>
+  <string name="in_december">في ديسمبر</string>
   <string name="monday">الاثنين</string>
+  <string name="tuesday">الثلاثاء</string>
+  <string name="wednesday">الأربعاء</string>
+  <string name="thursday">الخميس</string>
+  <string name="friday">الجمعة</string>
   <string name="saturday">السبت</string>
   <string name="sunday">الأحد</string>
+  <string name="monday_letter">إث</string>
+  <string name="tuesday_letter">ثل</string>
   <string name="wednesday_letter">غرب</string>
+  <string name="thursday_letter">أر</string>
+  <string name="friday_letter">جم</string>
   <string name="saturday_letter">جنوب</string>
   <string name="sunday_letter">جنوب</string>
+  <string name="monday_short">إث</string>
   <string name="tuesday_short">ثلا</string>
   <string name="wednesday_short">أرب</string>
   <string name="thursday_short">خمي</string>
@@ -142,10 +544,69 @@
   <string name="donate">تبرع</string>
   <string name="donate_underlined"><u>التبرع</u></string>
   <string name="follow_us">تابعونا</string>
+  <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+  <string name="additional_info">معلومات إضافية</string>
+  <string name="app_version">إصدار التطبيق: %s</string>
+  <string name="device_os">نظام تشغيل الجهاز: %s</string>
+  <string name="donate_please">
+        <![CDATA[
+            مرحبا،<br> <br>
+            آمل أن تستمتع بالتطبيق. لا يحتوي على إعلانات ، الرجاء دعم تطويره من خلال شراء تطبيق <a href="https://play.google.com/store/apps/details؟id=com.simplemobiletools.thankyou"> Simple Thank You </a> ، سيؤدي أيضًا إلى منع عرض مربع الحوار هذا مرة أخرى. <br> <br>
+            شكرا لكم!
+        ]]>    </string>
   <string name="purchase">الشراء</string>
+  <string name="update_thank_you">يرجى تحديث Simple Thank You إلى أحدث إصدار</string>
+  <string name="before_asking_question_read_faq">قبل أن تسأل سؤالاً، الرجاء قراءة \"الأسئلة المتداولة\" أولاً، ربما الحل هناك.</string>
+  <string name="read_it">اقرأها</string>
   <!-- New app (do not translate anything on the 4th line) -->
+  <string name="new_app">
+<![CDATA[
+            مهلا، <br> <br>
+            لنعلمك أنه تم إصدار تطبيق جديد مؤخراً: <br> <br>
+            <a href="%1$s">%2$s </a> <br> <br>
+            يمكنك تنزيله بالضغط على العنوان. <br> <br>
+            شكراً
+        ]]>    </string>
   <!-- FAQ -->
+  <string name="frequently_asked_questions">الأسئلة المتداولة</string>
+  <string name="before_asking_question">قبل أن تسأل سؤالاً، يرجى أولاً قراءة</string>
+  <string name="faq_1_title_commons">كيف لا أرى أداة هذه التطبيقات في قائمة الأدوات؟</string>
+  <string name="faq_1_text_commons">على الأرجح لأنك نقلت التطبيق على بطاقة SD. هناك قيود على نظام Android تعمل على إخفاء أدوات التطبيق المحددة
+        في هذه الحالة. الحل الوحيد هو إعادة التطبيق إلى التخزين الداخلي عبر إعدادات جهازك.</string>
+  <string name="faq_2_title_commons">أريد أن أدعمك ، لكن لا يمكنني التبرع بالمال. هل هناك شي اخر أستطيع عمله؟</string>
+  <string name="faq_2_text_commons">نعم بالطبع. يمكنك نشر كلمة حول التطبيقات أو إعطاء ردود فعل وتقييمات جيدة. يمكنك أيضًا المساعدة عن طريق ترجمة التطبيقات بلغة جديدة ، أو مجرد تحديث بعض الترجمات الحالية.
+        يمكنك العثور على الدليل على https://github.com/SimpleMobileTools/General-Discussion ، أو فقط أرسل لي رسالة على hello@simplemobiletools.com إذا كنت بحاجة إلى مساعدة.</string>
+  <string name="faq_3_title_commons">لقد حذفت بعض الملفات عن طريق الخطأ ، فكيف يمكنني استعادتها؟</string>
+  <string name="faq_3_text_commons">للأسف ، لا يمكنك ذلك. يتم حذف الملفات فوراً بعد مربع حوار التأكيد ، ولا يتوفر سلة مهملات.</string>
+  <string name="faq_4_title_commons">لا أحب ألوان الأدوات ، هل يمكنني تغييرها؟</string>
+  <string name="faq_4_text_commons">نعم ، عندما تقوم بسحب عنصر واجهة مستخدم على الشاشة الرئيسية ، تظهر شاشة تهيئة واجهة مستخدم. سترى مربعات ملونة في الزاوية السفلية اليسرى ، فقط اضغط عليها لاختيار لون جديد. يمكنك استخدام شريط التمرير لتعديل alpha أيضًا.</string>
+  <string name="faq_5_title_commons">هل يمكنني بطريقة ما استعادة الملفات المحذوفة؟</string>
+  <string name="faq_5_text_commons">إذا تم حذفها بالفعل ، لا يمكنك ذلك. ومع ذلك ، يمكنك تمكين استخدام \"سلة المحذوفات\" بدلاً من الحذف في إعدادات التطبيق. سيؤدي ذلك فقط إلى نقل الملفات الموجودة فيه بدلاً من حذفها.</string>
   <!-- License -->
+  <string name="notice">يستخدم هذا التطبيق مكتبات الطرف الثالث التالية لجعل حياتي أسهل. شكرا لكم.</string>
+  <string name="third_party_licences">تراخيص الطرف الثالث</string>
+  <string name="kotlin_title">كوتلين (لغة برمجة)</string>
+  <string name="subsampling_title">مقياس اختزال عرض الصورة(مشاهدات الصور القابلة للتكبير)</string>
+  <string name="glide_title">الانزلاق (تحميل الصور والتخزين المؤقت)</string>
+  <string name="picasso_title">بيكاسو (تحميل الصور والتخزين المؤقت)</string>
+  <string name="cropper_title">مقص صور اندرويد(اقتصاص الصور وتدويرها)</string>
+  <string name="multiselect_title">RecyclerView MultiSelect (اختيار عناصر قائمة متعددة)</string>
+  <string name="rtl_viewpager_title">RtlViewPager (سحب اليمين إلى اليسار)</string>
+  <string name="joda_title">Joda-Time (استبدال تاريخ جافا)</string>
+  <string name="stetho_title">Stetho (قواعد بيانات التصحيح)</string>
+  <string name="otto_title">Otto (حافلة الأحداث)</string>
+  <string name="photoview_title">PhotoView (صور GIF قابلة للتكبير)</string>
   <string name="pattern_title">عرض قفل النمط (حماية النمط)</string>
   <string name="reprint_title">الطبع (حماية بصمات الأصابع)</string>
+  <string name="gif_drawable_title">Drawable Gif (تحميل ملفات Gif)</string>
+  <string name="autofittextview_title">AutoFitTextView (تغيير حجم النص)</string>
+  <string name="robolectric_title">Robolectric (إختبار الهيئة)</string>
+  <string name="espresso_title">Espresso (أختبار المساعد)</string>
+  <string name="gson_title">Gson (محلل JSON)</string>
+  <string name="leak_canary_title">Leak Canary (كاشف تسريب الذاكرة)</string>
+  <string name="number_picker_title">Number Picker (منتقي عدد قابل للتخصيص)</string>
+  <string name="exoplayer_title">ExoPlayer (مشغل فيديو)</string>
+  <string name="panorama_view_title">VR Panorama View (عرض الاستعراضات)</string>
+  <string name="sanselan_title">Apache Sanselan (قراءة البيانات الوصفية للصورة)</string>
+  <string name="filters_title">Android Photo Filters (مرشحات الصور)</string>
 </resources>

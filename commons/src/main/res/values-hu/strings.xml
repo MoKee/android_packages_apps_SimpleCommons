@@ -128,6 +128,8 @@
   <string name="properties">Tulajdonságok</string>
   <string name="path">Elérési út</string>
   <string name="items_selected">elem kiválasztva</string>
+  <string name="direct_children_count">Közvetlen alkönyvtárak száma</string>
+  <string name="files_count">Az összes fájl száma</string>
   <string name="resolution">Felbontás</string>
   <string name="duration">Időtartam</string>
   <string name="artist">Előadó</string>
@@ -352,7 +354,7 @@
   <string name="enable_pull_to_refresh">Engedélyezi a frissítést felülről való lehúzással</string>
   <string name="use_24_hour_time_format">24-órás időformátum használata</string>
   <string name="sunday_first">Vasárnappal kezdődik a Hét</string>
-  <string name="widgets">Modulok</string>
+  <string name="widgets">Kisalkalmazások</string>
   <string name="use_same_snooze">Mindig ugyanazt az elhalasztási időt használja</string>
   <string name="snooze_time">Elhalasztás ideje</string>
   <string name="vibrate_on_button_press">Rezgés gomblenyomáskor</string>
@@ -491,7 +493,7 @@
         Az útmutató megtalálható a https://github.com/SimpleMobileTools/General-Discussion oldalon, vagy küldjön egy üzenetet a hello@simplemobiletools.com címre, ha segítségre van szüksége.</string>
   <string name="faq_3_title_commons">Véletlenül töröltem fájlokat, hogyan szerezhetem vissza őket?</string>
   <string name="faq_3_text_commons">Sajnáljuk, sehogy. A fájlok a megerősítés után azonnal törlődnek, nem áll Lomtár a rendelkezésére.</string>
-  <string name="faq_4_title_commons">Nem tetszik a kisalkalmazások színek, meg tudom változtatni őket?</string>
+  <string name="faq_4_title_commons">Nem tetszenek a kisalkalmazások színei, meg tudom változtatni őket?</string>
   <string name="faq_4_text_commons">Igen, csak húzza a kisalkalmazást a főképernyőre, hogy a beállítási kép megjelenjen. Kis négyzeteket fog látni a bal alsó sarokban, csak nyomja meg őket az új szín kiválasztásához. Az átlátszóság állításához a csúszkát használhatja.</string>
   <string name="faq_5_title_commons">Valahogyan visszaállíthatom a törölt fájlokat?</string>
   <string name="faq_5_text_commons">Ha végleges törlésre kerültek, akkor nem. Azonban engedélyezheti a végleges törlés helyett a Lomtárat az alkalmazásbeállításokban. Ez ideiglenes tárba helyezi a fájlokat a végleges törlés helyett.</string>
