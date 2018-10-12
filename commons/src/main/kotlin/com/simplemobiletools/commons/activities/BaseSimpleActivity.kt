@@ -15,6 +15,7 @@ import android.provider.DocumentsContract
 import android.support.v4.app.ActivityCompat
 import android.support.v4.util.Pair
 import android.support.v7.app.AppCompatActivity
+import android.util.Log
 import android.view.MenuItem
 import android.view.WindowManager
 import com.simplemobiletools.commons.R
@@ -348,6 +349,25 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             isAskingPermissions = true
             actionOnPermission = callback
             ActivityCompat.requestPermissions(this, arrayOf(getPermissionString(permissionId)), GENERIC_PERM_HANDLER)
+        }
+    }
+
+    fun handlePermission(permissionIds: Array<Int>, callback: (granted: Boolean) -> Unit) {
+        actionOnPermission = null
+        var requestPermissionIds = permissionIds.filter { !hasPermission(it) }
+        Log.i("MOKEEE", "permissionIds.size: " + permissionIds.size.toString())
+        Log.i("MOKEEE", "requestPermissionIds.size: " + requestPermissionIds.size.toString())
+        if (requestPermissionIds.isEmpty()) {
+            callback(true)
+        } else {
+            isAskingPermissions = true
+            actionOnPermission = callback
+            var permissionStrings: Array<String> = Array(requestPermissionIds.size, {""})
+            for ((index, value) in requestPermissionIds.withIndex()) {
+                permissionStrings[index] = getPermissionString(value)
+                Log.i("MOKEEE", "permissionStrings[" + index + "]: " + getPermissionString(value))
+            }
+            ActivityCompat.requestPermissions(this, permissionStrings, GENERIC_PERM_HANDLER)
         }
     }
 
