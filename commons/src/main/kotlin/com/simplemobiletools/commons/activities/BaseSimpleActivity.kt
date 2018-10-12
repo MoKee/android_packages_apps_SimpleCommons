@@ -351,6 +351,22 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
     }
 
+    fun handlePermission(permissionIds: Array<Int>, callback: (granted: Boolean) -> Unit) {
+        actionOnPermission = null
+        var requestPermissionIds = permissionIds.filter { !hasPermission(it) }
+        if (requestPermissionIds.isEmpty()) {
+            callback(true)
+        } else {
+            isAskingPermissions = true
+            actionOnPermission = callback
+            var permissionStrings: Array<String> = Array(requestPermissionIds.size, {""})
+            for ((index, value) in requestPermissionIds.withIndex()) {
+                permissionStrings[index] = getPermissionString(value)
+            }
+            ActivityCompat.requestPermissions(this, permissionStrings, GENERIC_PERM_HANDLER)
+        }
+    }
+
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         isAskingPermissions = false
