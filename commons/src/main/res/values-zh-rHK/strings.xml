@@ -435,6 +435,7 @@
   <string name="donate">捐贈</string>
   <string name="donate_underlined"><u>捐贈</u></string>
   <string name="follow_us">追蹤我們</string>
+  <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
   <string name="additional_info">進階資訊</string>
   <string name="app_version">應用程式版本: %s</string>
   <string name="device_os">裝置系統: %s</string>
@@ -477,4 +478,6 @@
   <!-- License -->
   <string name="notice">這程式使用了下列的第三方函式庫來讓我工作簡化。感謝。</string>
   <string name="third_party_licences">第三方授權</string>
+  <string name="kotlin_title">Kotlin (編程語言)</string>
+  <string name="subsampling_title">子採樣比例圖像視圖 (可縮放圖像視圖)</string>
 </resources>
