@@ -480,4 +480,25 @@
   <string name="third_party_licences">第三方授權</string>
   <string name="kotlin_title">Kotlin (編程語言)</string>
   <string name="subsampling_title">子採樣比例圖像視圖 (可縮放圖像視圖)</string>
+  <string name="glide_title">Glide (圖像載入與快取)</string>
+  <string name="picasso_title">Picasso (圖像載入與快取)</string>
+  <string name="cropper_title">Android Image Cropper (圖像裁剪和旋轉)</string>
+  <string name="rtl_viewpager_title">RtlViewPager (從右到左滑動)</string>
+  <string name="joda_title">Joda-Time (Java 日期替換)</string>
+  <string name="stetho_title">Stetho (偵錯資料庫)</string>
+  <string name="otto_title">Otto (事件總線)</string>
+  <string name="photoview_title">PhotoView (可縮放 GIFs)</string>
+  <string name="pattern_title">PatternLockView (圖案保護)</string>
+  <string name="reprint_title">Reprint (指紋保護)</string>
+  <string name="gif_drawable_title">Gif Drawable (載入 GIFs)</string>
+  <string name="autofittextview_title">AutoFitTextView (調整文字大小)</string>
+  <string name="robolectric_title">Robolectric (測試框架)</string>
+  <string name="espresso_title">Espresso (測試小幫手)</string>
+  <string name="gson_title">Gson (JSON 解析器)</string>
+  <string name="leak_canary_title">Leak Canary (記憶體洩漏檢測器)</string>
+  <string name="number_picker_title">Number Picker (可自訂的號碼選擇器)</string>
+  <string name="exoplayer_title">ExoPlayer (影片播放器)</string>
+  <string name="panorama_view_title">VR Panorama View (顯示全景圖)</string>
+  <string name="sanselan_title">Apache Sanselan (讀取圖像元數據)</string>
+  <string name="filters_title">Android Photo Filters (圖像濾鏡)</string>
 </resources>
