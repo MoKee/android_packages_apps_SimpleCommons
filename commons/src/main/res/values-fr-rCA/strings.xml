@@ -432,9 +432,9 @@
   <string name="read_it">Le lire</string>
   <!-- New app (do not translate anything on the 4th line) -->
   <string name="new_app">
-<![CDATA[
+        <![CDATA[
             Hey,<br><br>
-            Nous voulions juste vous faire savoir qu'une nouvelle app est sortie récemment:<br><br>
+            Nous voulions juste vous faire savoir qu\'une nouvelle app est sortie récemment:<br><br>
             <a href="%1$s">%2$s</a><br><br>
             Vous pouvez la télécharger en appuyant sur le titre.<br><br>
             Merci
