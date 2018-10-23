@@ -52,6 +52,8 @@
   <string name="filename_invalid_characters_placeholder">Dosya adı \'%s\' geçersiz karakterler içeriyor</string>
   <string name="extension_cannot_be_empty">Uzantı boş olamaz</string>
   <string name="source_file_doesnt_exist">%s kaynak dosyası mevcut değil</string>
+  <string name="prepend_filenames">Dosya adlarını ekle</string>
+  <string name="append_filenames">Dosya isimlerini ekle (dosya uzantısından önce)</string>
   <!-- Copy / Move -->
   <string name="copy">Kopyala</string>
   <string name="move">Taşı</string>

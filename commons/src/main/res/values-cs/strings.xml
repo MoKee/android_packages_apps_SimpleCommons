@@ -160,11 +160,13 @@
   <string name="undo_changes">Vrátit změny</string>
   <string name="undo_changes_confirmation">Opravdu chcete vrátit změny?</string>
   <string name="save_before_closing">Máte neuložené změny. Uložit před zavřením?</string>
+  <string name="apply_to_all_apps">Použít barvy pro všechny Jednoduché aplikace</string>
   <!-- Themes -->
   <string name="light_theme">Světlý</string>
   <string name="dark_theme">Tmavý</string>
   <string name="solarized">Solarizovaný</string>
   <string name="dark_red">Tmavě červená</string>
+  <string name="black_white">Černá &amp; Bílá</string>
   <string name="custom">Vlastní</string>
   <string name="shared">Sdíleno</string>
   <!-- What's new -->
@@ -182,6 +184,7 @@
   <string name="hide_folder">Skrýt složku</string>
   <string name="unhide_folder">Odkrýt složku</string>
   <string name="temporarily_show_hidden">Dočasně zobrazit skryté</string>
+  <string name="stop_showing_hidden">Ukončit zobrazování skrytých médií</string>
   <string name="maximum_share_reached">Nelze sdílet tolik obsahu najednou</string>
   <string name="empty_and_disable_recycle_bin">Vyprázdnit a zakázat koš</string>
   <string name="undo">Zpět</string>
@@ -202,8 +205,10 @@
   <string name="proceed_with_deletion">Opravdu chcete pokračovat s odstraněním?</string>
   <string name="deletion_confirmation">Jste si jisti že chcete odstranit %s?</string>
   <!-- Are you sure you want to delete 5 items? -->
+  <string name="move_to_recycle_bin_confirmation">Opravdu chcete přesunout %s do koše?</string>
   <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
   <string name="are_you_sure_delete">Jste si jisti, že chcete odstranit tuto položku?</string>
+  <string name="do_not_ask_again">Neptat se znovu v této relaci</string>
   <string name="yes">Ano</string>
   <string name="no">Ne</string>
   <!-- Password protection -->
@@ -218,6 +223,7 @@
   <string name="repeat_pattern">Zopakujte vzor</string>
   <string name="fingerprint">Otisk prstu</string>
   <string name="add_fingerprint">Přidat otisk prstu</string>
+  <string name="place_finger">Přiložte prst na snímač otisků prstů</string>
   <string name="authentication_failed">Ověřování selhalo</string>
   <string name="go_to_settings">Přejít do Nastavení</string>
   <!-- Times -->
@@ -357,15 +363,18 @@
   <string name="extra_large">Extra velké</string>
   <string name="use_24_hour_time_format">Použít 24-hodinový formát</string>
   <string name="widgets">Widgety</string>
+  <string name="recycle_bin_cleaning_interval">Interval vysypání koše</string>
   <!-- Setting sections -->
   <string name="visibility">Viditelnost</string>
   <string name="security">Zabezpečení</string>
+  <string name="scrolling">Rolování</string>
   <string name="recycle_bin">Koš</string>
   <string name="saving_label">Ukládání</string>
   <string name="startup">Po spuštění</string>
   <string name="text">Text</string>
   <!-- Recycle Bin -->
   <string name="restore_this_file">Obnovit tento soubor</string>
+  <string name="restore_selected_files">Obnovit vybrané soubory</string>
   <string name="restore_all_files">Obnovit všechny soubory</string>
   <string name="recycle_bin_empty">Koš je prázdný</string>
   <!-- Import / Export -->
@@ -438,11 +447,13 @@
   <string name="donate_underlined"><u>Darovat</u></string>
   <string name="follow_us">Sledujte nás</string>
   <string name="additional_info">Další informace</string>
+  <string name="app_version">Verze aplikace: %s</string>
   <string name="purchase">Zakoupit</string>
   <string name="read_it">Čtěte</string>
   <!-- New app (do not translate anything on the 4th line) -->
   <!-- FAQ -->
   <string name="frequently_asked_questions">Často kladené otázky</string>
+  <string name="faq_5_title_commons">Můžu nějakým způsobem obnovit odstraněné soubory?</string>
   <!-- License -->
   <string name="notice">Tato aplikace využívá následující knihovny třetích stran. Děkuji.</string>
   <string name="third_party_licences">Licence třetích stran</string>

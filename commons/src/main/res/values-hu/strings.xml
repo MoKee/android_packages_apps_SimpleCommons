@@ -52,6 +52,8 @@
   <string name="filename_invalid_characters_placeholder">A \'%s\' fájlnév érvénytelen karaktereket tartalmaz</string>
   <string name="extension_cannot_be_empty">A kiterjesztés nem lehet üres</string>
   <string name="source_file_doesnt_exist">A %s forrásfájl nem létezik</string>
+  <string name="prepend_filenames">Fájlnév hozzárendelése</string>
+  <string name="append_filenames">Fájlnév hozzáfűzése (a fájlkiterjesztés elé)</string>
   <!-- Copy / Move -->
   <string name="copy">Másolás</string>
   <string name="move">Áthelyezés</string>
