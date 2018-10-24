@@ -52,6 +52,8 @@
   <string name="filename_invalid_characters_placeholder">Název souboru \'%s\' obsahuje neplatné znaky</string>
   <string name="extension_cannot_be_empty">Přípona nemůže být prázdná</string>
   <string name="source_file_doesnt_exist">Zdrojový soubor %s neexistuje</string>
+  <string name="prepend_filenames">Přidat před názvy souborů</string>
+  <string name="append_filenames">Přidat za názvy souborů (před přípony)</string>
   <!-- Copy / Move -->
   <string name="copy">Kopírovat</string>
   <string name="move">Přesunout</string>
@@ -128,6 +130,8 @@
   <string name="root">Root</string>
   <string name="wrong_root_selected">Vybrána neplatná složka, vyberte prosím root složku vaší SD karty</string>
   <string name="sd_card_otg_same">Cesta k SD kartě a OTG zařízení nesmí být stejná</string>
+  <string name="app_on_sd_card">Zdá se, že máte aplikaci nainstalovanou na SD kartě, což způsobí nedostupnost widgetů. Ani je neuvidíte na seznamu dostupných widgetů.
+         Jde o systémové omezení, čili pokud chcete widgety používat, musíte přesunout aplikaci zpět na interní úložiště.</string>
   <!-- File properties -->
   <string name="properties">Vlastnosti</string>
   <string name="path">Cesta</string>
@@ -161,6 +165,12 @@
   <string name="undo_changes_confirmation">Opravdu chcete vrátit změny?</string>
   <string name="save_before_closing">Máte neuložené změny. Uložit před zavřením?</string>
   <string name="apply_to_all_apps">Použít barvy pro všechny Jednoduché aplikace</string>
+  <string name="share_colors_success">Barvy byly úspěšně aktualizovány. Byl přidán nový \'Sdílený\' motiv, prosím použijte jej při další úpravě barev.</string>
+  <string name="purchase_thank_you">
+        <![CDATA[
+            Prosím zakupte <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> pro odemknutí této funkce a podporu vývoje. Díky!
+        ]]>
+    </string>
   <!-- Themes -->
   <string name="light_theme">Světlý</string>
   <string name="dark_theme">Tmavý</string>
@@ -208,9 +218,16 @@
   <string name="move_to_recycle_bin_confirmation">Opravdu chcete přesunout %s do koše?</string>
   <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
   <string name="are_you_sure_delete">Jste si jisti, že chcete odstranit tuto položku?</string>
+  <string name="are_you_sure_recycle_bin">Jste si jisti, že chcete vyhodit tuto položku do koše?</string>
   <string name="do_not_ask_again">Neptat se znovu v této relaci</string>
   <string name="yes">Ano</string>
   <string name="no">Ne</string>
+  <plurals name="delete_warning">
+    <item quantity="one">VAROVÁNÍ: Mažete %d složku</item>
+    <item quantity="few">VAROVÁNÍ: Mažete %d složky</item>
+    <item quantity="many">VAROVÁNÍ: Mažete %d složek</item>
+    <item quantity="other">VAROVÁNÍ: Mažete %d složek</item>
+  </plurals>
   <!-- Password protection -->
   <string name="pin">PIN</string>
   <string name="enter_pin">Zadejte PIN</string>
@@ -225,7 +242,11 @@
   <string name="add_fingerprint">Přidat otisk prstu</string>
   <string name="place_finger">Přiložte prst na snímač otisků prstů</string>
   <string name="authentication_failed">Ověřování selhalo</string>
+  <string name="authentication_blocked">Ověřování je zablokováno, prosím zkuste to za chvíli</string>
+  <string name="no_fingerprints_registered">Nemáte zaregistrovány žádné otisky prstů, prosím přidejte nějaké v Nastavení zařízení</string>
   <string name="go_to_settings">Přejít do Nastavení</string>
+  <string name="protection_setup_successfully">Heslo bylo úspěšně nastaveno. Pokud ho zapomenete, prosím přeinstalujte aplikaci.</string>
+  <string name="fingerprint_setup_successfully">Ochrana byla úspěšně nastavena. Prosím přeinstalujte aplikaci v případě problémů s její změnou.</string>
   <!-- Times -->
   <string name="yesterday">Včera</string>
   <string name="today">Dnes</string>
@@ -340,6 +361,8 @@
     <item quantity="other">%d hodin</item>
   </plurals>
   <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
+  <string name="alarm_goes_off_in">Zbývající čas do zvonění budíku:\n%s</string>
+  <string name="reminder_triggers_in">Zbývající čas do připomínky:\n%s</string>
   <!-- Alarms -->
   <string name="alarm">Budík</string>
   <string name="snooze">Odložit</string>
@@ -352,6 +375,7 @@
   <string name="no_sound">Bez zvuku</string>
   <!-- Settings -->
   <string name="settings">Nastavení</string>
+  <string name="purchase_simple_thank_you">Koupit Simple Thank You</string>
   <string name="customize_colors">Přizpůsobit barvy</string>
   <string name="customize_widget_colors">Přizpůsobit barvy widgetu</string>
   <string name="use_english_language">Použít anglický jazyk</string>
@@ -363,11 +387,14 @@
   <string name="extra_large">Extra velké</string>
   <string name="use_24_hour_time_format">Použít 24-hodinový formát</string>
   <string name="widgets">Widgety</string>
+  <string name="vibrate_on_button_press">Vibrovat při stisknutí tlačítka</string>
   <string name="recycle_bin_cleaning_interval">Interval vysypání koše</string>
+  <string name="empty_recycle_bin">Vyprázdnit Koš</string>
   <!-- Setting sections -->
   <string name="visibility">Viditelnost</string>
   <string name="security">Zabezpečení</string>
   <string name="scrolling">Rolování</string>
+  <string name="file_operations">Operace souborů</string>
   <string name="recycle_bin">Koš</string>
   <string name="saving_label">Ukládání</string>
   <string name="startup">Po spuštění</string>
@@ -376,6 +403,8 @@
   <string name="restore_this_file">Obnovit tento soubor</string>
   <string name="restore_selected_files">Obnovit vybrané soubory</string>
   <string name="restore_all_files">Obnovit všechny soubory</string>
+  <string name="recycle_bin_emptied">Koš byl úspěšně vyprázdněn</string>
+  <string name="files_restored_successfully">Soubory byly úspěšně obnoveny</string>
   <string name="recycle_bin_empty">Koš je prázdný</string>
   <!-- Import / Export -->
   <string name="importing">Importování…</string>
@@ -449,13 +478,41 @@
   <string name="additional_info">Další informace</string>
   <string name="app_version">Verze aplikace: %s</string>
   <string name="purchase">Zakoupit</string>
+  <string name="update_thank_you">Prosím aktualizujte Simple Thank You na nejnovější verzi</string>
   <string name="read_it">Čtěte</string>
   <!-- New app (do not translate anything on the 4th line) -->
   <!-- FAQ -->
   <string name="frequently_asked_questions">Často kladené otázky</string>
+  <string name="before_asking_question">Před položením otázky, prosím nejprve čtěte</string>
+  <string name="faq_1_title_commons">Proč nevidím widget této aplikace v seznamu widgetů?</string>
+  <string name="faq_2_title_commons">Chci vás podpořit, ale nemohu finančně. Jakým jiným způsobem mohu pomoci?</string>
+  <string name="faq_3_title_commons">Omylem jsem smazal některé soubory, jak je můžu obnovit?</string>
+  <string name="faq_4_title_commons">Nelíbí se mi barvy widgetů, lze je změnit?</string>
   <string name="faq_5_title_commons">Můžu nějakým způsobem obnovit odstraněné soubory?</string>
   <!-- License -->
   <string name="notice">Tato aplikace využívá následující knihovny třetích stran. Děkuji.</string>
   <string name="third_party_licences">Licence třetích stran</string>
   <string name="kotlin_title">Kotlin (programovací jazyk)</string>
+  <string name="subsampling_title">Subsampling Scale Image View (přiblížitelné obrázky)</string>
+  <string name="glide_title">Glide (načítání obrázku a ukládání do mezipaměti)</string>
+  <string name="picasso_title">Picasso (načítání obrázku a ukládání do mezipaměti)</string>
+  <string name="cropper_title">Android Image Cropper (oříznutí a otáčení obrázku)</string>
+  <string name="rtl_viewpager_title">RtlViewPager (přejetí zleva doprava)</string>
+  <string name="joda_title">Joda-Time (nahrazení data Java)</string>
+  <string name="stetho_title">Stetho (ladění databází)</string>
+  <string name="otto_title">Otto (kanál událostí)</string>
+  <string name="photoview_title">PhotoView (přiblížitelné GIFy)</string>
+  <string name="pattern_title">PatternLockView (ochrana vzorem)</string>
+  <string name="reprint_title">Reprint (ochrana otiskem prstu)</string>
+  <string name="gif_drawable_title">Gif Drawable (načítání GIFů)</string>
+  <string name="autofittextview_title">AutoFitTextView (změna velikosti textu)</string>
+  <string name="robolectric_title">Robolectric (testovací framework)</string>
+  <string name="espresso_title">Espresso (testovací pomocník)</string>
+  <string name="gson_title">Gson (JSON analyzátor)</string>
+  <string name="leak_canary_title">Leak Canary (detektor úbytku paměti)</string>
+  <string name="number_picker_title">Number Picker (přizpůsobitelný výběr čísla)</string>
+  <string name="exoplayer_title">ExoPlayer (video přehrávač)</string>
+  <string name="panorama_view_title">VR Panorama View (zobrazování panoramat)</string>
+  <string name="sanselan_title">Apache Sanselan (čtení metadat obrázků)</string>
+  <string name="filters_title">Android Photo Filters (filtry obrázků)</string>
 </resources>

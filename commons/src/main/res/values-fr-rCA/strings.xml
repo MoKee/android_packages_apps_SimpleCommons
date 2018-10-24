@@ -51,6 +51,8 @@
   <string name="filename_invalid_characters_placeholder">Le nom de fichier \'%s\' contient des caractères invalides</string>
   <string name="extension_cannot_be_empty">L\'extension ne peut pas rester vide</string>
   <string name="source_file_doesnt_exist">Le fichier source %s n\'existe pas</string>
+  <string name="prepend_filenames">Ajouter un préfixe aux noms de fichiers</string>
+  <string name="append_filenames">Ajouter un suffixe aux noms de fichiers (avant l\'extension du fichier)</string>
   <!-- Copy / Move -->
   <string name="copy">Copier</string>
   <string name="move">Déplacer</string>
@@ -108,6 +110,10 @@
     <item quantity="one">%d élément</item>
     <item quantity="other">%d éléments</item>
   </plurals>
+  <plurals name="deleting_items">
+    <item quantity="one">Suppression d\' %d élément en cours…</item>
+    <item quantity="other">Suppression de %d éléments en cours…</item>
+  </plurals>
   <!-- Storages -->
   <string name="select_storage">Sélectionner le stockage</string>
   <string name="internal">Interne</string>
@@ -115,6 +121,8 @@
   <string name="root">Racine</string>
   <string name="wrong_root_selected">Mauvais dossier sélectionné, veuillez sélectionner le dossier racine de votre carte SD</string>
   <string name="sd_card_otg_same">Les chemins de la carte SD et du stockage USB OTG ne peuvent être similaires.</string>
+  <string name="app_on_sd_card">L\'application semble installée sur une carte SD, ce qui empêche l\'utilisation des widgets de l\'applications. Ils n\'apparaîtront même pas dans la liste des widgets disponibles.
+        C\'est une limitation système. Si vous voulez utiliser le widget, vous devez déplacer l\'application vers la mémoire interne.</string>
   <!-- File properties -->
   <string name="properties">Propriétés</string>
   <string name="path">Chemin</string>
@@ -177,6 +185,7 @@
   <string name="temporarily_show_hidden">Afficher temporairement les fichiers masqués</string>
   <string name="stop_showing_hidden">Arrêter d\'afficher les medias masqués</string>
   <string name="maximum_share_reached">Vous ne pouvez pas partager autant de contenu à la fois</string>
+  <string name="empty_and_disable_recycle_bin">Vider et désactiver la corbeille</string>
   <string name="undo">Annuler</string>
   <string name="redo">Répéter</string>
   <!-- Sorting -->
@@ -196,9 +205,15 @@
   <!-- Are you sure you want to delete 5 items? -->
   <string name="move_to_recycle_bin_confirmation">Êtes-vous sûr•e de vouloir déplacer %s vers la corbeille ?</string>
   <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
+  <string name="are_you_sure_delete">Êtes-vous sûr(-e) de vouloir supprimer cet élément?</string>
+  <string name="are_you_sure_recycle_bin">Êtes-vous sûr(-e) de vouloir déplacer cet élément dans la corbeille ?</string>
   <string name="do_not_ask_again">Ne pas redemander pour cette session</string>
   <string name="yes">Oui</string>
   <string name="no">Non</string>
+  <plurals name="delete_warning">
+    <item quantity="one">ATTENTION : Vous supprimez %d dossier</item>
+    <item quantity="other">ATTENTION : Vous supprimez %d dossiers</item>
+  </plurals>
   <!-- Password protection -->
   <string name="enter_pin">Saisir PIN</string>
   <string name="please_enter_pin">Veuillez saisir un PIN</string>
@@ -218,6 +233,7 @@
   <string name="protection_setup_successfully">Mot de passe défini avec succès. Veuillez réinstaller l\'appli en cas d\'oubli.</string>
   <string name="fingerprint_setup_successfully">Protection mise en place avec succès. Veuillez réinstaller l\'appli en cas d\'oubli.</string>
   <!-- Times -->
+  <string name="yesterday">Hier</string>
   <string name="today">Aujourd\'hui</string>
   <string name="tomorrow">Demain</string>
   <string name="seconds_raw">secondes</string>
@@ -285,8 +301,10 @@
   </plurals>
   <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
   <string name="alarm_goes_off_in">Temps restant jusqu\'au déclenchement de l\'alarme : \n%s</string>
+  <string name="reminder_triggers_in">Durée restante jusqu\'au déclenchement du rappel :\n%s</string>
   <string name="alarm_warning">Veuillez vérifier que l\'alarme fonctionne correctement avant de lui faire confiance. Elle pourrait ne pas fonctionner correctement, à cause de la politique d\'économie d\'énergie de votre appareil.</string>
   <string name="reminder_warning">Veuillez vérifier que les rappels fonctionnent correctement avant de leur faire confiance. Ils pourraient ne pas fonctionner correctement, à cause de la politique d\'économie d\'énergie de votre appareil.</string>
+  <string name="notifications_disabled">Les notifications de cette application sont désactivées. Veuillez les activer depuis les paramètres de votre appareil.</string>
   <!-- Alarms -->
   <string name="alarm">Alarme</string>
   <string name="snooze">Rappel de sonnerie</string>
@@ -299,6 +317,7 @@
   <string name="no_sound">Pas de son</string>
   <!-- Settings -->
   <string name="settings">Préférences</string>
+  <string name="purchase_simple_thank_you">Acheter Simple Thank You</string>
   <string name="customize_colors">Personnaliser les couleurs</string>
   <string name="customize_widget_colors">Personnaliser les couleurs du widget</string>
   <string name="use_english_language">Utiliser l\'affichage en anglais</string>
@@ -331,8 +350,13 @@
   <string name="scrolling">Défilement</string>
   <string name="file_operations">Opérations sur les fichiers</string>
   <string name="recycle_bin">Corbeille</string>
+  <string name="saving_label">Enregistrement en cours…</string>
+  <string name="startup">Démarrage en cours…</string>
   <string name="text">Texte</string>
   <!-- Recycle Bin -->
+  <string name="restore_this_file">Récupérer ce fichier</string>
+  <string name="restore_selected_files">Récupérer les fichiers sélectionnés</string>
+  <string name="restore_all_files">Récupérer tous les fichiers </string>
   <string name="recycle_bin_emptied">La corbeille a été vidée avec succès</string>
   <string name="files_restored_successfully">Les fichiers ont été restaurés avec succès</string>
   <string name="empty_recycle_bin_confirmation">Êtes-vous sûr de que vouloir vider la corbeille ? Les fichiers seront définitivement perdues.</string>
