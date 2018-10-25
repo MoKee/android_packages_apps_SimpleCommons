@@ -10,6 +10,7 @@
   <string name="details">Деталі</string>
   <string name="none">Нічого</string>
   <string name="label">Підпис</string>
+  <string name="transparent">Прозорий</string>
   <!-- Favorites -->
   <string name="favorites">Обране</string>
   <string name="add_to_favorites">Додати до улюбленого</string>

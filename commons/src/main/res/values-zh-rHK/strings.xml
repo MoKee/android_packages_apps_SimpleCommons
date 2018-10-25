@@ -20,6 +20,7 @@
   <string name="deleting_folder">資料夾 \'%s\' 刪除中</string>
   <string name="none">無</string>
   <string name="label">標籤</string>
+  <string name="transparent">透明</string>
   <!-- Favorites -->
   <string name="favorites">我的最愛</string>
   <string name="add_favorites">添加我的最愛</string>

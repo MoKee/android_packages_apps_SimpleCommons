@@ -19,6 +19,7 @@
   <string name="deleting_folder">Supprimer le dossier \'%s\'</string>
   <string name="none">Aucun</string>
   <string name="label">Étiquette</string>
+  <string name="transparent">Transparent</string>
   <!-- Favorites -->
   <string name="favorites">Favoris</string>
   <string name="add_favorites">Ajouter des favoris</string>

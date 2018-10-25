@@ -10,6 +10,7 @@
   <string name="details">Rincian</string>
   <string name="none">Tidak ada</string>
   <string name="label">Label</string>
+  <string name="transparent">Transparan</string>
   <!-- Favorites -->
   <string name="favorites">Favorit</string>
   <string name="add_to_favorites">Tambahkan ke favorit</string>

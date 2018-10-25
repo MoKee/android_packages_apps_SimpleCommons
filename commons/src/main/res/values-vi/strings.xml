@@ -10,6 +10,7 @@
   <string name="details">Chi tiết</string>
   <string name="none">Không có</string>
   <string name="label">Tên hiển thị</string>
+  <string name="transparent">Trong suốt</string>
   <!-- Favorites -->
   <string name="favorites">Yêu thích</string>
   <string name="add_to_favorites">Thêm vào yêu thích</string>
