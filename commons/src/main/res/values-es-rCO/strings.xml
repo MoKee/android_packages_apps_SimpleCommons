@@ -20,6 +20,8 @@
   <string name="none">Ninguno</string>
   <string name="label">Etiqueta</string>
   <string name="transparent">Transparente</string>
+  <string name="transparent_color">Color transparente</string>
+  <string name="select_a_different_color">Seleccionar un color diferente</string>
   <!-- Favorites -->
   <string name="favorites">Favoritos</string>
   <string name="add_favorites">Agregar a favoritos</string>
