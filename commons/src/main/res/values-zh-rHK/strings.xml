@@ -21,6 +21,8 @@
   <string name="none">無</string>
   <string name="label">標籤</string>
   <string name="transparent">透明</string>
+  <string name="transparent_color">透明顏色</string>
+  <string name="select_a_different_color">選擇其他顏色</string>
   <!-- Favorites -->
   <string name="favorites">我的最愛</string>
   <string name="add_favorites">添加我的最愛</string>
@@ -200,6 +202,8 @@
   <string name="title">標題</string>
   <string name="filename">檔案名稱</string>
   <string name="extension">副檔名</string>
+  <string name="random">隨機</string>
+  <string name="sort_randomly">隨機排序</string>
   <string name="ascending">升序排列</string>
   <string name="descending">降序排列</string>
   <string name="use_for_this_folder">僅套用於此資料夾</string>

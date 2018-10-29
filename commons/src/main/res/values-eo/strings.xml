@@ -3,6 +3,7 @@
 <resources>
   <!-- Favorites -->
   <!-- Search -->
+  <string name="search">Serĉi</string>
   <!-- Filters -->
   <!-- Permissions -->
   <!-- Renaming -->
