@@ -371,7 +371,6 @@
     <string name="customize_colors">自訂顏色</string>
     <string name="customize_widget_colors">自訂小工具顏色</string>
     <string name="use_english_language">強制使用英語</string>
-    <string name="avoid_whats_new">啟動時不顯示更新了什麼</string>
     <string name="show_hidden_items">顯示隱藏的項目</string>
     <string name="font_size">字體大小</string>
     <string name="small">小</string>
@@ -489,6 +488,11 @@
     <string name="friday_short">週五</string>
     <string name="saturday_short">週六</string>
     <string name="sunday_short">週日</string>
+
+    <!-- Pro version -->
+    <string name="upgrade_to_pro">This version of the app is no longer maintained. Please upgrade to the Pro version.</string>
+    <string name="it_is_free">It is free till: %s</string>
+    <string name="upgrade">Upgrade</string>
 
     <!-- About -->
     <string name="about">關於</string>

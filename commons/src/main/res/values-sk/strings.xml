@@ -392,7 +392,6 @@
     <string name="customize_colors">Upraviť farby</string>
     <string name="customize_widget_colors">Upraviť farby widgetov</string>
     <string name="use_english_language">Použiť angličtinu</string>
-    <string name="avoid_whats_new">Nikdy nezobrazovať Novinky po spustení</string>
     <string name="show_hidden_items">Zobraziť skryté položky</string>
     <string name="font_size">Veľkosť písma</string>
     <string name="small">Malé</string>
@@ -511,6 +510,11 @@
     <string name="friday_short">Pi</string>
     <string name="saturday_short">So</string>
     <string name="sunday_short">Ne</string>
+
+    <!-- Pro version -->
+    <string name="upgrade_to_pro">Táto verzia aplikácie už nie je podporovaná. Prosím prejdite na Pro verziu.</string>
+    <string name="it_is_free">Je do bezplatné do: %s</string>
+    <string name="upgrade">Stiahnuť</string>
 
     <!-- About -->
     <string name="about">O aplikácií</string>

@@ -371,7 +371,6 @@
     <string name="customize_colors">Personalizza i colori</string>
     <string name="customize_widget_colors">Personalizza i colori del widget</string>
     <string name="use_english_language">Forza la lingua inglese</string>
-    <string name="avoid_whats_new">Non mostrare le novità all\'avvio</string>
     <string name="show_hidden_items">Mostra gli elementi nascosti</string>
     <string name="font_size">Dimensione carattere</string>
     <string name="small">Piccolo</string>
@@ -489,6 +488,11 @@
     <string name="friday_short">Ven</string>
     <string name="saturday_short">Sab</string>
     <string name="sunday_short">Dom</string>
+
+    <!-- Pro version -->
+    <string name="upgrade_to_pro">Questa versione dell\'applicazione non è più supportata. Aggiornarla alla versione Pro.</string>
+    <string name="it_is_free">È gratuita fino a: %s</string>
+    <string name="upgrade">Aggiorna</string>
 
     <!-- About -->
     <string name="about">Informazioni</string>

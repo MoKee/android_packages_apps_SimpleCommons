@@ -412,7 +412,6 @@
     <string name="customize_colors">Prilagodite barve</string>
     <string name="customize_widget_colors">Prilagodite barve pripomočka</string>
     <string name="use_english_language">Uporabljaj angleški jezik</string>
-    <string name="avoid_whats_new">Ne prikaži novic ob zagonu</string>
     <string name="show_hidden_items">Prikaži skrite elemente</string>
     <string name="font_size">Velikost pisave</string>
     <string name="small">Majhna</string>
@@ -532,6 +531,11 @@
     <string name="friday_short">Pet</string>
     <string name="saturday_short">Sob</string>
     <string name="sunday_short">Ned</string>
+
+    <!-- Pro version -->
+    <string name="upgrade_to_pro">This version of the app is no longer maintained. Please upgrade to the Pro version.</string>
+    <string name="it_is_free">It is free till: %s</string>
+    <string name="upgrade">Upgrade</string>
 
     <!-- About -->
     <string name="about">O</string>

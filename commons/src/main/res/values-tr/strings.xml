@@ -371,7 +371,6 @@
     <string name="customize_colors">Renkleri özelleştir</string>
     <string name="customize_widget_colors">Widget renklerini özelleştir</string>
     <string name="use_english_language">İngilizce dilini kullan</string>
-    <string name="avoid_whats_new">Başlangıçta Yenilikleri göstermeyi önle</string>
     <string name="show_hidden_items">Gizli öğeleri göster</string>
     <string name="font_size">Yazı tipi boyutu</string>
     <string name="small">Küçük</string>
@@ -489,6 +488,11 @@
     <string name="friday_short">Cum</string>
     <string name="saturday_short">Cmt</string>
     <string name="sunday_short">Paz</string>
+
+    <!-- Pro version -->
+    <string name="upgrade_to_pro">This version of the app is no longer maintained. Please upgrade to the Pro version.</string>
+    <string name="it_is_free">It is free till: %s</string>
+    <string name="upgrade">Upgrade</string>
 
     <!-- About -->
     <string name="about">Hakkında</string>

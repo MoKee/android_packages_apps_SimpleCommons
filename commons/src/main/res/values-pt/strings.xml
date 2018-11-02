@@ -371,7 +371,6 @@
     <string name="customize_colors">Personalizar cores</string>
     <string name="customize_widget_colors">Personalizar cores do widget</string>
     <string name="use_english_language">Utilizar aplicação em inglês</string>
-    <string name="avoid_whats_new">Não mostrar novidades ao iniciar</string>
     <string name="show_hidden_items">Mostrar itens ocultos</string>
     <string name="font_size">Tamanho do texto</string>
     <string name="small">Pequeno</string>
@@ -489,6 +488,11 @@
     <string name="friday_short">sex</string>
     <string name="saturday_short">sáb</string>
     <string name="sunday_short">dom</string>
+
+    <!-- Pro version -->
+    <string name="upgrade_to_pro">This version of the app is no longer maintained. Please upgrade to the Pro version.</string>
+    <string name="it_is_free">It is free till: %s</string>
+    <string name="upgrade">Upgrade</string>
 
     <!-- About -->
     <string name="about">Acerca</string>

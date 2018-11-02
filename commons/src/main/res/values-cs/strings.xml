@@ -388,7 +388,6 @@
     <string name="customize_colors">Přizpůsobit barvy</string>
     <string name="customize_widget_colors">Customize widget colors</string>
     <string name="use_english_language">Use English language</string>
-    <string name="avoid_whats_new">Avoid showing What\'s New on startup</string>
     <string name="show_hidden_items">Zobrazit skryté položky</string>
     <string name="font_size">Font size</string>
     <string name="small">Small</string>
@@ -506,6 +505,11 @@
     <string name="friday_short">Pát</string>
     <string name="saturday_short">Sob</string>
     <string name="sunday_short">Ned</string>
+
+    <!-- Pro version -->
+    <string name="upgrade_to_pro">This version of the app is no longer maintained. Please upgrade to the Pro version.</string>
+    <string name="it_is_free">It is free till: %s</string>
+    <string name="upgrade">Upgrade</string>
 
     <!-- About -->
     <string name="about">O aplikaci</string>

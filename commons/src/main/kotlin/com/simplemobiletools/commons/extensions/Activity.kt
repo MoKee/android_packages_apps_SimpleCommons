@@ -110,7 +110,7 @@ fun Activity.appLaunched(appId: String) {
     baseConfig.appRunCount++
 
     if (!baseConfig.hadThankYouInstalled) {
-        if (isThankYouInstalled()) {
+        if (isAProApp() || isThankYouInstalled()) {
             baseConfig.hadThankYouInstalled = true
         } else if (baseConfig.appRunCount % 50 == 0) {
             DonateDialog(this)
@@ -358,7 +358,7 @@ fun BaseSimpleActivity.checkWhatsNew(releases: List<Release>, currVersion: Int) 
     val newReleases = arrayListOf<Release>()
     releases.filterTo(newReleases) { it.id > baseConfig.lastVersion }
 
-    if (newReleases.isNotEmpty() && !baseConfig.avoidWhatsNew) {
+    if (newReleases.isNotEmpty()) {
         WhatsNewDialog(this, newReleases)
     }
 

@@ -388,7 +388,6 @@
     <string name="customize_colors">Spalvų redagavimas</string>
     <string name="customize_widget_colors">Customize widget colors</string>
     <string name="use_english_language">Naudoti anglų kalbą</string>
-    <string name="avoid_whats_new">Nerodyti "Kas nauja" paleidus programėlę</string>
     <string name="show_hidden_items">Rodyti paslėptus elementus</string>
     <string name="font_size">Teksto dydis</string>
     <string name="small">Smulkus</string>
@@ -506,6 +505,11 @@
     <string name="friday_short">Pen</string>
     <string name="saturday_short">Šeš</string>
     <string name="sunday_short">Sek</string>
+
+    <!-- Pro version -->
+    <string name="upgrade_to_pro">This version of the app is no longer maintained. Please upgrade to the Pro version.</string>
+    <string name="it_is_free">It is free till: %s</string>
+    <string name="upgrade">Upgrade</string>
 
     <!-- About -->
     <string name="about">Apie</string>

@@ -371,7 +371,6 @@
     <string name="customize_colors">Προσαρμογή χρωμάτων</string>
     <string name="customize_widget_colors">Προσαρμογή χρωμάτων widget</string>
     <string name="use_english_language">Χρήση γλώσσας English</string>
-    <string name="avoid_whats_new">Αποφύγετε την εμφάνιση, Τι νέο υπάρχει κατά την εκκίνηση</string>
     <string name="show_hidden_items">Εμφάνιση κρυφών στοιχείων</string>
     <string name="font_size">Μέγεθος κειμένου</string>
     <string name="small">Μικρό</string>
@@ -489,6 +488,11 @@
     <string name="friday_short">Παρ</string>
     <string name="saturday_short">Σαβ</string>
     <string name="sunday_short">Κυρ</string>
+
+    <!-- Pro version -->
+    <string name="upgrade_to_pro">This version of the app is no longer maintained. Please upgrade to the Pro version.</string>
+    <string name="it_is_free">It is free till: %s</string>
+    <string name="upgrade">Upgrade</string>
 
     <!-- About -->
     <string name="about">Σχετικά</string>

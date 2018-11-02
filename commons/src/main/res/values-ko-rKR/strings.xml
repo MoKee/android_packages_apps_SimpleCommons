@@ -371,7 +371,6 @@
     <string name="customize_colors">앱 테마 및 색상 설정</string>
     <string name="customize_widget_colors">Customize widget colors</string>
     <string name="use_english_language">영어 사용</string>
-    <string name="avoid_whats_new">시작시 새로운 기능 표시 안 함</string>
     <string name="show_hidden_items">숨김항목 활성화</string>
     <string name="font_size">폰트 크기</string>
     <string name="small">작게</string>
@@ -489,6 +488,11 @@
     <string name="friday_short">금요일</string>
     <string name="saturday_short">토요일</string>
     <string name="sunday_short">일요일</string>
+
+    <!-- Pro version -->
+    <string name="upgrade_to_pro">This version of the app is no longer maintained. Please upgrade to the Pro version.</string>
+    <string name="it_is_free">It is free till: %s</string>
+    <string name="upgrade">Upgrade</string>
 
     <!-- About -->
     <string name="about">앱정보</string>
