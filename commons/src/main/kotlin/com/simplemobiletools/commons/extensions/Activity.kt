@@ -108,13 +108,16 @@ fun Activity.appLaunched(appId: String) {
         }
     }
     baseConfig.appRunCount++
+    if (baseConfig.appRunCount % 50 == 0 && !isAProApp()) {
+        showDonateOrUpgradeDialog()
+    }
+}
 
-    if (!baseConfig.hadThankYouInstalled) {
-        if (isAProApp() || isThankYouInstalled()) {
-            baseConfig.hadThankYouInstalled = true
-        } else if (baseConfig.appRunCount % 50 == 0) {
-            DonateDialog(this)
-        }
+fun Activity.showDonateOrUpgradeDialog() {
+    if (getCanAppBeUpgraded()) {
+        UpgradeToProDialog(this)
+    } else if (!baseConfig.hadThankYouInstalled && !isThankYouInstalled()) {
+        DonateDialog(this)
     }
 }
 
@@ -150,9 +153,11 @@ fun Activity.isShowingSAFDialog(path: String, treeUri: String, requestCode: Int)
     }
 }
 
-fun Activity.launchPurchaseThankYouIntent() = launchViewIntent(resources.getString(R.string.thank_you_url))
+fun Activity.launchPurchaseThankYouIntent() = launchViewIntent(getString(R.string.thank_you_url))
 
-fun Activity.launchViewIntent(id: Int) = launchViewIntent(resources.getString(id))
+fun Activity.launchUpgradeToProIntent() = launchViewIntent(getProUrl())
+
+fun Activity.launchViewIntent(id: Int) = launchViewIntent(getString(id))
 
 fun Activity.launchViewIntent(url: String) {
     Thread {
