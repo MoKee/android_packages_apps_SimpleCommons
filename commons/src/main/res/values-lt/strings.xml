@@ -153,7 +153,7 @@
     <string name="save_before_closing">Turite neišsaugotų pakeitimų. Išsaugoti prieš išeinant?</string>
     <string name="apply_to_all_apps">Pritaikyti spalvas visoms paprastoms programėlėms</string>
     <string name="share_colors_success">Spalvos atnaujintos sėkmingai. Nauja tema pavdinimu \'Bendra\' buvo įtraukta, prašome naudoti tai ateityje visų programėlių spalvų atnaujinimui.</string>
-    <string name="purchase_thank_you"><![CDATA[Please purchase <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Paprastas ačiū</a>atrakinti šią funkciją ir palaikyti vystymą. Ačiū!]]></string>
+    <string name="purchase_thank_you">Please purchase <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Paprastas ačiū</a>atrakinti šią funkciją ir palaikyti vystymą. Ačiū!</string>
     <!-- Themes -->
     <string name="light_theme">Šviesi</string>
     <string name="dark_theme">Tamsi</string>

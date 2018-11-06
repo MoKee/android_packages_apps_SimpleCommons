@@ -169,7 +169,7 @@
     <string name="save_before_closing">Máte neuložené zmeny. Chcete ich uložiť pred ukončením?</string>
     <string name="apply_to_all_apps">Použiť farby na všetky Jednoduché Aplikácie</string>
     <string name="share_colors_success">Farby boli úspešne aktualizované. Bola pridaná nová \'Zdieľaná\' téma, prosím použite ju pri ďalšej úprave farieb.</string>
-    <string name="purchase_thank_you"><![CDATA[Prosím zakúpte si <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Jednoduché ďakujem</a> na odomknutie tejto funkcie a podporu vývoja. Vďaka!]]></string>
+    <string name="purchase_thank_you">Prosím zakúpte si <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Jednoduché ďakujem</a> na odomknutie tejto funkcie a podporu vývoja. Vďaka!</string>
     <!-- Themes -->
     <string name="light_theme">Svetlá</string>
     <string name="dark_theme">Tmavá</string>
@@ -508,19 +508,19 @@
     <string name="additional_info">Dodatočné informácie</string>
     <string name="app_version">Verzia aplikácie: %s</string>
     <string name="device_os">Operačný systém zariadenia: %s</string>
-    <string name="donate_please"><![CDATA[Zdravím,<br><br>
+    <string name="donate_please">Zdravím,<br><br>
             dúfam, že sa vám moja apka páči. Neobsahuje žiadne reklamy, podporte prosím jej vývoj zakúpením aplikácie <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Jednoduché ďakujem</a>. Zaručí to aj to, že tento dialóg už neuvidíte.<br><br>
-            Ďakujem!]]></string>
+            Ďakujem!</string>
     <string name="purchase">Zakúpiť</string>
     <string name="update_thank_you">Prosím aktualizujte Jednoduché Ďakujem na najnovšiu verziu</string>
     <string name="before_asking_question_read_faq">Predtým, ako sa niečo opýtate, si prosím prečítajte Často Kladené Otázky, možno v nich nájdete svoju odpoveď.</string>
     <string name="read_it">Prečítať</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app"><![CDATA[Zdravím,<br><br>
+    <string name="new_app">Zdravím,<br><br>
             iba vám oznamujem, že bola nedávno vydaná nová aplikácia:<br><br>
             <a href="%1$s">%2$s</a><br><br>
             Viete ju stiahnuť kliknutím na názov.<br><br>
-            Vďaka]]></string>
+            Vďaka</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Často kladené otázky</string>
     <string name="before_asking_question">Predtým, ako sa niečo opýtate si prosíme preštudujte</string>

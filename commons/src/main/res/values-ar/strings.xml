@@ -176,8 +176,8 @@
     <string name="save_before_closing">لديك تغييرات لم تحفظ. حفظ قبل الخروج؟</string>
     <string name="apply_to_all_apps">تطبيق الألوان على جميع التطبيقات البسيطة</string>
     <string name="share_colors_success">تم تحديث الألوان بنجاح. تمت إضافة سمة جديدة تسمى \"Shared\" ، يرجى استخدام ذلك لتحديث كل ألوان التطبيقات في المستقبل.</string>
-    <string name="purchase_thank_you"><![CDATA[            الرجاء شراء <a href="https://play.google.com/store/apps/details؟id=com.simplemobiletools.thankyou"> Simple Thank You </a> لإلغاء قفل هذه الوظيفة ودعم التطوير. شكر!
-        ]]></string>
+    <string name="purchase_thank_you">            الرجاء شراء <a href="https://play.google.com/store/apps/details؟id=com.simplemobiletools.thankyou"> Simple Thank You </a> لإلغاء قفل هذه الوظيفة ودعم التطوير. شكر!
+        </string>
     <!-- Themes -->
     <string name="light_theme">فاتح</string>
     <string name="dark_theme">داكن</string>
@@ -560,21 +560,21 @@
     <string name="additional_info">معلومات إضافية</string>
     <string name="app_version">إصدار التطبيق: %s</string>
     <string name="device_os">نظام تشغيل الجهاز: %s</string>
-    <string name="donate_please"><![CDATA[            مرحبا،<br> <br>
+    <string name="donate_please">            مرحبا،<br> <br>
             آمل أن تستمتع بالتطبيق. لا يحتوي على إعلانات ، الرجاء دعم تطويره من خلال شراء تطبيق <a href="https://play.google.com/store/apps/details؟id=com.simplemobiletools.thankyou"> Simple Thank You </a> ، سيؤدي أيضًا إلى منع عرض مربع الحوار هذا مرة أخرى. <br> <br>
             شكرا لكم!
-        ]]></string>
+        </string>
     <string name="purchase">الشراء</string>
     <string name="update_thank_you">يرجى تحديث Simple Thank You إلى أحدث إصدار</string>
     <string name="before_asking_question_read_faq">قبل أن تسأل سؤالاً، الرجاء قراءة \"الأسئلة المتداولة\" أولاً، ربما الحل هناك.</string>
     <string name="read_it">اقرأها</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app"><![CDATA[            مهلا، <br> <br>
+    <string name="new_app">            مهلا، <br> <br>
             لنعلمك أنه تم إصدار تطبيق جديد مؤخراً: <br> <br>
             <a href="%1$s">%2$s </a> <br> <br>
             يمكنك تنزيله بالضغط على العنوان. <br> <br>
             شكراً
-        ]]></string>
+        </string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">الأسئلة المتداولة</string>
     <string name="before_asking_question">قبل أن تسأل سؤالاً، يرجى أولاً قراءة</string>

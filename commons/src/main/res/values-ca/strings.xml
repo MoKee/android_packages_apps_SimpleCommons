@@ -159,7 +159,7 @@
     <string name="save_before_closing">Tens canvis sense aplicar. Desar abans de sortir?</string>
     <string name="apply_to_all_apps">Aplicar els colors a totes les aplicacions Simple Apps</string>
     <string name="share_colors_success">Colors actualitzats satisfactoriament. S’ha afegit un nou tema anomenat \'Shared\'. Fes -lo servidr per actualitzar els colors de les aplicacions en el futur.</string>
-    <string name="purchase_thank_you"><![CDATA[Sius plau compra la aplicació <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> per desblocar aquesta fucnió i ajudar al desenvolupament. Gràcies!]]></string>
+    <string name="purchase_thank_you">Sius plau compra la aplicació <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> per desblocar aquesta fucnió i ajudar al desenvolupament. Gràcies!</string>
     <!-- Themes -->
     <string name="light_theme">Clar</string>
     <string name="dark_theme">Fosc</string>
@@ -459,19 +459,19 @@
     <string name="additional_info">Informació adicional</string>
     <string name="app_version">Versió de la APP: %s</string>
     <string name="device_os">Sistema operatiu: %s</string>
-    <string name="donate_please"><![CDATA[Hola,<br><br>
+    <string name="donate_please">Hola,<br><br>
             Esperem que gaudiu de l\'aplicació. No conté cap anunci, així que si us plau, ajudeu el seu desenvolupament comprant la aplicació <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>, també evitarà que aquest diàleg es torni a mostrar.<br><br>
-            Gràcies!]]></string>
+            Gràcies!</string>
     <string name="purchase">Comprar</string>
     <string name="update_thank_you">Si us plau, actualitzeu Simple Thank You a la darrera versió</string>
     <string name="before_asking_question_read_faq">Abans de fer una pregunta, llegiu les Preguntes més freqüents en primer lloc, potser la solució hi és.</string>
     <string name="read_it">Llegiu</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app"><![CDATA[Hola,<br><br>
+    <string name="new_app">Hola,<br><br>
             només informar-te que una nova aplicació s\'ha publicat recentment:<br><br>
             <a href="%1$s">%2$s</a><br><br>
             Pots descarregar-la prement el títol.<br><br>
-            Gràcies]]></string>
+            Gràcies</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Preguntes frequents</string>
     <string name="before_asking_question">Abans de fer una pregunta, primer llegeix les</string>

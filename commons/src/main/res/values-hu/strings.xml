@@ -164,7 +164,7 @@
     <string name="save_before_closing">Nem mentette a változtatásokat. Menti a kilépés előtt?</string>
     <string name="apply_to_all_apps">Színek alkalmazása az összes Simple Apps-ra</string>
     <string name="share_colors_success">A színek sikeresen frissültek. Hozzáadott egy új témát, amelynek neve \'Megosztott\'. Kérjük, a jövőben ezt használja az összes alkalmazás színeinek frissítéséhez.</string>
-    <string name="purchase_thank_you"><![CDATA[Kérjük vásárolja meg a <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> alkalmazást a funkció feloldásához és a fejlesztés támogatásához. Köszönöm!]]></string>
+    <string name="purchase_thank_you">Kérjük vásárolja meg a <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> alkalmazást a funkció feloldásához és a fejlesztés támogatásához. Köszönöm!</string>
     <!-- Themes -->
     <string name="light_theme">Világos</string>
     <string name="dark_theme">Sötét</string>
@@ -472,19 +472,19 @@
     <string name="additional_info">Kiegészítő információ</string>
     <string name="app_version">Alkalmazás verzió: %s</string>
     <string name="device_os">Eszköz OS: %s</string>
-    <string name="donate_please"><![CDATA[Hello,<br><br>
+    <string name="donate_please">Hello,<br><br>
             remélem tetszett az alkalmazás. Nem tartalmaz hirdetéseket. Kérem támogasd a fejlesztést a <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> megvásárlásával. Utána ez a párbeszédablak sem látszik újra.<br><br>
-            Köszönöm!]]></string>
+            Köszönöm!</string>
     <string name="purchase">Vásárlás</string>
     <string name="update_thank_you">Kérjük frissítse a Simple Thank You alkalmazást a legújabb verzióra</string>
     <string name="before_asking_question_read_faq">Mielőtt feltenné a kérdését, először nézze meg a Gyakran Ismételt Kérdéseket, abban talán már létezik a megoldás.</string>
     <string name="read_it">Olvassa el</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app"><![CDATA[Szia!<br><br>
+    <string name="new_app">Szia!<br><br>
             csak tájékoztatni szeretnélek, hogy megjelent egy új alkalmazás:<br><br>
             <a href="%1$s">%2$s</a><br><br>
             A címre kattintva lehet letölteni.<br><br>
-            Köszönöm]]></string>
+            Köszönöm</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Gyakran Ismételt Kérdések</string>
     <string name="before_asking_question">Mielőtt feltenné egy kérdést, először olvassa el ezt:</string>

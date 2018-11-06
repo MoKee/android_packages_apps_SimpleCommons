@@ -164,7 +164,7 @@
     <string name="save_before_closing">Imate neshranjene spremembe. Jih želite shraniti pred izhodom?</string>
     <string name="apply_to_all_apps">Uveljavite barve za vse aplikacije iz serije Simple Apps</string>
     <string name="share_colors_success">Barve so bile uspešno posodobljene. Nova tema \'Deljeno\' je bila dodana. V prihodnje za spreminjanje barv uporabljajte to.</string>
-    <string name="purchase_thank_you"><![CDATA[Prosimo, kupite aplikacijo <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>, da odklenete to funkcijo in podpirate razvov. Hvala!]]></string>
+    <string name="purchase_thank_you">Prosimo, kupite aplikacijo <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>, da odklenete to funkcijo in podpirate razvov. Hvala!</string>
     <!-- Themes -->
     <string name="light_theme">Svetlo</string>
     <string name="dark_theme">Temno</string>
@@ -500,18 +500,18 @@
     <string name="additional_info">Dodatne informacije</string>
     <string name="app_version">Različica aplikacije: %s</string>
     <string name="device_os">Operacijski sistem: %s</string>
-    <string name="donate_please"><![CDATA[Podzravljeni,<br><br>
+    <string name="donate_please">Podzravljeni,<br><br>
             upamo, da vam je aplikacija všeč. Ne vsebuje oglasov, zato vas prosimo, da podprete razvoj z nakupom aplikacije <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>. S tem bo tudi to sporočilo izginilo.<br><br>
-            Hvala!]]></string>
+            Hvala!</string>
     <string name="purchase">Kupi</string>
     <string name="before_asking_question_read_faq">Preden postavite vprašanje, preberite Pogosta vprašanja</string>
     <string name="read_it">Preberite</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app"><![CDATA[Pozdravljeni,<br><br>
+    <string name="new_app">Pozdravljeni,<br><br>
             želimo vam sporočiti, da smo pred kratkim objavili novo aplikacijo:<br><br>
             <a href="%1$s">%2$s</a><br><br>
             Prenesete jo lahko s klikom na naslov.<br><br>
-            Hvala]]></string>
+            Hvala</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Pogosta vprašanja</string>
     <string name="before_asking_question">Preden postavite vprašanje, preberite</string>
