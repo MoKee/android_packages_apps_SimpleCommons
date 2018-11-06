@@ -138,7 +138,7 @@
     <string name="save_before_closing">Sinulla on tallentamattomia muutoksia. Tallennetaanko ennen sulkemista?</string>
     <string name="apply_to_all_apps">Käytä värejä kaikissa Simple App -sovelluksissa</string>
     <string name="share_colors_success">Värit päivitetty. Uusi teema nimeltä \'Jaettu\' käytä sitä jatkossa muokataksesi värejä kaikissa sovelluksissa.</string>
-    <string name="purchase_thank_you"><![CDATA[Osta <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!]]></string>
+    <string name="purchase_thank_you">Osta <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!</string>
     <!-- Themes -->
     <string name="light_theme">Vaalea</string>
     <string name="dark_theme">Tumma</string>
@@ -380,16 +380,16 @@
     <string name="additional_info">Lisätietoa</string>
     <string name="app_version">Sovelluksen versio: %s</string>
     <string name="device_os">Laitteen käyttöjärjestelmä: %s</string>
-    <string name="donate_please"><![CDATA[Hei,<br><br>
+    <string name="donate_please">Hei,<br><br>
             toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, tue sen kehitystä ostamalla <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> sovellus, tämä myös estää tämän ilmoituksen jatkossa.<br><br>
-            Kiitos!]]></string>
+            Kiitos!</string>
     <string name="purchase">Osta</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app"><![CDATA[Hei,<br><br>
+    <string name="new_app">Hei,<br><br>
             halusin vain kertoa että uusi sovellus on julkaistu:<br><br>
             <a href="%1$s">%2$s</a><br><br>
             Voit ladata sen koskettamalla otsikkoa.<br><br>
-            Kiitos!]]></string>
+            Kiitos!</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Usein kysytyt kysymykset</string>
     <string name="faq_1_title_commons">Miksi en näe tämän sovelluksen widgettiä widget-valikossa?</string>

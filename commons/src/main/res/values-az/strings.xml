@@ -156,7 +156,7 @@
     <string name="save_before_closing">Yadda saxlamadığınız dəyişikliklər var. Çıxmazdan əvvəl saxlanılsın?</string>
     <string name="apply_to_all_apps">Rəngləri bütün Simple Apps tətbiqlərinə şamil et</string>
     <string name="share_colors_success">Rənglər uğurla yeniləndi. \'Paylanmış\' adlı yeni tema əlavə edildi, xahiş olunur gələcəkdə bütün tətbiqlərin yeniləmələri üçün bundan istifadə edin.</string>
-    <string name="purchase_thank_you"><![CDATA[Lütfən bağış edin <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Bu funksiyanı açdığınız və təkmilləşdirməni dəstəklədiyiniz üçün Sadə Təşəkkür</a>. Çox Sağolun!]]></string>
+    <string name="purchase_thank_you">Lütfən bağış edin <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Bu funksiyanı açdığınız və təkmilləşdirməni dəstəklədiyiniz üçün Sadə Təşəkkür</a>. Çox Sağolun!</string>
     <!-- Themes -->
     <string name="light_theme">İşıqlı</string>
     <string name="dark_theme">Qaranlıq</string>
@@ -443,9 +443,9 @@
     <string name="additional_info">Əlavə məlumat</string>
     <string name="app_version">Tətbiq versiyası: %s</string>
     <string name="device_os">Cihaz ƏS: %s</string>
-    <string name="donate_please"><![CDATA[Salam,<br><br>
+    <string name="donate_please">Salam,<br><br>
             arzu edirəm tətbiqdən zövq alırsan. Reklam ehtiva etmir, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
-            Thank you!]]></string>
+            Thank you!</string>
     <string name="purchase">Ödəniş Et</string>
     <string name="update_thank_you">Xahiş olunur Sadə Təşəkkür tətbiqini ən son versiyaya yeniləyin</string>
     <string name="before_asking_question_read_faq">Sual verməmişdən qabaq, Tez-tez soruşulan sualları oxuyun, ola bilər cavab oradadır.</string>

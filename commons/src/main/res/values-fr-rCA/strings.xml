@@ -156,7 +156,7 @@
     <string name="save_before_closing">Vous avez des changements non sauvegardés. Sauvegarder avant de quitter ?</string>
     <string name="apply_to_all_apps">Appliquer ces couleurs à toutes les Applis Simples</string>
     <string name="share_colors_success">Couleurs mises à jour. Un nouveau thème nommé \'Partagé\' a été ajouté, veuillez utiliser celui-ci pour mettre à jour les couleurs de toutes les applis à partir de maintenant.</string>
-    <string name="purchase_thank_you"><![CDATA[Veuillez acquérir <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Un petit Merci</a> pour déverrouiller cette fonctionnalité et soutenir le développeur. Merci!]]></string>
+    <string name="purchase_thank_you">Veuillez acquérir <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Un petit Merci</a> pour déverrouiller cette fonctionnalité et soutenir le développeur. Merci!</string>
     <!-- Themes -->
     <string name="light_theme">Clair</string>
     <string name="dark_theme">Sombre</string>
@@ -440,19 +440,19 @@
     <string name="additional_info">Info supplémentaire</string>
     <string name="app_version">Version appli : %s</string>
     <string name="device_os">OS appareil : %s</string>
-    <string name="donate_please"><![CDATA[Salut,<br><br>
+    <string name="donate_please">Salut,<br><br>
             nous espérons que vous appréciez cette appli. Elle ne contient aucune publicité, mais vous pouvez soutenir son développement en achetant l\'appli <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Un petit Merci</a>. Cela nous permettra également de ne plus vous montrer cette boite de dialogue.<br><br>
-            Merci !]]></string>
+            Merci !</string>
     <string name="purchase">Acheter</string>
     <string name="update_thank_you">Veuillez mettre à jour Simple Merci à la dernière version</string>
     <string name="before_asking_question_read_faq">Avant de vous posez une question, veuillez lire la Foire aux Questions tout d’abord, peut-être que la solution y est.</string>
     <string name="read_it">Le lire</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app"><![CDATA[Hey,<br><br>
+    <string name="new_app">Hey,<br><br>
             Nous voulions juste vous faire savoir qu\'une nouvelle app est sortie récemment:<br><br>
             <a href="%1$s">%2$s</a><br><br>
             Vous pouvez la télécharger en appuyant sur le titre.<br><br>
-            Merci]]></string>
+            Merci</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Foire aux questions (FAQ)</string>
     <string name="before_asking_question">Avant de poser une question, lisez d\'abord le</string>

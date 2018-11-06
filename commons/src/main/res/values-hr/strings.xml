@@ -158,7 +158,7 @@
     <string name="save_before_closing">Imate ne spremljene promjene. Želite li spremiti prije izlaska?</string>
     <string name="apply_to_all_apps">Primjeni boje na sve Simple Aplikacije</string>
     <string name="share_colors_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
-    <string name="purchase_thank_you"><![CDATA[Molimo kupite <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> za otključavanje ove funkcije i podršku razvoju. Hvala!]]></string>
+    <string name="purchase_thank_you">Molimo kupite <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> za otključavanje ove funkcije i podršku razvoju. Hvala!</string>
     <!-- Themes -->
     <string name="light_theme">Svijetla</string>
     <string name="dark_theme">Tamna</string>
@@ -465,19 +465,19 @@
     <string name="additional_info">Dodatne informacije</string>
     <string name="app_version">Verzija aplikacije: %s</string>
     <string name="device_os">OS uređaja: %s</string>
-    <string name="donate_please"><![CDATA[Pozdrav,<br><br>
+    <string name="donate_please">Pozdrav,<br><br>
             nadam se da uživate u aplikaciji. Ne sadrži reklame, stoga nas podržite njen razvoj kupovinom <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> aplikacije, što će spriječiti da se ovaj prozor ponovno pojavljuje.<br><br>
-            Hvala Vam!]]></string>
+            Hvala Vam!</string>
     <string name="purchase">Kupi</string>
     <string name="update_thank_you">Molim ažurirajte Jednostavno hvala na najnoviju verziju</string>
     <string name="before_asking_question_read_faq">Prije nego što postavite pitanje, najprije pročitajte Često postavljana pitanja, možda postoji rješenje.</string>
     <string name="read_it">Pročitajte</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app"><![CDATA[Hej,<br><br>
+    <string name="new_app">Hej,<br><br>
             samo da te obavijestim da je nova aplikacija nedavno objavljena:<br><br>
             <a href="%1$s">%2$s</a><br><br>
             Možeš je preuzeti pritiskom na naslov.<br><br>
-            Hvala]]></string>
+            Hvala</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Često postavljenja pitanja</string>
     <string name="before_asking_question">Prije postavljanja pitanja, najprije pročitajte</string>

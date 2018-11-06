@@ -155,7 +155,7 @@
     <string name="save_before_closing">Έχετε αλλαγές που δεν έχουν αποθηκευτεί. Αποθήκευση πριν από την έξοδο?</string>
     <string name="apply_to_all_apps">Εφαρμογή χρωμάτων σε όλες τις Simple Apps</string>
     <string name="share_colors_success">Τα χρώματα ενημερώθηκαν με επιτυχία. Ένα νέο θέμα που ονομάζεται  \"Κοινόχρηστο\" έχει προστεθεί, παρακαλούμε να χρησιμοποιήστε το για την ενημέρωση των χρωμάτων όλων των εφαρμ. στο μέλλον.</string>
-    <string name="purchase_thank_you"><![CDATA[Παρακαλώ αγοράστε <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> για να ξεκλειδώσετε αυτή τη λειτουργία και να υποστηρίξει την ανάπτυξη. Ευχαριστώ!]]></string>
+    <string name="purchase_thank_you">Παρακαλώ αγοράστε <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> για να ξεκλειδώσετε αυτή τη λειτουργία και να υποστηρίξει την ανάπτυξη. Ευχαριστώ!</string>
     <!-- Themes -->
     <string name="light_theme">Φωτεινό</string>
     <string name="dark_theme">Σκούρο</string>
@@ -450,19 +450,19 @@
     <string name="additional_info">Πρόσθετες πληροφορίες</string>
     <string name="app_version">Έκδοση εφαρμογής: %s</string>
     <string name="device_os">OS Συσκευής: %s</string>
-    <string name="donate_please"><![CDATA[Γειά σας,<br><br>
+    <string name="donate_please">Γειά σας,<br><br>
             Ελπίζω να απολαμβάνετε την εφαρμογή. Δεν περιέχει διαφημίσεις, παρακαλώ υποστηρίξτε την ανάπτυξή της με την αγορά στο <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>, θα αποτρέψει επίσης την εμφάνιση αυτού του διαλόγου.<br><br>
-            Ευχαριστώ!]]></string>
+            Ευχαριστώ!</string>
     <string name="purchase">Αγορά</string>
     <string name="update_thank_you">Παρακαλώ ενημερώστε Simple Thank You στην τελευταία έκδοση</string>
     <string name="before_asking_question_read_faq">Πρίν κάνετε μια ερώτηση, παρακαλώ διαβάστε τις Συχνά Ερωτήσεις πρώτα, ίσως η λύση είναι εκεί.</string>
     <string name="read_it">Διαβάστε τις</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app"><![CDATA[Γειά σας,<br><br>
+    <string name="new_app">Γειά σας,<br><br>
            απλά σας ενημερώνω ότι πρόσφατα κυκλοφόρησε μια νέα εφαρμογή:<br><br>
             <a href="%1$s">%2$s</a><br><br>
             Μπορείτε να την κατεβάσετε πατώντας τον τίτλο.<br><br>
-            Ευχαριστώ]]></string>
+            Ευχαριστώ</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Συχνές ερωτήσεις</string>
     <string name="before_asking_question">Πριν κάνετε μια ερώτηση, διαβάστε πρώτα το</string>

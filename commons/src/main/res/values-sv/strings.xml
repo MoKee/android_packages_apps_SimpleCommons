@@ -160,7 +160,7 @@
     <string name="save_before_closing">Du har ändringar som inte är sparade. Spara innan du lämnar?</string>
     <string name="apply_to_all_apps">Använd färgerna i alla Simple-appar</string>
     <string name="share_colors_success">Färgerna har uppdaterats. Ett nytt Tema som heter \'Delat\' har lagts till, använd det för att uppdatera alla apparnas färger i framtiden.</string>
-    <string name="purchase_thank_you"><![CDATA[Köp <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> för att låsa upp denna funktion och stödja utvecklingen. Tack!]]></string>
+    <string name="purchase_thank_you">Köp <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> för att låsa upp denna funktion och stödja utvecklingen. Tack!</string>
     <!-- Themes -->
     <string name="light_theme">Ljust</string>
     <string name="dark_theme">Mörkt</string>
@@ -447,17 +447,17 @@
     <string name="additional_info">Ytterligare info</string>
     <string name="app_version">Appversion: %s</string>
     <string name="device_os">Enhetens operativsystem: %s</string>
-    <string name="donate_please"><![CDATA[Hej,<br><br>
+    <string name="donate_please">Hej,<br><br>
             jag hoppas att du gillar appen. Den innehåller ingen reklam. Stöd dess utveckling genom att köpa appen <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>, som även hindrar den här dialogrutan från att visas igen.<br><br>
-            Tack!]]></string>
+            Tack!</string>
     <string name="purchase">Köp</string>
     <string name="update_thank_you">Uppdatera Simple Thank You till den senaste versionen</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app"><![CDATA[Hej,<br><br>
+    <string name="new_app">Hej,<br><br>
             jag vill bara meddela att en ny app nyligen har publicerats:<br><br>
             <a href="%1$s">%2$s</a><br><br>
             Du kan hämta den genom att trycka på titeln.<br><br>
-            Tack]]></string>
+            Tack</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Frågor och svar</string>
     <string name="before_asking_question">Innan du ställer en fråga, läs först</string>
