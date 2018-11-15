@@ -189,7 +189,7 @@
     <string name="solarized">Solarized</string>
     <string name="dark_red">Dark red</string>
     <string name="black_white">Black &amp; White</string>
-    <string name="custom">מותאם אישית</string>
+    <string name="custom">Custom</string>
     <string name="shared">Shared</string>
 
     <!-- What's new -->
@@ -360,7 +360,7 @@
     <string name="snooze">Snooze</string>
     <string name="dismiss">Dismiss</string>
     <string name="no_reminder">No reminder</string>
-    <string name="at_start">בהתחלה</string>
+    <string name="at_start">At start</string>
     <string name="system_sounds">System sounds</string>
     <string name="your_sounds">Your sounds</string>
     <string name="add_new_sound">Add a new sound</string>
@@ -439,18 +439,18 @@
     <string name="wrong_root_selected_otg">Wrong folder selected, please select the root folder of your OTG device</string>
 
     <!-- Dates -->
-    <string name="january">ינואר</string>
-    <string name="february">פברואר</string>
-    <string name="march">מרץ</string>
-    <string name="april">אפריל</string>
-    <string name="may">מאי</string>
-    <string name="june">יוני</string>
-    <string name="july">יולי</string>
-    <string name="august">אוגוסט</string>
-    <string name="september">ספטמבר</string>
-    <string name="october">אוקטובר</string>
-    <string name="november">נובמבר</string>
-    <string name="december">דצמבר</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
 
     <!-- in January -->
     <string name="in_january">in January</string>
@@ -474,13 +474,13 @@
     <string name="saturday">Saturday</string>
     <string name="sunday">Sunday</string>
 
-    <string name="monday_letter">ב\'</string>
-    <string name="tuesday_letter">ג\'</string>
-    <string name="wednesday_letter">ד\'</string>
-    <string name="thursday_letter">ה\'</string>
-    <string name="friday_letter">ו\'</string>
-    <string name="saturday_letter">ש\'</string>
-    <string name="sunday_letter">א\'</string>
+    <string name="monday_letter">M</string>
+    <string name="tuesday_letter">T</string>
+    <string name="wednesday_letter">W</string>
+    <string name="thursday_letter">T</string>
+    <string name="friday_letter">F</string>
+    <string name="saturday_letter">S</string>
+    <string name="sunday_letter">S</string>
 
     <string name="monday_short">Mon</string>
     <string name="tuesday_short">Tue</string>
