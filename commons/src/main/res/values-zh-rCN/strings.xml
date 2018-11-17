@@ -450,19 +450,11 @@
     <string name="additional_info">额外信息</string>
     <string name="app_version">应用版本：%s</string>
     <string name="device_os">设备系统：%s</string>
-    <string name="donate_please">你好，<br><br>
-            希望你喜欢这个应用。它不包含广告，所以请购买<a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> 这个应用支持一下，这样此对话框将不再出现。<br><br>
-            非常感谢！</string>
     <string name="purchase">购买</string>
     <string name="update_thank_you">请更新 Simple Thank You 到最新版本</string>
     <string name="before_asking_question_read_faq">提问前请先阅读常见问题列表，或许已经有回答。</string>
     <string name="read_it">阅读</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app">嘿，<br><br>
-            最近发布了一个新的应用：<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            你可以点击标题来下载。<br><br>
-            谢谢。</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">常见问题</string>
     <string name="before_asking_question">在提问之前，请先阅读</string>

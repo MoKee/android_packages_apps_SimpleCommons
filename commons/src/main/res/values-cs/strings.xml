@@ -517,21 +517,11 @@
     <string name="additional_info">Další informace</string>
     <string name="app_version">Verze aplikace: %s</string>
     <string name="device_os">OS zařízení: %s</string>
-    <string name="donate_please"><![CDATA[            Ahoj,<br><br>
-            doufám, že se vám aplikace líbí. Neobsahuje žádné reklamy, podpořte prosím její vývoj zakoupením aplikace <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>, to také zabrání tomu, aby se tento dialog znovu zobrazoval.<br><br>
-            Děkuji!
-        ]]></string>
     <string name="purchase">Zakoupit</string>
     <string name="update_thank_you">Prosím aktualizujte Simple Thank You na nejnovější verzi</string>
     <string name="before_asking_question_read_faq">Než se něco zeptáte, přečtěte si prosím FAQ, možná tam najdete svou odpověď.</string>
     <string name="read_it">Čtěte</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app"><![CDATA[            Ahoj,<br><br>
-            jen vám chci oznámit, že byla nedávno vydána nová aplikace:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            Můžete ji stáhnout klepnutím na název.<br><br>
-            Děkuji
-        ]]></string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Často kladené otázky</string>
     <string name="before_asking_question">Před položením otázky, prosím nejprve čtěte</string>

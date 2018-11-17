@@ -420,17 +420,9 @@
     <string name="additional_info">Informações adicionais</string>
     <string name="app_version">Versão do app: %s</string>
     <string name="device_os">Sistema operacional: %s</string>
-    <string name="donate_please">Olá,<br><br>
-            Esperamos que esteja gostando do app. Ele não contém anúncios, então apoie o desenvolvimento adquirindo o <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Agradecimento ao Simple</a>, ele também bloqueia este diálogo de aparecer.<br><br>
-            Obrigado!</string>
     <string name="purchase">Comprar</string>
     <string name="update_thank_you">Por favor, atualize o Simple Thank You para a versão mais recente</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app">Ei,<br><br>
-            apenas informando que um novo aplicativo foi lançado recentemente:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            Você pode baixá-lo pressionando o título.<br><br>
-            Obrigado</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Perguntas frequentes</string>
     <string name="before_asking_question">Antes de fazer uma pergunta, leia primeiro a</string>

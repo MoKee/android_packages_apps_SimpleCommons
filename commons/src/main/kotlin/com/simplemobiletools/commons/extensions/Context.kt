@@ -377,17 +377,6 @@ fun Context.getUriMimeType(path: String, newUri: Uri): String {
 
 fun Context.isThankYouInstalled() = true
 
-fun Context.isAProApp() = packageName.startsWith("com.simplemobiletools.") && packageName.removeSuffix(".debug").endsWith(".pro")
-
-//fun Context.isPackageInstalled(pkgName: String): Boolean {
-//    return try {
-//        packageManager.getPackageInfo(pkgName, 0)
-//        true
-//    } catch (e: Exception) {
-//        false
-//    }
-//}
-
 // format day bits to strings like "Mon, Tue, Wed"
 fun Context.getSelectedDaysString(bitMask: Int): String {
     val dayBits = arrayListOf(MONDAY_BIT, TUESDAY_BIT, WEDNESDAY_BIT, THURSDAY_BIT, FRIDAY_BIT, SATURDAY_BIT, SUNDAY_BIT)

@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.dialogs
+/*package com.simplemobiletools.commons.dialogs
 
 import android.app.Activity
 import android.text.Html
@@ -22,4 +22,4 @@ class NewAppDialog(val activity: Activity, val packageName: String, val title: S
                     activity.setupDialogStuff(view, this)
                 }
     }
-}
+}*/

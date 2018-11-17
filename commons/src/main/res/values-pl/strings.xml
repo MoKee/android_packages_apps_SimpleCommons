@@ -492,20 +492,11 @@
     <string name="additional_info">Dodatkowe informacje</string>
     <string name="app_version">Wersja aplikacji: %s</string>
     <string name="device_os">System: %s</string>
-    <string name="donate_please">Witaj!<br><br>
-            Mamy nadzieję, że aplikacja przypadła Ci do gustu. Jak da się zauważyć, nie zawiera ona reklam, prosimy więc o wsparcie jej rozwoju poprzez zakup specjalnej aplikacji <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Proste Podziękowanie</a>, co poskutkuje również wyłączeniem tego komunikatu.<br><br>
-            Dziękujemy!</string>
     <string name="purchase">Kup</string>
     <string name="update_thank_you">Zaktualizuj aplikcję Proste Podziękowanie do najnowszej wersji</string>
     <string name="before_asking_question_read_faq">Zanim zadasz pytanie, przeczytaj \'Najczęściej zadawane pytania\'. Być może rozwiązanie Twojego problemu już tam jest.</string>
     <string name="read_it">Przeczytaj</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app">           Cześć!<br><br>
-            Dajemy Ci znać, że ostatnio wyszła nowa aplikacja:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            Możesz ją pobrać, klikając powyższy odnośnik.<br><br>
-            Dziękujemy!
-        </string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Często zadawane pytania (FAQ)</string>
     <string name="before_asking_question">Zanim zadasz pytanie, przeczytaj najpierw</string>

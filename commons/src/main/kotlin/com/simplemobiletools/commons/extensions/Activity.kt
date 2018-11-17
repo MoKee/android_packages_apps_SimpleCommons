@@ -108,18 +108,18 @@ fun Activity.appLaunched(appId: String) {
         }
     }
     baseConfig.appRunCount++
-    if (baseConfig.appRunCount % 50 == 0 && !isAProApp()) {
-        showDonateOrUpgradeDialog()
-    }
+//    if (baseConfig.appRunCount % 50 == 0 && !isAProApp()) {
+//        showDonateOrUpgradeDialog()
+//    }
 }
 
-fun Activity.showDonateOrUpgradeDialog() {
-    if (getCanAppBeUpgraded()) {
-        UpgradeToProDialog(this)
-    } else if (!baseConfig.hadThankYouInstalled && !isThankYouInstalled()) {
-        DonateDialog(this)
-    }
-}
+//fun Activity.showDonateOrUpgradeDialog() {
+//    if (getCanAppBeUpgraded()) {
+//        UpgradeToProDialog(this)
+//    } else if (!baseConfig.hadThankYouInstalled && !isThankYouInstalled()) {
+//        DonateDialog(this)
+//    }
+//}
 
 fun Activity.isAppInstalledOnSDCard(): Boolean = try {
     val applicationInfo = packageManager.getPackageInfo(packageName, 0).applicationInfo

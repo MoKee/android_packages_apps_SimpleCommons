@@ -456,19 +456,10 @@
     <string name="additional_info">Zusätzliche Infos</string>
     <string name="app_version">App-Version: %s</string>
     <string name="device_os">Betriebssystem: %s</string>
-    <string name="donate_please">Hallo!,<br><br>
-            Ich hoffe diese App gefällt dir. Sie beinhaltet keine Werbung, daher unterstütze bitte die Entwicklung durch den Kauf der <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> App. Dadurch wird auch dieser Dialog künftig nicht mehr angezeigt.<br><br>
-            Vielen Dank!</string>
     <string name="purchase">Kaufen</string>
     <string name="update_thank_you">Bitte Simple Thank You auf die neueste Version aktualisieren</string>
     <string name="before_asking_question_read_faq">Vor einer Frage bitte die FAQ (häufig gestellte Fragen) lesen, oft findet sich dort bereits die Antwort.</string>
     <string name="read_it">Bitte lesen</string>
-    <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app">Hey,<br><br>
-            nur eine kleine Info zu einer neu veröffentlichten App:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            Du kannst sie durch Drücken auf den Namen herunterladen.<br><br>
-            Danke</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Häufig gestellte Fragen</string>
     <string name="before_asking_question">Bevor du eine Frage stellst, bitte lies diese Seite:</string>

@@ -421,19 +421,10 @@
     <string name="donate_underlined"><u>Donér</u></string>
     <string name="follow_us">Følg os</string>
     <string name="additional_info">Yderligere info</string>
-    <string name="donate_please">Hej<br><br>
-            Håber du kan lide denne app. Den indeholder ingen reklamer, så vær sød at købe appen <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>, som også vil forhindre at denne besked vises igen.<br><br>
-            På forhånd tak!</string>
     <string name="purchase">Køb</string>
     <string name="update_thank_you">Opdater venligst Simple Thank You til den seneste version</string>
     <string name="before_asking_question_read_faq">Inden du stiller et spørgsmål, bør du lige tjekke Ofte stillede spørgsmål, som måske allerede indeholder svaret.</string>
     <string name="read_it">Læs det</string>
-    <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app">Hej<br><br>
-            - synes lige du skulle vide at der er kommet en ny app:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            Du kan downloade den med et klik på titlen.<br><br>
-            Tak</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Ofte stillede spørgsmål</string>
     <string name="before_asking_question">Inden du stiller et spørgsmål bedes du først læse</string>

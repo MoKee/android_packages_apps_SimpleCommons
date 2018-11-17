@@ -443,9 +443,6 @@
     <string name="additional_info">Əlavə məlumat</string>
     <string name="app_version">Tətbiq versiyası: %s</string>
     <string name="device_os">Cihaz ƏS: %s</string>
-    <string name="donate_please">Salam,<br><br>
-            arzu edirəm tətbiqdən zövq alırsan. Reklam ehtiva etmir, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
-            Thank you!</string>
     <string name="purchase">Ödəniş Et</string>
     <string name="update_thank_you">Xahiş olunur Sadə Təşəkkür tətbiqini ən son versiyaya yeniləyin</string>
     <string name="before_asking_question_read_faq">Sual verməmişdən qabaq, Tez-tez soruşulan sualları oxuyun, ola bilər cavab oradadır.</string>

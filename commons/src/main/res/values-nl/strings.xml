@@ -449,19 +449,11 @@
     <string name="additional_info">Extra informatie</string>
     <string name="app_version">Versie: %s</string>
     <string name="device_os">Besturingssysteem: %s</string>
-    <string name="donate_please">Hallo,<br><br>
-            Hopelijk vindt u dit een fijne app. Het bevat geen advertenties, maar u kunt de verdere ontwikkeling wel ondersteunen door de app <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> aan te schaffen. Dit zal ook voorkomen dat dit venster nog eens verschijnt.<br><br>
-            Dank u wel!</string>
     <string name="purchase">Kopen</string>
     <string name="update_thank_you">Er is een nieuwe versie van Simple Thank You</string>
     <string name="before_asking_question_read_faq">Kijk bij problemen eerst naar de Veelgestelde vragen. Wellicht staat de oplossing daar beschreven.</string>
     <string name="read_it">Nu lezen</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app">Hallo,<br><br>
-            Er is recentelijk een nieuwe app uitgebracht:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            Downloaden kan door een druk op de naam hierboven.<br><br>
-            Dank u wel!</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Veelgestelde vragen</string>
     <string name="before_asking_question">Voor het stellen van een vraag, lees eerst de</string>

@@ -517,21 +517,11 @@
     <string name="additional_info">Дополнительная информация</string>
     <string name="app_version">Версия приложения: %s</string>
     <string name="device_os">ОС устройства: %s</string>
-    <string name="donate_please"><![CDATA[            Привет,<br><br>
-            надеюсь, вам нравится приложение. Оно не содержит рекламы, поэтому, пожалуйста, поддержите разработку, купив приложение <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>. Покупка также предотвратит повторное появление данного диалогового окна.<br><br>
-            Спасибо!
-        ]]></string>
     <string name="purchase">Купить</string>
     <string name="update_thank_you">Пожалуйста, обновите \"Simple Thank You\" до последней версии.</string>
     <string name="before_asking_question_read_faq">Прежде чем задать вопрос, пожалуйста, прочтите ответы на часто задаваемые вопросы (FAQ), возможно, решение уже есть.</string>
     <string name="read_it">Прочитать</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app"><![CDATA[            Привет,<br><br>
-            просто сообщаю, что недавно было выпущено новое приложение:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            Вы можете скачать его, нажав на заголовок.<br><br>
-            Спасибо
-        ]]></string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Часто задаваемые вопросы</string>
     <string name="before_asking_question">Перед тем как задать вопрос, пожалуйста, сначала прочитайте</string>

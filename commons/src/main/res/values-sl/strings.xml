@@ -512,19 +512,11 @@
     <string name="additional_info">Dodatne informacije</string>
     <string name="app_version">Različica aplikacije: %s</string>
     <string name="device_os">Operacijski sistem: %s</string>
-    <string name="donate_please">Podzravljeni,<br><br>
-            upamo, da vam je aplikacija všeč. Ne vsebuje oglasov, zato vas prosimo, da podprete razvoj z nakupom aplikacije <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>. S tem bo tudi to sporočilo izginilo.<br><br>
-            Hvala!</string>
     <string name="purchase">Kupi</string>
     <string name="update_thank_you">Prosimo nadgradite Simple Thank You na zadnjo verzijo</string>
     <string name="before_asking_question_read_faq">Preden postavite vprašanje, preberite Pogosta vprašanja</string>
     <string name="read_it">Preberite</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app">Pozdravljeni,<br><br>
-            želimo vam sporočiti, da smo pred kratkim objavili novo aplikacijo:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            Prenesete jo lahko s klikom na naslov.<br><br>
-            Hvala</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Pogosta vprašanja</string>
     <string name="before_asking_question">Preden postavite vprašanje, preberite</string>

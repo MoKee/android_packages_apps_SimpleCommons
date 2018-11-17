@@ -380,16 +380,8 @@
     <string name="additional_info">Lisätietoa</string>
     <string name="app_version">Sovelluksen versio: %s</string>
     <string name="device_os">Laitteen käyttöjärjestelmä: %s</string>
-    <string name="donate_please">Hei,<br><br>
-            toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, tue sen kehitystä ostamalla <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> sovellus, tämä myös estää tämän ilmoituksen jatkossa.<br><br>
-            Kiitos!</string>
     <string name="purchase">Osta</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app">Hei,<br><br>
-            halusin vain kertoa että uusi sovellus on julkaistu:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            Voit ladata sen koskettamalla otsikkoa.<br><br>
-            Kiitos!</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Usein kysytyt kysymykset</string>
     <string name="faq_1_title_commons">Miksi en näe tämän sovelluksen widgettiä widget-valikossa?</string>

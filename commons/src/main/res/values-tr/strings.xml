@@ -473,21 +473,11 @@
     <string name="additional_info">Ek bilgiler</string>
     <string name="app_version">Uygulama sürümü: %s</string>
     <string name="device_os">Cihaz İS: %s</string>
-    <string name="donate_please"><![CDATA[            Merhaba,<br><br>
-            umarım uygulamadan memnunsunuzdur. Hiçbir reklam içermiyor, bu yüzden lütfen <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> uygulamasını satın alarak geliştirmeyi destekleyip, bu pencerenin tekrar görünmesini de önleyin.<br><br>
-            Teşekkürler!
-        ]]></string>
     <string name="purchase">Satın al</string>
     <string name="update_thank_you">Lütfen en son sürüme güncelleyin teşekkür ederiz</string>
     <string name="before_asking_question_read_faq">Bir soru sormadan önce lütfen sıkça sorulan sorular bölümünü okuyun, belki de çözümü vardır.</string>
     <string name="read_it">Oku</string>
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app"><![CDATA[            Selam,<br><br>
-            kısa bir süre önce yeni uygulamamın yayınlandığını bilmenizi istiyorum:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            Başlığa basarak indirebilirsiniz.<br><br>
-            Teşekkürler
-        ]]></string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Sık sorulan sorular</string>
     <string name="before_asking_question">Bir soru sormadan önce, lütfen şurayı okuyun</string>

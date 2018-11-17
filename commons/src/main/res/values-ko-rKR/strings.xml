@@ -514,31 +514,12 @@
     <string name="additional_info">Additional info</string>
     <string name="app_version">App version: %s</string>
     <string name="device_os">Device OS: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            안녕하세요.<br>
-            우리의 애플리케이션이 도움이 되길 바랍니다.<br>
-            사용하고 계신 애플리케이션은 광고 및 인앱 결제가 없는 무료 애플리케이션이므로 별도의 수익이 발생하지 않습니다.<br>
-            당신이 원하신다면 개발지원을 위해 <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> 앱을 다운받아 지원 하실 수 있습니다.<br>
-            \'Simple Thank You\' 앱이 설치되면 이 다이얼로그는 비 활성화 됩니다.<br>
-            감사합니다.
-        ]]>
-    </string>
     <string name="purchase">구매</string>
     <string name="update_thank_you">Please update Simple Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Before you ask a question, please read the Frequently Asked Questions first, maybe the solution is there.</string>
     <string name="read_it">Read it</string>
 
     <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app">
-        <![CDATA[
-            Hey,<br><br>
-            just letting you know that a new app has been released recently:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            You can download it by pressing the title.<br><br>
-            Thanks
-        ]]>
-    </string>
 
     <!-- FAQ -->
     <string name="frequently_asked_questions">자주 묻는 질문</string>

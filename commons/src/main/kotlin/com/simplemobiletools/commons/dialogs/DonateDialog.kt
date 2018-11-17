@@ -1,4 +1,4 @@
-package com.simplemobiletools.commons.dialogs
+/*package com.simplemobiletools.commons.dialogs
 
 import android.app.Activity
 import android.text.Html
@@ -23,4 +23,4 @@ class DonateDialog(val activity: Activity) {
                     activity.setupDialogStuff(view, this)
                 }
     }
-}
+}*/
