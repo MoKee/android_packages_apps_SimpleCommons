@@ -1,9 +1,9 @@
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
-def siteUrl = 'https://github.com/SimpleMobileTools/Simple-Commons'
-def gitUrl = 'https://github.com/SimpleMobileTools/Simple-Commons.git'
-group = "com.simplemobiletools"
+def siteUrl = 'https://github.com/MoKee/android_packages_apps_SimpleCommons'
+def gitUrl = 'https://github.com/MoKee/android_packages_apps_SimpleCommons.git'
+group = "com.github.MoKee"
 version = propVersionName
 
 install {
