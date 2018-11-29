@@ -101,7 +101,6 @@
     <!-- About -->
     <string name="about">Относно</string>
     <string name="donate">Дарение</string>
-    <!-- New app (do not translate anything on the 4th line) -->
     <!-- FAQ -->
     <!-- License -->
 </resources>
