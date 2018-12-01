@@ -455,7 +455,7 @@
     <string name="it_is_free">Ez ingyenes a következő ideig: %s. Ha a határidőig letölti, akkor örökre ingyen használhatja.</string>
     <string name="more_info">További információ</string>
     <string name="upgrade">Frissítés</string>
-    <string name="upgrade_calendar">A helyileg tárolt eseményeket kézzel kell átvinni egy .ics fájl exportálásával, majd importálással. Az export / import gombok megtalálhatóak a főmenüben.</string>
+    <string name="upgrade_calendar">A helyiben tárolt eseményeket kézzel kell átvinni egy .ics fájl exportálásával, majd importálással. Az export / import gomb megtalálható a főmenüben.</string>
     <!-- About -->
     <string name="about">Névjegy</string>
     <string name="website_label">A forráskódok megtekintéséhez</string>
