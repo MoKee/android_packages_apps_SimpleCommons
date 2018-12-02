@@ -455,6 +455,7 @@
     <string name="it_is_free">Şu ana kadar ücretsizdir: %s. O zamana kadar indirirseniz, sonsuza dek ücretsiz olarak kullanabileceksiniz.</string>
     <string name="more_info">Detaylar</string>
     <string name="upgrade">Yükselt</string>
+    <string name="upgrade_calendar">Yerel olarak saklanan olayları bir .ics dosyasına dışa aktarıp el ile içe aktarmanız gerekir. Ana ekran menüsünde hem dışa aktarma hemde içe aktarma tuşlarını bulabilirsiniz.</string>
     <!-- About -->
     <string name="about">Hakkında</string>
     <string name="website_label">Kaynak kodları için ziyaret edin</string>
