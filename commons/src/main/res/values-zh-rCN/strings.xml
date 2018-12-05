@@ -432,6 +432,7 @@
     <string name="it_is_free">免费期限至: %s. If you download it till then, you will be able to use it for free forever.</string>
     <string name="more_info">更多信息</string>
     <string name="upgrade">升级</string>
+    <string name="upgrade_calendar">你必须手动迁移储存在本地的活动，通过导出.ics文件再接着导入。你可以在主画面菜单中找到 导出/导入 两个按钮。</string>
     <!-- About -->
     <string name="about">关于</string>
     <string name="website_label">应用源码</string>
