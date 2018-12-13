@@ -159,7 +159,6 @@
     <string name="save_before_closing">Vous avez des changements non sauvegardés. Sauvegarder avant de quitter ?</string>
     <string name="apply_to_all_apps">Appliquer ces couleurs à toutes les Applis Simples</string>
     <string name="share_colors_success">Couleurs mises à jour. Un nouveau thème nommé \'Partagé\' a été ajouté, veuillez utiliser celui-ci pour mettre à jour les couleurs de toutes les applis à partir de maintenant.</string>
-    <string name="purchase_thank_you">Veuillez acquérir <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Un petit Merci</a> pour déverrouiller cette fonctionnalité et soutenir le développeur. Merci!</string>
     <!-- Themes -->
     <string name="light_theme">Clair</string>
     <string name="dark_theme">Sombre</string>

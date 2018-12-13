@@ -161,7 +161,6 @@
     <string name="save_before_closing">尚未儲存變更。離開前是否儲存?</string>
     <string name="apply_to_all_apps">將顏色套用於[簡易]系列全部應用程式</string>
     <string name="share_colors_success">顏色更新成功。新增了一個名為 \'Shared\' 的新主題，以後請使用那個來更新全部應用程式顏色。</string>
-    <string name="purchase_thank_you">請購買 <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> 來解鎖此功能及支持開發者。謝謝!</string>
     <!-- Themes -->
     <string name="light_theme">亮色</string>
     <string name="dark_theme">深色</string>
@@ -378,6 +377,7 @@
     <string name="no_entries_for_exporting">未發現供匯出的項目</string>
     <!-- OTG devices -->
     <string name="otg">OTG</string>
+    <string name="otg_detected">似乎有OTG裝置接上了你的裝置。為確保檔案正確顯示，你必須授予額外的權限。</string>
     <string name="confirm_otg_storage_access_text">請在下個畫面選擇OTG裝置的根目錄，以授予存取權限</string>
     <string name="wrong_root_selected_otg">選擇到錯誤資料夾，請選擇你OTG裝置的根目錄</string>
     <!-- Dates -->

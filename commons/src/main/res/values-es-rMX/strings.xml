@@ -157,7 +157,6 @@
     <string name="save_before_closing">Tiene cambios sin aplicar. ¿Guardar antes de salir?</string>
     <string name="apply_to_all_apps">Aplicar colores a todas las aplicaciones Simple Apps</string>
     <string name="share_colors_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Shared\', Por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
-    <string name="purchase_thank_you">Por favor comrpa <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> para desbloquear esta función y ayudar al desarrollo. Gracias!</string>
     <!-- Themes -->
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Oscuro</string>
