@@ -7,7 +7,7 @@
     <string name="out_of_memory_error">Errore: memoria esaurita</string>
     <string name="an_error_occurred">Si è verificato un errore: %s</string>
     <string name="open_with">Apri con</string>
-    <string name="no_app_found">Non è stata trovata nessuna applicazione valida<string>
+    <string name="no_app_found">Non è stata trovata nessuna applicazione valida</string>
     <string name="set_as">Imposta come</string>
     <string name="value_copied_to_clipboard">Valore copiato negli appunti</string>
     <string name="unknown">Sconosciuto</string>
@@ -178,11 +178,6 @@
     <string name="save_before_closing">Ci sono modifiche non salvate. Salvare prima di uscire?</string>
     <string name="apply_to_all_apps">Applica i colori a tutte le app Simple</string>
     <string name="share_colors_success">Colori aggiornati correttamente. È stato aggiunto un nuovo tema chiamato \'Condiviso\', usa quello per aggiornare tutti i colori dell\'app in futuro.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
-            Acquista <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> per sbloccare questa funzione e supportare lo sviluppo. Grazie!
-        ]]>
-    </string>
 
     <!-- Themes -->
     <string name="light_theme">Chiaro</string>
@@ -517,29 +512,11 @@
     <string name="additional_info">Informazioni aggiuntive</string>
     <string name="app_version">Versione app: %s</string>
     <string name="device_os">OS dispositivo: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Ciao,<br><br>
-            spero che tu sia contento dell\'app. Non contiene pubblicità, per favore supportane lo sviluppo acquistando l\'app <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a>. Inoltre questa finestra non verrà più mostrata.<br><br>
-            Grazie!
-        ]]>
-    </string>
     <string name="purchase">Acquista</string>
     <string name="update_thank_you">Per favore aggiorna Simple Thank You all\'ultima versione</string>
     <string name="before_asking_question_read_faq">Prima di porre una domanda, leggi le domande frequenti, 
 forse la soluzione è già lì.</string>
     <string name="read_it">Leggile</string>
-
-    <!-- New app (do not translate anything on the 4th line) -->
-    <string name="new_app">
-        <![CDATA[
-            Ehi,<br><br>
-	    tanto per farti sapere che è uscita una nuova app di recente:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-	    Puoi scaricarla toccando il titolo.
-            Grazie
-        ]]>
-    </string>
 
     <!-- FAQ -->
     <string name="frequently_asked_questions">Domande frequenti</string>
