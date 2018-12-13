@@ -166,6 +166,7 @@
     <string name="primary_color">Elsődleges szín</string>
     <string name="foreground_color">Előtér szín</string>
     <string name="app_icon_color">Alkalmazás ikon színe</string>
+    <string name="bottom_navigation_bar_color">Bottom navigation bar color</string>
     <string name="restore_defaults">Alapértelmezések visszaállítása</string>
     <string name="change_color">Szín változtatása</string>
     <string name="theme">Téma</string>
@@ -435,7 +436,7 @@
 
     <!-- OTG devices -->
     <string name="otg">OTG</string>
-    <string name="otg_detected">You seem to have an OTG device attached to your device. To make sure its files appear properly, you need to grant additional permissions.</string>
+    <string name="otg_detected">Úgy tűnik, a készülékhez egy OTG eszköz van csatlakoztatva. További engedélyeket kell megadnia, hogy a fájlok megfelelően jelenjenek meg.</string>
     <string name="confirm_otg_storage_access_text">Kérjük, válassza ki az OTG eszköz gyökérmappáját a következő képernyőn, hogy hozzáférést biztosítson</string>
     <string name="wrong_root_selected_otg">Rossz mappát választott ki, válassza ki az OTG eszköz gyökérmappáját</string>
 
