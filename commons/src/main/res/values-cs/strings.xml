@@ -133,6 +133,7 @@
     <string name="sd_card">SD karta</string>
     <string name="root">Root</string>
     <string name="wrong_root_selected">Vybrána neplatná složka, vyberte prosím root složku vaší SD karty</string>
+    <string name="sd_card_usb_same">Cesta k SD kartě a USB zařízení nesmí být stejná</string>
     <string name="app_on_sd_card">Zdá se, že máte aplikaci nainstalovanou na SD kartě, což způsobí nedostupnost widgetů. Ani je neuvidíte na seznamu dostupných widgetů.
          Jde o systémové omezení, čili pokud chcete widgety používat, musíte přesunout aplikaci zpět na interní úložiště.</string>
     <!-- File properties -->
@@ -158,6 +159,7 @@
     <string name="primary_color">Hlavní barva</string>
     <string name="foreground_color">Barva popředí</string>
     <string name="app_icon_color">Barva ikony aplikace</string>
+    <string name="bottom_navigation_bar_color">Barva dolního navigačního panelu</string>
     <string name="restore_defaults">Obnovit výchozí</string>
     <string name="change_color">Změnit barvu</string>
     <string name="theme">Motiv</string>
@@ -442,6 +444,9 @@
     <string name="no_entries_for_exporting">Nebyly nalezeny žádné položky pro export</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
+    <string name="usb_detected">Zdá se, že máte k zařízení připojeno zařízení USB. Chcete-li se ujistit, zda se soubory zobrazují správně, musíte udělit další oprávnění.</string>
+    <string name="confirm_usb_storage_access_text">Na následující obrazovce zvolte root složku USB zařízení pro povolení oprávnění</string>
+    <string name="wrong_root_selected_usb">Vybrána neplatná složka, vyberte root složku vašeho USB zařízení</string>
     <!-- Dates -->
     <string name="january">Leden</string>
     <string name="february">Únor</string>
@@ -494,6 +499,7 @@
     <string name="it_is_free">Je do bezplatné do: %s. Pokud si ji do té doby stáhnete, budete ji moci zdarma navždy používat.</string>
     <string name="more_info">Další informace</string>
     <string name="upgrade">Upgradovat</string>
+    <string name="upgrade_calendar">Musíte migrovat lokálně uložené události ručně prostřednictvím exportu do souboru .ics a následně importovat. V nabídce hlavní obrazovky naleznete tlačítka export/import.</string>
     <!-- About -->
     <string name="about">O aplikaci</string>
     <string name="website_label">Pro zdrojové kódy navštivte</string>

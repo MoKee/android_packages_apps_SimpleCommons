@@ -159,6 +159,7 @@
     <string name="primary_color">Основной цвет</string>
     <string name="foreground_color">Цвет переднего плана</string>
     <string name="app_icon_color">Цвет значка приложения</string>
+    <string name="bottom_navigation_bar_color">Цвет нижней панели навигации</string>
     <string name="restore_defaults">Сбросить к стандартным</string>
     <string name="change_color">Изменить цвет</string>
     <string name="theme">Тема</string>
@@ -443,6 +444,7 @@
     <string name="no_entries_for_exporting">Нет элементов для экспортирования</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
+    <string name="usb_detected">Похоже, к вашему устройству подключено устройство USB. Чтобы убедиться, что файлы на нём отображаются правильно, вам нужно предоставить дополнительные разрешения.</string>
     <string name="confirm_usb_storage_access_text">Пожалуйста, выберите корневую папку USB-устройства на следующем экране, чтобы предоставить к нему доступ.</string>
     <string name="wrong_root_selected_usb">Выбрана неправильная папка. Выберите корневую папку вашего USB-устройства.</string>
     <!-- Dates -->
