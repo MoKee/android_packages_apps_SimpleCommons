@@ -72,6 +72,7 @@
     <!-- Recycle Bin -->
     <!-- Import / Export -->
     <!-- OTG devices -->
+    <string name="usb">ಯುಎಸ್‍ಬಿ</string>
     <!-- Dates -->
     <!-- in January -->
     <string name="monday">ಸೋಮವಾರ</string>

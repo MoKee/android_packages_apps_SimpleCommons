@@ -72,7 +72,6 @@
     <string name="sd_card">Kartu SD</string>
     <string name="root">Akar</string>
     <string name="wrong_root_selected">Folder yang salah dipilih, silakan pilih folder root dari kartu SD Anda</string>
-    <string name="sd_card_otg_same">Kartu SD dan OTG tidak boleh sama</string>
     <string name="app_on_sd_card">Sepertinya aplikasi telah dipasang di kartu SD, yang membuat widget aplikasi tidak tersedia. Anda bahkan tidak akan melihat mereka di daftar widget yang tersedia.
         Ini adalah batasan sistem, jadi jika Anda ingin menggunakan widget, Anda harus memindahkan aplikasi kembali ke penyimpanan internal.</string>
     <!-- File properties -->
@@ -234,6 +233,7 @@
     <!-- Recycle Bin -->
     <!-- Import / Export -->
     <!-- OTG devices -->
+    <string name="usb">USB</string>
     <!-- Dates -->
     <!-- in January -->
     <string name="monday">Senin</string>

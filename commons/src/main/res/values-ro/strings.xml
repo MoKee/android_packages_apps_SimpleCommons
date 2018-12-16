@@ -91,6 +91,7 @@
     <!-- Recycle Bin -->
     <!-- Import / Export -->
     <!-- OTG devices -->
+    <string name="usb">USB</string>
     <!-- Dates -->
     <!-- in January -->
     <string name="monday">Luni</string>

@@ -124,7 +124,7 @@
     <string name="sd_card">Carte SD</string>
     <string name="root">Racine</string>
     <string name="wrong_root_selected">Mauvais dossier sélectionné, veuillez sélectionner le dossier racine de votre carte SD</string>
-    <string name="sd_card_otg_same">Les chemins de la carte SD et du stockage USB OTG ne peuvent être similaires.</string>
+    <string name="sd_card_usb_same">Les chemins de la carte SD et du stockage USB ne peuvent être similaires</string>
     <string name="app_on_sd_card">L\'application semble installée sur une carte SD, ce qui empêche l\'utilisation des widgets de l\'applications. Ils n\'apparaîtront même pas dans la liste des widgets disponibles.
         C\'est une limitation système. Si vous voulez utiliser le widget, vous devez déplacer l\'application vers la mémoire interne.</string>
     <!-- File properties -->
@@ -378,9 +378,9 @@
     <string name="exporting_some_entries_failed">L\'exportation de certains items a échoué</string>
     <string name="no_entries_for_exporting">Aucun item pouvant être exporté n\'a été trouvé</string>
     <!-- OTG devices -->
-    <string name="otg">USB OTG</string>
-    <string name="confirm_otg_storage_access_text">Veuillez choisir le répertoire racine du périphérique USB OTG au prochain écran afin de pouvoir y accèder.</string>
-    <string name="wrong_root_selected_otg">Mauvais répertoire choisi, merci de sélectionner le répertoire racine du périphérique USB OTG.</string>
+    <string name="usb">USB</string>
+    <string name="confirm_usb_storage_access_text">Veuillez sélectionner le répertoire racine du périphérique USB sur l\'écran suivant afin de pouvoir y accéder</string>
+    <string name="wrong_root_selected_usb">Mauvais répertoire sélectionné. Veuillez sélectionner le répertoire racine du périphérique USB.</string>
     <!-- Dates -->
     <string name="january">Janvier</string>
     <string name="february">Février</string>
