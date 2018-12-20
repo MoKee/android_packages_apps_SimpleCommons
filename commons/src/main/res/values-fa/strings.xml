@@ -16,6 +16,7 @@
     <!-- Create new -->
     <string name="folder">پوشه</string>
     <!-- File operation conflicts -->
+    <string name="skip">رد شدن</string>
     <!-- File picker -->
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Storages -->

@@ -65,8 +65,12 @@
     <!-- For example: Postpone reminder by 3 minutes -->
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <!-- Alarms -->
+    <string name="alarm">Аларм</string>
+    <string name="snooze">Одложи</string>
     <string name="dismiss">Одбаци</string>
     <!-- Settings -->
+    <string name="settings">Подешавања</string>
+    <string name="small">Мали</string>
     <string name="medium">Средње</string>
     <string name="widgets">Виџети</string>
     <!-- Setting sections -->
@@ -79,6 +83,7 @@
     <!-- in January -->
     <!-- Pro version -->
     <!-- About -->
+    <string name="about">О програму</string>
     <string name="donate">Донирајте</string>
     <!-- FAQ -->
     <!-- License -->

@@ -16,6 +16,7 @@
     <!-- Copy / Move -->
     <!-- Create new -->
     <!-- File operation conflicts -->
+    <string name="skip">ข้าม</string>
     <!-- File picker -->
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Storages -->
