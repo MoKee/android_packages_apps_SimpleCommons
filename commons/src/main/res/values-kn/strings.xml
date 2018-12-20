@@ -20,14 +20,17 @@
     <!-- Copy / Move -->
     <!-- Create new -->
     <!-- File operation conflicts -->
+    <string name="skip">ಸ್ಕಿಪ್</string>
     <!-- File picker -->
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Storages -->
     <!-- File properties -->
     <string name="path">ಪಥ</string>
     <string name="duration">ಅವಧಿ</string>
+    <string name="exposure_time">ಎಕ್ಸ್‌ಪೋಶರ್ ಸಮಯ</string>
     <string name="camera">ಕ್ಯಾಮರಾ</string>
     <!-- Color customization -->
+    <string name="save">ಉಳಿಸಿ</string>
     <!-- Themes -->
     <string name="dark_theme">ಗಾಢ ಹಿನ್ನೆಲೆ</string>
     <string name="custom">ಕಸ್ಟಮ್</string>

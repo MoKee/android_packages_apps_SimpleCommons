@@ -10,6 +10,8 @@
     <string name="details">פרטים</string>
     <string name="none">ללא</string>
     <!-- Favorites -->
+    <string name="favorites">מועדפים</string>
+    <string name="add_to_favorites">הוספה למועדפים</string>
     <string name="remove_from_favorites">הסרה מהמועדפים</string>
     <!-- Search -->
     <string name="search">חיפוש</string>
@@ -45,12 +47,14 @@
     <!-- Actionbar items -->
     <string name="delete">מחק</string>
     <string name="remove">הסר</string>
+    <string name="rename">שנה שם</string>
     <string name="share">שיתוף</string>
     <string name="share_via">שתף באמצעות</string>
     <string name="select_all">בחר הכול</string>
     <string name="undo">בטל</string>
     <string name="redo">בצע מחדש</string>
     <!-- Sorting -->
+    <string name="name">שם</string>
     <string name="size">גודל</string>
     <string name="date_taken">תאריך הצילום</string>
     <string name="title">כותרת</string>
@@ -73,11 +77,13 @@
     <!-- For example: Postpone reminder by 3 minutes -->
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <!-- Alarms -->
+    <string name="alarm">שעון מעורר</string>
     <string name="snooze">נודניק</string>
     <string name="dismiss">בטל</string>
     <string name="at_start">בהתחלה</string>
     <!-- Settings -->
     <string name="settings">הגדרות</string>
+    <string name="small">קטן</string>
     <string name="medium">בינוני</string>
     <string name="widgets">ווידג\'טים</string>
     <!-- Setting sections -->

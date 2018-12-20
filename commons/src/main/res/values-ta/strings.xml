@@ -3,8 +3,10 @@
 <resources>
     <string name="ok">சரி</string>
     <string name="cancel">ரத்துசெய்</string>
+    <string name="set_as">இதுவாக அமை</string>
     <string name="unknown">அறியாத</string>
     <string name="never">ஒருபோதுமில்லை</string>
+    <string name="details">விவரங்கள்</string>
     <string name="none">ஏதுமில்லை</string>
     <!-- Favorites -->
     <!-- Search -->
@@ -19,7 +21,12 @@
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Storages -->
     <!-- File properties -->
+    <string name="path">பாதை</string>
+    <string name="duration">கால அளவு</string>
+    <string name="exposure_time">எக்ஸ்போஷர் நேரம்</string>
+    <string name="camera">கேமரா</string>
     <!-- Color customization -->
+    <string name="save">சேமி</string>
     <!-- Themes -->
     <string name="dark_theme">அடர்</string>
     <string name="custom">தனிப்பயன்</string>
@@ -38,6 +45,9 @@
     <string name="no">இல்லை</string>
     <!-- Password protection -->
     <!-- Times -->
+    <string name="seconds_raw">நொடிகள்</string>
+    <string name="minutes_raw">நிமிடங்கள்</string>
+    <string name="hours_raw">மணிநேரம்</string>
     <!-- For example: I will be there in 5 minutes -->
     <!-- For example: Event reminder: 3 minutes before -->
     <!-- For example: Postpone reminder by 3 minutes -->
