@@ -14,7 +14,7 @@ class LineColorPickerDialog(val activity: BaseSimpleActivity, val color: Int, va
                             val appIconIDs: ArrayList<Int>? = null, val callback: (wasPositivePressed: Boolean, color: Int) -> Unit) {
 
     private val PRIMARY_COLORS_COUNT = 19
-    private val DEFAULT_PRIMARY_COLOR_INDEX = 14
+    private val DEFAULT_PRIMARY_COLOR_INDEX = 1
     private val DEFAULT_SECONDARY_COLOR_INDEX = 6
     private val DEFAULT_COLOR_VALUE = activity.resources.getColor(R.color.color_primary)
 
