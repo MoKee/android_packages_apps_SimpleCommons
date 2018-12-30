@@ -304,22 +304,22 @@ class CustomizationActivity : BaseSimpleActivity() {
         customization_text_color.setFillWithStroke(curTextColor, curBackgroundColor)
         customization_primary_color.setFillWithStroke(curPrimaryColor, curBackgroundColor)
         customization_background_color.setFillWithStroke(curBackgroundColor, curBackgroundColor)
-        customization_app_icon_color.setFillWithStroke(curAppIconColor, curBackgroundColor)
+//        customization_app_icon_color.setFillWithStroke(curAppIconColor, curBackgroundColor)
 
         customization_text_color_holder.setOnClickListener { pickTextColor() }
         customization_background_color_holder.setOnClickListener { pickBackgroundColor() }
         customization_primary_color_holder.setOnClickListener { pickPrimaryColor() }
 //        apply_to_all_holder.setOnClickListener { applyToAll() }
-        customization_app_icon_color_holder.setOnClickListener {
-            if (baseConfig.wasAppIconCustomizationWarningShown) {
-                pickAppIconColor()
-            } else {
-                ConfirmationDialog(this, "", R.string.app_icon_color_warning, R.string.ok, 0) {
-                    baseConfig.wasAppIconCustomizationWarningShown = true
-                    pickAppIconColor()
-                }
-            }
-        }
+//        customization_app_icon_color_holder.setOnClickListener {
+//            if (baseConfig.wasAppIconCustomizationWarningShown) {
+//                pickAppIconColor()
+//            } else {
+//                ConfirmationDialog(this, "", R.string.app_icon_color_warning, R.string.ok, 0) {
+//                    baseConfig.wasAppIconCustomizationWarningShown = true
+//                    pickAppIconColor()
+//                }
+//            }
+//        }
     }
 
     private fun hasColorChanged(old: Int, new: Int) = Math.abs(old - new) > 1
