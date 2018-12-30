@@ -60,7 +60,7 @@ class CustomizationActivity : BaseSimpleActivity() {
 
                     runOnUiThread {
                         setupThemes()
-//                        apply_to_all_holder.beVisibleIf(storedSharedTheme == null)
+                        apply_to_all_holder.beVisibleIf(storedSharedTheme == null)
                     }
                 } catch (e: Exception) {
                     toast(R.string.update_thank_you)
@@ -309,7 +309,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         customization_text_color_holder.setOnClickListener { pickTextColor() }
         customization_background_color_holder.setOnClickListener { pickBackgroundColor() }
         customization_primary_color_holder.setOnClickListener { pickPrimaryColor() }
-//        apply_to_all_holder.setOnClickListener { applyToAll() }
+        apply_to_all_holder.setOnClickListener { applyToAll() }
         customization_app_icon_color_holder.setOnClickListener {
             if (baseConfig.wasAppIconCustomizationWarningShown) {
                 pickAppIconColor()
@@ -400,24 +400,24 @@ class CustomizationActivity : BaseSimpleActivity() {
 
     private fun getUpdatedTheme() = if (curSelectedThemeId == THEME_SHARED) THEME_SHARED else THEME_CUSTOM
 
-//    private fun applyToAll() {
-//        if (isThankYouInstalled()) {
-//            ConfirmationDialog(this, "", R.string.share_colors_success, R.string.ok, 0) {
-//                Intent().apply {
-//                    action = MyContentProvider.SHARED_THEME_ACTIVATED
-//                    sendBroadcast(this)
-//                }
-//
-//                if (!predefinedThemes.containsKey(THEME_SHARED)) {
-//                    predefinedThemes[THEME_SHARED] = MyTheme(R.string.shared, 0, 0, 0, 0)
-//                }
-//                baseConfig.wasSharedThemeEverActivated = true
-//                apply_to_all_holder.beGone()
-//                updateColorTheme(THEME_SHARED)
-//                saveChanges(false)
-//            }
-//        } else {
-//            PurchaseThankYouDialog(this)
-//        }
-//    }
+    private fun applyToAll() {
+        if (isThankYouInstalled()) {
+            ConfirmationDialog(this, "", R.string.share_colors_success, R.string.ok, 0) {
+                Intent().apply {
+                    action = MyContentProvider.SHARED_THEME_ACTIVATED
+                    sendBroadcast(this)
+                }
+
+                if (!predefinedThemes.containsKey(THEME_SHARED)) {
+                    predefinedThemes[THEME_SHARED] = MyTheme(R.string.shared, 0, 0, 0, 0)
+                }
+                baseConfig.wasSharedThemeEverActivated = true
+                apply_to_all_holder.beGone()
+                updateColorTheme(THEME_SHARED)
+                saveChanges(false)
+            }
+        } else {
+            PurchaseThankYouDialog(this)
+        }
+    }
 }
