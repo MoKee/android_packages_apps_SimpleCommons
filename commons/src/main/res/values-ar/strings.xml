@@ -526,11 +526,11 @@
     <string name="sunday">الأحد</string>
     <string name="monday_letter">إث</string>
     <string name="tuesday_letter">ثل</string>
-    <string name="wednesday_letter">غرب</string>
+    <string name="wednesday_letter">أربعاء</string>
     <string name="thursday_letter">أر</string>
     <string name="friday_letter">جم</string>
-    <string name="saturday_letter">جنوب</string>
-    <string name="sunday_letter">جنوب</string>
+    <string name="saturday_letter">سبت</string>
+    <string name="sunday_letter">سبت</string>
     <string name="monday_short">إث</string>
     <string name="tuesday_short">ثلا</string>
     <string name="wednesday_short">أرب</string>
