@@ -19,6 +19,7 @@
     <!-- File properties -->
     <!-- Color customization -->
     <!-- Themes -->
+    <string name="dark_theme">Tywyll</string>
     <string name="custom">Addasedig</string>
     <!-- What's new -->
     <!-- Actionbar items -->

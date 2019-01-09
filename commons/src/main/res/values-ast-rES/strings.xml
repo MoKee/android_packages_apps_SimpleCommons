@@ -52,6 +52,7 @@
     <!-- For example: Postpone reminder by 3 minutes -->
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <!-- Alarms -->
+    <string name="snooze">Posponer</string>
     <string name="dismiss">Escartar</string>
     <!-- Settings -->
     <string name="settings">Axustes</string>

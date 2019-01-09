@@ -164,6 +164,8 @@
     <string name="undo_changes_confirmation">Biztos visszavonja a változtatást?</string>
     <string name="save_before_closing">Nem mentette a változtatásokat. Menti a kilépés előtt?</string>
     <string name="apply_to_all_apps">Színek alkalmazása az összes Simple Apps-ra</string>
+    <string name="app_icon_color_warning">FIGYELMEZTETÉS: Elég sok Launcher nem támogatja megfelelően az ikonok testreszabását. Ebben az esetben eltűnik az ikon. Próbálja elindítani az alkalmazást a Google Playen vagy ha van, egy elérhető widgeten keresztül.
+      Miután elindult, állítsa vissza az alapértelmezett narancssárga ikont #F57C00. A legrosszabb esetben újra kell telepítenie az alkalmazást.</string>
     <string name="share_colors_success">A színek sikeresen frissültek. Hozzáadott egy új témát, amelynek neve \'Megosztott\'. Kérjük, a jövőben ezt használja az összes alkalmazás színeinek frissítéséhez.</string>
     <!-- Themes -->
     <string name="light_theme">Világos</string>
@@ -493,6 +495,9 @@
     <string name="faq_4_text_commons">Igen, csak húzza a kisalkalmazást a főképernyőre, hogy a beállítási kép megjelenjen. Kis négyzeteket fog látni a bal alsó sarokban, csak nyomja meg őket az új szín kiválasztásához. Az átlátszóság állításához a csúszkát használhatja.</string>
     <string name="faq_5_title_commons">Vissza tudom állítani a törölt fájlokat?</string>
     <string name="faq_5_text_commons">Ha valóban töröltek, akkor nem. Azonban engedélyezheti a Lomtár használatát az alkalmazás beállításaiban a törlés helyett. Ekkor a törlés helyett csak áthelyezi oda a fájlokat.</string>
+    <string name="faq_6_title_commons">Az alkalmazás indítóikonja eltűnt. Mit tehetek?</string>
+    <string name="faq_6_text_commons">Az Ön által használt Launcher okozhatja, ami nem támogatja megfelelően az ikonok testreszabását. Próbálja elindítani az alkalmazást a Google Playen vagy ha van egy elérhető widgeten keresztül.
+      Miután elindult, állítsa vissza az alapértelmezett narancssárga ikont #F57C00. A legrosszabb esetben újra kell telepítenie az alkalmazást.</string>
     <!-- License -->
     <string name="notice">Ez az alkalmazás a következő harmadik fél könyvtárait használja az életem megkönnyítésére. Köszönöm.</string>
     <string name="third_party_licences">Harmadik fél licencek</string>

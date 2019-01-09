@@ -153,6 +153,7 @@
     <string name="primary_color">Ana renk</string>
     <string name="foreground_color">Ön plan rengi</string>
     <string name="app_icon_color">Uygulama simgesi rengi</string>
+    <string name="bottom_navigation_bar_color">Alt gezinme çubuğu rengi</string>
     <string name="restore_defaults">Varsayılanları geri yükle</string>
     <string name="change_color">Rengi değiştir</string>
     <string name="theme">Tema</string>
@@ -399,8 +400,9 @@
     <string name="no_entries_for_exporting">Dışa aktarılacak öğe bulunamadı</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
-    <string name="confirm_usb_storage_access_text">Erişim vermek için lütfen bir sonraki ekranda USB cihazının kök klasörünü seçin</string>
-    <string name="wrong_root_selected_usb">Yanlış klasör seçildi, lütfen USB cihazınızın kök klasörünü seçin</string>
+    <string name="usb_detected">Cihazınıza takılı bir USB var gibi görünüyor. Dosyalarının düzgün görüntülendiğinden emin olmak için ek izinler vermeniz gerekir.</string>
+    <string name="confirm_usb_storage_access_text">Erişim vermek için lütfen bir sonraki ekranda USB cihazının rooy klasörünü seçin</string>
+    <string name="wrong_root_selected_usb">Yanlış klasör seçildi, lütfen USB cihazınızın root klasörünü seçin</string>
     <!-- Dates -->
     <string name="january">Ocak</string>
     <string name="february">Şubat</string>

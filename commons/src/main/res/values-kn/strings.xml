@@ -52,6 +52,7 @@
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="yes">ಹೌದು</string>
+    <string name="no">ಬೇಡ</string>
     <!-- Password protection -->
     <!-- Times -->
     <string name="today">ಈ ದಿನ</string>

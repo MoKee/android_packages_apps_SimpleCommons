@@ -16,6 +16,7 @@
     <string name="always">Toujours</string>
     <string name="never">Jamais</string>
     <string name="details">Détails</string>
+    <string name="notes">Notes</string>
     <string name="deleting_folder">Supprimer le dossier \'%s\'</string>
     <string name="none">Aucun</string>
     <string name="label">Étiquette</string>
@@ -62,6 +63,8 @@
     <string name="copy_move">Copier / Déplacer</string>
     <string name="copy_to">Copier vers</string>
     <string name="move_to">Déplacer vers</string>
+    <string name="source">Source</string>
+    <string name="destination">Destination </string>
     <string name="select_destination">Sélectionner la destination</string>
     <string name="click_select_destination">Cliquez ici pour sélectionner la destination</string>
     <string name="invalid_destination">Impossible d\'écrire dans la destination sélectionnée</string>
@@ -136,11 +139,13 @@
     <string name="resolution">Résolution</string>
     <string name="duration">Durée</string>
     <string name="artist">Artiste</string>
+    <string name="album">Album</string>
     <string name="focal_length">Longueur de focale</string>
     <string name="exposure_time">Durée d\'expo</string>
     <string name="iso_speed">Sensibilité ISO</string>
     <string name="f_number">Ouverture</string>
     <string name="camera">Appareil photo</string>
+    <string name="exif">EXIF</string>
     <string name="song_title">Titre de la chanson</string>
     <!-- Color customization -->
     <string name="background_color">Couleur d\'arrière-plan</string>
@@ -148,6 +153,7 @@
     <string name="primary_color">Couleur principale</string>
     <string name="foreground_color">Couleur de fond</string>
     <string name="app_icon_color">Couleur de fond de l\'îcone de l\'application</string>
+    <string name="bottom_navigation_bar_color">Couleur de la Barre de navigation inférieure</string>
     <string name="restore_defaults">Restaurer les valeurs par défaut</string>
     <string name="change_color">Changer couleur</string>
     <string name="theme">Thèmes</string>
@@ -158,6 +164,8 @@
     <string name="undo_changes_confirmation">Etes-vous sûr•e de vouloir annuler vos changements ?</string>
     <string name="save_before_closing">Vous avez des changements non sauvegardés. Sauvegarder avant de quitter ?</string>
     <string name="apply_to_all_apps">Appliquer ces couleurs à toutes les Applis Simples</string>
+    <string name="app_icon_color_warning">AVERTISSEMENT : Certains lanceurs ne manipulent pas correctement la personnalisation de l\'icône d\'application. Dans le cas où l’icône disparaîtra, essayez de lancer l’application via Google Play ou certains widget, si elles sont disponibles.
+        une fois lancé, juste restaurez l’icône  orange par défaut #F57C00. Au pire, vous devrez réinstaller l\'application.</string>
     <string name="share_colors_success">Couleurs mises à jour. Un nouveau thème nommé \'Partagé\' a été ajouté, veuillez utiliser celui-ci pour mettre à jour les couleurs de toutes les applis à partir de maintenant.</string>
     <!-- Themes -->
     <string name="light_theme">Clair</string>
@@ -195,6 +203,7 @@
     <string name="date_taken">Date de création</string>
     <string name="title">Titre</string>
     <string name="filename">Nom de fichier</string>
+    <string name="extension">Extension</string>
     <string name="random">Aléatoire</string>
     <string name="sort_randomly">Trier aléatoirement</string>
     <string name="ascending">Ascendant</string>
@@ -216,6 +225,7 @@
         <item quantity="other">ATTENTION : Vous supprimez %d dossiers</item>
     </plurals>
     <!-- Password protection -->
+    <string name="pin">Code PIN</string>
     <string name="enter_pin">Saisir PIN</string>
     <string name="please_enter_pin">Veuillez saisir un PIN</string>
     <string name="wrong_pin">PIN erroné</string>
@@ -245,6 +255,10 @@
         <item quantity="one">%d seconde</item>
         <item quantity="other">%d secondes</item>
     </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%d minutes</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
     <plurals name="hours">
         <item quantity="one">%d heure</item>
         <item quantity="other">%d heures</item>
@@ -269,6 +283,10 @@
     <plurals name="in_seconds">
         <item quantity="one">%d seconde</item>
         <item quantity="other">%d secondes</item>
+    </plurals>
+    <plurals name="in_minutes">
+        <item quantity="one">%d minutes</item>
+        <item quantity="other">%d minutes</item>
     </plurals>
     <plurals name="in_hours">
         <item quantity="one">%d heure</item>
@@ -295,6 +313,10 @@
     <plurals name="by_seconds">
         <item quantity="one">%d seconde</item>
         <item quantity="other">%d secondes</item>
+    </plurals>
+    <plurals name="by_minutes">
+        <item quantity="one">%d minutes</item>
+        <item quantity="other">%d minutes</item>
     </plurals>
     <plurals name="by_hours">
         <item quantity="one">%d heure</item>
@@ -327,6 +349,7 @@
     <string name="small">Petit</string>
     <string name="medium">Intermédiaire</string>
     <string name="large">Grand</string>
+    <string name="extra_large">Très grand</string>
     <string name="password_protect_hidden_items">Visibilité des éléments protégés par un mot de passe</string>
     <string name="password_protect_whole_app">Le mot de passe protège l\'ensemble de l\'application</string>
     <string name="password_protect_file_deletion">Protéger par mot de passe la suppression et le déplacement de fichiers</string>
@@ -379,6 +402,7 @@
     <string name="no_entries_for_exporting">Aucun item pouvant être exporté n\'a été trouvé</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
+    <string name="usb_detected">Vous semblez avoir un périphérique USB connecté à votre périphérique. Pour s’assurer que ses dossiers s’affichent correctement, vous devez accorder des autorisations supplémentaires.</string>
     <string name="confirm_usb_storage_access_text">Veuillez sélectionner le répertoire racine du périphérique USB sur l\'écran suivant afin de pouvoir y accéder</string>
     <string name="wrong_root_selected_usb">Mauvais répertoire sélectionné. Veuillez sélectionner le répertoire racine du périphérique USB.</string>
     <!-- Dates -->
@@ -433,6 +457,7 @@
     <string name="it_is_free">C\'est gratuit jusqu\'au : %s. Si vous la téléchargez jusque-là, vous pourrez définitivement l\'utiliser gratuitement.</string>
     <string name="more_info">Plus d\'information</string>
     <string name="upgrade">Passer à la version Pro</string>
+    <string name="upgrade_calendar">Vous devez déplacer manuellement les événements stockés localement par exportation dans un fichier .ics, puis son importation. Vous pouvez trouver les deux boutons d’importer/exporter dans le menu de l’écran principal.</string>
     <!-- About -->
     <string name="about">À Propos</string>
     <string name="website_label">Pour le code source, visitez</string>
@@ -468,6 +493,9 @@
     <string name="faq_4_text_commons">Oui, quand vous glissez le widget sur l\'écran d\'accueil un dialogue de configuration apparaît. Vous verrez des carrés en bas à gauche, en appuyant dessus vous pouvez choisir une nouvelle couleur. Vous pouvez aussi utiliser le curseur pour régler la transparence.</string>
     <string name="faq_5_title_commons">Puis-je d\'une manière ou d\'une autre restaurer les fichiers supprimés ?</string>
     <string name="faq_5_text_commons">Si ils ont déjà été supprimés, vous ne pouvez pas. Toutefois, vous pouvez activer l\'utilisation de la corbeille à la place de la suppression dans les paramètres de l\'app. Cela devrait seulement y déplacer les fichiers au lieu de les supprimer.</string>
+    <string name="faq_6_title_commons">L’icône du lanceur d\'application a disparu. Que puis-je faire ?</string>
+    <string name="faq_6_text_commons">Avertissement : Certains lanceurs ne manipulent pas correctement la personnalisation de l\'icône d\'application. Dans le cas où l’icône disparaîtra, essayez de lancer l’application via Google Play ou certains widget, si elles sont disponibles.
+        une fois lancé, juste restaurez l’icône  orange par défaut #F57C00. Au pire, vous devrez réinstaller l\'application.</string>
     <!-- License -->
     <string name="notice">Cette application utilise les bibliothèques tierces suivantes pour me simplifier la vie. Merci.</string>
     <string name="third_party_licences">Licences tierces</string>
