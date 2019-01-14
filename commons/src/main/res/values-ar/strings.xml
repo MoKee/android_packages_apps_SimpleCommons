@@ -9,6 +9,7 @@
     <string name="out_of_memory_error">خطأ عدم وجود ذاكرة كافية</string>
     <string name="an_error_occurred">حدث خطأ ما: %s</string>
     <string name="open_with">فتح باستخدام</string>
+    <string name="edit_with">تعديل باستخدام</string>
     <string name="no_app_found">لم يتم العثور على تطبيق صالح</string>
     <string name="set_as">تعيين كـ</string>
     <string name="value_copied_to_clipboard">تم نسخ القيمة إلى الحافظة</string>

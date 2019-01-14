@@ -3,6 +3,7 @@
 <resources>
     <string name="ok">ОК</string>
     <string name="cancel">Скасувати</string>
+    <string name="edit_with">Редагувати за допомогою</string>
     <string name="set_as">Встан. як</string>
     <string name="unknown">Невідомо</string>
     <string name="always">Завжди</string>

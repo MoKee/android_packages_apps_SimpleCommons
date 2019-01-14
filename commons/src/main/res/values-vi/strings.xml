@@ -3,6 +3,7 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Huỷ</string>
+    <string name="edit_with">Chỉnh sửa với</string>
     <string name="set_as">Đặt làm</string>
     <string name="unknown">Không rõ</string>
     <string name="always">Luôn luôn</string>

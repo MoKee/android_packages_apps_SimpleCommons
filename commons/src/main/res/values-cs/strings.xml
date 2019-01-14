@@ -9,6 +9,7 @@
     <string name="out_of_memory_error">Chyba nedostatku paměti</string>
     <string name="an_error_occurred">Vyskytla se chyba: %s</string>
     <string name="open_with">Otevřít pomocí</string>
+    <string name="edit_with">Upravit s</string>
     <string name="no_app_found">Nebyla nalezena žádná vhodná aplikace</string>
     <string name="set_as">Nastavit jako</string>
     <string name="value_copied_to_clipboard">Hodnota zkopírována do schránky</string>
