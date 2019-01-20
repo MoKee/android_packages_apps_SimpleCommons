@@ -167,7 +167,7 @@
     <string name="share_colors_success">Warna berhasil diperbarui. Tema baru yang disebut \'Shared\' telah ditambahkan, silakan gunakan itu untuk memperbarui semua warna aplikasi di masa mendatang.</string>
     <!-- Themes -->
     <string name="light_theme">Terang</string>
-    <string name="dark_theme">Suram</string>
+    <string name="dark_theme">Gelap</string>
     <string name="solarized">Solarized</string>
     <string name="dark_red">Merah tua</string>
     <string name="black_white">Black &amp; White</string>
