@@ -24,6 +24,7 @@
     <string name="transparent">Transparente</string>
     <string name="transparent_color">Color transparente</string>
     <string name="select_a_different_color">Seleccionar un color diferente</string>
+    <string name="download">Descargar</string>
     <!-- Favorites -->
     <string name="favorites">Favoritos</string>
     <string name="add_favorites">Agregar a favoritos</string>
@@ -348,7 +349,6 @@
     <string name="password_protect_hidden_items">Contraseña para proteger los medios ocultos</string>
     <string name="password_protect_whole_app">Contraseña para proteger toda la aplicación</string>
     <string name="password_protect_file_deletion">Protegeger con contraseña eliminar y mover archivos</string>
-    <string name="keep_last_modified">Mantener el valor de la última modificación al copiar/mover/renombrar los archivos</string>
     <string name="show_info_bubble">Mostrar una burbuja de información al desplazar elementos arrastrando la barra de desplazamiento</string>
     <string name="prevent_phone_from_sleeping">No dejar dormir el teléfono con la aplicación en primer plano</string>
     <string name="skip_delete_confirmation">Omitir siempre el diálogo de confirmación de eliminación</string>

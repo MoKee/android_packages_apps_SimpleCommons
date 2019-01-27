@@ -24,6 +24,7 @@
     <string name="transparent">Transparent</string>
     <string name="transparent_color">Transparente Farbe</string>
     <string name="select_a_different_color">Wähle eine andere Farbe aus</string>
+    <string name="download">Download-Modus</string>
     <!-- Favorites -->
     <string name="favorites">Favoriten</string>
     <string name="add_favorites">Favoriten hinzufügen</string>
@@ -33,6 +34,7 @@
     <string name="search">Suchen</string>
     <string name="type_2_characters">Du musst mindestens 2 Zeichen eingeben, um die Suche zu starten.</string>
     <!-- Filters -->
+    <string name="filter">Filter</string>
     <string name="no_items_found">Keine Elemente gefunden.</string>
     <string name="change_filter">Filter ändern</string>
     <!-- Permissions -->
@@ -145,6 +147,7 @@
     <string name="iso_speed">Filmempfindlichkeit</string>
     <string name="f_number">Blendenzahl</string>
     <string name="camera">Kamera</string>
+    <string name="exif">EXIF</string>
     <string name="song_title">Liedtitel</string>
     <!-- Color customization -->
     <string name="background_color">Hintergrundfarbe</string>
@@ -152,6 +155,7 @@
     <string name="primary_color">Primäre Farbe</string>
     <string name="foreground_color">Vordergrundfarbe</string>
     <string name="app_icon_color">App-Icon-Farbe</string>
+    <string name="bottom_navigation_bar_color">Farbe der unteren Navigationsleiste</string>
     <string name="restore_defaults">Standard wiederherstellen</string>
     <string name="change_color">Farbe ändern</string>
     <string name="theme">Thema</string>
@@ -162,6 +166,7 @@
     <string name="undo_changes_confirmation">Bist du sicher, dass du die Änderungen verwerfen willst?</string>
     <string name="save_before_closing">Du hast ungespeicherte Änderungen. Speichern vorm Beenden?</string>
     <string name="apply_to_all_apps">Farben bei allen schlichten Apps anwenden</string>
+    <string name="app_icon_color_warning">WARNUNG: Einige Launcher verarbeiten angepasste App-Symbole nicht richtig. Versuchen Sie die App, wenn möglich, durch Google Play oder ein Widget zu öffnen, falls das Symbol nicht zu sehen ist.        Wenn Sie die App erneut geöffnet haben, setzen Sie einfach das orangefarbige Standardsymbol #F57C00 zurück. Eventuell müssen Sie die App im schlimmsten Fall erneut installieren.</string>
     <string name="share_colors_success">Farben erfolgreich aktualisiert. Ein neues Thema \'Shared\' wurde hinzugefügt, bitte verwende dieses um für alle Apps die Farben zu ändern.</string>
     <!-- Themes -->
     <string name="light_theme">Hell</string>
@@ -221,6 +226,7 @@
         <item quantity="other">WARNUNG: %d Ordner sollen gelöscht werden</item>
     </plurals>
     <!-- Password protection -->
+    <string name="pin">PIN</string>
     <string name="enter_pin">PIN eingeben</string>
     <string name="please_enter_pin">Bitte eine PIN eingeben</string>
     <string name="wrong_pin">Falsche PIN</string>
@@ -348,7 +354,6 @@
     <string name="password_protect_hidden_items">Versteckte Elemente mit Muster/PIN schützen</string>
     <string name="password_protect_whole_app">Gesamte App mit Passwort schützen</string>
     <string name="password_protect_file_deletion">Mit Passwort vor Dateilöschung und -verschiebung schützen.</string>
-    <string name="keep_last_modified">Beim Modifizieren von Dateien die alte Änderungszeit beibehalten</string>
     <string name="show_info_bubble">Beim Scrollen mit dem Scrollbalken Infofenster anzeigen</string>
     <string name="prevent_phone_from_sleeping">Verhindere, dass das Handy in den Ruhemodus wechselt, solange die App im Vordergrund läuft</string>
     <string name="skip_delete_confirmation">Verwende keinen Löschen-bestätigen-Dialog</string>
@@ -381,6 +386,10 @@
     <string name="empty_recycle_bin_confirmation">Papierkorb wirklich leeren? Die Dateien sind dann unwiederbringlich gelöscht.</string>
     <string name="recycle_bin_empty">Der Papierkorb ist leer</string>
     <string name="moving_recycle_bin_items_disabled">Papierkorbelemente bewegen ist deaktivert, bitte benutze Wiederherstellen.</string>
+    <plurals name="moving_items_into_bin">
+        <item quantity="one">Bewege %d Objekt in den Papierkorb</item>
+        <item quantity="other">Bewege %d Objekte in den Papierkorb</item>
+    </plurals>
     <!-- Import / Export -->
     <string name="importing">Importiere…</string>
     <string name="exporting">Exportiere…</string>
@@ -400,10 +409,14 @@
     <string name="january">Januar</string>
     <string name="february">Februar</string>
     <string name="march">März</string>
+    <string name="april">April</string>
     <string name="may">Mai</string>
     <string name="june">Juni</string>
     <string name="july">Juli</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
     <string name="october">Oktober</string>
+    <string name="november">November</string>
     <string name="december">Dezember</string>
     <!-- in January -->
     <string name="in_january">im Januar</string>
@@ -425,9 +438,11 @@
     <string name="friday">Freitag</string>
     <string name="saturday">Samstag</string>
     <string name="sunday">Sonntag</string>
+    <string name="monday_letter">M</string>
     <string name="tuesday_letter">D</string>
     <string name="wednesday_letter">M</string>
     <string name="thursday_letter">D</string>
+    <string name="friday_letter">F</string>
     <string name="saturday_letter">S</string>
     <string name="sunday_letter">S</string>
     <string name="monday_short">Mo</string>
@@ -441,6 +456,7 @@
     <string name="upgrade_to_pro_long">Diese Version der App wird nicht mehr unterstützt. Upgrade bitte auf die Pro-Version.</string>
     <string name="it_is_free">Sie ist gratis bis: %s. Wenn Du sie bis dahin herunterlädst, darfst Du sie für immer gratis nutzen.</string>
     <string name="more_info">Mehr Infos</string>
+    <string name="upgrade">Upgrade</string>
     <string name="upgrade_calendar">Um lokal gespeicherte Ereignisse zu migrieren, musst Du sie als .ics-Datei exportieren und anschliessend importieren. Die beiden Schaltflächen befinden sich im Hauptmenü.</string>
     <!-- About -->
     <string name="about">Über</string>
@@ -456,6 +472,7 @@
     <string name="donate">Spenden</string>
     <string name="donate_underlined"><u>Spenden</u></string>
     <string name="follow_us">Folge uns</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="additional_info">Zusätzliche Infos</string>
     <string name="app_version">App-Version: %s</string>
     <string name="device_os">Betriebssystem: %s</string>
@@ -477,6 +494,8 @@
     <string name="faq_4_text_commons">Ja, wenn du ein Widget auf den Home Screen ziehst, erscheint ein Konfigurationsmenü. In der linken unteren Ecke sind farbige Kästchen, drücke auf sie und wähle eine neue Farbe. Ausserdem kannst du den Regler nutzen, um den Alphaparameter (Transparenz) einzustellen.</string>
     <string name="faq_5_title_commons">Kann ich irgendwie gelöschte Dateien wiederherstellen?</string>
     <string name="faq_5_text_commons">Wenn diese endgültig gelöscht wurden, nein. Aber Du kannst in den App-Eintellungen den Papierkorb aktivieren, statt des direkten Löschens. Das verschiebt zu löschende Dateien nur in den Papierkorb, und löscht diese nicht endgültig.</string>
+    <string name="faq_6_title_commons">Das App-Launcher-Symbol ist verschwunden. Was kann ich tun?</string>
+    <string name="faq_6_text_commons">Dies wird durch die fehlerhafte Unterstützung ihres Launchers für angepasste Symbole verursacht. Versuchen Sie die durch Google Play oder ein Widget zu öffnen, falls möglich.        Wenn Sie die App erneut geöffnet haben, setzen Sie einfach das orangefarbige Standardsymbol #F57C00 zurück. Eventuell müssen Sie die App im schlimmsten Fall erneut installieren.</string>
     <!-- License -->
     <string name="notice">Diese App nutzt die folgenden Drittanbieterbibliotheken, die mein Leben einfacher machen. Danke!</string>
     <string name="third_party_licences">Drittanbieterlizenzen</string>

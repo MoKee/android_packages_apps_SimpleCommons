@@ -24,6 +24,7 @@
     <string name="transparent">Διαφάνεια</string>
     <string name="transparent_color">Χρώμα διαφάνειας</string>
     <string name="select_a_different_color">Επιλέξτε διαφορετικό χρώμα</string>
+    <string name="download">Λήψη αρχείου</string>
     <!-- Favorites -->
     <string name="favorites">Αγαπημένα</string>
     <string name="add_favorites">Προσθήκη αγαπημένων</string>
@@ -347,7 +348,6 @@
     <string name="password_protect_hidden_items">Κωδικός προστασίας προβολής κρυφών στοιχείων</string>
     <string name="password_protect_whole_app">Κωδικός προστασίας  ολόκληρης της εφαρμογής</string>
     <string name="password_protect_file_deletion">Προστασία με κωδικό για διαγραφή ή μετακίνηση</string>
-    <string name="keep_last_modified">Διατηρήστε την παλιά τελευταία τροποποιημένη τιμή στην αντιγραφή/μετακίνηση/μετονομασία αρχείου</string>
     <string name="show_info_bubble">Εμφάνιση φυσαλίδας πληροφοριών κατά την κύλιση στοιχείων στη γραμμή κύλισης</string>
     <string name="prevent_phone_from_sleeping">Αποτροπή της αναστολής λειτουργίας του τηλεφώνου ενώ η εφαρμογή βρίσκεται στο προσκήνιο</string>
     <string name="skip_delete_confirmation">Παράκαμψη πάντα το παράθυρο διαλόγου επιβεβαίωσης διαγραφής</string>

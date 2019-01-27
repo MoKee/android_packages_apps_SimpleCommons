@@ -24,6 +24,7 @@
     <string name="transparent">透明</string>
     <string name="transparent_color">透明顏色</string>
     <string name="select_a_different_color">選擇其他顏色</string>
+    <string name="download">下載</string>
     <!-- Favorites -->
     <string name="favorites">我的最愛</string>
     <string name="add_favorites">添加我的最愛</string>
@@ -331,7 +332,6 @@
     <string name="password_protect_hidden_items">用密碼保護隱藏的物件</string>
     <string name="password_protect_whole_app">用密碼保護整個應用程式</string>
     <string name="password_protect_file_deletion">使用密碼保護檔案刪除和移動</string>
-    <string name="keep_last_modified">當檔案複製/移動/重新命名時，保留舊的[最後修改]數值</string>
     <string name="show_info_bubble">拖曳滾動條時，顯示訊息氣泡</string>
     <string name="prevent_phone_from_sleeping">當程式在前景使用時，防止手機進入睡眠</string>
     <string name="skip_delete_confirmation">刪除不再進行確認</string>

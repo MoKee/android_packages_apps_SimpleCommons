@@ -10,6 +10,7 @@
     <string name="details">Detalhes</string>
     <string name="none">Nenhum</string>
     <string name="label">Etiqueta</string>
+    <string name="download">Transferência</string>
     <!-- Favorites -->
     <string name="favorites">Marcadores</string>
     <string name="add_to_favorites">Adicionar aos marcadores</string>

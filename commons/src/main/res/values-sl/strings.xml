@@ -24,6 +24,7 @@
     <string name="transparent">Prosojno</string>
     <string name="transparent_color">Prosojene barve</string>
     <string name="select_a_different_color">Izberi drugo barvo</string>
+    <string name="download">Prenos</string>
     <!-- Favorites -->
     <string name="favorites">Priljubljeno</string>
     <string name="add_favorites">Dodaj priljubljene</string>
@@ -392,7 +393,6 @@
     <string name="password_protect_hidden_items">Zaščiti skrite elemete z geslom</string>
     <string name="password_protect_whole_app">Z geslom zaščiti celotno aplikacijo</string>
     <string name="password_protect_file_deletion">Z geslom zaščiti brisanje in premikanje datotek</string>
-    <string name="keep_last_modified">Ohrani stari čas zadnje spremembe pri kopiranju, premikanju in preimenovanju</string>
     <string name="show_info_bubble">Prikaži info mehurček pri premikanju drsnika</string>
     <string name="prevent_phone_from_sleeping">Prepreči prehod v stanje mirovanja, dokler je aplikacija v ospredju</string>
     <string name="skip_delete_confirmation">Vedno preskoči potrditev brisanja</string>

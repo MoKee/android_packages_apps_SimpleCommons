@@ -24,6 +24,7 @@
     <string name="transparent">Transparan</string>
     <string name="transparent_color">Warna transparan</string>
     <string name="select_a_different_color">Pilih warna yang berbeda</string>
+    <string name="download">Unduh</string>
     <!-- Favorites -->
     <string name="favorites">Favorit</string>
     <string name="add_favorites">Tambah ke favorit</string>
@@ -333,7 +334,6 @@
     <string name="password_protect_hidden_items">Kata sandi melindungi berkas yang tersembunyi</string>
     <string name="password_protect_whole_app">Kata sandi melindungi seluruh aplikasi</string>
     <string name="password_protect_file_deletion">Kata sandi melindungi file terhapus dan terpindah</string>
-    <string name="keep_last_modified">Simpan nilai modifikasi terakhir pada file salin / pindahkan / ganti nama</string>
     <string name="show_info_bubble">Tampilkan balon info saat menggulir item dengan menyeret bilah gulir</string>
     <string name="prevent_phone_from_sleeping">Cegah ponsel agar tidak tidur saat aplikasi berada di latar depan</string>
     <string name="skip_delete_confirmation">Selalu lewati dialog konfirmasi penghapusan</string>

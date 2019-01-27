@@ -19,6 +19,7 @@
     <string name="details">Detaljer</string>
     <string name="deleting_folder">Sletter mappen \'%s\'</string>
     <string name="none">Ingen</string>
+    <string name="download">Download-modus</string>
     <!-- Favorites -->
     <string name="favorites">Favoritter</string>
     <string name="add_favorites">Legg til favoritter</string>
@@ -323,7 +324,6 @@
     <string name="password_protect_hidden_items">Passordbeskytt synlighet for skjulte elementer</string>
     <string name="password_protect_whole_app">Passordbeskytt hele appen</string>
     <string name="password_protect_file_deletion">Passordbeskytt sletting og flytting av filer</string>
-    <string name="keep_last_modified">Behold gammel Sist endret-verdi ved kopier/flytt/endre navn for filer</string>
     <string name="show_info_bubble">Vis en info-boble ved å dra i rullefeltet</string>
     <string name="prevent_phone_from_sleeping">Forhindre at telefonen går i hvilemodus mens appen er i forgrunnen</string>
     <string name="skip_delete_confirmation">Hopp alltid over dialog for slettebekreftelse</string>

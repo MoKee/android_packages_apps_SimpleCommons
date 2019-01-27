@@ -24,6 +24,7 @@
     <string name="transparent">Genomskinlig</string>
     <string name="transparent_color">Genomskinlig färg</string>
     <string name="select_a_different_color">Välj en annan färg</string>
+    <string name="download">Hämta</string>
     <!-- Favorites -->
     <string name="favorites">Favoriter</string>
     <string name="add_favorites">Lägg till favoriter</string>
@@ -343,7 +344,6 @@
     <string name="extra_large">Extra stor</string>
     <string name="password_protect_hidden_items">Lösenordsskydda synligheten för dolda objekt</string>
     <string name="password_protect_whole_app">Lösenordsskydda hela appen</string>
-    <string name="keep_last_modified">Behåll senast ändrad-tider när filer kopieras, flyttas eller får nya namn</string>
     <string name="show_info_bubble">Visa en informationsbubbla när jag rullar genom objekt genom att dra rullningslisten</string>
     <string name="prevent_phone_from_sleeping">Hindra aktivering av viloläge när appen körs i förgrunden</string>
     <string name="skip_delete_confirmation">Hoppa alltid över dialogrutan för bekräftelse av borttagning</string>

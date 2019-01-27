@@ -24,6 +24,7 @@
     <string name="transparent">Прозрачный</string>
     <string name="transparent_color">Прозрачный цвет</string>
     <string name="select_a_different_color">Выберите другой цвет</string>
+    <string name="download">Загрузить</string>
     <!-- Favorites -->
     <string name="favorites">Избранное</string>
     <string name="add_favorites">Добавить избранное</string>
@@ -396,7 +397,6 @@
     <string name="password_protect_hidden_items">Защита паролем отображения скрытых объектов</string>
     <string name="password_protect_whole_app">Защита паролем всего приложения</string>
     <string name="password_protect_file_deletion">Защита паролем удаления и перемещения файлов</string>
-    <string name="keep_last_modified">Сохранять дату изменения файла при копировании/перемещении/переименовании</string>
     <string name="show_info_bubble">Показывать информационное окно при прокрутке элементов перетаскиванием полосы прокрутки</string>
     <string name="prevent_phone_from_sleeping">Предотвращать засыпание устройства, пока приложение находится на переднем плане</string>
     <string name="skip_delete_confirmation">Пропускать диалог подтверждения удаления</string>
