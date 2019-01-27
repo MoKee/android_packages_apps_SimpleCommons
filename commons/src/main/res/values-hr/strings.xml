@@ -21,6 +21,7 @@
     <string name="deleting_folder">Brisanje mape \'%s\'</string>
     <string name="none">Nijedan</string>
     <string name="label">Označi</string>
+    <string name="download">Preuzmi</string>
     <!-- Favorites -->
     <string name="favorites">Favoriti</string>
     <string name="add_favorites">Dodaj favorite</string>
@@ -357,7 +358,6 @@
     <string name="extra_large">Puno veće</string>
     <string name="password_protect_hidden_items">Vidljivost skrivenih, lozinkom zaštićenih stavki</string>
     <string name="password_protect_whole_app">Zaštiti cijelu aplikaciju lozinkom</string>
-    <string name="keep_last_modified">Zadrži stari datum zadnje izmjene pri kopiranju/premještanju/preimenovanju datoteke</string>
     <string name="show_info_bubble">Prikažite informativni mjehur prilikom pomicanja stavki pomicanjem trake za pomicanje</string>
     <string name="prevent_phone_from_sleeping">Spriječite da uređaj prijeđe u stanje mirovanja dok je aplikacija u prvom planu</string>
     <string name="skip_delete_confirmation">Uvijek preskoči dijaloški okvir za potvrdu brisanja</string>

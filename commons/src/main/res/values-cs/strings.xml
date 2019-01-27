@@ -24,6 +24,7 @@
     <string name="transparent">Průhledné</string>
     <string name="transparent_color">Průhledná barva</string>
     <string name="select_a_different_color">Zvolte jinou barvu</string>
+    <string name="download">Ke stažení</string>
     <!-- Favorites -->
     <string name="favorites">Oblíbené</string>
     <string name="add_favorites">Přidat oblíbené</string>
@@ -396,7 +397,6 @@
     <string name="password_protect_hidden_items">Uzamknout viditelnost skrytých položek heslem</string>
     <string name="password_protect_whole_app">Uzamknout heslem celou aplikaci</string>
     <string name="password_protect_file_deletion">Uzamknout heslem mazání a přesouvání souborů</string>
-    <string name="keep_last_modified">Při kopírování/přesouvání/přejmenování souboru zachovat poslední datum úpravy</string>
     <string name="show_info_bubble">Zobrazit informační bublinu při prohlížení položek tažením posuvníku</string>
     <string name="prevent_phone_from_sleeping">Zabránit uspání zařízení dokud je aplikace v popředí</string>
     <string name="skip_delete_confirmation">Vždy přeskočit potvrzovací okno pro vymazání</string>

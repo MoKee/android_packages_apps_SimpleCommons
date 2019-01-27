@@ -10,6 +10,7 @@
     <string name="details">Подробности</string>
     <string name="none">Без</string>
     <string name="label">Етикет</string>
+    <string name="download">Изтегли</string>
     <!-- Favorites -->
     <string name="favorites">Любими</string>
     <string name="add_to_favorites">Добави към Любими</string>

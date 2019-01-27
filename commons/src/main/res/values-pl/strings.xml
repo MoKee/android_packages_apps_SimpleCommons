@@ -24,6 +24,7 @@
     <string name="transparent">Przezroczysty</string>
     <string name="transparent_color">Prezroczysty kolor</string>
     <string name="select_a_different_color">Wybierz inny kolor</string>
+    <string name="download">Pobierz</string>
     <!-- Favorites -->
     <string name="favorites">Ulubione</string>
     <string name="add_favorites">Dodaj ulubione</string>
@@ -159,6 +160,7 @@
     <string name="primary_color">Belka i przełączniki</string>
     <string name="foreground_color">Pierwszy plan</string>
     <string name="app_icon_color">Ikona aplikacji</string>
+    <string name="bottom_navigation_bar_color">Kolor dolnego paska nawigacji</string>
     <string name="restore_defaults">Przywróć domyślne</string>
     <string name="change_color">Zmień kolor</string>
     <string name="theme">Motyw</string>
@@ -169,6 +171,8 @@
     <string name="undo_changes_confirmation">Czy na pewno chcesz cofnąć zmiany?</string>
     <string name="save_before_closing">Zapisać zmiany?</string>
     <string name="apply_to_all_apps">Zastosuj kolory do wszystkich Prostych Aplikacji</string>
+    <string name="app_icon_color_warning">OSTRZEŻENIE: Niektóre launchery nie obsługują odpowiednio dostosowania ikon aplikacji. Jeśli ikona zniknie, spróbuj uruchomić aplikację przez Google Play lub jakiś widżet, jeśli jest dostępny.
+         Po uruchomieniu, przywróć domyślną pomarańczową ikonę # F57C00. W najgorszym przypadku może być konieczne ponowne zainstalowanie aplikacji.</string>
     <string name="share_colors_success">Kolory zostały zmienione. Utworzony został nowy, \'wspólny\' motyw - użyj go, aby zaktualizować kolorystykę wszystkich Prostych Aplikacji.</string>
     <!-- Themes -->
     <string name="light_theme">Jasny</string>
@@ -230,6 +234,7 @@
         <item quantity="other">UWAGA: usuwasz %d folderów</item>
     </plurals>
     <!-- Password protection -->
+    <string name="pin">PIN</string>
     <string name="enter_pin">Wprowadź PIN</string>
     <string name="please_enter_pin">Wprowadź PIN</string>
     <string name="wrong_pin">Nieprawidłowy PIN</string>
@@ -390,7 +395,7 @@
     <string name="extra_large">Bardzo duża</string>
     <string name="password_protect_hidden_items">Chroń widoczność ukrytych plików</string>
     <string name="password_protect_whole_app">Chroń dostęp do aplikacji</string>
-    <string name="keep_last_modified">Zachowuj starą datę i czas modyfikacji przy kopiowaniu / przenoszeniu / zmianie nazwy plików</string>
+    <string name="password_protect_file_deletion">Zabezpieczenie hasłem usuwania plików i przenoszenia</string>
     <string name="show_info_bubble">Pokazuj dodatkowe informacje o elementach przy przeciąganiu paska przewijania</string>
     <string name="prevent_phone_from_sleeping">Zapobiegaj przejściu urządzenia  w stan uśpienia gdy aplikacja jest aktywna</string>
     <string name="skip_delete_confirmation">Nie pokazuj okna z potwierdzeniem usunięcia elementów</string>
@@ -441,6 +446,7 @@
     <string name="no_entries_for_exporting">Nie znalazłem żadnych wpisów do wyeksportowania</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
+    <string name="usb_detected">Wygląda na to, że do twojego urządzenia jest podłączone urządzenie USB. Aby upewnić się, że pliki są wyświetlane poprawnie, musisz udzielić dodatkowych uprawnień.</string>
     <string name="confirm_usb_storage_access_text">Wybierz folder główny urządzenia USB na następnym ekranie, aby uzyskać dostęp do tegoż urządzenia</string>
     <string name="wrong_root_selected_usb">Wybrany został niewłaściwy folder. Wybierz główny folder urządzenia USB.</string>
     <!-- Dates -->
@@ -495,6 +501,7 @@
     <string name="it_is_free">Jest darmowa do %s. Jeśli pobierzesz ją do tego czasu, będziesz mieć ją bezterminowo za darmo.</string>
     <string name="more_info">Więcej informacji</string>
     <string name="upgrade">Aktualizuj</string>
+    <string name="upgrade_calendar">Musisz migrować lokalnie przechowywane zdarzenia ręcznie, eksportując je w pliku .ics, a następnie importując. Możesz znaleźć oba przyciski eksportu / importu w głównym menu ekranowym.</string>
     <!-- About -->
     <string name="about">O aplikacji</string>
     <string name="website_label">Nasza strona internetowa:</string>
@@ -530,6 +537,9 @@
     <string name="faq_4_text_commons">Tak. Po przeciągnięciu widżetu na pulpit pojawia się okno jego konfiguracji. Zobaczysz na nim kolorowe kwadraty, za pomocą których możesz wybrać nowe kolory. Suwakiem możesz też ustawić poziom przezroczystości.</string>
     <string name="faq_5_title_commons">Czy mogę jakoś odzyskać usunięte pliki?</string>
     <string name="faq_5_text_commons">Jeśli zostały faktycznie usunięte, no to nie bardzo (ratunkiem mogą - acz nie muszą - okazać się zewnętrzne aplikacje odzyskujące pliki). Jednakże, możesz włączyć funkcję kosza w ustawieniach niniejszej aplikacji, aby mieć pewność co do ich ewentualnego odzyskania.</string>
+    <string name="faq_6_title_commons">Ikona aplikacji została usunięta. Co mogę zrobić?</string>
+    <string name="faq_6_text_commons">Jest to spowodowane tym, że twój launcher nie obsługuje poprawnie dostosowania ikon. Spróbuj uruchomić aplikację przez Google Play lub jakiś widżet, jeśli jest dostępny.
+         Po uruchomieniu, przywróć domyślną pomarańczową ikonę # F57C00. W najgorszym przypadku może być konieczne ponowne zainstalowanie aplikacji.</string>
     <!-- License -->
     <string name="notice">Aplikacja korzysta z następujących bibliotek innych firm:</string>
     <string name="third_party_licences">Licencje innych firm</string>

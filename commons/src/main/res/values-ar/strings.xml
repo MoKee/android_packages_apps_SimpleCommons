@@ -24,6 +24,7 @@
     <string name="transparent">شفاف</string>
     <string name="transparent_color">لون شفاف</string>
     <string name="select_a_different_color">تحديد لون مختلف</string>
+    <string name="download">تنزيل</string>
     <!-- Favorites -->
     <string name="favorites">المفضلة</string>
     <string name="add_favorites">إضافة مفضلات</string>
@@ -438,7 +439,6 @@
     <string name="password_protect_hidden_items">كلمة مرور لحماية رؤية العنصر المخفي</string>
     <string name="password_protect_whole_app">كلمة مرور لحماية التطبيق بالكامل</string>
     <string name="password_protect_file_deletion">الحماية بكلمة سر لحذف ونقل الملفات</string>
-    <string name="keep_last_modified">احتفظ بالقيمة القديمة المعدلة عند نسخ/نقل/إعادة تسمية الملف</string>
     <string name="show_info_bubble">عرض فقاعة معلومات في عناصر التمرير بسحب شريط التمرير</string>
     <string name="prevent_phone_from_sleeping">منع الهاتف من النوم بينما يكون التطبيق في المقدمة</string>
     <string name="skip_delete_confirmation">دائماً تخطي مربع حوار تأكيد الحذف</string>

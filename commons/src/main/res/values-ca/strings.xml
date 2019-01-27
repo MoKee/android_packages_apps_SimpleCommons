@@ -22,6 +22,7 @@
     <string name="label">Etiqueta</string>
     <string name="transparent_color">Color transparent</string>
     <string name="select_a_different_color">Selecciona un color diferent</string>
+    <string name="download">Descàrrega</string>
     <!-- Favorites -->
     <string name="favorites">Preferits</string>
     <string name="add_favorites">Afegeix als preferits</string>
@@ -347,7 +348,6 @@
     <string name="password_protect_hidden_items">Contrasenya per protegir els mitjans amagats</string>
     <string name="password_protect_whole_app">Contrasenya per protegir tota l’aplicació</string>
     <string name="password_protect_file_deletion">Protegir amb contrasenya l\'eliminació i el moviment dels fitxers</string>
-    <string name="keep_last_modified">Mantenir el valor de la darrera modificació al copiar/moure/canviar el nom dels arxius</string>
     <string name="show_info_bubble">Mostra una bombolla d\'informació en elements de desplaçament mitjançant arrossegament de la barra de desplaçament</string>
     <string name="prevent_phone_from_sleeping">No deixar dormir el telèfon amb la aplicació a primer pla</string>
     <string name="skip_delete_confirmation">Ignora sempre el diàleg de confirmació d\'eliminació</string>

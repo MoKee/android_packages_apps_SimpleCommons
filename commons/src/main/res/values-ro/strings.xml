@@ -3,6 +3,7 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Anulează</string>
+    <string name="edit_with">Editați cu</string>
     <string name="set_as">Setaţi ca</string>
     <string name="unknown">Necunoscut</string>
     <string name="always">Mereu</string>
@@ -10,6 +11,7 @@
     <string name="details">Detalii</string>
     <string name="none">Niciunul</string>
     <string name="label">Etichetă</string>
+    <string name="download">Descarcă</string>
     <!-- Favorites -->
     <string name="favorites">Favorite</string>
     <string name="add_to_favorites">Adaugă la favorite</string>
@@ -17,25 +19,43 @@
     <!-- Search -->
     <string name="search">Caută</string>
     <!-- Filters -->
+    <string name="filter">Filtru</string>
     <!-- Permissions -->
     <!-- Renaming -->
+    <string name="rename_file">Redenumiţi fişierul</string>
+    <string name="renaming_folder">Redenumiţi dosarul</string>
     <!-- Copy / Move -->
+    <string name="copy">Copiați</string>
+    <string name="move">Mută</string>
+    <string name="copy_move">Copiere / Mutare</string>
+    <string name="copy_to">Copiere în</string>
+    <string name="move_to">Mută în</string>
+    <string name="source">Sursă</string>
+    <string name="destination">Destinație</string>
+    <string name="select_destination">Alege destinaţia</string>
+    <string name="copying">Se copiază…</string>
     <!-- Create new -->
     <string name="folder">Dosar</string>
     <!-- File operation conflicts -->
     <string name="skip">Omite</string>
     <!-- File picker -->
+    <string name="select_folder">Selectează dosar</string>
+    <string name="select_file">Selectează un fișier</string>
+    <string name="confirm_selection">Confirmați selecția</string>
     <!-- Are you sure you want to delete 5 items? -->
     <!-- Storages -->
     <string name="sd_card">Card SD</string>
     <!-- File properties -->
     <string name="path">Cale</string>
     <string name="duration">Durată</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
     <string name="exposure_time">Timp expunere</string>
     <string name="camera">Cameră foto</string>
     <!-- Color customization -->
     <string name="primary_color">Culoare primară</string>
     <string name="restore_defaults">Restabiliți valorile implicite</string>
+    <string name="change_color">Schimbă culoarea</string>
     <string name="theme">Temă</string>
     <string name="save">Salvaţi</string>
     <string name="discard">Renunță</string>
@@ -58,6 +78,7 @@
     <string name="size">Dimensiune</string>
     <string name="date_taken">Data realizării</string>
     <string name="title">Titlu</string>
+    <string name="extension">Extensie</string>
     <string name="ascending">crescător</string>
     <string name="descending">descrescător</string>
     <!-- Confirmation dialog -->
@@ -95,6 +116,10 @@
     <!-- Dates -->
     <!-- in January -->
     <string name="monday">Luni</string>
+    <string name="tuesday">Marţi</string>
+    <string name="wednesday">Miercuri</string>
+    <string name="thursday">Joi</string>
+    <string name="friday">Vineri</string>
     <string name="saturday">Sâmbătă</string>
     <string name="sunday">Duminică</string>
     <string name="wednesday_letter">V</string>

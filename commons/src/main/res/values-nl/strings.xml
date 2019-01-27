@@ -24,6 +24,7 @@
     <string name="transparent">Transparant</string>
     <string name="transparent_color">Transparante kleur</string>
     <string name="select_a_different_color">Kies een andere kleur</string>
+    <string name="download">Download</string>
     <!-- Favorites -->
     <string name="favorites">Favorieten</string>
     <string name="add_favorites">Favorieten toevoegen</string>
@@ -336,7 +337,6 @@
     <string name="password_protect_hidden_items">Verborgen items met wachtwoord beveiligen</string>
     <string name="password_protect_whole_app">Hele app met wachtwoord beveiligen</string>
     <string name="password_protect_file_deletion">Bestandsoperaties Verwijderen en Verplaatsen met wachtwoord beveiligen</string>
-    <string name="keep_last_modified">Datum laatst gewijzigd behouden bij bestandsoperaties</string>
     <string name="show_info_bubble">Bij slepen van schuifbalk extra informatie tonen</string>
     <string name="prevent_phone_from_sleeping">Slaapstand voorkomen wanneer de app actief is</string>
     <string name="skip_delete_confirmation">Niet om bevestiging vragen bij verwijderen</string>

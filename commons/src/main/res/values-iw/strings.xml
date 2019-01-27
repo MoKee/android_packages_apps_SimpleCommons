@@ -9,6 +9,7 @@
     <string name="never">אף פעם</string>
     <string name="details">פרטים</string>
     <string name="none">ללא</string>
+    <string name="download">מצב הורדה</string>
     <!-- Favorites -->
     <string name="favorites">מועדפים</string>
     <string name="add_to_favorites">הוספה למועדפים</string>

@@ -24,6 +24,7 @@
     <string name="transparent">Áttetsző</string>
     <string name="transparent_color">Áttetsző szín</string>
     <string name="select_a_different_color">Válasszon egy másik színt</string>
+    <string name="download">Letöltés</string>
     <!-- Favorites -->
     <string name="favorites">Kedvencek</string>
     <string name="add_favorites">Kedvencek hozzáadása</string>
@@ -354,7 +355,6 @@
     <string name="password_protect_hidden_items">Jelszavas védelem a rejtett elem láthatóságához</string>
     <string name="password_protect_whole_app">Jelszavas védelem az egész alkalmazáshoz</string>
     <string name="password_protect_file_deletion">Jelszavas védelem a fájlok törléséhez és áthelyezéséhez</string>
-    <string name="keep_last_modified">Tartsa meg a régi, utoljára módosítás értékét a fájl másolás/áthelyezés/átnevezés műveletnél</string>
     <string name="show_info_bubble">Mutassa az információs buborékot a görgetősáv húzásánál</string>
     <string name="prevent_phone_from_sleeping">Megakadályozza a telefon alvó állapotát, amíg az alkalmazás előtérben van</string>
     <string name="skip_delete_confirmation">Mindig ugorja át a törlés megerősítése kérdést</string>

@@ -24,6 +24,7 @@
     <string name="transparent">Şeffaflık</string>
     <string name="transparent_color">Şeffaf renk</string>
     <string name="select_a_different_color">Farklı bir renk seç</string>
+    <string name="download">İndirme</string>
     <!-- Favorites -->
     <string name="favorites">Favoriler</string>
     <string name="add_favorites">Favori ekle</string>
@@ -354,7 +355,6 @@
     <string name="password_protect_hidden_items">Parola korumalı gizli öğe görünürlüğü</string>
     <string name="password_protect_whole_app">Parola tüm uygulamayı korur</string>
     <string name="password_protect_file_deletion">Dosya şifre silme ve taşıma</string>
-    <string name="keep_last_modified">Dosya kopyalama/taşıma/yeniden adlandırmada eski son değiştirilme değerini koru</string>
     <string name="show_info_bubble">Kaydırma çubuğunu sürükleyerek öğeleri kaydırmada bilgi balonunu göster</string>
     <string name="prevent_phone_from_sleeping">Uygulama ön plandayken telefonun uykuya geçmesini önle</string>
     <string name="skip_delete_confirmation">Her zaman silme onayı penceresini atla</string>

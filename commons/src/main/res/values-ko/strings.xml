@@ -10,6 +10,7 @@
     <string name="details">세부정보</string>
     <string name="none">선택 안함</string>
     <string name="label">라벨</string>
+    <string name="download">다운로드</string>
     <!-- Favorites -->
     <string name="favorites">즐겨찾기</string>
     <string name="add_to_favorites">즐겨찾기에 추가</string>
