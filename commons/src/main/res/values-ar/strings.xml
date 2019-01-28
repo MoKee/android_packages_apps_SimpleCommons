@@ -439,6 +439,7 @@
     <string name="password_protect_hidden_items">كلمة مرور لحماية رؤية العنصر المخفي</string>
     <string name="password_protect_whole_app">كلمة مرور لحماية التطبيق بالكامل</string>
     <string name="password_protect_file_deletion">الحماية بكلمة سر لحذف ونقل الملفات</string>
+    <string name="keep_last_modified">احتفظ بالقيمة القديمة المعدلة في عمليات الملف</string>
     <string name="show_info_bubble">عرض فقاعة معلومات في عناصر التمرير بسحب شريط التمرير</string>
     <string name="prevent_phone_from_sleeping">منع الهاتف من النوم بينما يكون التطبيق في المقدمة</string>
     <string name="skip_delete_confirmation">دائماً تخطي مربع حوار تأكيد الحذف</string>
@@ -453,6 +454,10 @@
     <string name="recycle_bin_cleaning_interval">الفاصل الزمني لتنظيف سلة المحذوفات</string>
     <string name="empty_recycle_bin">إفراغ سلة المحذوفات</string>
     <string name="force_portrait_mode">فرض العرض العمودي</string>
+    <string name="export_settings">تصدير الإعدادات</string>
+    <string name="import_settings">إستيراد الإعدادات</string>
+    <string name="settings_exported_successfully">تم تصدير الإعدادات بنجاح</string>
+    <string name="settings_imported_successfully">تم استيراد الإعدادات بنجاح</string>
     <!-- Setting sections -->
     <string name="visibility">وضوح الرؤية</string>
     <string name="security">الحماية</string>
@@ -569,6 +574,8 @@
     <string name="update_thank_you">يرجى تحديث Simple Thank You إلى أحدث إصدار</string>
     <string name="before_asking_question_read_faq">قبل أن تسأل سؤالاً، الرجاء قراءة \"الأسئلة المتداولة\" أولاً، ربما الحل هناك.</string>
     <string name="read_it">اقرأها</string>
+    <string name="sideloaded_app"><![CDATA[            يبدو أن إصدار التطبيق الخاص بك تالف. الرجاء تحميل النسخة الأصلية <a href="%s">هنا</a>.
+        ]]></string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">الأسئلة المتداولة</string>
     <string name="before_asking_question">قبل أن تسأل سؤالاً، يرجى أولاً قراءة</string>
@@ -613,4 +620,5 @@
     <string name="panorama_view_title">VR Panorama View (عرض الاستعراضات)</string>
     <string name="sanselan_title">Apache Sanselan (قراءة البيانات الوصفية للصورة)</string>
     <string name="filters_title">Android Photo Filters (مرشحات الصور)</string>
+    <string name="gesture_views_title">عروض الإيماءة (صور قابلة للتكبير)</string>
 </resources>
