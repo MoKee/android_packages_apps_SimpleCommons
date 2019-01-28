@@ -355,6 +355,7 @@
     <string name="password_protect_hidden_items">Jelszavas védelem a rejtett elem láthatóságához</string>
     <string name="password_protect_whole_app">Jelszavas védelem az egész alkalmazáshoz</string>
     <string name="password_protect_file_deletion">Jelszavas védelem a fájlok törléséhez és áthelyezéséhez</string>
+    <string name="keep_last_modified">Tartsa meg a legutóbbi módosítási értéket a fájlműveletnél</string>
     <string name="show_info_bubble">Mutassa az információs buborékot a görgetősáv húzásánál</string>
     <string name="prevent_phone_from_sleeping">Megakadályozza a telefon alvó állapotát, amíg az alkalmazás előtérben van</string>
     <string name="skip_delete_confirmation">Mindig ugorja át a törlés megerősítése kérdést</string>
@@ -369,6 +370,10 @@
     <string name="recycle_bin_cleaning_interval">Lomtár kiürítés időszak</string>
     <string name="empty_recycle_bin">Lomtár ürítése</string>
     <string name="force_portrait_mode">Álló mód kényszerítése</string>
+    <string name="export_settings">Beállítás-exportálás</string>
+    <string name="import_settings">Beállítás-importálás</string>
+    <string name="settings_exported_successfully">A Beállítás-exportálás sikeresen lezajlott</string>
+    <string name="settings_imported_successfully">A Beállítás-importálás sikeresen lezajlott</string>
     <!-- Setting sections -->
     <string name="visibility">Láthatóság</string>
     <string name="security">Biztonság</string>
@@ -481,6 +486,8 @@
     <string name="update_thank_you">Kérjük, frissítse a Simple Thank You alkalmazást a legújabb verzióra</string>
     <string name="before_asking_question_read_faq">Mielőtt feltenné a kérdését, először nézze meg a Gyakran Ismételt Kérdéseket, abban talán már létezik a megoldás.</string>
     <string name="read_it">Olvassa el</string>
+    <string name="sideloaded_app"><![CDATA[            Úgy tűnik, az alkalmazás verziója nem megfelelő. Kérjük, töltsön le egy eredeti verziót <a href="%s">innen</a>.
+        ]]></string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Gyakran Ismételt Kérdések</string>
     <string name="before_asking_question">Mielőtt feltenné egy kérdést, először olvassa el ezt:</string>
@@ -525,4 +532,5 @@
     <string name="panorama_view_title">VR Panorama View (panorámakép megjelenítése)</string>
     <string name="sanselan_title">Apache Sanselan (kép metaadat kiolvasás)</string>
     <string name="filters_title">Android Photo Filters (kép szűrők)</string>
+    <string name="gesture_views_title">Kézmozdulat-vezérléses nézetek (nagyítható képek)</string>
 </resources>

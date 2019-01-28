@@ -397,6 +397,7 @@
     <string name="password_protect_hidden_items">Uzamknout viditelnost skrytých položek heslem</string>
     <string name="password_protect_whole_app">Uzamknout heslem celou aplikaci</string>
     <string name="password_protect_file_deletion">Uzamknout heslem mazání a přesouvání souborů</string>
+    <string name="keep_last_modified">Zachovat starou poslední modifikovanou hodnotu při operacích se soubory</string>
     <string name="show_info_bubble">Zobrazit informační bublinu při prohlížení položek tažením posuvníku</string>
     <string name="prevent_phone_from_sleeping">Zabránit uspání zařízení dokud je aplikace v popředí</string>
     <string name="skip_delete_confirmation">Vždy přeskočit potvrzovací okno pro vymazání</string>
@@ -411,6 +412,10 @@
     <string name="recycle_bin_cleaning_interval">Interval vysypání koše</string>
     <string name="empty_recycle_bin">Vyprázdnit Koš</string>
     <string name="force_portrait_mode">Vynutit režim na výšku</string>
+    <string name="export_settings">Export nastavení</string>
+    <string name="import_settings">Import nastavení</string>
+    <string name="settings_exported_successfully">Nastavení bylo úspěšně exportováno</string>
+    <string name="settings_imported_successfully">Nastavení bylo úspěšně importováno</string>
     <!-- Setting sections -->
     <string name="visibility">Viditelnost</string>
     <string name="security">Zabezpečení</string>
@@ -525,6 +530,8 @@
     <string name="update_thank_you">Prosím aktualizujte Simple Thank You na nejnovější verzi</string>
     <string name="before_asking_question_read_faq">Než se něco zeptáte, přečtěte si prosím FAQ, možná tam najdete svou odpověď.</string>
     <string name="read_it">Čtěte</string>
+    <string name="sideloaded_app"><![CDATA[            Zdá se, že verze aplikace je poškozená. Stáhněte si prosím původní verzi <a href="%s">here</a>.
+        ]]></string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Často kladené otázky</string>
     <string name="before_asking_question">Před položením otázky, prosím nejprve čtěte</string>
@@ -569,4 +576,5 @@
     <string name="panorama_view_title">VR Panorama View (zobrazování panoramat)</string>
     <string name="sanselan_title">Apache Sanselan (čtení metadat obrázků)</string>
     <string name="filters_title">Android Photo Filters (filtry obrázků)</string>
+    <string name="gesture_views_title">Náhledy gesty (přiblížitelné obrázky)</string>
 </resources>
