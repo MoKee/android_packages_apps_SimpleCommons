@@ -355,6 +355,7 @@
     <string name="password_protect_hidden_items">Visibilité des éléments protégés par un mot de passe</string>
     <string name="password_protect_whole_app">Le mot de passe protège l\'ensemble de l\'application</string>
     <string name="password_protect_file_deletion">Protéger par mot de passe la suppression et le déplacement de fichiers</string>
+    <string name="keep_last_modified">Conserver la valeur modifiée la plus ancienne lors des opérations sur les fichiers</string>
     <string name="show_info_bubble">Afficher une bulle d\'information des éléments qui s\'affichent lorsque vous faites glisser la barre de défilement</string>
     <string name="prevent_phone_from_sleeping">Ne pas mettre en veille tant que l\'application est active.</string>
     <string name="skip_delete_confirmation">Ne jamais montrer le dialogue de confirmation de suppression</string>
@@ -369,6 +370,10 @@
     <string name="recycle_bin_cleaning_interval">Interval de vidage de la corbeille</string>
     <string name="empty_recycle_bin">Vider la corbeille</string>
     <string name="force_portrait_mode">Forcer le mode portrait</string>
+    <string name="export_settings">Paramètres d\'exportation</string>
+    <string name="import_settings">Importer les paramètres</string>
+    <string name="settings_exported_successfully">Les paramètres ont été restaurés avec succès</string>
+    <string name="settings_imported_successfully">Paramètres importés avec succès</string>
     <!-- Setting sections -->
     <string name="visibility">Visibilité</string>
     <string name="security">Sécurité</string>
@@ -481,6 +486,8 @@
     <string name="update_thank_you">Veuillez mettre à jour Simple Merci à la dernière version</string>
     <string name="before_asking_question_read_faq">Avant de vous posez une question, veuillez lire la Foire aux Questions tout d’abord, peut-être que la solution y est.</string>
     <string name="read_it">Le lire</string>
+    <string name="sideloaded_app"><![CDATA[            La version de l'application semble être corrompue. Téléchargez la version originale de <a href="%s">ici </a>.
+        ]]></string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Foire aux questions (FAQ)</string>
     <string name="before_asking_question">Avant de poser une question, lisez d\'abord le</string>
@@ -523,4 +530,5 @@
     <string name="panorama_view_title">Vue panoramique en VR (affichage des panoramas)</string>
     <string name="sanselan_title">Apache Sanselan (lecture des métadonnées de l’image)</string>
     <string name="filters_title">Filtres Photo Android (filtres d’image)</string>
+    <string name="gesture_views_title">Aperçu des gestes (images extensibles)</string>
 </resources>

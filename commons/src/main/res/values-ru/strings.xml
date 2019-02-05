@@ -397,6 +397,7 @@
     <string name="password_protect_hidden_items">Защита паролем отображения скрытых объектов</string>
     <string name="password_protect_whole_app">Защита паролем всего приложения</string>
     <string name="password_protect_file_deletion">Защита паролем удаления и перемещения файлов</string>
+    <string name="keep_last_modified">Сохранять дату изменения файла при копировании/перемещении/переименовании</string>
     <string name="show_info_bubble">Показывать информационное окно при прокрутке элементов перетаскиванием полосы прокрутки</string>
     <string name="prevent_phone_from_sleeping">Предотвращать засыпание устройства, пока приложение находится на переднем плане</string>
     <string name="skip_delete_confirmation">Пропускать диалог подтверждения удаления</string>
@@ -411,6 +412,10 @@
     <string name="recycle_bin_cleaning_interval">Интервал очистки корзины</string>
     <string name="empty_recycle_bin">Очистить корзину</string>
     <string name="force_portrait_mode">Принудительный портретный режим</string>
+    <string name="export_settings">Экспорт настроек</string>
+    <string name="import_settings">Импорт настроек</string>
+    <string name="settings_exported_successfully">Настройки успешно экспортированы</string>
+    <string name="settings_imported_successfully">Настройки успешно импортированы</string>
     <!-- Setting sections -->
     <string name="visibility">Отображение</string>
     <string name="security">Безопасность</string>
@@ -420,6 +425,7 @@
     <string name="saving_label">Сохранение</string>
     <string name="startup">Запуск</string>
     <string name="text">Текст</string>
+    <string name="migrating">Перенос данных</string>
     <!-- Recycle Bin -->
     <string name="restore_this_file">Восстановить этот файл</string>
     <string name="restore_selected_files">Восстановить выбранные файлы</string>
@@ -444,6 +450,7 @@
     <string name="exporting_failed">Экспортирование завершилось неудачей</string>
     <string name="importing_some_entries_failed">Импортирование некоторых элементов завершилось неудачей</string>
     <string name="exporting_some_entries_failed">Экспортирование некоторых элементов завершилось неудачей</string>
+    <string name="no_entries_for_importing">Записи для импорта не найдены</string>
     <string name="no_entries_for_exporting">Нет элементов для экспортирования</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
@@ -525,6 +532,8 @@
     <string name="update_thank_you">Пожалуйста, обновите \"Simple Thank You\" до последней версии.</string>
     <string name="before_asking_question_read_faq">Прежде чем задать вопрос, пожалуйста, прочтите ответы на часто задаваемые вопросы (FAQ), возможно, решение уже есть.</string>
     <string name="read_it">Прочитать</string>
+    <string name="sideloaded_app"><![CDATA[            Похоже, вы установили неверную версию приложения. Пожалуйста, скачайте оригинальную версию <a href="%s">здесь</a>.
+        ]]></string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Часто задаваемые вопросы</string>
     <string name="before_asking_question">Перед тем как задать вопрос, пожалуйста, сначала прочитайте</string>
@@ -569,4 +578,5 @@
     <string name="panorama_view_title">VR Panorama View (отображение панорам)</string>
     <string name="sanselan_title">Apache Sanselan (чтение метаданных изображений)</string>
     <string name="filters_title">Android Photo Filters (фильтры изображений)</string>
+    <string name="gesture_views_title">Предварительный просмотр жестов (расширяемые изображения)</string>
 </resources>

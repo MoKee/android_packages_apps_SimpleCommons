@@ -354,6 +354,7 @@
     <string name="password_protect_hidden_items">Proteggi con password gli elementi nascosti</string>
     <string name="password_protect_whole_app">Proteggi con password tutta l\'applicazione</string>
     <string name="password_protect_file_deletion">Proteggi con password l\'eliminazione e lo spostamento dei file</string>
+    <string name="keep_last_modified">Mantieni data/ora ultima modifica in copia/sposta/rinomina</string>
     <string name="show_info_bubble">Mostra un fumetto informativo durante il trascinamento della barra di scorrimento</string>
     <string name="prevent_phone_from_sleeping">Impedisci allo schermo di spegnersi mentre l\'app è in primo piano</string>
     <string name="skip_delete_confirmation">Non chiedere mai la conferma di eliminazione</string>
@@ -368,6 +369,10 @@
     <string name="recycle_bin_cleaning_interval">Intervallo svuotamento cestino</string>
     <string name="empty_recycle_bin">Svuota il cestino</string>
     <string name="force_portrait_mode">Forza la modalità ritratto</string>
+    <string name="export_settings">Esporta impostazioni</string>
+    <string name="import_settings">Importa impostazioni</string>
+    <string name="settings_exported_successfully">Ripristino delle impostazioni completato</string>
+    <string name="settings_imported_successfully">Impostazioni importate con sucesso</string>
     <!-- Setting sections -->
     <string name="visibility">Visibilità</string>
     <string name="security">Sicurezza</string>
@@ -377,6 +382,7 @@
     <string name="saving_label">Salvataggio</string>
     <string name="startup">Avvio</string>
     <string name="text">Testo</string>
+    <string name="migrating">Trasferimento</string>
     <!-- Recycle Bin -->
     <string name="restore_this_file">Ripristina questo file</string>
     <string name="restore_selected_files">Ripristina file selezionati</string>
@@ -399,6 +405,7 @@
     <string name="exporting_failed">Esportazione fallita</string>
     <string name="importing_some_entries_failed">Importazione di alcuni elementi fallita</string>
     <string name="exporting_some_entries_failed">Esportazione di alcuni elementi fallita</string>
+    <string name="no_entries_for_importing">Nessun elemento trovato da importare</string>
     <string name="no_entries_for_exporting">Nessun elemento trovato da esportare</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
@@ -481,6 +488,8 @@
     <string name="before_asking_question_read_faq">Prima di porre una domanda, leggi le domande frequenti, 
 forse la soluzione è già lì.</string>
     <string name="read_it">Leggile</string>
+    <string name="sideloaded_app"><![CDATA[            La versione dell'app sembra essere corrotta. Si prega di scaricare<a href="%s">qui</a>.Versione originale
+        ]]></string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Domande frequenti</string>
     <string name="before_asking_question">Prima di porre una domanda, per favore leggi le</string>
@@ -524,4 +533,5 @@ forse la soluzione è già lì.</string>
     <string name="panorama_view_title">VR Panorama View (visualizzazione panorami)</string>
     <string name="sanselan_title">Apache Sanselan (lettura metadati immagini)</string>
     <string name="filters_title">Android Photo Filters (filtri immagine)</string>
+    <string name="gesture_views_title">Visualizzazione gestuale (immagine scalabile)</string>
 </resources>

@@ -530,8 +530,8 @@
     <string name="update_thank_you">Prosím aktualizujte Simple Thank You na nejnovější verzi</string>
     <string name="before_asking_question_read_faq">Než se něco zeptáte, přečtěte si prosím FAQ, možná tam najdete svou odpověď.</string>
     <string name="read_it">Čtěte</string>
-    <string name="sideloaded_app"><![CDATA[            Zdá se, že verze aplikace je poškozená. Stáhněte si prosím původní verzi <a href="%s">here</a>.
-        ]]></string>
+    <string name="sideloaded_app">            Zdá se, že verze aplikace je poškozená. Stáhněte si prosím původní verzi <a href="%s">here</a>.
+        </string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Často kladené otázky</string>
     <string name="before_asking_question">Před položením otázky, prosím nejprve čtěte</string>

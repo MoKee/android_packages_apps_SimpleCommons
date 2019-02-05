@@ -383,6 +383,7 @@
     <string name="saving_label">Mentés</string>
     <string name="startup">Indítás</string>
     <string name="text">Szöveg</string>
+    <string name="migrating">Költöztetés</string>
     <!-- Recycle Bin -->
     <string name="restore_this_file">Fájl visszaállítása</string>
     <string name="restore_selected_files">Kiválasztott fájl visszaállítása</string>
@@ -405,6 +406,7 @@
     <string name="exporting_failed">Sikertelen exportálás</string>
     <string name="importing_some_entries_failed">Egyes elemek importálása nem sikerült</string>
     <string name="exporting_some_entries_failed">Egyes elemek exportálása nem sikerült</string>
+    <string name="no_entries_for_importing">Az importáláshoz nem találhatóak bejegyzések</string>
     <string name="no_entries_for_exporting">Az exportáláshoz nem találhatóak bejegyzések</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
@@ -486,8 +488,8 @@
     <string name="update_thank_you">Kérjük, frissítse a Simple Thank You alkalmazást a legújabb verzióra</string>
     <string name="before_asking_question_read_faq">Mielőtt feltenné a kérdését, először nézze meg a Gyakran Ismételt Kérdéseket, abban talán már létezik a megoldás.</string>
     <string name="read_it">Olvassa el</string>
-    <string name="sideloaded_app"><![CDATA[            Úgy tűnik, az alkalmazás verziója nem megfelelő. Kérjük, töltsön le egy eredeti verziót <a href="%s">innen</a>.
-        ]]></string>
+    <string name="sideloaded_app">            Úgy tűnik, az alkalmazás verziója nem megfelelő. Kérjük, töltsön le egy eredeti verziót <a href="%s">innen</a>.
+        </string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Gyakran Ismételt Kérdések</string>
     <string name="before_asking_question">Mielőtt feltenné egy kérdést, először olvassa el ezt:</string>

@@ -355,6 +355,7 @@
     <string name="password_protect_hidden_items">Parola korumalı gizli öğe görünürlüğü</string>
     <string name="password_protect_whole_app">Parola tüm uygulamayı korur</string>
     <string name="password_protect_file_deletion">Dosya şifre silme ve taşıma</string>
+    <string name="keep_last_modified">Eski son değiştirilen değeri dosya işlemlerinde sakla</string>
     <string name="show_info_bubble">Kaydırma çubuğunu sürükleyerek öğeleri kaydırmada bilgi balonunu göster</string>
     <string name="prevent_phone_from_sleeping">Uygulama ön plandayken telefonun uykuya geçmesini önle</string>
     <string name="skip_delete_confirmation">Her zaman silme onayı penceresini atla</string>
@@ -369,6 +370,10 @@
     <string name="recycle_bin_cleaning_interval">Geri Dönüşüm Kutusu temizleme süresi</string>
     <string name="empty_recycle_bin">Geri Dönüşüm Kutusunu boşalt</string>
     <string name="force_portrait_mode">Dikey modu zorla</string>
+    <string name="export_settings">Dışarı aktarma ayarları</string>
+    <string name="import_settings">İçe aktarma ayarları</string>
+    <string name="settings_exported_successfully">Ayarlar başarıyla dışa aktarıldı</string>
+    <string name="settings_imported_successfully">Ayarlar başarıyla içe aktarıldı</string>
     <!-- Setting sections -->
     <string name="visibility">Görünürlük</string>
     <string name="security">Güvenlik</string>
@@ -378,6 +383,7 @@
     <string name="saving_label">Kaydetme</string>
     <string name="startup">Başlangıç</string>
     <string name="text">Metin</string>
+    <string name="migrating">Geçiş yapma</string>
     <!-- Recycle Bin -->
     <string name="restore_this_file">Bu dosyayı geri yükle</string>
     <string name="restore_selected_files">Seçilen dosyaları geri yükle</string>
@@ -400,6 +406,7 @@
     <string name="exporting_failed">Dışa aktarılamadı</string>
     <string name="importing_some_entries_failed">Bazı öğeler içe aktarılamadı</string>
     <string name="exporting_some_entries_failed">Bazı öğeler dışa aktarılamadı</string>
+    <string name="no_entries_for_importing">İçe aktarılacak giriş bulunamadı</string>
     <string name="no_entries_for_exporting">Dışa aktarılacak öğe bulunamadı</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
@@ -481,6 +488,8 @@
     <string name="update_thank_you">Lütfen en son sürüme güncelleyin teşekkür ederiz</string>
     <string name="before_asking_question_read_faq">Bir soru sormadan önce lütfen sıkça sorulan sorular bölümünü okuyun, belki de çözümü vardır.</string>
     <string name="read_it">Oku</string>
+    <string name="sideloaded_app"><![CDATA[            Uygulama sürümünüz bozuk görünüyor.  Lütfen orijinal sürümü indirin <a href="%s">here</a>.
+        ]]></string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Sık sorulan sorular</string>
     <string name="before_asking_question">Bir soru sormadan önce, lütfen şurayı okuyun</string>
@@ -524,4 +533,5 @@
     <string name="panorama_view_title">VR Panorama View (panorama görüntüleme)</string>
     <string name="sanselan_title">Apache Sanselan (görüntü meta verileri okuma)</string>
     <string name="filters_title">Android Fotoğraf Filtreleri (görüntü filtreleri)</string>
+    <string name="gesture_views_title">Hareket görünümleri (yakınlaştırılabilir görüntüler)</string>
 </resources>

@@ -163,6 +163,7 @@
     <string name="undo_changes_confirmation">確定要恢復變更嗎?</string>
     <string name="save_before_closing">尚未儲存變更。離開前是否儲存?</string>
     <string name="apply_to_all_apps">將顏色套用於[簡易]系列全部應用程式</string>
+    <string name="app_icon_color_warning">警告：某些啟動程序無法正確處理自定義應用程序圖標。如果可能，請嘗試通過Google Play或小部件打開應用，如果圖標不可見。如果您已重新打開該應用程序，只需重置默認的橙色圖標＃F57C00。在最壞的情況下，您可能需要重新安裝應用程序。</string>
     <string name="share_colors_success">顏色更新成功。新增了一個名為 \'Shared\' 的新主題，以後請使用那個來更新全部應用程式顏色。</string>
     <!-- Themes -->
     <string name="light_theme">明亮主題</string>
@@ -332,6 +333,7 @@
     <string name="password_protect_hidden_items">用密碼保護隱藏的物件</string>
     <string name="password_protect_whole_app">用密碼保護整個應用程式</string>
     <string name="password_protect_file_deletion">使用密碼保護檔案刪除和移動</string>
+    <string name="keep_last_modified">在復制/移動/重命名文件時保留舊的修改日期</string>
     <string name="show_info_bubble">拖曳滾動條時，顯示訊息氣泡</string>
     <string name="prevent_phone_from_sleeping">當程式在前景使用時，防止手機進入睡眠</string>
     <string name="skip_delete_confirmation">刪除不再進行確認</string>
@@ -346,6 +348,10 @@
     <string name="recycle_bin_cleaning_interval">回收桶清理間隔</string>
     <string name="empty_recycle_bin">清空回收桶</string>
     <string name="force_portrait_mode">強制直向模式</string>
+    <string name="export_settings">匯出設定</string>
+    <string name="import_settings">匯入設定</string>
+    <string name="settings_exported_successfully">設定還原成功</string>
+    <string name="settings_imported_successfully">設定還原成功</string>
     <!-- Setting sections -->
     <string name="visibility">可見度</string>
     <string name="security">安全性</string>
@@ -457,6 +463,8 @@
     <string name="update_thank_you">請更新[Simple Thank You]至最新版本</string>
     <string name="before_asking_question_read_faq">在您發問前，請先閱讀[常見問題]，或許解決方法就在那裡。</string>
     <string name="read_it">讀它</string>
+    <string name="sideloaded_app"><![CDATA[            應用版本似乎已損壞。請下載<a href="%s">此处</a>.的原始版本
+        ]]></string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">常見問題</string>
     <string name="before_asking_question">在你發問之前，請先閱讀</string>
@@ -472,6 +480,8 @@
     <string name="faq_4_text_commons">可啊，當你在主畫面拖動小工具時，會出現小工具設置畫面。你會在左下角看到顏色方塊，點下去再挑個新顏色就好了。你也能用拉條來調整透明度。</string>
     <string name="faq_5_title_commons">我有辦法恢復被刪除的檔案嗎?</string>
     <string name="faq_5_text_commons">如果它們確實被刪除了，那沒辦法。然而，你可以在程式設定中啟用回收桶來取代刪除。那只會移動檔案而不是刪除它們。</string>
+    <string name="faq_6_title_commons">應用程序啟動器圖標消失。我能做什麼呢？</string>
+    <string name="faq_6_text_commons">警告：某些啟動程序無法正確處理自定義應用程序圖標。如果可能，請嘗試通過Google Play或小部件打開應用，如果圖標不可見。如果您已重新打開該應用程序，只需重置默認的橙色圖標＃F57C00。在最壞的情況下，您可能需要重新安裝應用程序。</string>
     <!-- License -->
     <string name="notice">這程式使用了下列的第三方函式庫來讓我工作簡化。感謝。</string>
     <string name="third_party_licences">第三方授權</string>
@@ -498,4 +508,5 @@
     <string name="panorama_view_title">VR Panorama View (顯示全景圖)</string>
     <string name="sanselan_title">Apache Sanselan (讀取圖像元數據)</string>
     <string name="filters_title">Android Photo Filters (圖像濾鏡)</string>
+    <string name="gesture_views_title">手勢視圖 (可縮放的圖像)</string>
 </resources>

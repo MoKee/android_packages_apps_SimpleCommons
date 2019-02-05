@@ -467,6 +467,7 @@
     <string name="saving_label">الحفظ...</string>
     <string name="startup">بدء التشغيل</string>
     <string name="text">نص</string>
+    <string name="migrating">الإنتقال</string>
     <!-- Recycle Bin -->
     <string name="restore_this_file">استعادة هذا الملف</string>
     <string name="restore_selected_files">استعادة الملفات المحددة</string>
@@ -493,6 +494,7 @@
     <string name="exporting_failed">فشل التصدير</string>
     <string name="importing_some_entries_failed">فشل في استيراد بعض الأدخالات</string>
     <string name="exporting_some_entries_failed">فشل في تصدير بعض الأدخالات</string>
+    <string name="no_entries_for_importing">لم يتم العثور على إدخالات للتصدير</string>
     <string name="no_entries_for_exporting">لم يتم العثور على إدخالات للتصدير</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
@@ -574,8 +576,8 @@
     <string name="update_thank_you">يرجى تحديث Simple Thank You إلى أحدث إصدار</string>
     <string name="before_asking_question_read_faq">قبل أن تسأل سؤالاً، الرجاء قراءة \"الأسئلة المتداولة\" أولاً، ربما الحل هناك.</string>
     <string name="read_it">اقرأها</string>
-    <string name="sideloaded_app"><![CDATA[            يبدو أن إصدار التطبيق الخاص بك تالف. الرجاء تحميل النسخة الأصلية <a href="%s">هنا</a>.
-        ]]></string>
+    <string name="sideloaded_app">            يبدو أن إصدار التطبيق الخاص بك تالف. الرجاء تحميل النسخة الأصلية <a href="%s">هنا</a>.
+        </string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">الأسئلة المتداولة</string>
     <string name="before_asking_question">قبل أن تسأل سؤالاً، يرجى أولاً قراءة</string>

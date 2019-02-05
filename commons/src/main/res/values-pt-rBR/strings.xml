@@ -21,6 +21,9 @@
     <string name="deleting_folder">Excluindo pastas \'%s\'</string>
     <string name="none">Nenhum</string>
     <string name="label">Descrição</string>
+    <string name="transparent">Transparente</string>
+    <string name="transparent_color">Cor transparente</string>
+    <string name="select_a_different_color">Selecione uma cor diferente</string>
     <string name="download">Baixar</string>
     <!-- Favorites -->
     <string name="favorites">Favoritos</string>

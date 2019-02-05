@@ -163,6 +163,8 @@
     <string name="undo_changes_confirmation">是否撤销您的更改？</string>
     <string name="save_before_closing">您尚未保存更改，是否保存？</string>
     <string name="apply_to_all_apps">应用到所有简约系列应用</string>
+    <string name="app_icon_color_warning">警告：某些启动程序无法正确处理应用程序图标的自定义。 如果图标消失，请尝试通过Google Play或某个小部件（如果可用）启动应用。
+         一旦启动，只需恢复默认的橙色图标＃F57C00。 如果不行，您需要重新安装该应用程序。</string>
     <string name="share_colors_success">颜色更改成功。已添加名为“共享”的新主题，以后你可以使用它来更改所有应用的颜色。</string>
     <!-- Themes -->
     <string name="light_theme">浅色主题</string>
@@ -332,6 +334,7 @@
     <string name="password_protect_hidden_items">使用密码保护隐藏项</string>
     <string name="password_protect_whole_app">使用密码保护本应用</string>
     <string name="password_protect_file_deletion">使用密码保护文件删除和移动</string>
+    <string name="keep_last_modified">在复制/移动/重命名文件时保留旧的修改日期</string>
     <string name="show_info_bubble">拖动滚动条时在滚动项目旁显示一个信息气泡</string>
     <string name="prevent_phone_from_sleeping">阻止设备自动休眠</string>
     <string name="skip_delete_confirmation">忽略删除确认对话框</string>
@@ -346,6 +349,10 @@
     <string name="recycle_bin_cleaning_interval">回收站清理间隔</string>
     <string name="empty_recycle_bin">清空回收站</string>
     <string name="force_portrait_mode">强制人像模式</string>
+    <string name="export_settings">导出设置</string>
+    <string name="import_settings">导入设置</string>
+    <string name="settings_exported_successfully">设置导出成功</string>
+    <string name="settings_imported_successfully">设置导入成功</string>
     <!-- Setting sections -->
     <string name="visibility">可见度</string>
     <string name="security">安全</string>
@@ -457,6 +464,8 @@
     <string name="update_thank_you">请更新 Simple Thank You 到最新版本</string>
     <string name="before_asking_question_read_faq">提问前请先阅读常见问题列表，或许已经有回答。</string>
     <string name="read_it">阅读</string>
+    <string name="sideloaded_app"><![CDATA[            应用版本似乎已损坏。 请下载<a href="%s">此处</a>.的原始版本
+        ]]></string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">常见问题</string>
     <string name="before_asking_question">在提问之前，请先阅读</string>
@@ -471,6 +480,8 @@
     <string name="faq_5_title_commons">我可以恢复已删除的文件吗？</string>
     <string name="faq_5_text_commons">如果你真的把它们删除了，那么你无法恢复。不过，您可以启用回收站，这样只会移动文件而不是直接删除。</string>
     <string name="faq_6_title_commons">应用程序启动器图标消失。我能做什么呢？</string>
+    <string name="faq_6_text_commons">警告：某些启动程序无法正确处理应用程序图标的自定义。 如果图标消失，请尝试通过Google Play或某个小部件（如果可用）启动应用。
+         一旦启动，只需恢复默认的橙色图标＃F57C00。 如果不行，您需要重新安装该应用程序。</string>
     <!-- License -->
     <string name="notice">此应用使用了以下三方库。谢谢。</string>
     <string name="third_party_licences">开放源代码</string>
@@ -497,4 +508,5 @@
     <string name="panorama_view_title">VR Panorama View (显示全景图)</string>
     <string name="sanselan_title">Apache Sanselan (读取图像元数据)</string>
     <string name="filters_title">Android Photo Filters (图像过滤器)</string>
+    <string name="gesture_views_title">手势视图 (可缩放的图像)</string>
 </resources>

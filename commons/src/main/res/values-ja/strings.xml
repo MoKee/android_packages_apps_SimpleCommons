@@ -98,6 +98,7 @@
     <string name="file_already_exists_overwrite">ファイル \"%s\" は既に存在しています。上書きしますか？</string>
     <string name="folder_already_exists">フォルダ \"%s\" は既に存在しています</string>
     <string name="merge">統合</string>
+    <string name="keep_both">両方を維持します。</string>
     <string name="overwrite">上書き</string>
     <string name="skip">スキップ</string>
     <string name="append">\'_1\' に追記する</string>
@@ -141,6 +142,7 @@
     <string name="iso_speed">ISO感度</string>
     <string name="f_number">絞り値</string>
     <string name="camera">カメラ名</string>
+    <string name="exif">EXIF</string>
     <string name="song_title">曲名</string>
     <!-- Color customization -->
     <string name="background_color">背景色</string>
@@ -161,8 +163,11 @@
     <!-- Themes -->
     <string name="light_theme">ライト</string>
     <string name="dark_theme">ダーク</string>
+    <string name="solarized">ｿﾗﾘｾﾞｰｼｮﾝ</string>
+    <string name="dark_red">ダークレッド</string>
     <string name="black_white">モノクロ</string>
     <string name="custom">カスタム</string>
+    <string name="shared">共有</string>
     <!-- What's new -->
     <string name="whats_new">更新内容</string>
     <string name="whats_new_disclaimer">* ここでは主な変更点を挙げていますが、その他の細かい改善も行われています</string>
@@ -192,6 +197,8 @@
     <string name="title">タイトル</string>
     <string name="filename">ファイル名</string>
     <string name="extension">拡張子</string>
+    <string name="random">ランダム</string>
+    <string name="sort_randomly">ランダムにテレポートする</string>
     <string name="ascending">昇順</string>
     <string name="descending">降順</string>
     <string name="use_for_this_folder">このフォルダのみに適用</string>
@@ -210,6 +217,7 @@
         <item quantity="other">警告: %d 個のフォルダを削除しようとしています</item>
     </plurals>
     <!-- Password protection -->
+    <string name="pin">暗証番号（PIN）</string>
     <string name="enter_pin">PINを入力</string>
     <string name="please_enter_pin">PINを入力してください</string>
     <string name="wrong_pin">PINに誤りがあります</string>
@@ -305,6 +313,7 @@
     <string name="customize_colors">表示色のカスタマイズ</string>
     <string name="customize_widget_colors">ウィジェットの色をカスタマイズ</string>
     <string name="use_english_language">英語で表示する</string>
+    <string name="show_hidden_items">隠しノードの表示</string>
     <string name="font_size">メモのフォントサイズ</string>
     <string name="small">小</string>
     <string name="medium">通常</string>
@@ -365,6 +374,10 @@
     <string name="november">11月</string>
     <string name="december">12月</string>
     <!-- in January -->
+    <string name="in_september">9月</string>
+    <string name="in_october">10月</string>
+    <string name="in_november">11月</string>
+    <string name="in_december">12月</string>
     <string name="monday">月曜日</string>
     <string name="tuesday">火曜日</string>
     <string name="wednesday">水曜日</string>
@@ -387,10 +400,13 @@
     <string name="saturday_short">土</string>
     <string name="sunday_short">日</string>
     <!-- Pro version -->
+    <string name="more_info">詳細情報</string>
+    <string name="upgrade">アップグレード</string>
     <!-- About -->
     <string name="about">このアプリについて</string>
     <string name="website_label">ソースコードはこちら</string>
     <string name="email_label">ご意見やご提案をお送りください</string>
+    <string name="upgrade_to_pro">Pro へのアップグレード</string>
     <string name="more_apps_underlined"><u>他のアプリ</u></string>
     <string name="third_party_licences_underlined"><u>サードパーティー ライセンス</u></string>
     <string name="invite_friends_underlined"><u>友達を招待</u></string>
@@ -406,6 +422,7 @@
     <string name="purchase">購入</string>
     <string name="update_thank_you">\"Simple Thank You\" アプリを最新版に更新してください</string>
     <!-- FAQ -->
+    <string name="frequently_asked_questions">よくある質問（FAQ）</string>
     <!-- License -->
     <string name="notice">このアプリは、私の暮らしにゆとりを持たせるために、次のサードパーティのライブラリーを使用しています。ありがとうございます。</string>
     <string name="third_party_licences">サードパーティー ライセンス</string>

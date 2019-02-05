@@ -172,6 +172,8 @@
     <string name="undo_changes_confirmation">Ste si istý, že chcete vrátiť zmeny?</string>
     <string name="save_before_closing">Máte neuložené zmeny. Chcete ich uložiť pred ukončením?</string>
     <string name="apply_to_all_apps">Použiť farby na všetky Jednoduché Aplikácie</string>
+    <string name="app_icon_color_warning">UPOZORNENIE: Na niektorých spúšťačoch nemusia úpravy ikon aplikácii fungovať správne. Ak ikona zmizne, skúste aplikáciu spustiť pomocou Google Play alebo nejakej miniaplikácie, ak je k dispozícii.
+        Po spustení nastavte predvolenú oranžovú ikonu #F57C00. V najhoršom prípade budete musieť aplikáciu preinštalovať.</string>
     <string name="share_colors_success">Farby boli úspešne aktualizované. Bola pridaná nová \'Zdieľaná\' téma, prosím použite ju pri ďalšej úprave farieb.</string>
     <!-- Themes -->
     <string name="light_theme">Svetlá</string>
@@ -538,6 +540,9 @@
     <string name="faq_4_text_commons">Áno, po potiahnutí widgetu na plochu sa zobrazí konfiguračná obrazovka. Kliknutím na farebné štvorčeky v ľavom dolnom rohu viete zvoliť nové. Potiahnutím posuvníka viete upraviť aj priehľadnosť.</string>
     <string name="faq_5_title_commons">Viem nejakým spôsobom obnoviť vymazané súbory?</string>
     <string name="faq_5_text_commons">Ak dané súbory boli skutočne vymazané, tak nie. V nastaveniach aplikácie ale viete nastaviť používanie odpadkového koša miesto vymazávania súborov.</string>
+    <string name="faq_6_title_commons">Ikona aplikácie v spúšťači zmizla. Čo mám robiť?</string>
+    <string name="faq_6_text_commons">Je to spôsobené tým, že váš spúšťač nepodporuje úpravy ikon aplikácii. Skúste aplikáciu spustiť pomocou Google Play alebo nejakej miniaplikácie, ak je k dispozícii.
+        Po spustení nastavte predvolenú oranžovú ikonu #F57C00. V najhoršom prípade budete musieť aplikáciu preinštalovať.</string>
     <!-- License -->
     <string name="notice">Táto aplikácia používa na uľahčenie práce nasledovné knižnice tretích strán. Ďakujeme.</string>
     <string name="third_party_licences">Knižnice tretích strán</string>
