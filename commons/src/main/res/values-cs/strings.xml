@@ -203,6 +203,7 @@
     <string name="empty_and_disable_recycle_bin">Vyprázdnit a zakázat koš</string>
     <string name="undo">Zpět</string>
     <string name="redo">Opakovat</string>
+    <string name="print">Tisk</string>
     <!-- Sorting -->
     <string name="sort_by">Seřadit dle</string>
     <string name="name">Názvu</string>
@@ -425,6 +426,7 @@
     <string name="saving_label">Ukládání</string>
     <string name="startup">Po spuštění</string>
     <string name="text">Text</string>
+    <string name="migrating">Migrace</string>
     <!-- Recycle Bin -->
     <string name="restore_this_file">Obnovit tento soubor</string>
     <string name="restore_selected_files">Obnovit vybrané soubory</string>
@@ -449,6 +451,7 @@
     <string name="exporting_failed">Exportování selhalo</string>
     <string name="importing_some_entries_failed">Import některých položek se nezdařil</string>
     <string name="exporting_some_entries_failed">Export některých položek se nezdařil</string>
+    <string name="no_entries_for_importing">Nebyly nalezeny žádné položky pro import</string>
     <string name="no_entries_for_exporting">Nebyly nalezeny žádné položky pro export</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
@@ -528,7 +531,7 @@
     <string name="device_os">OS zařízení: %s</string>
     <string name="purchase">Zakoupit</string>
     <string name="update_thank_you">Prosím aktualizujte Simple Thank You na nejnovější verzi</string>
-    <string name="before_asking_question_read_faq">Než se něco zeptáte, přečtěte si prosím FAQ, možná tam najdete svou odpověď.</string>
+    <string name="before_asking_question_read_faq">Než se něco zeptáte, nejprve zkontrolujte nastavení aplikace a přečtěte si prosím FAQ. Možná tam najdete svou odpověď.</string>
     <string name="read_it">Čtěte</string>
     <string name="sideloaded_app">            Zdá se, že verze aplikace je poškozená. Stáhněte si prosím původní verzi <a href="%s">here</a>.
         </string>

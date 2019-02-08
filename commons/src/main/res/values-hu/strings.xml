@@ -197,6 +197,7 @@
     <string name="empty_and_disable_recycle_bin">Lomtár kiürítése és letiltása</string>
     <string name="undo">Visszavonás</string>
     <string name="redo">Mégis</string>
+    <string name="print">Nyomtatás</string>
     <!-- Sorting -->
     <string name="sort_by">Rendezés</string>
     <string name="name">Név</string>
@@ -486,7 +487,7 @@
     <string name="device_os">Eszköz OS: %s</string>
     <string name="purchase">Vásárlás</string>
     <string name="update_thank_you">Kérjük, frissítse a Simple Thank You alkalmazást a legújabb verzióra</string>
-    <string name="before_asking_question_read_faq">Mielőtt feltenné a kérdését, először nézze meg a Gyakran Ismételt Kérdéseket, abban talán már létezik a megoldás.</string>
+    <string name="before_asking_question_read_faq">Mielőtt feltenné a kérdését, kérjük, először nézze meg a Gyakran Ismételt Kérdéseket az alkalmazás beállításaiban, lehet már ott van a megoldás.</string>
     <string name="read_it">Olvassa el</string>
     <string name="sideloaded_app">            Úgy tűnik, az alkalmazás verziója nem megfelelő. Kérjük, töltsön le egy eredeti verziót <a href="%s">innen</a>.
         </string>

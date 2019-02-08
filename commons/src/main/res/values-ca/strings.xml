@@ -469,7 +469,6 @@
     <string name="device_os">Sistema operatiu: %s</string>
     <string name="purchase">Comprar</string>
     <string name="update_thank_you">Si us plau, actualitzeu Simple Thank You a la darrera versió</string>
-    <string name="before_asking_question_read_faq">Abans de fer una pregunta, llegiu les Preguntes més freqüents en primer lloc, potser la solució hi és.</string>
     <string name="read_it">Llegiu</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Preguntes frequents</string>

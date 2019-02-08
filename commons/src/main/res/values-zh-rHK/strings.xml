@@ -461,10 +461,9 @@
     <string name="device_os">裝置系統: %s</string>
     <string name="purchase">購買</string>
     <string name="update_thank_you">請更新[Simple Thank You]至最新版本</string>
-    <string name="before_asking_question_read_faq">在您發問前，請先閱讀[常見問題]，或許解決方法就在那裡。</string>
     <string name="read_it">讀它</string>
-    <string name="sideloaded_app"><![CDATA[            應用版本似乎已損壞。請下載<a href="%s">此处</a>.的原始版本
-        ]]></string>
+    <string name="sideloaded_app">            應用版本似乎已損壞。請下載<a href="%s">此处</a>.的原始版本
+        </string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">常見問題</string>
     <string name="before_asking_question">在你發問之前，請先閱讀</string>
