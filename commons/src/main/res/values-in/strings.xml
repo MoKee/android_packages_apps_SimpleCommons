@@ -457,7 +457,6 @@
     <string name="device_os">OS Perangkat: %s</string>
     <string name="purchase">Membeli</string>
     <string name="update_thank_you">Harap perbarui Simple Thank You ke versi terbaru</string>
-    <string name="before_asking_question_read_faq">Sebelum Anda mengajukan pertanyaan, bacalah Pertanyaan yang Sering Diajukan terlebih dahulu, mungkin solusinya ada di sana.</string>
     <string name="read_it">Baca</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Pertanyaan yang sering diajukan</string>

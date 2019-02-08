@@ -520,7 +520,6 @@
     <string name="device_os">Operacijski sistem: %s</string>
     <string name="purchase">Kupi</string>
     <string name="update_thank_you">Prosimo nadgradite Simple Thank You na zadnjo verzijo</string>
-    <string name="before_asking_question_read_faq">Preden postavite vprašanje, preberite Pogosta vprašanja</string>
     <string name="read_it">Preberite</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Pogosta vprašanja</string>

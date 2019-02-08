@@ -522,7 +522,6 @@
     <string name="device_os">System: %s</string>
     <string name="purchase">Kup</string>
     <string name="update_thank_you">Zaktualizuj aplikcję Proste Podziękowanie do najnowszej wersji</string>
-    <string name="before_asking_question_read_faq">Zanim zadasz pytanie, przeczytaj \'Najczęściej zadawane pytania\'. Być może rozwiązanie Twojego problemu już tam jest.</string>
     <string name="read_it">Przeczytaj</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Często zadawane pytania (FAQ)</string>

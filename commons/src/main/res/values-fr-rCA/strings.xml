@@ -484,10 +484,9 @@
     <string name="device_os">OS appareil : %s</string>
     <string name="purchase">Acheter</string>
     <string name="update_thank_you">Veuillez mettre à jour Simple Merci à la dernière version</string>
-    <string name="before_asking_question_read_faq">Avant de vous posez une question, veuillez lire la Foire aux Questions tout d’abord, peut-être que la solution y est.</string>
     <string name="read_it">Le lire</string>
-    <string name="sideloaded_app"><![CDATA[            La version de l'application semble être corrompue. Téléchargez la version originale de <a href="%s">ici </a>.
-        ]]></string>
+    <string name="sideloaded_app">            La version de l\'application semble être corrompue. Téléchargez la version originale de <a href="%s">ici </a>.
+        </string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Foire aux questions (FAQ)</string>
     <string name="before_asking_question">Avant de poser une question, lisez d\'abord le</string>
