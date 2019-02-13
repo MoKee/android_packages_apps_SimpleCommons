@@ -209,6 +209,7 @@
     <string name="empty_and_disable_recycle_bin">إفراغ وتعطيل \"سلة المحذوفات\"</string>
     <string name="undo">تراجع</string>
     <string name="redo">إعادة</string>
+    <string name="print">طباعة</string>
     <!-- Sorting -->
     <string name="sort_by">الفرز حسب</string>
     <string name="name">الإسم:</string>
@@ -574,6 +575,7 @@
     <string name="device_os">نظام تشغيل الجهاز: %s</string>
     <string name="purchase">الشراء</string>
     <string name="update_thank_you">يرجى تحديث Simple Thank You إلى أحدث إصدار</string>
+    <string name="before_asking_question_read_faq">قبل أن تسأل سؤالاً، الرجاء قراءة \"الأسئلة المتداولة\" أولاً، ربما الحل هناك.</string>
     <string name="read_it">اقرأها</string>
     <string name="sideloaded_app">            يبدو أن إصدار التطبيق الخاص بك تالف. الرجاء تحميل النسخة الأصلية <a href="%s">هنا</a>.
         </string>

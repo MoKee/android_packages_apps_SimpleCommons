@@ -203,6 +203,7 @@
     <string name="empty_and_disable_recycle_bin">Очистить и отключить корзину</string>
     <string name="undo">Отменить</string>
     <string name="redo">Повторить</string>
+    <string name="print">Печать</string>
     <!-- Sorting -->
     <string name="sort_by">Сортировать по…</string>
     <string name="name">Имя</string>
@@ -530,6 +531,7 @@
     <string name="device_os">ОС устройства: %s</string>
     <string name="purchase">Купить</string>
     <string name="update_thank_you">Пожалуйста, обновите \"Simple Thank You\" до последней версии.</string>
+    <string name="before_asking_question_read_faq">Прежде чем задать вопрос, пожалуйста, проверьте настройки приложения и сначала ознакомьтесь с часто задаваемыми вопросами. Может быть, решение вашего вопроса есть среди них.</string>
     <string name="read_it">Прочитать</string>
     <string name="sideloaded_app">            Похоже, вы установили неверную версию приложения. Пожалуйста, скачайте оригинальную версию <a href="%s">здесь</a>.
         </string>

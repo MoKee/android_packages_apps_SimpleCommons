@@ -184,6 +184,8 @@
     <string name="title">Título</string>
     <string name="filename">Nome do arquivo</string>
     <string name="extension">Extensão</string>
+    <string name="random">Aleatório</string>
+    <string name="sort_randomly">Ordenar aleatoriamente</string>
     <string name="ascending">Crescente</string>
     <string name="descending">Decrescente</string>
     <string name="use_for_this_folder">Apenas para esta pasta</string>
@@ -193,6 +195,8 @@
     <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">Deseja realmente mover %s para a Lixeira?</string>
     <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
+    <string name="are_you_sure_delete">Você tem certeza que quer excluir este item?</string>
+    <string name="are_you_sure_recycle_bin">Tem certeza que deseja mover este item para a lixeira?</string>
     <string name="do_not_ask_again">Não perguntar novamente por enquanto</string>
     <string name="yes">Sim</string>
     <string name="no">Não</string>
@@ -201,6 +205,7 @@
         <item quantity="other">WARNING: Você está excluindo %d pastas</item>
     </plurals>
     <!-- Password protection -->
+    <string name="pin">PIN</string>
     <string name="enter_pin">Digite o PIN</string>
     <string name="please_enter_pin">Favor digitar o PIN</string>
     <string name="wrong_pin">PIN incorreto</string>
@@ -219,6 +224,7 @@
     <string name="protection_setup_successfully">Senha criada com sucesso. Reinstale o app caso você a esqueça.</string>
     <string name="fingerprint_setup_successfully">Proteção criada com sucesso. Reinstale o app caso tenha problemas em redefinir.</string>
     <!-- Times -->
+    <string name="yesterday">Ontem</string>
     <string name="today">Hoje</string>
     <string name="tomorrow">Amanhã</string>
     <string name="seconds_raw">segundos</string>
@@ -298,8 +304,10 @@
     </plurals>
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Tempo restante até o alarme disparar:\n%s</string>
+    <string name="reminder_triggers_in">Tempo restante até o lembrete acionar:\n%s</string>
     <string name="alarm_warning">Por favor, verifique se o alarme funciona corretamente antes de confiar nele. Ele pode se comportar mal devido a restrições do sistema relacionadas à economia de bateria.</string>
     <string name="reminder_warning">Certifique-se de que os lembretes funcionem corretamente antes de confiar neles. Eles podem se comportar mal devido a restrições do sistema relacionadas à economia de bateria.</string>
+    <string name="notifications_disabled">Notificações deste aplicativo estão desativadas. Por favor, vá nas configurações do seu dispositivo para habilitá-las.</string>
     <!-- Alarms -->
     <string name="alarm">Alarme</string>
     <string name="snooze">Soneca</string>
@@ -313,6 +321,7 @@
     <!-- Settings -->
     <string name="settings">Configurações</string>
     <string name="customize_colors">Personalizar cores</string>
+    <string name="customize_widget_colors">Personalizar cores do widget</string>
     <string name="use_english_language">Usar o idioma inglês</string>
     <string name="show_hidden_items">Mostrar itens ocultos</string>
     <string name="font_size">Tamanho do texto</string>
@@ -322,6 +331,7 @@
     <string name="extra_large">Muito grande</string>
     <string name="password_protect_hidden_items">Restringir a visualização de itens ocultos com senha</string>
     <string name="password_protect_whole_app">Proteção por senha em todo o app</string>
+    <string name="password_protect_file_deletion">Proteção de senha para exclusão e movimento de arquivo</string>
     <string name="show_info_bubble">Mostrar bolha de informação ao rolar usando a barra de rolagem</string>
     <string name="prevent_phone_from_sleeping">Impedir que o telefone durma enquanto o aplicativo está em primeiro plano</string>
     <string name="skip_delete_confirmation">Sempre pular confirmação de exclusão</string>
@@ -346,6 +356,14 @@
     <string name="startup">Inicialização</string>
     <string name="text">Texto</string>
     <!-- Recycle Bin -->
+    <string name="restore_this_file">Restaurar este arquivo</string>
+    <string name="restore_selected_files">Restaurar os itens selecionados</string>
+    <string name="restore_all_files">Restaurar todos os arquivos</string>
+    <string name="recycle_bin_emptied">A Lixeira foi esvaziada com sucesso</string>
+    <string name="files_restored_successfully">Arquivos restaurados com sucesso</string>
+    <string name="empty_recycle_bin_confirmation">Tem certeza que deseja esvaziar a Lixeira? Os arquivos serão perdidos permanentemente.</string>
+    <string name="recycle_bin_empty">A lixeira está vazia</string>
+    <string name="moving_recycle_bin_items_disabled">Mover itens da lixeira está desativado, por favor use Restaurar</string>
     <!-- Import / Export -->
     <string name="importing">Importando…</string>
     <string name="exporting">Exportando…</string>
@@ -358,6 +376,7 @@
     <string name="no_entries_for_exporting">Não foram encontramos ítens para exportar</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
+    <string name="usb_detected">Você parece ter um dispositivo USB anexado ao seu dispositivo. Para garantir que seus arquivos apareçam corretamente, conceda permissões adicionais.</string>
     <string name="confirm_usb_storage_access_text">Por favor, escolha a pasta raiz do dispositivo USB na próxima tela, para conceder acesso</string>
     <string name="wrong_root_selected_usb">Pasta errada selecionada, selecione a pasta raiz do seu dispositivo USB</string>
     <!-- Dates -->
@@ -394,6 +413,7 @@
     <string name="saturday">Sábado</string>
     <string name="sunday">Domingo</string>
     <string name="monday_letter">S</string>
+    <string name="tuesday_letter">Q</string>
     <string name="wednesday_letter">Q</string>
     <string name="thursday_letter">Q</string>
     <string name="friday_letter">S</string>
@@ -407,10 +427,16 @@
     <string name="saturday_short">Sáb</string>
     <string name="sunday_short">Dom</string>
     <!-- Pro version -->
+    <string name="upgrade_to_pro_long">Esta versão do aplicativo não está mais mantida. Por favor, atualize para a versão Pro.</string>
+    <string name="it_is_free">É gratuito até: %s. Se você baixá-lo até lá, você será capaz de usá-lo de graça para sempre.</string>
+    <string name="more_info">Mais informações</string>
+    <string name="upgrade">Atualizar</string>
+    <string name="upgrade_calendar">Você precisa migrar eventos armazenados localmente manualmente através da exportação em um arquivo .ics, e então importar. Você pode encontrar os botões de exportação/importação no menu principal da tela.</string>
     <!-- About -->
     <string name="about">Sobre</string>
     <string name="website_label">Mais aplicativos Simple e código-fonte em</string>
     <string name="email_label">Envie os seus comentários ou sugestões para</string>
+    <string name="upgrade_to_pro">Atualizar para PRO</string>
     <string name="more_apps_underlined"><u>Mais aplicativos</u></string>
     <string name="third_party_licences_underlined"><u>Licenças de terceiros</u></string>
     <string name="invite_friends_underlined"><u>Convidar amigos</u></string>
@@ -426,6 +452,7 @@
     <string name="device_os">Sistema operacional: %s</string>
     <string name="purchase">Comprar</string>
     <string name="update_thank_you">Por favor, atualize o Simple Thank You para a versão mais recente</string>
+    <string name="read_it">Ler</string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Perguntas frequentes</string>
     <string name="before_asking_question">Antes de fazer uma pergunta, leia primeiro a</string>
@@ -440,6 +467,9 @@
     <string name="faq_4_text_commons">Sim, enquanto você arrasta um widget em sua tela inicial, uma tela de configuração do widget aparece. Você verá quadrados coloridos no canto inferior esquerdo, basta pressioná-los para escolher uma nova cor. Você pode usar o controle deslizante para ajustar o alfa também.</string>
     <string name="faq_5_title_commons">Posso restaurar de alguma forma os arquivos apagados?</string>
     <string name="faq_5_text_commons">Se eles foram realmente excluídos, você não pode. No entanto, você pode ativar o uso de uma Lixeira em vez de excluí-la nas configurações do aplicativo. Isso apenas moverá os arquivos, em vez de excluí-los.</string>
+    <string name="faq_6_title_commons">O ícone do launcher do app desapareceu. O que posso fazer?</string>
+    <string name="faq_6_text_commons">É causada por seu lançador não oferecer suporte a personalização do ícone corretamente. Tente lançar o app via Google Play ou algum widget, se disponível.
+        uma vez lançado, defina o ícone padrão laranja #F57C00. Você pode ter que reinstalar o app na pior das hipóteses.</string>
     <!-- License -->
     <string name="notice">Este aplicativo usa as seguintes bibliotecas de terceiros para facilitar a minha vida. Obrigado.</string>
     <string name="third_party_licences">Licenças de terceiros</string>
@@ -453,6 +483,7 @@
     <string name="stetho_title">Stetho (depuração a bases de dados)</string>
     <string name="otto_title">Otto (canal de eventos)</string>
     <string name="photoview_title">PhotoView (animação de GIFs)</string>
+    <string name="pattern_title">Padrão LockView (proteção padrão)</string>
     <string name="reprint_title">Reprint (proteção de impressões digitais)</string>
     <string name="gif_drawable_title">Gif Drawable (carregamento de GIFs)</string>
     <string name="autofittextview_title">AutoFitTextView (redimensionamento de texto)</string>
@@ -461,4 +492,8 @@
     <string name="gson_title">Gson (analisador JSON)</string>
     <string name="leak_canary_title">Leak Canary (detector de vazamento de memória)</string>
     <string name="number_picker_title">Number Picker (selecionador personalizável de número)</string>
+    <string name="exoplayer_title">ExoPlayer (reprodutor de vídeo)</string>
+    <string name="panorama_view_title">VR Panorama View (exibindo panoramas)</string>
+    <string name="sanselan_title">Apache Sanselan (lendo metadados da imagem)</string>
+    <string name="filters_title">Filtros de fotos Android (filtros de imagens)</string>
 </resources>

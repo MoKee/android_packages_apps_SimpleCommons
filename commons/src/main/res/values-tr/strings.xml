@@ -197,6 +197,7 @@
     <string name="empty_and_disable_recycle_bin">Geri dönüşüm kutusunu boşalt ve devre dışı bırak</string>
     <string name="undo">Geri al</string>
     <string name="redo">Yeniden yap</string>
+    <string name="print">Yazdır</string>
     <!-- Sorting -->
     <string name="sort_by">Sıralama ölçütü</string>
     <string name="name">Ad</string>
@@ -486,6 +487,7 @@
     <string name="device_os">Cihaz İS: %s</string>
     <string name="purchase">Satın al</string>
     <string name="update_thank_you">Lütfen en son sürüme güncelleyin teşekkür ederiz</string>
+    <string name="before_asking_question_read_faq">Bir soru sormadan önce, lütfen uygulama ayarlarını kontrol edin ve önce sıkça sorulan sorular bölümünü okuyun. Belki çözüm oradadır.</string>
     <string name="read_it">Oku</string>
     <string name="sideloaded_app">            Uygulama sürümünüz bozuk görünüyor.  Lütfen orijinal sürümü indirin <a href="%s">here</a>.
         </string>

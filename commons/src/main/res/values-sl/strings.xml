@@ -160,6 +160,7 @@
     <string name="primary_color">Primarna barva</string>
     <string name="foreground_color">Barva ospredja</string>
     <string name="app_icon_color">Barva ikone aplikacije</string>
+    <string name="bottom_navigation_bar_color">Barva spodnje navigacijske vrstice</string>
     <string name="restore_defaults">Ponastavi na privzeto</string>
     <string name="change_color">Spremeni barvo</string>
     <string name="theme">Tema</string>
@@ -170,6 +171,8 @@
     <string name="undo_changes_confirmation">Res želite razveljaviti spremembe?</string>
     <string name="save_before_closing">Imate neshranjene spremembe. Jih želite shraniti pred izhodom?</string>
     <string name="apply_to_all_apps">Uveljavite barve za vse aplikacije iz serije Simple Apps</string>
+    <string name="app_icon_color_warning">OPOZORILO: Nekateri zaganjalniki ne ravnajo pravilno s prilagoditvijo ikone aplikacije. Če bo ikona izginila, poskusite zagnati aplikacijo prek storitve Google Play ali kakšnega pripomočka, če je na voljo.
+ Po zagonu, nastavite nazaj privzeto oranžno ikono # F57C00. Morda boste morali v najslabšem primeru znova namestiti aplikacijo.</string>
     <string name="share_colors_success">Barve so bile uspešno posodobljene. Nova tema \'Deljeno\' je bila dodana. V prihodnje za spreminjanje barv uporabljajte to.</string>
     <!-- Themes -->
     <string name="light_theme">Svetlo</string>
@@ -199,6 +202,7 @@
     <string name="empty_and_disable_recycle_bin">Izprazni in onemogoči Koš</string>
     <string name="undo">Razveljavi</string>
     <string name="redo">Ponovno uveljavi</string>
+    <string name="print">Natisni</string>
     <!-- Sorting -->
     <string name="sort_by">Razvrsti po</string>
     <string name="name">Ime</string>
@@ -447,6 +451,7 @@
     <string name="no_entries_for_exporting">Za izvoz ni bilo najdenih nobenih vnosov</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
+    <string name="usb_detected">Videti je, da je v napravo priključena naprava USB. Če želite preveriti, ali so datoteke pravilno prikazane, morate odobriti dodatna dovoljenja.</string>
     <string name="confirm_usb_storage_access_text">Izberitre korensko mapo naprave USB na naslednjem zaslonu, da odobrite dostop</string>
     <string name="wrong_root_selected_usb">Izbrana je bila napapačna mapa. Prosimo, izberite korensko mapo naprave USB.</string>
     <!-- Dates -->
@@ -501,6 +506,7 @@
     <string name="it_is_free">Še vedno je zastonj do: %s. Če jo naložite do takrat, jo boste lahko zastonj uporabljali neomejeno časa.</string>
     <string name="more_info">Več informacij</string>
     <string name="upgrade">Nadgradi</string>
+    <string name="upgrade_calendar">Lokalno shranjene dogodke morate preseliti ročno prek izvoza v datoteko .ics, nato pa jih uvozite. Oba gumba za izvoz / uvoz najdete v meniju glavnega zaslona.</string>
     <!-- About -->
     <string name="about">O aplikaciji</string>
     <string name="website_label">Za izvorno kodo obiščite</string>
@@ -515,6 +521,7 @@
     <string name="donate">Donirajte</string>
     <string name="donate_underlined"><u>Donirajte</u></string>
     <string name="follow_us">Sledite nam</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="additional_info">Dodatne informacije</string>
     <string name="app_version">Različica aplikacije: %s</string>
     <string name="device_os">Operacijski sistem: %s</string>
@@ -535,6 +542,8 @@
     <string name="faq_4_text_commons">Seveda. Ko pripomoček dodate na domači zaslon, sem vam prikaže zaslon z nastavitvami. S klikom na barvne kvadratke, lahko izberete novo barvo. Z drsnikom lahko nastavljate tudi prosojnost.</string>
     <string name="faq_5_title_commons">Lahko kako obnovim izbrisane datoteke?</string>
     <string name="faq_5_text_commons">Če so bile res izbrisane, jih ne morete. Lahko pa v nastavitvah omogočite Koš. Tako bodo datoteke premaknjene v Koš, od koder jih lahko obnovite, ne pa popolnoma izbrisane.</string>
+    <string name="faq_6_title_commons">Ikona zaganjalnika aplikacij je izginila. Kaj lahko naredim?</string>
+    <string name="faq_6_text_commons">Vzrok je, da zaganjalnik ne podpira pravilne prilagoditve ikone. Poskusite zagnati aplikacijo prek storitve Google Play ali kakšnega pripomočka, če je na voljo. Ko ste zagnali, nastavite nazaj privzeto oranžno ikono # F57C00. Morda boste morali v najslabšem primeru znova namestiti aplikacijo.</string>
     <!-- License -->
     <string name="notice">Da si olajšamo delo, aplikacija uporablja naslednje programske knjižnice. Hvala.</string>
     <string name="third_party_licences">Licence tretjih oseb</string>
