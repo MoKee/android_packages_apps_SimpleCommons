@@ -169,7 +169,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
                 }
                 baseConfig.OTGTreeUri = resultData.dataString
                 baseConfig.OTGPartition = baseConfig.OTGTreeUri.removeSuffix("%3A").substringAfterLast('/').trimEnd('/')
-                baseConfig.OTGPath = "/storage${baseConfig.OTGPartition}"
+                baseConfig.OTGPath = "/storage/${baseConfig.OTGPartition}"
 
                 funAfterOTGPermission?.invoke(true)
                 funAfterOTGPermission = null
@@ -221,7 +221,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun handleSAFDialog(path: String, callback: () -> Unit): Boolean {
-        return if (!path.startsWith(OTG_PATH) && isShowingSAFDialog(path, baseConfig.treeUri, OPEN_DOCUMENT_TREE)) {
+        return if (!isPathOnOTG(path) && isShowingSAFDialog(path, baseConfig.treeUri, OPEN_DOCUMENT_TREE)) {
             funAfterSAFPermission = callback
             true
         } else {
@@ -237,7 +237,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             return
         }
 
-        if (!getDoesFilePathExist(destination)) {
+        if (!File(destination).exists()) {
             toast(R.string.invalid_destination)
             return
         }
@@ -248,7 +248,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             if (isCopyOperation) {
                 startCopyMove(fileDirItems, destination, isCopyOperation, copyPhotoVideoOnly, copyHidden)
             } else {
-                if (source.startsWith(OTG_PATH) || destination.startsWith(OTG_PATH) || isPathOnSD(source) || isPathOnSD(destination) || fileDirItems.first().isDirectory) {
+                if (isPathOnOTG(source) || isPathOnOTG(destination) || isPathOnSD(source) || isPathOnSD(destination) || fileDirItems.first().isDirectory) {
                     handleSAFDialog(source) {
                         startCopyMove(fileDirItems, destination, isCopyOperation, copyPhotoVideoOnly, copyHidden)
                     }
@@ -304,7 +304,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             val newName = String.format("%s(%d).%s", file.nameWithoutExtension, fileIndex, file.extension)
             newFile = File(file.parent, newName)
             fileIndex++
-        } while (getDoesFilePathExist(newFile!!.absolutePath))
+        } while (File(newFile!!.absolutePath).exists())
         return newFile
     }
 
@@ -325,7 +325,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
         val file = files[index]
         val newFileDirItem = FileDirItem("$destinationPath/${file.name}", file.name, file.isDirectory)
-        if (getDoesFilePathExist(newFileDirItem.path)) {
+        if (File(newFileDirItem.path).exists()) {
             FileConflictDialog(this, newFileDirItem) { resolution, applyForAll ->
                 if (applyForAll) {
                     conflictResolutions.clear()
