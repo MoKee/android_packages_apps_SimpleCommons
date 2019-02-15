@@ -1,6 +1,5 @@
 package com.simplemobiletools.commons.extensions
 
-import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.*
 import android.content.pm.ApplicationInfo
@@ -87,9 +86,8 @@ fun Activity.isAppInstalledOnSDCard(): Boolean = try {
     false
 }
 
-@SuppressLint("InlinedApi")
-fun Activity.isShowingSAFDialog(path: String, treeUri: String, requestCode: Int): Boolean {
-    return if (needsStupidWritePermissions(path) && (treeUri.isEmpty() || !hasProperStoredTreeUri())) {
+fun Activity.isShowingSAFDialog(path: String): Boolean {
+    return if (isPathOnSD(path) && (baseConfig.treeUri.isEmpty() || !hasProperStoredTreeUri(false))) {
         runOnUiThread {
             if (!isDestroyed) {
                 WritePermissionDialog(this, false) {
@@ -100,7 +98,32 @@ fun Activity.isShowingSAFDialog(path: String, treeUri: String, requestCode: Int)
                         }
 
                         if (resolveActivity(packageManager) != null) {
-                            startActivityForResult(this, requestCode)
+                            startActivityForResult(this, OPEN_DOCUMENT_TREE)
+                        } else {
+                            toast(R.string.unknown_error_occurred)
+                        }
+                    }
+                }
+            }
+        }
+        true
+    } else {
+        false
+    }
+}
+
+fun BaseSimpleActivity.isShowingOTGDialog(path: String): Boolean {
+    return if (isPathOnOTG(path) && (baseConfig.OTGTreeUri.isEmpty() || !hasProperStoredTreeUri(true))) {
+        runOnUiThread {
+            if (!isDestroyed) {
+                WritePermissionDialog(this, true) {
+                    Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
+                        if (resolveActivity(packageManager) == null) {
+                            type = "*/*"
+                        }
+
+                        if (resolveActivity(packageManager) != null) {
+                            startActivityForResult(this, OPEN_DOCUMENT_TREE_OTG)
                         } else {
                             toast(R.string.unknown_error_occurred)
                         }
