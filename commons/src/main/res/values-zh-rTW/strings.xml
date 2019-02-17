@@ -193,6 +193,7 @@
     <string name="empty_and_disable_recycle_bin">清空並停用回收桶</string>
     <string name="undo">復原</string>
     <string name="redo">取消復原</string>
+    <string name="print">列印</string>
     <!-- Sorting -->
     <string name="sort_by">排序</string>
     <string name="name">名稱</string>
@@ -361,6 +362,7 @@
     <string name="saving_label">儲存中</string>
     <string name="startup">啟動</string>
     <string name="text">文字</string>
+    <string name="migrating">移入</string>
     <!-- Recycle Bin -->
     <string name="restore_this_file">還原這個檔案</string>
     <string name="restore_selected_files">還原選擇的檔案</string>
@@ -382,6 +384,7 @@
     <string name="exporting_failed">匯出失敗</string>
     <string name="importing_some_entries_failed">部分項目匯入失敗</string>
     <string name="exporting_some_entries_failed">部分項目匯出失敗</string>
+    <string name="no_entries_for_importing">未找到匯入的項目</string>
     <string name="no_entries_for_exporting">未發現供匯出的項目</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
@@ -461,6 +464,7 @@
     <string name="device_os">裝置系統: %s</string>
     <string name="purchase">購買</string>
     <string name="update_thank_you">請更新[Simple Thank You]至最新版本</string>
+    <string name="before_asking_question_read_faq">在提問之前，請先檢視應用程式設定並閱讀常見問題，也許答案就在那裡。</string>
     <string name="read_it">讀它</string>
     <string name="sideloaded_app">            應用版本似乎已損壞。請下載<a href="%s">此处</a>.的原始版本
         </string>
