@@ -81,6 +81,10 @@
     <!-- Dates -->
     <!-- in January -->
     <string name="monday">ಸೋಮವಾರ</string>
+    <string name="tuesday">ಮಂಗಳವಾರ</string>
+    <string name="wednesday">ಬುಧವಾರ</string>
+    <string name="thursday">ಗುರುವಾರ</string>
+    <string name="friday">ಶುಕ್ರವಾರ</string>
     <string name="saturday">ಶನಿವಾರ</string>
     <string name="sunday">ರವಿವಾರ</string>
     <string name="wednesday_letter">W</string>
