@@ -287,6 +287,22 @@
         <item quantity="one">%d hora</item>
         <item quantity="other">%d hores</item>
     </plurals>
+    <plurals name="in_days">
+        <item quantity="one">%d dia</item>
+        <item quantity="other">%d dies</item>
+    </plurals>
+    <plurals name="in_weeks">
+        <item quantity="one">%d setmana</item>
+        <item quantity="other">%d setmanes</item>
+    </plurals>
+    <plurals name="in_months">
+        <item quantity="one">%d mes</item>
+        <item quantity="other">%d mesos</item>
+    </plurals>
+    <plurals name="in_years">
+        <item quantity="one">%d any</item>
+        <item quantity="other">%d anys</item>
+    </plurals>
     <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d segon abans</item>
@@ -316,6 +332,22 @@
     <plurals name="by_hours">
         <item quantity="one">%d hora</item>
         <item quantity="other">%d hores</item>
+    </plurals>
+    <plurals name="by_days">
+        <item quantity="one">%d dia</item>
+        <item quantity="other">%d dies</item>
+    </plurals>
+    <plurals name="by_weeks">
+        <item quantity="one">%d setmana</item>
+        <item quantity="other">%d setmanes</item>
+    </plurals>
+    <plurals name="by_months">
+        <item quantity="one">%d mes</item>
+        <item quantity="other">%d mesos</item>
+    </plurals>
+    <plurals name="by_years">
+        <item quantity="one">%d any</item>
+        <item quantity="other">%d anys</item>
     </plurals>
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Temps restant fins que soni l\'alarma: \n%s</string>

@@ -351,6 +351,38 @@
         <item quantity="many">%d ساعات</item>
         <item quantity="other">%d ساعات</item>
     </plurals>
+    <plurals name="in_days">
+        <item quantity="zero">%d أيام</item>
+        <item quantity="one">%d يوم</item>
+        <item quantity="two">%d أيام</item>
+        <item quantity="few">%d أيام</item>
+        <item quantity="many">%d أيام</item>
+        <item quantity="other">%d أيام</item>
+    </plurals>
+    <plurals name="in_weeks">
+        <item quantity="zero">%d أسابيع</item>
+        <item quantity="one">%d أسبوع</item>
+        <item quantity="two">%d أسابيع</item>
+        <item quantity="few">%d أسابيع</item>
+        <item quantity="many">%d أسابيع</item>
+        <item quantity="other">%d أسابيع</item>
+    </plurals>
+    <plurals name="in_months">
+        <item quantity="zero">%d أشهر</item>
+        <item quantity="one">%d أشهر</item>
+        <item quantity="two">%d أشهر</item>
+        <item quantity="few">%d أشهر</item>
+        <item quantity="many">%d أشهر</item>
+        <item quantity="other">%d أشهر</item>
+    </plurals>
+    <plurals name="in_years">
+        <item quantity="zero">%d سنوات</item>
+        <item quantity="one">%d سنة</item>
+        <item quantity="two">%d سنوات</item>
+        <item quantity="few">%d سنوات</item>
+        <item quantity="many">%d سنوات</item>
+        <item quantity="other">%d سنوات</item>
+    </plurals>
     <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="zero">قبل %d ثوانٍ</item>
@@ -384,6 +416,30 @@
         <item quantity="many">قبل %d أيام</item>
         <item quantity="other">قبل %d أيام</item>
     </plurals>
+    <plurals name="weeks_before">
+        <item quantity="zero">قبل %d أسابيع</item>
+        <item quantity="one">قبل %d أسبوع</item>
+        <item quantity="two">قبل %d أسابيع</item>
+        <item quantity="few">قبل %d أسابيع</item>
+        <item quantity="many">قبل %d أسابيع</item>
+        <item quantity="other">قبل %d أسابيع</item>
+    </plurals>
+    <plurals name="months_before">
+        <item quantity="zero">منذ %d اشهر</item>
+        <item quantity="one">منذ %d شهر</item>
+        <item quantity="two">منذ %d اشهر</item>
+        <item quantity="few">منذ %d اشهر</item>
+        <item quantity="many">منذ %d اشهر</item>
+        <item quantity="other">منذ %d اشهر</item>
+    </plurals>
+    <plurals name="years_before">
+        <item quantity="zero">قبل %d سنوات</item>
+        <item quantity="one">قبل %d سنة</item>
+        <item quantity="two">قبل %d سنوات</item>
+        <item quantity="few">قبل %d سنوات</item>
+        <item quantity="many">قبل %d سنوات</item>
+        <item quantity="other">قبل %d سنوات</item>
+    </plurals>
     <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="zero">%d ثوان</item>
@@ -408,6 +464,38 @@
         <item quantity="few">%d ساعات</item>
         <item quantity="many">%d ساعات</item>
         <item quantity="other">%d ساعات</item>
+    </plurals>
+    <plurals name="by_days">
+        <item quantity="zero">%d أيام</item>
+        <item quantity="one">%d يوم</item>
+        <item quantity="two">%d أيام</item>
+        <item quantity="few">%d أيام</item>
+        <item quantity="many">%d أيام</item>
+        <item quantity="other">%d أيام</item>
+    </plurals>
+    <plurals name="by_weeks">
+        <item quantity="zero">%d أسابيع</item>
+        <item quantity="one">%d أسبوع</item>
+        <item quantity="two">%d أسابيع</item>
+        <item quantity="few">%d أسابيع</item>
+        <item quantity="many">%d أسابيع</item>
+        <item quantity="other">%d أسابيع</item>
+    </plurals>
+    <plurals name="by_months">
+        <item quantity="zero">%d أشهر</item>
+        <item quantity="one">%d أشهر</item>
+        <item quantity="two">%d أشهر</item>
+        <item quantity="few">%d أشهر</item>
+        <item quantity="many">%d أشهر</item>
+        <item quantity="other">%d أشهر</item>
+    </plurals>
+    <plurals name="by_years">
+        <item quantity="zero">%d سنوات</item>
+        <item quantity="one">%d سنة</item>
+        <item quantity="two">%d سنوات</item>
+        <item quantity="few">%d سنوات</item>
+        <item quantity="many">%d سنوات</item>
+        <item quantity="other">%d سنوات</item>
     </plurals>
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">الوقت المتبقي حتى توقف المنبه:\n%s</string>
@@ -446,6 +534,7 @@
     <string name="skip_delete_confirmation">دائماً تخطي مربع حوار تأكيد الحذف</string>
     <string name="enable_pull_to_refresh">تمكين السحب للتحديث من الأعلى</string>
     <string name="use_24_hour_time_format">استخدم تنسيق 24 ساعة</string>
+    <string name="change_date_and_time_format">تغيير تنسيق التاريخ والوقت</string>
     <string name="sunday_first">ابدأ الأسبوع في يوم الأحد</string>
     <string name="widgets">الأدوات</string>
     <string name="use_same_snooze">استخدم وقت الغفوة نفسه دائماً</string>
@@ -478,6 +567,8 @@
     <string name="empty_recycle_bin_confirmation">هل أنت متأكد من أنك تريد إفراغ \"سلة المحذوفات\"؟ سوف تفقد الملفات بشكل دائم.</string>
     <string name="recycle_bin_empty">سلة المحذوفات فارغة</string>
     <string name="moving_recycle_bin_items_disabled">نقل عناصر سلة المحذوفات معّطل ، يرجى استخدام استعادة</string>
+    <string name="show_the_recycle_bin">إظهار سلة المحذوفات</string>
+    <string name="hide_the_recycle_bin">إخفاء سلة المهملات</string>
     <plurals name="moving_items_into_bin">
         <item quantity="zero">نقل %d عناصر إلى \"سلة المحذوفات\"</item>
         <item quantity="one">نقل %d عنصر إلى \"سلة المحذوفات\"</item>

@@ -293,6 +293,26 @@
         <item quantity="few">%d sati</item>
         <item quantity="other">%d sate</item>
     </plurals>
+    <plurals name="in_days">
+        <item quantity="one">%d dan</item>
+        <item quantity="few">%d dana</item>
+        <item quantity="other">%d dani</item>
+    </plurals>
+    <plurals name="in_weeks">
+        <item quantity="one">%d tjedan</item>
+        <item quantity="few">%d tjedna</item>
+        <item quantity="other">%d tjedana</item>
+    </plurals>
+    <plurals name="in_months">
+        <item quantity="one">%d mjesec</item>
+        <item quantity="few">%d mjeseca</item>
+        <item quantity="other">%d mjeseci</item>
+    </plurals>
+    <plurals name="in_years">
+        <item quantity="one">%d godina</item>
+        <item quantity="few">%d godine</item>
+        <item quantity="other">%d godina</item>
+    </plurals>
     <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d sekunda prije</item>
@@ -329,6 +349,26 @@
         <item quantity="one">%d sat</item>
         <item quantity="few">%d sati</item>
         <item quantity="other">%d sate</item>
+    </plurals>
+    <plurals name="by_days">
+        <item quantity="one">%d dan</item>
+        <item quantity="few">%d dana</item>
+        <item quantity="other">%d dani</item>
+    </plurals>
+    <plurals name="by_weeks">
+        <item quantity="one">%d tjedan</item>
+        <item quantity="few">%d tjedna</item>
+        <item quantity="other">%d tjedana</item>
+    </plurals>
+    <plurals name="by_months">
+        <item quantity="one">%d mjesec</item>
+        <item quantity="few">%d mjeseca</item>
+        <item quantity="other">%d mjeseci</item>
+    </plurals>
+    <plurals name="by_years">
+        <item quantity="one">%d godina</item>
+        <item quantity="few">%d godine</item>
+        <item quantity="other">%d godina</item>
     </plurals>
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Preostalo vrijeme do pokretanja alarma:\n%s</string>

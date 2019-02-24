@@ -295,6 +295,22 @@
         <item quantity="one">%d óra</item>
         <item quantity="other">%d nap</item>
     </plurals>
+    <plurals name="in_days">
+        <item quantity="one">%d nap</item>
+        <item quantity="other">%d nap</item>
+    </plurals>
+    <plurals name="in_weeks">
+        <item quantity="one">%d hét</item>
+        <item quantity="other">%d hét</item>
+    </plurals>
+    <plurals name="in_months">
+        <item quantity="one">%d hónap</item>
+        <item quantity="other">%d hónap</item>
+    </plurals>
+    <plurals name="in_years">
+        <item quantity="one">%d év</item>
+        <item quantity="other">%d év</item>
+    </plurals>
     <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d másodperccel előtte</item>
@@ -312,6 +328,18 @@
         <item quantity="one">%d nappal előtte</item>
         <item quantity="other">%d nappal előtte</item>
     </plurals>
+    <plurals name="weeks_before">
+        <item quantity="one">%d héttel előtte</item>
+        <item quantity="other">%d héttel előtte</item>
+    </plurals>
+    <plurals name="months_before">
+        <item quantity="one">%d hónappal előtte</item>
+        <item quantity="other">%d hónappal előtte</item>
+    </plurals>
+    <plurals name="years_before">
+        <item quantity="one">%d évvel előtte</item>
+        <item quantity="other">%d évvel előtte</item>
+    </plurals>
     <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d másodperc</item>
@@ -324,6 +352,22 @@
     <plurals name="by_hours">
         <item quantity="one">%d óra</item>
         <item quantity="other">%d nap</item>
+    </plurals>
+    <plurals name="by_days">
+        <item quantity="one">%d nap</item>
+        <item quantity="other">%d nap</item>
+    </plurals>
+    <plurals name="by_weeks">
+        <item quantity="one">%d hét</item>
+        <item quantity="other">%d hét</item>
+    </plurals>
+    <plurals name="by_months">
+        <item quantity="one">%d hónap</item>
+        <item quantity="other">%d hónap</item>
+    </plurals>
+    <plurals name="by_years">
+        <item quantity="one">%d év</item>
+        <item quantity="other">%d év</item>
     </plurals>
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">A riasztásig hátralévő idő eltűnik:\n%s</string>
@@ -362,6 +406,7 @@
     <string name="skip_delete_confirmation">Mindig ugorja át a törlés megerősítése kérdést</string>
     <string name="enable_pull_to_refresh">Felülről lefelé húzásos frissítés engedélyezése</string>
     <string name="use_24_hour_time_format">24 órás idő formátum használata</string>
+    <string name="change_date_and_time_format">A dátum- és időformátum módosítása</string>
     <string name="sunday_first">A hét kezdete vasárnap</string>
     <string name="widgets">Kisalkalmazások</string>
     <string name="use_same_snooze">Mindig ugyanazt az elhalasztási időt használja</string>
@@ -394,6 +439,8 @@
     <string name="empty_recycle_bin_confirmation">Biztos ki akarja üríteni a Lomtárat? A fájlok véglegesen elvesznek.</string>
     <string name="recycle_bin_empty">A Lomtár üres</string>
     <string name="moving_recycle_bin_items_disabled">A Lomtár elemek áthelyezése le van tiltva, kérjük használja a Visszaállítás lehetőséget</string>
+    <string name="show_the_recycle_bin">A Lomtár megjelenítése</string>
+    <string name="hide_the_recycle_bin">A Lomtár elrejtése</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">%d elem áthelyezése a Lomtárba</item>
         <item quantity="other">%d elem áthelyezése a Lomtárba</item>
