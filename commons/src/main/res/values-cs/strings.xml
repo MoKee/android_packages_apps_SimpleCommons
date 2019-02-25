@@ -323,6 +323,30 @@
         <item quantity="many">%d hodin</item>
         <item quantity="other">%d hodin</item>
     </plurals>
+    <plurals name="in_days">
+        <item quantity="one">%d den</item>
+        <item quantity="few">%d dny</item>
+        <item quantity="many">%d dní</item>
+        <item quantity="other">%d dní</item>
+    </plurals>
+    <plurals name="in_weeks">
+        <item quantity="one">%d týden</item>
+        <item quantity="few">%d týdny</item>
+        <item quantity="many">%d týdnů</item>
+        <item quantity="other">%d týdnů</item>
+    </plurals>
+    <plurals name="in_months">
+        <item quantity="one">%d měsíc</item>
+        <item quantity="few">%d měsíce</item>
+        <item quantity="many">%d měsíců</item>
+        <item quantity="other">%d měsíců</item>
+    </plurals>
+    <plurals name="in_years">
+        <item quantity="one">%d rok</item>
+        <item quantity="few">%d roky</item>
+        <item quantity="many">%d roků</item>
+        <item quantity="other">%d roků</item>
+    </plurals>
     <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">o %d sekundu dříve</item>
@@ -366,6 +390,30 @@
         <item quantity="few">%d hodiny</item>
         <item quantity="many">%d hodin</item>
         <item quantity="other">%d hodin</item>
+    </plurals>
+    <plurals name="by_days">
+        <item quantity="one">%d den</item>
+        <item quantity="few">%d dny</item>
+        <item quantity="many">%d dní</item>
+        <item quantity="other">%d dní</item>
+    </plurals>
+    <plurals name="by_weeks">
+        <item quantity="one">%d týden</item>
+        <item quantity="few">%d týdny</item>
+        <item quantity="many">%d týdnů</item>
+        <item quantity="other">%d týdnů</item>
+    </plurals>
+    <plurals name="by_months">
+        <item quantity="one">%d měsíc</item>
+        <item quantity="few">%d měsíce</item>
+        <item quantity="many">%d měsíců</item>
+        <item quantity="other">%d měsíců</item>
+    </plurals>
+    <plurals name="by_years">
+        <item quantity="one">%d rok</item>
+        <item quantity="few">%d roky</item>
+        <item quantity="many">%d roků</item>
+        <item quantity="other">%d roků</item>
     </plurals>
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Zbývající čas do zvonění budíku:\n%s</string>

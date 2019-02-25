@@ -294,6 +294,22 @@
         <item quantity="one">%d heure</item>
         <item quantity="other">%d heures</item>
     </plurals>
+    <plurals name="in_days">
+        <item quantity="one">%d jour</item>
+        <item quantity="other">%d jour</item>
+    </plurals>
+    <plurals name="in_weeks">
+        <item quantity="one">%d semaine</item>
+        <item quantity="other">%d semaines</item>
+    </plurals>
+    <plurals name="in_months">
+        <item quantity="one">%d mois</item>
+        <item quantity="other">%d mois</item>
+    </plurals>
+    <plurals name="in_years">
+        <item quantity="one">%d an</item>
+        <item quantity="other">%d ans</item>
+    </plurals>
     <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d seconde avant</item>
@@ -323,6 +339,22 @@
     <plurals name="by_hours">
         <item quantity="one">%d heure</item>
         <item quantity="other">%d heures</item>
+    </plurals>
+    <plurals name="by_days">
+        <item quantity="one">%d jour</item>
+        <item quantity="other">%d jour</item>
+    </plurals>
+    <plurals name="by_weeks">
+        <item quantity="one">%d semaine</item>
+        <item quantity="other">%d semaines</item>
+    </plurals>
+    <plurals name="by_months">
+        <item quantity="one">%d mois</item>
+        <item quantity="other">%d mois</item>
+    </plurals>
+    <plurals name="by_years">
+        <item quantity="one">%d an</item>
+        <item quantity="other">%d ans</item>
     </plurals>
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Durée restante jusqu\'au déclenchement de l\'alarme :\n%s</string>

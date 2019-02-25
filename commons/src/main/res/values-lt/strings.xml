@@ -286,6 +286,30 @@
         <item quantity="many">per %d valandų</item>
         <item quantity="other">per %d valandų</item>
     </plurals>
+    <plurals name="in_days">
+        <item quantity="one">%d diena</item>
+        <item quantity="few">%d dienos</item>
+        <item quantity="many">%d dienų</item>
+        <item quantity="other">%d dienų</item>
+    </plurals>
+    <plurals name="in_weeks">
+        <item quantity="one">%d savaitė</item>
+        <item quantity="few">%d savaitės</item>
+        <item quantity="many">%d savaičių</item>
+        <item quantity="other">%d savaičių</item>
+    </plurals>
+    <plurals name="in_months">
+        <item quantity="one">%d mėnuo</item>
+        <item quantity="few">%d mėnesiai</item>
+        <item quantity="many">%d mėnesių</item>
+        <item quantity="other">%d mėnesių</item>
+    </plurals>
+    <plurals name="in_years">
+        <item quantity="one">%d metai</item>
+        <item quantity="few">%d metai</item>
+        <item quantity="many">%d metų</item>
+        <item quantity="other">%d metų</item>
+    </plurals>
     <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">Prieš %d sekundę</item>
@@ -329,6 +353,30 @@
         <item quantity="few">Per %d valandas</item>
         <item quantity="many">Per %d valandų</item>
         <item quantity="other">Per %d valandų</item>
+    </plurals>
+    <plurals name="by_days">
+        <item quantity="one">%d diena</item>
+        <item quantity="few">%d dienos</item>
+        <item quantity="many">%d dienų</item>
+        <item quantity="other">%d dienų</item>
+    </plurals>
+    <plurals name="by_weeks">
+        <item quantity="one">%d savaitė</item>
+        <item quantity="few">%d savaitės</item>
+        <item quantity="many">%d savaičių</item>
+        <item quantity="other">%d savaičių</item>
+    </plurals>
+    <plurals name="by_months">
+        <item quantity="one">%d mėnuo</item>
+        <item quantity="few">%d mėnesiai</item>
+        <item quantity="many">%d mėnesių</item>
+        <item quantity="other">%d mėnesių</item>
+    </plurals>
+    <plurals name="by_years">
+        <item quantity="one">%d metai</item>
+        <item quantity="few">%d metai</item>
+        <item quantity="many">%d metų</item>
+        <item quantity="other">%d metų</item>
     </plurals>
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Likęs laikas iki žadintuvo suveikimo:\n%s</string>

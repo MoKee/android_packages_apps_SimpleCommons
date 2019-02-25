@@ -275,6 +275,22 @@
         <item quantity="one">%d saat</item>
         <item quantity="other">%d saat</item>
     </plurals>
+    <plurals name="in_days">
+        <item quantity="one">%d gün</item>
+        <item quantity="other">%d gün</item>
+    </plurals>
+    <plurals name="in_weeks">
+        <item quantity="one">%d həftə</item>
+        <item quantity="other">%d həftə</item>
+    </plurals>
+    <plurals name="in_months">
+        <item quantity="one">%d ay</item>
+        <item quantity="other">%d ay</item>
+    </plurals>
+    <plurals name="in_years">
+        <item quantity="one">%d il</item>
+        <item quantity="other">%d il</item>
+    </plurals>
     <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d saniyə əvvəl</item>
@@ -304,6 +320,22 @@
     <plurals name="by_hours">
         <item quantity="one">%d saat</item>
         <item quantity="other">%d saat</item>
+    </plurals>
+    <plurals name="by_days">
+        <item quantity="one">%d gün</item>
+        <item quantity="other">%d gün</item>
+    </plurals>
+    <plurals name="by_weeks">
+        <item quantity="one">%d həftə</item>
+        <item quantity="other">%d həftə</item>
+    </plurals>
+    <plurals name="by_months">
+        <item quantity="one">%d ay</item>
+        <item quantity="other">%d ay</item>
+    </plurals>
+    <plurals name="by_years">
+        <item quantity="one">%d il</item>
+        <item quantity="other">%d il</item>
     </plurals>
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Zəng dayanana qədər qalan vaxt:\n%s</string>
