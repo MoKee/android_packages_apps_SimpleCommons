@@ -450,6 +450,7 @@
     <string name="skip_delete_confirmation">Vedno preskoči potrditev brisanja</string>
     <string name="enable_pull_to_refresh">Omogočite poteg z vrha za ponovno nalaganje</string>
     <string name="use_24_hour_time_format">Uporabljaj 24-urni format</string>
+    <string name="change_date_and_time_format">Spremeni obliko datuma in časa</string>
     <string name="sunday_first">Začni teden v nedeljo</string>
     <string name="widgets">Pripomočki</string>
     <string name="use_same_snooze">Vedno uporabi enak čas dremeža</string>
@@ -472,6 +473,7 @@
     <string name="saving_label">Shranjevanje</string>
     <string name="startup">Zagon</string>
     <string name="text">Besedilo</string>
+    <string name="migrating">Migracija</string>
     <!-- Recycle Bin -->
     <string name="restore_this_file">Obnovi to datoteko</string>
     <string name="restore_selected_files">Obnovite izbrane datoteke</string>
@@ -481,6 +483,8 @@
     <string name="empty_recycle_bin_confirmation">Res želite izprazniti Koš? Datoteke bodo izgubljene za vedno.</string>
     <string name="recycle_bin_empty">Koš je prazen</string>
     <string name="moving_recycle_bin_items_disabled">Premikanje elementov v Košu je onemogočeno, uporabite Obnovitev</string>
+    <string name="show_the_recycle_bin">Prikaži koš</string>
+    <string name="hide_the_recycle_bin">Skrij koš</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">Premikanje %d elementa v Koš</item>
         <item quantity="two">Premikanje %d elementov v Koš</item>
@@ -496,6 +500,7 @@
     <string name="exporting_failed">Izvažanje neuspešno</string>
     <string name="importing_some_entries_failed">Uvažanje nekaterih vnosov ni uspelo</string>
     <string name="exporting_some_entries_failed">Izvažanje nekaterih vnosov ni uspelo</string>
+    <string name="no_entries_for_importing">Za uvoz ni bilo najdenih nobenih vnosov</string>
     <string name="no_entries_for_exporting">Za izvoz ni bilo najdenih nobenih vnosov</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
@@ -576,6 +581,8 @@
     <string name="purchase">Kupi</string>
     <string name="update_thank_you">Prosimo nadgradite Simple Thank You na zadnjo verzijo</string>
     <string name="read_it">Preberite</string>
+    <string name="sideloaded_app"><![CDATA[            Kot kaže je vaša različica aplikacije poškodovana. Prenesite izvirno različico <a href="%s">tukaj</a>.
+        ]]></string>
     <!-- FAQ -->
     <string name="frequently_asked_questions">Pogosta vprašanja</string>
     <string name="before_asking_question">Preden postavite vprašanje, preberite</string>
@@ -603,11 +610,13 @@
     <string name="rtl_viewpager_title">RtlViewPager (vlečenje od desne proti levi)</string>
     <string name="joda_title">Joda-Time (nadomestitev za Java datume)</string>
     <string name="stetho_title">Stetho (iskanje napak v bazah podatkov)</string>
+    <string name="otto_title">Otto (vodilo dogodka)</string>
     <string name="photoview_title">PhotoView (povečevanje slik GIF)</string>
     <string name="pattern_title">PatternLockView (zaščita z vzorci)</string>
     <string name="reprint_title">Reprint (zaščita s prtnimi odtisi)</string>
     <string name="gif_drawable_title">Robolectric (testing framework)</string>
     <string name="autofittextview_title">AutoFitTextView (spreminjanje velikosti besedila)</string>
+    <string name="robolectric_title">Robolectric (preizkušanje ogrodja)</string>
     <string name="espresso_title">Espresso (pomočnik za testiranje)</string>
     <string name="gson_title">Gson (razčenjevalec JSON)</string>
     <string name="leak_canary_title">Leak Canary (memory leak detektor)</string>
