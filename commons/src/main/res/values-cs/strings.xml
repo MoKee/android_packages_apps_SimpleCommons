@@ -372,6 +372,24 @@
         <item quantity="many">před %d dny</item>
         <item quantity="other">před %d dny</item>
     </plurals>
+    <plurals name="weeks_before">
+        <item quantity="one">před %d týdnem</item>
+        <item quantity="few">před %d týdny</item>
+        <item quantity="many">před %d týdny</item>
+        <item quantity="other">před %d týdny</item>
+    </plurals>
+    <plurals name="months_before">
+        <item quantity="one">před %d měsícem</item>
+        <item quantity="few">před %d měsíci</item>
+        <item quantity="many">před %d měsíci</item>
+        <item quantity="other">před %d měsíci</item>
+    </plurals>
+    <plurals name="years_before">
+        <item quantity="one">před %d rokem</item>
+        <item quantity="few">před %d lety</item>
+        <item quantity="many">před %d lety</item>
+        <item quantity="other">před %d lety</item>
+    </plurals>
     <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d sekunda</item>
@@ -452,6 +470,7 @@
     <string name="skip_delete_confirmation">Vždy přeskočit potvrzovací okno pro vymazání</string>
     <string name="enable_pull_to_refresh">Povolit obnovení souborů přetažením shora</string>
     <string name="use_24_hour_time_format">Použít 24-hodinový formát</string>
+    <string name="change_date_and_time_format">Změna formátu data a času</string>
     <string name="sunday_first">Začátek týdne v neděli</string>
     <string name="widgets">Widgety</string>
     <string name="use_same_snooze">Vždy používat stejnou čas odložení</string>
@@ -484,6 +503,8 @@
     <string name="empty_recycle_bin_confirmation">Opravdu chcete vysypat odpadkový koš? Soubory budou trvale ztraceny.</string>
     <string name="recycle_bin_empty">Koš je prázdný</string>
     <string name="moving_recycle_bin_items_disabled">Přesouvání položek z odpadkového koše je zakázáno, použijte možnost Obnovit</string>
+    <string name="show_the_recycle_bin">Zobrazit koš</string>
+    <string name="hide_the_recycle_bin">Skrýt koš</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">Přesouvání %d položky do odpadkového koše</item>
         <item quantity="few">Přesouvání %d položek do odpadkového koše</item>
