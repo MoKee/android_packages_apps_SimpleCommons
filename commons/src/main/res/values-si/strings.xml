@@ -5,63 +5,25 @@
     <string name="unknown">නොදනී</string>
     <string name="details">විස්තර</string>
     <string name="none">කිසිවක් නැත</string>
-    <!-- Favorites -->
-    <!-- Search -->
     <string name="search">සෙවීම</string>
-    <!-- Filters -->
-    <!-- Permissions -->
-    <!-- Renaming -->
-    <!-- Copy / Move -->
-    <!-- Create new -->
-    <!-- File operation conflicts -->
-    <!-- File picker -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Storages -->
-    <!-- File properties -->
     <string name="path">මග</string>
     <string name="duration">කාල සීමාව</string>
     <string name="exposure_time">නිරාවරණ කාලය</string>
     <string name="camera">කැමරාව</string>
-    <!-- Color customization -->
     <string name="save">සුරකින්න</string>
-    <!-- Themes -->
     <string name="custom">අභිරුචි</string>
-    <!-- What's new -->
-    <!-- Actionbar items -->
     <string name="delete">මකන්න</string>
     <string name="remove">ඉවත් කරන්න</string>
     <string name="share">බෙදාගන්න</string>
     <string name="select_all">සියල්ල තෝරන්න</string>
     <string name="undo">අස් කරන්න</string>
     <string name="redo">නැවත කරන්න</string>
-    <!-- Sorting -->
     <string name="size">ප්‍රමාණය</string>
     <string name="date_taken">ලබාගත් දවස</string>
     <string name="title">පටබැඳිනාමය</string>
-    <!-- Confirmation dialog -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="yes">ඔව්</string>
-    <!-- Password protection -->
-    <!-- Times -->
     <string name="seconds_raw">තත්පර</string>
     <string name="minutes_raw">මිනිත්තු</string>
     <string name="hours_raw">පැය</string>
-    <!-- For example: I will be there in 5 minutes -->
-    <!-- For example: Event reminder: 3 minutes before -->
-    <!-- For example: Postpone reminder by 3 minutes -->
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
-    <!-- Alarms -->
-    <!-- Settings -->
     <string name="widgets">විජට්</string>
-    <!-- Setting sections -->
-    <!-- Recycle Bin -->
-    <!-- Import / Export -->
-    <!-- OTG devices -->
-    <!-- Dates -->
-    <!-- in January -->
-    <!-- Pro version -->
-    <!-- About -->
-    <!-- FAQ -->
-    <!-- License -->
 </resources>

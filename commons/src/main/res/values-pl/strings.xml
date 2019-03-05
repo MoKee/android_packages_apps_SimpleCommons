@@ -25,24 +25,19 @@
     <string name="transparent_color">Prezroczysty kolor</string>
     <string name="select_a_different_color">Wybierz inny kolor</string>
     <string name="download">Pobierz</string>
-    <!-- Favorites -->
     <string name="favorites">Ulubione</string>
     <string name="add_favorites">Dodaj ulubione</string>
     <string name="add_to_favorites">Dodaj do ulubionych</string>
     <string name="remove_from_favorites">Usuń z ulubionych</string>
-    <!-- Search -->
     <string name="search">Szukaj</string>
     <string name="type_2_characters">Wpisz co najmniej 2 znaki, aby rozpocząć wyszukiwanie.</string>
-    <!-- Filters -->
     <string name="filter">Filtr</string>
     <string name="no_items_found">Nic nie znalazłem.</string>
     <string name="change_filter">Zmień filtr</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Wymagane jest uprawnienie \'Pamięć\'</string>
     <string name="no_contacts_permission">Wymagane jest uprawnienie \'Kontakty\'</string>
     <string name="no_camera_permissions">Wymagane jest uprawnienie \'Aparat\'</string>
     <string name="no_audio_permissions">Wymagane jest uprawnienie \'Mikrofon\'</string>
-    <!-- Renaming -->
     <string name="rename_file">Zmień nazwę</string>
     <string name="rename_folder">Zmień nazwę folderu</string>
     <string name="rename_file_error">Nie mogę zmienić nazwy pliku</string>
@@ -59,7 +54,6 @@
     <string name="source_file_doesnt_exist">Plik źródłowy nie istnieje</string>
     <string name="prepend_filenames">Poprzedzaj nazwy plików</string>
     <string name="append_filenames">Dołączaj nazwy plików (przed rozszerzeniem)</string>
-    <!-- Copy / Move -->
     <string name="copy">Kopiuj</string>
     <string name="move">Przenieś</string>
     <string name="copy_move">Kopiuj / przenieś</string>
@@ -84,7 +78,6 @@
     <string name="saving">Zapisuję…</string>
     <string name="could_not_create_folder">Nie mogę utworzyć folderu %s</string>
     <string name="could_not_create_file">Nie mogę utworzyć pliku %s</string>
-    <!-- Create new -->
     <string name="create_new">Utwórz nowy</string>
     <string name="folder">Katalog</string>
     <string name="file">Plik</string>
@@ -93,7 +86,6 @@
     <string name="invalid_name">Nazwa zawiera niedozwolone znaki</string>
     <string name="empty_name">Wpisz nazwę</string>
     <string name="unknown_error_occurred">Wystąpił nieznany błąd</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">Plik \"%s\" już istnieje</string>
     <string name="file_already_exists_overwrite">Plik \"%s\" już istnieje. Nadpisać?</string>
     <string name="folder_already_exists">Folder \"%s\" już istnieje</string>
@@ -103,7 +95,6 @@
     <string name="skip">Pomiń</string>
     <string name="append">Dodaj końcówkę \'_1\'</string>
     <string name="apply_to_all">Zastosuj dla wszystkich</string>
-    <!-- File picker -->
     <string name="select_folder">Wybierz folder</string>
     <string name="select_file">Wybierz plik</string>
     <string name="confirm_storage_access_title">Potwierdź dostęp do karty pamięci</string>
@@ -116,7 +107,6 @@
         <item quantity="many">%d pozycji</item>
         <item quantity="other">%d pozycji</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d element</item>
         <item quantity="few">%d elementy</item>
@@ -129,7 +119,6 @@
         <item quantity="many">Usuwanie %d elementów</item>
         <item quantity="other">Usuwanie %d elementów</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Wybierz pamięć</string>
     <string name="internal">Wewnętrzna</string>
     <string name="sd_card">Karta pamięci</string>
@@ -137,7 +126,6 @@
     <string name="wrong_root_selected">Wybrano nieprawidłowy folder. Wybierz główny folder karty pamięci.</string>
     <string name="sd_card_usb_same">Ścieżka do karty pamięci i urządzenia USB nie może być taka sama</string>
     <string name="app_on_sd_card">Wygląda na to, że aplikacja jest zainstalowana na karcie pamięci. Przez to widżety aplikacji są niedostępne.\nJest to ograniczenie systemu. Jeśli chcesz używać widżetów, musisz przenieść ją do pamięci wewnętrznej.</string>
-    <!-- File properties -->
     <string name="properties">Właściwości</string>
     <string name="path">Ścieżka</string>
     <string name="items_selected">Wybrane pozycje</string>
@@ -154,7 +142,6 @@
     <string name="camera">Kamera/aparat</string>
     <string name="exif">Dane EXIF</string>
     <string name="song_title">Tytuł piosenki</string>
-    <!-- Color customization -->
     <string name="background_color">Tło</string>
     <string name="text_color">Tekst</string>
     <string name="primary_color">Belka i przełączniki</string>
@@ -174,7 +161,6 @@
     <string name="app_icon_color_warning">OSTRZEŻENIE: Niektóre launchery nie obsługują odpowiednio dostosowania ikon aplikacji. Jeśli ikona zniknie, spróbuj uruchomić aplikację przez Google Play lub jakiś widżet, jeśli jest dostępny.
          Po uruchomieniu, przywróć domyślną pomarańczową ikonę # F57C00. W najgorszym przypadku może być konieczne ponowne zainstalowanie aplikacji.</string>
     <string name="share_colors_success">Kolory zostały zmienione. Utworzony został nowy, \'wspólny\' motyw - użyj go, aby zaktualizować kolorystykę wszystkich Prostych Aplikacji.</string>
-    <!-- Themes -->
     <string name="light_theme">Jasny</string>
     <string name="dark_theme">Ciemny</string>
     <string name="solarized">Solaryzacja</string>
@@ -182,10 +168,8 @@
     <string name="black_white">Czerń i biel</string>
     <string name="custom">Własny</string>
     <string name="shared">Wspólny</string>
-    <!-- What's new -->
     <string name="whats_new">Co nowego</string>
     <string name="whats_new_disclaimer">* Wymienione są tylko większe zmiany</string>
-    <!-- Actionbar items -->
     <string name="delete">Usuń</string>
     <string name="remove">Usuń</string>
     <string name="rename">Zmień nazwę</string>
@@ -203,7 +187,6 @@
     <string name="undo">Cofnij</string>
     <string name="redo">Ponów</string>
     <string name="print">Drukuj</string>
-    <!-- Sorting -->
     <string name="sort_by">Sortuj według parametru:</string>
     <string name="name">Nazwa</string>
     <string name="size">Rozmiar</string>
@@ -217,12 +200,9 @@
     <string name="ascending">Rosnąco</string>
     <string name="descending">Malejąco</string>
     <string name="use_for_this_folder">Tylko w tym folderze</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Czy na pewno chcesz to usunąć?</string>
     <string name="deletion_confirmation">Czy na pewno chcesz usunąć %s?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">Czy na pewno chcesz %s do kosza?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Czy na pewno chcesz usunąć ten element?</string>
     <string name="are_you_sure_recycle_bin">Czy na pewno chcesz przenieść ten element do kosza?</string>
     <string name="do_not_ask_again">Nie pytaj więcej w tej sesji</string>
@@ -234,7 +214,6 @@
         <item quantity="many">UWAGA: usuwasz %d folderów</item>
         <item quantity="other">UWAGA: usuwasz %d folderów</item>
     </plurals>
-    <!-- Password protection -->
     <string name="pin">PIN</string>
     <string name="enter_pin">Wprowadź PIN</string>
     <string name="please_enter_pin">Wprowadź PIN</string>
@@ -253,7 +232,6 @@
     <string name="go_to_settings">Przejdź do ustawień</string>
     <string name="protection_setup_successfully">Hasło zostało ustawione. Jeśli je zapomnisz, przeinstaluj aplikację.</string>
     <string name="fingerprint_setup_successfully">Zabezpieczenie zostało ustawione. W razie problemów z jego zresetowaniem przeinstaluj aplikację.</string>
-    <!-- Times -->
     <string name="yesterday">Wczoraj</string>
     <string name="today">Dzisiaj</string>
     <string name="tomorrow">Jutro</string>
@@ -303,7 +281,6 @@
         <item quantity="many">%d lat</item>
         <item quantity="other">%d lat</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d sekundę</item>
         <item quantity="few">%d sekundy</item>
@@ -346,7 +323,6 @@
         <item quantity="many">%d lat</item>
         <item quantity="other">%d lat</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d sekundę przed</item>
         <item quantity="few">%d sekundy przed</item>
@@ -389,7 +365,6 @@
         <item quantity="many">%d lat przed</item>
         <item quantity="other">%d lat przed</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d sekundę</item>
         <item quantity="few">%d sekundy</item>
@@ -432,13 +407,11 @@
         <item quantity="many">%d lat</item>
         <item quantity="other">%d lat</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Czas pozostały do aktywacji alarmu:\n%s</string>
     <string name="reminder_triggers_in">Czas pozostały do aktywacji przypomnienia:\n%s</string>
     <string name="alarm_warning">Upewnij się, że alarm działa poprawnie zanim zaczniesz na nim polegać. Przez ograniczenia związane m. in. z oszczędzaniem baterii coś może nie wypalić.</string>
     <string name="reminder_warning">Upewnij się, że przypomnienia działają poprawnie zanim zaczniesz na nich polegać. Przez ograniczenia związane m. in. z oszczędzaniem baterii coś może nie wypalić.</string>
     <string name="notifications_disabled">Powiadomienia tej aplikacji zostały wyłączone. Przejdź do ustawień systemu, aby je z powrotem włączyć.</string>
-    <!-- Alarms -->
     <string name="alarm">Budzik</string>
     <string name="snooze">Drzemka</string>
     <string name="dismiss">Wyłącz</string>
@@ -448,7 +421,6 @@
     <string name="your_sounds">Dźwięki użytkownika</string>
     <string name="add_new_sound">Dodaj nowy dźwięk</string>
     <string name="no_sound">Brak dźwięku</string>
-    <!-- Settings -->
     <string name="settings">Ustawienia</string>
     <string name="purchase_simple_thank_you">Kup aplikację \'Proste podziękowanie\'</string>
     <string name="customize_colors">Dostosuj kolory aplikacji</string>
@@ -482,7 +454,6 @@
     <string name="import_settings">Importuj ustawienia</string>
     <string name="settings_exported_successfully">Ustawienia zostały wyeksportowane pomyślnie</string>
     <string name="settings_imported_successfully">Ustawienia zostały zaimportowane pomyślnie</string>
-    <!-- Setting sections -->
     <string name="visibility">Widoczność</string>
     <string name="security">Bezpieczeństwo</string>
     <string name="scrolling">Przewijanie</string>
@@ -492,7 +463,6 @@
     <string name="startup">Uruchamianie</string>
     <string name="text">Tekst</string>
     <string name="migrating">Migrowanie</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Przywróć ten plik</string>
     <string name="restore_selected_files">Przywróć wybrane pliki</string>
     <string name="restore_all_files">Przywróć wszystkie pliki</string>
@@ -509,7 +479,6 @@
         <item quantity="many">Przenoszę %d elementów do kosza</item>
         <item quantity="other">Przenoszę %d elementów do kosza</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">Importuję…</string>
     <string name="exporting">Eksportuję…</string>
     <string name="importing_successful">Importowanie zakończone</string>
@@ -520,12 +489,10 @@
     <string name="exporting_some_entries_failed">Eksportowanie niektórych wpisów nie powiodło się</string>
     <string name="no_entries_for_importing">Nie znaleziono żadnych wpisów do zaimportowania</string>
     <string name="no_entries_for_exporting">Nie znalazłem żadnych wpisów do wyeksportowania</string>
-    <!-- OTG devices -->
     <string name="usb">USB</string>
     <string name="usb_detected">Wygląda na to, że do twojego urządzenia jest podłączone urządzenie USB. Aby upewnić się, że pliki są wyświetlane poprawnie, musisz udzielić dodatkowych uprawnień.</string>
     <string name="confirm_usb_storage_access_text">Wybierz folder główny urządzenia USB na następnym ekranie, aby uzyskać dostęp do tegoż urządzenia</string>
     <string name="wrong_root_selected_usb">Wybrany został niewłaściwy folder. Wybierz główny folder urządzenia USB.</string>
-    <!-- Dates -->
     <string name="january">Styczeń</string>
     <string name="february">Luty</string>
     <string name="march">Marzec</string>
@@ -538,7 +505,6 @@
     <string name="october">Październik</string>
     <string name="november">Listopad</string>
     <string name="december">Grudzień</string>
-    <!-- in January -->
     <string name="in_january">w styczniu</string>
     <string name="in_february">w lutym</string>
     <string name="in_march">w marcu</string>
@@ -572,13 +538,11 @@
     <string name="friday_short">Pią</string>
     <string name="saturday_short">Sob</string>
     <string name="sunday_short">Nie</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">Ta wersja aplikacji nie jest już rozwijana. Zaktualizuj ją do wersji Pro.</string>
     <string name="it_is_free">Jest darmowa do %s. Jeśli pobierzesz ją do tego czasu, będziesz mieć ją bezterminowo za darmo.</string>
     <string name="more_info">Więcej informacji</string>
     <string name="upgrade">Aktualizuj</string>
     <string name="upgrade_calendar">Musisz migrować lokalnie przechowywane zdarzenia ręcznie, eksportując je w pliku .ics, a następnie importując. Możesz znaleźć oba przyciski eksportu / importu w głównym menu ekranowym.</string>
-    <!-- About -->
     <string name="about">O aplikacji</string>
     <string name="website_label">Nasza strona internetowa:</string>
     <string name="email_label">Napisz do nas, przyślij nam swoje uwagi:</string>
@@ -600,9 +564,8 @@
     <string name="update_thank_you">Zaktualizuj aplikcję Proste Podziękowanie do najnowszej wersji</string>
     <string name="before_asking_question_read_faq">Zanim zadasz pytanie, sprawdź ustawienia aplikacji i przeczytaj \'Najczęściej zadawane pytania\' (FAQ). Być może rozwiązanie już tam jest.</string>
     <string name="read_it">Przeczytaj</string>
-    <string name="sideloaded_app"><![CDATA[           Wygląda na to, że ta wersja aplikacji jest uszkodzona. Proszę pobierz jej oryginalną wersję <a href="%s">tutaj</a>.
-        ]]></string>
-    <!-- FAQ -->
+    <string name="sideloaded_app">           Wygląda na to, że ta wersja aplikacji jest uszkodzona. Proszę pobierz jej oryginalną wersję &lt;a href="%s"&gt;tutaj&lt;/a&gt;.
+        </string>
     <string name="frequently_asked_questions">Często zadawane pytania (FAQ)</string>
     <string name="before_asking_question">Zanim zadasz pytanie, przeczytaj najpierw</string>
     <string name="faq_1_title_commons">Dlaczego nigdzie nie widzę widżetu aplikacji?</string>
@@ -618,7 +581,6 @@
     <string name="faq_6_title_commons">Ikona aplikacji została usunięta. Co mogę zrobić?</string>
     <string name="faq_6_text_commons">Jest to spowodowane tym, że twój launcher nie obsługuje poprawnie dostosowania ikon. Spróbuj uruchomić aplikację przez Google Play lub jakiś widżet, jeśli jest dostępny.
          Po uruchomieniu, przywróć domyślną pomarańczową ikonę # F57C00. W najgorszym przypadku może być konieczne ponowne zainstalowanie aplikacji.</string>
-    <!-- License -->
     <string name="notice">Aplikacja korzysta z następujących bibliotek innych firm:</string>
     <string name="third_party_licences">Licencje innych firm</string>
     <string name="kotlin_title">Kotlin (język programowania)</string>

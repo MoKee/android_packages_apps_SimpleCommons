@@ -3,52 +3,14 @@
 <resources>
     <string name="ok">Iawn</string>
     <string name="cancel">Canslo</string>
-    <!-- Favorites -->
-    <!-- Search -->
     <string name="search">Chwilio</string>
-    <!-- Filters -->
-    <!-- Permissions -->
-    <!-- Renaming -->
-    <!-- Copy / Move -->
-    <!-- Create new -->
-    <!-- File operation conflicts -->
     <string name="skip">Neidio</string>
-    <!-- File picker -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Storages -->
-    <!-- File properties -->
-    <!-- Color customization -->
-    <!-- Themes -->
     <string name="dark_theme">Tywyll</string>
     <string name="custom">Addasedig</string>
-    <!-- What's new -->
-    <!-- Actionbar items -->
     <string name="delete">Dileu</string>
-    <!-- Sorting -->
     <string name="name">Enw</string>
-    <!-- Confirmation dialog -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="yes">Iawn</string>
     <string name="no">Na</string>
-    <!-- Password protection -->
-    <!-- Times -->
-    <!-- For example: I will be there in 5 minutes -->
-    <!-- For example: Event reminder: 3 minutes before -->
-    <!-- For example: Postpone reminder by 3 minutes -->
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
-    <!-- Alarms -->
     <string name="snooze">Snooze</string>
-    <!-- Settings -->
     <string name="settings">Gosodiadau</string>
-    <!-- Setting sections -->
-    <!-- Recycle Bin -->
-    <!-- Import / Export -->
-    <!-- OTG devices -->
-    <!-- Dates -->
-    <!-- in January -->
-    <!-- Pro version -->
-    <!-- About -->
-    <!-- FAQ -->
-    <!-- License -->
 </resources>

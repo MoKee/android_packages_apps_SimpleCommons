@@ -25,24 +25,19 @@
     <string name="transparent_color">Colore trasparente</string>
     <string name="select_a_different_color">Seleziona un colore diverso</string>
     <string name="download">Download</string>
-    <!-- Favorites -->
     <string name="favorites">Preferiti</string>
     <string name="add_favorites">Aggiungi preferiti</string>
     <string name="add_to_favorites">Aggiungi ai preferiti</string>
     <string name="remove_from_favorites">Rimuovi dai preferiti</string>
-    <!-- Search -->
     <string name="search">Cerca</string>
     <string name="type_2_characters">Digita almeno 2 caratteri per iniziare la ricerca.</string>
-    <!-- Filters -->
     <string name="filter">Filtro</string>
     <string name="no_items_found">Nessun elemento trovato.</string>
     <string name="change_filter">Cambia filtro</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">L\'autorizzazione Archiviazione è necessaria</string>
     <string name="no_contacts_permission">L\'autorizzazione Contatti è necessaria</string>
     <string name="no_camera_permissions">L\'autorizzazione Fotocamera è necessaria</string>
     <string name="no_audio_permissions">L\'autorizzazione Microfono è necessaria</string>
-    <!-- Renaming -->
     <string name="rename_file">Rinomina file</string>
     <string name="rename_folder">Rinomina cartella</string>
     <string name="rename_file_error">Impossibile rinominare il file</string>
@@ -59,7 +54,6 @@
     <string name="source_file_doesnt_exist">Il file di origine %s non esiste</string>
     <string name="prepend_filenames">Anteponi i nomi dei file</string>
     <string name="append_filenames">Aggiungi i nomi dei file (prima dell\'estensione)</string>
-    <!-- Copy / Move -->
     <string name="copy">Copia</string>
     <string name="move">Sposta</string>
     <string name="copy_move">Copia / Sposta</string>
@@ -84,7 +78,6 @@
     <string name="saving">Salvataggio in corso…</string>
     <string name="could_not_create_folder">Impossibile creare la cartella %s</string>
     <string name="could_not_create_file">Impossibile creare il file %s</string>
-    <!-- Create new -->
     <string name="create_new">Crea nuovo</string>
     <string name="folder">Cartella</string>
     <string name="file">File</string>
@@ -93,7 +86,6 @@
     <string name="invalid_name">Il nome contiene caratteri non validi</string>
     <string name="empty_name">Inserisci un nome</string>
     <string name="unknown_error_occurred">Si è verificato un errore sconosciuto</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">Il file \"%s\" è già esistente</string>
     <string name="file_already_exists_overwrite">Il file \"%s\" è già esistente. Sovrascrivere?</string>
     <string name="folder_already_exists">La cartella \"%s\" è già esistente</string>
@@ -103,7 +95,6 @@
     <string name="skip">Salta</string>
     <string name="append">Aggiungi \'_1\' alla fine</string>
     <string name="apply_to_all">Applica a tutti i conflitti</string>
-    <!-- File picker -->
     <string name="select_folder">Seleziona una cartella</string>
     <string name="select_file">Seleziona un file</string>
     <string name="confirm_storage_access_title">Confermare l\'accesso all\'archiviazione esterna</string>
@@ -114,7 +105,6 @@
         <item quantity="one">%d elemento</item>
         <item quantity="other">%d elementi</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d elemento</item>
         <item quantity="other">%d elementi</item>
@@ -123,7 +113,6 @@
         <item quantity="one">Eliminazione di %d elemento</item>
         <item quantity="other">Eliminazione di %d elementi</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Seleziona archiviazione</string>
     <string name="internal">Interna</string>
     <string name="sd_card">Scheda SD</string>
@@ -132,7 +121,6 @@
     <string name="sd_card_usb_same">I percorsi della scheda SD e del dispositivo USB non possono essere uguali</string>
     <string name="app_on_sd_card">Sembra che l\'app sia installata nella scheda SD, ciò impedisce la disponibilità dei widget dell\'app. Non li vedrai neppure nell\'elenco dei widget disponibili.
         Se è una limitazione di sistema, quindi se vuoi usare i widget, devi spostare l\'app nella memoria interna.</string>
-    <!-- File properties -->
     <string name="properties">Proprietà</string>
     <string name="path">Percorso</string>
     <string name="items_selected">Elementi selezionati</string>
@@ -149,7 +137,6 @@
     <string name="camera">Fotocamera</string>
     <string name="exif">EXIF</string>
     <string name="song_title">Titolo canzone</string>
-    <!-- Color customization -->
     <string name="background_color">Colore di sfondo</string>
     <string name="text_color">Colore del testo</string>
     <string name="primary_color">Colore primario</string>
@@ -168,7 +155,6 @@
     <string name="apply_to_all_apps">Applica i colori a tutte le app Simple</string>
     <string name="app_icon_color_warning">AVVISO: Alcuni launcher non gestiscono bene la personalizzazione delle icone, in caso alcune di esse spariscano prova ad avviare l\'app dal Google Play o da un widget, se possibile. Una volta avviata imposta nuovamente l\'icona arancione predefinita #F57C00. Nel peggiore dei casi dovrai reinstallare l\'app.</string>
     <string name="share_colors_success">Colori aggiornati correttamente. È stato aggiunto un nuovo tema chiamato \'Condiviso\', usa quello per aggiornare tutti i colori dell\'app in futuro.</string>
-    <!-- Themes -->
     <string name="light_theme">Chiaro</string>
     <string name="dark_theme">Scuro</string>
     <string name="solarized">Solarizzato</string>
@@ -176,10 +162,8 @@
     <string name="black_white">Bianco e nero</string>
     <string name="custom">Personale</string>
     <string name="shared">Condiviso</string>
-    <!-- What's new -->
     <string name="whats_new">Novità</string>
     <string name="whats_new_disclaimer">* qui vengono elencate solo le modifiche maggiori, ci sono sempre anche altri piccoli miglioramenti</string>
-    <!-- Actionbar items -->
     <string name="delete">Elimina</string>
     <string name="remove">Rimuovi</string>
     <string name="rename">Rinomina</string>
@@ -197,7 +181,6 @@
     <string name="undo">Annulla</string>
     <string name="redo">Ripeti</string>
     <string name="print">Stampa</string>
-    <!-- Sorting -->
     <string name="sort_by">Ordina per</string>
     <string name="name">Nome</string>
     <string name="size">Dimensione</string>
@@ -211,12 +194,9 @@
     <string name="ascending">Ascendente</string>
     <string name="descending">Discendente</string>
     <string name="use_for_this_folder">Usa solo per questa cartella</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Sei sicuro di procedere con l\'eliminazione?</string>
     <string name="deletion_confirmation">Sei sicuro di volere eliminare %s?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">Sei sicuro di volere spostare nel cestino %s?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Sei sicuro di volere eliminare questo elemento?</string>
     <string name="are_you_sure_recycle_bin">Sei sicuro di volere spostare questo elemento nel cestino?</string>
     <string name="do_not_ask_again">Non chiedere nuovamente in questa sessione</string>
@@ -226,7 +206,6 @@
         <item quantity="one">ATTENZIONE: stai per eliminare %d cartella</item>
         <item quantity="other">ATTENZIONE: stai per eliminare %d cartelle</item>
     </plurals>
-    <!-- Password protection -->
     <string name="pin">PIN</string>
     <string name="enter_pin">Inserisci un PIN</string>
     <string name="please_enter_pin">Per favore inserisci un PIN</string>
@@ -245,7 +224,6 @@
     <string name="go_to_settings">Vai alle impostazioni</string>
     <string name="protection_setup_successfully">Password impostata correttamente. Reinstalla l\'app nel caso la dimenticassi.</string>
     <string name="fingerprint_setup_successfully">Protezione impostata correttamente. Reinstalla l\'app in caso di problemi nel ripristinarla.</string>
-    <!-- Times -->
     <string name="yesterday">Ieri</string>
     <string name="today">Oggi</string>
     <string name="tomorrow">Domani</string>
@@ -281,7 +259,6 @@
         <item quantity="one">%d anno</item>
         <item quantity="other">%d anni</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d secondo</item>
         <item quantity="other">%d secondi</item>
@@ -310,7 +287,6 @@
         <item quantity="one">%d anno</item>
         <item quantity="other">%d anni</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d secondo prima</item>
         <item quantity="other">%d secondi prima</item>
@@ -327,7 +303,6 @@
         <item quantity="one">%d giorno prima</item>
         <item quantity="other">%d giorni prima</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d secondo</item>
         <item quantity="other">%d secondi</item>
@@ -356,13 +331,11 @@
         <item quantity="one">%d anno</item>
         <item quantity="other">%d anni</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Tempo rimanente prima che suoni la sveglia:\n%s</string>
     <string name="reminder_triggers_in">Tempo rimanente prima della notifica promemoria:\n%s</string>
     <string name="alarm_warning">Assicurati che la sveglia funzioni correttamente prima di fare affidamento su di essa. Potrebbe comportarsi in modo anomalo a causa di restrizioni di sistema relative al risparmio della batteria.</string>
     <string name="reminder_warning">Assicurati che i promemoria funzionino correttamente prima di fare affidamento su di essi. Potrebbero comportarsi in modo anomalo a causa di restrizioni di sistema relative al risparmio della batteria.</string>
     <string name="notifications_disabled">Le notifiche di questa applicazione sono disattivate. Vai nelle impostazioni del dispositivo per attivarle.</string>
-    <!-- Alarms -->
     <string name="alarm">Sveglia</string>
     <string name="snooze">Posponi</string>
     <string name="dismiss">Ignora</string>
@@ -372,7 +345,6 @@
     <string name="your_sounds">I tuoi suoni</string>
     <string name="add_new_sound">Aggiungi un nuovo suono</string>
     <string name="no_sound">Nessun suono</string>
-    <!-- Settings -->
     <string name="settings">Impostazioni</string>
     <string name="purchase_simple_thank_you">Acquista Simple Thank You</string>
     <string name="customize_colors">Personalizza i colori</string>
@@ -406,7 +378,6 @@
     <string name="import_settings">Importa impostazioni</string>
     <string name="settings_exported_successfully">Ripristino delle impostazioni completato</string>
     <string name="settings_imported_successfully">Impostazioni importate con sucesso</string>
-    <!-- Setting sections -->
     <string name="visibility">Visibilità</string>
     <string name="security">Sicurezza</string>
     <string name="scrolling">Scorrimento</string>
@@ -416,7 +387,6 @@
     <string name="startup">Avvio</string>
     <string name="text">Testo</string>
     <string name="migrating">Trasferimento</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Ripristina questo file</string>
     <string name="restore_selected_files">Ripristina file selezionati</string>
     <string name="restore_all_files">Ripristina tutti i file</string>
@@ -429,7 +399,6 @@
         <item quantity="one">Spostamento di %d elemento nel cestino</item>
         <item quantity="other">Spostamento di %d elementi nel cestino</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">Importazione…</string>
     <string name="exporting">Esportazione…</string>
     <string name="importing_successful">Importazione riuscita</string>
@@ -440,12 +409,10 @@
     <string name="exporting_some_entries_failed">Esportazione di alcuni elementi fallita</string>
     <string name="no_entries_for_importing">Nessun elemento trovato da importare</string>
     <string name="no_entries_for_exporting">Nessun elemento trovato da esportare</string>
-    <!-- OTG devices -->
     <string name="usb">USB</string>
     <string name="usb_detected">È collegato un dispositivo USB al dispositivo. Per assicurarsi che i file appaiano correttamente, è necessario accettare permessi aggiuntivi.</string>
     <string name="confirm_usb_storage_access_text">Scegli la cartella di root del dispositivo USB nella prossima schermata, per consentire l\'accesso</string>
     <string name="wrong_root_selected_usb">Cartella selezionata errata, seleziona la cartella di root del dispositivo USB</string>
-    <!-- Dates -->
     <string name="january">Gennaio</string>
     <string name="february">Febbraio</string>
     <string name="march">Marzo</string>
@@ -458,7 +425,6 @@
     <string name="october">Ottobre</string>
     <string name="november">Novembre</string>
     <string name="december">Dicembre</string>
-    <!-- in January -->
     <string name="in_january">a gennaio</string>
     <string name="in_february">a febbraio</string>
     <string name="in_march">a marzo</string>
@@ -492,13 +458,11 @@
     <string name="friday_short">Ven</string>
     <string name="saturday_short">Sab</string>
     <string name="sunday_short">Dom</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">Questa versione dell\'applicazione non è più supportata. Aggiornarla alla versione Pro.</string>
     <string name="it_is_free">È gratuita fino a: %s. Se la scarichi entro quella data, essa sarà gratuita per sempre.</string>
     <string name="more_info">Maggiori informazioni</string>
     <string name="upgrade">Aggiorna</string>
     <string name="upgrade_calendar">Devi migrare a mano gli eventi salvati localmente esportandoli in un file .ics, poi importandoli. Puoi trovare i pulsanti esporta/importa nel menu della schermata principale.</string>
-    <!-- About -->
     <string name="about">Informazioni</string>
     <string name="website_label">Altre semplici app e codici sorgenti in</string>
     <string name="email_label">Invia la tua opinione o i tuoi suggerimenti a</string>
@@ -522,7 +486,6 @@
     <string name="read_it">Leggile</string>
     <string name="sideloaded_app">            La versione dell\'app sembra essere corrotta. Si prega di scaricare<a href="%s">qui</a>.Versione originale
         </string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Domande frequenti</string>
     <string name="before_asking_question">Prima di porre una domanda, per favore leggi le</string>
     <string name="faq_1_title_commons">Come mai non vedo il widget di questa app nell\'elenco dei widget?</string>
@@ -539,7 +502,6 @@
     <string name="faq_5_text_commons">Se sono stati veramente eliminati, non puoi. Tuttavia, puoi attivare nelle impostazioni l\'uso del cestino invece di eliminare. I file verranno solo spostati lì invece di essere eliminati.</string>
     <string name="faq_6_title_commons">L\'icona del launcher è sparita. Cosa faccio?</string>
     <string name="faq_6_text_commons">Il tuo launcher non supporta la personalizzazione delle icone. Prova ad avviare l\'app dal Google Play o da un widget, se possibile. Una volta avviata imposta nuovamente l\'icona arancione predefinita #F57C00. Nel peggiore dei casi dovrai reinstallare l\'app.</string>
-    <!-- License -->
     <string name="notice">Questa app usa le seguenti librerie di terze parti per semplificarmi la vita. Grazie.</string>
     <string name="third_party_licences">Licenze di terze parti</string>
     <string name="kotlin_title">Kotlin (linguaggio di programmazione)</string>

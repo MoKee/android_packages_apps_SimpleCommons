@@ -25,24 +25,19 @@
     <string name="transparent_color">透過色</string>
     <string name="select_a_different_color">別の色を選択する</string>
     <string name="download">ダウンロード</string>
-    <!-- Favorites -->
     <string name="favorites">お気に入り</string>
     <string name="add_favorites">お気に入りを追加</string>
     <string name="add_to_favorites">お気に入りに追加</string>
     <string name="remove_from_favorites">お気に入りから削除</string>
-    <!-- Search -->
     <string name="search">検索</string>
     <string name="type_2_characters">検索を開始するには少なくとも2文字以上入力してください。</string>
-    <!-- Filters -->
     <string name="filter">フィルタ</string>
     <string name="no_items_found">何も見つかりませんでした。</string>
     <string name="change_filter">フィルタを変更</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">ストレージへのアクセス許可が必要です</string>
     <string name="no_contacts_permission">連絡先へのアクセス許可が必要です</string>
     <string name="no_camera_permissions">カメラへのアクセス許可が必要です</string>
     <string name="no_audio_permissions">マイクへのアクセス許可が必要です</string>
-    <!-- Renaming -->
     <string name="rename_file">ファイルの名前を変更</string>
     <string name="rename_folder">フォルダの名前を変更</string>
     <string name="rename_file_error">ファイルの名前を変更できませんでした</string>
@@ -59,7 +54,6 @@
     <string name="source_file_doesnt_exist">ソースファイル %s が存在しません</string>
     <string name="prepend_filenames">ファイル名の前に追加</string>
     <string name="append_filenames">ファイル名の後に追加 (拡張子の前)</string>
-    <!-- Copy / Move -->
     <string name="copy">コピー</string>
     <string name="move">移動</string>
     <string name="copy_move">コピー / 移動</string>
@@ -84,7 +78,6 @@
     <string name="saving">保存中…</string>
     <string name="could_not_create_folder">フォルダ %s を作成できません</string>
     <string name="could_not_create_file">ファイル %s を作成できません</string>
-    <!-- Create new -->
     <string name="create_new">新規作成</string>
     <string name="folder">フォルダ</string>
     <string name="file">ファイル</string>
@@ -93,7 +86,6 @@
     <string name="invalid_name">名前に無効な文字が含まれています</string>
     <string name="empty_name">名前を入力してください</string>
     <string name="unknown_error_occurred">不明なエラーが発生しました</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">ファイル \"%s\" は既に存在しています</string>
     <string name="file_already_exists_overwrite">ファイル \"%s\" は既に存在しています。上書きしますか？</string>
     <string name="folder_already_exists">フォルダ \"%s\" は既に存在しています</string>
@@ -103,7 +95,6 @@
     <string name="skip">スキップ</string>
     <string name="append">\'_1\' に追記する</string>
     <string name="apply_to_all">すべてに適用</string>
-    <!-- File picker -->
     <string name="select_folder">フォルダを選択</string>
     <string name="select_file">ファイルを選択</string>
     <string name="confirm_storage_access_title">外部ストレージのアクセスを確認してください</string>
@@ -113,21 +104,18 @@
     <plurals name="items">
         <item quantity="other">%d アイテム</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="other">%d アイテム</item>
     </plurals>
     <plurals name="deleting_items">
         <item quantity="other">%d アイテムを削除しています</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">ストレージを選択</string>
     <string name="internal">内部</string>
     <string name="sd_card">SDカード</string>
     <string name="root">ルート</string>
     <string name="wrong_root_selected">フォルダの選択が正しくありません。SDカードを選択してください</string>
     <string name="sd_card_usb_same">SDカードとUSBデバイスのパスを同じにすることはできません</string>
-    <!-- File properties -->
     <string name="properties">プロパティ</string>
     <string name="path">パス</string>
     <string name="items_selected">アイテム選択</string>
@@ -144,7 +132,6 @@
     <string name="camera">カメラ名</string>
     <string name="exif">EXIF</string>
     <string name="song_title">曲名</string>
-    <!-- Color customization -->
     <string name="background_color">背景色</string>
     <string name="text_color">文字色</string>
     <string name="primary_color">メインカラー</string>
@@ -160,7 +147,6 @@
     <string name="undo_changes_confirmation">変更を元に戻してもよろしいですか？</string>
     <string name="save_before_closing">保存していない変更があります。保存しますか？</string>
     <string name="apply_to_all_apps">すべてのSimple Appsに色を適用する</string>
-    <!-- Themes -->
     <string name="light_theme">ライト</string>
     <string name="dark_theme">ダーク</string>
     <string name="solarized">ｿﾗﾘｾﾞｰｼｮﾝ</string>
@@ -168,10 +154,8 @@
     <string name="black_white">モノクロ</string>
     <string name="custom">カスタム</string>
     <string name="shared">共有</string>
-    <!-- What's new -->
     <string name="whats_new">更新内容</string>
     <string name="whats_new_disclaimer">* ここでは主な変更点を挙げていますが、その他の細かい改善も行われています</string>
-    <!-- Actionbar items -->
     <string name="delete">削除</string>
     <string name="remove">削除</string>
     <string name="rename">名前の変更</string>
@@ -188,7 +172,6 @@
     <string name="empty_and_disable_recycle_bin">ごみ箱を空にして無効にする</string>
     <string name="undo">元に戻す</string>
     <string name="redo">やり直し</string>
-    <!-- Sorting -->
     <string name="sort_by">並べ替え</string>
     <string name="name">名前</string>
     <string name="size">サイズ</string>
@@ -202,12 +185,9 @@
     <string name="ascending">昇順</string>
     <string name="descending">降順</string>
     <string name="use_for_this_folder">このフォルダのみに適用</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">削除を続行してもよろしいですか？</string>
     <string name="deletion_confirmation">%s を削除してもよろしいですか？</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">%s をゴミ箱に移動してもよろしいですか？</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">このアイテムを削除してもよろしいですか？</string>
     <string name="are_you_sure_recycle_bin">個のアイテムをゴミ箱に移動してもよろしいですか？</string>
     <string name="do_not_ask_again">このセッションでは再度たずねない</string>
@@ -216,7 +196,6 @@
     <plurals name="delete_warning">
         <item quantity="other">警告: %d 個のフォルダを削除しようとしています</item>
     </plurals>
-    <!-- Password protection -->
     <string name="pin">暗証番号（PIN）</string>
     <string name="enter_pin">PINを入力</string>
     <string name="please_enter_pin">PINを入力してください</string>
@@ -235,7 +214,6 @@
     <string name="go_to_settings">設定に移動</string>
     <string name="protection_setup_successfully">パスワードの設定が完了しました。パスワードを紛失した場合は、アプリを再インストールしてください</string>
     <string name="fingerprint_setup_successfully">指紋認証の設定が完了しました。何らかの問題によりアプリを再インストールした場合には、再度設定し直してください。</string>
-    <!-- Times -->
     <string name="yesterday">昨日</string>
     <string name="today">今日</string>
     <string name="tomorrow">明日</string>
@@ -264,7 +242,6 @@
     <plurals name="years">
         <item quantity="other">%d年</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="other">%d秒</item>
     </plurals>
@@ -286,7 +263,6 @@
     <plurals name="in_years">
         <item quantity="other">%d年</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="other">%d秒前</item>
     </plurals>
@@ -299,7 +275,6 @@
     <plurals name="days_before">
         <item quantity="other">%d日前</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="other">%d秒</item>
     </plurals>
@@ -321,8 +296,6 @@
     <plurals name="by_years">
         <item quantity="other">%d年</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
-    <!-- Alarms -->
     <string name="alarm">アラーム</string>
     <string name="snooze">スヌーズ</string>
     <string name="dismiss">閉じる</string>
@@ -332,7 +305,6 @@
     <string name="your_sounds">選択したサウンド</string>
     <string name="add_new_sound">新しいサウンドを追加</string>
     <string name="no_sound">サウンドなし</string>
-    <!-- Settings -->
     <string name="settings">設定</string>
     <string name="customize_colors">表示色のカスタマイズ</string>
     <string name="customize_widget_colors">ウィジェットの色をカスタマイズ</string>
@@ -354,14 +326,12 @@
     <string name="move_items_into_recycle_bin">削除の代わりにアイテムをごみ箱に移動する</string>
     <string name="empty_recycle_bin">ゴミ箱を空にする</string>
     <string name="force_portrait_mode">ポートレートモードを強制する</string>
-    <!-- Setting sections -->
     <string name="visibility">可視性</string>
     <string name="security">セキュリティ</string>
     <string name="file_operations">ファイル操作</string>
     <string name="recycle_bin">ごみ箱</string>
     <string name="saving_label">保存中</string>
     <string name="text">テキスト</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">このファイルを復元</string>
     <string name="restore_selected_files">選択したファイルを復元</string>
     <string name="restore_all_files">すべてのファイルを復元</string>
@@ -372,7 +342,6 @@
     <plurals name="moving_items_into_bin">
         <item quantity="other">%d個のアイテムをごみ箱に移動しています</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">インポート中…</string>
     <string name="exporting">エクスポート中…</string>
     <string name="importing_successful">正常にインポートされました</string>
@@ -382,9 +351,7 @@
     <string name="importing_some_entries_failed">一部のエントリのインポートに失敗しました</string>
     <string name="exporting_some_entries_failed">一部のエントリのエクスポートに失敗しました</string>
     <string name="no_entries_for_exporting">エクスポートするエントリが見つかりませんでした</string>
-    <!-- OTG devices -->
     <string name="usb">USB</string>
-    <!-- Dates -->
     <string name="january">1月</string>
     <string name="february">2月</string>
     <string name="march">3月</string>
@@ -397,7 +364,6 @@
     <string name="october">10月</string>
     <string name="november">11月</string>
     <string name="december">12月</string>
-    <!-- in January -->
     <string name="in_september">9月</string>
     <string name="in_october">10月</string>
     <string name="in_november">11月</string>
@@ -423,10 +389,8 @@
     <string name="friday_short">金</string>
     <string name="saturday_short">土</string>
     <string name="sunday_short">日</string>
-    <!-- Pro version -->
     <string name="more_info">詳細情報</string>
     <string name="upgrade">アップグレード</string>
-    <!-- About -->
     <string name="about">このアプリについて</string>
     <string name="website_label">ソースコードはこちら</string>
     <string name="email_label">ご意見やご提案をお送りください</string>
@@ -445,9 +409,7 @@
     <string name="device_os">デバイスOS: %s</string>
     <string name="purchase">購入</string>
     <string name="update_thank_you">\"Simple Thank You\" アプリを最新版に更新してください</string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">よくある質問（FAQ）</string>
-    <!-- License -->
     <string name="notice">このアプリは、私の暮らしにゆとりを持たせるために、次のサードパーティのライブラリーを使用しています。ありがとうございます。</string>
     <string name="third_party_licences">サードパーティー ライセンス</string>
     <string name="kotlin_title">Kotlin (プログラミング言語)</string>

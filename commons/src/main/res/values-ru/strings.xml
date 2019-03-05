@@ -25,24 +25,19 @@
     <string name="transparent_color">Прозрачный цвет</string>
     <string name="select_a_different_color">Выберите другой цвет</string>
     <string name="download">Загрузить</string>
-    <!-- Favorites -->
     <string name="favorites">Избранное</string>
     <string name="add_favorites">Добавить избранное</string>
     <string name="add_to_favorites">Добавить в избранное</string>
     <string name="remove_from_favorites">Убрать из избранного</string>
-    <!-- Search -->
     <string name="search">Поиск</string>
     <string name="type_2_characters">Введите как минимум 2 символа для начала поиска.</string>
-    <!-- Filters -->
     <string name="filter">Фильтрация</string>
     <string name="no_items_found">Ничего не найдено.</string>
     <string name="change_filter">Изменить фильтрацию</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Требуется разрешение для доступа к хранилищу</string>
     <string name="no_contacts_permission">Требуется разрешение для доступа к контактам</string>
     <string name="no_camera_permissions">Требуется разрешение для доступа к камере</string>
     <string name="no_audio_permissions">Требуется разрешение для доступа к аудиосистеме</string>
-    <!-- Renaming -->
     <string name="rename_file">Переименовать файл</string>
     <string name="rename_folder">Переименовать папку</string>
     <string name="rename_file_error">Не удалось переименовать файл</string>
@@ -59,7 +54,6 @@
     <string name="source_file_doesnt_exist">Исходный файл \"%s\" не существует</string>
     <string name="prepend_filenames">Назначить имя файлов</string>
     <string name="append_filenames">Добавление имен файлов (до расширения файла)</string>
-    <!-- Copy / Move -->
     <string name="copy">Копировать</string>
     <string name="move">Переместить</string>
     <string name="copy_move">Копировать/переместить</string>
@@ -84,7 +78,6 @@
     <string name="saving">Сохранение…</string>
     <string name="could_not_create_folder">Не удалось создать папку \"%s\"</string>
     <string name="could_not_create_file">Не удалось создать файл \"%s\"</string>
-    <!-- Create new -->
     <string name="create_new">Создать</string>
     <string name="folder">Папка</string>
     <string name="file">Файл</string>
@@ -93,7 +86,6 @@
     <string name="invalid_name">Имя содержит недопустимые символы</string>
     <string name="empty_name">Пожалуйста, введите имя</string>
     <string name="unknown_error_occurred">Произошла неизвестная ошибка</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">Файл \"%s\" уже существует</string>
     <string name="file_already_exists_overwrite">Файл \"%s\" уже существует. Перезаписать?</string>
     <string name="folder_already_exists">Папка \"%s\" уже существует</string>
@@ -103,7 +95,6 @@
     <string name="skip">Пропустить</string>
     <string name="append">Добавить \"_1\" к имени</string>
     <string name="apply_to_all">Применить ко всем конфликтам</string>
-    <!-- File picker -->
     <string name="select_folder">Выбор папки</string>
     <string name="select_file">Выбор файла</string>
     <string name="confirm_storage_access_title">Предоставление доступа к внешнему накопителю</string>
@@ -116,7 +107,6 @@
         <item quantity="many">%d объектов</item>
         <item quantity="other">%d объектов</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d объект</item>
         <item quantity="few">%d объекта</item>
@@ -129,7 +119,6 @@
         <item quantity="many">Удаление %d объектов</item>
         <item quantity="other">Удаление %d объектов</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Выбрать хранилище</string>
     <string name="internal">Внутренняя память</string>
     <string name="sd_card">SD-карта</string>
@@ -138,7 +127,6 @@
     <string name="sd_card_usb_same">Пути к SD-карте и USB-устройству не могут быть одинаковыми</string>
     <string name="app_on_sd_card">Похоже, что приложение у вас установлено на SD-карту, а это делает виджеты приложений недоступными. Вы даже не увидите их в списке доступных виджетов.
         Это системное ограничение, поэтому, если вы хотите использовать виджеты, вам нужно переместить приложение обратно во внутреннюю память.</string>
-    <!-- File properties -->
     <string name="properties">Свойства</string>
     <string name="path">Расположение</string>
     <string name="items_selected">Выбрано элементов</string>
@@ -155,7 +143,6 @@
     <string name="camera">Камера</string>
     <string name="exif">EXIF (метаданные)</string>
     <string name="song_title">Название песни</string>
-    <!-- Color customization -->
     <string name="background_color">Цвет фона</string>
     <string name="text_color">Цвет текста</string>
     <string name="primary_color">Основной цвет</string>
@@ -175,7 +162,6 @@
     <string name="app_icon_color_warning">ВНИМАНИЕ: Некоторые лаунчеры неправильно обрабатывают настройку значков приложений. Если значок приложения исчез, ​​попробуйте запустить приложение через Google Play или с помощью виджета приложения, если он доступен.
         После запуска просто установите оранжевый значок по умолчанию #F57C00. Возможно, вам придется переустановить приложение.</string>
     <string name="share_colors_success">Цвета обновлены. Добавлена новая тема с названием \"Общая\", в дальнейшем используйте её для обновления цветов всех приложений.</string>
-    <!-- Themes -->
     <string name="light_theme">Светлая</string>
     <string name="dark_theme">Тёмная</string>
     <string name="solarized">Солнечная</string>
@@ -183,10 +169,8 @@
     <string name="black_white">Чёрно-белая</string>
     <string name="custom">Своя</string>
     <string name="shared">Общая</string>
-    <!-- What's new -->
     <string name="whats_new">Что нового</string>
     <string name="whats_new_disclaimer">* здесь представлены только значительные изменения, но всегда присутствуют и мелкие исправления</string>
-    <!-- Actionbar items -->
     <string name="delete">Удалить</string>
     <string name="remove">Убрать</string>
     <string name="rename">Переименовать</string>
@@ -204,7 +188,6 @@
     <string name="undo">Отменить</string>
     <string name="redo">Повторить</string>
     <string name="print">Печать</string>
-    <!-- Sorting -->
     <string name="sort_by">Сортировать по…</string>
     <string name="name">Имя</string>
     <string name="size">Размер</string>
@@ -218,12 +201,9 @@
     <string name="ascending">По возрастанию</string>
     <string name="descending">По убыванию</string>
     <string name="use_for_this_folder">Использовать только для этой папки</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Подтверждение удаления</string>
     <string name="deletion_confirmation">Вы действительно хотите удалить %s?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">Вы действительно хотите переместить %s в корзину?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Вы действительно хотите удалить этот объект?</string>
     <string name="are_you_sure_recycle_bin">Вы действительно хотите переместить этот объект в корзину?</string>
     <string name="do_not_ask_again">Не спрашивать снова (до следующего запуска)</string>
@@ -235,7 +215,6 @@
         <item quantity="many">ПРЕДУПРЕЖДЕНИЕ: вы удаляете %d папок</item>
         <item quantity="other">ПРЕДУПРЕЖДЕНИЕ: вы удаляете %d папок</item>
     </plurals>
-    <!-- Password protection -->
     <string name="pin">PIN-код</string>
     <string name="enter_pin">Введите PIN-код</string>
     <string name="please_enter_pin">Введите PIN-код</string>
@@ -254,7 +233,6 @@
     <string name="go_to_settings">Перейдите в настройки</string>
     <string name="protection_setup_successfully">Пароль установлен. Пожалуйста, переустановите приложение в случае, если вы его забудете.</string>
     <string name="fingerprint_setup_successfully">Установка защиты выполнена успешно. Переустановите приложение в случае возникновения проблем с её отключением.</string>
-    <!-- Times -->
     <string name="yesterday">Вчера</string>
     <string name="today">Сегодня</string>
     <string name="tomorrow">Завтра</string>
@@ -304,7 +282,6 @@
         <item quantity="many">%d лет</item>
         <item quantity="other">%d года(лет)</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d секунду</item>
         <item quantity="few">%d секунды</item>
@@ -347,7 +324,6 @@
         <item quantity="many">%d лет</item>
         <item quantity="other">%d года(лет)</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d секунда до события</item>
         <item quantity="few">%d секунды до события</item>
@@ -390,7 +366,6 @@
         <item quantity="many">%d лет назад</item>
         <item quantity="other">%d лет назад</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d секунду</item>
         <item quantity="few">%d секунды</item>
@@ -433,13 +408,11 @@
         <item quantity="many">%d лет</item>
         <item quantity="other">%d года(лет)</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Время, оставшееся до срабатывания будильника:\n%s</string>
     <string name="reminder_triggers_in">Время, оставшееся до срабатывания напоминания:\n%s</string>
     <string name="alarm_warning">Пожалуйста, убедитесь, что будильник работает правильно, прежде чем полагаться на него. Он может не работать должным образом из-за системных ограничений, связанных с экономией батареи.</string>
     <string name="reminder_warning">Пожалуйста, убедитесь, что напоминания работают правильно, прежде чем полагаться на них. Они могут не работать должным образом из-за системных ограничений, связанных с экономией батареи.</string>
     <string name="notifications_disabled">Уведомления этого приложения отключены. Пожалуйста, перейдите в настройки устройства и включите их.</string>
-    <!-- Alarms -->
     <string name="alarm">Будильник</string>
     <string name="snooze">Отложить</string>
     <string name="dismiss">Закрыть</string>
@@ -449,7 +422,6 @@
     <string name="your_sounds">Свои звуки</string>
     <string name="add_new_sound">Добавить новый звук</string>
     <string name="no_sound">Без звука</string>
-    <!-- Settings -->
     <string name="settings">Настройки</string>
     <string name="purchase_simple_thank_you">Купить Simple Thank You</string>
     <string name="customize_colors">Настроить цвета</string>
@@ -484,7 +456,6 @@
     <string name="import_settings">Импорт настроек</string>
     <string name="settings_exported_successfully">Настройки успешно экспортированы</string>
     <string name="settings_imported_successfully">Настройки успешно импортированы</string>
-    <!-- Setting sections -->
     <string name="visibility">Отображение</string>
     <string name="security">Безопасность</string>
     <string name="scrolling">Прокрутка</string>
@@ -494,7 +465,6 @@
     <string name="startup">Запуск</string>
     <string name="text">Текст</string>
     <string name="migrating">Перенос данных</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Восстановить этот файл</string>
     <string name="restore_selected_files">Восстановить выбранные файлы</string>
     <string name="restore_all_files">Восстановить все файлы</string>
@@ -511,7 +481,6 @@
         <item quantity="many">Перемещение %d элементов в корзину</item>
         <item quantity="other">Перемещение %d элементов в корзину</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">Импорт…</string>
     <string name="exporting">Экспорт…</string>
     <string name="importing_successful">Импортирование выполнено успешно</string>
@@ -522,12 +491,10 @@
     <string name="exporting_some_entries_failed">Экспортирование некоторых элементов завершилось неудачей</string>
     <string name="no_entries_for_importing">Записи для импорта не найдены</string>
     <string name="no_entries_for_exporting">Нет элементов для экспортирования</string>
-    <!-- OTG devices -->
     <string name="usb">USB</string>
     <string name="usb_detected">Похоже, к вашему устройству подключено устройство USB. Чтобы убедиться, что файлы на нём отображаются правильно, вам нужно предоставить дополнительные разрешения.</string>
     <string name="confirm_usb_storage_access_text">Пожалуйста, выберите корневую папку USB-устройства на следующем экране, чтобы предоставить к нему доступ.</string>
     <string name="wrong_root_selected_usb">Выбрана неправильная папка. Выберите корневую папку вашего USB-устройства.</string>
-    <!-- Dates -->
     <string name="january">Январь</string>
     <string name="february">Февраль</string>
     <string name="march">Март</string>
@@ -540,7 +507,6 @@
     <string name="october">Октябрь</string>
     <string name="november">Ноябрь</string>
     <string name="december">Декабрь</string>
-    <!-- in January -->
     <string name="in_january">в январе</string>
     <string name="in_february">в феврале</string>
     <string name="in_march">в марте</string>
@@ -574,13 +540,11 @@
     <string name="friday_short">Пт</string>
     <string name="saturday_short">Сб</string>
     <string name="sunday_short">Вс</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">Эта версия приложения больше не поддерживается. Выполните обновление до Pro версии.</string>
     <string name="it_is_free">Это бесплатно до: %s. Если вы загрузите версию PRO, вы сможете использовать его бесплатно навсегда.</string>
     <string name="more_info">Подробнее</string>
     <string name="upgrade">Обновить</string>
     <string name="upgrade_calendar">Вы должны перенести локально сохраненные события вручную путем экспорта в файл .ics, и последующего его импорта. Кнопки экспорта/импорта можно найти в главном меню.</string>
-    <!-- About -->
     <string name="about">О приложении</string>
     <string name="website_label">Исходный код можно найти по адресу</string>
     <string name="email_label">Отправить отзывы или предложения</string>
@@ -604,7 +568,6 @@
     <string name="read_it">Прочитать</string>
     <string name="sideloaded_app">            Похоже, вы установили неверную версию приложения. Пожалуйста, скачайте оригинальную версию <a href="%s">здесь</a>.
         </string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Часто задаваемые вопросы</string>
     <string name="before_asking_question">Перед тем как задать вопрос, пожалуйста, сначала прочитайте</string>
     <string name="faq_1_title_commons">Почему я не вижу виджет этого приложения в списке виджетов?</string>
@@ -622,7 +585,6 @@
     <string name="faq_6_title_commons">Значок запуска приложения исчез. Что я могу сделать?</string>
     <string name="faq_6_text_commons">Это вызвано тем, что ваш лаунчер не поддерживает правильную настройку значков. Попробуйте запустить приложение через Google Play или с помощью виджета приложения, если таковой имеется.
         После запуска просто установите оранжевый значок по умолчанию #F57C00. Возможно, вам придется переустановить приложение.</string>
-    <!-- License -->
     <string name="notice">Это приложение использует следующие библиотеки сторонних разработчиков, чтобы облегчить мой труд. Спасибо.</string>
     <string name="third_party_licences">Лицензии третьих сторон</string>
     <string name="kotlin_title">Kotlin (язык программирования)</string>

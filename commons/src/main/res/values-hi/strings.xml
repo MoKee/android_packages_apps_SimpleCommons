@@ -9,79 +9,41 @@
     <string name="details">विवरण</string>
     <string name="none">कुछ नहीं</string>
     <string name="download">डाउनलोड करें</string>
-    <!-- Favorites -->
-    <!-- Search -->
     <string name="search">खोज</string>
-    <!-- Filters -->
-    <!-- Permissions -->
-    <!-- Renaming -->
-    <!-- Copy / Move -->
-    <!-- Create new -->
     <string name="folder">फ़ोल्डर</string>
-    <!-- File operation conflicts -->
     <string name="skip">छोड़ें</string>
-    <!-- File picker -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Storages -->
-    <!-- File properties -->
     <string name="path">पथ</string>
     <string name="duration">अवधि</string>
     <string name="exposure_time">एक्सपोज़र समय</string>
     <string name="camera">कैमरा</string>
-    <!-- Color customization -->
     <string name="theme">थीम</string>
     <string name="save">सहेजें</string>
-    <!-- Themes -->
     <string name="light_theme">हल्का</string>
     <string name="custom">कस्टम</string>
-    <!-- What's new -->
-    <!-- Actionbar items -->
     <string name="delete">हटाएं</string>
     <string name="remove">हटाएं</string>
     <string name="share">साझा करें</string>
     <string name="select_all">सभी को चुनें</string>
     <string name="undo">वापस लाएं</string>
     <string name="redo">फिर से करें</string>
-    <!-- Sorting -->
     <string name="name">नाम</string>
     <string name="size">आकार</string>
     <string name="date_taken">फ़ोटो लेने का दिनांक</string>
     <string name="title">शीर्षक</string>
-    <!-- Confirmation dialog -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="yes">हां</string>
-    <!-- Password protection -->
-    <!-- Times -->
     <string name="today">आज</string>
     <string name="tomorrow">कल</string>
     <string name="seconds_raw">सेकंड</string>
     <string name="minutes_raw">मिनट</string>
     <string name="hours_raw">घंटे</string>
-    <!-- For example: I will be there in 5 minutes -->
-    <!-- For example: Event reminder: 3 minutes before -->
-    <!-- For example: Postpone reminder by 3 minutes -->
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
-    <!-- Alarms -->
     <string name="alarm">अलार्म</string>
     <string name="snooze">याद दिलाएं</string>
-    <!-- Settings -->
     <string name="settings">सेटिंग</string>
     <string name="widgets">विजेट्स</string>
-    <!-- Setting sections -->
     <string name="visibility">दृश्यता</string>
-    <!-- Recycle Bin -->
-    <!-- Import / Export -->
-    <!-- OTG devices -->
     <string name="usb">यूएसबी</string>
-    <!-- Dates -->
-    <!-- in January -->
     <string name="monday">सोमवार</string>
     <string name="saturday">शनिवार</string>
     <string name="sunday">रविवार</string>
-    <!-- Pro version -->
-    <!-- About -->
     <string name="about">हमारे बारे में</string>
-    <!-- FAQ -->
-    <!-- License -->
 </resources>

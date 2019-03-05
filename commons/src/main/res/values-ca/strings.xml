@@ -23,24 +23,19 @@
     <string name="transparent_color">Color transparent</string>
     <string name="select_a_different_color">Selecciona un color diferent</string>
     <string name="download">Descàrrega</string>
-    <!-- Favorites -->
     <string name="favorites">Preferits</string>
     <string name="add_favorites">Afegeix als preferits</string>
     <string name="add_to_favorites">Afegeix als preferits</string>
     <string name="remove_from_favorites">Elimina dels preferits</string>
-    <!-- Search -->
     <string name="search">Buscar</string>
     <string name="type_2_characters">Escriu al menys dos caracters per iniciar la cerca.</string>
-    <!-- Filters -->
     <string name="filter">Filtrar</string>
     <string name="no_items_found">No s\'ha trobat arxius.</string>
     <string name="change_filter">Canviar filtres</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Es requereix permís d\'accés a l\'emmagatzematge</string>
     <string name="no_contacts_permission">Es requereix permís d\'accés als contactes</string>
     <string name="no_camera_permissions">Es requereix permís d\'accés a la càmera</string>
     <string name="no_audio_permissions">Es requereix permís d\'accés a l\'audio</string>
-    <!-- Renaming -->
     <string name="rename_file">Canviar el nom de l\'arxiu</string>
     <string name="rename_folder">Canviar el nom de la carpeta</string>
     <string name="rename_file_error">No s\'ha pogut canviar el nom de l\'arxiu</string>
@@ -57,7 +52,6 @@
     <string name="source_file_doesnt_exist">El fitxer %s no existeix</string>
     <string name="prepend_filenames">Posar abans noms de fitxer</string>
     <string name="append_filenames">Afegeix noms de fitxer (abans de l\'extensió de fitxer)</string>
-    <!-- Copy / Move -->
     <string name="copy">Copiar</string>
     <string name="move">Moure</string>
     <string name="copy_move">Copiar/Moure</string>
@@ -82,7 +76,6 @@
     <string name="saving">Desant…</string>
     <string name="could_not_create_folder">No es pot crear la carpeta %s</string>
     <string name="could_not_create_file">No es pot crear l\'arxiu %s</string>
-    <!-- Create new -->
     <string name="create_new">Crear nova</string>
     <string name="folder">Carpeta</string>
     <string name="file">Arxiu</string>
@@ -91,7 +84,6 @@
     <string name="invalid_name">El nom conté caràcters no vàlids</string>
     <string name="empty_name">Si us plau introdueix un nom</string>
     <string name="unknown_error_occurred">Ha ocorregut un error desconegut</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">L’arxiu \"%s\" ja existeix</string>
     <string name="file_already_exists_overwrite">L’arxiu \"%s\" ja existeix. El vos sobreescriure?</string>
     <string name="folder_already_exists">La carpeta \"%s\" ja existeix</string>
@@ -101,7 +93,6 @@
     <string name="skip">Saltar</string>
     <string name="append">Afegir \'_1\'</string>
     <string name="apply_to_all">Aplicar a tot</string>
-    <!-- File picker -->
     <string name="select_folder">Selecciona una carpeta</string>
     <string name="select_file">Selecciona un arxiu</string>
     <string name="confirm_storage_access_title">Permet l’accés a l’emmagatzematge extern</string>
@@ -112,7 +103,6 @@
         <item quantity="one">%d element</item>
         <item quantity="other">%d elements</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d element</item>
         <item quantity="other">%d elements</item>
@@ -121,7 +111,6 @@
         <item quantity="one">Eliminant %d element</item>
         <item quantity="other">Eliminant %d elements</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Selecciona emmagatzematge</string>
     <string name="internal">Emmagatzematge intern</string>
     <string name="sd_card">Targeta SD</string>
@@ -130,7 +119,6 @@
     <string name="sd_card_usb_same">La targeta SD i el dispositiu USB no poden ser el mateix</string>
     <string name="app_on_sd_card">Sembla que l\'aplicació està instal·lada a una targeta SD, cosa que fa que els widgets de l\'aplicació no estiguin disponibles. No els veuràs ni a la llista de widgets disponibles.
         És una limitació del sistema, de manera que si voleu utilitzar els widgets, heu de tornar a moure l\'aplicació a l\'emmagatzematge intern.</string>
-    <!-- File properties -->
     <string name="properties">Propietats</string>
     <string name="path">Ubicació</string>
     <string name="items_selected">Elements seleccionats</string>
@@ -145,7 +133,6 @@
     <string name="iso_speed">Velocitat ISO</string>
     <string name="camera">Càmera</string>
     <string name="song_title">Títol de la canço</string>
-    <!-- Color customization -->
     <string name="background_color">Color del fons</string>
     <string name="text_color">Color del text</string>
     <string name="primary_color">Color principal</string>
@@ -163,7 +150,6 @@
     <string name="save_before_closing">Tens canvis sense aplicar. Desar abans de sortir?</string>
     <string name="apply_to_all_apps">Aplicar els colors a totes les aplicacions Simple Apps</string>
     <string name="share_colors_success">Colors actualitzats satisfactoriament. S’ha afegit un nou tema anomenat \'Shared\'. Fes -lo servidr per actualitzar els colors de les aplicacions en el futur.</string>
-    <!-- Themes -->
     <string name="light_theme">Clar</string>
     <string name="dark_theme">Fosc</string>
     <string name="solarized">Solaritzat</string>
@@ -171,10 +157,8 @@
     <string name="black_white">Blanc &amp; Negre</string>
     <string name="custom">Personalizat</string>
     <string name="shared">Compartit</string>
-    <!-- What's new -->
     <string name="whats_new">Que hi ha nou</string>
     <string name="whats_new_disclaimer">* Només les actualitzacions més grans s’enumeren aquí. Sempre hi ha petites millores també.</string>
-    <!-- Actionbar items -->
     <string name="delete">Eliminar</string>
     <string name="remove">Eliminar</string>
     <string name="rename">Canviar el nom</string>
@@ -191,7 +175,6 @@
     <string name="empty_and_disable_recycle_bin">Buida i desactiva la paperera de reciclatge</string>
     <string name="undo">Desfer</string>
     <string name="redo">Refer</string>
-    <!-- Sorting -->
     <string name="sort_by">Ordenar per</string>
     <string name="name">Nom</string>
     <string name="size">Mida</string>
@@ -205,12 +188,9 @@
     <string name="ascending">Ascendent</string>
     <string name="descending">Descendent</string>
     <string name="use_for_this_folder">Només per aquesta carpeta</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Estas segur que vols continuar amb l’eliminació?</string>
     <string name="deletion_confirmation">Esteu segur que voleu suprimir %s?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">Estàs segur que vols moure %s a la paperera?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Segur que voleu eliminar aquest element?</string>
     <string name="are_you_sure_recycle_bin">Segur que voleu moure aquest element a la paperera?</string>
     <string name="do_not_ask_again">No tornar a preguntar en aquesta sessió</string>
@@ -220,7 +200,6 @@
         <item quantity="one">ADVERTIMENT: s\'eliminarà %d carpeta</item>
         <item quantity="other">ADVERTIMENT: s\'eliminaran %d carpetes</item>
     </plurals>
-    <!-- Password protection -->
     <string name="enter_pin">Introdueix PIN</string>
     <string name="please_enter_pin">Si us plau introdueix PIN</string>
     <string name="wrong_pin">PIN erroni</string>
@@ -238,7 +217,6 @@
     <string name="go_to_settings">Anar als ajustaments</string>
     <string name="protection_setup_successfully">Configuració de la contrasenya amb èxit. Torneu a instal·lar l\'aplicació en cas que l\'oblideu.</string>
     <string name="fingerprint_setup_successfully">Configuració de la protecció amb èxit. Torneu a instal·lar l\'aplicació en cas de problemes amb restablir-la.</string>
-    <!-- Times -->
     <string name="yesterday">Ahir</string>
     <string name="today">Avui</string>
     <string name="tomorrow">Demà</string>
@@ -274,7 +252,6 @@
         <item quantity="one">%d any</item>
         <item quantity="other">%d anys</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d segon</item>
         <item quantity="other">%d segons</item>
@@ -303,7 +280,6 @@
         <item quantity="one">%d any</item>
         <item quantity="other">%d anys</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d segon abans</item>
         <item quantity="other">%d segons abans</item>
@@ -320,7 +296,6 @@
         <item quantity="one">%d dia abans</item>
         <item quantity="other">%d dies abans</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d segon</item>
         <item quantity="other">%d segons</item>
@@ -349,13 +324,11 @@
         <item quantity="one">%d any</item>
         <item quantity="other">%d anys</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Temps restant fins que soni l\'alarma: \n%s</string>
     <string name="reminder_triggers_in">Temps restant fins el recordatori:\n%s</string>
     <string name="alarm_warning">Assegureu-vos que l\'alarma funcioni correctament abans de confiar-hi. Pot comportar-se malament a causa de les restriccions del sistema relacionades amb l\'estalvi de bateria.</string>
     <string name="reminder_warning">Assegureu-vos que els recordatoris funcionin correctament abans de confiar-hi. Podrien comportar-se malament a causa de les restriccions del sistema relacionades amb l\'estalvi de bateria.</string>
     <string name="notifications_disabled">Les notificacions d\'aquesta aplicació estan desactivades. Aneu a la configuració del vostre dispositiu per habilitar-los.</string>
-    <!-- Alarms -->
     <string name="alarm">Alarma</string>
     <string name="snooze">Posposar</string>
     <string name="dismiss">Cancel·lar</string>
@@ -365,7 +338,6 @@
     <string name="your_sounds">Els teus sons</string>
     <string name="add_new_sound">Afegeix un so nou</string>
     <string name="no_sound">Sense so</string>
-    <!-- Settings -->
     <string name="settings">Ajustaments</string>
     <string name="purchase_simple_thank_you">Compra Simple Thank You</string>
     <string name="customize_colors">Canviar colors</string>
@@ -394,7 +366,6 @@
     <string name="recycle_bin_cleaning_interval">Interval de neteja de paperera de reciclatge</string>
     <string name="empty_recycle_bin">Buida la paperera de reciclatge</string>
     <string name="force_portrait_mode">Força el mode de retrat</string>
-    <!-- Setting sections -->
     <string name="visibility">Visibilitat</string>
     <string name="security">Seguretat</string>
     <string name="scrolling">Desplaçament</string>
@@ -402,7 +373,6 @@
     <string name="recycle_bin">Paperera de reciclatge</string>
     <string name="saving_label">Desant</string>
     <string name="startup">Inici</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Restaura aquest fitxer</string>
     <string name="restore_selected_files">Restaura els fitxers seleccionats</string>
     <string name="restore_all_files">Restaura tots els fitxers</string>
@@ -415,7 +385,6 @@
         <item quantity="one">Movent %d element a la paperera de reciclage</item>
         <item quantity="other">Movent %d elements a la paperera de reciclage</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">Important…</string>
     <string name="exporting">Exportant…</string>
     <string name="importing_successful">Importació correcta</string>
@@ -425,11 +394,9 @@
     <string name="importing_some_entries_failed">L\'impotació d\'algunes entrades ha fallat</string>
     <string name="exporting_some_entries_failed">L\'exportació d\'algunes entrades ha fallat</string>
     <string name="no_entries_for_exporting">No s\'han trobat entrades per exportar</string>
-    <!-- OTG devices -->
     <string name="usb_detected">Sembla que teniu un dispositiu USB connectat al vostre dispositiu. Per assegurar-vos que els fitxers apareguin correctament, heu de concedir permisos addicionals.</string>
     <string name="confirm_usb_storage_access_text">Seleccioneu la carpeta arrel del dispositiu USB a la pantalla següent per concedir accés</string>
     <string name="wrong_root_selected_usb">S\'ha seleccionat la carpeta incorrecta, seleccioneu la carpeta arrel del vostre dispositiu USB</string>
-    <!-- Dates -->
     <string name="january">Gener</string>
     <string name="february">Febrer</string>
     <string name="march">Març</string>
@@ -442,7 +409,6 @@
     <string name="october">Octubre</string>
     <string name="november">Novembre</string>
     <string name="december">Decembre</string>
-    <!-- in January -->
     <string name="in_january">al Gener</string>
     <string name="in_february">al Febrer</string>
     <string name="in_march">al Març</string>
@@ -476,13 +442,11 @@
     <string name="friday_short">DV</string>
     <string name="saturday_short">DS</string>
     <string name="sunday_short">DG</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">Aquesta versió de l\'aplicació ja no es manté. Actualitzeu a la versió Pro.</string>
     <string name="it_is_free">És gratuït fins a: %s. Si ho descarregueu fins aleshores, podreu utilitzar-lo de forma gratuïta per sempre.</string>
     <string name="more_info">Més informació</string>
     <string name="upgrade">Actualitza</string>
     <string name="upgrade_calendar">Heu de migrar els esdeveniments emmagatzemats localment manualment mitjançant l\'exportació en un fitxer .ics, i després importar-los. Podeu trobar els dos botons d\'exportació / importació al menú de la pantalla principal.</string>
-    <!-- About -->
     <string name="about">Sobre</string>
     <string name="website_label">Més aplicacions senzilles i codi font a</string>
     <string name="email_label">Envia els teus comentaris o suggeriments a</string>
@@ -502,7 +466,6 @@
     <string name="purchase">Comprar</string>
     <string name="update_thank_you">Si us plau, actualitzeu Simple Thank You a la darrera versió</string>
     <string name="read_it">Llegiu</string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Preguntes frequents</string>
     <string name="before_asking_question">Abans de fer una pregunta, primer llegeix les</string>
     <string name="faq_1_title_commons">Com és que no veig aquest widget a la llista de widgets?</string>
@@ -517,7 +480,6 @@
     <string name="faq_4_text_commons">Sí, mentre arrossegueu un widget a la vostra pantalla d\'inici, apareixerà una pantalla de configuració de widgets. Veureu quadrats de colors a l\'extrem inferior esquerre, només cal prémer-los per seleccionar un color nou. També podeu utilitzar el control lliscant per ajustar l\'alfa.</string>
     <string name="faq_5_title_commons">Puc recuperar d\'alguna manera els fitxers eliminats?</string>
     <string name="faq_5_text_commons">Si estan realment eliminats no pots fer-ho. Tanmateix, pots habilitar l\'ús d\'una paperera de reciclatge en comptes de suprimir definitivament a la configuració de l\'aplicació. Això només mourà els fitxers en lloc d\'eliminar-los.</string>
-    <!-- License -->
     <string name="notice">Aquesta aplicació fa servir les següents biblioteques de tercers que ens faciliten la feina. Gràcies.</string>
     <string name="third_party_licences">Llicències de tercers</string>
     <string name="kotlin_title">Kotlin (Programming language)</string>

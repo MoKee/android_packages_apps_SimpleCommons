@@ -9,62 +9,24 @@
     <string name="details">விவரங்கள்</string>
     <string name="none">ஏதுமில்லை</string>
     <string name="download">பதிவிறக்கம்</string>
-    <!-- Favorites -->
-    <!-- Search -->
-    <!-- Filters -->
-    <!-- Permissions -->
-    <!-- Renaming -->
-    <!-- Copy / Move -->
-    <!-- Create new -->
-    <!-- File operation conflicts -->
     <string name="skip">தவிர்</string>
-    <!-- File picker -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Storages -->
-    <!-- File properties -->
     <string name="path">பாதை</string>
     <string name="duration">கால அளவு</string>
     <string name="exposure_time">எக்ஸ்போஷர் நேரம்</string>
     <string name="camera">கேமரா</string>
-    <!-- Color customization -->
     <string name="save">சேமி</string>
-    <!-- Themes -->
     <string name="dark_theme">அடர்</string>
     <string name="custom">தனிப்பயன்</string>
-    <!-- What's new -->
-    <!-- Actionbar items -->
     <string name="undo">செயல்தவிர்</string>
     <string name="redo">மீண்டும்செய்</string>
-    <!-- Sorting -->
     <string name="size">அளவு</string>
     <string name="date_taken">எடுத்த தேதி</string>
-    <string name="title">&quot;தலைப்பு&quot;</string>
-    <!-- Confirmation dialog -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
+    <string name="title">"தலைப்பு"</string>
     <string name="yes">ஆம்</string>
     <string name="no">இல்லை</string>
-    <!-- Password protection -->
-    <!-- Times -->
     <string name="seconds_raw">நொடிகள்</string>
     <string name="minutes_raw">நிமிடங்கள்</string>
     <string name="hours_raw">மணிநேரம்</string>
-    <!-- For example: I will be there in 5 minutes -->
-    <!-- For example: Event reminder: 3 minutes before -->
-    <!-- For example: Postpone reminder by 3 minutes -->
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
-    <!-- Alarms -->
-    <!-- Settings -->
-    <!-- Setting sections -->
     <string name="text">உரை</string>
-    <!-- Recycle Bin -->
-    <!-- Import / Export -->
-    <!-- OTG devices -->
-    <!-- Dates -->
-    <!-- in January -->
-    <!-- Pro version -->
-    <!-- About -->
     <string name="donate">நன்கொடை</string>
-    <!-- FAQ -->
-    <!-- License -->
 </resources>

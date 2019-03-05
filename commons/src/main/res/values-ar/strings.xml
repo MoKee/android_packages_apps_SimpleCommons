@@ -25,24 +25,19 @@
     <string name="transparent_color">لون شفاف</string>
     <string name="select_a_different_color">تحديد لون مختلف</string>
     <string name="download">تنزيل</string>
-    <!-- Favorites -->
     <string name="favorites">المفضلة</string>
     <string name="add_favorites">إضافة مفضلات</string>
     <string name="add_to_favorites">اضافة الى المفضلة</string>
     <string name="remove_from_favorites">حذف من المفضلة</string>
-    <!-- Search -->
     <string name="search">بحث</string>
     <string name="type_2_characters">اكتب حرفين على الأقل لبدء البحث.</string>
-    <!-- Filters -->
     <string name="filter">فلتر</string>
     <string name="no_items_found">لم يتم العثور على أي عنصر.</string>
     <string name="change_filter">تغيير الفلتر</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">الإذن مطلوب للتخزين</string>
     <string name="no_contacts_permission">مطلوب إذن جهات الاتصال</string>
     <string name="no_camera_permissions">إذن الكاميرا مطلوب</string>
     <string name="no_audio_permissions">مطلوب إذن الصوت</string>
-    <!-- Renaming -->
     <string name="rename_file">إعادة تسمية الملف</string>
     <string name="rename_folder">إعادة تسمية المجلد</string>
     <string name="rename_file_error">لا يمكن اعادة تسمية الملف</string>
@@ -59,7 +54,6 @@
     <string name="source_file_doesnt_exist">ملف المصدر %s غير موجود</string>
     <string name="prepend_filenames">اعد أسماء الملفات</string>
     <string name="append_filenames">إلحاق أسماء الملفات (قبل امتداد الملف)</string>
-    <!-- Copy / Move -->
     <string name="copy">نسخ</string>
     <string name="move">نقل</string>
     <string name="copy_move">نسخ/نقل</string>
@@ -84,7 +78,6 @@
     <string name="saving">حفظ…</string>
     <string name="could_not_create_folder">لا يمكن انشاء مجلد %s</string>
     <string name="could_not_create_file">لا يمكن انشاء ملف %s</string>
-    <!-- Create new -->
     <string name="create_new">إنشاء جديد</string>
     <string name="folder">مجلد</string>
     <string name="file">ملف</string>
@@ -93,7 +86,6 @@
     <string name="invalid_name">الاسم يحتوي على أحرف غير صالحة</string>
     <string name="empty_name">الرجاء ادخال اسم</string>
     <string name="unknown_error_occurred">حدث خطأ غير معروف</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">ملف \"%s\" موجود بالفعل</string>
     <string name="file_already_exists_overwrite">ملف \"%s\" موجود بالفعل. هل تريد الاستبدال؟</string>
     <string name="folder_already_exists">مجلد \"%s\" موجود بالفعل</string>
@@ -103,7 +95,6 @@
     <string name="skip">تخطي</string>
     <string name="append">إلحاق مع \'_1\'</string>
     <string name="apply_to_all">تطبيق على الكل</string>
-    <!-- File picker -->
     <string name="select_folder">إختر مجلد</string>
     <string name="select_file">إختر ملف</string>
     <string name="confirm_storage_access_title">تأكيد الوصول إلى وحدة التخزين الخارجية</string>
@@ -118,7 +109,6 @@
         <item quantity="many">العناصر %d</item>
         <item quantity="other">العناصر %d</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="zero">العناصر %d</item>
         <item quantity="one">عنصر %d</item>
@@ -135,7 +125,6 @@
         <item quantity="many">حذف %d عناصر</item>
         <item quantity="other">حذف %d عناصر</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">حدد وحدة التخزين</string>
     <string name="internal">الداخلية</string>
     <string name="sd_card">بطاقة SD</string>
@@ -144,7 +133,6 @@
     <string name="sd_card_usb_same">لا يمكن أن تكون مسارات بطاقة SD وجهاز USB هي نفسها</string>
     <string name="app_on_sd_card">يبدو أنك تمتلك التطبيق مثبتًا على بطاقة SD ، مما يجعل أدوات التطبيق غير متاحة. حتى أنك لن تراهم في قائمة الأدوات المتاحة.
         إنه قيد على النظام ، لذا إذا كنت تريد استخدام الأدوات ، يجب عليك إعادة تشغيل التطبيق على وحدة التخزين الداخلية.</string>
-    <!-- File properties -->
     <string name="properties">خصائص</string>
     <string name="path">المسار</string>
     <string name="items_selected">العناصر المحددة</string>
@@ -161,7 +149,6 @@
     <string name="camera">الكاميرا</string>
     <string name="exif">EXIF</string>
     <string name="song_title">عنوان الأغنية</string>
-    <!-- Color customization -->
     <string name="background_color">لون الخلفية</string>
     <string name="text_color">لون النص</string>
     <string name="primary_color">اللون الأساسي</string>
@@ -181,7 +168,6 @@
     <string name="app_icon_color_warning">تحذير: لا تتعامل بعض المشغلات مع تخصيص رمز التطبيق بشكل صحيح. في حالة اختفاء الرمز ، حاول تشغيل التطبيق عبر Google Play أو بعض الأدوات ، إذا كان ذلك متاحاً.
         بمجرد التشغيل ، فقط أعد الرمز البرتقالي الافتراضي #F57C00. قد تضطر إلى إعادة تثبيت التطبيق في أسوأ الحالات.</string>
     <string name="share_colors_success">تم تحديث الألوان بنجاح. تمت إضافة سمة جديدة تسمى \"Shared\" ، يرجى استخدام ذلك لتحديث كل ألوان التطبيقات في المستقبل.</string>
-    <!-- Themes -->
     <string name="light_theme">فاتح</string>
     <string name="dark_theme">داكن</string>
     <string name="solarized">تفتيح</string>
@@ -189,10 +175,8 @@
     <string name="black_white">أسود وأبيض</string>
     <string name="custom">تخصيص</string>
     <string name="shared">مشترك</string>
-    <!-- What's new -->
     <string name="whats_new">ما الجديد</string>
     <string name="whats_new_disclaimer">* يتم فقط سرد التحديثات الكبرى هنا ، وهناك دائماً بعض التحسينات ألاصغر أيضاً</string>
-    <!-- Actionbar items -->
     <string name="delete">حذف</string>
     <string name="remove">إزالة</string>
     <string name="rename">إعادة تسمية</string>
@@ -210,7 +194,6 @@
     <string name="undo">تراجع</string>
     <string name="redo">إعادة</string>
     <string name="print">طباعة</string>
-    <!-- Sorting -->
     <string name="sort_by">الفرز حسب</string>
     <string name="name">الإسم:</string>
     <string name="size">الحجم</string>
@@ -224,12 +207,9 @@
     <string name="ascending">تصاعدي</string>
     <string name="descending">تنازلي</string>
     <string name="use_for_this_folder">إستخدم لهذا المجلد فقط</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">هل أنت متأكد من أنك تريد متابعة الحذف؟</string>
     <string name="deletion_confirmation">هل أنت متأكد أنك تريد حذف %s؟</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">هل أنت متأكد من أنك تريد نقل %s إلى سلة المحذوفات؟</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">هل أنت متأكد أنك تريد حذف هذه العنصر؟</string>
     <string name="are_you_sure_recycle_bin">Are you sure you want to move this item in the Recycle Bin?</string>
     <string name="do_not_ask_again">لا تسأل مرة أخرى في هذه الجلسة</string>
@@ -243,7 +223,6 @@
         <item quantity="many">تحذير: يتم حذف %d مجلدات</item>
         <item quantity="other">تحذير: يتم حذف %d مجلدات</item>
     </plurals>
-    <!-- Password protection -->
     <string name="pin">‏رمز PIN</string>
     <string name="enter_pin">‏أدخل رمز PIN</string>
     <string name="please_enter_pin">الرجاء إدخال رقم PIN</string>
@@ -262,7 +241,6 @@
     <string name="go_to_settings">اذهب للإعدادات</string>
     <string name="protection_setup_successfully">تم إعداد كلمة المرور بنجاح. يرجى إعادة تثبيت التطبيق في حالة نسيانه.</string>
     <string name="fingerprint_setup_successfully">إعداد الحماية تم بنجاح. يرجى إعادة تثبيت التطبيق في حالة حدوث مشاكل في إعادة تعيينه.</string>
-    <!-- Times -->
     <string name="yesterday">البارحة</string>
     <string name="today">اليوم</string>
     <string name="tomorrow">غدًا</string>
@@ -326,7 +304,6 @@
         <item quantity="many">%d سنوات</item>
         <item quantity="other">%d سنوات</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="zero">‏%d ثانية</item>
         <item quantity="one">%d ثانية</item>
@@ -383,7 +360,6 @@
         <item quantity="many">%d سنوات</item>
         <item quantity="other">%d سنوات</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="zero">قبل %d ثوانٍ</item>
         <item quantity="one">قبل %d ثانية</item>
@@ -440,7 +416,6 @@
         <item quantity="many">قبل %d سنوات</item>
         <item quantity="other">قبل %d سنوات</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="zero">%d ثوان</item>
         <item quantity="one">%d ثانية</item>
@@ -497,13 +472,11 @@
         <item quantity="many">%d سنوات</item>
         <item quantity="other">%d سنوات</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">الوقت المتبقي حتى توقف المنبه:\n%s</string>
     <string name="reminder_triggers_in">الوقت المتبقي حتى يتم تشغيل التذكير:\n%s</string>
     <string name="alarm_warning">يرجى التأكد من أن التنبيه يعمل بشكل صحيح قبل الاعتماد عليه. يمكن أن يسيء التصرف بسبب قيود النظام المتعلقة بتوفير البطارية.</string>
     <string name="reminder_warning">يرجى التأكد من أن التنبيه يعمل بشكل صحيح قبل الاعتماد عليه. يمكن أن يسيء التصرف بسبب قيود النظام المتعلقة بتوفير البطارية.</string>
     <string name="notifications_disabled">يتم تعطيل الإشعارات من هذا التطبيق. الرجاء الذهاب إلى إعدادات الجهاز لتمكينها.</string>
-    <!-- Alarms -->
     <string name="alarm">المنبّه</string>
     <string name="snooze">غفوة</string>
     <string name="dismiss">تجاهل</string>
@@ -513,7 +486,6 @@
     <string name="your_sounds">الأصوات الخاصة بك</string>
     <string name="add_new_sound">إضافة صوت جديد</string>
     <string name="no_sound">لا يوجد صوت</string>
-    <!-- Settings -->
     <string name="settings">الإعدادات</string>
     <string name="purchase_simple_thank_you">شراء بسيط شكرا لك</string>
     <string name="customize_colors">تخصيص الألوان</string>
@@ -548,7 +520,6 @@
     <string name="import_settings">إستيراد الإعدادات</string>
     <string name="settings_exported_successfully">تم تصدير الإعدادات بنجاح</string>
     <string name="settings_imported_successfully">تم استيراد الإعدادات بنجاح</string>
-    <!-- Setting sections -->
     <string name="visibility">وضوح الرؤية</string>
     <string name="security">الحماية</string>
     <string name="scrolling">التمرير</string>
@@ -558,7 +529,6 @@
     <string name="startup">بدء التشغيل</string>
     <string name="text">نص</string>
     <string name="migrating">الإنتقال</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">استعادة هذا الملف</string>
     <string name="restore_selected_files">استعادة الملفات المحددة</string>
     <string name="restore_all_files">استعادة كافة الملفات</string>
@@ -577,7 +547,6 @@
         <item quantity="many">نقل %d عناصر إلى \"سلة المحذوفات\"</item>
         <item quantity="other">نقل %d عناصر إلى \"سلة المحذوفات\"</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">جار الاستيراد…</string>
     <string name="exporting">جاري التصدير…</string>
     <string name="importing_successful">تم الاستيراد بنجاح</string>
@@ -588,12 +557,10 @@
     <string name="exporting_some_entries_failed">فشل في تصدير بعض الأدخالات</string>
     <string name="no_entries_for_importing">لم يتم العثور على إدخالات للتصدير</string>
     <string name="no_entries_for_exporting">لم يتم العثور على إدخالات للتصدير</string>
-    <!-- OTG devices -->
     <string name="usb">USB</string>
     <string name="usb_detected">يبدو أنك لديك جهاز OTG ملحق بجهازك. للتأكد من ظهور الملفات به بشكل صحيح، تحتاج إلى منح أذونات إضافية.</string>
     <string name="confirm_usb_storage_access_text">الرجاء اختيار المجلد الجذر لجهاز OTG على الشاشة التالية، لمنح حق الوصول</string>
     <string name="wrong_root_selected_usb">تم اختيار مجلد خاطئ ، يرجى تحديد المجلد الجذر لجهاز OTG الخاص بك</string>
-    <!-- Dates -->
     <string name="january">كانون الثاني</string>
     <string name="february">شباط</string>
     <string name="march">آذار</string>
@@ -606,7 +573,6 @@
     <string name="october">تشرين الأول</string>
     <string name="november">تشرين الثاني</string>
     <string name="december">كانون الأول</string>
-    <!-- in January -->
     <string name="in_january">في كانون الثاني</string>
     <string name="in_february">في شباط</string>
     <string name="in_march">في أذار</string>
@@ -640,13 +606,11 @@
     <string name="friday_short">جمع</string>
     <string name="saturday_short">سبت</string>
     <string name="sunday_short">أحد</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">لم يعد يتم الحفاظ على هذا الإصدار من التطبيق. يرجى الترقية إلى الإصدار المحترف.</string>
     <string name="it_is_free">إنه مجاني حتى: %s. إذا قمت بتنزيله حتى ذلك الحين ، فستتمكن من استخدامه إلى الأبد.</string>
     <string name="more_info">مزيد من المعلومات</string>
     <string name="upgrade">ترقية</string>
     <string name="upgrade_calendar">يجب عليك ترحيل الأحداث المخزنة محليًا يدويًا عبر التصدير في ملف .ics ، ثم الاستيراد. يمكنك العثور على أزرار التصدير/الاستيراد في قائمة الشاشة الرئيسية.</string>
-    <!-- About -->
     <string name="about">حول</string>
     <string name="website_label">للحصول على رموز المصدر زيارة</string>
     <string name="email_label">أرسل تعليقات أو اقتراحات إلى</string>
@@ -670,7 +634,6 @@
     <string name="read_it">اقرأها</string>
     <string name="sideloaded_app">            يبدو أن إصدار التطبيق الخاص بك تالف. الرجاء تحميل النسخة الأصلية <a href="%s">هنا</a>.
         </string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">الأسئلة المتداولة</string>
     <string name="before_asking_question">قبل أن تسأل سؤالاً، يرجى أولاً قراءة</string>
     <string name="faq_1_title_commons">كيف لا أرى أداة هذه التطبيقات في قائمة الأدوات؟</string>
@@ -688,7 +651,6 @@
     <string name="faq_6_title_commons">اختفى رمز تطبيق المشغل. ماذا بإمكاني أن أفعل؟</string>
     <string name="faq_6_text_commons">يحدث ذلك بسبب عدم دعم المشغل الخاص بك لتخصيص الرمز بشكل صحيح. جرب تشغيل التطبيق عبر Google Play أو بعض الأدوات ، إذا كان متاحاً.
         بمجرد التشغيل ، فقط أعد الرمز البرتقالي الافتراضي #F57C00. قد تضطر إلى إعادة تثبيت التطبيق في أسوأ الحالات.</string>
-    <!-- License -->
     <string name="notice">يستخدم هذا التطبيق مكتبات الطرف الثالث التالية لجعل حياتي أسهل. شكرا لكم.</string>
     <string name="third_party_licences">تراخيص الطرف الثالث</string>
     <string name="kotlin_title">كوتلين (لغة برمجة)</string>

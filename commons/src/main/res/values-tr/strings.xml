@@ -25,24 +25,19 @@
     <string name="transparent_color">Şeffaf renk</string>
     <string name="select_a_different_color">Farklı bir renk seç</string>
     <string name="download">İndirme</string>
-    <!-- Favorites -->
     <string name="favorites">Favoriler</string>
     <string name="add_favorites">Favori ekle</string>
     <string name="add_to_favorites">Favorilere ekle</string>
     <string name="remove_from_favorites">Favorilerden kaldır</string>
-    <!-- Search -->
     <string name="search">Ara</string>
     <string name="type_2_characters">Aramaya başlamak için en az 2 karakter yazın.</string>
-    <!-- Filters -->
     <string name="filter">Filtre</string>
     <string name="no_items_found">Hiçbir öğe bulunamadı.</string>
     <string name="change_filter">Filtreyi değiştir</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Depolama izni gerekiyor</string>
     <string name="no_contacts_permission">Kişiler izni gerekiyor</string>
     <string name="no_camera_permissions">Kamera izni gerekiyor</string>
     <string name="no_audio_permissions">Ses izni gerekiyor</string>
-    <!-- Renaming -->
     <string name="rename_file">Dosyayı yeniden adlandır</string>
     <string name="rename_folder">Klasörü yeniden adlandır</string>
     <string name="rename_file_error">Dosya yeniden adlandırılamıyor</string>
@@ -59,7 +54,6 @@
     <string name="source_file_doesnt_exist">%s kaynak dosyası mevcut değil</string>
     <string name="prepend_filenames">Dosya adlarını ekle</string>
     <string name="append_filenames">Dosya isimlerini ekle (dosya uzantısından önce)</string>
-    <!-- Copy / Move -->
     <string name="copy">Kopyala</string>
     <string name="move">Taşı</string>
     <string name="copy_move">Kopyala / Taşı</string>
@@ -84,7 +78,6 @@
     <string name="saving">Kaydediliyor…</string>
     <string name="could_not_create_folder">%s klasörü oluşturulamıyor</string>
     <string name="could_not_create_file">%s dosyası oluşturulamıyor</string>
-    <!-- Create new -->
     <string name="create_new">Yeni oluştur</string>
     <string name="folder">Klasör</string>
     <string name="file">Dosya</string>
@@ -93,7 +86,6 @@
     <string name="invalid_name">İsim, geçersiz karakterler içeriyor</string>
     <string name="empty_name">Lütfen yeni bir ad girin</string>
     <string name="unknown_error_occurred">Bilinmeyen bir hata oluştu</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">\"%s\" dosyası zaten var</string>
     <string name="file_already_exists_overwrite">\"%s\" dosyası zaten var. Üzerine yazılsın mı?</string>
     <string name="folder_already_exists">\"%s\" klasörü zaten var</string>
@@ -103,7 +95,6 @@
     <string name="skip">Atla</string>
     <string name="append">\'_1\' ile ekle</string>
     <string name="apply_to_all">Tümüne uygula</string>
-    <!-- File picker -->
     <string name="select_folder">Bir klasör seç</string>
     <string name="select_file">Bir dosya seç</string>
     <string name="confirm_storage_access_title">Harici depolama erişimini onayla</string>
@@ -114,7 +105,6 @@
         <item quantity="one">%d öğe</item>
         <item quantity="other">%d öğe</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d öğe</item>
         <item quantity="other">%d öğe</item>
@@ -123,7 +113,6 @@
         <item quantity="one">%d öğe siliniyor</item>
         <item quantity="other">%d öğe siliniyor</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Depolama seç</string>
     <string name="internal">Dahili</string>
     <string name="sd_card">SD Kart</string>
@@ -132,7 +121,6 @@
     <string name="sd_card_usb_same">SD kart ve USB cihaz yolları aynı olamaz</string>
     <string name="app_on_sd_card">Uygulama widget\'lerini kullanılamaz hale getiren SD karta yüklemiş görünüyorsunuz. Onları mevcut widget\'ler listesinde bile görmeyeceksiniz.
         Bu bir sistem sınırlamasıdır, bu nedenle widget\'leri kullanmak istiyorsanız, uygulamayı dahili depolama birimine geri taşımanız gerekir.</string>
-    <!-- File properties -->
     <string name="properties">Özellikler</string>
     <string name="path">Yol</string>
     <string name="items_selected">Seçilen öğeler</string>
@@ -149,7 +137,6 @@
     <string name="camera">Kamera</string>
     <string name="exif">EXIF</string>
     <string name="song_title">Şarkı başlığı</string>
-    <!-- Color customization -->
     <string name="background_color">Arka plan rengi</string>
     <string name="text_color">Metin rengi</string>
     <string name="primary_color">Ana renk</string>
@@ -169,7 +156,6 @@
     <string name="app_icon_color_warning">UYARI: Bazı başlatıcılar, uygulama simgesi özelleştirmesini düzgün işlemez. Simgenin kaybolması durumunda, uygulamayı Google Play veya varsa bir widget kullanarak başlatmayı deneyin.
         Başlatıldıktan sonra, sadece #F57C00 varsayılan turuncu simgesini geri ayarlayın. En kötü durumda uygulamayı yeniden yüklemeniz gerekebilir.</string>
     <string name="share_colors_success">Renkler başarıyla güncellendi. \'Paylaşılan\' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için kullanınız.</string>
-    <!-- Themes -->
     <string name="light_theme">Aydınlık</string>
     <string name="dark_theme">Karanlık</string>
     <string name="solarized">Soluk</string>
@@ -177,10 +163,8 @@
     <string name="black_white">Siyah ve beyaz</string>
     <string name="custom">Özel</string>
     <string name="shared">Paylaşılan</string>
-    <!-- What's new -->
     <string name="whats_new">Yenilikler</string>
     <string name="whats_new_disclaimer">* yalnızca büyük güncellemeler burada listelenmiştir; daima bazı küçük geliştirmeler de vardır</string>
-    <!-- Actionbar items -->
     <string name="delete">Sil</string>
     <string name="remove">Kaldır</string>
     <string name="rename">Yeniden adlandır</string>
@@ -198,7 +182,6 @@
     <string name="undo">Geri al</string>
     <string name="redo">Yeniden yap</string>
     <string name="print">Yazdır</string>
-    <!-- Sorting -->
     <string name="sort_by">Sıralama ölçütü</string>
     <string name="name">Ad</string>
     <string name="size">Boyut</string>
@@ -212,12 +195,9 @@
     <string name="ascending">Artan</string>
     <string name="descending">Azalan</string>
     <string name="use_for_this_folder">Sadece bu klasör için kullan</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Silme işlemine devam etmek istediğinizden emin misiniz?</string>
     <string name="deletion_confirmation">%s gerçekten silinsin mi?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">%s gerçekten Geri Dönüşüm Kutusuna taşınsın mı?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Bu öğeyi silmek istediğinizden emin misiniz?</string>
     <string name="are_you_sure_recycle_bin">Bu öğeyi Geri Dönüşüm Kutusu\'na taşımak istediğinizden emin misiniz?</string>
     <string name="do_not_ask_again">Bu oturumda tekrar sorma</string>
@@ -227,7 +207,6 @@
         <item quantity="one">UYARI: %d klasör siliyorsunuz</item>
         <item quantity="other">UYARI: %d klasör siliyorsunuz</item>
     </plurals>
-    <!-- Password protection -->
     <string name="pin">PİN</string>
     <string name="enter_pin">PIN girin</string>
     <string name="please_enter_pin">Lütfen PIN girin</string>
@@ -246,7 +225,6 @@
     <string name="go_to_settings">Ayarlar\'a git</string>
     <string name="protection_setup_successfully">Parola kurulumu başarılı oldu. Lütfen unuttuğunuz durumda uygulamayı yeniden yükleyin.</string>
     <string name="fingerprint_setup_successfully">Koruma kurulumu başarıyla gerçekleştirildi. Sıfırlama ile ilgili sorunlar olması durumunda lütfen uygulamayı yeniden yükleyin.</string>
-    <!-- Times -->
     <string name="yesterday">Dün</string>
     <string name="today">Bugün</string>
     <string name="tomorrow">Yarın</string>
@@ -282,7 +260,6 @@
         <item quantity="one">%d yıl</item>
         <item quantity="other">%d yıl</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d saniye</item>
         <item quantity="other">%d saniye</item>
@@ -311,7 +288,6 @@
         <item quantity="one">%d yıl</item>
         <item quantity="other">%d yıl</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d saniye önce</item>
         <item quantity="other">%d saniye önce</item>
@@ -340,7 +316,6 @@
         <item quantity="one">%d yıl önce</item>
         <item quantity="other">%d yıl önce</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d saniye</item>
         <item quantity="other">%d saniye</item>
@@ -369,13 +344,11 @@
         <item quantity="one">%d yıl</item>
         <item quantity="other">%d yıl</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Alarmın çalmasına şu kadar kaldı:\n%s</string>
     <string name="reminder_triggers_in">Hatırlatıcı tetiklenene kadar kalan süre:\n%s</string>
     <string name="alarm_warning">Lütfen alarma güvenmeden önce düzgün çalıştığından emin olun. Pil tasarrufu ile ilgili sistem kısıtlamaları nedeniyle yanlış davranabilir.</string>
     <string name="reminder_warning">Lütfen hatırlatıcılara güvenmeden önce düzgün çalıştıklarından emin olun. Pil tasarrufu ile ilgili sistem kısıtlamaları nedeniyle yanlış davranabilirler.</string>
     <string name="notifications_disabled">Bu uygulamanın bildirimleri devre dışı bırakıldı. Lütfen bunları etkinleştirmek için cihaz ayarlarınıza gidin.</string>
-    <!-- Alarms -->
     <string name="alarm">Alarm</string>
     <string name="snooze">Ertele</string>
     <string name="dismiss">Kapat</string>
@@ -385,7 +358,6 @@
     <string name="your_sounds">Sesleriniz</string>
     <string name="add_new_sound">Yeni bir ses ekle</string>
     <string name="no_sound">Ses yok</string>
-    <!-- Settings -->
     <string name="settings">Ayarlar</string>
     <string name="purchase_simple_thank_you">Satın alma basit teşekkür ederim</string>
     <string name="customize_colors">Renkleri özelleştir</string>
@@ -420,7 +392,6 @@
     <string name="import_settings">İçe aktarma ayarları</string>
     <string name="settings_exported_successfully">Ayarlar başarıyla dışa aktarıldı</string>
     <string name="settings_imported_successfully">Ayarlar başarıyla içe aktarıldı</string>
-    <!-- Setting sections -->
     <string name="visibility">Görünürlük</string>
     <string name="security">Güvenlik</string>
     <string name="scrolling">Kaydırma</string>
@@ -430,7 +401,6 @@
     <string name="startup">Başlangıç</string>
     <string name="text">Metin</string>
     <string name="migrating">Geçiş yapma</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Bu dosyayı geri yükle</string>
     <string name="restore_selected_files">Seçilen dosyaları geri yükle</string>
     <string name="restore_all_files">Tüm dosyaları geri yükle</string>
@@ -445,7 +415,6 @@
         <item quantity="one">%d öğe geri dönüşüm kutusuna taşınıyor</item>
         <item quantity="other">%d öğe geri dönüşüm kutusuna taşınıyor</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">İçe aktarılıyor…</string>
     <string name="exporting">Dışa aktarılıyor…</string>
     <string name="importing_successful">İçe aktarma başarılı</string>
@@ -456,12 +425,10 @@
     <string name="exporting_some_entries_failed">Bazı öğeler dışa aktarılamadı</string>
     <string name="no_entries_for_importing">İçe aktarılacak giriş bulunamadı</string>
     <string name="no_entries_for_exporting">Dışa aktarılacak öğe bulunamadı</string>
-    <!-- OTG devices -->
     <string name="usb">USB</string>
     <string name="usb_detected">Cihazınıza takılı bir USB var gibi görünüyor. Dosyalarının düzgün görüntülendiğinden emin olmak için ek izinler vermeniz gerekir.</string>
     <string name="confirm_usb_storage_access_text">Erişim vermek için lütfen bir sonraki ekranda USB cihazının rooy klasörünü seçin</string>
     <string name="wrong_root_selected_usb">Yanlış klasör seçildi, lütfen USB cihazınızın root klasörünü seçin</string>
-    <!-- Dates -->
     <string name="january">Ocak</string>
     <string name="february">Şubat</string>
     <string name="march">Mart</string>
@@ -474,7 +441,6 @@
     <string name="october">Ekim</string>
     <string name="november">Kasım</string>
     <string name="december">Aralık</string>
-    <!-- in January -->
     <string name="in_january">Ocak ayında</string>
     <string name="in_february">Şubat ayında</string>
     <string name="in_march">Mart ayında</string>
@@ -508,13 +474,11 @@
     <string name="friday_short">Cum</string>
     <string name="saturday_short">Cmt</string>
     <string name="sunday_short">Paz</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">Uygulamanın bu sürümü artık sağlanmıyor. Lütfen Pro sürümüne yükseltin.</string>
     <string name="it_is_free">Şu ana kadar ücretsizdir: %s. O zamana kadar indirirseniz, sonsuza dek ücretsiz olarak kullanabileceksiniz.</string>
     <string name="more_info">Detaylar</string>
     <string name="upgrade">Yükselt</string>
     <string name="upgrade_calendar">Yerel olarak saklanan olayları bir .ics dosyasına dışa aktarıp el ile içe aktarmanız gerekir. Ana ekran menüsünde hem dışa aktarma hemde içe aktarma tuşlarını bulabilirsiniz.</string>
-    <!-- About -->
     <string name="about">Hakkında</string>
     <string name="website_label">Kaynak kodları için ziyaret edin</string>
     <string name="email_label">Görüşlerinizi veya önerilerinizi buraya gönderin</string>
@@ -538,7 +502,6 @@
     <string name="read_it">Oku</string>
     <string name="sideloaded_app">            Uygulama sürümünüz bozuk görünüyor.  Lütfen orijinal sürümü indirin <a href="%s">here</a>.
         </string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Sık sorulan sorular</string>
     <string name="before_asking_question">Bir soru sormadan önce, lütfen şurayı okuyun</string>
     <string name="faq_1_title_commons">Uygulamanın widget\'ını widget\'lar listesinde neden göremiyorum?</string>
@@ -555,7 +518,6 @@
     <string name="faq_6_title_commons">Uygulama başlatıcısı simgesi kayboldu. Ne yapabilirim?</string>
     <string name="faq_6_text_commons">Başlatıcınızın, simge özelleştirmesini doğru şekilde desteklememesi nedeniyle ortaya çıkar. Uygulamayı Google Play\'de veya varsa bir widget aracılığıyla başlatmayı deneyin.
         Başlatıldıktan sonra, sadece #F57C00 varsayılan turuncu simgesini geri ayarlayın. En kötü durumda uygulamayı yeniden yüklemeniz gerekebilir.</string>
-    <!-- License -->
     <string name="notice">Bu uygulama hayatımı kolaylaştırmak için aşağıdaki üçüncü taraf kitaplıklarını kullanır. Teşekkürler.</string>
     <string name="third_party_licences">Üçüncü taraf lisansları</string>
     <string name="kotlin_title">Kotlin (programlama dili)</string>

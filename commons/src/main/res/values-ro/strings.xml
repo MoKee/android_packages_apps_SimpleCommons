@@ -12,19 +12,13 @@
     <string name="none">Niciunul</string>
     <string name="label">Etichetă</string>
     <string name="download">Descarcă</string>
-    <!-- Favorites -->
     <string name="favorites">Favorite</string>
     <string name="add_to_favorites">Adaugă la favorite</string>
     <string name="remove_from_favorites">Ștergeți de la favorite</string>
-    <!-- Search -->
     <string name="search">Caută</string>
-    <!-- Filters -->
     <string name="filter">Filtru</string>
-    <!-- Permissions -->
-    <!-- Renaming -->
     <string name="rename_file">Redenumiţi fişierul</string>
     <string name="renaming_folder">Redenumiţi dosarul</string>
-    <!-- Copy / Move -->
     <string name="copy">Copiați</string>
     <string name="move">Mută</string>
     <string name="copy_move">Copiere / Mutare</string>
@@ -34,37 +28,27 @@
     <string name="destination">Destinație</string>
     <string name="select_destination">Alege destinaţia</string>
     <string name="copying">Se copiază…</string>
-    <!-- Create new -->
     <string name="folder">Dosar</string>
-    <!-- File operation conflicts -->
     <string name="skip">Omite</string>
-    <!-- File picker -->
     <string name="select_folder">Selectează dosar</string>
     <string name="select_file">Selectează un fișier</string>
     <string name="confirm_selection">Confirmați selecția</string>
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Storages -->
     <string name="sd_card">Card SD</string>
-    <!-- File properties -->
     <string name="path">Cale</string>
     <string name="duration">Durată</string>
     <string name="artist">Artist</string>
     <string name="album">Album</string>
     <string name="exposure_time">Timp expunere</string>
     <string name="camera">Cameră foto</string>
-    <!-- Color customization -->
     <string name="primary_color">Culoare primară</string>
     <string name="restore_defaults">Restabiliți valorile implicite</string>
     <string name="change_color">Schimbă culoarea</string>
     <string name="theme">Temă</string>
     <string name="save">Salvaţi</string>
     <string name="discard">Renunță</string>
-    <!-- Themes -->
     <string name="light_theme">Luminoasă</string>
     <string name="dark_theme">Întunecat</string>
     <string name="custom">Personalizat</string>
-    <!-- What's new -->
-    <!-- Actionbar items -->
     <string name="delete">Ștergeţi</string>
     <string name="remove">Eliminați</string>
     <string name="rename">Redenumiţi</string>
@@ -73,7 +57,6 @@
     <string name="select_all">Selectaţi-le pe toate</string>
     <string name="undo">Anulați</string>
     <string name="redo">Repetaţi</string>
-    <!-- Sorting -->
     <string name="name">Nume: </string>
     <string name="size">Dimensiune</string>
     <string name="date_taken">Data realizării</string>
@@ -81,40 +64,23 @@
     <string name="extension">Extensie</string>
     <string name="ascending">crescător</string>
     <string name="descending">descrescător</string>
-    <!-- Confirmation dialog -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="yes">Da</string>
     <string name="no">Nu</string>
-    <!-- Password protection -->
-    <!-- Times -->
     <string name="today">Azi</string>
     <string name="tomorrow">Mâine</string>
     <string name="seconds_raw">secunde</string>
     <string name="minutes_raw">minute</string>
     <string name="hours_raw">ore</string>
-    <!-- For example: I will be there in 5 minutes -->
-    <!-- For example: Event reminder: 3 minutes before -->
-    <!-- For example: Postpone reminder by 3 minutes -->
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
-    <!-- Alarms -->
     <string name="alarm">Alarmă</string>
     <string name="snooze">Amână</string>
     <string name="dismiss">Renunţaţi</string>
-    <!-- Settings -->
     <string name="settings">Setări</string>
     <string name="small">Mic</string>
     <string name="medium">Medie</string>
     <string name="widgets">Widgeturi</string>
-    <!-- Setting sections -->
     <string name="visibility">Vizibilitate</string>
     <string name="text">Text</string>
-    <!-- Recycle Bin -->
-    <!-- Import / Export -->
-    <!-- OTG devices -->
     <string name="usb">USB</string>
-    <!-- Dates -->
-    <!-- in January -->
     <string name="monday">Luni</string>
     <string name="tuesday">Marţi</string>
     <string name="wednesday">Miercuri</string>
@@ -125,11 +91,7 @@
     <string name="wednesday_letter">V</string>
     <string name="saturday_letter">S</string>
     <string name="sunday_letter">S</string>
-    <!-- Pro version -->
-    <!-- About -->
     <string name="about">Despre</string>
     <string name="donate">Doneaza</string>
     <string name="purchase">Cumpărare</string>
-    <!-- FAQ -->
-    <!-- License -->
 </resources>

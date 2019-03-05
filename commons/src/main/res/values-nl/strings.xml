@@ -25,23 +25,18 @@
     <string name="transparent_color">Transparante kleur</string>
     <string name="select_a_different_color">Kies een andere kleur</string>
     <string name="download">Download</string>
-    <!-- Favorites -->
     <string name="favorites">Favorieten</string>
     <string name="add_favorites">Favorieten toevoegen</string>
     <string name="add_to_favorites">Aan favorieten toevoegen</string>
     <string name="remove_from_favorites">Uit favorieten verwijderen</string>
-    <!-- Search -->
     <string name="search">Zoeken</string>
     <string name="type_2_characters">Vul tenminste 2 tekens in.</string>
-    <!-- Filters -->
     <string name="no_items_found">Geen items gevonden.</string>
     <string name="change_filter">Filter aanpassen</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Machtiging voor opslag benodigd</string>
     <string name="no_contacts_permission">Machtiging voor contacten benodigd</string>
     <string name="no_camera_permissions">Machtiging voor camera benodigd</string>
     <string name="no_audio_permissions">Machtiging voor geluid benodigd</string>
-    <!-- Renaming -->
     <string name="rename_file">Bestand hernoemen</string>
     <string name="rename_folder">Map hernoemen</string>
     <string name="rename_file_error">Bestandsnaam kon niet worden gewijzigd</string>
@@ -58,7 +53,6 @@
     <string name="source_file_doesnt_exist">Bronbestand %s bestaat niet</string>
     <string name="prepend_filenames">Voor bestandsnaam</string>
     <string name="append_filenames">Na bestandsnaam (voor extensie)</string>
-    <!-- Copy / Move -->
     <string name="copy">Kopiëren</string>
     <string name="move">Verplaatsen</string>
     <string name="copy_move">Kopiëren / Verplaatsen</string>
@@ -83,7 +77,6 @@
     <string name="saving">Opslaan…</string>
     <string name="could_not_create_folder">Kon de map %s niet aanmaken</string>
     <string name="could_not_create_file">Kon het bestand %s niet aanmaken</string>
-    <!-- Create new -->
     <string name="create_new">Nieuw</string>
     <string name="folder">Map</string>
     <string name="file">Bestand</string>
@@ -92,7 +85,6 @@
     <string name="invalid_name">Naam bevat ongeldige tekens</string>
     <string name="empty_name">Voer een naam in</string>
     <string name="unknown_error_occurred">Onbekende fout opgetreden</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">Bestand \"%s\" bestaat reeds</string>
     <string name="file_already_exists_overwrite">Bestand \"%s\" bestaat reeds. Overschrijven?</string>
     <string name="folder_already_exists">Map \"%s\" bestaat reeds</string>
@@ -102,19 +94,16 @@
     <string name="skip">Overslaan</string>
     <string name="append">Voeg \'_1\' toe</string>
     <string name="apply_to_all">Voor alle conflicterende items</string>
-    <!-- File picker -->
     <string name="select_folder">Kies een map</string>
     <string name="select_file">Kies een bestand</string>
     <string name="confirm_storage_access_title">Toegang tot externe opslag bevestigen</string>
     <string name="confirm_storage_access_text">Kies in het volgende scherm de hoofdmap van de SD-kaart om schrijfrechten te verlenen</string>
     <string name="confirm_storage_access_text_sd">Probeer het volgende indien de SD-kaart niet in de lijst staat</string>
     <string name="confirm_selection">Keuze bevestigen</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="deleting_items">
         <item quantity="one">%d item verwijderen</item>
         <item quantity="other">%d items verwijderen</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Opslag kiezen</string>
     <string name="internal">Interne opslag</string>
     <string name="sd_card">SD-kaart</string>
@@ -123,7 +112,6 @@
     <string name="sd_card_usb_same">Paden van SD-kaart en USB-apparaat kunnen niet gelijk zijn</string>
     <string name="app_on_sd_card">Het lijkt erop dat de app is geïnstalleerd op een SD-kaart. Dit zorgt ervoor dat Android de widgets van deze app blokkeert.
         Dit is een beperking van het systeem en alleen het verplaatsen van de app naar het interne geheugen zal de widgets beschikbaar maken.</string>
-    <!-- File properties -->
     <string name="properties">Eigenschappen</string>
     <string name="path">Pad</string>
     <string name="items_selected">Items geselecteerd</string>
@@ -138,7 +126,6 @@
     <string name="f_number">Diafragmagetal</string>
     <string name="camera">Camera</string>
     <string name="song_title">Titel</string>
-    <!-- Color customization -->
     <string name="background_color">Achtergrondkleur</string>
     <string name="text_color">Tekstkleur</string>
     <string name="primary_color">Primaire kleur</string>
@@ -156,7 +143,6 @@
     <string name="save_before_closing">Onopgeslagen wijzigingen. Nu opslaan?</string>
     <string name="apply_to_all_apps">Kleuren toepassen op al onze apps</string>
     <string name="share_colors_success">Kleuren gewijzigd. Gebruik het nieuwe thema \'Gedeeld\' om de kleuren voor al onze apps aan te passen.</string>
-    <!-- Themes -->
     <string name="light_theme">Licht</string>
     <string name="dark_theme">Donker</string>
     <string name="solarized">Overbelicht</string>
@@ -164,10 +150,8 @@
     <string name="black_white">Zwart &amp; Wit</string>
     <string name="custom">Aangepast</string>
     <string name="shared">Gedeeld</string>
-    <!-- What's new -->
     <string name="whats_new">Wat is er nieuw</string>
     <string name="whats_new_disclaimer">* Alleen de belangrijkste veranderingen worden hier vermeld</string>
-    <!-- Actionbar items -->
     <string name="delete">Verwijderen</string>
     <string name="remove">Weghalen</string>
     <string name="rename">Hernoemen</string>
@@ -184,7 +168,6 @@
     <string name="empty_and_disable_recycle_bin">Prullenbak leegmaken en uitschakelen</string>
     <string name="undo">Ongedaan maken</string>
     <string name="redo">Opnieuw</string>
-    <!-- Sorting -->
     <string name="sort_by">Sorteren op</string>
     <string name="name">Naam</string>
     <string name="size">Grootte</string>
@@ -198,12 +181,9 @@
     <string name="ascending">Oplopend</string>
     <string name="descending">Aflopend</string>
     <string name="use_for_this_folder">Alleen voor deze map gebruiken</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Deze items verwijderen?</string>
     <string name="deletion_confirmation">%s echt verwijderen?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">%s echt verplaatsen naar de prullenbak?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Item echt verwijderen?</string>
     <string name="are_you_sure_recycle_bin">Item echt verplaatsen naar de prullenbak?</string>
     <string name="do_not_ask_again">Onthouden voor deze sessie</string>
@@ -213,7 +193,6 @@
         <item quantity="one">WAARSCHUWING: %d map zal worden verwijderd</item>
         <item quantity="other">WAARSCHUWING: %d mappen zullen worden verwijderd</item>
     </plurals>
-    <!-- Password protection -->
     <string name="pin">Pincode</string>
     <string name="enter_pin">Voer pincode in</string>
     <string name="please_enter_pin">Voer een pincode in</string>
@@ -232,7 +211,6 @@
     <string name="go_to_settings">Ga naar Instellingen</string>
     <string name="protection_setup_successfully">Wachtwoord ingesteld. Herinstalleer deze app indien u het wachtwoord vergeet.</string>
     <string name="fingerprint_setup_successfully">Vingerafdruk beveiliging ingesteld. Herinstalleer deze app indien u niet meer met uw vingerafdruk kunt authenticeren.</string>
-    <!-- Times -->
     <string name="yesterday">Gisteren</string>
     <string name="today">Vandaag</string>
     <string name="tomorrow">Morgen</string>
@@ -264,7 +242,6 @@
         <item quantity="one">%d jaar</item>
         <item quantity="other">%d jaren</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d seconde</item>
         <item quantity="other">%d seconden</item>
@@ -289,7 +266,6 @@
         <item quantity="one">%d jaar</item>
         <item quantity="other">%d jaren</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d seconde van tevoren</item>
         <item quantity="other">%d seconden van tevoren</item>
@@ -306,7 +282,6 @@
         <item quantity="one">%d dag van tevoren</item>
         <item quantity="other">%d dagen van tevoren</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d seconde</item>
         <item quantity="other">%d seconden</item>
@@ -331,13 +306,11 @@
         <item quantity="one">%d jaar</item>
         <item quantity="other">%d jaren</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Het alarm zal afgaan over\n%s</string>
     <string name="reminder_triggers_in">De herinnering zal worden getoond over\n%s</string>
     <string name="alarm_warning">Controleer eerst of het alarm goed werkt. Er kunnen zich problemen voordoen door de batterijbesparing van Android.</string>
     <string name="reminder_warning">Controleer eerst of de herinneringen goed werken. Er kunnen zich problemen voordoen door de batterijbesparing van Android.</string>
     <string name="notifications_disabled">Notificaties van deze app zijn uitgeschakeld. Ga naar de systeeminstellingen voor de app om deze in te schakelen.</string>
-    <!-- Alarms -->
     <string name="alarm">Alarm</string>
     <string name="snooze">Uitstellen</string>
     <string name="dismiss">Uitzetten</string>
@@ -347,7 +320,6 @@
     <string name="your_sounds">Eigen geluiden</string>
     <string name="add_new_sound">Nieuw geluid toevoegen</string>
     <string name="no_sound">Geen geluid</string>
-    <!-- Settings -->
     <string name="settings">Instellingen</string>
     <string name="purchase_simple_thank_you">Simple Thank You kopen</string>
     <string name="customize_colors">Kleuren aanpassen</string>
@@ -375,7 +347,6 @@
     <string name="recycle_bin_cleaning_interval">Interval prullenbak leegmaken</string>
     <string name="empty_recycle_bin">Prullenbak leegmaken</string>
     <string name="force_portrait_mode">Portretmodus forceren</string>
-    <!-- Setting sections -->
     <string name="visibility">Opmaak</string>
     <string name="security">Beveiliging</string>
     <string name="scrolling">Scrollen</string>
@@ -384,7 +355,6 @@
     <string name="saving_label">Opslaan</string>
     <string name="startup">Opstarten</string>
     <string name="text">Tekst</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Bestand herstellen</string>
     <string name="restore_selected_files">Selectie herstellen</string>
     <string name="restore_all_files">Alles herstellen</string>
@@ -397,7 +367,6 @@
         <item quantity="one">%d item naar de prullenbak verplaatsen</item>
         <item quantity="other">%d items naar de prullenbak verplaatsen</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">Importeren…</string>
     <string name="exporting">Exporteren…</string>
     <string name="importing_successful">Importeren voltooid</string>
@@ -407,11 +376,9 @@
     <string name="importing_some_entries_failed">Sommige items konden niet worden geïmporteerd</string>
     <string name="exporting_some_entries_failed">Sommige items konden niet worden geëxporteerd</string>
     <string name="no_entries_for_exporting">Er zijn geen items gevonden om te exporteren</string>
-    <!-- OTG devices -->
     <string name="usb_detected">USB-apparaat gedetecteerd. Om de bestanden op dit apparaat te weergeven heeft de app aanvullende machtigingen nodig.</string>
     <string name="confirm_usb_storage_access_text">Selecteer in het volgende scherm de hoofdmap van het USB-apparaat</string>
     <string name="wrong_root_selected_usb">Verkeerde map geselecteerd, kies de hoofdmap van het USB-apparaat</string>
-    <!-- Dates -->
     <string name="january">Januari</string>
     <string name="february">Februari</string>
     <string name="march">Maart</string>
@@ -420,7 +387,6 @@
     <string name="july">Juli</string>
     <string name="august">Augustus</string>
     <string name="october">Oktober</string>
-    <!-- in January -->
     <string name="in_january">in januari</string>
     <string name="in_february">in februari</string>
     <string name="in_march">in maart</string>
@@ -453,13 +419,11 @@
     <string name="friday_short">Vri</string>
     <string name="saturday_short">Zat</string>
     <string name="sunday_short">Zon</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">Deze versie wordt niet langer doorontwikkeld. Overweeg te upgraden naar de Pro-versie.</string>
     <string name="it_is_free">Gratis tot: %s. Bij het downloaden vóór deze datum blijft deze versie altijd gratis te gebruiken.</string>
     <string name="more_info">Meer informatie</string>
     <string name="upgrade">Upgraden</string>
     <string name="upgrade_calendar">Lokale agenda\'s migreren kan alleen via het exporteren naar en weer importeren van een .ics-bestand. Deze functies zijn te vinden in het menu van de app.</string>
-    <!-- About -->
     <string name="about">Over</string>
     <string name="website_label">Bezoek voor de broncode</string>
     <string name="email_label">Stuur reacties of suggesties naar</string>
@@ -479,7 +443,6 @@
     <string name="purchase">Kopen</string>
     <string name="update_thank_you">Er is een nieuwe versie van Simple Thank You</string>
     <string name="read_it">Nu lezen</string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Veelgestelde vragen</string>
     <string name="before_asking_question">Voor het stellen van een vraag, lees eerst de</string>
     <string name="faq_1_title_commons">Waarom zie ik de widget van deze app niet in de lijst met widgets?</string>
@@ -493,7 +456,6 @@
     <string name="faq_4_text_commons">Bij het plaatsen van een widget op het startscherm zal er een instellingenvenster verschijnen. Onderaan staan gekleurde vlakken, waarmee nieuwe kleuren kunnen worden gekozen. De schuif is voor de transparantie.</string>
     <string name="faq_5_title_commons">Kan ik verwijderde bestanden herstellen?</string>
     <string name="faq_5_text_commons">Bestanden worden direct na bevestiging verwijderd, tenzij de prullenbak wordt gebruikt. De prullenbak kan bij de instellingen worden ingeschakeld.</string>
-    <!-- License -->
     <string name="notice">Deze app maakt gebruik van de volgende libraries om het mij wat gemakkelijker te maken. Dank hiervoor.</string>
     <string name="third_party_licences">Licenties van derden</string>
     <string name="kotlin_title">Kotlin (programmeertaal)</string>

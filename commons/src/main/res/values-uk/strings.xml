@@ -13,42 +13,26 @@
     <string name="label">Підпис</string>
     <string name="transparent">Прозорий</string>
     <string name="download">Завантажити</string>
-    <!-- Favorites -->
     <string name="favorites">Обране</string>
     <string name="add_to_favorites">Додати до улюбленого</string>
     <string name="remove_from_favorites">Видалити з улюблених</string>
-    <!-- Search -->
     <string name="search">Пошук</string>
-    <!-- Filters -->
-    <!-- Permissions -->
-    <!-- Renaming -->
-    <!-- Copy / Move -->
-    <!-- Create new -->
     <string name="folder">Папка</string>
-    <!-- File operation conflicts -->
     <string name="skip">Пропустити</string>
-    <!-- File picker -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Storages -->
     <string name="sd_card">SD-карта</string>
-    <!-- File properties -->
     <string name="path">Шлях</string>
     <string name="duration">Тривалість</string>
     <string name="artist">Виконавець</string>
     <string name="album">Альбом</string>
     <string name="exposure_time">Час експозиції</string>
     <string name="camera">Камера</string>
-    <!-- Color customization -->
     <string name="primary_color">Основний колір</string>
     <string name="theme">Тема оформлення</string>
     <string name="save">Зберегти</string>
     <string name="discard">Скасувати</string>
-    <!-- Themes -->
     <string name="light_theme">Світла</string>
     <string name="dark_theme">Темнота</string>
     <string name="custom">Спеціальний</string>
-    <!-- What's new -->
-    <!-- Actionbar items -->
     <string name="delete">Видалити</string>
     <string name="remove">Видалити</string>
     <string name="rename">Перейменувати</string>
@@ -57,54 +41,32 @@
     <string name="select_all">Вибрати всі</string>
     <string name="undo">Відмінити</string>
     <string name="redo">Повторити</string>
-    <!-- Sorting -->
     <string name="name">Ім\'я: </string>
     <string name="size">Розмір</string>
     <string name="last_modified">останньою зміною</string>
     <string name="date_taken">Дата зйомки</string>
     <string name="title">Назва</string>
     <string name="extension">розширенням</string>
-    <!-- Confirmation dialog -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="yes">Так</string>
     <string name="no">Ні</string>
-    <!-- Password protection -->
-    <!-- Times -->
     <string name="today">Сьогодні</string>
     <string name="tomorrow">Завтра</string>
     <string name="seconds_raw">с.</string>
     <string name="minutes_raw">хв.</string>
     <string name="hours_raw">год.</string>
-    <!-- For example: I will be there in 5 minutes -->
-    <!-- For example: Event reminder: 3 minutes before -->
-    <!-- For example: Postpone reminder by 3 minutes -->
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
-    <!-- Alarms -->
     <string name="alarm">Будильник</string>
     <string name="snooze">Відкласти</string>
     <string name="dismiss">Відхилити</string>
-    <!-- Settings -->
     <string name="settings">Налаштування</string>
     <string name="small">Малий</string>
     <string name="medium">Середній</string>
     <string name="large">Великий</string>
     <string name="widgets">Віджети</string>
-    <!-- Setting sections -->
     <string name="visibility">Видимість</string>
     <string name="text">Текст</string>
-    <!-- Recycle Bin -->
-    <!-- Import / Export -->
-    <!-- OTG devices -->
-    <!-- Dates -->
-    <!-- in January -->
     <string name="wednesday_letter">Зх</string>
     <string name="saturday_letter">Пд</string>
     <string name="sunday_letter">Пд</string>
-    <!-- Pro version -->
-    <!-- About -->
     <string name="about">Про додаток</string>
     <string name="donate">Пожертвувати</string>
-    <!-- FAQ -->
-    <!-- License -->
 </resources>

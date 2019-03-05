@@ -25,24 +25,19 @@
     <string name="transparent_color">Prosojene barve</string>
     <string name="select_a_different_color">Izberi drugo barvo</string>
     <string name="download">Prenos</string>
-    <!-- Favorites -->
     <string name="favorites">Priljubljeno</string>
     <string name="add_favorites">Dodaj priljubljene</string>
     <string name="add_to_favorites">Dodaj med priljubljene</string>
     <string name="remove_from_favorites">Odstrani od priljubljenih</string>
-    <!-- Search -->
     <string name="search">Iskanje</string>
     <string name="type_2_characters">Vpišite vsaj 2 znaka za začetek iskanja</string>
-    <!-- Filters -->
     <string name="filter">Filter</string>
     <string name="no_items_found">Nobenih rezultatov.</string>
     <string name="change_filter">Spremeni filter</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Dovoljenje za shrambo je potrebno</string>
     <string name="no_contacts_permission">Dovoljenje za stike je potrebno</string>
     <string name="no_camera_permissions">Dovoljenje za kamero je potrebno</string>
     <string name="no_audio_permissions">Dovoljenje za zvok je potrebno</string>
-    <!-- Renaming -->
     <string name="rename_file">Preimenuj datoteko</string>
     <string name="rename_folder">Preimenuj mapo</string>
     <string name="rename_file_error">Datoteke ni bilo mogoče preimenovati</string>
@@ -59,7 +54,6 @@
     <string name="source_file_doesnt_exist">Datoteka %s ne obstaja</string>
     <string name="prepend_filenames">Pripravi mena datotek</string>
     <string name="append_filenames">Dodaj imena datotek (pred končnico)</string>
-    <!-- Copy / Move -->
     <string name="copy">Kopiraj</string>
     <string name="move">Premakni</string>
     <string name="copy_move">Kopiraj / premakni</string>
@@ -84,7 +78,6 @@
     <string name="saving">Shranjevanje…</string>
     <string name="could_not_create_folder">Mape %s ni bilo mogoče ustvariti</string>
     <string name="could_not_create_file">Datoteke %s ni bilo mogoče ustvariti</string>
-    <!-- Create new -->
     <string name="create_new">Ustvari novo</string>
     <string name="folder">Mapa</string>
     <string name="file">Datoteka</string>
@@ -93,7 +86,6 @@
     <string name="invalid_name">Ime vsebuje neveljavne znake</string>
     <string name="empty_name">Vpišite ime</string>
     <string name="unknown_error_occurred">Prišlo je do neznane napake</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">Datoteka %s že obstaja</string>
     <string name="file_already_exists_overwrite">Datoteka %s že obstaja. Jo želite prepisati?</string>
     <string name="folder_already_exists">Mapa %s že obstaja</string>
@@ -103,7 +95,6 @@
     <string name="skip">Preskoči</string>
     <string name="append">Dodaj \'_1\'</string>
     <string name="apply_to_all">Uporabi za vse</string>
-    <!-- File picker -->
     <string name="select_folder">Izberi mapo</string>
     <string name="select_file">Izberi datoteko</string>
     <string name="confirm_storage_access_title">Potrdi dostop do zunanje shrambe</string>
@@ -116,7 +107,6 @@
         <item quantity="few">%d elementi</item>
         <item quantity="other">%d elementov</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d element</item>
         <item quantity="two">%d elementa</item>
@@ -129,7 +119,6 @@
         <item quantity="few">Brisanje %d elementov</item>
         <item quantity="other">Brisanje %d elementov</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Izberite</string>
     <string name="internal">Notranja shramba</string>
     <string name="sd_card">Kartica SD</string>
@@ -137,7 +126,6 @@
     <string name="wrong_root_selected">Izbrali ste napačno mapo. Izbrati morate korensko mapo SD kartice</string>
     <string name="sd_card_usb_same">Pot do SD kartice in USB ne moreta biti enaki</string>
     <string name="app_on_sd_card">Aplikacijo ste namestili na SD kartico, kar pomeni, da pripomočki ne bodo delovali. Ne boste jih niti videli na seznamu.\n        To je omejitev sistema zato, če želite uporabljati pripomočke, morate aplikacijo premakniti nazaj v notranjo shrambo.</string>
-    <!-- File properties -->
     <string name="properties">Lastnosti</string>
     <string name="path">Pot</string>
     <string name="items_selected">Elementov izbranih</string>
@@ -154,7 +142,6 @@
     <string name="camera">Fotoaparat</string>
     <string name="exif">EXIF</string>
     <string name="song_title">Naslov pesmi</string>
-    <!-- Color customization -->
     <string name="background_color">Barva ozadja</string>
     <string name="text_color">Barva besedila</string>
     <string name="primary_color">Primarna barva</string>
@@ -174,7 +161,6 @@
     <string name="app_icon_color_warning">OPOZORILO: Nekateri zaganjalniki ne ravnajo pravilno s prilagoditvijo ikone aplikacije. Če bo ikona izginila, poskusite zagnati aplikacijo prek storitve Google Play ali kakšnega pripomočka, če je na voljo.
  Po zagonu, nastavite nazaj privzeto oranžno ikono # F57C00. Morda boste morali v najslabšem primeru znova namestiti aplikacijo.</string>
     <string name="share_colors_success">Barve so bile uspešno posodobljene. Nova tema \'Deljeno\' je bila dodana. V prihodnje za spreminjanje barv uporabljajte to.</string>
-    <!-- Themes -->
     <string name="light_theme">Svetlo</string>
     <string name="dark_theme">Temno</string>
     <string name="solarized">Osončeno</string>
@@ -182,10 +168,8 @@
     <string name="black_white">Črno &amp; belo</string>
     <string name="custom">Po meri</string>
     <string name="shared">Deljeno</string>
-    <!-- What's new -->
     <string name="whats_new">Kaj je novega</string>
     <string name="whats_new_disclaimer">* tukaj so omenjene le večje spremembe. Vsaka različica vsebuje tudi dosti manjših izboljšav</string>
-    <!-- Actionbar items -->
     <string name="delete">Izbriši</string>
     <string name="remove">Odstrani</string>
     <string name="rename">Preimenuj</string>
@@ -203,7 +187,6 @@
     <string name="undo">Razveljavi</string>
     <string name="redo">Ponovno uveljavi</string>
     <string name="print">Natisni</string>
-    <!-- Sorting -->
     <string name="sort_by">Razvrsti po</string>
     <string name="name">Ime</string>
     <string name="size">Velikost</string>
@@ -217,12 +200,9 @@
     <string name="ascending">Zvišujoče</string>
     <string name="descending">Znižajoče</string>
     <string name="use_for_this_folder">Uporabi le za to mapo</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Res želite nadaljevati s tem izborom?</string>
     <string name="deletion_confirmation">Res želite izbrisati \'%s\'?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">Res želite \'%s\' premakniti v Koš?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Res želite izbrisati ta element?</string>
     <string name="are_you_sure_recycle_bin">Res želite premakniti ta element v Koš?</string>
     <string name="do_not_ask_again">To sejo ne sprašuj več</string>
@@ -234,7 +214,6 @@
         <item quantity="few">OPOZORILO: Brišete %d mape</item>
         <item quantity="other">OPOZORILO: Brišete %d map</item>
     </plurals>
-    <!-- Password protection -->
     <string name="pin">Spuščajoče</string>
     <string name="enter_pin">Vpišite PIN</string>
     <string name="please_enter_pin">Prosimo vpišite PIN</string>
@@ -253,7 +232,6 @@
     <string name="go_to_settings">Odpri nastavitve</string>
     <string name="protection_setup_successfully">Geslo uspešno nastavljeno. Če ga pozabite, izbrišite in ponovno naložite aplikacijo.</string>
     <string name="fingerprint_setup_successfully">Zaščita uspešno nastavljena. Če pride do težav s ponastavitvijo, izbrišite in ponovno naložite aplikacijo.</string>
-    <!-- Times -->
     <string name="yesterday">Včeraj</string>
     <string name="today">Danes</string>
     <string name="tomorrow">Jutri</string>
@@ -303,7 +281,6 @@
         <item quantity="few">%d leta</item>
         <item quantity="other">%d let</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d sekunda</item>
         <item quantity="two">%d sekundi</item>
@@ -346,7 +323,6 @@
         <item quantity="few">%d leta</item>
         <item quantity="other">%d let</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d sekunda prej</item>
         <item quantity="two">%d sekundi prej</item>
@@ -371,7 +347,6 @@
         <item quantity="few">%d dni prej</item>
         <item quantity="other">%d dni prej</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d sekunda</item>
         <item quantity="two">%d sekundi</item>
@@ -414,13 +389,11 @@
         <item quantity="few">%d leta</item>
         <item quantity="other">%d let</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Čas do sprožitve alarma: %s</string>
     <string name="reminder_triggers_in">Čas do sprožitve opomnika: %s</string>
     <string name="alarm_warning">Predlagamo, da alarm preizkusite, preden se nanj zanašate. Zaradi sistemskih omejitev, povezanih z ohranjanjem baterije, lahko alarm zataji.</string>
     <string name="reminder_warning">Predlagamo, da opomnike preiskusite, preden se zanašate na njih. Zaradi sistemskih omejitev, povezanih z ohranjanjem baterije, lahko opomniki zatajijo.</string>
     <string name="notifications_disabled">Obvestila so za to aplikacijo onemogočena. Vklopite jih lahko v nastavitvah naprave.</string>
-    <!-- Alarms -->
     <string name="alarm">Budilka</string>
     <string name="snooze">Dremež</string>
     <string name="dismiss">Ustavi</string>
@@ -430,7 +403,6 @@
     <string name="your_sounds">Vaši zvoki</string>
     <string name="add_new_sound">Dodaj nov zvok</string>
     <string name="no_sound">Brez zvoka</string>
-    <!-- Settings -->
     <string name="settings">Nastavitve</string>
     <string name="purchase_simple_thank_you">Kupite aplikacijo Simple Thank You</string>
     <string name="customize_colors">Prilagodite barve</string>
@@ -464,7 +436,6 @@
     <string name="import_settings">Uvozi nastavitve</string>
     <string name="settings_exported_successfully">Izvoz nastavitev uspešen</string>
     <string name="settings_imported_successfully">Uvoz nastavitev uspešen</string>
-    <!-- Setting sections -->
     <string name="visibility">Vidljivost</string>
     <string name="security">Varnost</string>
     <string name="scrolling">Pomikanje</string>
@@ -474,7 +445,6 @@
     <string name="startup">Zagon</string>
     <string name="text">Besedilo</string>
     <string name="migrating">Migracija</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Obnovi to datoteko</string>
     <string name="restore_selected_files">Obnovite izbrane datoteke</string>
     <string name="restore_all_files">Obnovite vse datoteke</string>
@@ -491,7 +461,6 @@
         <item quantity="few">Premikanje %d elementov v Koš</item>
         <item quantity="other">Premikanje %d elementov v Koš</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">Uvažanje…</string>
     <string name="exporting">Izvažanje…</string>
     <string name="importing_successful">Uvažanje uspešno</string>
@@ -502,12 +471,10 @@
     <string name="exporting_some_entries_failed">Izvažanje nekaterih vnosov ni uspelo</string>
     <string name="no_entries_for_importing">Za uvoz ni bilo najdenih nobenih vnosov</string>
     <string name="no_entries_for_exporting">Za izvoz ni bilo najdenih nobenih vnosov</string>
-    <!-- OTG devices -->
     <string name="usb">USB</string>
     <string name="usb_detected">Videti je, da je v napravo priključena naprava USB. Če želite preveriti, ali so datoteke pravilno prikazane, morate odobriti dodatna dovoljenja.</string>
     <string name="confirm_usb_storage_access_text">Izberitre korensko mapo naprave USB na naslednjem zaslonu, da odobrite dostop</string>
     <string name="wrong_root_selected_usb">Izbrana je bila napapačna mapa. Prosimo, izberite korensko mapo naprave USB.</string>
-    <!-- Dates -->
     <string name="january">Januar</string>
     <string name="february">Februar</string>
     <string name="march">Marec</string>
@@ -520,7 +487,6 @@
     <string name="october">Oktober</string>
     <string name="november">November</string>
     <string name="december">December</string>
-    <!-- in January -->
     <string name="in_january">v januarju</string>
     <string name="in_february">v februarju</string>
     <string name="in_march">v marcu</string>
@@ -554,13 +520,11 @@
     <string name="friday_short">Pet</string>
     <string name="saturday_short">Sob</string>
     <string name="sunday_short">Ned</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">Ta verzija aplikacije se ne vzdržuje več. Prosim nadgradite na Pro verzijo.</string>
     <string name="it_is_free">Še vedno je zastonj do: %s. Če jo naložite do takrat, jo boste lahko zastonj uporabljali neomejeno časa.</string>
     <string name="more_info">Več informacij</string>
     <string name="upgrade">Nadgradi</string>
     <string name="upgrade_calendar">Lokalno shranjene dogodke morate preseliti ročno prek izvoza v datoteko .ics, nato pa jih uvozite. Oba gumba za izvoz / uvoz najdete v meniju glavnega zaslona.</string>
-    <!-- About -->
     <string name="about">O aplikaciji</string>
     <string name="website_label">Za izvorno kodo obiščite</string>
     <string name="email_label">Svoje predloge in povratne informacije pošljite na </string>
@@ -581,9 +545,8 @@
     <string name="purchase">Kupi</string>
     <string name="update_thank_you">Prosimo nadgradite Simple Thank You na zadnjo verzijo</string>
     <string name="read_it">Preberite</string>
-    <string name="sideloaded_app"><![CDATA[            Kot kaže je vaša različica aplikacije poškodovana. Prenesite izvirno različico <a href="%s">tukaj</a>.
-        ]]></string>
-    <!-- FAQ -->
+    <string name="sideloaded_app">            Kot kaže je vaša različica aplikacije poškodovana. Prenesite izvirno različico &lt;a href="%s"&gt;tukaj&lt;/a&gt;.
+        </string>
     <string name="frequently_asked_questions">Pogosta vprašanja</string>
     <string name="before_asking_question">Preden postavite vprašanje, preberite</string>
     <string name="faq_1_title_commons">Zakaj aplikacije ne vidim na seznamu pripomočkov?</string>
@@ -599,7 +562,6 @@
     <string name="faq_5_text_commons">Če so bile res izbrisane, jih ne morete. Lahko pa v nastavitvah omogočite Koš. Tako bodo datoteke premaknjene v Koš, od koder jih lahko obnovite, ne pa popolnoma izbrisane.</string>
     <string name="faq_6_title_commons">Ikona zaganjalnika aplikacij je izginila. Kaj lahko naredim?</string>
     <string name="faq_6_text_commons">Vzrok je, da zaganjalnik ne podpira pravilne prilagoditve ikone. Poskusite zagnati aplikacijo prek storitve Google Play ali kakšnega pripomočka, če je na voljo. Ko ste zagnali, nastavite nazaj privzeto oranžno ikono # F57C00. Morda boste morali v najslabšem primeru znova namestiti aplikacijo.</string>
-    <!-- License -->
     <string name="notice">Da si olajšamo delo, aplikacija uporablja naslednje programske knjižnice. Hvala.</string>
     <string name="third_party_licences">Licence tretjih oseb</string>
     <string name="kotlin_title">Kotlin (programski jezik)</string>

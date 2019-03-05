@@ -4,45 +4,7 @@
     <string name="unknown">Chan eil fhios</string>
     <string name="details">Mion-fhiosrachadh</string>
     <string name="none">Chan eil gin</string>
-    <!-- Favorites -->
-    <!-- Search -->
-    <!-- Filters -->
-    <!-- Permissions -->
-    <!-- Renaming -->
-    <!-- Copy / Move -->
-    <!-- Create new -->
-    <!-- File operation conflicts -->
-    <!-- File picker -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Storages -->
-    <!-- File properties -->
-    <!-- Color customization -->
     <string name="restore_defaults">Aisig na bun-roghainnean</string>
     <string name="save">Sàbhail</string>
-    <!-- Themes -->
-    <!-- What's new -->
-    <!-- Actionbar items -->
-    <!-- Sorting -->
-    <!-- Confirmation dialog -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
-    <!-- Password protection -->
-    <!-- Times -->
-    <!-- For example: I will be there in 5 minutes -->
-    <!-- For example: Event reminder: 3 minutes before -->
-    <!-- For example: Postpone reminder by 3 minutes -->
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
-    <!-- Alarms -->
     <string name="snooze">Dèan dùsal</string>
-    <!-- Settings -->
-    <!-- Setting sections -->
-    <!-- Recycle Bin -->
-    <!-- Import / Export -->
-    <!-- OTG devices -->
-    <!-- Dates -->
-    <!-- in January -->
-    <!-- Pro version -->
-    <!-- About -->
-    <!-- FAQ -->
-    <!-- License -->
 </resources>

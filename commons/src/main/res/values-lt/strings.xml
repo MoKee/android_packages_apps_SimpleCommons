@@ -21,24 +21,19 @@
     <string name="none">Nėra</string>
     <string name="transparent">Permatomas</string>
     <string name="download">Atsisiųsti</string>
-    <!-- Favorites -->
     <string name="favorites">Mėgiamiausieji</string>
     <string name="add_favorites">Pridėti mėgiamiausiuosius</string>
     <string name="add_to_favorites">pridėti į mėgiamiausiuosius</string>
     <string name="remove_from_favorites">Pašalinti iš mėgiamiausiųjų</string>
-    <!-- Search -->
     <string name="search">Ieškoti</string>
     <string name="type_2_characters">Įvesti mažiausiai 2 simbolius, kad pradėti paiešką.</string>
-    <!-- Filters -->
     <string name="filter">Filtras</string>
     <string name="no_items_found">Nerasta elementų.</string>
     <string name="change_filter">Pakeisti filtrą</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Reikalingas saugyklos leidimas</string>
     <string name="no_contacts_permission">Reikalingas kontaktų leidimas</string>
     <string name="no_camera_permissions">Reikalingas fotoaparato leidimas</string>
     <string name="no_audio_permissions">Reikalingas garso leidimas</string>
-    <!-- Renaming -->
     <string name="rename_file">Pervadinti bylą</string>
     <string name="rename_folder">Pervadinti aplanką</string>
     <string name="rename_file_error">Byla negali būti pervadnta</string>
@@ -53,7 +48,6 @@
     <string name="filename_invalid_characters_placeholder">Bylos pavadinimas \'%s\' susideda iš negalimų simbolių</string>
     <string name="extension_cannot_be_empty">Papildinys negali būti paliktas tuščias</string>
     <string name="source_file_doesnt_exist">Šaltinio byla %s neegzistuoja</string>
-    <!-- Copy / Move -->
     <string name="copy">Kopijuoti</string>
     <string name="move">Perkelti</string>
     <string name="copy_move">Kopijuoti / Perkelti</string>
@@ -78,7 +72,6 @@
     <string name="saving">Išsaugoma…</string>
     <string name="could_not_create_folder">Negalima sukurti aplanko %ų</string>
     <string name="could_not_create_file">Negalima sukurti bylos %ų</string>
-    <!-- Create new -->
     <string name="create_new">Kurti naują</string>
     <string name="folder">Aplanką</string>
     <string name="file">Bylą</string>
@@ -87,7 +80,6 @@
     <string name="invalid_name">Pavadinimas turi negalimų simbolių</string>
     <string name="empty_name">Įveskite pavadinimą</string>
     <string name="unknown_error_occurred">Nežinoma klaida</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">Byla \"%s\" jau yra</string>
     <string name="file_already_exists_overwrite">Byla \"%s\" jau yra. Pervadinti?</string>
     <string name="folder_already_exists">Aplankalas \"%ai\" jau yra</string>
@@ -96,7 +88,6 @@
     <string name="skip">Praleisti</string>
     <string name="append">Papildyti su \'_1\'</string>
     <string name="apply_to_all">Taikyti visiems neatitikimams</string>
-    <!-- File picker -->
     <string name="select_folder">Pasirinkti aplanką</string>
     <string name="select_file">Pasirinkti byla</string>
     <string name="confirm_storage_access_title">Pasirinkti išorinės talpyklos prieigą</string>
@@ -109,21 +100,18 @@
         <item quantity="many">%d elementai</item>
         <item quantity="other">%d elementai</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d elementas</item>
         <item quantity="few">%d elementai</item>
         <item quantity="many">%d elementai</item>
         <item quantity="other">%d elementai</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Pasirinkti talpyklą</string>
     <string name="internal">Vidinė</string>
     <string name="sd_card">SD kortelė</string>
     <string name="root">Pagrindinė</string>
     <string name="wrong_root_selected">Pasirinktas neteisingas aplankas, pasirinkite pagrindinį SD kortelės aplanką</string>
     <string name="sd_card_usb_same">SD kortelė ir USB įrenginio keliai negali būti tokie patys</string>
-    <!-- File properties -->
     <string name="properties">Savybės</string>
     <string name="path">Kelias</string>
     <string name="items_selected">Pasirinkti elementai</string>
@@ -139,7 +127,6 @@
     <string name="f_number">F-numeris</string>
     <string name="camera">Kamera</string>
     <string name="song_title">Dainos pavadinimas</string>
-    <!-- Color customization -->
     <string name="background_color">Fono spalva</string>
     <string name="text_color">Teksto spalva</string>
     <string name="primary_color">Pirminė spalva</string>
@@ -155,7 +142,6 @@
     <string name="save_before_closing">Turite neišsaugotų pakeitimų. Išsaugoti prieš išeinant?</string>
     <string name="apply_to_all_apps">Pritaikyti spalvas visoms paprastoms programėlėms</string>
     <string name="share_colors_success">Spalvos atnaujintos sėkmingai. Nauja tema pavdinimu \'Bendra\' buvo įtraukta, prašome naudoti tai ateityje visų programėlių spalvų atnaujinimui.</string>
-    <!-- Themes -->
     <string name="light_theme">Šviesi</string>
     <string name="dark_theme">Tamsi</string>
     <string name="solarized">Soliarizuota</string>
@@ -163,10 +149,8 @@
     <string name="black_white">Juoda ir balta</string>
     <string name="custom">Pasirinktinė</string>
     <string name="shared">Bendra</string>
-    <!-- What's new -->
     <string name="whats_new">Kas naujo</string>
     <string name="whats_new_disclaimer">* Čia paminėti tik svarbesni atnaujinimai, bet visada yra smulkesnių</string>
-    <!-- Actionbar items -->
     <string name="delete">Ištrinti</string>
     <string name="remove">Pašalinti</string>
     <string name="rename">Pervadinti</string>
@@ -182,7 +166,6 @@
     <string name="maximum_share_reached">Negalite bendrinti tiek daug turinio vienu metu</string>
     <string name="undo">Anuliuoti</string>
     <string name="redo">Grąžinti</string>
-    <!-- Sorting -->
     <string name="sort_by">Rūšiuoti pagal</string>
     <string name="name">Vardą</string>
     <string name="size">Dydį</string>
@@ -194,14 +177,10 @@
     <string name="ascending">Didėjančiai</string>
     <string name="descending">Mažėjančiai</string>
     <string name="use_for_this_folder">Taikyti tik šiam aplankui</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Ar tikrai norite ištrinti?</string>
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="do_not_ask_again">Šiame seanse daugiau neklausti</string>
     <string name="yes">Taip</string>
     <string name="no">Ne</string>
-    <!-- Password protection -->
     <string name="enter_pin">Įvesti PIN</string>
     <string name="please_enter_pin">Prašome įvesti PIN</string>
     <string name="wrong_pin">Klaidingas PIN</string>
@@ -219,7 +198,6 @@
     <string name="go_to_settings">Eiti į nustatymus</string>
     <string name="protection_setup_successfully">Slaptažodis nustatytas sėkmingai. Prašome įdiegti programėlę iš naujo jei pamiršite slaptažodį.</string>
     <string name="fingerprint_setup_successfully">Apsauga nustatyta sėkmingai. Prašome įdiegti programėlę iš naujo jei bus problemų su apsaugos nustatymu iš naujo.</string>
-    <!-- Times -->
     <string name="tomorrow">Rytoj</string>
     <string name="seconds_raw">sekundės</string>
     <string name="minutes_raw">minutės</string>
@@ -267,7 +245,6 @@
         <item quantity="many">%d metų</item>
         <item quantity="other">%d metų</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">per %d sekundę</item>
         <item quantity="few">per %d sekundes</item>
@@ -310,7 +287,6 @@
         <item quantity="many">%d metų</item>
         <item quantity="other">%d metų</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">Prieš %d sekundę</item>
         <item quantity="few">Prieš %d sekundes</item>
@@ -335,7 +311,6 @@
         <item quantity="many">Prieš %d dienų</item>
         <item quantity="other">Prieš %d dienų</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">Per %d sekundę</item>
         <item quantity="few">Per %d sekundes</item>
@@ -378,17 +353,14 @@
         <item quantity="many">%d metų</item>
         <item quantity="other">%d metų</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Likęs laikas iki žadintuvo suveikimo:\n%s</string>
     <string name="alarm_warning">Prieš naudodamiesi, įsitikinkite, kad signalas veikia tinkamai. Gali nesuveikti dėl sistemos apribojimų, susijusių su baterijos taupymu.</string>
     <string name="reminder_warning">Prieš naudodamiesi, įsitikinkite, kad priminimai tinkamai veikia. Jie gali netinkamai veikti dėl sistemos apribojimų, susijusių su baterijos taupymu.</string>
-    <!-- Alarms -->
     <string name="alarm">Žadintuvas</string>
     <string name="snooze">Snausti</string>
     <string name="dismiss">Nutraukti</string>
     <string name="no_reminder">Nėra priminimo</string>
     <string name="at_start">Paleidžiant</string>
-    <!-- Settings -->
     <string name="settings">Nustatymai</string>
     <string name="customize_colors">Spalvų redagavimas</string>
     <string name="use_english_language">Naudoti anglų kalbą</string>
@@ -414,14 +386,11 @@
     <string name="recycle_bin_cleaning_interval">Šiukšlinės išvalymo intervalas</string>
     <string name="empty_recycle_bin">Ištuštinti šiukšlinę</string>
     <string name="force_portrait_mode">Priversti rodyti portreto rėžimu</string>
-    <!-- Setting sections -->
     <string name="visibility">Matomumas</string>
     <string name="security">Sauga</string>
     <string name="scrolling">Slinkimas</string>
     <string name="file_operations">Bylų operacijos</string>
     <string name="recycle_bin">Šiukšlinė</string>
-    <!-- Recycle Bin -->
-    <!-- Import / Export -->
     <string name="importing">Importuojama…</string>
     <string name="exporting">Eksportuojama…</string>
     <string name="importing_successful">Importuota sėkmingai</string>
@@ -431,10 +400,8 @@
     <string name="importing_some_entries_failed">Kai kurių įrašų importuoti nepavyko</string>
     <string name="exporting_some_entries_failed">Kai kurių įrašų eksportuoti nepavyko</string>
     <string name="no_entries_for_exporting">Nerasta įrašų eksportavimui</string>
-    <!-- OTG devices -->
     <string name="confirm_usb_storage_access_text">Prašome pasirinkti šakninį USB įrenginio aplanką kitame lange, kad patvirtinti prieigą</string>
     <string name="wrong_root_selected_usb">Pasirinktas netinkamas aplankas, pasirinkite USB įrenginio šakninį aplanką</string>
-    <!-- Dates -->
     <string name="january">Sausis</string>
     <string name="february">Vasaris</string>
     <string name="march">Kovas</string>
@@ -447,7 +414,6 @@
     <string name="october">Spalis</string>
     <string name="november">Lapkritis</string>
     <string name="december">Gruodis</string>
-    <!-- in January -->
     <string name="monday">Pirmadienis</string>
     <string name="tuesday">Antradienis</string>
     <string name="wednesday">Trečiadienis</string>
@@ -469,8 +435,6 @@
     <string name="friday_short">Pen</string>
     <string name="saturday_short">Šeš</string>
     <string name="sunday_short">Sek</string>
-    <!-- Pro version -->
-    <!-- About -->
     <string name="about">Apie</string>
     <string name="website_label">Pirminį kodą rasite</string>
     <string name="email_label">Siųskite atsiliepimus ar pasiūlymus adresu</string>
@@ -487,7 +451,6 @@
     <string name="additional_info">Papildoma informacija</string>
     <string name="app_version">Programėlės versija: %s</string>
     <string name="device_os">Įrenginio OS: %s</string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Dažniausiai užduodami klausimai</string>
     <string name="faq_1_title_commons">Kodėl aš negaliu pamatyti šios programėlės valdiklių sąraše?</string>
     <string name="faq_1_text_commons">Labiausiai tikėtina, kad perkėlėte programėlę į SD kortelę. Yra \"Android\" sistemos apribojimas, kuris slepia nurodytos programėlės valdiklį tuo atveju. Vienintelis sprendimas yra perkelti programėlę į vidinę atmintinę per įrenginio nustatymus.</string>
@@ -497,7 +460,6 @@
     <string name="faq_3_text_commons">Deja, jūs negalite. Bylos iš karto ištrinamos po patvirtinimo dialogo, nėra šiukšliadėžės.</string>
     <string name="faq_4_title_commons">Aš nemėgstu valdiklio spalvų, galiu jas pakeisti?</string>
     <string name="faq_4_text_commons">Taip, kai vilksite valdiklį savo pagrindiniame ekrane, pasirodys valdiklio konfigūracijos ekranas. Apatiniame kairiajame kampe pamatysite spalvotą kvadratą, tiesiog paspauskite, kad pasirinktumėte naują spalvą. Galite naudoti slankiklį, kad galėtumėte koreguoti pagrindinę spalvą</string>
-    <!-- License -->
     <string name="notice">Ši programa naudoja trečiųjų šalių licensijas ir padaro mano gyvenimą geresnį. Ačiū.</string>
     <string name="third_party_licences">Trečiųjų šalių licensijos</string>
     <string name="kotlin_title">Kotlin (Programavimo kalba)</string>

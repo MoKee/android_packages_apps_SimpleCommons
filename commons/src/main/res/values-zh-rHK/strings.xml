@@ -25,24 +25,19 @@
     <string name="transparent_color">透明顏色</string>
     <string name="select_a_different_color">選擇其他顏色</string>
     <string name="download">下載</string>
-    <!-- Favorites -->
     <string name="favorites">我的最愛</string>
     <string name="add_favorites">添加我的最愛</string>
     <string name="add_to_favorites">新增至我的最愛</string>
     <string name="remove_from_favorites">從最愛中移除</string>
-    <!-- Search -->
     <string name="search">搜尋</string>
     <string name="type_2_characters">輸入兩個字以上來開始搜尋。</string>
-    <!-- Filters -->
     <string name="filter">篩選</string>
     <string name="no_items_found">未發現項目</string>
     <string name="change_filter">更改篩選條件</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">儲存空間權限是必要的</string>
     <string name="no_contacts_permission">聯絡人權限是必要的</string>
     <string name="no_camera_permissions">相機權限是必要的</string>
     <string name="no_audio_permissions">音訊權限是必要的</string>
-    <!-- Renaming -->
     <string name="rename_file">重新命名檔案</string>
     <string name="rename_folder">重新命名資料夾</string>
     <string name="rename_file_error">無法重新命名檔案</string>
@@ -59,7 +54,6 @@
     <string name="source_file_doesnt_exist">原始檔案 %s 不存在</string>
     <string name="prepend_filenames">前置檔案名稱</string>
     <string name="append_filenames">附加檔案名稱 (在檔案副檔名之前)</string>
-    <!-- Copy / Move -->
     <string name="copy">複製</string>
     <string name="move">移動</string>
     <string name="copy_move">複製 / 移動</string>
@@ -84,7 +78,6 @@
     <string name="saving">儲存中…</string>
     <string name="could_not_create_folder">無法建立資料夾 %s</string>
     <string name="could_not_create_file">無法建立檔案 %s</string>
-    <!-- Create new -->
     <string name="create_new">新增</string>
     <string name="folder">資料夾</string>
     <string name="file">檔案</string>
@@ -93,7 +86,6 @@
     <string name="invalid_name">名稱包含無效的字元</string>
     <string name="empty_name">請輸入一個名稱</string>
     <string name="unknown_error_occurred">發生未知的錯誤</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">檔案 \"%s\" 已經存在</string>
     <string name="file_already_exists_overwrite">檔案 \"%s\" 已經存在。 要覆蓋嗎?</string>
     <string name="folder_already_exists">資料夾 \"%s\" 已經存在</string>
@@ -103,7 +95,6 @@
     <string name="skip">略過</string>
     <string name="append">附加 \'_1\'</string>
     <string name="apply_to_all">添加到全部衝突</string>
-    <!-- File picker -->
     <string name="select_folder">選擇資料夾</string>
     <string name="select_file">選擇檔案</string>
     <string name="confirm_storage_access_title">確認外部儲存空間存取權限</string>
@@ -113,14 +104,12 @@
     <plurals name="items">
         <item quantity="other">%d個項目</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="other">%d個項目</item>
     </plurals>
     <plurals name="deleting_items">
         <item quantity="other">%d個項目刪除中</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">選擇儲存空間</string>
     <string name="internal">內部儲存空間</string>
     <string name="sd_card">SD 卡</string>
@@ -129,7 +118,6 @@
     <string name="sd_card_usb_same">SD卡和USB裝置的路徑不能相同</string>
     <string name="app_on_sd_card">你似乎將應用程式安裝在SD卡，那會造成應用程式小工具無法使用。你甚至不會在可用的小工具列表中見到它們。
         那是個系統限制，所以如果你想要使用小工具，你必須把應用程式移動回內部儲存空間。</string>
-    <!-- File properties -->
     <string name="properties">屬性</string>
     <string name="path">路徑</string>
     <string name="items_selected">選擇的項目</string>
@@ -146,7 +134,6 @@
     <string name="camera">相機</string>
     <string name="exif">EXIF</string>
     <string name="song_title">歌名</string>
-    <!-- Color customization -->
     <string name="background_color">背景顏色</string>
     <string name="text_color">文字顏色</string>
     <string name="primary_color">主色調</string>
@@ -165,7 +152,6 @@
     <string name="apply_to_all_apps">將顏色套用於[簡易]系列全部應用程式</string>
     <string name="app_icon_color_warning">警告：某些啟動程序無法正確處理自定義應用程序圖標。如果可能，請嘗試通過Google Play或小部件打開應用，如果圖標不可見。如果您已重新打開該應用程序，只需重置默認的橙色圖標＃F57C00。在最壞的情況下，您可能需要重新安裝應用程序。</string>
     <string name="share_colors_success">顏色更新成功。新增了一個名為 \'Shared\' 的新主題，以後請使用那個來更新全部應用程式顏色。</string>
-    <!-- Themes -->
     <string name="light_theme">亮色</string>
     <string name="dark_theme">深色</string>
     <string name="solarized">過度曝光</string>
@@ -173,10 +159,8 @@
     <string name="black_white">黑白主題</string>
     <string name="custom">自訂</string>
     <string name="shared">分享</string>
-    <!-- What's new -->
     <string name="whats_new">更新了什麼</string>
     <string name="whats_new_disclaimer">*此處僅列出大更新，尚有一些小改善</string>
-    <!-- Actionbar items -->
     <string name="delete">刪除</string>
     <string name="remove">移除</string>
     <string name="rename">重命名</string>
@@ -194,7 +178,6 @@
     <string name="undo">復原</string>
     <string name="redo">取消復原</string>
     <string name="print">列印</string>
-    <!-- Sorting -->
     <string name="sort_by">排序</string>
     <string name="name">名稱：</string>
     <string name="size">大小</string>
@@ -208,12 +191,9 @@
     <string name="ascending">升序排列</string>
     <string name="descending">降序排列</string>
     <string name="use_for_this_folder">僅套用於此資料夾</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">確定要進行刪除嗎?</string>
     <string name="deletion_confirmation">你確定要刪除%s嗎?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">你確定要把%s移到回收桶嗎?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">你確定要刪除這個項目嗎?</string>
     <string name="are_you_sure_recycle_bin">你確定要把這個項目移到回收桶嗎?</string>
     <string name="do_not_ask_again">這情況不再詢問</string>
@@ -222,7 +202,6 @@
     <plurals name="delete_warning">
         <item quantity="other">注意: 你正在刪除%d個資料夾</item>
     </plurals>
-    <!-- Password protection -->
     <string name="pin">PIN碼</string>
     <string name="enter_pin">輸入PIN碼</string>
     <string name="please_enter_pin">請輸入PIN碼</string>
@@ -241,7 +220,6 @@
     <string name="go_to_settings">前往[設定]</string>
     <string name="protection_setup_successfully">密碼設置成功。若遺忘了，請重新安裝應用程式。</string>
     <string name="fingerprint_setup_successfully">保護設置成功。若再次設置時發生問題，請重新安裝應用程式。</string>
-    <!-- Times -->
     <string name="yesterday">昨天</string>
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>
@@ -270,7 +248,6 @@
     <plurals name="years">
         <item quantity="other">%d年</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="other">%d秒鐘</item>
     </plurals>
@@ -292,7 +269,6 @@
     <plurals name="in_years">
         <item quantity="other">%d年</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="other">%d秒鐘前</item>
     </plurals>
@@ -314,7 +290,6 @@
     <plurals name="years_before">
         <item quantity="other">%d 年前</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="other">%d秒鐘</item>
     </plurals>
@@ -336,13 +311,11 @@
     <plurals name="by_years">
         <item quantity="other">%d年</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">鬧鐘響起剩餘時間:\n%s</string>
     <string name="reminder_triggers_in">提醒觸發剩餘時間:\n%s</string>
     <string name="alarm_warning">依靠鬧鐘功能之前，請先確認是否正常運作，有可能因為省電相關的系統限制而導致失靈。</string>
     <string name="reminder_warning">依靠提醒功能之前，請先確認是否正常運作，有可能因為省電相關的系統限制而導致失靈。</string>
     <string name="notifications_disabled">這應用程式的通知被停用了。請到你的裝置設定中去啟用。</string>
-    <!-- Alarms -->
     <string name="alarm">鬧鐘</string>
     <string name="snooze">延遲</string>
     <string name="dismiss">略過</string>
@@ -352,7 +325,6 @@
     <string name="your_sounds">你的音效</string>
     <string name="add_new_sound">添加新的音效</string>
     <string name="no_sound">無音效</string>
-    <!-- Settings -->
     <string name="settings">設定</string>
     <string name="purchase_simple_thank_you">購買Simple Thank You</string>
     <string name="customize_colors">自訂顏色</string>
@@ -387,7 +359,6 @@
     <string name="import_settings">匯入設定</string>
     <string name="settings_exported_successfully">設定還原成功</string>
     <string name="settings_imported_successfully">設定還原成功</string>
-    <!-- Setting sections -->
     <string name="visibility">可見性</string>
     <string name="security">安全性</string>
     <string name="scrolling">滑動</string>
@@ -397,7 +368,6 @@
     <string name="startup">啟動</string>
     <string name="text">文字</string>
     <string name="migrating">移入</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">還原這個檔案</string>
     <string name="restore_selected_files">還原選擇的檔案</string>
     <string name="restore_all_files">還原全部檔案</string>
@@ -411,7 +381,6 @@
     <plurals name="moving_items_into_bin">
         <item quantity="other">正在移動%d個項目進回收桶</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">正在匯入…</string>
     <string name="exporting">正在匯出…</string>
     <string name="importing_successful">匯入成功</string>
@@ -422,12 +391,10 @@
     <string name="exporting_some_entries_failed">部分項目匯出失敗</string>
     <string name="no_entries_for_importing">未找到匯入的項目</string>
     <string name="no_entries_for_exporting">未發現供匯出的項目</string>
-    <!-- OTG devices -->
     <string name="usb">USB</string>
     <string name="usb_detected">似乎有USB裝置接上了你的裝置。為確保檔案正確顯示，你必須授予額外的權限。</string>
     <string name="confirm_usb_storage_access_text">請在下個畫面選擇USB裝置的根目錄，以授予存取權限</string>
     <string name="wrong_root_selected_usb">選擇到錯誤資料夾，請選擇你USB裝置的根目錄</string>
-    <!-- Dates -->
     <string name="january">一月</string>
     <string name="february">二月</string>
     <string name="march">三月</string>
@@ -440,7 +407,6 @@
     <string name="october">十月</string>
     <string name="november">十一月</string>
     <string name="december">十二月</string>
-    <!-- in January -->
     <string name="in_january">在一月</string>
     <string name="in_february">在二月</string>
     <string name="in_march">在三月</string>
@@ -474,13 +440,11 @@
     <string name="friday_short">週五</string>
     <string name="saturday_short">週六</string>
     <string name="sunday_short">週日</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">此版本的應用程式已不再維護。請升級到專業版。</string>
     <string name="it_is_free">它在此日期前免費：%s。如果您在這個日期前下載它的話，您就可以永久免費使用它。</string>
     <string name="more_info">更多資訊</string>
     <string name="upgrade">升級</string>
     <string name="upgrade_calendar">你必須手動搬移儲存在本機端的活動，透過匯出.ics檔案再接著匯入。你可以在主畫面選單中，找到 匯出/匯入 兩個按鈕。</string>
-    <!-- About -->
     <string name="about">關於</string>
     <string name="website_label">觀看原始碼</string>
     <string name="email_label">傳送您的反饋或建議</string>
@@ -504,7 +468,6 @@
     <string name="read_it">讀它</string>
     <string name="sideloaded_app">            應用版本似乎已損壞。請下載<a href="%s">此处</a>.的原始版本
         </string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">常見問題</string>
     <string name="before_asking_question">在你發問之前，請先閱讀</string>
     <string name="faq_1_title_commons">為什麼我在小工具列表中沒看到這應用程式的小工具?</string>
@@ -521,7 +484,6 @@
     <string name="faq_5_text_commons">如果它們確實被刪除了，那沒辦法。然而，你可以在程式設定中啟用回收桶來取代刪除。那只會移動檔案而不是刪除它們。</string>
     <string name="faq_6_title_commons">應用程序啟動器圖標消失。我能做什麼呢？</string>
     <string name="faq_6_text_commons">警告：某些啟動程序無法正確處理自定義應用程序圖標。如果可能，請嘗試通過Google Play或小部件打開應用，如果圖標不可見。如果您已重新打開該應用程序，只需重置默認的橙色圖標＃F57C00。在最壞的情況下，您可能需要重新安裝應用程序。</string>
-    <!-- License -->
     <string name="notice">這程式使用了下列的第三方函式庫來讓我工作簡化。感謝。</string>
     <string name="third_party_licences">第三方授權</string>
     <string name="kotlin_title">Kotlin (編程語言)</string>

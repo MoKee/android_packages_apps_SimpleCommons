@@ -5,67 +5,29 @@
     <string name="unknown">Nezināms</string>
     <string name="details">Detalizēta informācija</string>
     <string name="none">Nav</string>
-    <!-- Favorites -->
-    <!-- Search -->
     <string name="search">Meklēt</string>
-    <!-- Filters -->
-    <!-- Permissions -->
-    <!-- Renaming -->
-    <!-- Copy / Move -->
-    <!-- Create new -->
-    <!-- File operation conflicts -->
     <string name="skip">Izlaist</string>
-    <!-- File picker -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Storages -->
-    <!-- File properties -->
     <string name="path">Ceļš</string>
     <string name="duration">Ilgums</string>
     <string name="exposure_time">Ekspon. laiks</string>
     <string name="camera">Kamera</string>
-    <!-- Color customization -->
     <string name="save">Saglabāt</string>
-    <!-- Themes -->
     <string name="custom">Pielāgots</string>
-    <!-- What's new -->
-    <!-- Actionbar items -->
     <string name="delete">Dzēst</string>
     <string name="remove">Noņemt</string>
     <string name="share">Dalies</string>
     <string name="select_all">Atlasīt visu</string>
     <string name="undo">Atsaukt</string>
     <string name="redo">Atcelt atsaukšanu</string>
-    <!-- Sorting -->
     <string name="size">Izmēri</string>
     <string name="date_taken">Uzņemšanas datums</string>
     <string name="title">Virsraksts</string>
-    <!-- Confirmation dialog -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="yes">Jā</string>
-    <!-- Password protection -->
-    <!-- Times -->
     <string name="seconds_raw">sekunde(-es)</string>
     <string name="minutes_raw">minūte(-es)</string>
     <string name="hours_raw">stundas</string>
-    <!-- For example: I will be there in 5 minutes -->
-    <!-- For example: Event reminder: 3 minutes before -->
-    <!-- For example: Postpone reminder by 3 minutes -->
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
-    <!-- Alarms -->
-    <!-- Settings -->
     <string name="widgets">Logrīki</string>
-    <!-- Setting sections -->
-    <!-- Recycle Bin -->
-    <!-- Import / Export -->
-    <!-- OTG devices -->
-    <!-- Dates -->
-    <!-- in January -->
     <string name="wednesday_letter">R</string>
     <string name="saturday_letter">D</string>
     <string name="sunday_letter">D</string>
-    <!-- Pro version -->
-    <!-- About -->
-    <!-- FAQ -->
-    <!-- License -->
 </resources>

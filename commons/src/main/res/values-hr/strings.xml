@@ -22,24 +22,19 @@
     <string name="none">Nijedan</string>
     <string name="label">Označi</string>
     <string name="download">Preuzmi</string>
-    <!-- Favorites -->
     <string name="favorites">Favoriti</string>
     <string name="add_favorites">Dodaj favorite</string>
     <string name="add_to_favorites">Dodaj u favorite</string>
     <string name="remove_from_favorites">Ukloni iz favorita</string>
-    <!-- Search -->
     <string name="search">Traži</string>
     <string name="type_2_characters">Upiši najmanje 2 znaka za početak pretraživanja.</string>
-    <!-- Filters -->
     <string name="filter">Filtar</string>
     <string name="no_items_found">Nijedna stavka nije pronađena.</string>
     <string name="change_filter">Promijeni filtar</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Potrebno je dopuštenje za prostor za pohranu</string>
     <string name="no_contacts_permission">Potrebno je dopuštenje za kontakte</string>
     <string name="no_camera_permissions">Potrebno je dopuštenje za kameru</string>
     <string name="no_audio_permissions">Potrebno je dopuštenje za zvuk</string>
-    <!-- Renaming -->
     <string name="rename_file">Preimenuj datoteku</string>
     <string name="rename_folder">Preimenuj mapu</string>
     <string name="rename_file_error">Nije moguće preimenovati datoteku</string>
@@ -54,7 +49,6 @@
     <string name="filename_invalid_characters_placeholder">Naziv datoteke \'%s\' sadrži nevažeće znakove</string>
     <string name="extension_cannot_be_empty">Ekstenzija ne smije biti prazna</string>
     <string name="source_file_doesnt_exist">Izvorišna datoteka %s ne postoji</string>
-    <!-- Copy / Move -->
     <string name="copy">Kopiraj</string>
     <string name="move">Premjesti</string>
     <string name="copy_move">Kopiraj/Premjesti</string>
@@ -79,7 +73,6 @@
     <string name="saving">Spremanje…</string>
     <string name="could_not_create_folder">Nije moguće stvoriti mapu %s</string>
     <string name="could_not_create_file">Nije moguće stvoriti datoteku %s</string>
-    <!-- Create new -->
     <string name="create_new">Stvori novo</string>
     <string name="folder">Mapa</string>
     <string name="file">Datoteka</string>
@@ -88,7 +81,6 @@
     <string name="invalid_name">Naziv sadrži ne važeće znakove</string>
     <string name="empty_name">Molimo unesite naziv</string>
     <string name="unknown_error_occurred">Nepoznata greška se dogodila</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">Datoteka \"%s\" već postoji</string>
     <string name="file_already_exists_overwrite">Datoteka \"%s\" već postoji. Presnimiti?</string>
     <string name="folder_already_exists">Mapa \"%s\" već postoji</string>
@@ -97,7 +89,6 @@
     <string name="skip">Preskoči</string>
     <string name="append">Dodaj s \'_1\'</string>
     <string name="apply_to_all">Primjeni na sve sukobe</string>
-    <!-- File picker -->
     <string name="select_folder">Odaberite mapu</string>
     <string name="select_file">Odaberite datoteku</string>
     <string name="confirm_storage_access_title">Potvrdite pristup vanjskom prostoru za pohranu</string>
@@ -109,7 +100,6 @@
         <item quantity="few">%d stavke</item>
         <item quantity="other">%d stavki</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d stavka</item>
         <item quantity="few">%d stavke</item>
@@ -120,7 +110,6 @@
         <item quantity="few">Deleting %d stavki</item>
         <item quantity="other">Deleting %d stavki</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Odaberite prostor za pohranu</string>
     <string name="internal">Unutranji prostor za pohranu</string>
     <string name="sd_card">SD kartica</string>
@@ -128,7 +117,6 @@
     <string name="sd_card_usb_same">SD kartice i USB putevi uređaja ne mogu biti isti</string>
     <string name="app_on_sd_card">Čini se da je aplikacija instalirana na SD karticu, što čini widgete aplikacije nedostupnim. Nećete ih čak ni vidjeti na popisu dostupnih widgeta.
         To je ograničenje sustava, pa ako želite upotrebljavati widgete, morate vratiti aplikaciju na unutarnju pohranu..</string>
-    <!-- File properties -->
     <string name="properties">Svojstva</string>
     <string name="path">Putanja</string>
     <string name="items_selected">Odabrane stavke</string>
@@ -143,7 +131,6 @@
     <string name="f_number">F-broj</string>
     <string name="camera">Kamera</string>
     <string name="song_title">Naziv pjesme</string>
-    <!-- Color customization -->
     <string name="background_color">Boja pozadine</string>
     <string name="text_color">Boja teksta</string>
     <string name="primary_color">Primarna boja</string>
@@ -160,7 +147,6 @@
     <string name="save_before_closing">Imate ne spremljene promjene. Želite li spremiti prije izlaska?</string>
     <string name="apply_to_all_apps">Primjeni boje na sve Simple Aplikacije</string>
     <string name="share_colors_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
-    <!-- Themes -->
     <string name="light_theme">Svijetla</string>
     <string name="dark_theme">Tamna</string>
     <string name="solarized">Solarizirana</string>
@@ -168,10 +154,8 @@
     <string name="black_white">Crno &amp; Bijelo</string>
     <string name="custom">Prilagođena</string>
     <string name="shared">Dijeljena</string>
-    <!-- What's new -->
     <string name="whats_new">Što je novo</string>
     <string name="whats_new_disclaimer">* samo velika ažuriranja su ovdje izlistana, ali imala ažuriranja su također prisutna</string>
-    <!-- Actionbar items -->
     <string name="delete">Izbriši</string>
     <string name="remove">Ukloni</string>
     <string name="rename">Preimenuj</string>
@@ -188,7 +172,6 @@
     <string name="empty_and_disable_recycle_bin">Ispraznite i onemogućite koš za smeće</string>
     <string name="undo">Poništi promjenu</string>
     <string name="redo">Ponovi promjenu</string>
-    <!-- Sorting -->
     <string name="sort_by">Sortiraj po</string>
     <string name="name">Naziv</string>
     <string name="size">Veličina</string>
@@ -200,12 +183,9 @@
     <string name="ascending">Uzlazno</string>
     <string name="descending">Silazno</string>
     <string name="use_for_this_folder">Koristi samo za ovu mapu</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Jeste li sigurni da želite nastaviti s brisanjem?</string>
     <string name="deletion_confirmation">Jeste li sigurni da želite izbrisati %s?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">Jeste li sigurni da se želite premjestiti %s u koš za smeće?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Jeste li sigurni da želite izbrisati ovu stavku?</string>
     <string name="are_you_sure_recycle_bin">Jeste li sigurni da želite premjestiti ovu stavku u koš za smeće?</string>
     <string name="do_not_ask_again">Ne pitaj me više u ovoj sesiji</string>
@@ -216,7 +196,6 @@
         <item quantity="few">UPOZORENJE: Brišete %d mapa</item>
         <item quantity="other">UPOZORENJE: Brišete %d mapa</item>
     </plurals>
-    <!-- Password protection -->
     <string name="enter_pin">Unesite PIN</string>
     <string name="please_enter_pin">Molimo unesite PIN</string>
     <string name="wrong_pin">Pogrešan PIN</string>
@@ -234,7 +213,6 @@
     <string name="go_to_settings">Idi u Postavke</string>
     <string name="protection_setup_successfully">Uspješno postavljanje lozinke. Molimo reinstalirajte aplikaciju u slučaju da je zaboravite.</string>
     <string name="fingerprint_setup_successfully">Uspješno postavljanje zaštite. Molimo reinstalirajte aplikaciju u slučaju problema s resetiranjem.</string>
-    <!-- Times -->
     <string name="yesterday">Jučer</string>
     <string name="today">Danas</string>
     <string name="tomorrow">Sutra</string>
@@ -277,7 +255,6 @@
         <item quantity="few">%d godine</item>
         <item quantity="other">%d godina</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d sekundu</item>
         <item quantity="few">%d sekundi</item>
@@ -313,7 +290,6 @@
         <item quantity="few">%d godine</item>
         <item quantity="other">%d godina</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d sekunda prije</item>
         <item quantity="few">%d sekundi prije</item>
@@ -334,7 +310,6 @@
         <item quantity="few">%d dana prije</item>
         <item quantity="other">%d dane prije</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d sekundu</item>
         <item quantity="few">%d sekundi</item>
@@ -370,12 +345,10 @@
         <item quantity="few">%d godine</item>
         <item quantity="other">%d godina</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Preostalo vrijeme do pokretanja alarma:\n%s</string>
     <string name="reminder_triggers_in">Preostalo vrijeme do pokretanja podsjetnika:\n%s</string>
     <string name="alarm_warning">Provjerite da li alarm ispravno funkcionira prije nego što se oslonite na njega. Moglo bi se dogoditi pogreška zbog ograničenja sustava vezanih uz štednju baterije.</string>
     <string name="reminder_warning">Pazite da podsjetnici ispravno rade prije nego što se oslonite na njih. Moglo bi se dogoditi pogreška zbog ograničenja sustava vezanih uz štednju baterije.</string>
-    <!-- Alarms -->
     <string name="snooze">Odgodi</string>
     <string name="dismiss">Odbaci</string>
     <string name="no_reminder">Nema podsjetnika</string>
@@ -384,7 +357,6 @@
     <string name="your_sounds">Vaši zvukovi</string>
     <string name="add_new_sound">Dodaj novi zvuk</string>
     <string name="no_sound">Nema zvuka</string>
-    <!-- Settings -->
     <string name="settings">Postavke</string>
     <string name="purchase_simple_thank_you">Kupite Jednostavno Hvala</string>
     <string name="customize_colors">Prilagodi boje</string>
@@ -412,7 +384,6 @@
     <string name="recycle_bin_cleaning_interval">Interval čišćenja koša za smeće</string>
     <string name="empty_recycle_bin">Isprazni koš za smeće</string>
     <string name="force_portrait_mode">Prikaz stavke u portretnom formatu</string>
-    <!-- Setting sections -->
     <string name="visibility">Vidljivost</string>
     <string name="security">Sigurnost</string>
     <string name="scrolling">Pomicanje</string>
@@ -421,7 +392,6 @@
     <string name="saving_label">Spremanje</string>
     <string name="startup">Pokretanje</string>
     <string name="text">Tekst</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Vrati ovu datoteku</string>
     <string name="restore_selected_files">Vrati odabrane datoteke</string>
     <string name="restore_all_files">Vrati sve datoteke</string>
@@ -429,7 +399,6 @@
     <string name="files_restored_successfully">Datoteke su uspješno vraćene</string>
     <string name="empty_recycle_bin_confirmation">Jeste li sigurni da želite isprazniti koš za smeće? Datoteke će biti trajno izgubljene.</string>
     <string name="recycle_bin_empty">Koš za smeće je prazan</string>
-    <!-- Import / Export -->
     <string name="importing">Uvoz…</string>
     <string name="exporting">Izvoz…</string>
     <string name="importing_successful">Uvoz je uspješan</string>
@@ -439,10 +408,8 @@
     <string name="importing_some_entries_failed">Uvoz nekih unosa nije uspio</string>
     <string name="exporting_some_entries_failed">Izvoz nekih unosa nije uspio</string>
     <string name="no_entries_for_exporting">Nije pronađen nijedan unos za izvoz</string>
-    <!-- OTG devices -->
     <string name="confirm_usb_storage_access_text">Molimo odaberite root mapu USB uređaja na sljedećem zaslonu, kako biste odobrili pristup</string>
     <string name="wrong_root_selected_usb">Odabrana mapa je pogrešna, odaberite root mapu svog USB uređaja</string>
-    <!-- Dates -->
     <string name="january">Siječanj</string>
     <string name="february">Veljača</string>
     <string name="march">Ožujak</string>
@@ -455,7 +422,6 @@
     <string name="october">Listopad</string>
     <string name="november">Studeni</string>
     <string name="december">Prosinac</string>
-    <!-- in January -->
     <string name="in_january">u Siječnju</string>
     <string name="in_february">u Veljači</string>
     <string name="in_march">u Ožujku</string>
@@ -488,8 +454,6 @@
     <string name="friday_short">Pet</string>
     <string name="saturday_short">Sub</string>
     <string name="sunday_short">Ned</string>
-    <!-- Pro version -->
-    <!-- About -->
     <string name="about">O nama</string>
     <string name="website_label">Za pregled izvornog koda posjetite</string>
     <string name="email_label">Pošaljite nam povratne informacije ili prijedloge na</string>
@@ -508,7 +472,6 @@
     <string name="purchase">Kupi</string>
     <string name="update_thank_you">Molim ažurirajte Jednostavno hvala na najnoviju verziju</string>
     <string name="read_it">Pročitajte</string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Često postavljenja pitanja</string>
     <string name="before_asking_question">Prije postavljanja pitanja, najprije pročitajte</string>
     <string name="faq_1_title_commons">Kako ne vidim widgete ove aplikacije na popisu widgeta?</string>
@@ -523,7 +486,6 @@
     <string name="faq_4_text_commons">Da, kada povlačite widget na početnom zaslonu, pojavit će se zaslon za konfiguraciju widgeta. U donjem lijevom kutu vidjet ćete obojene kvadrate, samo ih pritisnite da biste odabrali novu boju. Možete koristiti i klizač za podešavanje alphe.</string>
     <string name="faq_5_title_commons">Mogu li nekako vratiti izbrisane datoteke?</string>
     <string name="faq_5_text_commons">Ako su stvarno izbrisane, ne možete. Međutim, možete omogućiti upotrebu koša za smeće umjesto da ih izbrišete, u postavkama aplikacije. To će samo premjestiti datoteke u nju umjesto da ih izbriše.</string>
-    <!-- License -->
     <string name="notice">Ova aplikacija koristi biblioteke trećih strana kako bi olakšala moj život. Hvala Vam.</string>
     <string name="third_party_licences">Licence trećih strana</string>
     <string name="kotlin_title">Kotlin (programski jezik)</string>

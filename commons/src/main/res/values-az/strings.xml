@@ -21,24 +21,19 @@
     <string name="none">Heçnə</string>
     <string name="label">Etiket</string>
     <string name="download">Endir</string>
-    <!-- Favorites -->
     <string name="favorites">Sevimlilər</string>
     <string name="add_favorites">Sevimlilər əlavə et</string>
     <string name="add_to_favorites">Sevimlilərə əlavə et</string>
     <string name="remove_from_favorites">Sevimlilərdən sil</string>
-    <!-- Search -->
     <string name="search">Axtar</string>
     <string name="type_2_characters">Axtarışa başlamaq üçün ən az 2 simvol yazın.</string>
-    <!-- Filters -->
     <string name="filter">Filtr</string>
     <string name="no_items_found">Heçnə tapılmadı.</string>
     <string name="change_filter">Filtri dəyiş</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Yaddaş icazəsi tələb olunur</string>
     <string name="no_contacts_permission">Kontakt icazəsi tələb olunur</string>
     <string name="no_camera_permissions">Kamera icazəsi tələb olunur</string>
     <string name="no_audio_permissions">Səs icazəsi tələb olunur</string>
-    <!-- Renaming -->
     <string name="rename_file">Faylı yenidən adlandır</string>
     <string name="rename_folder">Qovluğu yenidən adlandır</string>
     <string name="rename_file_error">Faylı adlandırmaq olmur</string>
@@ -53,7 +48,6 @@
     <string name="filename_invalid_characters_placeholder">Fayl adı \'%s\' etibarsız simvollar ehtiva edir</string>
     <string name="extension_cannot_be_empty">Uzantı boş ola bilməz</string>
     <string name="source_file_doesnt_exist">Kök faylı %s yoxdur</string>
-    <!-- Copy / Move -->
     <string name="copy">Kopyala</string>
     <string name="move">Yerini dəyiş</string>
     <string name="copy_move">Kopyala / Yerini dəyiş</string>
@@ -78,7 +72,6 @@
     <string name="saving">Saxlanılır…</string>
     <string name="could_not_create_folder">%s qovluğunu yaratmaq olmur</string>
     <string name="could_not_create_file">%s faylını yaratmaq olmur</string>
-    <!-- Create new -->
     <string name="create_new">Yeni yarat</string>
     <string name="folder">Qovluq</string>
     <string name="file">Fayl</string>
@@ -87,7 +80,6 @@
     <string name="invalid_name">Ad etibarsız simvollar ehtiva edir</string>
     <string name="empty_name">Zəhmət olmasa adı daxil edin</string>
     <string name="unknown_error_occurred">Bilinməyən xəta baş verdi</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">\"%s\" faylı artıq mövcuddur</string>
     <string name="file_already_exists_overwrite">\"%s\" faylı artıq mövcuddur. Üzərinə yazılsın?</string>
     <string name="folder_already_exists">\"%s\" qovluğu artıq mövcuddur</string>
@@ -96,7 +88,6 @@
     <string name="skip">Keç</string>
     <string name="append">\'_1\' ilə əlavə et</string>
     <string name="apply_to_all">Hamsına şamil et</string>
-    <!-- File picker -->
     <string name="select_folder">Qovluq seç</string>
     <string name="select_file">Fayl seç</string>
     <string name="confirm_storage_access_title">Xarici yaddaş icazəsini təsdiqlə</string>
@@ -107,7 +98,6 @@
         <item quantity="one">%d fayl</item>
         <item quantity="other">%d fayl</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d fayl</item>
         <item quantity="other">%d fayl</item>
@@ -116,7 +106,6 @@
         <item quantity="one">%d silinir</item>
         <item quantity="other">%d silinir</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Yaddaş seç</string>
     <string name="internal">Daxili</string>
     <string name="sd_card">SD Kart</string>
@@ -124,7 +113,6 @@
     <string name="sd_card_usb_same">SD kart və USB cihaz yolu eyni ola bilməz</string>
     <string name="app_on_sd_card">Görünür tətbiqi SD karta yükləmisiniz, bu widgetlərin işləməsinin qarşısını alır. Siz widgetləri əlçatan widgetlər siyahısında belə görə bilməyəcəksiniz.
         Bu sistem məhdudiyyətidir, əgər vidjetlərin işləməsini istəyirsinizsə, tətbiqi daxili yaddaşa köçürməlisiniz.</string>
-    <!-- File properties -->
     <string name="properties">Xüsusiyyətlər</string>
     <string name="path">Yol</string>
     <string name="items_selected">Fayl seçildi</string>
@@ -140,7 +128,6 @@
     <string name="f_number">Diyafram</string>
     <string name="camera">Kamera</string>
     <string name="song_title">Musiqi başlığı</string>
-    <!-- Color customization -->
     <string name="background_color">Arxaplan rəngi</string>
     <string name="text_color">Yazı rəngi</string>
     <string name="primary_color">Birinci rəng</string>
@@ -157,7 +144,6 @@
     <string name="save_before_closing">Yadda saxlamadığınız dəyişikliklər var. Çıxmazdan əvvəl saxlanılsın?</string>
     <string name="apply_to_all_apps">Rəngləri bütün Simple Apps tətbiqlərinə şamil et</string>
     <string name="share_colors_success">Rənglər uğurla yeniləndi. \'Paylanmış\' adlı yeni tema əlavə edildi, xahiş olunur gələcəkdə bütün tətbiqlərin yeniləmələri üçün bundan istifadə edin.</string>
-    <!-- Themes -->
     <string name="light_theme">İşıqlı</string>
     <string name="dark_theme">Qaranlıq</string>
     <string name="solarized">Közərmiş</string>
@@ -165,10 +151,8 @@
     <string name="black_white">Ağ və Qara</string>
     <string name="custom">Özəl</string>
     <string name="shared">Paylanmış</string>
-    <!-- What's new -->
     <string name="whats_new">Yeni nə var</string>
     <string name="whats_new_disclaimer">* burada yalnız böyük təzələmələr sıralanıb, həmişə əlavə yeniliklər də olur</string>
-    <!-- Actionbar items -->
     <string name="delete">Sil</string>
     <string name="remove">Sil</string>
     <string name="rename">Yenidən adlandır</string>
@@ -185,7 +169,6 @@
     <string name="empty_and_disable_recycle_bin">Zibil qutusunu boşalt və qapat</string>
     <string name="undo">Geri al</string>
     <string name="redo">Təkrar et</string>
-    <!-- Sorting -->
     <string name="sort_by">Sırala</string>
     <string name="name">Ad</string>
     <string name="size">Ölçü</string>
@@ -197,18 +180,14 @@
     <string name="ascending">Artan</string>
     <string name="descending">Azalan</string>
     <string name="use_for_this_folder">Yalnız bu qovluq üçün işlət</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Silmə prosesini təsdiqləyirsiniz?</string>
     <string name="deletion_confirmation">%s faylı silmək istdəyinizə əminsiniz?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">%s\'i zibil qutusuna atmaq istədiyinizə əminsiniz?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Faylı silmək istədiyinizə əminsiniz?</string>
     <string name="are_you_sure_recycle_bin">Bu faylı zibil qutusuna atmaq istədiyinizə əminsiniz?</string>
     <string name="do_not_ask_again">Bu oturumda birdə soruşma</string>
     <string name="yes">Bəli</string>
     <string name="no">Xeyr</string>
-    <!-- Password protection -->
     <string name="enter_pin">PIN\'i daxil edin</string>
     <string name="please_enter_pin">Xahiş olunur PIN\'i daxil edin</string>
     <string name="wrong_pin">PIN yanlışdır</string>
@@ -226,7 +205,6 @@
     <string name="go_to_settings">Parametrlərə get</string>
     <string name="protection_setup_successfully">Şifrə təyini uğurludur. Əgər şifrəni unutsanız, tətbiqi yenidən yükləyin.</string>
     <string name="fingerprint_setup_successfully">Qoruma təyini uğurludur. Əgər təzələmə problemi yaşasanız, tətbiqi yenidən yükləyin.</string>
-    <!-- Times -->
     <string name="yesterday">Dünən</string>
     <string name="today">Bugün</string>
     <string name="tomorrow">Sabah</string>
@@ -262,7 +240,6 @@
         <item quantity="one">%d il</item>
         <item quantity="other">%d il</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d saniyə</item>
         <item quantity="other">%d saniyə</item>
@@ -291,7 +268,6 @@
         <item quantity="one">%d il</item>
         <item quantity="other">%d il</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d saniyə əvvəl</item>
         <item quantity="other">%d saniyə əvvəl</item>
@@ -308,7 +284,6 @@
         <item quantity="one">%d gün əvvəl</item>
         <item quantity="other">%d gün əvvəl</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d saniyə</item>
         <item quantity="other">%d saniyə</item>
@@ -337,12 +312,10 @@
         <item quantity="one">%d il</item>
         <item quantity="other">%d il</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Zəng dayanana qədər qalan vaxt:\n%s</string>
     <string name="reminder_triggers_in">Xatırladıcının işləməsinə qalan vaxt:\n%s</string>
     <string name="alarm_warning">Xahiş olunur zəngə istinad etməzdən əvvəl işləyib işləmədiyini yoxlayın. Güc qoruma parametrləri onun işləməsində problem yarada bilər.</string>
     <string name="reminder_warning">Xahiş olunur xatırladıcılara istinad etməzdən əvvəl işləyib işləmədiyini yoxlayın. Güc qoruma parametrləri onların işləməsində problem yarada bilər.</string>
-    <!-- Alarms -->
     <string name="alarm">Zəng</string>
     <string name="snooze">Yuxu</string>
     <string name="dismiss">Burax</string>
@@ -352,7 +325,6 @@
     <string name="your_sounds">Sizin səsləriniz</string>
     <string name="add_new_sound">Yeni səs əlavə et</string>
     <string name="no_sound">Səs yoxdur</string>
-    <!-- Settings -->
     <string name="settings">Parametrlər</string>
     <string name="purchase_simple_thank_you">Sadə Təşəkkür\'ü Alın</string>
     <string name="customize_colors">Rəngləri dəyiş</string>
@@ -380,7 +352,6 @@
     <string name="recycle_bin_cleaning_interval">Zibil qutusu təmizlik intervalı</string>
     <string name="empty_recycle_bin">Zibil qutusunu boşalt</string>
     <string name="force_portrait_mode">Portret moduna zorla</string>
-    <!-- Setting sections -->
     <string name="visibility">Görünürlük</string>
     <string name="security">Qoruma</string>
     <string name="scrolling">Sürüşdürmə</string>
@@ -389,7 +360,6 @@
     <string name="saving_label">Saxlama</string>
     <string name="startup">Başlanğıc</string>
     <string name="text">Mətn</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Bu faylı geri qaytar</string>
     <string name="restore_selected_files">Bu faylları geri qaytar</string>
     <string name="restore_all_files">Bütün faylları geri qaytar</string>
@@ -397,7 +367,6 @@
     <string name="files_restored_successfully">Fayllar uğurla geri qaytarıldı</string>
     <string name="empty_recycle_bin_confirmation">Zibil qutusunu boşaltmaq istədiyinizə əminsiniz? Fayllar tamamilə itiriləcək.</string>
     <string name="recycle_bin_empty">Zibil qutusu boşdur</string>
-    <!-- Import / Export -->
     <string name="importing">Daxil edilir…</string>
     <string name="exporting">Çıxarılır…</string>
     <string name="importing_successful">Daxiletmə uğurludur</string>
@@ -407,10 +376,8 @@
     <string name="importing_some_entries_failed">Bəzi girişləri daxil etmək olmur</string>
     <string name="exporting_some_entries_failed">Bəzi girişləri çıxarmaq olmur</string>
     <string name="no_entries_for_exporting">Çıxarış üçün heçbir giriş tapılmadı</string>
-    <!-- OTG devices -->
     <string name="confirm_usb_storage_access_text">Xahiş edirik icazə vermək üçün sonrakı ekranda çıxan USB cihazın root qovluğunu seçin</string>
     <string name="wrong_root_selected_usb">Yanlış qovluq seçilib, xahiş olunur USB cihazın root qovluğunu seçin</string>
-    <!-- Dates -->
     <string name="january">Yanvar</string>
     <string name="february">Fevral</string>
     <string name="march">Mart</string>
@@ -422,7 +389,6 @@
     <string name="october">Oktyabr</string>
     <string name="november">Noyabr</string>
     <string name="december">Dekabr</string>
-    <!-- in January -->
     <string name="in_january">Yanvarda</string>
     <string name="in_february">Fevralda</string>
     <string name="in_march">Martda</string>
@@ -456,8 +422,6 @@
     <string name="friday_short">Cü</string>
     <string name="saturday_short">Şnb</string>
     <string name="sunday_short">Bzr</string>
-    <!-- Pro version -->
-    <!-- About -->
     <string name="about">Haqqında</string>
     <string name="website_label">Kök koda keçiş üçün</string>
     <string name="email_label">Geri dönüş və tövsiyələrinizi göndərin</string>
@@ -476,10 +440,8 @@
     <string name="device_os">Cihaz ƏS: %s</string>
     <string name="purchase">Ödəniş Et</string>
     <string name="update_thank_you">Xahiş olunur Sadə Təşəkkür tətbiqini ən son versiyaya yeniləyin</string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Tez-tez Soruşulan Suallar</string>
     <string name="before_asking_question">Xahiş olunur sual verməmişdən qabaq aşağıdakı bölməni oxuyun</string>
-    <!-- License -->
     <string name="notice">Bu tətbiq həyatımı asanlaşdırmaq üçün aşağıdakı üçüncü partiya tətbiq kitabxanalarından istifadə edir. Təşəkkürlər.</string>
     <string name="third_party_licences">Üçüncü partiya lisenziyaları</string>
     <string name="kotlin_title">Kotlin (proqramlaşdırma dili)</string>

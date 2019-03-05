@@ -7,67 +7,29 @@
     <string name="unknown">ไม่รู้จัก</string>
     <string name="details">รายละเอียด</string>
     <string name="none">ไม่มี</string>
-    <!-- Favorites -->
-    <!-- Search -->
     <string name="search">ค้นหา</string>
-    <!-- Filters -->
-    <!-- Permissions -->
-    <!-- Renaming -->
-    <!-- Copy / Move -->
-    <!-- Create new -->
-    <!-- File operation conflicts -->
     <string name="skip">ข้าม</string>
-    <!-- File picker -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Storages -->
-    <!-- File properties -->
     <string name="path">เส้นทาง</string>
     <string name="duration">ระยะเวลา</string>
     <string name="exposure_time">เวลารับแสง</string>
     <string name="camera">กล้องถ่ายรูป</string>
-    <!-- Color customization -->
     <string name="save">บันทึก</string>
-    <!-- Themes -->
     <string name="dark_theme">มืด</string>
     <string name="custom">กำหนดเอง</string>
-    <!-- What's new -->
-    <!-- Actionbar items -->
     <string name="delete">ลบ</string>
     <string name="remove">นำออก</string>
     <string name="share">แบ่งปัน</string>
     <string name="select_all">เลือกทั้งหมด</string>
     <string name="undo">เลิกทำ</string>
     <string name="redo">ทำซ้ำ</string>
-    <!-- Sorting -->
     <string name="size">ขนาด</string>
     <string name="date_taken">วันที่ถ่าย</string>
     <string name="title">ชื่อเรื่อง</string>
-    <!-- Confirmation dialog -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="yes">ใช่</string>
-    <!-- Password protection -->
-    <!-- Times -->
     <string name="seconds_raw">วินาที</string>
     <string name="minutes_raw">นาที</string>
     <string name="hours_raw">ชั่วโมง</string>
-    <!-- For example: I will be there in 5 minutes -->
-    <!-- For example: Event reminder: 3 minutes before -->
-    <!-- For example: Postpone reminder by 3 minutes -->
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
-    <!-- Alarms -->
-    <!-- Settings -->
     <string name="widgets">วิดเจ็ต</string>
-    <!-- Setting sections -->
     <string name="text">ข้อความ</string>
-    <!-- Recycle Bin -->
-    <!-- Import / Export -->
-    <!-- OTG devices -->
-    <!-- Dates -->
-    <!-- in January -->
-    <!-- Pro version -->
-    <!-- About -->
     <string name="donate">บริจาค</string>
-    <!-- FAQ -->
-    <!-- License -->
 </resources>

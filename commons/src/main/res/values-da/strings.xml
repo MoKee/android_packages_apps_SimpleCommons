@@ -23,23 +23,18 @@
     <string name="transparent_color">Transparent farve</string>
     <string name="select_a_different_color">Vælg en anden farve</string>
     <string name="download">Download</string>
-    <!-- Favorites -->
     <string name="favorites">Bogmærker</string>
     <string name="add_favorites">Tilføj bogmærker</string>
     <string name="add_to_favorites">Føj til bogmærker</string>
     <string name="remove_from_favorites">Fjern fra bogmærker</string>
-    <!-- Search -->
     <string name="search">Søg</string>
     <string name="type_2_characters">Start søgningen ved at skrive mindst to tegn.</string>
-    <!-- Filters -->
     <string name="no_items_found">Intet fundet.</string>
     <string name="change_filter">Skift filter</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Tilladelse til at gemme påkrævet</string>
     <string name="no_contacts_permission">Adgang til kontakter påkrævet</string>
     <string name="no_camera_permissions">Adgang til kamera påkrævet</string>
     <string name="no_audio_permissions">Adgang til lyd påkrævet</string>
-    <!-- Renaming -->
     <string name="rename_file">Omdøb fil</string>
     <string name="rename_folder">Omdøb mappe</string>
     <string name="rename_file_error">Kunne ikke omdøbe filen</string>
@@ -56,7 +51,6 @@
     <string name="source_file_doesnt_exist">Kildefilen %s eksisterer ikke</string>
     <string name="prepend_filenames">Tilføj forrest til filnavne</string>
     <string name="append_filenames">Tilføj bagest til filnavne (men før filtypenavnet)</string>
-    <!-- Copy / Move -->
     <string name="copy">Kopier</string>
     <string name="move">Flyt</string>
     <string name="copy_move">Kopier/Flyt</string>
@@ -80,7 +74,6 @@
     <string name="saving">Gemmer…</string>
     <string name="could_not_create_folder">Kunne ikke oprette mappen %s</string>
     <string name="could_not_create_file">Kunne ikke oprette filen %s</string>
-    <!-- Create new -->
     <string name="create_new">Opret ny</string>
     <string name="folder">Mappe</string>
     <string name="file">Fil</string>
@@ -89,7 +82,6 @@
     <string name="invalid_name">Navnet indeholder ugyldige tegn</string>
     <string name="empty_name">Skriv et navn</string>
     <string name="unknown_error_occurred">Der opstod en ukendt fejl</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">Filen \"%s\" findes allerede</string>
     <string name="file_already_exists_overwrite">Filen \"%s\" findes allerede. Overskriv?</string>
     <string name="folder_already_exists">Mappen \"%s\" findes allerede</string>
@@ -99,7 +91,6 @@
     <string name="skip">Spring over</string>
     <string name="append">Tilføj \"_1\"</string>
     <string name="apply_to_all">Anvend på alle konflikter</string>
-    <!-- File picker -->
     <string name="select_folder">Vælg en mappe</string>
     <string name="select_file">Vælg en fil</string>
     <string name="confirm_storage_access_title">Bekræft adgang til eksternt lager</string>
@@ -110,7 +101,6 @@
         <item quantity="one">%d element</item>
         <item quantity="other">%d elementer</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d element</item>
         <item quantity="other">%d elementer</item>
@@ -119,7 +109,6 @@
         <item quantity="one">Sletter %d element</item>
         <item quantity="other">Sletter %d elementer</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Vælg lager</string>
     <string name="internal">Intern</string>
     <string name="sd_card">SD-kort</string>
@@ -128,7 +117,6 @@
     <string name="sd_card_usb_same">Stierne til SD-kortet og USB-enheden kan ikke være ens</string>
     <string name="app_on_sd_card">Det ser ud til at du har appen installeret på et SD-kort. Det gør at appens widget ikke er tilgængelig og ikke kan ses på listen med widgets.
         Dette skyldes en begrænsning i systemet, så hvis du vil bruge appens widgets må du flytte appen tilbage til det interne lager.</string>
-    <!-- File properties -->
     <string name="properties">Egenskaber</string>
     <string name="path">Sti</string>
     <string name="items_selected">Elementer valgt</string>
@@ -143,7 +131,6 @@
     <string name="f_number">F-nummer</string>
     <string name="camera">Kamera</string>
     <string name="song_title">Sangtitel</string>
-    <!-- Color customization -->
     <string name="background_color">Baggrundsfarve</string>
     <string name="text_color">Tekstfarve</string>
     <string name="primary_color">Primær farve</string>
@@ -160,17 +147,14 @@
     <string name="save_before_closing">Du har ændringer der ikke er gemt. Vil du gemme dem?</string>
     <string name="apply_to_all_apps">Anvend farverne på alle Simple Apps</string>
     <string name="share_colors_success">Farverne er ændret. Et nyt udseende kaldet \"Tilpasset\" er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
-    <!-- Themes -->
     <string name="light_theme">Lys</string>
     <string name="dark_theme">Mørk</string>
     <string name="dark_red">Mørkerød</string>
     <string name="black_white">Sort &amp; hvid</string>
     <string name="custom">Tilpasset</string>
     <string name="shared">Gemt</string>
-    <!-- What's new -->
     <string name="whats_new">Hvad er nyt</string>
     <string name="whats_new_disclaimer">* Kun større opdateringer er nævnt her, der er altid flere mindre forbedringer også</string>
-    <!-- Actionbar items -->
     <string name="delete">Slet</string>
     <string name="remove">Fjern</string>
     <string name="rename">Omdøb</string>
@@ -187,7 +171,6 @@
     <string name="empty_and_disable_recycle_bin">Tøm og deaktiver papirkurven</string>
     <string name="undo">Fortryd</string>
     <string name="redo">Annuller fortryd</string>
-    <!-- Sorting -->
     <string name="sort_by">Sorter efter</string>
     <string name="name">Navn</string>
     <string name="size">Størrelse</string>
@@ -201,12 +184,9 @@
     <string name="ascending">Stigende</string>
     <string name="descending">Faldende</string>
     <string name="use_for_this_folder">Anvend kun på denne mappe</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Er du sikker på at du vil fortsætte med at slette?</string>
     <string name="deletion_confirmation">Er du sikker på at du vil slette %s?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">Er du sikker på at du vil flytte %s til papirkurven?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Er du sikker på at du vil slette dette?</string>
     <string name="are_you_sure_recycle_bin">Er du sikker på at du vil flytte dette til papirkurven?</string>
     <string name="do_not_ask_again">Spørg ikke igen i denne session</string>
@@ -216,7 +196,6 @@
         <item quantity="one">ADVARSEL: Du sletter en mappe</item>
         <item quantity="other">ADVARSEL: Du sletter %d mapper</item>
     </plurals>
-    <!-- Password protection -->
     <string name="enter_pin">Indtast PIN</string>
     <string name="please_enter_pin">Indtast en PIN</string>
     <string name="wrong_pin">Forkert PIN</string>
@@ -234,7 +213,6 @@
     <string name="go_to_settings">Gå til indstillingerne</string>
     <string name="protection_setup_successfully">Adgangskoden er oprettet. Geninstaller appen hvis du glemmer den.</string>
     <string name="fingerprint_setup_successfully">Beskyttelsen er oprettet. Geninstaller appen hvis du har problemer med at gendanne den.</string>
-    <!-- Times -->
     <string name="yesterday">I går</string>
     <string name="today">I dag</string>
     <string name="tomorrow">I morgen</string>
@@ -270,7 +248,6 @@
         <item quantity="one">%d år</item>
         <item quantity="other">%d år</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d sekund</item>
         <item quantity="other">%d sekunder</item>
@@ -299,7 +276,6 @@
         <item quantity="one">%d år</item>
         <item quantity="other">%d år</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="minutes_before">
         <item quantity="one">%d minut før start</item>
         <item quantity="other">%d minutter før start</item>
@@ -312,7 +288,6 @@
         <item quantity="one">%d dag før start</item>
         <item quantity="other">%d dage før start</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d sekund</item>
         <item quantity="other">%d sekunder</item>
@@ -341,13 +316,11 @@
         <item quantity="one">%d år</item>
         <item quantity="other">%d år</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Resterende tid før alarmen lyder:\n%s</string>
     <string name="reminder_triggers_in">Tid tilbage inden alarmen lyder:\n%s</string>
     <string name="alarm_warning">Du anbefales sikre dig at alarmen virker som den skal inden du stoler på den. Den kan drille som følge af strømbesparende begrænsninger på systemet.</string>
     <string name="reminder_warning">Du anbefales sikre dig at påmindelser virker som de skal inden du stoler på dem. De kan drille som følge af strømbesparende begrænsninger på systemet.</string>
     <string name="notifications_disabled">Påmindelser er ikke aktiveret for denne app. Du kan aktivere dem i indstillingerne på din enhed.</string>
-    <!-- Alarms -->
     <string name="snooze">Udsæt</string>
     <string name="dismiss">Slå fra</string>
     <string name="no_reminder">Ingen påmindelse</string>
@@ -356,7 +329,6 @@
     <string name="your_sounds">Dine lyde</string>
     <string name="add_new_sound">Tilføj en ny lyd</string>
     <string name="no_sound">Ingen lyd</string>
-    <!-- Settings -->
     <string name="settings">Indstillinger</string>
     <string name="purchase_simple_thank_you">Køb Simple Thank You</string>
     <string name="customize_colors">Rediger farver</string>
@@ -383,13 +355,11 @@
     <string name="recycle_bin_cleaning_interval">Interval for tømning af papirkurven</string>
     <string name="empty_recycle_bin">Tøm papirkurven</string>
     <string name="force_portrait_mode">Brug stående visning</string>
-    <!-- Setting sections -->
     <string name="visibility">Synlighed</string>
     <string name="security">Sikkerhed</string>
     <string name="file_operations">Filoperationer</string>
     <string name="recycle_bin">Papirkurv</string>
     <string name="text">Tekst</string>
-    <!-- Recycle Bin -->
     <string name="empty_recycle_bin_confirmation">Er du sikker på at du vil tømme papirkurven? Filerne vil ikke kunne genskabes.</string>
     <string name="recycle_bin_empty">Papirkurven er tom</string>
     <string name="moving_recycle_bin_items_disabled">Flytning af indhold i papirkurven er deaktiveret, gendan i stedet</string>
@@ -397,7 +367,6 @@
         <item quantity="one">Flytter en fil til papirkurven</item>
         <item quantity="other">Flytter %d filer til papirkurven</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">Importerer…</string>
     <string name="exporting">Eksporterer…</string>
     <string name="importing_successful">Import gennemført</string>
@@ -407,10 +376,8 @@
     <string name="importing_some_entries_failed">Import mislykkedes delvist</string>
     <string name="exporting_some_entries_failed">Eksport mislykkedes delvist</string>
     <string name="no_entries_for_exporting">Der er ikke fundet indhold til eksport</string>
-    <!-- OTG devices -->
     <string name="confirm_usb_storage_access_text">Vælg rodmappen på USB-enheden på den næste skærm for at give adgang.</string>
     <string name="wrong_root_selected_usb">Den forkerte mappe er valgt, vælg rodmappen på din USB-enhed</string>
-    <!-- Dates -->
     <string name="january">Januar</string>
     <string name="february">Februar</string>
     <string name="march">Marts</string>
@@ -418,7 +385,6 @@
     <string name="june">Juni</string>
     <string name="july">Juli</string>
     <string name="october">Oktober</string>
-    <!-- in January -->
     <string name="in_january">i januar</string>
     <string name="in_february">i februar</string>
     <string name="in_march">i marts</string>
@@ -448,10 +414,8 @@
     <string name="friday_short">Fre</string>
     <string name="saturday_short">Lør</string>
     <string name="sunday_short">Søn</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">Denne version af appen vedligeholdes ikke længere. I stedet er der kommet en Pro-version du kan opgradere til.</string>
     <string name="it_is_free">Den er stadig gratis indtil: %s. Downloader du den indtil da kan du blive ved at bruge den gratis fremover.</string>
-    <!-- About -->
     <string name="about">Om</string>
     <string name="website_label">For at se kildekoden besøg</string>
     <string name="email_label">Send feedback og forslag til</string>
@@ -468,7 +432,6 @@
     <string name="purchase">Køb</string>
     <string name="update_thank_you">Opdater venligst Simple Thank You til den seneste version</string>
     <string name="read_it">Læs det</string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Ofte stillede spørgsmål</string>
     <string name="before_asking_question">Inden du stiller et spørgsmål bedes du først læse</string>
     <string name="faq_1_title_commons">Hvorfor kan jeg ikke se denne app\'s widget på listen med widgets?</string>
@@ -482,7 +445,6 @@
     <string name="faq_4_text_commons">Jep. Når du føjer en widget til din skærm kommer muligheden for at konfigurere den frem. I nederste venstre hjørne finder du farvede kvadrater, klik på dem og vælg en ny farve. Du kan justere alfa med skyderen.</string>
     <string name="faq_5_title_commons">Kan jeg gendanne slettede filer?</string>
     <string name="faq_5_text_commons">Nej, ikke hvis de virkelig er slettet. Men du kan vælge at bruge en papirkurv i stedet for at slette noget direkte. Papirkurven aktiveres i indstillingerne.</string>
-    <!-- License -->
     <string name="notice">Denne app bruger følgende 3.-parts biblioteker der gør at mit liv bliver lidt enklere. Tak.</string>
     <string name="third_party_licences">3.-parts licencer</string>
     <string name="kotlin_title">Kotlin (programmeringssprog)</string>

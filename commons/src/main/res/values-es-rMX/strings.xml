@@ -24,23 +24,18 @@
     <string name="transparent_color">Color transparente</string>
     <string name="select_a_different_color">Seleccionar un color diferente</string>
     <string name="download">Descargar</string>
-    <!-- Favorites -->
     <string name="favorites">Favoritos</string>
     <string name="add_favorites">Agregar a favoritos</string>
     <string name="add_to_favorites">Añadir a Favoritos</string>
-    <!-- Search -->
     <string name="search">Buscar</string>
     <string name="type_2_characters">Escribe por lo menos dos caracteres para iniciar la búsqueda.</string>
-    <!-- Filters -->
     <string name="filter">Filtrar</string>
     <string name="no_items_found">No se encontraron artículos.</string>
     <string name="change_filter">Cambiar filtro</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Se requiere permiso de almacenamiento</string>
     <string name="no_contacts_permission">Se requiere permiso de Contactos</string>
     <string name="no_camera_permissions">Se requiere permiso para la Cámara</string>
     <string name="no_audio_permissions">Se requiere permiso de Audio</string>
-    <!-- Renaming -->
     <string name="rename_file">Renombrar archivo</string>
     <string name="rename_folder">Renombrar carpeta</string>
     <string name="rename_file_error">No se pudo renombrar el archivo</string>
@@ -57,7 +52,6 @@
     <string name="source_file_doesnt_exist">El archivo %s no existe</string>
     <string name="prepend_filenames">Preponer los nombres de archivo</string>
     <string name="append_filenames">Adjuntar nombres de archivos (antes de la extensión de archivo)</string>
-    <!-- Copy / Move -->
     <string name="copy">Copiar</string>
     <string name="move">Mover</string>
     <string name="copy_move">Copiar/Mover</string>
@@ -82,7 +76,6 @@
     <string name="saving">Guardando…</string>
     <string name="could_not_create_folder">No se puede crear la carpeta %s</string>
     <string name="could_not_create_file">No se puede crear el fichero %s</string>
-    <!-- Create new -->
     <string name="create_new">Crear nueva</string>
     <string name="folder">Carpeta</string>
     <string name="file">Archivo</string>
@@ -91,7 +84,6 @@
     <string name="invalid_name">El nombre contiene caracteres no válidos</string>
     <string name="empty_name">Por favor introduce un nombre</string>
     <string name="unknown_error_occurred">Ocurrió un error desconocido</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">El archivo \"%s\" ya existe</string>
     <string name="file_already_exists_overwrite">El archivo \"%s\" ya existe. Sobreescribir?</string>
     <string name="folder_already_exists">La carpeta \"%s\" ya existe</string>
@@ -101,7 +93,6 @@
     <string name="skip">Saltar</string>
     <string name="append">Añadir \'_1\'</string>
     <string name="apply_to_all">Aplicar a todo</string>
-    <!-- File picker -->
     <string name="select_folder">Seleccione una carpeta</string>
     <string name="select_file">Seleccione un archivo</string>
     <string name="confirm_storage_access_title">Permita el acceso al almacenamiento externo</string>
@@ -112,7 +103,6 @@
         <item quantity="one">%d elemento</item>
         <item quantity="other">%d elementos</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d elemento</item>
         <item quantity="other">%d elementos</item>
@@ -121,7 +111,6 @@
         <item quantity="one">Eliminando %d elemento</item>
         <item quantity="other">Eliminando %d elementos</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Seleccione almacenamiento</string>
     <string name="internal">Almacenamiento interno</string>
     <string name="sd_card">Tarjeta SD</string>
@@ -130,7 +119,6 @@
     <string name="sd_card_usb_same">La targeta SD i el dispositivo USB no pueden ser los mismos</string>
     <string name="app_on_sd_card">Parece que tienes la aplicación instalada en una tarjeta SD, lo que hace que los widgets de la aplicación no estén disponibles. Ni siquiera los verás en la lista de widgets disponibles.
         Es una limitación del sistema, por lo que si deseas usar los widgets, debes volver a colocar la aplicación en el almacenamiento interno.</string>
-    <!-- File properties -->
     <string name="properties">Propiedades</string>
     <string name="path">Ruta</string>
     <string name="items_selected">Elementos seleccionados</string>
@@ -143,7 +131,6 @@
     <string name="iso_speed">Velocidad ISO</string>
     <string name="camera">Cámara</string>
     <string name="song_title">Título de la canción</string>
-    <!-- Color customization -->
     <string name="background_color">Color del fondo</string>
     <string name="text_color">Color del texto</string>
     <string name="foreground_color">Color de primer plano</string>
@@ -160,17 +147,14 @@
     <string name="save_before_closing">Tiene cambios sin aplicar. ¿Guardar antes de salir?</string>
     <string name="apply_to_all_apps">Aplicar colores a todas las aplicaciones Simple Apps</string>
     <string name="share_colors_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Shared\', Por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
-    <!-- Themes -->
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Oscuro</string>
     <string name="dark_red">Rojo Oscuro</string>
     <string name="black_white">Blanco &amp; Negro</string>
     <string name="custom">Personalizado</string>
     <string name="shared">Compartido</string>
-    <!-- What's new -->
     <string name="whats_new">Novedades</string>
     <string name="whats_new_disclaimer">* Sólo las actualizaciones más grandes se enumeran aquí, siempre hay algunas pequeñas mejoras también</string>
-    <!-- Actionbar items -->
     <string name="delete">Borrar</string>
     <string name="remove">Quitar</string>
     <string name="rename">Renombrar</string>
@@ -187,7 +171,6 @@
     <string name="empty_and_disable_recycle_bin">Vaciar y desactivar la papelera de reciclaje</string>
     <string name="undo">Deshacer</string>
     <string name="redo">Rehacer</string>
-    <!-- Sorting -->
     <string name="sort_by">Ordenar por</string>
     <string name="name">Nombre </string>
     <string name="size">Tamaño</string>
@@ -199,12 +182,9 @@
     <string name="random">Aleatorio</string>
     <string name="sort_randomly">Ordenar aleatoriamente</string>
     <string name="use_for_this_folder">Sólo para esta carpeta</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">¿Está seguro de querer continuar con la eliminación?</string>
     <string name="deletion_confirmation">Estas seguro que quieres borrar %s?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">¿Estás seguro de que quieres mover %s a la papelera de reciclaje?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">¿Seguro que quieres eliminar este elemento?</string>
     <string name="are_you_sure_recycle_bin">¿Seguro que quieres enviar este elemento a la papelera?</string>
     <string name="do_not_ask_again">No volver a preguntar en esta sesión</string>
@@ -214,7 +194,6 @@
         <item quantity="one">ADVERTENCIA: está eliminando %d carpeta</item>
         <item quantity="other">ADVERTENCIA: está eliminando %d carpetas</item>
     </plurals>
-    <!-- Password protection -->
     <string name="enter_pin">Introduzca PIN</string>
     <string name="please_enter_pin">Por favor introduzca PIN</string>
     <string name="wrong_pin">PIN erróneo</string>
@@ -232,7 +211,6 @@
     <string name="go_to_settings">Ir a la configuración</string>
     <string name="protection_setup_successfully">Se ha agregado la contraseña con éxito. Por favor, vuelva a instalar la aplicación en caso de que la olvide.</string>
     <string name="fingerprint_setup_successfully">Configuración de protección con éxito. Por favor, vuelva a instalar la aplicación en caso de problemas al restablecerla.</string>
-    <!-- Times -->
     <string name="yesterday">Ayer</string>
     <string name="today">Hoy</string>
     <string name="tomorrow">Mañana</string>
@@ -268,7 +246,6 @@
         <item quantity="one">%d año</item>
         <item quantity="other">%d años</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d segundo</item>
         <item quantity="other">%d segundos</item>
@@ -297,7 +274,6 @@
         <item quantity="one">%d año</item>
         <item quantity="other">%d años</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d segundo antes</item>
         <item quantity="other">%d segundos antes</item>
@@ -314,7 +290,6 @@
         <item quantity="one">%d día antes</item>
         <item quantity="other">%d días antes</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d segundo</item>
         <item quantity="other">%d segundos</item>
@@ -343,13 +318,11 @@
         <item quantity="one">%d año</item>
         <item quantity="other">%d años</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Tiempo restante hasta que suene la alarma:\n%s</string>
     <string name="reminder_triggers_in">Tiempo restante hasta que se active el recordatorio:\n%s</string>
     <string name="alarm_warning">Asegúrese de que la alarma funcione correctamente antes de confiar en ella. Podría comportarse mal debido a las restricciones del sistema relacionadas con el ahorro de batería.</string>
     <string name="reminder_warning">Asegúrese de que los recordatorios funcionen correctamente antes de confiar en ellos. Podrían portarse mal debido a las restricciones del sistema relacionadas con el ahorro de batería.</string>
     <string name="notifications_disabled">Las notificaciones de esta aplicación están deshabilitadas. Vaya a la configuración de su dispositivo para habilitarlos.</string>
-    <!-- Alarms -->
     <string name="alarm">Alarma</string>
     <string name="snooze">Silenciar</string>
     <string name="dismiss">Descartar</string>
@@ -359,7 +332,6 @@
     <string name="your_sounds">Tus sonidos</string>
     <string name="add_new_sound">Agrega un nuevo sonido</string>
     <string name="no_sound">Sin sonido</string>
-    <!-- Settings -->
     <string name="settings">Ajustes</string>
     <string name="purchase_simple_thank_you">Compra Simple Thank You</string>
     <string name="customize_colors">Cambiar colores</string>
@@ -388,7 +360,6 @@
     <string name="recycle_bin_cleaning_interval">Intervalo de vaciado de la papelera de reciclaje</string>
     <string name="empty_recycle_bin">Vaciar papelera de reciclaje</string>
     <string name="force_portrait_mode">Forzar el modo retrato</string>
-    <!-- Setting sections -->
     <string name="visibility">Visibilidad</string>
     <string name="security">Seguridad</string>
     <string name="scrolling">Desplazamiento</string>
@@ -397,7 +368,6 @@
     <string name="saving_label">Guardando</string>
     <string name="startup">Puesta en marcha</string>
     <string name="text">Texto</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Restaurar el fichero</string>
     <string name="restore_selected_files">Restaurar los ficheros seleccionados</string>
     <string name="restore_all_files">Restaurar todos los ficheros</string>
@@ -406,7 +376,6 @@
     <string name="empty_recycle_bin_confirmation">Seguro que quieres vaciar la papelera? Los ficheros se perderan definitivamente.</string>
     <string name="recycle_bin_empty">La papelera está vacia</string>
     <string name="moving_recycle_bin_items_disabled">El movimiento de los elementos de la papelera de reciclaje está deshabilitado, utilice Restaurar</string>
-    <!-- Import / Export -->
     <string name="importing">Importando…</string>
     <string name="exporting">Exportando…</string>
     <string name="importing_successful">Importación correcta</string>
@@ -416,11 +385,9 @@
     <string name="importing_some_entries_failed">La importación de algunas entradas ha fallado</string>
     <string name="exporting_some_entries_failed">La exportación de algunas entradas ha fallado</string>
     <string name="no_entries_for_exporting">No se han encontrado entradas para exportar</string>
-    <!-- OTG devices -->
     <string name="usb_detected">Parece que tienes un dispositivo USB conectado a tu dispositivo. Para asegurarse de que sus archivos aparezcan correctamente, debe otorgar permisos adicionales.</string>
     <string name="confirm_usb_storage_access_text">Elija la carpeta raíz del dispositivo USB en la pantalla siguiente, para otorgar acceso</string>
     <string name="wrong_root_selected_usb">Carpeta incorrecta, seleccione la carpeta raíz de su dispositivo USB</string>
-    <!-- Dates -->
     <string name="january">Enero</string>
     <string name="february">Febrero</string>
     <string name="march">Marzo</string>
@@ -433,7 +400,6 @@
     <string name="october">Octubre</string>
     <string name="november">Noviembre</string>
     <string name="december">Diciembre</string>
-    <!-- in January -->
     <string name="in_january">en Enero</string>
     <string name="in_february">en Febrero</string>
     <string name="in_march">en Marzo</string>
@@ -467,13 +433,11 @@
     <string name="friday_short">Vie</string>
     <string name="saturday_short">Sáb</string>
     <string name="sunday_short">Dom</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">Esta versión de la aplicación ya no se mantiene. Por favor, actualice a la versión Pro.</string>
     <string name="it_is_free">Es gratis hasta: %s. If you download it till then, you will be able to use it for free forever.</string>
     <string name="more_info">Más informanción</string>
     <string name="upgrade">Actualizar</string>
     <string name="upgrade_calendar">Tienes que migrar manualmente los eventos almacenados localmente mediante la exportación en un archivo .ics, y luego importarlos. Puedes encontrar los botones de exportar / importar en el menú de la pantalla principal.</string>
-    <!-- About -->
     <string name="about">Acerca de</string>
     <string name="website_label">Más aplicaciones sencillas y código fuente en</string>
     <string name="email_label">Envía tus comentarios o sugerencias a</string>
@@ -490,7 +454,6 @@
     <string name="additional_info">Información adicional</string>
     <string name="update_thank_you">Por favor, actualice Simple Tank You a la última versión</string>
     <string name="read_it">Leer</string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Preguntas frecuentes</string>
     <string name="before_asking_question">Antes de hacer una pregunta, primero lea las</string>
     <string name="faq_1_title_commons">¿Cómo es que no veo este widget de aplicaciones en la lista de widgets?</string>
@@ -505,7 +468,6 @@
     <string name="faq_4_text_commons">Sí, al arrastrar un widget en la pantalla de inicio aparece una pantalla de configuración de widgets. Verá cuadrados de colores en la esquina inferior izquierda, solo presione para elegir un nuevo color. Puede usar el control deslizante para ajustar el alfa también.</string>
     <string name="faq_5_title_commons">¿Puedo de alguna manera restaurar archivos borrados?</string>
     <string name="faq_5_text_commons">Si realmente fueron eliminados, no puedes. Sin embargo, puedes habilitar el uso de una papelera de reciclaje en lugar de eliminar en la configuración de la aplicación. Eso solo moverá los archivos en lugar de eliminarlos.</string>
-    <!-- License -->
     <string name="notice">Esta aplicación usa las siguientes bibliotecas de terceros que hacen mi vida más fácil. Gracias.</string>
     <string name="third_party_licences">Licencias de terceros</string>
     <string name="kotlin_title">Kotlin (Programming language)</string>

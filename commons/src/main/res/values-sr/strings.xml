@@ -9,35 +9,19 @@
     <string name="details">Детаљи</string>
     <string name="none">Ниједно</string>
     <string name="download">Преузимање</string>
-    <!-- Favorites -->
-    <!-- Search -->
     <string name="search">Претражи</string>
-    <!-- Filters -->
-    <!-- Permissions -->
-    <!-- Renaming -->
-    <!-- Copy / Move -->
-    <!-- Create new -->
     <string name="folder">Фасцикла</string>
-    <!-- File operation conflicts -->
     <string name="skip">Прескочи</string>
-    <!-- File picker -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Storages -->
     <string name="sd_card">SD Картица</string>
-    <!-- File properties -->
     <string name="path">Путања</string>
     <string name="duration">Трајање</string>
     <string name="exposure_time">Време експозиције</string>
     <string name="camera">Камера</string>
-    <!-- Color customization -->
     <string name="theme">Тема</string>
     <string name="save">Сачувај</string>
-    <!-- Themes -->
     <string name="light_theme">Светло</string>
     <string name="dark_theme">Мрак</string>
     <string name="custom">Прилагођено</string>
-    <!-- What's new -->
-    <!-- Actionbar items -->
     <string name="delete">Избриши</string>
     <string name="remove">Уклони</string>
     <string name="rename">Преименуј</string>
@@ -46,46 +30,24 @@
     <string name="select_all">Изабери све</string>
     <string name="undo">Опозови</string>
     <string name="redo">Понови</string>
-    <!-- Sorting -->
     <string name="name">Име: </string>
     <string name="size">Величина</string>
     <string name="date_taken">Датум снимања</string>
     <string name="title">Наслов</string>
-    <!-- Confirmation dialog -->
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="yes">Да</string>
     <string name="no">Не</string>
-    <!-- Password protection -->
-    <!-- Times -->
     <string name="seconds_raw">секунди</string>
     <string name="minutes_raw">минута</string>
     <string name="hours_raw">сати</string>
-    <!-- For example: I will be there in 5 minutes -->
-    <!-- For example: Event reminder: 3 minutes before -->
-    <!-- For example: Postpone reminder by 3 minutes -->
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
-    <!-- Alarms -->
     <string name="alarm">Аларм</string>
     <string name="snooze">Одложи</string>
     <string name="dismiss">Одбаци</string>
-    <!-- Settings -->
     <string name="settings">Подешавања</string>
     <string name="small">Мали</string>
     <string name="medium">Средње</string>
     <string name="widgets">Виџети</string>
-    <!-- Setting sections -->
     <string name="visibility">Видљивост</string>
     <string name="text">Текст</string>
-    <!-- Recycle Bin -->
-    <!-- Import / Export -->
-    <!-- OTG devices -->
-    <!-- Dates -->
-    <!-- in January -->
-    <!-- Pro version -->
-    <!-- About -->
     <string name="about">О програму</string>
     <string name="donate">Донирајте</string>
-    <!-- FAQ -->
-    <!-- License -->
 </resources>

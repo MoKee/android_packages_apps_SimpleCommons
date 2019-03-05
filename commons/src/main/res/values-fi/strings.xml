@@ -20,23 +20,18 @@
     <string name="notes">Muistiinpanot</string>
     <string name="none">Ei mitään</string>
     <string name="download">Lataa</string>
-    <!-- Favorites -->
     <string name="favorites">Suosikit</string>
     <string name="add_to_favorites">Lisää suosikkeihin</string>
     <string name="remove_from_favorites">Poista suosikeista</string>
-    <!-- Search -->
     <string name="search">Haku</string>
     <string name="type_2_characters">Syötä ainakin 2 merkkiä hakeaksesi</string>
-    <!-- Filters -->
     <string name="filter">Suodata</string>
     <string name="no_items_found">Tiedostoja ei löytynyt.</string>
     <string name="change_filter">Vaihda suodatin</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Lupa tallennustilaan vaaditaan</string>
     <string name="no_contacts_permission">Lupa yhteystietoihin vaaditaan</string>
     <string name="no_camera_permissions">Lupa kameraan vaaditaan</string>
     <string name="no_audio_permissions">Lupa ääneen vaaditaan</string>
-    <!-- Renaming -->
     <string name="rename_file">Uudelleennimeä tiedosto</string>
     <string name="rename_folder">Uudelleennimeä kansio</string>
     <string name="rename_file_error">Tiedostoa ei voitu uudelleennimetä</string>
@@ -51,7 +46,6 @@
     <string name="filename_invalid_characters_placeholder">Tiedostonimi \'%s\' sisältää kiellettyjä merkkejä</string>
     <string name="extension_cannot_be_empty">Tiedostomuoto ei voi olla tyhjä</string>
     <string name="source_file_doesnt_exist">Lähdetiedostoa %s ei löydy</string>
-    <!-- Copy / Move -->
     <string name="copy">Kopioi</string>
     <string name="move">Siirrä</string>
     <string name="copy_move">Kopioi / Siirrä</string>
@@ -76,7 +70,6 @@
     <string name="saving">Tallennetaan</string>
     <string name="could_not_create_folder">Ei voitu luoda kansiota %s</string>
     <string name="could_not_create_file">Ei voitu luoda tiedostoa %s</string>
-    <!-- Create new -->
     <string name="create_new">Luo uusi</string>
     <string name="folder">Kansio</string>
     <string name="file">Tiedosto</string>
@@ -85,7 +78,6 @@
     <string name="invalid_name">Nimessä on kiellettyjä merkkejä</string>
     <string name="empty_name">Syötä nimi</string>
     <string name="unknown_error_occurred">Tapahtui tuntematon virhe</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">Tiedosto \"%s\" on jo olemassa</string>
     <string name="file_already_exists_overwrite">Tiedosto \"%s\" on jo olemassa. Korvataanko?</string>
     <string name="folder_already_exists">Kansio \"%s\" on jo olemassa</string>
@@ -94,21 +86,17 @@
     <string name="skip">Ohita</string>
     <string name="append">Lisää nimeen \'_1\'</string>
     <string name="apply_to_all">Käytä kaikkiin</string>
-    <!-- File picker -->
     <string name="select_folder">Valitse kansio</string>
     <string name="select_file">Valitse tiedosto</string>
     <string name="confirm_storage_access_title">Vahvista pääsy ulkoiseen tallennustilaan</string>
     <string name="confirm_storage_access_text">Valitse muistikortin root-kansio seuraavaksi antaaksesi kirjoitusoikeuden</string>
     <string name="confirm_storage_access_text_sd">Jos et näe muistikorttia, kokeile tätä</string>
     <string name="confirm_selection">Vahvista valinta</string>
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Storages -->
     <string name="select_storage">Valitse tallennustila</string>
     <string name="internal">Sisäinen</string>
     <string name="sd_card">Muistikortti</string>
     <string name="wrong_root_selected">Väärä kansio valittu, valitse muistikortin root-kansio</string>
     <string name="sd_card_usb_same">Muistikortin ja USB-laitteen polut eivät voi olla samat</string>
-    <!-- File properties -->
     <string name="properties">Ominaisuudet</string>
     <string name="path">Polku</string>
     <string name="items_selected">Kohteita valittu</string>
@@ -124,7 +112,6 @@
     <string name="f_number">F-arvo</string>
     <string name="camera">Kamera</string>
     <string name="song_title">Kappaleen nimi</string>
-    <!-- Color customization -->
     <string name="background_color">Taustaväri</string>
     <string name="text_color">Tekstin väri</string>
     <string name="primary_color">Ensisijainen väri</string>
@@ -140,17 +127,14 @@
     <string name="save_before_closing">Sinulla on tallentamattomia muutoksia. Tallennetaanko ennen sulkemista?</string>
     <string name="apply_to_all_apps">Käytä värejä kaikissa Simple App -sovelluksissa</string>
     <string name="share_colors_success">Värit päivitetty. Uusi teema nimeltä \'Jaettu\' käytä sitä jatkossa muokataksesi värejä kaikissa sovelluksissa.</string>
-    <!-- Themes -->
     <string name="light_theme">Vaalea</string>
     <string name="dark_theme">Tumma</string>
     <string name="dark_red">Tumman punainen</string>
     <string name="black_white">Musta &amp; Valkoinen</string>
     <string name="custom">Oma</string>
     <string name="shared">Jaettu</string>
-    <!-- What's new -->
     <string name="whats_new">Mitä uutta</string>
     <string name="whats_new_disclaimer">* tässä mainitaan vain isot muutokset, ei pieniä korjauksia</string>
-    <!-- Actionbar items -->
     <string name="delete">Poista</string>
     <string name="remove">Poista</string>
     <string name="rename">Uudelleennimeä</string>
@@ -166,7 +150,6 @@
     <string name="maximum_share_reached">Et voi jakaa näin paljoa kerralla</string>
     <string name="undo">Kumoa</string>
     <string name="redo">Toista</string>
-    <!-- Sorting -->
     <string name="sort_by">Järjestä</string>
     <string name="name">Nimen perusteella</string>
     <string name="size">Koon perusteella</string>
@@ -177,14 +160,10 @@
     <string name="ascending">Nouseva</string>
     <string name="descending">Laskeva</string>
     <string name="use_for_this_folder">Käytä vain tässä kansiossa</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Haluatko varmasti poistaa pysyvästi?</string>
-    <!-- Are you sure you want to delete 5 items? -->
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="do_not_ask_again">Älä kysy uudestaan tällä istunnolla</string>
     <string name="yes">Poista</string>
     <string name="no">Peruuta</string>
-    <!-- Password protection -->
     <string name="enter_pin">Syötä PIN</string>
     <string name="please_enter_pin">Syötä PIN</string>
     <string name="wrong_pin">Väärä PIN</string>
@@ -202,7 +181,6 @@
     <string name="go_to_settings">Mene asetuksiin</string>
     <string name="protection_setup_successfully">Salasana tallennettu. Asenna sovellus uudelleen jos unohdat sen.</string>
     <string name="fingerprint_setup_successfully">Suojaus onnistui. Asenna sovellus uudelleen jos kohtaat ongelmia.</string>
-    <!-- Times -->
     <string name="today">Tänään</string>
     <string name="tomorrow">Huomenna</string>
     <string name="seconds_raw">sekuntia</string>
@@ -237,7 +215,6 @@
         <item quantity="one">%d vuosi</item>
         <item quantity="other">%d vuotta</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d sekunnissa</item>
         <item quantity="other">%d sekunnissa</item>
@@ -266,7 +243,6 @@
         <item quantity="one">%d vuosi</item>
         <item quantity="other">%d vuotta</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">%d sekunti ennen</item>
         <item quantity="other">%d sekuntia ennen</item>
@@ -283,7 +259,6 @@
         <item quantity="one">%d päivä ennen</item>
         <item quantity="other">%d päivää ennen</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d sekunnilla</item>
         <item quantity="other">%d sekunnilla</item>
@@ -312,17 +287,14 @@
         <item quantity="one">%d vuosi</item>
         <item quantity="other">%d vuotta</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Aikaa hälytykseen:\n%s</string>
     <string name="alarm_warning">Varmista että hälytys toimii ennenkuin turvaudut siihen. Se voi toimia virheellisesti laitteesi virransäästötoiminnoista riippuen.</string>
     <string name="reminder_warning">Varmista että muistutus toimii ennenkuin turvaudut siihen. Se voi toimia virheellisesti laitteesi virransäästötoiminnoista riippuen.</string>
-    <!-- Alarms -->
     <string name="alarm">Hälytys</string>
     <string name="snooze">Torkuta</string>
     <string name="dismiss">Ohita</string>
     <string name="no_reminder">Ei muistutusta</string>
     <string name="at_start">Alussa</string>
-    <!-- Settings -->
     <string name="settings">Asetukset</string>
     <string name="customize_colors">Muokkaa sovelluksen värejä</string>
     <string name="use_english_language">Käytä Englannin kieltä</string>
@@ -344,14 +316,11 @@
     <string name="use_same_snooze">Käytä aina samaa torkkuaikaa</string>
     <string name="snooze_time">Torkkuaika</string>
     <string name="vibrate_on_button_press">Tärinä koskettaessa</string>
-    <!-- Setting sections -->
     <string name="visibility">Näkyvyys</string>
     <string name="security">Turvallisuus</string>
     <string name="scrolling">Vierittäminen</string>
     <string name="file_operations">Tiedostot</string>
     <string name="text">Teksti</string>
-    <!-- Recycle Bin -->
-    <!-- Import / Export -->
     <string name="importing">Tuodaan</string>
     <string name="exporting">Viedään</string>
     <string name="importing_successful">Tuonti onnistui</string>
@@ -361,10 +330,8 @@
     <string name="importing_some_entries_failed">Joidenkin kohteiden tuonti epäonnistui</string>
     <string name="exporting_some_entries_failed">Joidenkin kohteiden vienti epäonnistui</string>
     <string name="no_entries_for_exporting">Vientikohteita ei löydetty</string>
-    <!-- OTG devices -->
     <string name="confirm_usb_storage_access_text">Valitse USB-laitteen root-kansio salliaksesi pääsyn</string>
     <string name="wrong_root_selected_usb">Väärä kansio valittu, valitse USB-laitteen root-kansio</string>
-    <!-- Dates -->
     <string name="january">Tammikuu</string>
     <string name="february">Helmikuu</string>
     <string name="march">Maaliskuu</string>
@@ -377,7 +344,6 @@
     <string name="october">Lokakuu</string>
     <string name="november">Marraskuu</string>
     <string name="december">Joulukuu</string>
-    <!-- in January -->
     <string name="monday">Maanantai</string>
     <string name="tuesday">Tiistai</string>
     <string name="wednesday">Keskiviikko</string>
@@ -395,8 +361,6 @@
     <string name="thursday_short">Tor</string>
     <string name="friday_short">Per</string>
     <string name="saturday_short">Lau</string>
-    <!-- Pro version -->
-    <!-- About -->
     <string name="about">Tietoa</string>
     <string name="website_label">Lähdekoodin löydät täältä</string>
     <string name="email_label">Lähetä palautteesi ja ehdotuksia osoitteeseen</string>
@@ -413,7 +377,6 @@
     <string name="app_version">Sovelluksen versio: %s</string>
     <string name="device_os">Laitteen käyttöjärjestelmä: %s</string>
     <string name="purchase">Osta</string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Usein kysytyt kysymykset</string>
     <string name="faq_1_title_commons">Miksi en näe tämän sovelluksen widgettiä widget-valikossa?</string>
     <string name="faq_1_text_commons">Todennäköisesti asensit sovelluksen ulkoiselle muistikortille. Tässä tapauksessa ainoa vaihtoehto on uudelleenasentaa sovellus laitteen sisäiseen tallennustilaan.</string>
@@ -424,7 +387,6 @@
     <string name="faq_3_text_commons">Valitettavasti se ei ole mahdollista. Tiedostot poistetaan aina pysyvästi.</string>
     <string name="faq_4_title_commons">En pidä widgetin väreistä, voinko vaihtaa ne?</string>
     <string name="faq_4_text_commons">Kyllä. Kun luot widgetin aloitusnäytölle aukeaa widgetin määritysikkuna. Paina värillisiä neliöitä valitaksesi uudet värit. Vierityspalkista voit myös säätää läpinäkyvyyttä.</string>
-    <!-- License -->
     <string name="notice">Tämä sovellus käyttää kolmannen osapuolen lisenssejä tehdäkseni elämästäni helpompaa. Kiitos.</string>
     <string name="third_party_licences">Kolmansien osapuolien lisenssit</string>
 </resources>

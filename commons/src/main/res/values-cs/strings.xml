@@ -25,24 +25,19 @@
     <string name="transparent_color">Průhledná barva</string>
     <string name="select_a_different_color">Zvolte jinou barvu</string>
     <string name="download">Ke stažení</string>
-    <!-- Favorites -->
     <string name="favorites">Oblíbené</string>
     <string name="add_favorites">Přidat oblíbené</string>
     <string name="add_to_favorites">Přidat do oblíbených</string>
     <string name="remove_from_favorites">Odebrat z oblíbených</string>
-    <!-- Search -->
     <string name="search">Hledat</string>
     <string name="type_2_characters">Zadejte alespoň 2 znaky pro spuštění hledání.</string>
-    <!-- Filters -->
     <string name="filter">Filtrovat</string>
     <string name="no_items_found">Nebyly nalezeny žádné položky.</string>
     <string name="change_filter">Změnit filtr</string>
-    <!-- Permissions -->
     <string name="no_storage_permissions">Vyžadováno oprávnění k úložišti</string>
     <string name="no_contacts_permission">Vyžadováno oprávnění ke kontaktům</string>
     <string name="no_camera_permissions">Vyžadováno oprávnění k fotoaparátu</string>
     <string name="no_audio_permissions">Vyžadováno oprávnění ke zvuku</string>
-    <!-- Renaming -->
     <string name="rename_file">Přejmenovat soubor</string>
     <string name="rename_folder">Přejmenovat složku</string>
     <string name="rename_file_error">Nelze přejmenovat soubor</string>
@@ -59,7 +54,6 @@
     <string name="source_file_doesnt_exist">Zdrojový soubor %s neexistuje</string>
     <string name="prepend_filenames">Přidat před názvy souborů</string>
     <string name="append_filenames">Přidat za názvy souborů (před přípony)</string>
-    <!-- Copy / Move -->
     <string name="copy">Kopírovat</string>
     <string name="move">Přesunout</string>
     <string name="copy_move">Kopírovat / Přesunout</string>
@@ -84,7 +78,6 @@
     <string name="saving">Ukládání…</string>
     <string name="could_not_create_folder">Nepodařilo se vytvořit složku %s</string>
     <string name="could_not_create_file">Nepodařilo se vytvořit soubor %s</string>
-    <!-- Create new -->
     <string name="create_new">Vytvořit nový</string>
     <string name="folder">Složka</string>
     <string name="file">Soubor</string>
@@ -93,7 +86,6 @@
     <string name="invalid_name">Název obsahuje neplatné znaky</string>
     <string name="empty_name">Zadejte prosím název</string>
     <string name="unknown_error_occurred">Vyskytla se neznámá chyba</string>
-    <!-- File operation conflicts -->
     <string name="file_already_exists">Soubor \"%s\" již existuje</string>
     <string name="file_already_exists_overwrite">Soubor \"%s\" již existuje. Přepsat?</string>
     <string name="folder_already_exists">Složka \"%s\" již existuje</string>
@@ -103,7 +95,6 @@
     <string name="skip">Přeskočit</string>
     <string name="append">Připnout s \'_1\'</string>
     <string name="apply_to_all">Použít pro všechny</string>
-    <!-- File picker -->
     <string name="select_folder">Zvolte složku</string>
     <string name="select_file">Zvolte soubor</string>
     <string name="confirm_storage_access_title">Potvrďte přístup k externímu úložišti</string>
@@ -116,7 +107,6 @@
         <item quantity="many">%d položek</item>
         <item quantity="other">%d položek</item>
     </plurals>
-    <!-- Are you sure you want to delete 5 items? -->
     <plurals name="delete_items">
         <item quantity="one">%d položka</item>
         <item quantity="few">%d položky</item>
@@ -129,7 +119,6 @@
         <item quantity="many">Mazání %d položek</item>
         <item quantity="other">Mazání %d položek</item>
     </plurals>
-    <!-- Storages -->
     <string name="select_storage">Vybrat uložiště</string>
     <string name="internal">Interní</string>
     <string name="sd_card">SD karta</string>
@@ -138,7 +127,6 @@
     <string name="sd_card_usb_same">Cesta k SD kartě a USB zařízení nesmí být stejná</string>
     <string name="app_on_sd_card">Zdá se, že máte aplikaci nainstalovanou na SD kartě, což způsobí nedostupnost widgetů. Ani je neuvidíte na seznamu dostupných widgetů.
          Jde o systémové omezení, čili pokud chcete widgety používat, musíte přesunout aplikaci zpět na interní úložiště.</string>
-    <!-- File properties -->
     <string name="properties">Vlastnosti</string>
     <string name="path">Cesta</string>
     <string name="items_selected">Počet zvolených položek</string>
@@ -155,7 +143,6 @@
     <string name="camera">Fotoaparát</string>
     <string name="exif">EXIF</string>
     <string name="song_title">Název skladby</string>
-    <!-- Color customization -->
     <string name="background_color">Barva pozadí</string>
     <string name="text_color">Barva textu</string>
     <string name="primary_color">Hlavní barva</string>
@@ -175,7 +162,6 @@
     <string name="app_icon_color_warning">VAROVÁNÍ: Některé spouštěče nezpracovávají přizpůsobení ikon aplikací správně. V případě, že ikona zmizí, zkuste spustit aplikaci přes Obchod Play nebo nějaký widget, pokud je k dispozici.
         Po spuštění stačí nastavit výchozí oranžovou ikonu # F57C00. V nejhorším případě budete muset aplikaci přeinstalovat.</string>
     <string name="share_colors_success">Barvy byly úspěšně aktualizovány. Byl přidán nový \'Sdílený\' motiv, prosím použijte jej při další úpravě barev.</string>
-    <!-- Themes -->
     <string name="light_theme">Světlý</string>
     <string name="dark_theme">Tmavý</string>
     <string name="solarized">Solarizovaný</string>
@@ -183,10 +169,8 @@
     <string name="black_white">Černá &amp; Bílá</string>
     <string name="custom">Vlastní</string>
     <string name="shared">Sdíleno</string>
-    <!-- What's new -->
     <string name="whats_new">Co je nového</string>
     <string name="whats_new_disclaimer">* jsou zde uvedeny pouze větší změny, vždy jsou doprovázeny také menšími změnami</string>
-    <!-- Actionbar items -->
     <string name="delete">Smazat</string>
     <string name="remove">Odstranit</string>
     <string name="rename">Přejmenovat</string>
@@ -204,7 +188,6 @@
     <string name="undo">Zpět</string>
     <string name="redo">Opakovat</string>
     <string name="print">Tisk</string>
-    <!-- Sorting -->
     <string name="sort_by">Seřadit dle</string>
     <string name="name">Názvu</string>
     <string name="size">Velikosti</string>
@@ -218,12 +201,9 @@
     <string name="ascending">Vzestupně</string>
     <string name="descending">Sestupně</string>
     <string name="use_for_this_folder">Použít pouze pro tuto složku</string>
-    <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Opravdu chcete pokračovat s odstraněním?</string>
     <string name="deletion_confirmation">Jste si jisti že chcete odstranit %s?</string>
-    <!-- Are you sure you want to delete 5 items? -->
     <string name="move_to_recycle_bin_confirmation">Opravdu chcete přesunout %s do koše?</string>
-    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
     <string name="are_you_sure_delete">Jste si jisti, že chcete odstranit tuto položku?</string>
     <string name="are_you_sure_recycle_bin">Jste si jisti, že chcete vyhodit tuto položku do koše?</string>
     <string name="do_not_ask_again">Neptat se znovu v této relaci</string>
@@ -235,7 +215,6 @@
         <item quantity="many">VAROVÁNÍ: Mažete %d složek</item>
         <item quantity="other">VAROVÁNÍ: Mažete %d složek</item>
     </plurals>
-    <!-- Password protection -->
     <string name="pin">PIN</string>
     <string name="enter_pin">Zadejte PIN</string>
     <string name="please_enter_pin">Prosím zadejte PIN</string>
@@ -254,7 +233,6 @@
     <string name="go_to_settings">Přejít do Nastavení</string>
     <string name="protection_setup_successfully">Heslo bylo úspěšně nastaveno. Pokud ho zapomenete, prosím přeinstalujte aplikaci.</string>
     <string name="fingerprint_setup_successfully">Ochrana byla úspěšně nastavena. Prosím přeinstalujte aplikaci v případě problémů s její změnou.</string>
-    <!-- Times -->
     <string name="yesterday">Včera</string>
     <string name="today">Dnes</string>
     <string name="tomorrow">Zítra</string>
@@ -304,7 +282,6 @@
         <item quantity="many">%d roků</item>
         <item quantity="other">%d roků</item>
     </plurals>
-    <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
         <item quantity="one">%d sekunda</item>
         <item quantity="few">%d sekundy</item>
@@ -347,7 +324,6 @@
         <item quantity="many">%d roků</item>
         <item quantity="other">%d roků</item>
     </plurals>
-    <!-- For example: Event reminder: 3 minutes before -->
     <plurals name="seconds_before">
         <item quantity="one">o %d sekundu dříve</item>
         <item quantity="few">o %d sekundy dříve</item>
@@ -390,7 +366,6 @@
         <item quantity="many">před %d lety</item>
         <item quantity="other">před %d lety</item>
     </plurals>
-    <!-- For example: Postpone reminder by 3 minutes -->
     <plurals name="by_seconds">
         <item quantity="one">%d sekunda</item>
         <item quantity="few">%d sekundy</item>
@@ -433,13 +408,11 @@
         <item quantity="many">%d roků</item>
         <item quantity="other">%d roků</item>
     </plurals>
-    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Zbývající čas do zvonění budíku:\n%s</string>
     <string name="reminder_triggers_in">Zbývající čas do připomínky:\n%s</string>
     <string name="alarm_warning">Před tím, než se začnete spoléhat na budík, prosím ujistěte se, zda funguje správně. Mohlo by dojít k potížím díky omezením systému týkajících se úspory baterie.</string>
     <string name="reminder_warning">Před tím, než se začnete spoléhat na upozornění, prosím ujistěte se, zda fungují správně. Mohlo by dojít k potížím díky omezením systému týkajících se úspory baterie.</string>
     <string name="notifications_disabled">Oznámení této aplikace jsou zakázány. Přejděte do nastavení zařízení pro jejich povolení.</string>
-    <!-- Alarms -->
     <string name="alarm">Budík</string>
     <string name="snooze">Odložit</string>
     <string name="dismiss">Zrušit</string>
@@ -449,7 +422,6 @@
     <string name="your_sounds">Vaše zvuky</string>
     <string name="add_new_sound">Přidat nový zvuk</string>
     <string name="no_sound">Bez zvuku</string>
-    <!-- Settings -->
     <string name="settings">Nastavení</string>
     <string name="purchase_simple_thank_you">Koupit Simple Thank You</string>
     <string name="customize_colors">Přizpůsobit barvy</string>
@@ -484,7 +456,6 @@
     <string name="import_settings">Import nastavení</string>
     <string name="settings_exported_successfully">Nastavení bylo úspěšně exportováno</string>
     <string name="settings_imported_successfully">Nastavení bylo úspěšně importováno</string>
-    <!-- Setting sections -->
     <string name="visibility">Viditelnost</string>
     <string name="security">Zabezpečení</string>
     <string name="scrolling">Rolování</string>
@@ -494,7 +465,6 @@
     <string name="startup">Po spuštění</string>
     <string name="text">Text</string>
     <string name="migrating">Migrace</string>
-    <!-- Recycle Bin -->
     <string name="restore_this_file">Obnovit tento soubor</string>
     <string name="restore_selected_files">Obnovit vybrané soubory</string>
     <string name="restore_all_files">Obnovit všechny soubory</string>
@@ -511,7 +481,6 @@
         <item quantity="many">Přesouvání %d položek do odpadkového koše</item>
         <item quantity="other">Přesouvání %d položek do odpadkového koše</item>
     </plurals>
-    <!-- Import / Export -->
     <string name="importing">Importování…</string>
     <string name="exporting">Exportování…</string>
     <string name="importing_successful">Importování bylo úspěšné</string>
@@ -522,12 +491,10 @@
     <string name="exporting_some_entries_failed">Export některých položek se nezdařil</string>
     <string name="no_entries_for_importing">Nebyly nalezeny žádné položky pro import</string>
     <string name="no_entries_for_exporting">Nebyly nalezeny žádné položky pro export</string>
-    <!-- OTG devices -->
     <string name="usb">USB</string>
     <string name="usb_detected">Zdá se, že máte k zařízení připojeno zařízení USB. Chcete-li se ujistit, zda se soubory zobrazují správně, musíte udělit další oprávnění.</string>
     <string name="confirm_usb_storage_access_text">Na následující obrazovce zvolte root složku USB zařízení pro povolení oprávnění</string>
     <string name="wrong_root_selected_usb">Vybrána neplatná složka, vyberte root složku vašeho USB zařízení</string>
-    <!-- Dates -->
     <string name="january">Leden</string>
     <string name="february">Únor</string>
     <string name="march">Březen</string>
@@ -540,7 +507,6 @@
     <string name="october">Říjen</string>
     <string name="november">Listopad</string>
     <string name="december">Prosinec</string>
-    <!-- in January -->
     <string name="in_january">v lednu</string>
     <string name="in_february">v únoru</string>
     <string name="in_march">v březnu</string>
@@ -574,13 +540,11 @@
     <string name="friday_short">Pá</string>
     <string name="saturday_short">So</string>
     <string name="sunday_short">Ne</string>
-    <!-- Pro version -->
     <string name="upgrade_to_pro_long">Tato verze aplikace již není podporována. Proveďte upgrade na verzi Pro.</string>
     <string name="it_is_free">Je do bezplatné do: %s. Pokud si ji do té doby stáhnete, budete ji moci zdarma navždy používat.</string>
     <string name="more_info">Další informace</string>
     <string name="upgrade">Upgradovat</string>
     <string name="upgrade_calendar">Musíte migrovat lokálně uložené události ručně prostřednictvím exportu do souboru .ics a následně importovat. V nabídce hlavní obrazovky naleznete tlačítka export/import.</string>
-    <!-- About -->
     <string name="about">O aplikaci</string>
     <string name="website_label">Pro zdrojové kódy navštivte</string>
     <string name="email_label">Zpětnou vazbu či návhry posílejte na</string>
@@ -604,7 +568,6 @@
     <string name="read_it">Čtěte</string>
     <string name="sideloaded_app">            Zdá se, že verze aplikace je poškozená. Stáhněte si prosím původní verzi <a href="%s">here</a>.
         </string>
-    <!-- FAQ -->
     <string name="frequently_asked_questions">Často kladené otázky</string>
     <string name="before_asking_question">Před položením otázky, prosím nejprve čtěte</string>
     <string name="faq_1_title_commons">Proč nevidím widget této aplikace v seznamu widgetů?</string>
@@ -622,7 +585,6 @@
     <string name="faq_6_title_commons">Ikona spouštěče aplikací zmizela. Co můžu dělat?</string>
     <string name="faq_6_text_commons">To je způsobeno tím, že váš spouštěč nepodporuje přizpůsobení ikon správně. Zkuste spustit aplikaci přes Obchod Play nebo nějaký widgetu, pokud je k dispozici.
         Po spuštění stačí nastavit výchozí oranžovou ikonu # F57C00. V nejhorším případě budete muset aplikaci přeinstalovat.</string>
-    <!-- License -->
     <string name="notice">Tato aplikace využívá následující knihovny třetích stran. Děkuji.</string>
     <string name="third_party_licences">Licence třetích stran</string>
     <string name="kotlin_title">Kotlin (programovací jazyk)</string>
