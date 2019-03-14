@@ -13,6 +13,8 @@
     <string name="label">Tên hiển thị</string>
     <string name="transparent">Trong suốt</string>
     <string name="download">Tải xuống</string>
+    <string name="notification">Thông báo</string>
+    <string name="email">Thư điện tử</string>
     <string name="favorites">Yêu thích</string>
     <string name="add_to_favorites">Thêm vào yêu thích</string>
     <string name="remove_from_favorites">Xóa khỏi yêu thích</string>

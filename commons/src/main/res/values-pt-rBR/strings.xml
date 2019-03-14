@@ -25,6 +25,8 @@
     <string name="transparent_color">Cor transparente</string>
     <string name="select_a_different_color">Selecione uma cor diferente</string>
     <string name="download">Baixar</string>
+    <string name="notification">Notificação</string>
+    <string name="email">E-mail</string>
     <string name="favorites">Favoritos</string>
     <string name="add_favorites">Adicionar favoritos</string>
     <string name="add_to_favorites">Adicionar aos favoritos</string>

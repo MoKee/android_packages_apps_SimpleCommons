@@ -25,6 +25,8 @@
     <string name="transparent_color">Şeffaf renk</string>
     <string name="select_a_different_color">Farklı bir renk seç</string>
     <string name="download">İndirme</string>
+    <string name="notification">Bildirim</string>
+    <string name="email">E-posta</string>
     <string name="favorites">Favoriler</string>
     <string name="add_favorites">Favori ekle</string>
     <string name="add_to_favorites">Favorilere ekle</string>

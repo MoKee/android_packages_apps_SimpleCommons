@@ -10,6 +10,8 @@
     <string name="none">Нічога</string>
     <string name="label">Пазнака</string>
     <string name="download">Спампаваць</string>
+    <string name="notification">Апавяшчэнне</string>
+    <string name="email">Электронная пошта</string>
     <string name="favorites">Абранае</string>
     <string name="add_to_favorites">Дадаць у абранае</string>
     <string name="search">Пошук</string>

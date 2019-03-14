@@ -25,6 +25,8 @@
     <string name="transparent_color">Warna transparan</string>
     <string name="select_a_different_color">Pilih warna yang berbeda</string>
     <string name="download">Unduh</string>
+    <string name="notification">Pemberitahuan</string>
+    <string name="email">Surel</string>
     <string name="favorites">Favorit</string>
     <string name="add_favorites">Tambah ke favorit</string>
     <string name="add_to_favorites">Tambahkan ke favorit</string>

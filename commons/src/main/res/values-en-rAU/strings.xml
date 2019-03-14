@@ -6,6 +6,7 @@
     <string name="unknown">Unknown</string>
     <string name="never">Never</string>
     <string name="download">Download</string>
+    <string name="email">Email</string>
     <string name="skip">Skip</string>
     <string name="save">Save</string>
     <string name="custom">Customise</string>

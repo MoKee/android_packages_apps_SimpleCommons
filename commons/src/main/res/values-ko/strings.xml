@@ -11,6 +11,8 @@
     <string name="none">선택 안함</string>
     <string name="label">라벨</string>
     <string name="download">다운로드</string>
+    <string name="notification">알림</string>
+    <string name="email">이메일</string>
     <string name="favorites">즐겨찾기</string>
     <string name="add_to_favorites">즐겨찾기에 추가</string>
     <string name="remove_from_favorites">즐겨찾기에서 제거</string>

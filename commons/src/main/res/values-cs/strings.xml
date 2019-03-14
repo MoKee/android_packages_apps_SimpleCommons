@@ -25,6 +25,8 @@
     <string name="transparent_color">Průhledná barva</string>
     <string name="select_a_different_color">Zvolte jinou barvu</string>
     <string name="download">Ke stažení</string>
+    <string name="notification">Oznámení</string>
+    <string name="email">E-mail</string>
     <string name="favorites">Oblíbené</string>
     <string name="add_favorites">Přidat oblíbené</string>
     <string name="add_to_favorites">Přidat do oblíbených</string>

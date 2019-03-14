@@ -9,6 +9,8 @@
     <string name="details">Детаљи</string>
     <string name="none">Ниједно</string>
     <string name="download">Преузимање</string>
+    <string name="notification">Обавештења</string>
+    <string name="email">Имејл</string>
     <string name="search">Претражи</string>
     <string name="folder">Фасцикла</string>
     <string name="skip">Прескочи</string>

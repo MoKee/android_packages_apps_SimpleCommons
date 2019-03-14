@@ -11,6 +11,8 @@
     <string name="none">Nenhum</string>
     <string name="label">Etiqueta</string>
     <string name="download">Transferência</string>
+    <string name="notification">Notificação</string>
+    <string name="email">E-mail</string>
     <string name="favorites">Marcadores</string>
     <string name="add_to_favorites">Adicionar aos marcadores</string>
     <string name="remove_from_favorites">Remover dos favoritos</string>
