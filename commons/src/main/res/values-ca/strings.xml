@@ -23,6 +23,8 @@
     <string name="transparent_color">Color transparent</string>
     <string name="select_a_different_color">Selecciona un color diferent</string>
     <string name="download">Descàrrega</string>
+    <string name="notification">Notificació</string>
+    <string name="email">Correu electrònic</string>
     <string name="favorites">Preferits</string>
     <string name="add_favorites">Afegeix als preferits</string>
     <string name="add_to_favorites">Afegeix als preferits</string>

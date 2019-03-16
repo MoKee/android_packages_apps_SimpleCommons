@@ -25,6 +25,8 @@
     <string name="transparent_color">Colore trasparente</string>
     <string name="select_a_different_color">Seleziona un colore diverso</string>
     <string name="download">Download</string>
+    <string name="notification">Notifiche</string>
+    <string name="email">Email</string>
     <string name="favorites">Preferiti</string>
     <string name="add_favorites">Aggiungi preferiti</string>
     <string name="add_to_favorites">Aggiungi ai preferiti</string>
@@ -303,6 +305,18 @@
         <item quantity="one">%d giorno prima</item>
         <item quantity="other">%d giorni prima</item>
     </plurals>
+    <plurals name="weeks_before">
+        <item quantity="one">%d settimana prima</item>
+        <item quantity="other">%d settimane prima</item>
+    </plurals>
+    <plurals name="months_before">
+        <item quantity="one">%d mese prima</item>
+        <item quantity="other">%d mesi prima</item>
+    </plurals>
+    <plurals name="years_before">
+        <item quantity="one">%d anno prima</item>
+        <item quantity="other">%d anni prima</item>
+    </plurals>
     <plurals name="by_seconds">
         <item quantity="one">%d secondo</item>
         <item quantity="other">%d secondi</item>
@@ -365,6 +379,7 @@
     <string name="skip_delete_confirmation">Non chiedere mai la conferma di eliminazione</string>
     <string name="enable_pull_to_refresh">Attiva tira-per-aggiornare dall\'alto</string>
     <string name="use_24_hour_time_format">Usa il formato 24 ore</string>
+    <string name="change_date_and_time_format">Modifica il formato di data e ora</string>
     <string name="sunday_first">Inizio settimana di domenica</string>
     <string name="widgets">Widget</string>
     <string name="use_same_snooze">Usa sempre lo stesso tempo di ripetizione</string>
@@ -395,6 +410,8 @@
     <string name="empty_recycle_bin_confirmation">Sei sicuro di volere svuotare il cestino? I file verranno persi definitivamente.</string>
     <string name="recycle_bin_empty">Il cestino è vuoto</string>
     <string name="moving_recycle_bin_items_disabled">Lo spostamento degli elementi dal cestino è disabilitato, utilizzare \"Ripristina\"</string>
+    <string name="show_the_recycle_bin">Mostra il cestino</string>
+    <string name="hide_the_recycle_bin">Nascondi il Cestino</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">Spostamento di %d elemento nel cestino</item>
         <item quantity="other">Spostamento di %d elementi nel cestino</item>

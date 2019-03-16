@@ -25,6 +25,8 @@
     <string name="transparent_color">透明颜色</string>
     <string name="select_a_different_color">选择一个不同的颜色</string>
     <string name="download">下载</string>
+    <string name="notification">通知</string>
+    <string name="email">电子邮件</string>
     <string name="favorites">收藏</string>
     <string name="add_favorites">添加收藏</string>
     <string name="add_to_favorites">添加到收藏</string>

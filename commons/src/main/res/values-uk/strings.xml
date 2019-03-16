@@ -13,6 +13,8 @@
     <string name="label">Підпис</string>
     <string name="transparent">Прозорий</string>
     <string name="download">Завантажити</string>
+    <string name="notification">Нагадування</string>
+    <string name="email">Електронна пошта</string>
     <string name="favorites">Обране</string>
     <string name="add_to_favorites">Додати до улюбленого</string>
     <string name="remove_from_favorites">Видалити з улюблених</string>

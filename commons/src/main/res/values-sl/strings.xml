@@ -25,6 +25,8 @@
     <string name="transparent_color">Prosojene barve</string>
     <string name="select_a_different_color">Izberi drugo barvo</string>
     <string name="download">Prenos</string>
+    <string name="notification">Obvestilo</string>
+    <string name="email">E-pošta</string>
     <string name="favorites">Priljubljeno</string>
     <string name="add_favorites">Dodaj priljubljene</string>
     <string name="add_to_favorites">Dodaj med priljubljene</string>

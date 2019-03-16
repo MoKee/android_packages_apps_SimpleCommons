@@ -20,6 +20,7 @@
     <string name="deleting_folder">Sletter mappen \'%s\'</string>
     <string name="none">Ingen</string>
     <string name="download">Download-modus</string>
+    <string name="email">E-post</string>
     <string name="favorites">Favoritter</string>
     <string name="add_favorites">Legg til favoritter</string>
     <string name="add_to_favorites">Legg til i favorittene</string>

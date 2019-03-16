@@ -22,6 +22,8 @@
     <string name="none">Nijedan</string>
     <string name="label">Označi</string>
     <string name="download">Preuzmi</string>
+    <string name="notification">Obavijest</string>
+    <string name="email">E-pošta</string>
     <string name="favorites">Favoriti</string>
     <string name="add_favorites">Dodaj favorite</string>
     <string name="add_to_favorites">Dodaj u favorite</string>

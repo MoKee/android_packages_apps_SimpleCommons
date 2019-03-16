@@ -9,6 +9,8 @@
     <string name="details">Xehetasunak</string>
     <string name="none">Bat ere ez</string>
     <string name="download">Deskarga</string>
+    <string name="notification">Jakinarazpena</string>
+    <string name="email">E-posta</string>
     <string name="search">Bilatu</string>
     <string name="skip">Saltatu</string>
     <string name="sd_card">SD txartela</string>
