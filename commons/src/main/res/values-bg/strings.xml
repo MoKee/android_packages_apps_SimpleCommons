@@ -31,6 +31,7 @@
     <string name="theme">Тема</string>
     <string name="save">Запазване</string>
     <string name="discard">Отхвърли</string>
+    <string name="light_theme">Светло</string>
     <string name="dark_theme">Тъмен</string>
     <string name="custom">Персонализирано</string>
     <string name="delete">Изтриване</string>
