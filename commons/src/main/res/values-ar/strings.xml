@@ -217,6 +217,7 @@
     <string name="do_not_ask_again">لا تسأل مرة أخرى في هذه الجلسة</string>
     <string name="yes">نعم</string>
     <string name="no">لا</string>
+    <string name="maybe">ربما</string>
     <plurals name="delete_warning">
         <item quantity="zero">تحذير: يتم حذف %d مجلدات</item>
         <item quantity="one">تحذير: يتم حذف %d مجلد</item>

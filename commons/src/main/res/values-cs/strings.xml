@@ -211,6 +211,7 @@
     <string name="do_not_ask_again">Neptat se znovu v této relaci</string>
     <string name="yes">Ano</string>
     <string name="no">Ne</string>
+    <string name="maybe">Možná</string>
     <plurals name="delete_warning">
         <item quantity="one">VAROVÁNÍ: Mažete %d složku</item>
         <item quantity="few">VAROVÁNÍ: Mažete %d složky</item>

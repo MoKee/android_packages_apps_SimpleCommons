@@ -211,6 +211,7 @@
     <string name="do_not_ask_again">Не спрашивать снова (до следующего запуска)</string>
     <string name="yes">Да</string>
     <string name="no">Нет</string>
+    <string name="maybe">Возможно</string>
     <plurals name="delete_warning">
         <item quantity="one">ПРЕДУПРЕЖДЕНИЕ: вы удаляете %d папку</item>
         <item quantity="few">ПРЕДУПРЕЖДЕНИЕ: вы удаляете %d папки</item>
