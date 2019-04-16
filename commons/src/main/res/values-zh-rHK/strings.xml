@@ -458,6 +458,7 @@
     <string name="share_text">嘿，來試試看「%1$s」吧！ %2$s</string>
     <string name="invite_via">邀請</string>
     <string name="rate_us_underlined"><u>評分我們</u></string>
+    <string name="rate">評價</string>
     <string name="donate">捐贈</string>
     <string name="donate_underlined"><u>捐贈</u></string>
     <string name="follow_us">追蹤我們</string>

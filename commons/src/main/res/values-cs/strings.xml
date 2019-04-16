@@ -558,6 +558,7 @@
     <string name="share_text">Ahoj, vyzkoušej %1$s na %2$s</string>
     <string name="invite_via">Pozvat pomocí</string>
     <string name="rate_us_underlined"><u>Ohodnotit</u></string>
+    <string name="rate">Ohodnotit</string>
     <string name="donate">Přispět</string>
     <string name="donate_underlined"><u>Darovat</u></string>
     <string name="follow_us">Sledujte nás</string>

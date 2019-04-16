@@ -492,6 +492,7 @@
     <string name="share_text">Gyere el %1$s - %2$s</string>
     <string name="invite_via">Hívja meg</string>
     <string name="rate_us_underlined"><u>Értékeljen minket</u></string>
+    <string name="rate">Értékelés</string>
     <string name="donate">Támogatás</string>
     <string name="donate_underlined"><u>Támogatás</u></string>
     <string name="follow_us">Kövessen minket</string>
@@ -503,6 +504,7 @@
     <string name="update_thank_you">Kérjük, frissítse a Simple Thank You alkalmazást a legújabb verzióra</string>
     <string name="before_asking_question_read_faq">Mielőtt feltenné a kérdését, kérjük, először nézze meg a Gyakran Ismételt Kérdéseket az alkalmazás beállításaiban, lehet már ott van a megoldás.</string>
     <string name="read_it">Olvassa el</string>
+    <string name="rate_us_prompt">Helló,\n\núgy tűnik, hogy már régóta használja ezt az alkalmazást, ezt nagyra értékeljük.\n\nHa megtenne egy szívességet és értékelné munkánkat a Google Play áruházban, az tényleg sokat segítene nekünk.\n\nNem számít, milyen döntést hoz, ez az üzenet nem fog többé megjelenni.\n\nKöszönjük!</string>
     <string name="sideloaded_app">            Úgy tűnik, az alkalmazás verziója nem megfelelő. Kérjük, töltsön le egy eredeti verziót <a href="%s">innen</a>.
         </string>
     <string name="frequently_asked_questions">Gyakran Ismételt Kérdések</string>
@@ -548,4 +550,6 @@
     <string name="sanselan_title">Apache Sanselan (kép metaadat kiolvasás)</string>
     <string name="filters_title">Android Photo Filters (kép szűrők)</string>
     <string name="gesture_views_title">Kézmozdulat-vezérléses nézetek (nagyítható képek)</string>
+    <string name="deprecated_app">ELAVULT: Az alkalmazás ezen verziójára már nincs többé támogatás, szerezze be a Pro-verziót a https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro webhelyről</string>
+    <string name="pro_app_refund">Ne felejtse, ha egy fizetős alkalmazást 2 órán belül töröl (uninstallál), akkor automatikusan megkapja a visszatérítést. Ha bármikor később szeretne visszatérést kapni, vegye fel velünk a kapcsolatot a hello@simplemobiletools.com címen. Ez megkönnyítheti a tesztelést :-)</string>
 </resources>

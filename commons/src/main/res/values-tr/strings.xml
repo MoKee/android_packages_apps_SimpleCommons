@@ -492,6 +492,7 @@
     <string name="share_text">Selam, %1$s adlı harika bir uygulama buldum. %2$s adresinden indir</string>
     <string name="invite_via">Şununla davet et</string>
     <string name="rate_us_underlined"><u>Bizi değerlendirin</u></string>
+    <string name="rate">Oyla</string>
     <string name="donate">Bağış yapın</string>
     <string name="donate_underlined"><u>Bağış yapın</u></string>
     <string name="follow_us">Bizi takip edin</string>
@@ -503,6 +504,7 @@
     <string name="update_thank_you">Lütfen en son sürüme güncelleyin teşekkür ederiz</string>
     <string name="before_asking_question_read_faq">Bir soru sormadan önce, lütfen uygulama ayarlarını kontrol edin ve önce sıkça sorulan sorular bölümünü okuyun. Belki çözüm oradadır.</string>
     <string name="read_it">Oku</string>
+    <string name="rate_us_prompt">Merhaba,\n\nbu uygulamayı uzun süredir kullanıyorsunuz gibi görünüyor ve gerçekten takdir ediyoruz.\n\nSizden bir iyilik isteyebilirsek, lütfen bizi Google Play\'de derecelendirin. Bu bize gerçekten çok yardımcı olacaktır.\n\nNasıl derecelendirdiğiniz önemli değil, bu mesajı bir daha görmeyeceksiniz.\n\nTeşekkürler!</string>
     <string name="sideloaded_app">            Uygulama sürümünüz bozuk görünüyor.  Lütfen orijinal sürümü indirin <a href="%s">here</a>.
         </string>
     <string name="frequently_asked_questions">Sık sorulan sorular</string>
@@ -547,4 +549,6 @@
     <string name="sanselan_title">Apache Sanselan (görüntü meta verileri okuma)</string>
     <string name="filters_title">Android Fotoğraf Filtreleri (görüntü filtreleri)</string>
     <string name="gesture_views_title">Hareket görünümleri (yakınlaştırılabilir görüntüler)</string>
+    <string name="deprecated_app">KULLANIMDAN KALDIRILDI: Uygulamanın bu sürümü artık desteklenmiyor, Pro sürümünü https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro adresinde bulabilirsiniz.</string>
+    <string name="pro_app_refund">Ücretli herhangi bir uygulamayı 2 saat içinde kaldırırsanız, otomatik olarak iade edileceğini unutmayın. Daha sonra herhangi bir zamanda geri ödeme yapmak istiyorsanız, hello@simplemobiletools.com adresinden bizimle iletişime geçmeniz yeterli olacaktır. Bunu denemenin kolay yolu :)</string>
 </resources>

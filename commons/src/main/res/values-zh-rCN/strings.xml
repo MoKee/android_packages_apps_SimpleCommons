@@ -202,6 +202,7 @@
     <string name="do_not_ask_again">不再提醒</string>
     <string name="yes">是</string>
     <string name="no">否</string>
+    <string name="maybe">可能</string>
     <plurals name="delete_warning">
         <item quantity="other">警告: 你正在删除 %d 目录</item>
     </plurals>
@@ -458,6 +459,7 @@
     <string name="share_text">请前往 %2$s 看看我们的 %1$s 吧！</string>
     <string name="invite_via">分享到</string>
     <string name="rate_us_underlined"><u>为我们打分</u></string>
+    <string name="rate">评分</string>
     <string name="donate">捐赠</string>
     <string name="donate_underlined"><u>捐赠</u></string>
     <string name="follow_us">关注我们</string>
@@ -512,4 +514,5 @@
     <string name="sanselan_title">Apache Sanselan (读取图像元数据)</string>
     <string name="filters_title">Android Photo Filters (图像过滤器)</string>
     <string name="gesture_views_title">手势视图 (可缩放的图像)</string>
+    <string name="deprecated_app">DECADED: 此应用版本不再受到维护, 获取专业版https://play.google.com/store/apps/details?id=com.simplemobiletiles.xx.pro</string>
 </resources>

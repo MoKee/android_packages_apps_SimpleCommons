@@ -624,6 +624,7 @@
     <string name="share_text">مرحبًا ، تحقق من %1$s في%2$s</string>
     <string name="invite_via">دعوة عبر</string>
     <string name="rate_us_underlined"><u>قيّمنا</u></string>
+    <string name="rate">تقييم</string>
     <string name="donate">تبرع</string>
     <string name="donate_underlined"><u>التبرع</u></string>
     <string name="follow_us">تابعونا</string>
@@ -635,6 +636,7 @@
     <string name="update_thank_you">يرجى تحديث Simple Thank You إلى أحدث إصدار</string>
     <string name="before_asking_question_read_faq">قبل أن تسأل سؤالاً، الرجاء قراءة \"الأسئلة المتداولة\" أولاً، ربما الحل هناك.</string>
     <string name="read_it">اقرأها</string>
+    <string name="rate_us_prompt">مرحباً،\n\nيبدو أنك تستخدم هذا التطبيق لفترة طويلة بالفعل، ونحن نقدر ذلك حقاً.\n\nإذا كان يمكن أن نطلب منكم صالح، الرجاء تقييم تطبيقنا في متجر Google. أنه حقاً سيساعدنا كثيراً.\n\nبغض النظر عن كيف تقرر ان تقيمنا، لن تشاهد هذه الرسالة مرة أخرى.\n\nشكراً!</string>
     <string name="sideloaded_app">            يبدو أن إصدار التطبيق الخاص بك تالف. الرجاء تحميل النسخة الأصلية <a href="%s">هنا</a>.
         </string>
     <string name="frequently_asked_questions">الأسئلة المتداولة</string>
@@ -680,4 +682,6 @@
     <string name="sanselan_title">Apache Sanselan (قراءة البيانات الوصفية للصورة)</string>
     <string name="filters_title">Android Photo Filters (مرشحات الصور)</string>
     <string name="gesture_views_title">عروض الإيماءة (صور قابلة للتكبير)</string>
+    <string name="deprecated_app">تنويه: هذا الإصدار من التطبيق لم يعد محتفظًا به، احصل على إصدار Pro على https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
+    <string name="pro_app_refund">لا تنس أنه إذا قمت بإلغاء تثبيت أي تطبيق مدفوع في غضون ساعتين، فسيتم ردك تلقائياً. إذا كنت تريد استرداد الأموال في أي وقت لاحق، فما عليك سوى الاتصال بنا على hello@simplemobiletools.com وستحصل عليها. هذا يسهل عليك تجربة التطبيق :)</string>
 </resources>

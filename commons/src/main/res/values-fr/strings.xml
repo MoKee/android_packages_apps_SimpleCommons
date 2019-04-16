@@ -183,6 +183,7 @@
     <string name="empty_and_disable_recycle_bin">Vider et désactiver la corbeille</string>
     <string name="undo">Annuler</string>
     <string name="redo">Répéter</string>
+    <string name="print">Imprimer</string>
     <string name="sort_by">Trier par</string>
     <string name="name">Nom</string>
     <string name="size">Dimension</string>
@@ -204,6 +205,7 @@
     <string name="do_not_ask_again">Ne plus demander pour cette session</string>
     <string name="yes">Oui</string>
     <string name="no">Non</string>
+    <string name="maybe">Peut-être</string>
     <plurals name="delete_warning">
         <item quantity="one">ATTENTION : Vous supprimez %d dossier</item>
         <item quantity="other">ATTENTION : Vous supprimez %d dossiers</item>
@@ -367,6 +369,7 @@
     <string name="skip_delete_confirmation">Ne jamais afficher le dialogue de confirmation de suppression</string>
     <string name="enable_pull_to_refresh">Activer l\'actualisation par glissement à partir du haut de l\'écran</string>
     <string name="use_24_hour_time_format">Utiliser le format horaire sur 24 heures</string>
+    <string name="change_date_and_time_format">Changer le format de la date et de l\'heure</string>
     <string name="sunday_first">Démarrer la semaine le dimanche</string>
     <string name="widgets">Widgets</string>
     <string name="use_same_snooze">Toujours utiliser le même intervalle de répétition</string>
@@ -388,6 +391,7 @@
     <string name="saving_label">Enregistrement en cours…</string>
     <string name="startup">Démarrage en cours…</string>
     <string name="text">Texte</string>
+    <string name="migrating">Migration</string>
     <string name="restore_this_file">Récupérer ce fichier</string>
     <string name="restore_selected_files">Récupérer les fichiers sélectionnés</string>
     <string name="restore_all_files">Récupérer tous les fichiers </string>
@@ -396,6 +400,8 @@
     <string name="empty_recycle_bin_confirmation">Voulez-vous vraiment vider la corbeille ? Les fichiers seront définitivement supprimés.</string>
     <string name="recycle_bin_empty">La corbeille est vide</string>
     <string name="moving_recycle_bin_items_disabled">Le déplacement des éléments de la corbeille est désactivé, veuillez utiliser la fonction de restauration.</string>
+    <string name="show_the_recycle_bin">Montrer la corbeille</string>
+    <string name="hide_the_recycle_bin">Cacher la corbeille</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">Déplacement d\' %d élément dans la corbeille en cours…</item>
         <item quantity="other">Déplacement de %d éléments dans la corbeille en cours…</item>
@@ -408,6 +414,7 @@
     <string name="exporting_failed">Échec de l\'exportation</string>
     <string name="importing_some_entries_failed">Échec de l\'importation de certains éléments</string>
     <string name="exporting_some_entries_failed">Échec de l\'exportation de certains éléments</string>
+    <string name="no_entries_for_importing">Aucun élément pouvant être importé n\'a été trouvé</string>
     <string name="no_entries_for_exporting">Aucun élément pouvant être exporté n\'a été trouvé</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Vous semblez avoir un périphérique USB connecté à votre périphérique. Pour s’assurer que ses dossiers s’affichent correctement, vous devez accorder des autorisations supplémentaires.</string>
@@ -473,6 +480,7 @@
     <string name="share_text">Salut, viens voir %1$s à %2$s</string>
     <string name="invite_via">Inviter via</string>
     <string name="rate_us_underlined"><u>Nous évaluer</u></string>
+    <string name="rate">Évaluer</string>
     <string name="donate">Effectuer un don</string>
     <string name="donate_underlined"><u>Effectuer un don</u></string>
     <string name="follow_us">Suivez-nous</string>
@@ -482,6 +490,7 @@
     <string name="device_os">Système d\'exploitation de l\'appareil : %s</string>
     <string name="purchase">Acheter</string>
     <string name="update_thank_you">Veuillez mettre à jour Simple Thank You</string>
+    <string name="before_asking_question_read_faq">Avant de poser une question, veuillez vérifier les paramètres de l\'application et lire d\'abord les questions fréquemment posées. Peut-être que la solution y est déjà.</string>
     <string name="read_it">Consulter</string>
     <string name="sideloaded_app">            La version de l\'application semble être corrompue. Téléchargez la version originale de <a href="%s">ici </a>.
         </string>
@@ -527,4 +536,6 @@
     <string name="sanselan_title">Apache Sanselan (lecture de métadonnées d\'image)</string>
     <string name="filters_title">Android Photo Filters (filtres d\'image)</string>
     <string name="gesture_views_title">Aperçu des gestes (images extensibles)</string>
+    <string name="deprecated_app">OBSOLÈTE: Cette version de l\'application n\'est plus maintenue, obtenez la version Pro à https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
+    <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payée dans les 2 heures, vous serez automatiquement remboursé. Si vous souhaitez un remboursement à tout moment plus tard, contactez-nous à hello@simplemobiletools.com et vous l\'obtiendrez. Cela vous permet de l\'essayer facilement :)</string>
 </resources>

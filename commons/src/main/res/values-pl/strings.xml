@@ -210,6 +210,7 @@
     <string name="do_not_ask_again">Nie pytaj więcej w tej sesji</string>
     <string name="yes">Tak</string>
     <string name="no">Nie</string>
+    <string name="maybe">Może</string>
     <plurals name="delete_warning">
         <item quantity="one">UWAGA: usuwasz %d folder</item>
         <item quantity="few">UWAGA: usuwasz %d foldery</item>
@@ -437,6 +438,7 @@
     <string name="password_protect_hidden_items">Chroń widoczność ukrytych plików</string>
     <string name="password_protect_whole_app">Chroń dostęp do aplikacji</string>
     <string name="password_protect_file_deletion">Zabezpieczenie hasłem usuwania plików i przenoszenia</string>
+    <string name="keep_last_modified">Zachowaj starą wartość ostatniej modyfikacji w operacjach na plikach</string>
     <string name="show_info_bubble">Pokazuj dodatkowe informacje o elementach przy przeciąganiu paska przewijania</string>
     <string name="prevent_phone_from_sleeping">Zapobiegaj przejściu urządzenia  w stan uśpienia gdy aplikacja jest aktywna</string>
     <string name="skip_delete_confirmation">Nie pokazuj okna z potwierdzeniem usunięcia elementów</string>
@@ -555,6 +557,7 @@
     <string name="share_text">Hej! Sprawdź aplikację %1$s (%2$s).</string>
     <string name="invite_via">Wybierz sposób:</string>
     <string name="rate_us_underlined"><u>Oceń aplikację</u></string>
+    <string name="rate">Oceń</string>
     <string name="donate">Przekaż datek</string>
     <string name="donate_underlined"><u>Przekaż datek</u></string>
     <string name="follow_us">Śledź nas</string>
@@ -566,7 +569,7 @@
     <string name="update_thank_you">Zaktualizuj aplikcję Proste Podziękowanie do najnowszej wersji</string>
     <string name="before_asking_question_read_faq">Zanim zadasz pytanie, sprawdź ustawienia aplikacji i przeczytaj \'Najczęściej zadawane pytania\' (FAQ). Być może rozwiązanie już tam jest.</string>
     <string name="read_it">Przeczytaj</string>
-    <string name="sideloaded_app">           Wygląda na to, że ta wersja aplikacji jest uszkodzona. Proszę pobierz jej oryginalną wersję &lt;a href="%s"&gt;tutaj&lt;/a&gt;.
+    <string name="sideloaded_app">           Wygląda na to, że ta wersja aplikacji jest uszkodzona. Proszę pobierz jej oryginalną wersję &lt;a href=\"%s\"&gt;tutaj&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Często zadawane pytania (FAQ)</string>
     <string name="before_asking_question">Zanim zadasz pytanie, przeczytaj najpierw</string>
@@ -608,4 +611,7 @@
     <string name="panorama_view_title">VR Panorama View (wyświetlanie panoram)</string>
     <string name="sanselan_title">Apache Sanselan (odczytywanie metadanych obrazów)</string>
     <string name="filters_title">Android Photo Filters (fitry obrazów)</string>
+    <string name="gesture_views_title">Widoki gestów (obrazy z możliwością powiększania)</string>
+    <string name="deprecated_app">PRZESTARZAŁE: Ta wersja aplikacji nie jest już rozwijana, wersja PRO dostępna pod https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
+    <string name="pro_app_refund">Nie zapominaj, że jeśli odinstalujesz płatną aplikację w ciągu 2 godzin, otrzymasz automatyczny zwrot. Jeśli chcesz otrzymać zwrot w dowolnym momencie, skontaktuj się z nami pod adresem hello@simplemobiletools.com, a otrzymasz go. To ułatwia wypróbowanie :)</string>
 </resources>

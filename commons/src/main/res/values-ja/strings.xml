@@ -403,6 +403,7 @@
     <string name="share_text">%2$s で %1$s を確認してください</string>
     <string name="invite_via">招待</string>
     <string name="rate_us_underlined"><u>Playストアで評価してください</u></string>
+    <string name="rate">評価</string>
     <string name="donate">寄付</string>
     <string name="donate_underlined"><u>寄付</u></string>
     <string name="follow_us">フォローしてください</string>

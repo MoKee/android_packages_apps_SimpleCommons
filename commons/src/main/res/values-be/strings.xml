@@ -70,5 +70,6 @@
     <string name="saturday_letter">Пд</string>
     <string name="sunday_letter">Пд</string>
     <string name="about">Аб праграме</string>
+    <string name="rate">Адзнака</string>
     <string name="donate">Ахвяраваць</string>
 </resources>

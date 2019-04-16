@@ -490,6 +490,7 @@
     <string name="share_text">Ciao, controlla %1$s su %2$s</string>
     <string name="invite_via">Invita con</string>
     <string name="rate_us_underlined"><u>Dacci un voto sul Play Store</u></string>
+    <string name="rate">Vota</string>
     <string name="donate">Dona</string>
     <string name="donate_underlined"><u>Dona</u></string>
     <string name="follow_us">Seguici</string>

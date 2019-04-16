@@ -537,6 +537,7 @@
     <string name="share_text">Oglejte si tudi %1$s na %2$s</string>
     <string name="invite_via">Povabite preko</string>
     <string name="rate_us_underlined"><u>Ocenite nas</u></string>
+    <string name="rate">Oceni</string>
     <string name="donate">Donirajte</string>
     <string name="donate_underlined"><u>Donirajte</u></string>
     <string name="follow_us">Sledite nam</string>
@@ -547,7 +548,7 @@
     <string name="purchase">Kupi</string>
     <string name="update_thank_you">Prosimo nadgradite Simple Thank You na zadnjo verzijo</string>
     <string name="read_it">Preberite</string>
-    <string name="sideloaded_app">            Kot kaže je vaša različica aplikacije poškodovana. Prenesite izvirno različico &lt;a href="%s"&gt;tukaj&lt;/a&gt;.
+    <string name="sideloaded_app">            Kot kaže je vaša različica aplikacije poškodovana. Prenesite izvirno različico &lt;a href=\"%s\"&gt;tukaj&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Pogosta vprašanja</string>
     <string name="before_asking_question">Preden postavite vprašanje, preberite</string>
