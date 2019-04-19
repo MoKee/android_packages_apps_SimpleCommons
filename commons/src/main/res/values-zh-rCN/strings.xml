@@ -80,6 +80,7 @@
     <string name="saving">正在保存…</string>
     <string name="could_not_create_folder">创建文件夹 %s 失败</string>
     <string name="could_not_create_file">创建文件 %s 失败</string>
+    <string name="no_new_items">未发现新项目</string>
     <string name="create_new">新建</string>
     <string name="folder">文件夹</string>
     <string name="file">文件</string>
@@ -471,6 +472,7 @@
     <string name="update_thank_you">请更新 Simple Thank You 到最新版本</string>
     <string name="before_asking_question_read_faq">提问前请先阅读常见问题列表，或许已经有回答。</string>
     <string name="read_it">阅读</string>
+    <string name="rate_us_prompt">您好，\n\n看起来您已经使用这款应用有一段时间了，我们对此表示非常感谢。\n\n如果可以的话，请您在 Google Play 上帮我们对该应用进行评分。这将给予我们很大的帮助。\n\n无论您作何决定，都将不会再看到本条消息。\n\n谢谢！</string>
     <string name="sideloaded_app">            应用版本似乎已损坏。 请下载<a href="%s">此处</a>.的原始版本
         </string>
     <string name="frequently_asked_questions">常见问题</string>
@@ -515,4 +517,5 @@
     <string name="filters_title">Android Photo Filters (图像过滤器)</string>
     <string name="gesture_views_title">手势视图 (可缩放的图像)</string>
     <string name="deprecated_app">DECADED: 此应用版本不再受到维护, 获取专业版https://play.google.com/store/apps/details?id=com.simplemobiletiles.xx.pro</string>
+    <string name="pro_app_refund">如您需要申请退款，通过以下简单的方法即可获得：如果您在2小时内卸载任意付费应用，将会自动收到退款。而若需要在这之后申请退款，只需通过 hello@simplemobiletools.com 联系我们 :)</string>
 </resources>
