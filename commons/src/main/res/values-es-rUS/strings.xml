@@ -136,6 +136,7 @@
     <string name="exposure_time">Tiempo de exposición</string>
     <string name="iso_speed">Velocidad ISO</string>
     <string name="camera">Cámara</string>
+    <string name="exif">EXIF</string>
     <string name="song_title">Título de la canción</string>
     <string name="background_color">Color del fondo</string>
     <string name="text_color">Color del texto</string>
@@ -153,9 +154,12 @@
     <string name="undo_changes_confirmation">¿Seguro que quiere deshacer los cambios?</string>
     <string name="save_before_closing">Tiene cambios sin aplicar. ¿Guardar antes de salir?</string>
     <string name="apply_to_all_apps">Aplicar colores a todas las aplicaciones Simple Apps</string>
+    <string name="app_icon_color_warning">ADVERTENCIA: Algunos lanzadores no manejan correctamente la personalización de iconos de aplicaciones. En caso de que el icono desaparezca, intente ejecutar la aplicación a través de Google Play o algún widget, si está disponible.
+        Una vez ejecutada, simplemente restablece el icono naranja predeterminado #F57C00. Puede que tenga que reinstalar la aplicación en el peor de los casos.</string>
     <string name="share_colors_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Shared\', Por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Oscuro</string>
+    <string name="solarized">Solarizado</string>
     <string name="dark_red">Rojo Oscuro</string>
     <string name="black_white">Blanco &amp; Negro</string>
     <string name="custom">Personalizado</string>
@@ -203,6 +207,7 @@
         <item quantity="one">ADVERTENCIA: está eliminando %d carpeta</item>
         <item quantity="other">ADVERTENCIA: está eliminando %d carpetas</item>
     </plurals>
+    <string name="pin">PIN</string>
     <string name="enter_pin">Introduzca PIN</string>
     <string name="please_enter_pin">Por favor introduzca PIN</string>
     <string name="wrong_pin">PIN erróneo</string>
@@ -385,6 +390,10 @@
     <string name="empty_recycle_bin_confirmation">Seguro que quieres vaciar la papelera? Los ficheros se perderan definitivamente.</string>
     <string name="recycle_bin_empty">La papelera está vacia</string>
     <string name="moving_recycle_bin_items_disabled">El movimiento de los elementos de la papelera de reciclaje está deshabilitado, utilice Restaurar</string>
+    <plurals name="moving_items_into_bin">
+        <item quantity="one">Moviendo %d elemento a la papelera de reciclaje</item>
+        <item quantity="other">Moviendo %d elementos a la papelera de reciclaje</item>
+    </plurals>
     <string name="importing">Importando…</string>
     <string name="exporting">Exportando…</string>
     <string name="importing_successful">Importación correcta</string>
@@ -463,6 +472,8 @@
     <string name="donate_underlined"><u>Donar</u></string>
     <string name="follow_us">Síguenos</string>
     <string name="additional_info">Información adicional</string>
+    <string name="app_version">Versión de la aplicación: %s</string>
+    <string name="device_os">Sistema operativo del dispositivo: %s</string>
     <string name="purchase">Comprar</string>
     <string name="update_thank_you">Por favor, actualice Simple Tank You a la última versión</string>
     <string name="read_it">Leer</string>
@@ -480,8 +491,27 @@
     <string name="faq_4_text_commons">Sí, al arrastrar un widget en la pantalla de inicio aparece una pantalla de configuración de widgets. Verá cuadrados de colores en la esquina inferior izquierda, solo presione para elegir un nuevo color. Puede usar el control deslizante para ajustar el alfa también.</string>
     <string name="faq_5_title_commons">¿Puedo de alguna manera restaurar archivos borrados?</string>
     <string name="faq_5_text_commons">Si realmente fueron eliminados, no puedes. Sin embargo, puedes habilitar el uso de una papelera de reciclaje en lugar de eliminar en la configuración de la aplicación. Eso solo moverá los archivos en lugar de eliminarlos.</string>
+    <string name="faq_6_title_commons">El icono del lanzador de aplicaciones ha desaparecido. ¿Qué puedo hacer?</string>
     <string name="notice">Esta aplicación usa las siguientes bibliotecas de terceros que hacen mi vida más fácil. Gracias.</string>
     <string name="third_party_licences">Licencias de terceros</string>
     <string name="kotlin_title">Kotlin (Programming language)</string>
+    <string name="glide_title">Glide (carga de imagen y almacenamiento en caché)</string>
+    <string name="picasso_title">Picasso (carga de imágenes y almacenamiento en caché)</string>
+    <string name="joda_title">Joda-Time (Reemplazo de fecha de Java)</string>
+    <string name="stetho_title">Stetho (bases de datos de depuración)</string>
+    <string name="otto_title">Otto (bus de eventos)</string>
+    <string name="photoview_title">PhotoView (GIFs con zoom)</string>
+    <string name="pattern_title">PatternLockView (protección con patrón)</string>
+    <string name="reprint_title">Reprint (protección con huella dactilar)</string>
+    <string name="gif_drawable_title">Gif Drawable (cargando GIFs)</string>
+    <string name="autofittextview_title">AutoFitTextView (cambio de tamaño de texto)</string>
+    <string name="robolectric_title">Robolectric (marco de pruebas)</string>
+    <string name="espresso_title">Espresso (ayudante de pruebas)</string>
+    <string name="gson_title">Gson (analizador JSON)</string>
+    <string name="leak_canary_title">Leak Canary (detector de fugas de memoria)</string>
     <string name="number_picker_title">Selector de número (selector de número personalizable)</string>
+    <string name="exoplayer_title">ExoPlayer (reproductor de vídeo)</string>
+    <string name="panorama_view_title">VR Panorama View (visualización de panoramas)</string>
+    <string name="sanselan_title">Apache Sanselan (lectura de metadatos de imagen)</string>
+    <string name="filters_title">Android Photo Filters (filtros de imagen)</string>
 </resources>
