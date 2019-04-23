@@ -80,6 +80,7 @@
     <string name="saving">Kaydediliyor…</string>
     <string name="could_not_create_folder">%s klasörü oluşturulamıyor</string>
     <string name="could_not_create_file">%s dosyası oluşturulamıyor</string>
+    <string name="no_new_items">Yeni öğe bulunamadı</string>
     <string name="create_new">Yeni oluştur</string>
     <string name="folder">Klasör</string>
     <string name="file">Dosya</string>

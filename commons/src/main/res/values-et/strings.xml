@@ -5,6 +5,8 @@
     <string name="unknown">Teadmata</string>
     <string name="details">Üksikasjad</string>
     <string name="none">Mitte ühtegi</string>
+    <string name="download">Allalaadimine</string>
+    <string name="notification">Teade</string>
     <string name="email">E-mail</string>
     <string name="search">Otsing</string>
     <string name="skip">Jäta vahele</string>
@@ -31,6 +33,7 @@
     <string name="hours_raw">tundi</string>
     <string name="snooze">Lükka edasi</string>
     <string name="widgets">Vidinad</string>
+    <string name="usb">USB</string>
     <string name="monday">Esmaspäev</string>
     <string name="saturday">Laupäev</string>
     <string name="sunday">Pühapäev</string>

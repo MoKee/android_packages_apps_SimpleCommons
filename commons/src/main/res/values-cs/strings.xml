@@ -80,6 +80,7 @@
     <string name="saving">Ukládání…</string>
     <string name="could_not_create_folder">Nepodařilo se vytvořit složku %s</string>
     <string name="could_not_create_file">Nepodařilo se vytvořit soubor %s</string>
+    <string name="no_new_items">Nebyly nalezeny žádné nové položky</string>
     <string name="create_new">Vytvořit nový</string>
     <string name="folder">Složka</string>
     <string name="file">Soubor</string>
@@ -615,4 +616,6 @@
     <string name="sanselan_title">Apache Sanselan (čtení metadat obrázků)</string>
     <string name="filters_title">Android Photo Filters (filtry obrázků)</string>
     <string name="gesture_views_title">Náhledy gesty (přiblížitelné obrázky)</string>
+    <string name="deprecated_app">ZASTARALÁ: Tato verze aplikace již není udržována, získejte verzi Pro na https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
+    <string name="pro_app_refund">Nezapomeňte, že pokud odinstalujete všechny placené aplikace do 2 hodin, platba budete automaticky vrácena. Pokud chcete vrátit peníze později, kontaktujte nás na hello@simplemobiletools.com a získáte je zpět. To vám usnadní vyzkoušení :)</string>
 </resources>

@@ -80,6 +80,7 @@
     <string name="saving">حفظ…</string>
     <string name="could_not_create_folder">لا يمكن انشاء مجلد %s</string>
     <string name="could_not_create_file">لا يمكن انشاء ملف %s</string>
+    <string name="no_new_items">لم يتم العثور على أي عناصر جديدة</string>
     <string name="create_new">إنشاء جديد</string>
     <string name="folder">مجلد</string>
     <string name="file">ملف</string>
