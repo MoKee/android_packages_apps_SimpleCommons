@@ -571,6 +571,7 @@
     <string name="update_thank_you">Prosím aktualizujte Simple Thank You na nejnovější verzi</string>
     <string name="before_asking_question_read_faq">Než se něco zeptáte, nejprve zkontrolujte nastavení aplikace a přečtěte si prosím FAQ. Možná tam najdete svou odpověď.</string>
     <string name="read_it">Čtěte</string>
+    <string name="rate_us_prompt">Ahoj,\n\nzdá se, že tuto aplikaci už nějakou dobu používáte a opravdu si toho vážíme.\n\nPokud vás můžeme požádat o laskavost, napište nám recenzi na Google Play. To by nám hodně pomohlo.\n\nBez ohledu na to, jak se rozhodnete, tuto zprávu vícekrát neuvidíte.\n\nDíky!</string>
     <string name="sideloaded_app">            Zdá se, že verze aplikace je poškozená. Stáhněte si prosím původní verzi <a href="%s">here</a>.
         </string>
     <string name="frequently_asked_questions">Často kladené otázky</string>

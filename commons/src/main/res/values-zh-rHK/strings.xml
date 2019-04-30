@@ -80,6 +80,7 @@
     <string name="saving">儲存中…</string>
     <string name="could_not_create_folder">無法建立資料夾 %s</string>
     <string name="could_not_create_file">無法建立檔案 %s</string>
+    <string name="no_new_items">未找到新專案</string>
     <string name="create_new">新增</string>
     <string name="folder">資料夾</string>
     <string name="file">檔案</string>
