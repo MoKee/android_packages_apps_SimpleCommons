@@ -182,6 +182,7 @@
     <string name="undo">撤销</string>
     <string name="redo">重做</string>
     <string name="print">打印</string>
+    <string name="create_shortcut">创建快捷方式</string>
     <string name="sort_by">排序方式</string>
     <string name="name">名称</string>
     <string name="size">大小</string>
@@ -195,6 +196,7 @@
     <string name="ascending">递增</string>
     <string name="descending">递减</string>
     <string name="use_for_this_folder">仅应用于此文件夹</string>
+    <string name="sort_numeric_parts">按实际值排序数字部件</string>
     <string name="proceed_with_deletion">是否执行此删除操作？</string>
     <string name="deletion_confirmation">你确定要删除 %s？</string>
     <string name="move_to_recycle_bin_confirmation">你确定要移动 %s到回收站？</string>
