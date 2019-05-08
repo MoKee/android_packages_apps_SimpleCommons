@@ -185,6 +185,7 @@
     <string name="undo">Geri al</string>
     <string name="redo">Yeniden yap</string>
     <string name="print">Yazdır</string>
+    <string name="create_shortcut">Kısayol oluştur</string>
     <string name="sort_by">Sıralama ölçütü</string>
     <string name="name">Ad</string>
     <string name="size">Boyut</string>
@@ -198,6 +199,7 @@
     <string name="ascending">Artan</string>
     <string name="descending">Azalan</string>
     <string name="use_for_this_folder">Sadece bu klasör için kullan</string>
+    <string name="sort_numeric_parts">Sayısal parçaları gerçek değere göre sırala</string>
     <string name="proceed_with_deletion">Silme işlemine devam etmek istediğinizden emin misiniz?</string>
     <string name="deletion_confirmation">%s gerçekten silinsin mi?</string>
     <string name="move_to_recycle_bin_confirmation">%s gerçekten Geri Dönüşüm Kutusuna taşınsın mı?</string>

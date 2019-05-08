@@ -185,6 +185,7 @@
     <string name="undo">Visszavonás</string>
     <string name="redo">Mégis</string>
     <string name="print">Nyomtatás</string>
+    <string name="create_shortcut">Parancsikon-létrehozás</string>
     <string name="sort_by">Rendezés</string>
     <string name="name">Név</string>
     <string name="size">Méret</string>
@@ -198,6 +199,7 @@
     <string name="ascending">Növekvő</string>
     <string name="descending">Csökkenő</string>
     <string name="use_for_this_folder">Csak ehhez a mappához használja</string>
+    <string name="sort_numeric_parts">Rendezze a numerikus részeket a tényleges értékükkel</string>
     <string name="proceed_with_deletion">Biztosan folytatja a törlést?</string>
     <string name="deletion_confirmation">Biztos törölni akarja ezt: %s?</string>
     <string name="move_to_recycle_bin_confirmation">Biztos át akarja helyezni %s fájlt a Lomtárba?</string>

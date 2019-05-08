@@ -197,6 +197,7 @@
     <string name="undo">تراجع</string>
     <string name="redo">إعادة</string>
     <string name="print">طباعة</string>
+    <string name="create_shortcut">إنشاء اختصار</string>
     <string name="sort_by">الفرز حسب</string>
     <string name="name">الإسم:</string>
     <string name="size">الحجم</string>
@@ -210,6 +211,7 @@
     <string name="ascending">تصاعدي</string>
     <string name="descending">تنازلي</string>
     <string name="use_for_this_folder">إستخدم لهذا المجلد فقط</string>
+    <string name="sort_numeric_parts">فرز الأجزاء الرقمية حسب القيمة الفعلية</string>
     <string name="proceed_with_deletion">هل أنت متأكد من أنك تريد متابعة الحذف؟</string>
     <string name="deletion_confirmation">هل أنت متأكد أنك تريد حذف %s؟</string>
     <string name="move_to_recycle_bin_confirmation">هل أنت متأكد من أنك تريد نقل %s إلى سلة المحذوفات؟</string>

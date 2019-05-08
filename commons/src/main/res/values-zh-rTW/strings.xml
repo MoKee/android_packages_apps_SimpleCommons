@@ -181,6 +181,7 @@
     <string name="undo">復原</string>
     <string name="redo">取消復原</string>
     <string name="print">列印</string>
+    <string name="create_shortcut">建立捷徑</string>
     <string name="sort_by">排序</string>
     <string name="name">名稱</string>
     <string name="size">大小</string>
@@ -194,6 +195,7 @@
     <string name="ascending">遞增</string>
     <string name="descending">遞減</string>
     <string name="use_for_this_folder">僅套用於此資料夾</string>
+    <string name="sort_numeric_parts">按實際值排序數字部件</string>
     <string name="proceed_with_deletion">確定要進行刪除嗎?</string>
     <string name="deletion_confirmation">你確定要刪除%s嗎?</string>
     <string name="move_to_recycle_bin_confirmation">你確定要把%s移到回收桶嗎?</string>
@@ -471,6 +473,7 @@
     <string name="update_thank_you">請更新[Simple Thank You]至最新版本</string>
     <string name="before_asking_question_read_faq">在提問之前，請先檢視應用程式設定並閱讀常見問題，也許答案就在那裡。</string>
     <string name="read_it">讀它</string>
+    <string name="rate_us_prompt">Hello,\n\nit looks like you are using this app for quite a while already, and we really appreciate it.\n\nIf we can ask you a favor, please rate us on Google Play. That would really help us a lot.\n\nNo matter how you decide, you will not see this message again.\n\nThanks!</string>
     <string name="sideloaded_app">            應用版本似乎已損壞。請下載<a href="%s">此处</a>.的原始版本
         </string>
     <string name="frequently_asked_questions">常見問題</string>
@@ -515,4 +518,6 @@
     <string name="sanselan_title">Apache Sanselan (讀取圖像元數據)</string>
     <string name="filters_title">Android Photo Filters (圖像濾鏡)</string>
     <string name="gesture_views_title">手勢視圖 (可縮放的圖像)</string>
+    <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
+    <string name="pro_app_refund">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at hello@simplemobiletools.com and you will get it. That makes it easy to try it out :)</string>
 </resources>

@@ -191,6 +191,7 @@
     <string name="undo">Zpět</string>
     <string name="redo">Opakovat</string>
     <string name="print">Tisk</string>
+    <string name="create_shortcut">Vytvořit zástupce</string>
     <string name="sort_by">Seřadit dle</string>
     <string name="name">Názvu</string>
     <string name="size">Velikosti</string>
@@ -204,6 +205,7 @@
     <string name="ascending">Vzestupně</string>
     <string name="descending">Sestupně</string>
     <string name="use_for_this_folder">Použít pouze pro tuto složku</string>
+    <string name="sort_numeric_parts">Seřadit číselné části podle skutečné hodnoty</string>
     <string name="proceed_with_deletion">Opravdu chcete pokračovat s odstraněním?</string>
     <string name="deletion_confirmation">Jste si jisti že chcete odstranit %s?</string>
     <string name="move_to_recycle_bin_confirmation">Opravdu chcete přesunout %s do koše?</string>

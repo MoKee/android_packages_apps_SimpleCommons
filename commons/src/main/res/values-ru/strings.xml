@@ -191,6 +191,7 @@
     <string name="undo">Отменить</string>
     <string name="redo">Повторить</string>
     <string name="print">Печать</string>
+    <string name="create_shortcut">Создать ярлык</string>
     <string name="sort_by">Сортировать по…</string>
     <string name="name">Имя</string>
     <string name="size">Размер</string>
@@ -204,6 +205,7 @@
     <string name="ascending">По возрастанию</string>
     <string name="descending">По убыванию</string>
     <string name="use_for_this_folder">Использовать только для этой папки</string>
+    <string name="sort_numeric_parts">Сортировать числовые части по фактическому значению</string>
     <string name="proceed_with_deletion">Подтверждение удаления</string>
     <string name="deletion_confirmation">Вы действительно хотите удалить %s?</string>
     <string name="move_to_recycle_bin_confirmation">Вы действительно хотите переместить %s в корзину?</string>
