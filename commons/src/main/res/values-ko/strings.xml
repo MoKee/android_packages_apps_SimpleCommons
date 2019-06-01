@@ -44,8 +44,10 @@
     <string name="redo">다시실행</string>
     <string name="name">이름: </string>
     <string name="size">크기</string>
+    <string name="last_modified">마지막으로 수정됨</string>
     <string name="date_taken">촬영 날짜</string>
     <string name="title">제목</string>
+    <string name="extension">확장자</string>
     <string name="ascending">오름차순</string>
     <string name="descending">내림차순</string>
     <string name="yes">예</string>

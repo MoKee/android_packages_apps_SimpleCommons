@@ -562,7 +562,6 @@
     <string name="faq_4_title_commons">Barve pripomočkov mi niso všeč. Jih lahko spremenim?</string>
     <string name="faq_4_text_commons">Seveda. Ko pripomoček dodate na domači zaslon, sem vam prikaže zaslon z nastavitvami. S klikom na barvne kvadratke, lahko izberete novo barvo. Z drsnikom lahko nastavljate tudi prosojnost.</string>
     <string name="faq_5_title_commons">Lahko kako obnovim izbrisane datoteke?</string>
-    <string name="faq_5_text_commons">Če so bile res izbrisane, jih ne morete. Lahko pa v nastavitvah omogočite Koš. Tako bodo datoteke premaknjene v Koš, od koder jih lahko obnovite, ne pa popolnoma izbrisane.</string>
     <string name="faq_6_title_commons">Ikona zaganjalnika aplikacij je izginila. Kaj lahko naredim?</string>
     <string name="faq_6_text_commons">Vzrok je, da zaganjalnik ne podpira pravilne prilagoditve ikone. Poskusite zagnati aplikacijo prek storitve Google Play ali kakšnega pripomočka, če je na voljo. Ko ste zagnali, nastavite nazaj privzeto oranžno ikono # F57C00. Morda boste morali v najslabšem primeru znova namestiti aplikacijo.</string>
     <string name="notice">Da si olajšamo delo, aplikacija uporablja naslednje programske knjižnice. Hvala.</string>

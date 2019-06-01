@@ -506,7 +506,6 @@
     <string name="faq_4_title_commons">Je n\'aime pas les couleurs du widget. Puis-je la changer ?</string>
     <string name="faq_4_text_commons">Oui, quand vous glissez le widget sur l\'écran d\'accueil un dialogue de configuration apparaît. Vous verrez des carrés en bas à gauche, en appuyant dessus vous pouvez choisir une nouvelle couleur. Vous pouvez aussi utiliser le curseur pour régler la transparence.</string>
     <string name="faq_5_title_commons">Puis-je d\'une manière ou d\'une autre restaurer les fichiers supprimés ?</string>
-    <string name="faq_5_text_commons">Si ils ont déjà été supprimés, vous ne pouvez pas. Toutefois, vous pouvez activer l\'utilisation de la corbeille à la place de la suppression dans les paramètres de l\'app. Cela devrait seulement y déplacer les fichiers au lieu de les supprimer.</string>
     <string name="faq_6_title_commons">L’icône du lanceur d\'application a disparu. Que puis-je faire ?</string>
     <string name="faq_6_text_commons">Avertissement : Certains lanceurs ne manipulent pas correctement la personnalisation de l\'icône d\'application. Dans le cas où l’icône disparaîtra, essayez de lancer l’application via Google Play ou certains widget, si elles sont disponibles.
         une fois lancé, juste restaurez l’icône  orange par défaut #F57C00. Au pire, vous devrez réinstaller l\'application.</string>

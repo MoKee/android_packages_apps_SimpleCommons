@@ -488,7 +488,6 @@
     <string name="faq_4_title_commons">我不喜欢小部件的颜色，我可以修改吗？</string>
     <string name="faq_4_text_commons">是可以的，当你在主屏幕上拖动小部件时，会出现小部件配置界面。你会在左下角看到彩色的方块，只需按下它们即可选择新的颜色。你还可以通过滑块来调整 Alpha 值。</string>
     <string name="faq_5_title_commons">我可以恢复已删除的文件吗？</string>
-    <string name="faq_5_text_commons">如果你真的把它们删除了，那么你无法恢复。不过，您可以启用回收站，这样只会移动文件而不是直接删除。</string>
     <string name="faq_6_title_commons">应用程序启动器图标消失。我能做什么呢？</string>
     <string name="faq_6_text_commons">警告：某些启动程序无法正确处理应用程序图标的自定义。 如果图标消失，请尝试通过Google Play或某个小部件（如果可用）启动应用。
          一旦启动，只需恢复默认的橙色图标＃F57C00。 如果不行，您需要重新安装该应用程序。</string>

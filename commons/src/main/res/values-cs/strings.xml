@@ -589,7 +589,6 @@
     <string name="faq_4_title_commons">Nelíbí se mi barvy widgetů, lze je změnit?</string>
     <string name="faq_4_text_commons">Ano, po potáhnutí widgetu na plochu se zobrazí konfigurační obrazovka. Kliknutím na barevné čtverečky v levém dolním rohu můžete zvolit nové. Tažením posuvníku můžete upravit i průhlednost.</string>
     <string name="faq_5_title_commons">Můžu nějakým způsobem obnovit odstraněné soubory?</string>
-    <string name="faq_5_text_commons">Pokud dané soubory byly skutečně vymazány, tak ne. V nastavení aplikace ale můžete nastavit používání odpadkového koše místo vymazávání souborů.</string>
     <string name="faq_6_title_commons">Ikona spouštěče aplikací zmizela. Co můžu dělat?</string>
     <string name="faq_6_text_commons">To je způsobeno tím, že váš spouštěč nepodporuje přizpůsobení ikon správně. Zkuste spustit aplikaci přes Obchod Play nebo nějaký widgetu, pokud je k dispozici.
         Po spuštění stačí nastavit výchozí oranžovou ikonu # F57C00. V nejhorším případě budete muset aplikaci přeinstalovat.</string>

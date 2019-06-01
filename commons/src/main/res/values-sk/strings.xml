@@ -552,7 +552,6 @@
     <string name="faq_4_title_commons">Nepáčia sa mi farby widgetu, viem ich zmeniť?</string>
     <string name="faq_4_text_commons">Áno, po potiahnutí widgetu na plochu sa zobrazí konfiguračná obrazovka. Kliknutím na farebné štvorčeky v ľavom dolnom rohu viete zvoliť nové. Potiahnutím posuvníka viete upraviť aj priehľadnosť.</string>
     <string name="faq_5_title_commons">Viem nejakým spôsobom obnoviť vymazané súbory?</string>
-    <string name="faq_5_text_commons">Ak dané súbory boli skutočne vymazané, tak nie. V nastaveniach aplikácie ale viete nastaviť používanie odpadkového koša miesto vymazávania súborov.</string>
     <string name="faq_6_title_commons">Ikona aplikácie v spúšťači zmizla. Čo mám robiť?</string>
     <string name="faq_6_text_commons">Je to spôsobené tým, že váš spúšťač nepodporuje úpravy ikon aplikácii. Skúste aplikáciu spustiť pomocou Google Play alebo nejakej miniaplikácie, ak je k dispozícii.
         Po spustení nastavte predvolenú oranžovú ikonu #F57C00. V najhoršom prípade budete musieť aplikáciu preinštalovať.</string>

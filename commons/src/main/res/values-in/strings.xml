@@ -462,7 +462,6 @@
     <string name="faq_4_title_commons">Saya tidak suka warna widget, dapatkah saya mengubahnya?</string>
     <string name="faq_4_text_commons">Yap, saat Anda menyeret widget di layar beranda Anda, layar konfigurasi widget muncul. Anda akan melihat kotak berwarna di sudut kiri bawah, cukup tekan untuk memilih warna baru. Anda dapat menggunakan bilah geser untuk menyesuaikan alfa juga.</string>
     <string name="faq_5_title_commons">Bisakah saya mengembalikan file yang dihapus?</string>
-    <string name="faq_5_text_commons">Jika benar-benar dihapus, Anda tidak bisa. Namun, Anda dapat mengaktifkan menggunakan Keranjang Sampah alih-alih menghapus dalam pengaturan aplikasi. Itu hanya akan memindahkan file di dalamnya daripada menghapusnya.</string>
     <string name="faq_6_title_commons">Ikon peluncur aplikasi menghilang. Apa harus saya lakukan?</string>
     <string name="faq_6_text_commons">It is caused by your launcher not supporting icon customization properly. Try launching the app via Google Play or some widget, if available.
         Setelah diluncurkan, cukup atur kembali ikon oranye default # F57C00. Anda mungkin harus menginstal ulang aplikasi dalam kasus terburuk.</string>

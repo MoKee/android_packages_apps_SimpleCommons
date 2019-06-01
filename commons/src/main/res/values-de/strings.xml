@@ -490,7 +490,6 @@
     <string name="faq_4_title_commons">Ich mag die Farben des Widgets nicht. Kann ich sie wechseln?</string>
     <string name="faq_4_text_commons">Ja, wenn du ein Widget auf den Home Screen ziehst, erscheint ein Konfigurationsmenü. In der linken unteren Ecke sind farbige Kästchen, drücke auf sie und wähle eine neue Farbe. Ausserdem kannst du den Regler nutzen, um den Alphaparameter (Transparenz) einzustellen.</string>
     <string name="faq_5_title_commons">Kann ich irgendwie gelöschte Dateien wiederherstellen?</string>
-    <string name="faq_5_text_commons">Wenn diese endgültig gelöscht wurden, nein. Aber Du kannst in den App-Eintellungen den Papierkorb aktivieren, statt des direkten Löschens. Das verschiebt zu löschende Dateien nur in den Papierkorb, und löscht diese nicht endgültig.</string>
     <string name="faq_6_title_commons">Das App-Launcher-Symbol ist verschwunden. Was kann ich tun?</string>
     <string name="faq_6_text_commons">Dies wird durch die fehlerhafte Unterstützung ihres Launchers für angepasste Symbole verursacht. Versuchen Sie die durch Google Play oder ein Widget zu öffnen, falls möglich.        Wenn Sie die App erneut geöffnet haben, setzen Sie einfach das orangefarbige Standardsymbol #F57C00 zurück. Eventuell müssen Sie die App im schlimmsten Fall erneut installieren.</string>
     <string name="notice">Diese App nutzt die folgenden Drittanbieterbibliotheken, die mein Leben einfacher machen. Danke!</string>

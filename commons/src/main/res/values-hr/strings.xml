@@ -487,7 +487,6 @@
     <string name="faq_4_title_commons">Ne sviđa mi se boja widgeta, mogu li ih promijeniti?</string>
     <string name="faq_4_text_commons">Da, kada povlačite widget na početnom zaslonu, pojavit će se zaslon za konfiguraciju widgeta. U donjem lijevom kutu vidjet ćete obojene kvadrate, samo ih pritisnite da biste odabrali novu boju. Možete koristiti i klizač za podešavanje alphe.</string>
     <string name="faq_5_title_commons">Mogu li nekako vratiti izbrisane datoteke?</string>
-    <string name="faq_5_text_commons">Ako su stvarno izbrisane, ne možete. Međutim, možete omogućiti upotrebu koša za smeće umjesto da ih izbrišete, u postavkama aplikacije. To će samo premjestiti datoteke u nju umjesto da ih izbriše.</string>
     <string name="notice">Ova aplikacija koristi biblioteke trećih strana kako bi olakšala moj život. Hvala Vam.</string>
     <string name="third_party_licences">Licence trećih strana</string>
     <string name="kotlin_title">Kotlin (programski jezik)</string>

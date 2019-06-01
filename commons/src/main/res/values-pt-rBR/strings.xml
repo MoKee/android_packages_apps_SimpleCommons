@@ -90,6 +90,7 @@
     <string name="file_already_exists_overwrite">Já existe um arquivo com o nome \"%s\". Substituir?</string>
     <string name="folder_already_exists">A pasta \"%s\" já existe</string>
     <string name="merge">Mesclar</string>
+    <string name="keep_both">Manter ambos</string>
     <string name="overwrite">Substituir</string>
     <string name="skip">Ignorar</string>
     <string name="append">Adicionar sufixo \'_1\'</string>
@@ -100,6 +101,18 @@
     <string name="confirm_storage_access_text">Por favor escolha a pasta raiz do cartão SD no próximo passo para conceder acesso de escrita</string>
     <string name="confirm_storage_access_text_sd">Se você não encontrar o cartão SD, tente isto</string>
     <string name="confirm_selection">Confirmar seleção</string>
+    <plurals name="items">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d itens</item>
+    </plurals>
+    <plurals name="delete_items">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d itens</item>
+    </plurals>
+    <plurals name="deleting_items">
+        <item quantity="one">A eliminar %d item</item>
+        <item quantity="other">A eliminar %d itens</item>
+    </plurals>
     <string name="select_storage">Selecionar armazenamento</string>
     <string name="internal">Interno</string>
     <string name="sd_card">Cartão SD</string>
@@ -120,6 +133,7 @@
     <string name="iso_speed">Velocidade ISO</string>
     <string name="f_number">Abertura</string>
     <string name="camera">Câmera</string>
+    <string name="exif">EXIF</string>
     <string name="song_title">Título da música</string>
     <string name="background_color">Cor de fundo</string>
     <string name="text_color">Cor do texto</string>
@@ -464,7 +478,6 @@
     <string name="faq_4_title_commons">Eu não gosto das cores do widget, posso mudá-las?</string>
     <string name="faq_4_text_commons">Sim, enquanto você arrasta um widget em sua tela inicial, uma tela de configuração do widget aparece. Você verá quadrados coloridos no canto inferior esquerdo, basta pressioná-los para escolher uma nova cor. Você pode usar o controle deslizante para ajustar o alfa também.</string>
     <string name="faq_5_title_commons">Posso restaurar de alguma forma os arquivos apagados?</string>
-    <string name="faq_5_text_commons">Se eles foram realmente excluídos, você não pode. No entanto, você pode ativar o uso de uma Lixeira em vez de excluí-la nas configurações do aplicativo. Isso apenas moverá os arquivos, em vez de excluí-los.</string>
     <string name="faq_6_title_commons">O ícone do launcher do app desapareceu. O que posso fazer?</string>
     <string name="faq_6_text_commons">É causada por seu lançador não oferecer suporte a personalização do ícone corretamente. Tente lançar o app via Google Play ou algum widget, se disponível.
         uma vez lançado, defina o ícone padrão laranja #F57C00. Você pode ter que reinstalar o app na pior das hipóteses.</string>
