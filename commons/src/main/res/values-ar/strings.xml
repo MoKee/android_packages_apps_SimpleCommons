@@ -56,6 +56,7 @@
     <string name="source_file_doesnt_exist">ملف المصدر %s غير موجود</string>
     <string name="prepend_filenames">اعد أسماء الملفات</string>
     <string name="append_filenames">إلحاق أسماء الملفات (قبل امتداد الملف)</string>
+    <string name="rename_date_time_pattern">%Y - سنة\n%M - شهر\n%D - يوم\n%h - ساعة\n%m - دقيقة\n%s - ثانية</string>
     <string name="copy">نسخ</string>
     <string name="move">نقل</string>
     <string name="copy_move">نسخ/نقل</string>
@@ -655,6 +656,7 @@
     <string name="faq_4_title_commons">لا أحب ألوان الأدوات ، هل يمكنني تغييرها؟</string>
     <string name="faq_4_text_commons">نعم ، عندما تقوم بسحب عنصر واجهة مستخدم على الشاشة الرئيسية ، تظهر شاشة تهيئة واجهة مستخدم. سترى مربعات ملونة في الزاوية السفلية اليسرى ، فقط اضغط عليها لاختيار لون جديد. يمكنك استخدام شريط التمرير لتعديل alpha أيضًا.</string>
     <string name="faq_5_title_commons">هل يمكنني بطريقة ما استعادة الملفات المحذوفة؟</string>
+    <string name="faq_5_text_commons">إذا تم حذفها حقًا ، فلا يمكنك ذلك. ومع ذلك ، يتم تمكين \"سلة المحذوفات\" افتراضياً ، مما يؤدي إلى نقل الملفات في \"السلة\" بدلاً من حذفها.</string>
     <string name="faq_6_title_commons">اختفى رمز تطبيق المشغل. ماذا بإمكاني أن أفعل؟</string>
     <string name="faq_6_text_commons">يحدث ذلك بسبب عدم دعم المشغل الخاص بك لتخصيص الرمز بشكل صحيح. جرب تشغيل التطبيق عبر Google Play أو بعض الأدوات ، إذا كان متاحاً.
         بمجرد التشغيل ، فقط أعد الرمز البرتقالي الافتراضي #F57C00. قد تضطر إلى إعادة تثبيت التطبيق في أسوأ الحالات.</string>
