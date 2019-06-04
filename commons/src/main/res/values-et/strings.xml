@@ -146,6 +146,7 @@
     <string name="descending">Kahanev</string>
     <string name="deletion_confirmation">Kas oled kindel, et soovid selle %s kustutada?</string>
     <string name="are_you_sure_delete">Soovid tõesti selle kirje kustutada?</string>
+    <string name="do_not_ask_again">Ära küsi selles seansis uuesti</string>
     <string name="yes">Jah</string>
     <string name="no">Ei</string>
     <string name="maybe">Võib olla</string>
@@ -153,6 +154,7 @@
     <string name="enter_pin">Sisestage PIN</string>
     <string name="please_enter_pin">Palun sisesta PIN</string>
     <string name="wrong_pin">Vale PIN</string>
+    <string name="repeat_pin">Korda PIN-koodi</string>
     <string name="pattern">Muster</string>
     <string name="insert_pattern">Sisestage muster</string>
     <string name="wrong_pattern">Vale muster</string>
@@ -280,6 +282,7 @@
         <item quantity="one">%d aasta</item>
         <item quantity="other">%d aastat</item>
     </plurals>
+    <string name="notifications_disabled">Selle rakenduse teated on keelatud. Palun lubage nende seadistamiseks oma seadme seaded.</string>
     <string name="alarm">Äratus</string>
     <string name="snooze">Lükka edasi</string>
     <string name="dismiss">Loobu</string>
@@ -318,6 +321,7 @@
     <string name="move_items_into_recycle_bin">Teisaldage objektid prügikasti kustutamise asemel</string>
     <string name="recycle_bin_cleaning_interval">Prügikasti puhastamise intervall</string>
     <string name="empty_recycle_bin">Tühjenda prügikast</string>
+    <string name="force_portrait_mode">Force portrežiim</string>
     <string name="export_settings">Ekspordi seaded</string>
     <string name="import_settings">Impordi seaded</string>
     <string name="settings_exported_successfully">Seaded eksporditi edukalt</string>
@@ -400,6 +404,8 @@
     <string name="more_info">Lisateave</string>
     <string name="upgrade">Uuenda</string>
     <string name="about">Teave</string>
+    <string name="website_label">Lähtekoodide jaoks külastage</string>
+    <string name="email_label">Saada oma tagasiside või soovitused</string>
     <string name="upgrade_to_pro">Uuenda Pro-le</string>
     <string name="invite_via">Kutsu läbi</string>
     <string name="rate">Hinda</string>
@@ -429,11 +435,17 @@
     <string name="stetho_title">Stetho (andmebaaside silumine)</string>
     <string name="otto_title">Otto (ürituste buss)</string>
     <string name="pattern_title">PatternLockView (mustri kaitse)</string>
+    <string name="reprint_title">Kordustrükk (sõrmejälgede kaitse)</string>
     <string name="gif_drawable_title">Gif Drawable (GIF-ide laadimine)</string>
     <string name="autofittextview_title">AutoFitTextView (teksti suuruse muutmine)</string>
     <string name="robolectric_title">Robolectric (testimise raamistik)</string>
     <string name="espresso_title">Espresso (testimise abistaja)</string>
+    <string name="leak_canary_title">Leak Canary (mälu lekkimise detektor)</string>
+    <string name="number_picker_title">Numbrivalija (kohandatav numbrivalija)</string>
     <string name="exoplayer_title">ExoPlayer (video pleier)</string>
+    <string name="panorama_view_title">VR panoraamvaade (panoraamvaate kuvamine)</string>
+    <string name="sanselan_title">Apache Sanselan (kujutise metaandmete lugemine)</string>
     <string name="filters_title">Androidi fotofiltrid (pildifiltrid)</string>
+    <string name="gesture_views_title">Gesture Views (suurendatavad pildid)</string>
     <string name="deprecated_app">Selle rakenduse versiooni enam ei säilitata, hankige Pro versioon aadressilt https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
 </resources>
