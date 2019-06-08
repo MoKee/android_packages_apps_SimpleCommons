@@ -56,6 +56,7 @@
     <string name="source_file_doesnt_exist">%s kaynak dosyası mevcut değil</string>
     <string name="prepend_filenames">Dosya adlarını ekle</string>
     <string name="append_filenames">Dosya isimlerini ekle (dosya uzantısından önce)</string>
+    <string name="rename_date_time_pattern">%Y - yıl\n%M - ay\n%D - gün\n%h - saat\n%m - dakika\n%s - saniye</string>
     <string name="copy">Kopyala</string>
     <string name="move">Taşı</string>
     <string name="copy_move">Kopyala / Taşı</string>
@@ -522,6 +523,7 @@
     <string name="faq_4_title_commons">Widget renklerini beğenmedim, değiştirebilir miyim?</string>
     <string name="faq_4_text_commons">Evet, ana ekranınızda bir widget\'ı sürüklediğinizde, bir widget yapılandırma ekranı görünür. Sol alt köşede renkli kareler göreceksiniz, sadece yeni bir renk seçmek için onlara basın. Alfa\'yı da ayarlamak için kaydırıcıyı kullanabilirsiniz.</string>
     <string name="faq_5_title_commons">Bir şekilde silinen dosyaları geri yükleyebilir miyim?</string>
+    <string name="faq_5_text_commons">Gerçekten silinmişlerse, yapamazsınız. Ancak, varsayılan olarak etkinleştirilmiş bir geri dönüşüm kutusu vardır, dosyaların silinmek yerine depoya taşınmasına neden olur.</string>
     <string name="faq_6_title_commons">Uygulama başlatıcısı simgesi kayboldu. Ne yapabilirim?</string>
     <string name="faq_6_text_commons">Başlatıcınızın, simge özelleştirmesini doğru şekilde desteklememesi nedeniyle ortaya çıkar. Uygulamayı Google Play\'de veya varsa bir widget aracılığıyla başlatmayı deneyin.
         Başlatıldıktan sonra, sadece #F57C00 varsayılan turuncu simgesini geri ayarlayın. En kötü durumda uygulamayı yeniden yüklemeniz gerekebilir.</string>
