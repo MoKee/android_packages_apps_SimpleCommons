@@ -7,8 +7,6 @@ import android.hardware.usb.UsbManager
 import android.media.MediaScannerConnection
 import android.net.Uri
 import android.os.Environment
-import android.os.Handler
-import android.os.Looper
 import android.provider.DocumentsContract
 import android.provider.MediaStore
 import android.text.TextUtils
@@ -284,18 +282,19 @@ fun Context.getFileUri(path: String) = when {
 }
 
 // these functions update the mediastore instantly, MediaScannerConnection.scanFileRecursively takes some time to really get applied
-fun Context.deleteFromMediaStore(path: String): Boolean {
+fun Context.deleteFromMediaStore(path: String) {
     if (File(path).isDirectory) {
-        return false
+        return
     }
 
-    return try {
-        val where = "${MediaStore.MediaColumns.DATA} = ?"
-        val args = arrayOf(path)
-        contentResolver.delete(getFileUri(path), where, args) == 1
-    } catch (e: Exception) {
-        false
-    }
+    Thread {
+        try {
+            val where = "${MediaStore.MediaColumns.DATA} = ?"
+            val args = arrayOf(path)
+            contentResolver.delete(getFileUri(path), where, args)
+        } catch (e: Exception) {
+        }
+    }.start()
 }
 
 fun Context.updateInMediaStore(oldPath: String, newPath: String) {
@@ -385,38 +384,6 @@ fun Context.getOTGItems(path: String, shouldShowHidden: Boolean, getProperFileSi
     }
 
     callback(items)
-}
-
-fun Context.rescanDeletedPath(path: String, callback: (() -> Unit)? = null) {
-    if (path.startsWith(filesDir.toString())) {
-        callback?.invoke()
-        return
-    }
-
-    if (deleteFromMediaStore(path)) {
-        callback?.invoke()
-    } else {
-        if (File(path).isDirectory) {
-            callback?.invoke()
-            return
-        }
-
-        // scanFile doesnt trigger in some cases, refresh items manually after some period
-        val SCAN_FILE_MAX_DURATION = 1000L
-        val scanFileHandler = Handler(Looper.getMainLooper())
-        scanFileHandler.postDelayed({
-            callback?.invoke()
-        }, SCAN_FILE_MAX_DURATION)
-
-        MediaScannerConnection.scanFile(applicationContext, arrayOf(path), null) { path, uri ->
-            scanFileHandler.removeCallbacksAndMessages(null)
-            try {
-                applicationContext.contentResolver.delete(uri, null, null)
-            } catch (e: Exception) {
-            }
-            callback?.invoke()
-        }
-    }
 }
 
 fun Context.trySAFFileDelete(fileDirItem: FileDirItem, allowDeleteFolder: Boolean = false, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
