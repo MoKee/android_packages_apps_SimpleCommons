@@ -56,6 +56,7 @@
     <string name="source_file_doesnt_exist">Il file di origine %s non esiste</string>
     <string name="prepend_filenames">Anteponi i nomi dei file</string>
     <string name="append_filenames">Aggiungi i nomi dei file (prima dell\'estensione)</string>
+    <string name="rename_date_time_pattern">%Y - anno\n%M - mese\n%D - giorno\n%h - ora\n%m - minuto\n%s - secondo</string>
     <string name="copy">Copia</string>
     <string name="move">Sposta</string>
     <string name="copy_move">Copia / Sposta</string>
@@ -80,6 +81,7 @@
     <string name="saving">Salvataggio in corso…</string>
     <string name="could_not_create_folder">Impossibile creare la cartella %s</string>
     <string name="could_not_create_file">Impossibile creare il file %s</string>
+    <string name="no_new_items">Nessun nuovo elemento trovato</string>
     <string name="create_new">Crea nuovo</string>
     <string name="folder">Cartella</string>
     <string name="file">File</string>
@@ -197,6 +199,7 @@
     <string name="ascending">Ascendente</string>
     <string name="descending">Discendente</string>
     <string name="use_for_this_folder">Usa solo per questa cartella</string>
+    <string name="sort_numeric_parts">Ordina parti numeriche per valore effettivo</string>
     <string name="proceed_with_deletion">Sei sicuro di procedere con l\'eliminazione?</string>
     <string name="deletion_confirmation">Sei sicuro di volere eliminare %s?</string>
     <string name="move_to_recycle_bin_confirmation">Sei sicuro di volere spostare nel cestino %s?</string>
@@ -205,6 +208,7 @@
     <string name="do_not_ask_again">Non chiedere nuovamente in questa sessione</string>
     <string name="yes">Sì</string>
     <string name="no">No</string>
+    <string name="maybe">Forse</string>
     <plurals name="delete_warning">
         <item quantity="one">ATTENZIONE: stai per eliminare %d cartella</item>
         <item quantity="other">ATTENZIONE: stai per eliminare %d cartelle</item>
@@ -503,6 +507,7 @@
     <string name="update_thank_you">Per favore aggiorna Simple Thank You all\'ultima versione</string>
     <string name="before_asking_question_read_faq">Prima di fare una domanda, controlla le impostazioni dell\'app e leggi prima le Domande Frequenti. Forse la soluzione è lì.</string>
     <string name="read_it">Leggile</string>
+    <string name="rate_us_prompt">Ciao,\n\nSembra che tu stia usando questa app per un po\' di tempo, e lo apprezziamo molto.\n\nSe possiamo chiederti un favore, votaci su Google Play. Questo ci aiuterebbe davvero molto.\n\nNon importa come decidi, non vedrai più questo messaggio.\n\nGrazie!</string>
     <string name="sideloaded_app">            La versione dell\'app sembra essere corrotta. Si prega di scaricare<a href="%s">qui</a>.Versione originale
         </string>
     <string name="frequently_asked_questions">Domande frequenti</string>
@@ -518,6 +523,7 @@
     <string name="faq_4_title_commons">Non mi piacciono i colori del widget, posso cambiarli?</string>
     <string name="faq_4_text_commons">Sì, quando trascini un widget nella tua schermata appare una finestra di configurazione. Vedrai dei quadrati colorati nell\'angolo in basso a sinistra, toccali per scegliere un colore. Puoi muovere l\'indicatore per regolare l\'alpha.</string>
     <string name="faq_5_title_commons">Posso recuperare in qualche modo i file eliminati?</string>
+    <string name="faq_5_text_commons">Se sono stati davvero eliminati, non puoi. Tuttavia, c\'è un Cestino abilitato di default, causerà che i file siano spostati nel Cestino invece di eliminarli.</string>
     <string name="faq_6_title_commons">L\'icona del launcher è sparita. Cosa faccio?</string>
     <string name="faq_6_text_commons">Il tuo launcher non supporta la personalizzazione delle icone. Prova ad avviare l\'app dal Google Play o da un widget, se possibile. Una volta avviata imposta nuovamente l\'icona arancione predefinita #F57C00. Nel peggiore dei casi dovrai reinstallare l\'app.</string>
     <string name="notice">Questa app usa le seguenti librerie di terze parti per semplificarmi la vita. Grazie.</string>
@@ -546,4 +552,6 @@
     <string name="sanselan_title">Apache Sanselan (lettura metadati immagini)</string>
     <string name="filters_title">Android Photo Filters (filtri immagine)</string>
     <string name="gesture_views_title">Visualizzazione gestuale (immagine scalabile)</string>
+    <string name="deprecated_app">DISAPPROVATO: Questa versione dell\'app non è più mantenuta, ottieni la versione Pro su https://play.google.com/store/apps/details?id=com.simplemobiletools.xx.pro</string>
+    <string name="pro_app_refund">Non dimenticare che se disinstalla un\'app a pagamento entro 2 ore, sarai rimborsato automaticamente. Se vuoi un rimborso in qualsiasi momento successivo, contattaci all\'indirizzo hello@simplemobiletools.com e lo otterrai. Questo rende facile provare :)</string>
 </resources>
