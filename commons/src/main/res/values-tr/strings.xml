@@ -232,6 +232,9 @@
     <string name="go_to_settings">Ayarlar\'a git</string>
     <string name="protection_setup_successfully">Parola kurulumu başarılı oldu. Lütfen unuttuğunuz durumda uygulamayı yeniden yükleyin.</string>
     <string name="fingerprint_setup_successfully">Koruma kurulumu başarıyla gerçekleştirildi. Sıfırlama ile ilgili sorunlar olması durumunda lütfen uygulamayı yeniden yükleyin.</string>
+    <string name="lock_folder">Klasörü kilitle</string>
+    <string name="unlock_folder">Klasörü aç</string>
+    <string name="lock_folder_notice">Bu koruma yalnızca bu uygulamada çalışır, gerçek bir sistem çapında klasör şifrelemesinin yerini almaz.</string>
     <string name="yesterday">Dün</string>
     <string name="today">Bugün</string>
     <string name="tomorrow">Yarın</string>

@@ -232,6 +232,9 @@
     <string name="go_to_settings">Mine sätetesse</string>
     <string name="protection_setup_successfully">Parooli seadistamine õnnestus. Kui te selle unustate, installige see uuesti.</string>
     <string name="fingerprint_setup_successfully">Kaitse seadistus edukalt. Palun installige rakendus uuesti, kui teil on probleeme selle lähtestamisega.</string>
+    <string name="lock_folder">Lukusta kaust</string>
+    <string name="unlock_folder">Ava kaust</string>
+    <string name="lock_folder_notice">See kaitse töötab ainult selles rakenduses, see ei peaks asendama reaalset süsteemset kausta krüpteerimist.</string>
     <string name="yesterday">Eile</string>
     <string name="today">Täna</string>
     <string name="tomorrow">Homme</string>

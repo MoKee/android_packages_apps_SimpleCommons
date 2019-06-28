@@ -189,6 +189,7 @@
     <string name="undo">Razveljavi</string>
     <string name="redo">Ponovno uveljavi</string>
     <string name="print">Natisni</string>
+    <string name="create_shortcut">Ustvari bližnjico</string>
     <string name="sort_by">Razvrsti po</string>
     <string name="name">Ime</string>
     <string name="size">Velikost</string>
@@ -210,6 +211,7 @@
     <string name="do_not_ask_again">To sejo ne sprašuj več</string>
     <string name="yes">Da</string>
     <string name="no">Ne</string>
+    <string name="maybe">Morda</string>
     <plurals name="delete_warning">
         <item quantity="one">OPOZORILO: Brišete %d mapo</item>
         <item quantity="two">OPOZORILO: Brišete %d mapi</item>
@@ -234,6 +236,8 @@
     <string name="go_to_settings">Odpri nastavitve</string>
     <string name="protection_setup_successfully">Geslo uspešno nastavljeno. Če ga pozabite, izbrišite in ponovno naložite aplikacijo.</string>
     <string name="fingerprint_setup_successfully">Zaščita uspešno nastavljena. Če pride do težav s ponastavitvijo, izbrišite in ponovno naložite aplikacijo.</string>
+    <string name="lock_folder">Zakleni mapo</string>
+    <string name="unlock_folder">Odkleni mapo</string>
     <string name="yesterday">Včeraj</string>
     <string name="today">Danes</string>
     <string name="tomorrow">Jutri</string>

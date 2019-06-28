@@ -240,6 +240,9 @@
     <string name="go_to_settings">Přejít do Nastavení</string>
     <string name="protection_setup_successfully">Heslo bylo úspěšně nastaveno. Pokud ho zapomenete, prosím přeinstalujte aplikaci.</string>
     <string name="fingerprint_setup_successfully">Ochrana byla úspěšně nastavena. Prosím přeinstalujte aplikaci v případě problémů s její změnou.</string>
+    <string name="lock_folder">Uzamknout složku</string>
+    <string name="unlock_folder">Odemknout složku</string>
+    <string name="lock_folder_notice">Tato ochrana funguje pouze v této aplikaci, nenahrazuje skutečné systémové šifrování složek.</string>
     <string name="yesterday">Včera</string>
     <string name="today">Dnes</string>
     <string name="tomorrow">Zítra</string>
