@@ -221,7 +221,9 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun handleSAFDialog(path: String, callback: (success: Boolean) -> Unit): Boolean {
-        return if (!packageName.startsWith("com.simplemobiletools")) {
+        return if (!packageName.startsWith("com.simplemobiletools")
+                && !packageName.equals("com.android.calendar")
+                && !packageName.equals("com.mokee.gallery")) {
             callback(true)
             false
         } else if (isShowingSAFDialog(path) || isShowingOTGDialog(path)) {

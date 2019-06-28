@@ -294,7 +294,8 @@ fun Activity.openPathIntent(path: String, forceChooser: Boolean, applicationId: 
             setDataAndType(newUri, mimeType)
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
 
-            if (applicationId == "com.simplemobiletools.gallery.pro" || applicationId == "com.simplemobiletools.gallery.pro.debug") {
+            if (applicationId == "com.simplemobiletools.gallery.pro" || applicationId == "com.simplemobiletools.gallery.pro.debug"
+                    || applicationId == "com.mokee.gallery") {
                 putExtra(IS_FROM_GALLERY, true)
             }
 
