@@ -55,7 +55,6 @@
     <string name="extension_cannot_be_empty">Ekstensi tak boleh kosong</string>
     <string name="source_file_doesnt_exist">File sumber %s tidak ada</string>
     <string name="prepend_filenames">Tambahkan nama file</string>
-    <string name="append_filenames">Tambahkan nama file (sebelum ekstensi file)</string>
     <string name="copy">Salin</string>
     <string name="move">Pindah</string>
     <string name="copy_move">Salin / Pindahkan</string>

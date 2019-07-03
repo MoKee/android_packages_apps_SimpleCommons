@@ -54,7 +54,6 @@
     <string name="extension_cannot_be_empty">La extensión no puede estar vacía</string>
     <string name="source_file_doesnt_exist">El archivo %s no existe</string>
     <string name="prepend_filenames">Preponer los nombres de archivo</string>
-    <string name="append_filenames">Adjuntar nombres de archivos (antes de la extensión de archivo)</string>
     <string name="copy">Copiar</string>
     <string name="move">Mover</string>
     <string name="copy_move">Copiar/Mover</string>
@@ -390,6 +389,7 @@
     <string name="importing_some_entries_failed">La importación de algunas entradas ha fallado</string>
     <string name="exporting_some_entries_failed">La exportación de algunas entradas ha fallado</string>
     <string name="no_entries_for_exporting">No se han encontrado entradas para exportar</string>
+    <string name="usb">USB</string>
     <string name="usb_detected">Parece que tienes un dispositivo USB conectado a tu dispositivo. Para asegurarse de que sus archivos aparezcan correctamente, debe otorgar permisos adicionales.</string>
     <string name="confirm_usb_storage_access_text">Elija la carpeta raíz del dispositivo USB en la pantalla siguiente, para otorgar acceso</string>
     <string name="wrong_root_selected_usb">Carpeta incorrecta, seleccione la carpeta raíz de su dispositivo USB</string>

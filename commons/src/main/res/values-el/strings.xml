@@ -54,7 +54,6 @@
     <string name="extension_cannot_be_empty">Η επέκταση δεν μπορεί να είναι κενή</string>
     <string name="source_file_doesnt_exist">To αρχείο προέλευσης %s δεν υπάρχει</string>
     <string name="prepend_filenames">Προεπιλεγμένα ονόματα αρχείων</string>
-    <string name="append_filenames">Προσθέστε ονόματα αρχείων (πρίν την επέκταση)</string>
     <string name="copy">Αντιγραφή</string>
     <string name="move">Μετακίνηση</string>
     <string name="copy_move">Αντιγραφή / Μετακίνηση</string>

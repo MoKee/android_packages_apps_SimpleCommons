@@ -55,7 +55,6 @@
     <string name="extension_cannot_be_empty">Dateiendung darf nicht leer sein</string>
     <string name="source_file_doesnt_exist">Quelldatei %s existiert nicht</string>
     <string name="prepend_filenames">Dateinamen voranstellen</string>
-    <string name="append_filenames">Dateinamen anhängen (vor Dateiendung)</string>
     <string name="copy">Kopieren</string>
     <string name="move">Verschieben</string>
     <string name="copy_move">Kopieren / Verschieben</string>

@@ -55,7 +55,6 @@
     <string name="extension_cannot_be_empty">L\'estensione non può essere vuota</string>
     <string name="source_file_doesnt_exist">Il file di origine %s non esiste</string>
     <string name="prepend_filenames">Anteponi i nomi dei file</string>
-    <string name="append_filenames">Aggiungi i nomi dei file (prima dell\'estensione)</string>
     <string name="rename_date_time_pattern">%Y - anno\n%M - mese\n%D - giorno\n%h - ora\n%m - minuto\n%s - secondo</string>
     <string name="copy">Copia</string>
     <string name="move">Sposta</string>

@@ -55,7 +55,6 @@
     <string name="extension_cannot_be_empty">扩展名不能为空</string>
     <string name="source_file_doesnt_exist">原文件 %s 不存在</string>
     <string name="prepend_filenames">文件名前缀</string>
-    <string name="append_filenames">文件名后缀(格式后缀之前)</string>
     <string name="rename_date_time_pattern">%Y - 年份\n%M - 月\n%D - 天\n%h - 小时\n%m - 分钟\n%s - 秒</string>
     <string name="copy">复制</string>
     <string name="move">移动</string>
@@ -228,6 +227,9 @@
     <string name="go_to_settings">去设置</string>
     <string name="protection_setup_successfully">密码设置成功。如果你不慎遗忘了，请重新安装本应用。</string>
     <string name="fingerprint_setup_successfully">指纹保护设置成功。如果出现问题，请重新安装本应用。</string>
+    <string name="lock_folder">锁定文件夹</string>
+    <string name="unlock_folder">解锁文件夹</string>
+    <string name="lock_folder_notice">此保护仅在此应用程序中运行，它不是一个真正的全系统文件夹加密。</string>
     <string name="yesterday">昨天</string>
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>

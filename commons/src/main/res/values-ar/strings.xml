@@ -55,7 +55,6 @@
     <string name="extension_cannot_be_empty">لا يمكن أن يكون الامتداد فارغاً</string>
     <string name="source_file_doesnt_exist">ملف المصدر %s غير موجود</string>
     <string name="prepend_filenames">اعد أسماء الملفات</string>
-    <string name="append_filenames">إلحاق أسماء الملفات (قبل امتداد الملف)</string>
     <string name="rename_date_time_pattern">%Y - سنة\n%M - شهر\n%D - يوم\n%h - ساعة\n%m - دقيقة\n%s - ثانية</string>
     <string name="copy">نسخ</string>
     <string name="move">نقل</string>

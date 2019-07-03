@@ -54,7 +54,6 @@
     <string name="extension_cannot_be_empty">Filnamnstillägget får inte vara tomt</string>
     <string name="source_file_doesnt_exist">Källfilen %s finns inte</string>
     <string name="prepend_filenames">Lägg till före filnamnen</string>
-    <string name="append_filenames">Lägg till efter filnamnen (före filnamnstilläggen)</string>
     <string name="copy">Kopiera</string>
     <string name="move">Flytta</string>
     <string name="copy_move">Kopiera / Flytta</string>

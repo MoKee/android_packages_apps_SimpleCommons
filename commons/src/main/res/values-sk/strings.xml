@@ -55,7 +55,6 @@
     <string name="extension_cannot_be_empty">Prípona nesmie byť prázdna</string>
     <string name="source_file_doesnt_exist">Zdrojový súbor %s neexistuje</string>
     <string name="prepend_filenames">Pridať pred názvy súborov</string>
-    <string name="append_filenames">Pridať za názvy súborov (pred prípony)</string>
     <string name="copy">Kopírovať</string>
     <string name="move">Presunúť</string>
     <string name="copy_move">Kopírovať / presunúť</string>

@@ -55,7 +55,6 @@
     <string name="extension_cannot_be_empty">Uzantı boş olamaz</string>
     <string name="source_file_doesnt_exist">%s kaynak dosyası mevcut değil</string>
     <string name="prepend_filenames">Dosya adlarını ekle</string>
-    <string name="append_filenames">Dosya isimlerini ekle (dosya uzantısından önce)</string>
     <string name="rename_date_time_pattern">%Y - yıl\n%M - ay\n%D - gün\n%h - saat\n%m - dakika\n%s - saniye</string>
     <string name="copy">Kopyala</string>
     <string name="move">Taşı</string>

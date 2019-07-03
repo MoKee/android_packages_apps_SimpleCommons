@@ -53,7 +53,6 @@
     <string name="extension_cannot_be_empty">La extensió no pot estar buida</string>
     <string name="source_file_doesnt_exist">El fitxer %s no existeix</string>
     <string name="prepend_filenames">Posar abans noms de fitxer</string>
-    <string name="append_filenames">Afegeix noms de fitxer (abans de l\'extensió de fitxer)</string>
     <string name="copy">Copiar</string>
     <string name="move">Moure</string>
     <string name="copy_move">Copiar/Moure</string>
