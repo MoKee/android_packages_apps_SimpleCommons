@@ -55,6 +55,7 @@
     <string name="extension_cannot_be_empty">扩展名不能为空</string>
     <string name="source_file_doesnt_exist">原文件 %s 不存在</string>
     <string name="prepend_filenames">文件名前缀</string>
+    <string name="append_filenames">文件名前缀</string>
     <string name="rename_date_time_pattern">%Y - 年份\n%M - 月\n%D - 天\n%h - 小时\n%m - 分钟\n%s - 秒</string>
     <string name="copy">复制</string>
     <string name="move">移动</string>

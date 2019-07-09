@@ -55,6 +55,7 @@
     <string name="extension_cannot_be_empty">A kiterjesztés nem lehet üres</string>
     <string name="source_file_doesnt_exist">A forrás fájl %s nem létezik</string>
     <string name="prepend_filenames">Fájlnevek megadása</string>
+    <string name="append_filenames">Fájlnévcsatolás</string>
     <string name="rename_date_time_pattern">%Y - év\n%M - hónap\n%D - nap\n%h - óra\n%m - perc\n%s - másodperc</string>
     <string name="copy">Másolás</string>
     <string name="move">Áthelyezés</string>

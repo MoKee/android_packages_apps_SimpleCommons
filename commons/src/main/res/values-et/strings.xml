@@ -55,6 +55,7 @@
     <string name="extension_cannot_be_empty">Laiendus ei saa olla tühi</string>
     <string name="source_file_doesnt_exist">Lähtefaili %s pole olemas</string>
     <string name="prepend_filenames">Ülalolevate failide nimed</string>
+    <string name="append_filenames">Lisage failide nimed</string>
     <string name="rename_date_time_pattern">%Y - aasta\n%M - kuu\n%D - päev\n%h - tund\n%m - minut\n%s - sekund</string>
     <string name="copy">Kopeeri</string>
     <string name="move">Teisalda</string>
