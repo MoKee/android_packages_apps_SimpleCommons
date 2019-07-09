@@ -74,6 +74,21 @@ class PropertiesDialog() {
                         updateLastModified(activity, view, fileDirItem.modified)
                     }
                 }
+
+                val exif = ExifInterface(fileDirItem.path)
+                val latLon = FloatArray(2)
+                if (exif.getLatLong(latLon)) {
+                    activity.runOnUiThread {
+                        addProperty(R.string.gps_coordinates, "${latLon[0]}, ${latLon[1]}")
+                    }
+                }
+
+                val altitude = exif.getAltitude(0.0)
+                if (altitude != 0.0) {
+                    activity.runOnUiThread {
+                        addProperty(R.string.altitude, "${altitude}m")
+                    }
+                }
             }
         }
 
@@ -171,17 +186,17 @@ class PropertiesDialog() {
 
     private fun addExifProperties(path: String, activity: Activity) {
         val exif = ExifInterface(path)
-        val dateTaken = path.getExifDateTaken(exif, activity)
+        val dateTaken = exif.getExifDateTaken(activity)
         if (dateTaken.isNotEmpty()) {
             addProperty(R.string.date_taken, dateTaken)
         }
 
-        val cameraModel = path.getExifCameraModel(exif)
+        val cameraModel = exif.getExifCameraModel()
         if (cameraModel.isNotEmpty()) {
             addProperty(R.string.camera, cameraModel)
         }
 
-        val exifString = path.getExifProperties(exif)
+        val exifString = exif.getExifProperties()
         if (exifString.isNotEmpty()) {
             addProperty(R.string.exif, exifString)
         }
