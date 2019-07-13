@@ -141,6 +141,8 @@
     <string name="camera">Kamera</string>
     <string name="exif">EXIF</string>
     <string name="song_title">Dal címe</string>
+    <string name="gps_coordinates">GPS koordináták</string>
+    <string name="altitude">Magasság</string>
     <string name="background_color">Háttérszín</string>
     <string name="text_color">Szöveg színe</string>
     <string name="primary_color">Elsődleges szín</string>

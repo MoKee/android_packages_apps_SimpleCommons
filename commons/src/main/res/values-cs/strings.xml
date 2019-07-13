@@ -147,6 +147,8 @@
     <string name="camera">Fotoaparát</string>
     <string name="exif">EXIF</string>
     <string name="song_title">Název skladby</string>
+    <string name="gps_coordinates">GPS souřadnice</string>
+    <string name="altitude">Nadmořská výška</string>
     <string name="background_color">Barva pozadí</string>
     <string name="text_color">Barva textu</string>
     <string name="primary_color">Hlavní barva</string>

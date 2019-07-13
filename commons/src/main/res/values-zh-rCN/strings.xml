@@ -138,6 +138,8 @@
     <string name="camera">相机</string>
     <string name="exif">EXIF</string>
     <string name="song_title">歌曲标题</string>
+    <string name="gps_coordinates">显示 GPS 坐标</string>
+    <string name="altitude">海拔高度</string>
     <string name="background_color">背景色</string>
     <string name="text_color">文本颜色</string>
     <string name="primary_color">主体色</string>
