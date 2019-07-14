@@ -153,6 +153,8 @@
     <string name="camera">الكاميرا</string>
     <string name="exif">EXIF</string>
     <string name="song_title">عنوان الأغنية</string>
+    <string name="gps_coordinates">إحداثيات GPS</string>
+    <string name="altitude">الإرتفاع</string>
     <string name="background_color">لون الخلفية</string>
     <string name="text_color">لون النص</string>
     <string name="primary_color">اللون الأساسي</string>

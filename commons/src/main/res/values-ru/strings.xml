@@ -147,6 +147,8 @@
     <string name="camera">Камера</string>
     <string name="exif">EXIF (метаданные)</string>
     <string name="song_title">Название песни</string>
+    <string name="gps_coordinates">GPS координаты</string>
+    <string name="altitude">Высота</string>
     <string name="background_color">Цвет фона</string>
     <string name="text_color">Цвет текста</string>
     <string name="primary_color">Основной цвет</string>
