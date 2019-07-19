@@ -141,6 +141,8 @@
     <string name="camera">Kaamera</string>
     <string name="exif">EXIF</string>
     <string name="song_title">Laulu pealkiri</string>
+    <string name="gps_coordinates">GPS koordinaadid</string>
+    <string name="altitude">Kõrgus</string>
     <string name="background_color">Tausta värv</string>
     <string name="text_color">Teksti värv</string>
     <string name="primary_color">Põhivärv</string>

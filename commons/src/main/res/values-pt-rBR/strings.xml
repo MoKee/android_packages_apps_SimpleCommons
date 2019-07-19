@@ -54,6 +54,9 @@
     <string name="filename_invalid_characters_placeholder">O nome do arquivo \'%s\' contém caracteres inválidos</string>
     <string name="extension_cannot_be_empty">A extensão não pode ficar em branco</string>
     <string name="source_file_doesnt_exist">Arquivo de origem %s não existe</string>
+    <string name="prepend_filenames">Prefira nomes de arquivos</string>
+    <string name="append_filenames">Anexar nomes de arquivos</string>
+    <string name="rename_date_time_pattern">%Y - ano\n%M - mês\n%D - dia\n%h - hora\n%m - minuto\n%s - segundo</string>
     <string name="copy">Copiar</string>
     <string name="move">Mover</string>
     <string name="copy_move">Copiar/mover para</string>
@@ -78,6 +81,7 @@
     <string name="saving">Salvando…</string>
     <string name="could_not_create_folder">Não foi possível criar pasta %s</string>
     <string name="could_not_create_file">Não foi possível criar arquivo %s</string>
+    <string name="no_new_items">Nenhum item novo foi encontrado</string>
     <string name="create_new">Criar</string>
     <string name="folder">Pasta</string>
     <string name="file">Arquivo</string>
@@ -110,8 +114,8 @@
         <item quantity="other">%d itens</item>
     </plurals>
     <plurals name="deleting_items">
-        <item quantity="one">A eliminar %d item</item>
-        <item quantity="other">A eliminar %d itens</item>
+        <item quantity="one">Excluindo %d item</item>
+        <item quantity="other">Excluindo %d itens</item>
     </plurals>
     <string name="select_storage">Selecionar armazenamento</string>
     <string name="internal">Interno</string>
@@ -119,6 +123,8 @@
     <string name="root">Raiz</string>
     <string name="wrong_root_selected">Pasta inválida, por favor selecione a raiz do cartão SD</string>
     <string name="sd_card_usb_same">Pastas do cartão SD e do dispositivo USB não podem ser iguais</string>
+    <string name="app_on_sd_card">Você parece ter o aplicativo instalado em um cartão SD, o que torna os widgets do aplicativo indisponíveis. Você nem vai vê-los na lista de widgets disponíveis.
+         É uma limitação do sistema, portanto, se você quiser usar os widgets, precisará mover o aplicativo de volta para o armazenamento interno.</string>
     <string name="properties">Propriedades</string>
     <string name="path">Caminho</string>
     <string name="items_selected">Itens selecionados</string>
@@ -135,11 +141,14 @@
     <string name="camera">Câmera</string>
     <string name="exif">EXIF</string>
     <string name="song_title">Título da música</string>
+    <string name="gps_coordinates">Coordenadas GPS</string>
+    <string name="altitude">Altitude</string>
     <string name="background_color">Cor de fundo</string>
     <string name="text_color">Cor do texto</string>
     <string name="primary_color">Cor primária</string>
     <string name="foreground_color">Cor da fonte</string>
     <string name="app_icon_color">Cor do ícone do aplicativo</string>
+    <string name="bottom_navigation_bar_color">Cor da barra de navegação inferior</string>
     <string name="restore_defaults">Restaurar predefinições</string>
     <string name="change_color">Mudar cor</string>
     <string name="theme">Tema</string>
@@ -150,6 +159,8 @@
     <string name="undo_changes_confirmation">Tem certeza que deseja desfazer as alterações?</string>
     <string name="save_before_closing">Existem alterações não salvas. Salvar antes de sair?</string>
     <string name="apply_to_all_apps">Aplicar cores a todos os Apps Simple</string>
+    <string name="app_icon_color_warning">AVISO: alguns launchers não lidam com a personalização do ícone do aplicativo corretamente. Caso o ícone desapareça, tente iniciar o aplicativo pelo Google Play ou algum widget, se disponível.
+         Uma vez iniciado, basta voltar o ícone laranja padrão #F57C00. Você pode ter que reinstalar o aplicativo no pior dos casos.</string>
     <string name="share_colors_success">Cores atualizadas com sucesso. Um novo tema chamado \'Compartilhado\' foi adicionado, use-o para atualizar as cores de todos os apps no futuro.</string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
@@ -173,8 +184,11 @@
     <string name="temporarily_show_hidden">Mostrar pastas ocultas temporariamente</string>
     <string name="stop_showing_hidden">Parar de exibir mídia oculta</string>
     <string name="maximum_share_reached">Não é possível compartilhar essa quantidade toda de arquivos de uma vez</string>
+    <string name="empty_and_disable_recycle_bin">Esvazie e desative a Lixeira</string>
     <string name="undo">Desfazer</string>
     <string name="redo">Refazer</string>
+    <string name="print">Imprimir</string>
+    <string name="create_shortcut">Criar atalho</string>
     <string name="sort_by">Ordenar por</string>
     <string name="name">Nome</string>
     <string name="size">Tamanho</string>
@@ -188,6 +202,7 @@
     <string name="ascending">Crescente</string>
     <string name="descending">Decrescente</string>
     <string name="use_for_this_folder">Apenas para esta pasta</string>
+    <string name="sort_numeric_parts">Ordenar partes numéricas pelo valor real</string>
     <string name="proceed_with_deletion">Deseja realmente excluir?</string>
     <string name="deletion_confirmation">Deseja realmente excluir %s?</string>
     <string name="move_to_recycle_bin_confirmation">Deseja realmente mover %s para a Lixeira?</string>
@@ -196,6 +211,7 @@
     <string name="do_not_ask_again">Não perguntar novamente por enquanto</string>
     <string name="yes">Sim</string>
     <string name="no">Não</string>
+    <string name="maybe">Talvez</string>
     <plurals name="delete_warning">
         <item quantity="one">WARNING: Você está excluindo %d pasta</item>
         <item quantity="other">WARNING: Você está excluindo %d pastas</item>
@@ -218,6 +234,9 @@
     <string name="go_to_settings">Ir para configurações</string>
     <string name="protection_setup_successfully">Senha criada com sucesso. Reinstale o app caso você a esqueça.</string>
     <string name="fingerprint_setup_successfully">Proteção criada com sucesso. Reinstale o app caso tenha problemas em redefinir.</string>
+    <string name="lock_folder">Bloquear pasta</string>
+    <string name="unlock_folder">Desbloquear pasta</string>
+    <string name="lock_folder_notice">Esta proteção funciona apenas neste aplicativo, não é presumível substituir uma criptografia de pasta do sistema real.</string>
     <string name="yesterday">Ontem</string>
     <string name="today">Hoje</string>
     <string name="tomorrow">Amanhã</string>
@@ -297,6 +316,18 @@
         <item quantity="one">%d dia antes</item>
         <item quantity="other">%d dias antes</item>
     </plurals>
+    <plurals name="weeks_before">
+        <item quantity="one">%d semana antes</item>
+        <item quantity="other">%d semanas antes</item>
+    </plurals>
+    <plurals name="months_before">
+        <item quantity="one">%d mês antes</item>
+        <item quantity="other">%d meses antes</item>
+    </plurals>
+    <plurals name="years_before">
+        <item quantity="one">%d ano antes</item>
+        <item quantity="other">%d anos antes</item>
+    </plurals>
     <plurals name="by_seconds">
         <item quantity="one">%d segundo</item>
         <item quantity="other">%d segundos</item>
@@ -340,6 +371,7 @@
     <string name="add_new_sound">Adicionar um novo som</string>
     <string name="no_sound">Sem som</string>
     <string name="settings">Configurações</string>
+    <string name="purchase_simple_thank_you">Compra Simples Obrigado</string>
     <string name="customize_colors">Personalizar cores</string>
     <string name="customize_widget_colors">Personalizar cores do widget</string>
     <string name="use_english_language">Usar o idioma inglês</string>
@@ -352,11 +384,13 @@
     <string name="password_protect_hidden_items">Restringir a visualização de itens ocultos com senha</string>
     <string name="password_protect_whole_app">Proteção por senha em todo o app</string>
     <string name="password_protect_file_deletion">Proteção de senha para exclusão e movimento de arquivo</string>
+    <string name="keep_last_modified">Manter o valor antigo da última modificação nas operações de arquivo</string>
     <string name="show_info_bubble">Mostrar bolha de informação ao rolar usando a barra de rolagem</string>
     <string name="prevent_phone_from_sleeping">Impedir que o telefone durma enquanto o aplicativo está em primeiro plano</string>
     <string name="skip_delete_confirmation">Sempre pular confirmação de exclusão</string>
     <string name="enable_pull_to_refresh">Habilitar puxar do topo da tela para atualizar o conteúdo</string>
     <string name="use_24_hour_time_format">Usar formato de tempo 24-horas</string>
+    <string name="change_date_and_time_format">Alterar formato de data e hora</string>
     <string name="sunday_first">Iniciar a semana no Domingo</string>
     <string name="widgets">Widgets</string>
     <string name="use_same_snooze">Sempre usar o mesmo tempo de soneca</string>
@@ -366,6 +400,10 @@
     <string name="recycle_bin_cleaning_interval">Intervalo de limpeza da Lixeira</string>
     <string name="empty_recycle_bin">Lixeira vazia</string>
     <string name="force_portrait_mode">Forçar modo retrato</string>
+    <string name="export_settings">Exportar configurações</string>
+    <string name="import_settings">Importar configurações</string>
+    <string name="settings_exported_successfully">Configurações exportadas com sucesso</string>
+    <string name="settings_imported_successfully">Configurações importadas com sucesso</string>
     <string name="visibility">Visibilidade</string>
     <string name="security">Segurança</string>
     <string name="scrolling">Rolagem</string>
@@ -374,6 +412,7 @@
     <string name="saving_label">Salvando</string>
     <string name="startup">Inicialização</string>
     <string name="text">Texto</string>
+    <string name="migrating">Migrando</string>
     <string name="restore_this_file">Restaurar este arquivo</string>
     <string name="restore_selected_files">Restaurar os itens selecionados</string>
     <string name="restore_all_files">Restaurar todos os arquivos</string>
@@ -382,6 +421,12 @@
     <string name="empty_recycle_bin_confirmation">Tem certeza que deseja esvaziar a Lixeira? Os arquivos serão perdidos permanentemente.</string>
     <string name="recycle_bin_empty">A lixeira está vazia</string>
     <string name="moving_recycle_bin_items_disabled">Mover itens da lixeira está desativado, por favor use Restaurar</string>
+    <string name="show_the_recycle_bin">Mostrar a lixeira</string>
+    <string name="hide_the_recycle_bin">Ocultar a Lixeira</string>
+    <plurals name="moving_items_into_bin">
+        <item quantity="one">Movendo %d item para a Lixeira</item>
+        <item quantity="other">Movendo %d itens para a Lixeira</item>
+    </plurals>
     <string name="importing">Importando…</string>
     <string name="exporting">Exportando…</string>
     <string name="importing_successful">Importado com sucesso</string>
@@ -390,6 +435,7 @@
     <string name="exporting_failed">Falha na exportação</string>
     <string name="importing_some_entries_failed">Houve falha em alguns ítens da importação</string>
     <string name="exporting_some_entries_failed">Houve falha em alguns ítens da exportação</string>
+    <string name="no_entries_for_importing">Nenhuma entrada para importação foi encontrada</string>
     <string name="no_entries_for_exporting">Não foram encontramos ítens para exportar</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Você parece ter um dispositivo USB anexado ao seu dispositivo. Para garantir que seus arquivos apareçam corretamente, conceda permissões adicionais.</string>
@@ -465,7 +511,11 @@
     <string name="device_os">Sistema operacional: %s</string>
     <string name="purchase">Comprar</string>
     <string name="update_thank_you">Por favor, atualize o Simple Thank You para a versão mais recente</string>
+    <string name="before_asking_question_read_faq">Antes de fazer uma pergunta, verifique as configurações do aplicativo e leia as Perguntas frequentes primeiro. Talvez a solução esteja lá.</string>
     <string name="read_it">Ler</string>
+    <string name="rate_us_prompt">Olá,\n\nparece que você já está usando este aplicativo já há algum tempo e nós realmente apreciamos isso.\n\nSe pudermos pedir um favor, avalie-nos no Google Play. Isso realmente nos ajudaria muito.\n\nNão importa como você decida, você não verá essa mensagem novamente.\n\nObrigado!</string>
+    <string name="sideloaded_app">            Parece que sua versão do aplicativo está corrompida. Por favor, baixe a versão original &lt;a href="%s"&gt;aqui&lt;/a&gt;.
+        </string>
     <string name="frequently_asked_questions">Perguntas frequentes</string>
     <string name="before_asking_question">Antes de fazer uma pergunta, leia primeiro a</string>
     <string name="faq_1_title_commons">Por que não vejo esse widget de aplicativos na lista de widgets?</string>
@@ -478,6 +528,7 @@
     <string name="faq_4_title_commons">Eu não gosto das cores do widget, posso mudá-las?</string>
     <string name="faq_4_text_commons">Sim, enquanto você arrasta um widget em sua tela inicial, uma tela de configuração do widget aparece. Você verá quadrados coloridos no canto inferior esquerdo, basta pressioná-los para escolher uma nova cor. Você pode usar o controle deslizante para ajustar o alfa também.</string>
     <string name="faq_5_title_commons">Posso restaurar de alguma forma os arquivos apagados?</string>
+    <string name="faq_5_text_commons">Se eles foram realmente excluídos, você não pode. No entanto, há uma Lixeira habilitada por padrão, isso fará com que os arquivos sejam movidos apenas na lixeira em vez de excluí-los.</string>
     <string name="faq_6_title_commons">O ícone do launcher do app desapareceu. O que posso fazer?</string>
     <string name="faq_6_text_commons">É causada por seu lançador não oferecer suporte a personalização do ícone corretamente. Tente lançar o app via Google Play ou algum widget, se disponível.
         uma vez lançado, defina o ícone padrão laranja #F57C00. Você pode ter que reinstalar o app na pior das hipóteses.</string>
@@ -506,4 +557,7 @@
     <string name="panorama_view_title">VR Panorama View (exibindo panoramas)</string>
     <string name="sanselan_title">Apache Sanselan (lendo metadados da imagem)</string>
     <string name="filters_title">Filtros de fotos Android (filtros de imagens)</string>
+    <string name="gesture_views_title">Visualizações de gestos (imagens com zoom)</string>
+    <string name="deprecated_app">DESCONTINUADO: Esta versão do aplicativo não é mais mantida, obtenha a versão Pro em https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
+    <string name="pro_app_refund">Não se esqueça de que, se você desinstalar qualquer aplicativo pago em até duas horas, você será automaticamente reembolsado. Se você quiser um reembolso a qualquer momento, entre em contato conosco pelo e-mail hello@simplemobiletools.com e você receberá. Isso torna mais fácil experimentá-lo :)</string>
 </resources>
