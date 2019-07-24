@@ -1,6 +1,7 @@
 package com.simplemobiletools.commons.activities
 
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -43,7 +44,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_customization)
 
-        if (baseConfig.defaultNavigationBarColor == INVALID_NAVIGATION_BAR_COLOR) {
+        if (baseConfig.defaultNavigationBarColor == INVALID_NAVIGATION_BAR_COLOR && baseConfig.navigationBarColor == INVALID_NAVIGATION_BAR_COLOR) {
             baseConfig.defaultNavigationBarColor = window.navigationBarColor
             baseConfig.navigationBarColor = window.navigationBarColor
         }
@@ -177,13 +178,14 @@ class CustomizationActivity : BaseSimpleActivity() {
                     curTextColor = baseConfig.customTextColor
                     curBackgroundColor = baseConfig.customBackgroundColor
                     curPrimaryColor = baseConfig.customPrimaryColor
-                    curAppIconColor = baseConfig.customAppIconColor
+                    curNavigationBarColor = baseConfig.customNavigationBarColor
                     setTheme(getThemeId(curPrimaryColor))
                     setupColorsPickers()
                 } else {
                     baseConfig.customPrimaryColor = curPrimaryColor
                     baseConfig.customBackgroundColor = curBackgroundColor
                     baseConfig.customTextColor = curTextColor
+                    baseConfig.customNavigationBarColor = curNavigationBarColor
                     baseConfig.appIconColor = curAppIconColor
                 }
             } else if (curSelectedThemeId == THEME_SHARED) {
@@ -193,6 +195,7 @@ class CustomizationActivity : BaseSimpleActivity() {
                         curBackgroundColor = backgroundColor
                         curPrimaryColor = primaryColor
                         curAppIconColor = appIconColor
+                        curNavigationBarColor = navigationBarColor
                     }
                     setTheme(getThemeId(curPrimaryColor))
                     setupColorsPickers()
@@ -203,6 +206,7 @@ class CustomizationActivity : BaseSimpleActivity() {
                 curBackgroundColor = getColor(theme.backgroundColorId)
                 curPrimaryColor = getColor(theme.primaryColorId)
                 curAppIconColor = getColor(theme.appIconColorId)
+                curNavigationBarColor = getThemeNavigationColor(curSelectedThemeId)
                 setTheme(getThemeId(curPrimaryColor))
                 colorChanged()
             }
@@ -213,6 +217,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         updateTextColors(customization_holder, curTextColor)
         updateBackgroundColor(curBackgroundColor)
         updateActionbarColor(curPrimaryColor)
+        updateNavigationBarColor(curNavigationBarColor)
     }
 
     private fun getCurrentThemeId(): Int {
@@ -226,7 +231,8 @@ class CustomizationActivity : BaseSimpleActivity() {
                 if (curTextColor == getColor(value.textColorId) &&
                         curBackgroundColor == getColor(value.backgroundColorId) &&
                         curPrimaryColor == getColor(value.primaryColorId) &&
-                        curAppIconColor == getColor(value.appIconColorId)
+                        curAppIconColor == getColor(value.appIconColorId) &&
+                        curNavigationBarColor == getThemeNavigationColor(key)
                 ) {
                     themeId = key
                 }
@@ -244,6 +250,8 @@ class CustomizationActivity : BaseSimpleActivity() {
         }
         return getString(nameId)
     }
+
+    private fun getThemeNavigationColor(themeId: Int) = if (themeId == THEME_BLACK_WHITE) Color.BLACK else baseConfig.defaultNavigationBarColor
 
     private fun promptSaveDiscard() {
         ConfirmationAdvancedDialog(this, "", R.string.save_before_closing, R.string.save, R.string.discard) {
@@ -355,7 +363,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         updateActionbarColor(color)
     }
 
-    private fun setCurrentNavigarionBarColor(color: Int) {
+    private fun setCurrentNavigationBarColor(color: Int) {
         curNavigationBarColor = color
         updateNavigationBarColor(color)
     }
@@ -406,10 +414,9 @@ class CustomizationActivity : BaseSimpleActivity() {
             updateNavigationBarColor(it)
         }, callback = { wasPositivePressed, color ->
             if (wasPositivePressed) {
-                if (hasColorChanged(curNavigationBarColor, color)) {
-                    setCurrentNavigarionBarColor(color)
-                    colorChanged()
-                }
+                setCurrentNavigationBarColor(color)
+                colorChanged()
+                updateColorTheme(getUpdatedTheme())
             } else {
                 updateNavigationBarColor(curNavigationBarColor)
             }
