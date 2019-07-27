@@ -150,6 +150,8 @@
     <string name="app_icon_color">Alkalmazás ikon színe</string>
     <string name="bottom_navigation_bar_color">Alsó navigációs sáv színe</string>
     <string name="restore_defaults">Alapértelmezések visszaállítása</string>
+    <string name="use_default">Használja az alapértelmezettet</string>
+    <string name="default_color">Alapértelmezett</string>
     <string name="change_color">Szín változtatása</string>
     <string name="theme">Téma</string>
     <string name="changing_color_description">A szín megváltoztatásával átvált az Egyéni témára</string>

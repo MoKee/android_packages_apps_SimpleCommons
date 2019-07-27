@@ -28,6 +28,7 @@
     <string name="camera">Камера</string>
     <string name="primary_color">Главен цвят</string>
     <string name="restore_defaults">Възстанови по подразбиране</string>
+    <string name="default_color">Стандартен</string>
     <string name="theme">Тема</string>
     <string name="save">Запазване</string>
     <string name="discard">Отхвърли</string>

@@ -18,6 +18,7 @@
     <string name="duration">Tempoh</string>
     <string name="exposure_time">Masa dedahan</string>
     <string name="camera">Kamera</string>
+    <string name="default_color">Asal</string>
     <string name="save">Simpan</string>
     <string name="custom">Peribadi</string>
     <string name="delete">Padam</string>

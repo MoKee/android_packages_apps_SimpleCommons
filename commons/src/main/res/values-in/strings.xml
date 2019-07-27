@@ -142,6 +142,8 @@
     <string name="app_icon_color">Warna ikon aplikasi</string>
     <string name="bottom_navigation_bar_color">Warna bilah navigasi bawah</string>
     <string name="restore_defaults">Kembalikan setelan</string>
+    <string name="use_default">Gunakan bawaan</string>
+    <string name="default_color">Standar</string>
     <string name="change_color">Ubah warna</string>
     <string name="theme">Tema</string>
     <string name="changing_color_description">Mengubah warna akan membuatnya beralih ke tema Kustom</string>

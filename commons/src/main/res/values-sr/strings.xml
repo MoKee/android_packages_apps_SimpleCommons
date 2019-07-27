@@ -19,6 +19,7 @@
     <string name="duration">Трајање</string>
     <string name="exposure_time">Време експозиције</string>
     <string name="camera">Камера</string>
+    <string name="default_color">Подразумевано</string>
     <string name="theme">Тема</string>
     <string name="save">Сачувај</string>
     <string name="light_theme">Светло</string>

@@ -131,6 +131,8 @@
     <string name="app_icon_color">ಕಿರು ತಂತ್ರಾಂಶದ ಚಿಹ್ನೆಯ ಬಣ್ಣ</string>
     <string name="bottom_navigation_bar_color">ಕೆಳಗಿನ ಮಾರ್ಗದರ್ಶಕ ಪಟ್ಟಿಯ ಬಣ್ಣ</string>
     <string name="restore_defaults">ಪೂರ್ವನಿರ್ಧರಿತಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ</string>
+    <string name="use_default">ಪೂರ್ವನಿಯೋಜಿತ ಬಳಸು</string>
+    <string name="default_color">ಪೂರ್ವನಿಯೋಜಿತ</string>
     <string name="change_color">ಬಣ್ಣ ಬದಲಿಸಿ</string>
     <string name="theme">ಥೀಮ್</string>
     <string name="changing_color_description">ಬಣ್ಣ ಬದಲಾಯಿಸುವುದರಿಂದ ಇದನ್ನು ಕಸ್ಟಮ್‌ ವಿಷಯಕ್ಕೆ ಬದಲಾಯಿಸಲಾಗುತ್ತದೆ</string>
@@ -191,6 +193,7 @@
     <string name="settings">ಸಂಯೋಜನೆಗಳು</string>
     <string name="medium">ಮಧ್ಯಮ</string>
     <string name="widgets">ವಿಜೆಟ್‌ಗಳು</string>
+    <string name="visibility">ಗೋಚರಿಕೆ</string>
     <string name="text">ಪಠ್ಯ</string>
     <string name="usb">ಯುಎಸ್‍ಬಿ</string>
     <string name="monday">ಸೋಮವಾರ</string>

@@ -19,6 +19,7 @@
     <string name="exposure_time">Esposizio denbora</string>
     <string name="camera">Kamera</string>
     <string name="restore_defaults">Berrezarri balio lehenetsiak</string>
+    <string name="default_color">Lehenetsia</string>
     <string name="save">Gorde</string>
     <string name="dark_theme">Iluna</string>
     <string name="custom">Pertsonalizatua</string>

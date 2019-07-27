@@ -145,6 +145,8 @@
     <string name="app_icon_color">Couleur de fond de l\'îcone de l\'application</string>
     <string name="bottom_navigation_bar_color">Couleur de la Barre de navigation inférieure</string>
     <string name="restore_defaults">Restaurer les valeurs par défaut</string>
+    <string name="use_default">Utiliser par défaut</string>
+    <string name="default_color">Défaut</string>
     <string name="change_color">Changer couleur</string>
     <string name="theme">Thèmes</string>
     <string name="changing_color_description">Changer une couleur le basculera en thème personnalisé</string>

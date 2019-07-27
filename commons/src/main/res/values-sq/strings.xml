@@ -10,6 +10,7 @@
     <string name="sd_card">Në kartën SD</string>
     <string name="duration">Kohëzgjatja</string>
     <string name="camera">Kamera</string>
+    <string name="default_color">E paracaktuar</string>
     <string name="save">Ruaj</string>
     <string name="custom">I personalizuar</string>
     <string name="delete">Fshi</string>

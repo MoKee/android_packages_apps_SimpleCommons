@@ -30,6 +30,8 @@
     <string name="camera">Máy ảnh</string>
     <string name="primary_color">Màu chính</string>
     <string name="restore_defaults">Khôi phục mặc định</string>
+    <string name="use_default">Sử dụng mặc định</string>
+    <string name="default_color">Mặc định</string>
     <string name="theme">Giao diện</string>
     <string name="save">Lưu</string>
     <string name="discard">Hủy</string>

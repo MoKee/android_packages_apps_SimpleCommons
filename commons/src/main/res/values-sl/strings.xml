@@ -150,6 +150,8 @@
     <string name="app_icon_color">Barva ikone aplikacije</string>
     <string name="bottom_navigation_bar_color">Barva spodnje navigacijske vrstice</string>
     <string name="restore_defaults">Ponastavi na privzeto</string>
+    <string name="use_default">Uporabi privzeto</string>
+    <string name="default_color">Privzeta</string>
     <string name="change_color">Spremeni barvo</string>
     <string name="theme">Tema</string>
     <string name="changing_color_description">Spreminjanje barve bo preklopilo na temo po meri</string>

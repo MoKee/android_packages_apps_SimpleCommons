@@ -12,6 +12,7 @@
     <string name="remove_from_favorites">Remove from favourites</string>
     <string name="skip">Skip</string>
     <string name="primary_color">Primary colour</string>
+    <string name="default_color">Default</string>
     <string name="save">Save</string>
     <string name="custom">Customise</string>
     <string name="yes">Yes</string>

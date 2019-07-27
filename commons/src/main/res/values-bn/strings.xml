@@ -6,6 +6,7 @@
     <string name="none">কোনো কিছুই নয়</string>
     <string name="email">ই-মেইল</string>
     <string name="skip">Skip</string>
+    <string name="default_color">Default</string>
     <string name="custom">কাস্টম</string>
     <string name="remove">সরান</string>
     <string name="undo">পূর্বাবস্থায় ফিরুন</string>

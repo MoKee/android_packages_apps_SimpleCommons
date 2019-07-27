@@ -7,6 +7,7 @@
     <string name="never">Never</string>
     <string name="download">Download</string>
     <string name="skip">Skip</string>
+    <string name="default_color">Default</string>
     <string name="custom">Customise</string>
     <string name="donate">Donate</string>
 </resources>

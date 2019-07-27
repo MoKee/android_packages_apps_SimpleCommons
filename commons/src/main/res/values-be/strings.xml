@@ -23,6 +23,8 @@
     <string name="exposure_time">Вытрымка</string>
     <string name="camera">Камера</string>
     <string name="restore_defaults">Аднавіць па змаўчанні</string>
+    <string name="use_default">Выкарыстоўваць па змаўчанні</string>
+    <string name="default_color">Па змаўчанні</string>
     <string name="theme">Тэма</string>
     <string name="save">Захаваць</string>
     <string name="discard">Адхіліць</string>

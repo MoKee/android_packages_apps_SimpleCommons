@@ -141,6 +141,8 @@
     <string name="foreground_color">Χρώμα προσκηνίου</string>
     <string name="app_icon_color">Χρώμα εικονιδίου εφαρμογής</string>
     <string name="restore_defaults">Επαναφορά προεπιλογών</string>
+    <string name="use_default">Χρήση προεπιλεγμένης</string>
+    <string name="default_color">Προεπιλογή</string>
     <string name="change_color">Αλλαγή χρώματος</string>
     <string name="theme">Θέμα</string>
     <string name="changing_color_description">Η αλλαγή ενός χρώματος θα λλάξει το Προσαρμοσμένο θέμα</string>

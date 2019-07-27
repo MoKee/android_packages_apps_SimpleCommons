@@ -156,6 +156,8 @@
     <string name="app_icon_color">Barva ikony aplikace</string>
     <string name="bottom_navigation_bar_color">Barva dolního navigačního panelu</string>
     <string name="restore_defaults">Obnovit výchozí</string>
+    <string name="use_default">Použít výchozí</string>
+    <string name="default_color">Výchozí</string>
     <string name="change_color">Změnit barvu</string>
     <string name="theme">Motiv</string>
     <string name="changing_color_description">Změna barvy změní motiv na vlastní</string>

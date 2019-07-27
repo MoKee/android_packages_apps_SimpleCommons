@@ -139,6 +139,8 @@
     <string name="foreground_color">前景色</string>
     <string name="app_icon_color">アプリアイコンの色</string>
     <string name="restore_defaults">デフォルトに戻す</string>
+    <string name="use_default">デフォルトに戻す</string>
+    <string name="default_color">デフォルト</string>
     <string name="change_color">色を変更</string>
     <string name="theme">テーマ</string>
     <string name="changing_color_description">色を変更すると、テーマが「カスタム」に切り替わります</string>

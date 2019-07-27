@@ -16,6 +16,7 @@
     <string name="duration">Tydsduur</string>
     <string name="exposure_time">Beligtingstyd</string>
     <string name="camera">Kamera</string>
+    <string name="default_color">Verstek</string>
     <string name="save">Stoor</string>
     <string name="dark_theme">Donker</string>
     <string name="custom">Gepasmaakte</string>

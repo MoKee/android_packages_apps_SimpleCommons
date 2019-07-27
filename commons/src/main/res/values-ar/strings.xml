@@ -162,6 +162,8 @@
     <string name="app_icon_color">لون رمز التطبيق</string>
     <string name="bottom_navigation_bar_color">لون اسفل شريط التنقل</string>
     <string name="restore_defaults">إستعادة الإفتراضيات</string>
+    <string name="use_default">استخدم الافتراضي</string>
+    <string name="default_color">الإفتراضي</string>
     <string name="change_color">تغيير اللون</string>
     <string name="theme">السمة</string>
     <string name="changing_color_description">سيؤدي تغيير اللون إلى الانتقال إلى المظهر المخصص</string>

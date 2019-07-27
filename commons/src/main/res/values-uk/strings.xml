@@ -29,6 +29,8 @@
     <string name="exposure_time">Час експозиції</string>
     <string name="camera">Камера</string>
     <string name="primary_color">Основний колір</string>
+    <string name="use_default">Використовувати за-замовчуванням</string>
+    <string name="default_color">За замовчуванням</string>
     <string name="theme">Тема оформлення</string>
     <string name="save">Зберегти</string>
     <string name="discard">Скасувати</string>

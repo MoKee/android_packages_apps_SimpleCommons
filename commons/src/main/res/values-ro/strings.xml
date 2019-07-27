@@ -44,6 +44,7 @@
     <string name="camera">Cameră foto</string>
     <string name="primary_color">Culoare primară</string>
     <string name="restore_defaults">Restabiliți valorile implicite</string>
+    <string name="default_color">Implicit</string>
     <string name="change_color">Schimbă culoarea</string>
     <string name="theme">Temă</string>
     <string name="save">Salvaţi</string>

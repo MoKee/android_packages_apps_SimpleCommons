@@ -12,6 +12,7 @@
     <string name="duration">Dauer</string>
     <string name="exposure_time">Beliichtungszäit</string>
     <string name="camera">Fotoapparat</string>
+    <string name="default_color">Standard</string>
     <string name="save">Späicheren</string>
     <string name="dark_theme">Däischter</string>
     <string name="custom">Personaliséiert</string>

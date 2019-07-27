@@ -150,6 +150,8 @@
     <string name="app_icon_color">Rakenduse ikooni värv</string>
     <string name="bottom_navigation_bar_color">Alumise navigeerimisriba värv</string>
     <string name="restore_defaults">Taasta vaikesätted</string>
+    <string name="use_default">Kasuta vaikerakendust</string>
+    <string name="default_color">Vaikimisi</string>
     <string name="change_color">Muuda värvi</string>
     <string name="theme">Teema</string>
     <string name="changing_color_description">Värvi muutmine muudab selle kohandatud teemaks</string>

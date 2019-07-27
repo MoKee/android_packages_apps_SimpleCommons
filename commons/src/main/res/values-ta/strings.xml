@@ -15,6 +15,7 @@
     <string name="duration">கால அளவு</string>
     <string name="exposure_time">எக்ஸ்போஷர் நேரம்</string>
     <string name="camera">கேமரா</string>
+    <string name="default_color">இயல்புநிலை</string>
     <string name="save">சேமி</string>
     <string name="dark_theme">அடர்</string>
     <string name="custom">தனிப்பயன்</string>

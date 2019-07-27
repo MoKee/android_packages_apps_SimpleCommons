@@ -14,6 +14,7 @@
     <string name="duration">ระยะเวลา</string>
     <string name="exposure_time">เวลารับแสง</string>
     <string name="camera">กล้องถ่ายรูป</string>
+    <string name="default_color">ค่าเริ่มต้น</string>
     <string name="save">บันทึก</string>
     <string name="dark_theme">มืด</string>
     <string name="custom">กำหนดเอง</string>

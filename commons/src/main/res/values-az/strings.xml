@@ -135,6 +135,7 @@
     <string name="foreground_color">Önplan rəngi</string>
     <string name="app_icon_color">Tətbiq ikonu rəngi</string>
     <string name="restore_defaults">Standarta qaytar</string>
+    <string name="default_color">İlkin</string>
     <string name="change_color">Rəngi dəyiş</string>
     <string name="theme">Mövzu</string>
     <string name="changing_color_description">Rəngi dəyişmək onu Özəl mövzuya çevirəcək</string>

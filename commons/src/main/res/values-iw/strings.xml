@@ -26,6 +26,7 @@
     <string name="camera">מצלמה</string>
     <string name="primary_color">צבע ראשי</string>
     <string name="restore_defaults">שחזר ברירות מחדל</string>
+    <string name="default_color">ברירת מחדל</string>
     <string name="theme">ערכת נושא</string>
     <string name="save">שמור</string>
     <string name="light_theme">בהיר</string>
