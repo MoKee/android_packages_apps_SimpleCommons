@@ -645,3 +645,5 @@ fun Context.getVideoResolution(path: String): Point? {
 
     return point
 }
+
+fun Context.getStringsPackageName() = getString(R.string.package_name)
