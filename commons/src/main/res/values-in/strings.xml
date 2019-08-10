@@ -55,6 +55,7 @@
     <string name="extension_cannot_be_empty">Ekstensi tak boleh kosong</string>
     <string name="source_file_doesnt_exist">File sumber %s tidak ada</string>
     <string name="prepend_filenames">Tambahkan nama file</string>
+    <string name="pattern_renaming">Pola</string>
     <string name="copy">Salin</string>
     <string name="move">Pindah</string>
     <string name="copy_move">Salin / Pindahkan</string>
@@ -99,7 +100,6 @@
     <string name="select_folder">Pilih folder</string>
     <string name="select_file">Pilih berkas</string>
     <string name="confirm_storage_access_title">Konfirmasikan akses penyimpanan eksternal</string>
-    <string name="confirm_storage_access_text">Silakan pilih folder root dari kartu SD pada layar berikutnya, untuk memberikan akses tulis</string>
     <string name="confirm_storage_access_text_sd">Jika Anda tidak melihat kartu SD, coba ini</string>
     <string name="confirm_selection">Mengkonfirmasi pilihan</string>
     <plurals name="items">
@@ -377,7 +377,6 @@
     <string name="no_entries_for_exporting">Tidak ada entri untuk ekspor yang ditemukan</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Tampaknya Anda memiliki perangkat USB yang terpasang pada perangkat Anda. Untuk memastikan file-nya muncul dengan benar, Anda perlu memberikan izin tambahan.</string>
-    <string name="confirm_usb_storage_access_text">Silakan pilih folder root perangkat USB di layar berikutnya, untuk memberikan akses</string>
     <string name="wrong_root_selected_usb">Folder salah dipilih, silakan pilih folder root perangkat USB Anda</string>
     <string name="january">Januari</string>
     <string name="february">Februari</string>

@@ -35,6 +35,7 @@
     <string name="no_audio_permissions">Tillatelse for lyd kreves</string>
     <string name="rename_file">Endre navn på fil</string>
     <string name="rename_folder">Endre navn på mappe</string>
+    <string name="pattern_renaming">Mønster</string>
     <string name="copy">Kopier</string>
     <string name="move">Flytt</string>
     <string name="copy_move">Kopier / Flytt</string>
@@ -78,7 +79,6 @@
     <string name="select_folder">Velg en mappe</string>
     <string name="select_file">Velg en fil</string>
     <string name="confirm_storage_access_title">Bekreft ekstern lagringstilgang</string>
-    <string name="confirm_storage_access_text">Velg rotmappen til SD-kortet på den neste skjermen for å gi skrivetilgang</string>
     <string name="confirm_storage_access_text_sd">Hvis du ikke ser SD-kortet, prøv dette</string>
     <string name="confirm_selection">Bekreft valg</string>
     <plurals name="items">
@@ -371,7 +371,6 @@
     <string name="importing_some_entries_failed">Importering av noen oppføringer feilet</string>
     <string name="exporting_some_entries_failed">Eksportering av noen oppføringer feilet</string>
     <string name="no_entries_for_exporting">Ingen oppføringer for eksportering er funnet</string>
-    <string name="confirm_usb_storage_access_text">Velg rotmappen til USB-enheten på den neste skjermen for å gi tilgang</string>
     <string name="wrong_root_selected_usb">Feil mappe valgt, velg rotmappen til USB-enheten din</string>
     <string name="january">Januar</string>
     <string name="february">Februar</string>

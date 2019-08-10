@@ -55,6 +55,7 @@
     <string name="extension_cannot_be_empty">L\'extension ne peut pas rester vide</string>
     <string name="source_file_doesnt_exist">Le fichier source %s n\'existe pas</string>
     <string name="prepend_filenames">Ajouter un préfixe aux noms de fichiers</string>
+    <string name="pattern_renaming">Schéma</string>
     <string name="copy">Copier</string>
     <string name="move">Déplacer</string>
     <string name="copy_move">Copier ou déplacer</string>
@@ -99,7 +100,6 @@
     <string name="select_folder">Sélectionner un dossier</string>
     <string name="select_file">Sélectionner un fichier</string>
     <string name="confirm_storage_access_title">Confirmez l\'accès au stockage externe</string>
-    <string name="confirm_storage_access_text">Veuillez sélectionner le dossier racine de la carte SD sur le prochain écran, pour accorder le droit en écriture</string>
     <string name="confirm_storage_access_text_sd">Si vous ne voyez pas la carte SD, essayez ceci</string>
     <string name="confirm_selection">Confirmer la sélection</string>
     <plurals name="items">
@@ -420,7 +420,6 @@
     <string name="no_entries_for_exporting">Aucun élément pouvant être exporté n\'a été trouvé</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Vous semblez avoir un périphérique USB connecté à votre périphérique. Pour s’assurer que ses dossiers s’affichent correctement, vous devez accorder des autorisations supplémentaires.</string>
-    <string name="confirm_usb_storage_access_text">Veuillez sélectionner le répertoire racine du périphérique USB sur l\'écran suivant afin de pouvoir y accéder</string>
     <string name="wrong_root_selected_usb">Mauvais répertoire sélectionné. Veuillez sélectionner le répertoire racine du périphérique USB.</string>
     <string name="january">Janvier</string>
     <string name="february">Février</string>

@@ -55,6 +55,7 @@
     <string name="extension_cannot_be_empty">Končnica ne more biti prazna</string>
     <string name="source_file_doesnt_exist">Datoteka %s ne obstaja</string>
     <string name="prepend_filenames">Pripravi mena datotek</string>
+    <string name="pattern_renaming">Vzorec</string>
     <string name="copy">Kopiraj</string>
     <string name="move">Premakni</string>
     <string name="copy_move">Kopiraj / premakni</string>
@@ -99,7 +100,6 @@
     <string name="select_folder">Izberi mapo</string>
     <string name="select_file">Izberi datoteko</string>
     <string name="confirm_storage_access_title">Potrdi dostop do zunanje shrambe</string>
-    <string name="confirm_storage_access_text">Izberite korensko mapo kartice SD na naslednjem zaslonu, da odobrite dovoljenje za pisanje</string>
     <string name="confirm_storage_access_text_sd">Če ne vidite kartice SD, poskusite to</string>
     <string name="confirm_selection">Potrdi izbor</string>
     <plurals name="items">
@@ -480,7 +480,6 @@
     <string name="no_entries_for_exporting">Za izvoz ni bilo najdenih nobenih vnosov</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Videti je, da je v napravo priključena naprava USB. Če želite preveriti, ali so datoteke pravilno prikazane, morate odobriti dodatna dovoljenja.</string>
-    <string name="confirm_usb_storage_access_text">Izberitre korensko mapo naprave USB na naslednjem zaslonu, da odobrite dostop</string>
     <string name="wrong_root_selected_usb">Izbrana je bila napapačna mapa. Prosimo, izberite korensko mapo naprave USB.</string>
     <string name="january">Januar</string>
     <string name="february">Februar</string>

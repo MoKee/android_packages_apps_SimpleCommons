@@ -49,6 +49,7 @@
     <string name="filename_invalid_characters_placeholder">Bylos pavadinimas \'%s\' susideda iš negalimų simbolių</string>
     <string name="extension_cannot_be_empty">Papildinys negali būti paliktas tuščias</string>
     <string name="source_file_doesnt_exist">Šaltinio byla %s neegzistuoja</string>
+    <string name="pattern_renaming">Modelis</string>
     <string name="copy">Kopijuoti</string>
     <string name="move">Perkelti</string>
     <string name="copy_move">Kopijuoti / Perkelti</string>
@@ -92,7 +93,6 @@
     <string name="select_folder">Pasirinkti aplanką</string>
     <string name="select_file">Pasirinkti byla</string>
     <string name="confirm_storage_access_title">Pasirinkti išorinės talpyklos prieigą</string>
-    <string name="confirm_storage_access_text">Norint suteikti prieigą, pasirinkite pagrindinį SD kortelės aplanką kitame lange</string>
     <string name="confirm_storage_access_text_sd">Jei nematote SD kortelės, pabandykite tai</string>
     <string name="confirm_selection">Patvirtinti pasirinkimą</string>
     <plurals name="items">
@@ -134,6 +134,8 @@
     <string name="foreground_color">Priekinio plano spalva</string>
     <string name="app_icon_color">Programėlės ikonėlės spalva</string>
     <string name="restore_defaults">Atstatyti</string>
+    <string name="use_default">Naudoti numatytąjį</string>
+    <string name="default_color">Numatytasis</string>
     <string name="theme">Tema</string>
     <string name="changing_color_description">Keičiant temą bus perjungta į pasirinktiną temą</string>
     <string name="save">Išsaugoti</string>
@@ -401,7 +403,6 @@
     <string name="importing_some_entries_failed">Kai kurių įrašų importuoti nepavyko</string>
     <string name="exporting_some_entries_failed">Kai kurių įrašų eksportuoti nepavyko</string>
     <string name="no_entries_for_exporting">Nerasta įrašų eksportavimui</string>
-    <string name="confirm_usb_storage_access_text">Prašome pasirinkti šakninį USB įrenginio aplanką kitame lange, kad patvirtinti prieigą</string>
     <string name="wrong_root_selected_usb">Pasirinktas netinkamas aplankas, pasirinkite USB įrenginio šakninį aplanką</string>
     <string name="january">Sausis</string>
     <string name="february">Vasaris</string>

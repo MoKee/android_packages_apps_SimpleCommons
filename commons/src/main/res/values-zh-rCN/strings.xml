@@ -56,6 +56,9 @@
     <string name="source_file_doesnt_exist">原文件 %s 不存在</string>
     <string name="prepend_filenames">文件名前缀</string>
     <string name="append_filenames">文件名前缀</string>
+    <string name="simple_renaming">简单重命名</string>
+    <string name="pattern_renaming">图案</string>
+    <string name="string_to_add">要添加的字符串</string>
     <string name="rename_date_time_pattern">%Y - 年份\n%M - 月\n%D - 天\n%h - 小时\n%m - 分钟\n%s - 秒</string>
     <string name="copy">复制</string>
     <string name="move">移动</string>
@@ -82,6 +85,7 @@
     <string name="could_not_create_folder">创建文件夹 %s 失败</string>
     <string name="could_not_create_file">创建文件 %s 失败</string>
     <string name="no_new_items">未发现新项目</string>
+    <string name="no_space">目标没有足够的空间。\n需要 %1$s，可用 %2$s</string>
     <string name="create_new">新建</string>
     <string name="folder">文件夹</string>
     <string name="file">文件</string>
@@ -102,7 +106,6 @@
     <string name="select_folder">选择文件夹</string>
     <string name="select_file">选择文件</string>
     <string name="confirm_storage_access_title">确认外部存储器访问权限</string>
-    <string name="confirm_storage_access_text">请选择 SD 卡根目录并授予写权限</string>
     <string name="confirm_storage_access_text_sd">如果您未找到 SD 卡目录，请尝试</string>
     <string name="confirm_selection">确认选择</string>
     <plurals name="items">
@@ -408,7 +411,6 @@
     <string name="no_entries_for_exporting">未找到要导出的项目</string>
     <string name="usb">USB</string>
     <string name="usb_detected">检测到有 USB 设备连接到您的设备。您需要授予额外的权限以确保文件能够正确显示。</string>
-    <string name="confirm_usb_storage_access_text">请在下一界面选择 USB 设备的根文件夹以授予访问权限</string>
     <string name="wrong_root_selected_usb">选择错误，请正确选择 USB 设备的根文件夹</string>
     <string name="january">一月</string>
     <string name="february">二月</string>

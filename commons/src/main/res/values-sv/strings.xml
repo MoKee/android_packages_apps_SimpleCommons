@@ -54,6 +54,7 @@
     <string name="extension_cannot_be_empty">Filnamnstillägget får inte vara tomt</string>
     <string name="source_file_doesnt_exist">Källfilen %s finns inte</string>
     <string name="prepend_filenames">Lägg till före filnamnen</string>
+    <string name="pattern_renaming">Mönster</string>
     <string name="copy">Kopiera</string>
     <string name="move">Flytta</string>
     <string name="copy_move">Kopiera / Flytta</string>
@@ -97,7 +98,6 @@
     <string name="select_folder">Välj mapp</string>
     <string name="select_file">Välj fil</string>
     <string name="confirm_storage_access_title">Bekräfta åtkomst till extern lagring</string>
-    <string name="confirm_storage_access_text">Välj rotmappen på ditt SD-kort på nästa skärm, för att bevilja skrivrättigheter</string>
     <string name="confirm_storage_access_text_sd">Om du inte ser SD-kortet, prova detta</string>
     <string name="confirm_selection">Bekräfta val</string>
     <plurals name="items">
@@ -393,7 +393,6 @@
     <string name="exporting_some_entries_failed">Exporten av vissa poster misslyckades</string>
     <string name="no_entries_for_exporting">Inga poster hittades för export</string>
     <string name="usb">USB</string>
-    <string name="confirm_usb_storage_access_text">Välj rotmappen på USB-enheten på nästa skärm, för att ge åtkomst</string>
     <string name="wrong_root_selected_usb">Du har valt fel mapp, välj rotmappen på din USB-enhet</string>
     <string name="january">Januari</string>
     <string name="february">Februari</string>

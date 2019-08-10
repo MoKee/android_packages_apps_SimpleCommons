@@ -54,6 +54,7 @@
     <string name="extension_cannot_be_empty">Extensie mag niet leeg zijn</string>
     <string name="source_file_doesnt_exist">Bronbestand %s bestaat niet</string>
     <string name="prepend_filenames">Voor bestandsnaam</string>
+    <string name="pattern_renaming">Patroon</string>
     <string name="copy">Kopiëren</string>
     <string name="move">Verplaatsen</string>
     <string name="copy_move">Kopiëren / Verplaatsen</string>
@@ -98,7 +99,6 @@
     <string name="select_folder">Kies een map</string>
     <string name="select_file">Kies een bestand</string>
     <string name="confirm_storage_access_title">Toegang tot externe opslag bevestigen</string>
-    <string name="confirm_storage_access_text">Kies in het volgende scherm de hoofdmap van de SD-kaart om schrijfrechten te verlenen</string>
     <string name="confirm_storage_access_text_sd">Probeer het volgende indien de SD-kaart niet in de lijst staat</string>
     <string name="confirm_selection">Keuze bevestigen</string>
     <plurals name="deleting_items">
@@ -134,6 +134,8 @@
     <string name="app_icon_color">Kleur app-icoon</string>
     <string name="bottom_navigation_bar_color">Kleur navigatiebalk onder aan het scherm</string>
     <string name="restore_defaults">Standaardwaarden</string>
+    <string name="use_default">Standaard gebruiken</string>
+    <string name="default_color">Standaard</string>
     <string name="change_color">Kleur veranderen</string>
     <string name="theme">Thema</string>
     <string name="changing_color_description">Zodra een kleur veranderd wordt zal het aangepaste thema worden gebruikt</string>
@@ -378,7 +380,6 @@
     <string name="exporting_some_entries_failed">Sommige items konden niet worden geëxporteerd</string>
     <string name="no_entries_for_exporting">Er zijn geen items gevonden om te exporteren</string>
     <string name="usb_detected">USB-apparaat gedetecteerd. Om de bestanden op dit apparaat te weergeven heeft de app aanvullende machtigingen nodig.</string>
-    <string name="confirm_usb_storage_access_text">Selecteer in het volgende scherm de hoofdmap van het USB-apparaat</string>
     <string name="wrong_root_selected_usb">Verkeerde map geselecteerd, kies de hoofdmap van het USB-apparaat</string>
     <string name="january">Januari</string>
     <string name="february">Februari</string>

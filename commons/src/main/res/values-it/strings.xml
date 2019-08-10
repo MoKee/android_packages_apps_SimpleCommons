@@ -55,6 +55,7 @@
     <string name="extension_cannot_be_empty">L\'estensione non può essere vuota</string>
     <string name="source_file_doesnt_exist">Il file di origine %s non esiste</string>
     <string name="prepend_filenames">Anteponi i nomi dei file</string>
+    <string name="pattern_renaming">Sequenza</string>
     <string name="rename_date_time_pattern">%Y - anno\n%M - mese\n%D - giorno\n%h - ora\n%m - minuto\n%s - secondo</string>
     <string name="copy">Copia</string>
     <string name="move">Sposta</string>
@@ -101,7 +102,6 @@
     <string name="select_folder">Seleziona una cartella</string>
     <string name="select_file">Seleziona un file</string>
     <string name="confirm_storage_access_title">Confermare l\'accesso all\'archiviazione esterna</string>
-    <string name="confirm_storage_access_text">Scegliere il percorso della scheda SD nella prossima schermata, per consentire i permessi di scrittura</string>
     <string name="confirm_storage_access_text_sd">Se non si ha una scheda SD, provare questo</string>
     <string name="confirm_selection">Conferma selezione</string>
     <plurals name="items">
@@ -434,7 +434,6 @@
     <string name="no_entries_for_exporting">Nessun elemento trovato da esportare</string>
     <string name="usb">USB</string>
     <string name="usb_detected">È collegato un dispositivo USB al dispositivo. Per assicurarsi che i file appaiano correttamente, è necessario accettare permessi aggiuntivi.</string>
-    <string name="confirm_usb_storage_access_text">Scegli la cartella di root del dispositivo USB nella prossima schermata, per consentire l\'accesso</string>
     <string name="wrong_root_selected_usb">Cartella selezionata errata, seleziona la cartella di root del dispositivo USB</string>
     <string name="january">Gennaio</string>
     <string name="february">Febbraio</string>

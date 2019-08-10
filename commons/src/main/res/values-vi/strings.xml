@@ -48,8 +48,10 @@
     <string name="redo">Làm lại</string>
     <string name="name">Tên: </string>
     <string name="size">Kích thước</string>
+    <string name="last_modified">Last modified</string>
     <string name="date_taken">Ngày chụp</string>
     <string name="title">Tiêu đề</string>
+    <string name="extension">Extension</string>
     <string name="ascending">Tăng dần</string>
     <string name="descending">Giảm dần</string>
     <string name="yes">Có</string>

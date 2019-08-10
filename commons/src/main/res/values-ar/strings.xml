@@ -56,6 +56,7 @@
     <string name="source_file_doesnt_exist">ملف المصدر %s غير موجود</string>
     <string name="prepend_filenames">اعد أسماء الملفات</string>
     <string name="append_filenames">اعد أسماء الملفات</string>
+    <string name="pattern_renaming">النمط</string>
     <string name="rename_date_time_pattern">%Y - سنة\n%M - شهر\n%D - يوم\n%h - ساعة\n%m - دقيقة\n%s - ثانية</string>
     <string name="copy">نسخ</string>
     <string name="move">نقل</string>
@@ -102,7 +103,6 @@
     <string name="select_folder">إختر مجلد</string>
     <string name="select_file">إختر ملف</string>
     <string name="confirm_storage_access_title">تأكيد الوصول إلى وحدة التخزين الخارجية</string>
-    <string name="confirm_storage_access_text">الرجاء اختيار المجلد الجذر لجهاز OTG على الشاشة التالية، لمنح حق الوصول</string>
     <string name="confirm_storage_access_text_sd">إذا كنت لا ترى بطاقة SD، جرب هذا</string>
     <string name="confirm_selection">تأكيد الاختيار</string>
     <plurals name="items">
@@ -573,7 +573,6 @@
     <string name="no_entries_for_exporting">لم يتم العثور على إدخالات للتصدير</string>
     <string name="usb">USB</string>
     <string name="usb_detected">يبدو أنك لديك جهاز OTG ملحق بجهازك. للتأكد من ظهور الملفات به بشكل صحيح، تحتاج إلى منح أذونات إضافية.</string>
-    <string name="confirm_usb_storage_access_text">الرجاء اختيار المجلد الجذر لجهاز OTG على الشاشة التالية، لمنح حق الوصول</string>
     <string name="wrong_root_selected_usb">تم اختيار مجلد خاطئ ، يرجى تحديد المجلد الجذر لجهاز OTG الخاص بك</string>
     <string name="january">كانون الثاني</string>
     <string name="february">شباط</string>

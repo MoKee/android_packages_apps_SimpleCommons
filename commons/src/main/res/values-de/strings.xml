@@ -55,6 +55,7 @@
     <string name="extension_cannot_be_empty">Dateiendung darf nicht leer sein</string>
     <string name="source_file_doesnt_exist">Quelldatei %s existiert nicht</string>
     <string name="prepend_filenames">Dateinamen voranstellen</string>
+    <string name="pattern_renaming">Muster</string>
     <string name="copy">Kopieren</string>
     <string name="move">Verschieben</string>
     <string name="copy_move">Kopieren / Verschieben</string>
@@ -99,7 +100,6 @@
     <string name="select_folder">Ordner auswählen</string>
     <string name="select_file">Datei auswählen</string>
     <string name="confirm_storage_access_title">Bitte Zugriff auf externen Speicher bestätigen</string>
-    <string name="confirm_storage_access_text">Bitte am nächsten Bildschirm das Hauptverzeichnis deiner SD-Karte auswählen, um Schreibzugriff zu erlauben</string>
     <string name="confirm_storage_access_text_sd">Wenn die SD-Karte nicht angezeigt wird, versuche das</string>
     <string name="confirm_selection">Auswahl bestätigen</string>
     <plurals name="items">
@@ -406,7 +406,6 @@
     <string name="no_entries_for_exporting">Keine Einträge zum Exportieren gefunden</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Es scheint, Du hast ein USB-Gerät an Dein Gerät angeschlossen. Du musst zusätzliche Berechtigungen gewähren, um die Dateien anzuzeigen.</string>
-    <string name="confirm_usb_storage_access_text">Bitte den Basis-Ordner des USB-Geräts auf der folgenden Seite wählen, um Zugriff zu gewähren</string>
     <string name="wrong_root_selected_usb">Falscher Ordner gewählt, bitte den Basis- (Root-) Ordner des USB-Geräts wählen</string>
     <string name="january">Januar</string>
     <string name="february">Februar</string>

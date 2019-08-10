@@ -55,6 +55,7 @@
     <string name="extension_cannot_be_empty">拡張子は省略できません</string>
     <string name="source_file_doesnt_exist">ソースファイル %s が存在しません</string>
     <string name="prepend_filenames">ファイル名の前に追加</string>
+    <string name="pattern_renaming">パターン</string>
     <string name="copy">コピー</string>
     <string name="move">移動</string>
     <string name="copy_move">コピー / 移動</string>
@@ -99,7 +100,6 @@
     <string name="select_folder">フォルダを選択</string>
     <string name="select_file">ファイルを選択</string>
     <string name="confirm_storage_access_title">外部ストレージのアクセスを確認してください</string>
-    <string name="confirm_storage_access_text">次の画面で SDカードのルートフォルダを選択して、書き込みアクセス許可を付与してください</string>
     <string name="confirm_storage_access_text_sd">SDカードの内容が表示されない場合は、こちらをお試しください</string>
     <string name="confirm_selection">選択を確認</string>
     <plurals name="items">

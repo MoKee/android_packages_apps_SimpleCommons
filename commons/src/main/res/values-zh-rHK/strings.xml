@@ -56,6 +56,9 @@
     <string name="source_file_doesnt_exist">原始檔案 %s 不存在</string>
     <string name="prepend_filenames">前置檔案名稱</string>
     <string name="append_filenames">附加檔案名</string>
+    <string name="simple_renaming">簡單重新命名</string>
+    <string name="pattern_renaming">圖形</string>
+    <string name="string_to_add">要新增的字串</string>
     <string name="rename_date_time_pattern">%Y - 年\n%M - 月\n%D - 日\n%h - 時\n%m - 分\n%s - 秒</string>
     <string name="copy">複製</string>
     <string name="move">移動</string>
@@ -82,6 +85,7 @@
     <string name="could_not_create_folder">無法建立資料夾 %s</string>
     <string name="could_not_create_file">無法建立檔案 %s</string>
     <string name="no_new_items">未找到新專案</string>
+    <string name="no_space">目標沒有足夠的可用空間。\n需要 %1$s，可用 %2$s</string>
     <string name="create_new">新增</string>
     <string name="folder">資料夾</string>
     <string name="file">檔案</string>
@@ -102,7 +106,7 @@
     <string name="select_folder">選擇資料夾</string>
     <string name="select_file">選擇檔案</string>
     <string name="confirm_storage_access_title">確認外部儲存空間存取權限</string>
-    <string name="confirm_storage_access_text">請在下個畫面選擇SD卡的根目錄，以授予存取權限</string>
+    <string name="confirm_storage_access_text">請在下個畫面選擇 SD 卡的上層目錄，以授予存取權限</string>
     <string name="confirm_storage_access_text_sd">如果看不到SD卡，試試這個</string>
     <string name="confirm_selection">確認選擇</string>
     <plurals name="items">
@@ -407,7 +411,7 @@
     <string name="no_entries_for_exporting">未發現供匯出的項目</string>
     <string name="usb">USB</string>
     <string name="usb_detected">似乎有USB裝置接上了你的裝置。為確保檔案正確顯示，你必須授予額外的權限。</string>
-    <string name="confirm_usb_storage_access_text">請在下個畫面選擇USB裝置的根目錄，以授予存取權限</string>
+    <string name="confirm_usb_storage_access_text">請在下個畫面選擇 USB 裝置的上層目錄，以授予存取權限</string>
     <string name="wrong_root_selected_usb">選擇到錯誤資料夾，請選擇你USB裝置的根目錄</string>
     <string name="january">一月</string>
     <string name="february">二月</string>

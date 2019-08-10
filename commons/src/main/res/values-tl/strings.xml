@@ -21,6 +21,7 @@
     <string name="exposure_time">Tagal exposure</string>
     <string name="camera">Ang kamera</string>
     <string name="restore_defaults">Ibalik ang mga default</string>
+    <string name="default_color">Pangunahin</string>
     <string name="theme">Tema</string>
     <string name="save">I-save</string>
     <string name="discard">I-discard</string>

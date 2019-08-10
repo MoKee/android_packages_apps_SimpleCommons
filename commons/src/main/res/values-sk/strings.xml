@@ -55,6 +55,11 @@
     <string name="extension_cannot_be_empty">Prípona nesmie byť prázdna</string>
     <string name="source_file_doesnt_exist">Zdrojový súbor %s neexistuje</string>
     <string name="prepend_filenames">Pridať pred názvy súborov</string>
+    <string name="append_filenames">Pridať pred názvy súborov</string>
+    <string name="simple_renaming">Jednoduché premenovanie</string>
+    <string name="pattern_renaming">Vzor</string>
+    <string name="string_to_add">Vyhľadávaný reťazec</string>
+    <string name="rename_date_time_pattern">%Y - rok \n%M - mesiac \n%D - deň \n%h - hodina \n%m - minúta \n%s - sekunda</string>
     <string name="copy">Kopírovať</string>
     <string name="move">Presunúť</string>
     <string name="copy_move">Kopírovať / presunúť</string>
@@ -79,6 +84,8 @@
     <string name="saving">Ukladanie…</string>
     <string name="could_not_create_folder">Nepodarilo sa vytvoriť priečinok %s</string>
     <string name="could_not_create_file">Nepodarilo sa vytvoriť súbor %s</string>
+    <string name="no_new_items">Nenašli sa nové veci</string>
+    <string name="no_space">Cieľové úložisko nemá dostatok miesta. \n Potrebné %1$s, dostupné %2$s</string>
     <string name="create_new">Vytvoriť nový</string>
     <string name="folder">Adresár</string>
     <string name="file">Súbor</string>
@@ -99,7 +106,6 @@
     <string name="select_folder">Zvoľte priečinok</string>
     <string name="select_file">Zvoľte súbor</string>
     <string name="confirm_storage_access_title">Potvrďte prístup k súborom</string>
-    <string name="confirm_storage_access_text">Pre poskytnutie práva na zápis prosím zvoľte na nasledujúcej obrazovke základný priečǐnok SD karty</string>
     <string name="confirm_storage_access_text_sd">Ak nevidíte SD kartu, skúste toto</string>
     <string name="confirm_selection">Potvrdiť výber</string>
     <plurals name="items">
@@ -144,6 +150,8 @@
     <string name="camera">Fotoaparát</string>
     <string name="exif">EXIF</string>
     <string name="song_title">Názov skladby</string>
+    <string name="gps_coordinates">GPS súradnice</string>
+    <string name="altitude">Nadmorská výška</string>
     <string name="background_color">Farba pozadia</string>
     <string name="text_color">Farba textu</string>
     <string name="primary_color">Primárna farba</string>
@@ -190,6 +198,8 @@
     <string name="empty_and_disable_recycle_bin">Vysypať a deaktivovať odpadkový kôš</string>
     <string name="undo">Späť</string>
     <string name="redo">Obnoviť</string>
+    <string name="print">Tlač</string>
+    <string name="create_shortcut">Vytvoriť skratku</string>
     <string name="sort_by">Na zoradenie použiť</string>
     <string name="name">Názov</string>
     <string name="size">Veľkosť</string>
@@ -203,6 +213,7 @@
     <string name="ascending">Vzostupne</string>
     <string name="descending">Klesajúco</string>
     <string name="use_for_this_folder">Použiť iba pre tento priečinok</string>
+    <string name="sort_numeric_parts">Triediť podľa číselnej hodnoty</string>
     <string name="proceed_with_deletion">Ste si istý, že chcete pokračovať s vymazaním?</string>
     <string name="deletion_confirmation">Ste si istý, že chcete vymazať %s?</string>
     <string name="move_to_recycle_bin_confirmation">Ste si istý, že chcete vyhodiť %s do koša?</string>
@@ -211,6 +222,7 @@
     <string name="do_not_ask_again">Nepýtať sa už v tomto spustení</string>
     <string name="yes">Áno</string>
     <string name="no">Nie</string>
+    <string name="maybe">Možno</string>
     <plurals name="delete_warning">
         <item quantity="one">UPOZORNENIE: Chystáte sa vymazať %d priečinok</item>
         <item quantity="few">UPOZORNENIE: Chystáte sa vymazať %d priečinky</item>
@@ -235,6 +247,9 @@
     <string name="go_to_settings">Ísť do nastavení</string>
     <string name="protection_setup_successfully">Heslo bolo úspešne nastavené. Ak ho zabudnete, prosím preinštalujte aplikáciu.</string>
     <string name="fingerprint_setup_successfully">Ochrana bola úspešne nastavená. Prosím preinštalujte aplikáciu v prípade problémov s jej zmenou.</string>
+    <string name="lock_folder">Uzamknúť zložku</string>
+    <string name="unlock_folder">Odomknúť zložku</string>
+    <string name="lock_folder_notice">Táto ochrana funguje iba v tejto aplikácii a nenahrádza riadnu ochranu zložky v systéme.</string>
     <string name="yesterday">Včera</string>
     <string name="today">Dnes</string>
     <string name="tomorrow">Zajtra</string>
@@ -420,11 +435,13 @@
     <string name="password_protect_hidden_items">Uzamknúť viditeľnosť skrytých položiek heslom</string>
     <string name="password_protect_whole_app">Uzamknúť heslom celú aplikáciu</string>
     <string name="password_protect_file_deletion">Uzamknúť heslom mazanie a presúvanie súborov</string>
+    <string name="keep_last_modified">Ponechať starú hodnotu naposledy-upravené pri kopírovaní/presúvaní/premenúvaní súborov</string>
     <string name="show_info_bubble">Zobraziť informačnú bublinu pri prehliadaní položiek ťahaním posuvníka</string>
     <string name="prevent_phone_from_sleeping">Zabrániť uspaniu zariadenia kým je apka v popredí</string>
     <string name="skip_delete_confirmation">Stále preskočiť potvrdenie vymazania súborov</string>
     <string name="enable_pull_to_refresh">Povoliť obnovenie súborov potiahnutím zhora</string>
     <string name="use_24_hour_time_format">Použiť 24 hodinový časový formát</string>
+    <string name="change_date_and_time_format">Zmena dátumu a času</string>
     <string name="sunday_first">Začať týždeň nedeľou</string>
     <string name="widgets">Widgety</string>
     <string name="use_same_snooze">Použiť stále rovnaký čas s Odložiť</string>
@@ -434,6 +451,10 @@
     <string name="recycle_bin_cleaning_interval">Interval vysypávania koša</string>
     <string name="empty_recycle_bin">Vysypať odpadkový kôš</string>
     <string name="force_portrait_mode">Stále použiť režim na výšku</string>
+    <string name="export_settings">Export nastavení</string>
+    <string name="import_settings">Import nastavení</string>
+    <string name="settings_exported_successfully">Nastavenia boli úspešne obnovené</string>
+    <string name="settings_imported_successfully">Nastavenia boli úspešne obnovené</string>
     <string name="visibility">Viditeľnosť</string>
     <string name="security">Bezpečnosť</string>
     <string name="scrolling">Skrolovanie</string>
@@ -442,6 +463,7 @@
     <string name="saving_label">Ukladanie</string>
     <string name="startup">Po spustení</string>
     <string name="text">Text</string>
+    <string name="migrating">Migrácia</string>
     <string name="restore_this_file">Obnoviť tento súbor</string>
     <string name="restore_selected_files">Obnoviť vybrané súbory</string>
     <string name="restore_all_files">Obnoviť všetky súbory</string>
@@ -450,6 +472,8 @@
     <string name="empty_recycle_bin_confirmation">Ste si istý, že chcete vysypať odpadkový kôš? Súbory budú navždy stratené.</string>
     <string name="recycle_bin_empty">Odpadkový kôš je prázdny</string>
     <string name="moving_recycle_bin_items_disabled">Presúvanie položiek z odpadkového koša je zakázané, prosím použite možnosť Obnoviť</string>
+    <string name="show_the_recycle_bin">Zobraziť odpadkový kôš</string>
+    <string name="hide_the_recycle_bin">Skryť odpadkový kôš</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">%d položka sa presúva do odpadkového koša</item>
         <item quantity="few">%d položky sa presúvajú do odpadkového koša</item>
@@ -464,10 +488,10 @@
     <string name="exporting_failed">Exportovanie zlyhalo</string>
     <string name="importing_some_entries_failed">Importovanie niektorých položiek zlyhalo</string>
     <string name="exporting_some_entries_failed">Exportovanie niektorých položiek zlyhalo</string>
+    <string name="no_entries_for_importing">Nenašli sa žiadne položky pre export</string>
     <string name="no_entries_for_exporting">Nenašli sa žiadne položky pre export</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Vyzerá to tak, že máte k zariadeniu pripoené USB zariadenie. Pre správne zobrazovanie sa jeho súborov sú potrebné ďalšie oprávnenia.</string>
-    <string name="confirm_usb_storage_access_text">Pre poskytnutie práv prosím zvoľte na nasledujúcej obrazovke základný priečinok USB zariadenia</string>
     <string name="wrong_root_selected_usb">Bol zvolený nesprávny koreňový priečinok, prosím zvoľte USB zariadenie</string>
     <string name="january">Január</string>
     <string name="february">Február</string>
@@ -539,6 +563,7 @@
     <string name="device_os">Operačný systém zariadenia: %s</string>
     <string name="purchase">Zakúpiť</string>
     <string name="update_thank_you">Prosím aktualizujte Jednoduché Ďakujem na najnovšiu verziu</string>
+    <string name="before_asking_question_read_faq">Predtým, ako sa niečo opýtate, si prosím prečítajte Často Kladené Otázky, možno v nich nájdete svoju odpoveď.</string>
     <string name="read_it">Prečítať</string>
     <string name="frequently_asked_questions">Často kladené otázky</string>
     <string name="before_asking_question">Predtým, ako sa niečo opýtate si prosíme preštudujte</string>

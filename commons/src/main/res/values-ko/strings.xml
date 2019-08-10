@@ -28,6 +28,7 @@
     <string name="camera">카메라</string>
     <string name="primary_color">주 색상</string>
     <string name="restore_defaults">기본 설정 복원</string>
+    <string name="default_color">기본값</string>
     <string name="theme">테마</string>
     <string name="save">저장</string>
     <string name="discard">취소</string>

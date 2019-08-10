@@ -52,6 +52,7 @@
     <string name="extension_cannot_be_empty">Filtypen kan ikke stå tom</string>
     <string name="source_file_doesnt_exist">Kildefilen %s eksisterer ikke</string>
     <string name="prepend_filenames">Tilføj forrest til filnavne</string>
+    <string name="pattern_renaming">Mønster</string>
     <string name="copy">Kopier</string>
     <string name="move">Flyt</string>
     <string name="copy_move">Kopier/Flyt</string>
@@ -95,7 +96,6 @@
     <string name="select_folder">Vælg en mappe</string>
     <string name="select_file">Vælg en fil</string>
     <string name="confirm_storage_access_title">Bekræft adgang til eksternt lager</string>
-    <string name="confirm_storage_access_text">Vælg SD-kortets rodmappe på næste side for at give skriveadgang til den.</string>
     <string name="confirm_storage_access_text_sd">Hvis ikke du kan se SD-kortet kan du prøve dette</string>
     <string name="confirm_selection">Bekræft valg</string>
     <plurals name="items">
@@ -379,7 +379,6 @@
     <string name="importing_some_entries_failed">Import mislykkedes delvist</string>
     <string name="exporting_some_entries_failed">Eksport mislykkedes delvist</string>
     <string name="no_entries_for_exporting">Der er ikke fundet indhold til eksport</string>
-    <string name="confirm_usb_storage_access_text">Vælg rodmappen på USB-enheden på den næste skærm for at give adgang.</string>
     <string name="wrong_root_selected_usb">Den forkerte mappe er valgt, vælg rodmappen på din USB-enhed</string>
     <string name="january">Januar</string>
     <string name="february">Februar</string>

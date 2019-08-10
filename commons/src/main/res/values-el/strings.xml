@@ -54,6 +54,7 @@
     <string name="extension_cannot_be_empty">Η επέκταση δεν μπορεί να είναι κενή</string>
     <string name="source_file_doesnt_exist">To αρχείο προέλευσης %s δεν υπάρχει</string>
     <string name="prepend_filenames">Προεπιλεγμένα ονόματα αρχείων</string>
+    <string name="pattern_renaming">Μοτίβο</string>
     <string name="copy">Αντιγραφή</string>
     <string name="move">Μετακίνηση</string>
     <string name="copy_move">Αντιγραφή / Μετακίνηση</string>
@@ -98,7 +99,6 @@
     <string name="select_folder">Επιλέξτε ένα φάκελο</string>
     <string name="select_file">Επιλέξτε ένα αρχείο</string>
     <string name="confirm_storage_access_title">Επιβεβαιώστε την πρόσβαση στην εξωτερική αποθήκευση</string>
-    <string name="confirm_storage_access_text">Επιλέξτε τον ριζικό φάκελο της κάρτας SD στην επόμενη οθόνη, για να επιτρέψετε πρόσβαση εγγραφής</string>
     <string name="confirm_storage_access_text_sd">Εάν δεν βλέπετε την κάρτα SD, δοκιμάστε αυτό</string>
     <string name="confirm_selection">Επιβεβαιώστε την επιλογή</string>
     <plurals name="items">
@@ -397,7 +397,6 @@
     <string name="importing_some_entries_failed">Η Εισαγωγή μερικών καταχωρήσεων απέτυχε</string>
     <string name="exporting_some_entries_failed">Η Εξαγωγή μερικών καταχωρήσεων απέτυχε</string>
     <string name="no_entries_for_exporting">Δεν βρέθηκαν καταχωρήσεις για Εξαγωγή</string>
-    <string name="confirm_usb_storage_access_text">Παρακαλώ επιλέξτε τον ριζικό φάκελο της συσκευής USB στην επόμενη οθόνη, για να παραχωρήσετε πρόσβαση</string>
     <string name="wrong_root_selected_usb">Λάθος επιλεγμένο φάκελο, παρακαλώ επιλέξτε το ριζικό φάκελο της συσκευής USB</string>
     <string name="january">Ιανουάριος</string>
     <string name="february">Φεβρουάριος</string>

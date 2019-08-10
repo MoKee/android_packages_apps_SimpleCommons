@@ -49,6 +49,7 @@
     <string name="filename_invalid_characters_placeholder">Fayl adı \'%s\' etibarsız simvollar ehtiva edir</string>
     <string name="extension_cannot_be_empty">Uzantı boş ola bilməz</string>
     <string name="source_file_doesnt_exist">Kök faylı %s yoxdur</string>
+    <string name="pattern_renaming">Model</string>
     <string name="copy">Kopyala</string>
     <string name="move">Yerini dəyiş</string>
     <string name="copy_move">Kopyala / Yerini dəyiş</string>
@@ -92,7 +93,6 @@
     <string name="select_folder">Qovluq seç</string>
     <string name="select_file">Fayl seç</string>
     <string name="confirm_storage_access_title">Xarici yaddaş icazəsini təsdiqlə</string>
-    <string name="confirm_storage_access_text">Xahiş olunur icazəni təsdiqləmək üçün gələcək ekranda SD kartın root qovluğunu seçin.</string>
     <string name="confirm_storage_access_text_sd">Əgər SD kart görünmürsə, bunu yoxlayın</string>
     <string name="confirm_selection">Seçimi təsdiqlə</string>
     <plurals name="items">
@@ -378,7 +378,6 @@
     <string name="importing_some_entries_failed">Bəzi girişləri daxil etmək olmur</string>
     <string name="exporting_some_entries_failed">Bəzi girişləri çıxarmaq olmur</string>
     <string name="no_entries_for_exporting">Çıxarış üçün heçbir giriş tapılmadı</string>
-    <string name="confirm_usb_storage_access_text">Xahiş edirik icazə vermək üçün sonrakı ekranda çıxan USB cihazın root qovluğunu seçin</string>
     <string name="wrong_root_selected_usb">Yanlış qovluq seçilib, xahiş olunur USB cihazın root qovluğunu seçin</string>
     <string name="january">Yanvar</string>
     <string name="february">Fevral</string>

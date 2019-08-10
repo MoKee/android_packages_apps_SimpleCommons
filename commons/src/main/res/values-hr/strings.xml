@@ -51,6 +51,7 @@
     <string name="filename_invalid_characters_placeholder">Naziv datoteke \'%s\' sadrži nevažeće znakove</string>
     <string name="extension_cannot_be_empty">Ekstenzija ne smije biti prazna</string>
     <string name="source_file_doesnt_exist">Izvorišna datoteka %s ne postoji</string>
+    <string name="pattern_renaming">Uzorak</string>
     <string name="copy">Kopiraj</string>
     <string name="move">Premjesti</string>
     <string name="copy_move">Kopiraj/Premjesti</string>
@@ -94,7 +95,6 @@
     <string name="select_folder">Odaberite mapu</string>
     <string name="select_file">Odaberite datoteku</string>
     <string name="confirm_storage_access_title">Potvrdite pristup vanjskom prostoru za pohranu</string>
-    <string name="confirm_storage_access_text">Molimo odaberite root mapu SD kartice na sljedećem prozoru, da bi ste omogućili zapisivanje</string>
     <string name="confirm_storage_access_text_sd">Ukoliko ne vidite SD karticu, probajte ovo</string>
     <string name="confirm_selection">Potvrdi odabir</string>
     <plurals name="items">
@@ -139,6 +139,8 @@
     <string name="foreground_color">Boja pozadine</string>
     <string name="app_icon_color">Boja ikone aplikacije</string>
     <string name="restore_defaults">Vrati zadano</string>
+    <string name="use_default">Koristi zadano</string>
+    <string name="default_color">Zadano</string>
     <string name="change_color">Promijeni boju</string>
     <string name="theme">Tema</string>
     <string name="changing_color_description">Promijenom boje, prelazi se na Prilagođenu temu</string>
@@ -410,7 +412,6 @@
     <string name="importing_some_entries_failed">Uvoz nekih unosa nije uspio</string>
     <string name="exporting_some_entries_failed">Izvoz nekih unosa nije uspio</string>
     <string name="no_entries_for_exporting">Nije pronađen nijedan unos za izvoz</string>
-    <string name="confirm_usb_storage_access_text">Molimo odaberite root mapu USB uređaja na sljedećem zaslonu, kako biste odobrili pristup</string>
     <string name="wrong_root_selected_usb">Odabrana mapa je pogrešna, odaberite root mapu svog USB uređaja</string>
     <string name="january">Siječanj</string>
     <string name="february">Veljača</string>

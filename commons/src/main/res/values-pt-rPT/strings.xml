@@ -37,6 +37,15 @@
     <string name="rename_folder">Renomear pasta</string>
     <string name="rename_file_error">Não foi possível renomear o ficheiro</string>
     <string name="rename_folder_error">Não foi possível renomear a pasta</string>
+    <string name="pattern_renaming">Padrão</string>
+    <string name="copy">Copiar</string>
+    <string name="move">Mover</string>
+    <string name="copy_move">Copiar / Mover</string>
+    <string name="copy_to">Copiar para</string>
+    <string name="move_to">Mover para</string>
+    <string name="source">Fonte</string>
+    <string name="destination">Destino</string>
+    <string name="select_destination">Selecionar destino</string>
     <string name="moving">A mover…</string>
     <string name="moving_success">Ficheiros movidos com sucesso</string>
     <string name="saving">A guardar…</string>
@@ -91,6 +100,8 @@
     <string name="text_color">Cor do texto</string>
     <string name="primary_color">Cor principal</string>
     <string name="restore_defaults">Repor predefinições</string>
+    <string name="use_default">Utilizar predefinição</string>
+    <string name="default_color">Padrão</string>
     <string name="theme">Tema</string>
     <string name="save">Guardar</string>
     <string name="light_theme">Claro</string>
@@ -281,7 +292,9 @@
     <string name="saturday_letter">Sul</string>
     <string name="sunday_letter">Sul</string>
     <string name="about">Sobre</string>
+    <string name="rate">Avaliar</string>
     <string name="donate">Doar</string>
+    <string name="purchase">Compra</string>
     <string name="third_party_licences">Licenças de terceiros</string>
     <string name="kotlin_title">Kotlin (linguagem de programação)</string>
 </resources>
