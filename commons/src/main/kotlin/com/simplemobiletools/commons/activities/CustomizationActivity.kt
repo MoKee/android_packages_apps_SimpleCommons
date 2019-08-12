@@ -35,6 +35,7 @@ class CustomizationActivity : BaseSimpleActivity() {
     private var predefinedThemes = LinkedHashMap<Int, MyTheme>()
     private var curPrimaryLineColorPicker: LineColorPickerDialog? = null
     private var storedSharedTheme: SharedTheme? = null
+    private var menu: Menu? = null
 
     override fun getAppIconIDs() = intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList()
 
@@ -98,6 +99,8 @@ class CustomizationActivity : BaseSimpleActivity() {
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_customization, menu)
         menu.findItem(R.id.save).isVisible = hasUnsavedChanges
+        updateMenuItemColors(menu, true, curPrimaryColor)
+        this.menu = menu
         return true
     }
 
@@ -180,6 +183,7 @@ class CustomizationActivity : BaseSimpleActivity() {
                     curPrimaryColor = baseConfig.customPrimaryColor
                     curNavigationBarColor = baseConfig.customNavigationBarColor
                     setTheme(getThemeId(curPrimaryColor))
+                    updateMenuItemColors(menu, true, curPrimaryColor)
                     setupColorsPickers()
                 } else {
                     baseConfig.customPrimaryColor = curPrimaryColor
@@ -199,6 +203,7 @@ class CustomizationActivity : BaseSimpleActivity() {
                     }
                     setTheme(getThemeId(curPrimaryColor))
                     setupColorsPickers()
+                    updateMenuItemColors(menu, true, curPrimaryColor)
                 }
             } else {
                 val theme = predefinedThemes[curSelectedThemeId]!!
@@ -209,6 +214,7 @@ class CustomizationActivity : BaseSimpleActivity() {
                 curNavigationBarColor = getThemeNavigationColor(curSelectedThemeId)
                 setTheme(getThemeId(curPrimaryColor))
                 colorChanged()
+                updateMenuItemColors(menu, true, curPrimaryColor)
             }
         }
 
@@ -393,7 +399,7 @@ class CustomizationActivity : BaseSimpleActivity() {
     }
 
     private fun pickPrimaryColor() {
-        curPrimaryLineColorPicker = LineColorPickerDialog(this, curPrimaryColor, true) { wasPositivePressed, color ->
+        curPrimaryLineColorPicker = LineColorPickerDialog(this, curPrimaryColor, true, menu = menu) { wasPositivePressed, color ->
             curPrimaryLineColorPicker = null
             if (wasPositivePressed) {
                 if (hasColorChanged(curPrimaryColor, color)) {
@@ -402,9 +408,11 @@ class CustomizationActivity : BaseSimpleActivity() {
                     updateColorTheme(getUpdatedTheme())
                     setTheme(getThemeId(color))
                 }
+                updateMenuItemColors(menu, true, color)
             } else {
                 updateActionbarColor(curPrimaryColor)
                 setTheme(getThemeId(curPrimaryColor))
+                updateMenuItemColors(menu, true, curPrimaryColor)
             }
         }
     }
