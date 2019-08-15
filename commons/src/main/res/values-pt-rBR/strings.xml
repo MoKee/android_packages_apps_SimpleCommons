@@ -56,6 +56,7 @@
     <string name="source_file_doesnt_exist">Arquivo de origem %s não existe</string>
     <string name="prepend_filenames">Prefira nomes de arquivos</string>
     <string name="append_filenames">Anexar nomes de arquivos</string>
+    <string name="pattern_renaming">Padrão</string>
     <string name="rename_date_time_pattern">%Y - ano\n%M - mês\n%D - dia\n%h - hora\n%m - minuto\n%s - segundo</string>
     <string name="copy">Copiar</string>
     <string name="move">Mover</string>
@@ -102,7 +103,6 @@
     <string name="select_folder">Selecionar pasta</string>
     <string name="select_file">Selecionar arquivo</string>
     <string name="confirm_storage_access_title">Confirmação de acesso ao armazenamento externo</string>
-    <string name="confirm_storage_access_text">Por favor escolha a pasta raiz do cartão SD no próximo passo para conceder acesso de escrita</string>
     <string name="confirm_storage_access_text_sd">Se você não encontrar o cartão SD, tente isto</string>
     <string name="confirm_selection">Confirmar seleção</string>
     <plurals name="items">
@@ -441,7 +441,6 @@
     <string name="no_entries_for_exporting">Não foram encontramos ítens para exportar</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Você parece ter um dispositivo USB anexado ao seu dispositivo. Para garantir que seus arquivos apareçam corretamente, conceda permissões adicionais.</string>
-    <string name="confirm_usb_storage_access_text">Por favor, escolha a pasta raiz do dispositivo USB na próxima tela, para conceder acesso</string>
     <string name="wrong_root_selected_usb">Pasta errada selecionada, selecione a pasta raiz do seu dispositivo USB</string>
     <string name="january">janeiro</string>
     <string name="february">fevereiro</string>

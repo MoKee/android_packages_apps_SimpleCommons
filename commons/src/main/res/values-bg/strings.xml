@@ -45,8 +45,10 @@
     <string name="redo">Възстановяване</string>
     <string name="name">Име</string>
     <string name="size">Размер</string>
+    <string name="last_modified">Последно променен</string>
     <string name="date_taken">Дата на заснемане</string>
     <string name="title">Заглавие</string>
+    <string name="extension">Разширение</string>
     <string name="yes">Да</string>
     <string name="no">Не</string>
     <string name="today">днес</string>

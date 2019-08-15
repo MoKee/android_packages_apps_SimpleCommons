@@ -55,6 +55,7 @@
     <string name="extension_cannot_be_empty">Rozszerzenie pliku nie może być puste</string>
     <string name="source_file_doesnt_exist">Plik źródłowy nie istnieje</string>
     <string name="prepend_filenames">Poprzedzaj nazwy plików</string>
+    <string name="pattern_renaming">Wzór</string>
     <string name="copy">Kopiuj</string>
     <string name="move">Przenieś</string>
     <string name="copy_move">Kopiuj / przenieś</string>
@@ -99,7 +100,6 @@
     <string name="select_folder">Wybierz folder</string>
     <string name="select_file">Wybierz plik</string>
     <string name="confirm_storage_access_title">Potwierdź dostęp do karty pamięci</string>
-    <string name="confirm_storage_access_text">Wybierz główny folder na karcie pamięci na następnym ekranie i udziel dostępu do zapisu</string>
     <string name="confirm_storage_access_text_sd">Jeśli nie widzisz karty pamięci, spróbuj tego:</string>
     <string name="confirm_selection">Potwierdź wybór</string>
     <plurals name="items">
@@ -496,7 +496,6 @@
     <string name="no_entries_for_exporting">Nie znalazłem żadnych wpisów do wyeksportowania</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Wygląda na to, że do twojego urządzenia jest podłączone urządzenie USB. Aby upewnić się, że pliki są wyświetlane poprawnie, musisz udzielić dodatkowych uprawnień.</string>
-    <string name="confirm_usb_storage_access_text">Wybierz folder główny urządzenia USB na następnym ekranie, aby uzyskać dostęp do tegoż urządzenia</string>
     <string name="wrong_root_selected_usb">Wybrany został niewłaściwy folder. Wybierz główny folder urządzenia USB.</string>
     <string name="january">Styczeń</string>
     <string name="february">Luty</string>

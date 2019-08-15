@@ -56,6 +56,9 @@
     <string name="source_file_doesnt_exist">Zdrojový soubor %s neexistuje</string>
     <string name="prepend_filenames">Přidat před názvy souborů</string>
     <string name="append_filenames">Připojit názvy souborů</string>
+    <string name="simple_renaming">Snadné přejmenování</string>
+    <string name="pattern_renaming">Vzor</string>
+    <string name="string_to_add">Řetězec k přidání</string>
     <string name="rename_date_time_pattern">%Y - rok\n%M - měsíc\n%D - den\n%h - hodina\n%m - minuta\n%s - sekunda</string>
     <string name="copy">Kopírovat</string>
     <string name="move">Přesunout</string>
@@ -82,6 +85,7 @@
     <string name="could_not_create_folder">Nepodařilo se vytvořit složku %s</string>
     <string name="could_not_create_file">Nepodařilo se vytvořit soubor %s</string>
     <string name="no_new_items">Nebyly nalezeny žádné nové položky</string>
+    <string name="no_space">Cíl nemá dostatek místa.\nVyžadováno %1$s, k dispozici %2$s</string>
     <string name="create_new">Vytvořit nový</string>
     <string name="folder">Složka</string>
     <string name="file">Soubor</string>
@@ -102,7 +106,6 @@
     <string name="select_folder">Zvolte složku</string>
     <string name="select_file">Zvolte soubor</string>
     <string name="confirm_storage_access_title">Potvrďte přístup k externímu úložišti</string>
-    <string name="confirm_storage_access_text">Na následující obrazovce prosím zvolte root složku SD karty pro povolení oprávnění k zápisu</string>
     <string name="confirm_storage_access_text_sd">Pokud nevidíte SD kartu, vyzkoušejte následující</string>
     <string name="confirm_selection">Potvrďte výběr</string>
     <plurals name="items">
@@ -507,7 +510,6 @@
     <string name="no_entries_for_exporting">Nebyly nalezeny žádné položky pro export</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Zdá se, že máte k zařízení připojeno zařízení USB. Chcete-li se ujistit, zda se soubory zobrazují správně, musíte udělit další oprávnění.</string>
-    <string name="confirm_usb_storage_access_text">Na následující obrazovce zvolte root složku USB zařízení pro povolení oprávnění</string>
     <string name="wrong_root_selected_usb">Vybrána neplatná složka, vyberte root složku vašeho USB zařízení</string>
     <string name="january">Leden</string>
     <string name="february">Únor</string>
