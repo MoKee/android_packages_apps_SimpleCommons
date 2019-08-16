@@ -106,6 +106,7 @@
     <string name="select_folder">Vali kaust</string>
     <string name="select_file">Vali fail</string>
     <string name="confirm_storage_access_title">Kinnitage välise salvestamise juurdepääs</string>
+    <string name="confirm_storage_access_text">Salvestamisõiguse andmiseks valige järgmisel ekraanil SD-kaardi juurkataloog</string>
     <string name="confirm_storage_access_text_sd">Kui SD-kaarti ei näe, proovige seda</string>
     <string name="confirm_selection">Kinnitage valik</string>
     <plurals name="items">
@@ -444,6 +445,7 @@
     <string name="no_entries_for_exporting">Ekspordi kirjeid ei leitud</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Tundub, et teie seadmega on ühendatud USB-seade. Et veenduda, et selle failid ilmuvad õigesti, peate andma täiendavaid õigusi.</string>
+    <string name="confirm_usb_storage_access_text">Salvestamisõiguse andmiseks valige järgmisel ekraanil USB-seadme juurkataloog</string>
     <string name="wrong_root_selected_usb">Valitud vale kaust, valige USB-seadme juurkataloog</string>
     <string name="january">Jaanuar</string>
     <string name="february">Veebruar</string>
@@ -537,6 +539,8 @@
     <string name="faq_6_title_commons">Rakenduse käivitaja ikoon kadus. Mida ma teha saan?</string>
     <string name="faq_6_text_commons">Selle põhjuseks on teie käivitaja, mis ei toeta ikoonide kohandamist korralikult. Proovige rakendust Google Play või mõne vidina abil käivitada, kui see on saadaval.
         Kui olete käivitanud, seadistage lihtsalt oranž vaikimisi ikoon # F57C00. Võimalik, et peatehalvimal juhul rakenduse uuesti installima.</string>
+    <string name="faq_7_title_commons">Raha on minu pangakontolt maha arvestatud, kuid ma ei saa rakendust alla laadida. Mida ma teha saan?</string>
+    <string name="faq_7_text_commons">Maksetega tegeleb täielikult Google, nende süsteem tõrgub aeg-ajalt. Tühjendage lihtsalt oma Google Play rakenduse vahemälu ja taaskäivitage seade ning proovige siis uuesti alla laadida.</string>
     <string name="notice">See rakendus kasutab järgmisi kolmanda osapoole teeke, et teha oma elu lihtsamaks. Aitäh.</string>
     <string name="third_party_licences">Kolmandate isikute litsentsid</string>
     <string name="kotlin_title">Kotlin (programmeerimiskeel)</string>

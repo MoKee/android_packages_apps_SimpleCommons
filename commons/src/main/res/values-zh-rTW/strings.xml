@@ -504,6 +504,8 @@
     <string name="faq_5_text_commons">如果檔案確實被永久刪除，則無法復原。但是，預設啟用資源回收桶，檔案只是移動到資源回收桶中，而不是被永久刪除。</string>
     <string name="faq_6_title_commons">應用程序啟動器圖標消失。我能做什麼呢？</string>
     <string name="faq_6_text_commons">警告：某些啟動程序無法正確處理自定義應用程序圖標。如果可能，請嘗試通過Google Play或小部件打開應用，如果圖標不可見。如果您已重新打開該應用程序，只需重置默認的橙色圖標＃F57C00。在最壞的情況下，您可能需要重新安裝應用程序。</string>
+    <string name="faq_7_title_commons">錢已經從我的銀行賬戶中扣除了，但我不能下載這個應用程式。我該怎麼辦？</string>
+    <string name="faq_7_text_commons">支付完全由 Google 處理，他們的系統不時出現故障。只需清除你的 Google Play 應用程式快取並重新啟動您的裝置，然後重試下載。</string>
     <string name="notice">這程式使用了下列的第三方函式庫來讓我工作簡化。感謝。</string>
     <string name="third_party_licences">第三方授權</string>
     <string name="kotlin_title">Kotlin (編程語言)</string>

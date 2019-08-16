@@ -56,6 +56,9 @@
     <string name="source_file_doesnt_exist">%s kaynak dosyası mevcut değil</string>
     <string name="prepend_filenames">Dosya adlarını ekle</string>
     <string name="append_filenames">Dosya adlarını ekle</string>
+    <string name="simple_renaming">Basit yeniden adlandırma</string>
+    <string name="pattern_renaming">Desen</string>
+    <string name="string_to_add">Eklenecek dize</string>
     <string name="rename_date_time_pattern">%Y - yıl\n%M - ay\n%D - gün\n%h - saat\n%m - dakika\n%s - saniye</string>
     <string name="copy">Kopyala</string>
     <string name="move">Taşı</string>
@@ -82,6 +85,7 @@
     <string name="could_not_create_folder">%s klasörü oluşturulamıyor</string>
     <string name="could_not_create_file">%s dosyası oluşturulamıyor</string>
     <string name="no_new_items">Yeni öğe bulunamadı</string>
+    <string name="no_space">Hedefte yeterli yer yok.\n Gerekli %1$s, kullanılabilir %2$s</string>
     <string name="create_new">Yeni oluştur</string>
     <string name="folder">Klasör</string>
     <string name="file">Dosya</string>
@@ -102,7 +106,7 @@
     <string name="select_folder">Bir klasör seç</string>
     <string name="select_file">Bir dosya seç</string>
     <string name="confirm_storage_access_title">Harici depolama erişimini onayla</string>
-    <string name="confirm_storage_access_text">Yazma erişimi vermek için lütfen bir sonraki ekranda SD kartın kök klasörünü seçin</string>
+    <string name="confirm_storage_access_text">Yazma erişimi vermek için lütfen bir sonraki ekranda SD kartın üst klasörünü seçin</string>
     <string name="confirm_storage_access_text_sd">SD kartı görmüyorsanız, bunu deneyin</string>
     <string name="confirm_selection">Seçimi onayla</string>
     <plurals name="items">
@@ -150,6 +154,8 @@
     <string name="app_icon_color">Uygulama simgesi rengi</string>
     <string name="bottom_navigation_bar_color">Alt gezinme çubuğu rengi</string>
     <string name="restore_defaults">Varsayılanları geri yükle</string>
+    <string name="use_default">Varsayılanı kullan</string>
+    <string name="default_color">Varsayılan</string>
     <string name="change_color">Rengi değiştir</string>
     <string name="theme">Tema</string>
     <string name="changing_color_description">Bir rengin değiştirilmesi, Özel temaya geçilmesini sağlayacaktır</string>
@@ -439,7 +445,7 @@
     <string name="no_entries_for_exporting">Dışa aktarılacak öğe bulunamadı</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Cihazınıza takılı bir USB var gibi görünüyor. Dosyalarının düzgün görüntülendiğinden emin olmak için ek izinler vermeniz gerekir.</string>
-    <string name="confirm_usb_storage_access_text">Erişim vermek için lütfen bir sonraki ekranda USB cihazının rooy klasörünü seçin</string>
+    <string name="confirm_usb_storage_access_text">Erişim vermek için lütfen bir sonraki ekranda USB cihazının üst klasörünü seçin</string>
     <string name="wrong_root_selected_usb">Yanlış klasör seçildi, lütfen USB cihazınızın root klasörünü seçin</string>
     <string name="january">Ocak</string>
     <string name="february">Şubat</string>
@@ -532,6 +538,8 @@
     <string name="faq_6_title_commons">Uygulama başlatıcısı simgesi kayboldu. Ne yapabilirim?</string>
     <string name="faq_6_text_commons">Başlatıcınızın, simge özelleştirmesini doğru şekilde desteklememesi nedeniyle ortaya çıkar. Uygulamayı Google Play\'de veya varsa bir widget aracılığıyla başlatmayı deneyin.
         Başlatıldıktan sonra, sadece #F57C00 varsayılan turuncu simgesini geri ayarlayın. En kötü durumda uygulamayı yeniden yüklemeniz gerekebilir.</string>
+    <string name="faq_7_title_commons">Para banka hesabımdan düşüldü, ancak uygulamayı indiremiyorum. Ne yapabilirim?</string>
+    <string name="faq_7_text_commons">Ödemeler google tarafından tam olarak gerçekleştirilir, sistem zaman zaman artar. Google play uygulama önbelleğinizi temizleyin ve cihazınızı yeniden başlatın, ardından indirmeyi tekrar deneyin.</string>
     <string name="notice">Bu uygulama hayatımı kolaylaştırmak için aşağıdaki üçüncü taraf kitaplıklarını kullanır. Teşekkürler.</string>
     <string name="third_party_licences">Üçüncü taraf lisansları</string>
     <string name="kotlin_title">Kotlin (programlama dili)</string>

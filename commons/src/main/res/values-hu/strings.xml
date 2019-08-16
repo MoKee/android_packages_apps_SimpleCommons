@@ -539,6 +539,8 @@
     <string name="faq_6_title_commons">Az alkalmazás indítóikonja eltűnt. Mit tehetek?</string>
     <string name="faq_6_text_commons">Az Ön által használt Launcher okozhatja, ami nem támogatja megfelelően az ikonok testreszabását. Próbálja elindítani az alkalmazást a Google Playen vagy ha van egy elérhető widgeten keresztül.
       Miután elindult, állítsa vissza az alapértelmezett narancssárga ikont #F57C00. A legrosszabb esetben újra kell telepítenie az alkalmazást.</string>
+    <string name="faq_7_title_commons">A pénzt már levonták a bankszámlámról, de nem tudom letölteni az alkalmazást. Mit tehetek?</string>
+    <string name="faq_7_text_commons">A kifizetéseket kizárólag a Google kezeli, rendszerük időről időre frissít. Törölje a Google Play alkalmazás gyorsítótárát, indítsa újra készülékét, majd próbálja meg újra letölteni az alkalmazást.</string>
     <string name="notice">Ez az alkalmazás a következő harmadik fél könyvtárait használja az életem megkönnyítésére. Köszönöm.</string>
     <string name="third_party_licences">Harmadik fél licencek</string>
     <string name="kotlin_title">Kotlin (programnyelv)</string>

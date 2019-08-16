@@ -56,6 +56,9 @@
     <string name="source_file_doesnt_exist">Исходный файл \"%s\" не существует</string>
     <string name="prepend_filenames">Назначить имя файлов</string>
     <string name="append_filenames">Добавить имена файлов</string>
+    <string name="simple_renaming">Простое переименование</string>
+    <string name="pattern_renaming">Графический ключ</string>
+    <string name="string_to_add">Строка для добавления</string>
     <string name="rename_date_time_pattern">%Y - год\n%M - месяц\n%D - день\n%h - час\n%m - минута\n%s - секунда</string>
     <string name="copy">Копировать</string>
     <string name="move">Переместить</string>
@@ -82,6 +85,7 @@
     <string name="could_not_create_folder">Не удалось создать папку \"%s\"</string>
     <string name="could_not_create_file">Не удалось создать файл \"%s\"</string>
     <string name="no_new_items">Новые элементы не найдены</string>
+    <string name="no_space">В месте назначения недостаточно свободного места.\nТребуется %1$s, доступно %2$s</string>
     <string name="create_new">Создать</string>
     <string name="folder">Папка</string>
     <string name="file">Файл</string>
@@ -102,7 +106,7 @@
     <string name="select_folder">Выбор папки</string>
     <string name="select_file">Выбор файла</string>
     <string name="confirm_storage_access_title">Предоставление доступа к внешнему накопителю</string>
-    <string name="confirm_storage_access_text">Чтобы предоставить право на запись, пожалуйста, выберите корневую папку SD-карты на следующем шаге</string>
+    <string name="confirm_storage_access_text">Пожалуйста, выберите верхнюю папку SD-карты на следующем экране, чтобы предоставить доступ к записи</string>
     <string name="confirm_storage_access_text_sd">Если вы не видите SD-карту, попробуйте это</string>
     <string name="confirm_selection">Подтвердить выделение</string>
     <plurals name="items">
@@ -507,7 +511,7 @@
     <string name="no_entries_for_exporting">Нет элементов для экспортирования</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Похоже, к вашему устройству подключено устройство USB. Чтобы убедиться, что файлы на нём отображаются правильно, вам нужно предоставить дополнительные разрешения.</string>
-    <string name="confirm_usb_storage_access_text">Пожалуйста, выберите корневую папку USB-устройства на следующем экране, чтобы предоставить к нему доступ.</string>
+    <string name="confirm_usb_storage_access_text">Пожалуйста, выберите верхнюю папку USB-устройства на следующем экране, чтобы предоставить доступ</string>
     <string name="wrong_root_selected_usb">Выбрана неправильная папка. Выберите корневую папку вашего USB-устройства.</string>
     <string name="january">Январь</string>
     <string name="february">Февраль</string>
