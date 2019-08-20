@@ -56,9 +56,9 @@
     <string name="source_file_doesnt_exist">Исходный файл \"%s\" не существует</string>
     <string name="prepend_filenames">Назначить имя файлов</string>
     <string name="append_filenames">Добавить имена файлов</string>
-    <string name="simple_renaming">Простое переименование</string>
+    <string name="simple_renaming">Simple renaming</string>
     <string name="pattern_renaming">Графический ключ</string>
-    <string name="string_to_add">Строка для добавления</string>
+    <string name="string_to_add">String to add</string>
     <string name="rename_date_time_pattern">%Y - год\n%M - месяц\n%D - день\n%h - час\n%m - минута\n%s - секунда</string>
     <string name="copy">Копировать</string>
     <string name="move">Переместить</string>
@@ -85,7 +85,7 @@
     <string name="could_not_create_folder">Не удалось создать папку \"%s\"</string>
     <string name="could_not_create_file">Не удалось создать файл \"%s\"</string>
     <string name="no_new_items">Новые элементы не найдены</string>
-    <string name="no_space">В месте назначения недостаточно свободного места.\nТребуется %1$s, доступно %2$s</string>
+    <string name="no_space">The destination does not have enough space available.\nRequired %1$s, available %2$s</string>
     <string name="create_new">Создать</string>
     <string name="folder">Папка</string>
     <string name="file">Файл</string>
@@ -106,7 +106,7 @@
     <string name="select_folder">Выбор папки</string>
     <string name="select_file">Выбор файла</string>
     <string name="confirm_storage_access_title">Предоставление доступа к внешнему накопителю</string>
-    <string name="confirm_storage_access_text">Пожалуйста, выберите верхнюю папку SD-карты на следующем экране, чтобы предоставить доступ к записи</string>
+    <string name="confirm_storage_access_text">Please choose the top folder of the SD card on the next screen, to grant write access</string>
     <string name="confirm_storage_access_text_sd">Если вы не видите SD-карту, попробуйте это</string>
     <string name="confirm_selection">Подтвердить выделение</string>
     <plurals name="items">
@@ -511,7 +511,7 @@
     <string name="no_entries_for_exporting">Нет элементов для экспортирования</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Похоже, к вашему устройству подключено устройство USB. Чтобы убедиться, что файлы на нём отображаются правильно, вам нужно предоставить дополнительные разрешения.</string>
-    <string name="confirm_usb_storage_access_text">Пожалуйста, выберите верхнюю папку USB-устройства на следующем экране, чтобы предоставить доступ</string>
+    <string name="confirm_usb_storage_access_text">Please choose the top folder of the USB device on the next screen, to grant access</string>
     <string name="wrong_root_selected_usb">Выбрана неправильная папка. Выберите корневую папку вашего USB-устройства.</string>
     <string name="january">Январь</string>
     <string name="february">Февраль</string>
@@ -605,6 +605,8 @@
     <string name="faq_6_title_commons">Значок запуска приложения исчез. Что я могу сделать?</string>
     <string name="faq_6_text_commons">Это вызвано тем, что ваш лаунчер не поддерживает правильную настройку значков. Попробуйте запустить приложение через Google Play или с помощью виджета приложения, если таковой имеется.
         После запуска просто установите оранжевый значок по умолчанию #F57C00. Возможно, вам придется переустановить приложение.</string>
+    <string name="faq_7_title_commons">The money has been deducted from my bank account, but I cannot download the app. What can I do?</string>
+    <string name="faq_7_text_commons">Payments are fully handled by Google, their system glitches from time to time. Just clear your Google Play app cache and restart your device, then retry downloading it.</string>
     <string name="notice">Это приложение использует следующие библиотеки сторонних разработчиков, чтобы облегчить мой труд. Спасибо.</string>
     <string name="third_party_licences">Лицензии третьих сторон</string>
     <string name="kotlin_title">Kotlin (язык программирования)</string>
