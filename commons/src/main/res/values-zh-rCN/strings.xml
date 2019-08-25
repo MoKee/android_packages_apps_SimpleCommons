@@ -106,6 +106,7 @@
     <string name="select_folder">选择文件夹</string>
     <string name="select_file">选择文件</string>
     <string name="confirm_storage_access_title">确认外部存储器访问权限</string>
+    <string name="confirm_storage_access_text">请选择 SD 卡根目录并授予写权限</string>
     <string name="confirm_storage_access_text_sd">如果您未找到 SD 卡目录，请尝试</string>
     <string name="confirm_selection">确认选择</string>
     <plurals name="items">
@@ -411,6 +412,7 @@
     <string name="no_entries_for_exporting">未找到要导出的项目</string>
     <string name="usb">USB</string>
     <string name="usb_detected">检测到有 USB 设备连接到您的设备。您需要授予额外的权限以确保文件能够正确显示。</string>
+    <string name="confirm_usb_storage_access_text">请在下一界面选择 USB 设备的根文件夹以授予访问权限</string>
     <string name="wrong_root_selected_usb">选择错误，请正确选择 USB 设备的根文件夹</string>
     <string name="january">一月</string>
     <string name="february">二月</string>
@@ -502,6 +504,8 @@
     <string name="faq_6_title_commons">应用程序启动器图标消失。我能做什么呢？</string>
     <string name="faq_6_text_commons">警告：某些启动程序无法正确处理应用程序图标的自定义。 如果图标消失，请尝试通过Google Play或某个小部件（如果可用）启动应用。
          一旦启动，只需恢复默认的橙色图标＃F57C00。 如果不行，您需要重新安装该应用程序。</string>
+    <string name="faq_7_title_commons">这笔钱已经从我的银行账户中扣除，但我无法下载该应用程序。我可以做什么？</string>
+    <string name="faq_7_text_commons">付款完全由Google 处理，他们的系统有时会出现小问题。您只需清除Google Play应用缓存并重新启动您的设备，然后重试下载。</string>
     <string name="notice">此应用使用了以下三方库。谢谢。</string>
     <string name="third_party_licences">开放源代码</string>
     <string name="kotlin_title">Kotlin (编程语言)</string>
