@@ -14,6 +14,7 @@
     <string name="set_as">Establecer como</string>
     <string name="value_copied_to_clipboard">Valor copiado al portapapeles</string>
     <string name="unknown">Desconocido</string>
+    <string name="always">Siempre</string>
     <string name="never">Nunca</string>
     <string name="details">Detalles</string>
     <string name="notes">Notas</string>
@@ -134,7 +135,10 @@
     <string name="exposure_time">Tiempo exposición</string>
     <string name="iso_speed">Velocidad ISO</string>
     <string name="camera">Cámara</string>
+    <string name="exif">EXIF</string>
     <string name="song_title">Título de la canción</string>
+    <string name="gps_coordinates">Coordenadas GPS</string>
+    <string name="altitude">Altitud</string>
     <string name="background_color">Color del fondo</string>
     <string name="text_color">Color del texto</string>
     <string name="foreground_color">Color de primer plano</string>
@@ -177,6 +181,8 @@
     <string name="empty_and_disable_recycle_bin">Vaciar y desactivar la papelera de reciclaje</string>
     <string name="undo">Deshacer</string>
     <string name="redo">Rehacer</string>
+    <string name="print">Imprimir</string>
+    <string name="create_shortcut">Crear acceso directo</string>
     <string name="sort_by">Ordenar por</string>
     <string name="name">Nombre </string>
     <string name="size">Tamaño</string>
@@ -200,6 +206,7 @@
         <item quantity="one">ADVERTENCIA: está eliminando %d carpeta</item>
         <item quantity="other">ADVERTENCIA: está eliminando %d carpetas</item>
     </plurals>
+    <string name="pin">PIN</string>
     <string name="enter_pin">Introduzca PIN</string>
     <string name="please_enter_pin">Por favor introduzca PIN</string>
     <string name="wrong_pin">PIN erróneo</string>
@@ -217,6 +224,8 @@
     <string name="go_to_settings">Ir a la configuración</string>
     <string name="protection_setup_successfully">Se ha agregado la contraseña con éxito. Por favor, vuelva a instalar la aplicación en caso de que la olvide.</string>
     <string name="fingerprint_setup_successfully">Configuración de protección con éxito. Por favor, vuelva a instalar la aplicación en caso de problemas al restablecerla.</string>
+    <string name="lock_folder">Bloquear carpeta</string>
+    <string name="unlock_folder">Desbloquear carpeta</string>
     <string name="yesterday">Ayer</string>
     <string name="today">Hoy</string>
     <string name="tomorrow">Mañana</string>
@@ -366,6 +375,8 @@
     <string name="recycle_bin_cleaning_interval">Intervalo de vaciado de la papelera de reciclaje</string>
     <string name="empty_recycle_bin">Vaciar papelera de reciclaje</string>
     <string name="force_portrait_mode">Forzar el modo retrato</string>
+    <string name="export_settings">Exportar ajustes</string>
+    <string name="import_settings">Importar ajustes</string>
     <string name="visibility">Visibilidad</string>
     <string name="security">Seguridad</string>
     <string name="scrolling">Desplazamiento</string>
@@ -374,6 +385,7 @@
     <string name="saving_label">Guardando</string>
     <string name="startup">Puesta en marcha</string>
     <string name="text">Texto</string>
+    <string name="migrating">Migrando</string>
     <string name="restore_this_file">Restaurar el fichero</string>
     <string name="restore_selected_files">Restaurar los ficheros seleccionados</string>
     <string name="restore_all_files">Restaurar todos los ficheros</string>
@@ -382,6 +394,11 @@
     <string name="empty_recycle_bin_confirmation">Seguro que quieres vaciar la papelera? Los ficheros se perderan definitivamente.</string>
     <string name="recycle_bin_empty">La papelera está vacia</string>
     <string name="moving_recycle_bin_items_disabled">El movimiento de los elementos de la papelera de reciclaje está deshabilitado, utilice Restaurar</string>
+    <string name="hide_the_recycle_bin">Ocultar la papelera</string>
+    <plurals name="moving_items_into_bin">
+        <item quantity="one">Moviendo %d elemento a la papelera de reciclaje</item>
+        <item quantity="other">Moviendo %d elementos a la papelera de reciclaje</item>
+    </plurals>
     <string name="importing">Importando…</string>
     <string name="exporting">Exportando…</string>
     <string name="importing_successful">Importación correcta</string>
@@ -458,7 +475,10 @@
     <string name="donate">Donar</string>
     <string name="donate_underlined"><u>Donar</u></string>
     <string name="follow_us">Síguenos</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="additional_info">Información adicional</string>
+    <string name="app_version">Versión de la aplicación: %s</string>
+    <string name="device_os">SO del dispositivo: %s</string>
     <string name="update_thank_you">Por favor, actualice Simple Tank You a la última versión</string>
     <string name="read_it">Leer</string>
     <string name="frequently_asked_questions">Preguntas frecuentes</string>
