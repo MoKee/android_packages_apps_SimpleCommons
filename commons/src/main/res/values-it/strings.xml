@@ -82,6 +82,7 @@
     <string name="could_not_create_folder">Impossibile creare la cartella %s</string>
     <string name="could_not_create_file">Impossibile creare il file %s</string>
     <string name="no_new_items">Nessun nuovo elemento trovato</string>
+    <string name="no_space">La destinazione non ha abbastanza spazio disponibile.\nRichiesto %1$s, disponibile %2$s</string>
     <string name="create_new">Crea nuovo</string>
     <string name="folder">Cartella</string>
     <string name="file">File</string>
@@ -140,6 +141,7 @@
     <string name="camera">Fotocamera</string>
     <string name="exif">EXIF</string>
     <string name="song_title">Titolo canzone</string>
+    <string name="gps_coordinates">Coordinate GPS</string>
     <string name="background_color">Colore di sfondo</string>
     <string name="text_color">Colore del testo</string>
     <string name="primary_color">Colore primario</string>
