@@ -55,7 +55,10 @@
     <string name="extension_cannot_be_empty">L\'estensione non può essere vuota</string>
     <string name="source_file_doesnt_exist">Il file di origine %s non esiste</string>
     <string name="prepend_filenames">Anteponi i nomi dei file</string>
+    <string name="append_filenames">Aggiungere nomi di file</string>
+    <string name="simple_renaming">Rinomina semplice</string>
     <string name="pattern_renaming">Sequenza</string>
+    <string name="string_to_add">Stringa da aggiungere</string>
     <string name="rename_date_time_pattern">%Y - anno\n%M - mese\n%D - giorno\n%h - ora\n%m - minuto\n%s - secondo</string>
     <string name="copy">Copia</string>
     <string name="move">Sposta</string>
@@ -103,6 +106,7 @@
     <string name="select_folder">Seleziona una cartella</string>
     <string name="select_file">Seleziona un file</string>
     <string name="confirm_storage_access_title">Confermare l\'accesso all\'archiviazione esterna</string>
+    <string name="confirm_storage_access_text">Si prega di scegliere la cartella superiore della scheda SD nella schermata successiva, per concedere l\'accesso in scrittura</string>
     <string name="confirm_storage_access_text_sd">Se non si ha una scheda SD, provare questo</string>
     <string name="confirm_selection">Conferma selezione</string>
     <plurals name="items">
@@ -142,6 +146,7 @@
     <string name="exif">EXIF</string>
     <string name="song_title">Titolo canzone</string>
     <string name="gps_coordinates">Coordinate GPS</string>
+    <string name="altitude">Altitudine</string>
     <string name="background_color">Colore di sfondo</string>
     <string name="text_color">Colore del testo</string>
     <string name="primary_color">Colore primario</string>
@@ -234,6 +239,9 @@
     <string name="go_to_settings">Vai alle impostazioni</string>
     <string name="protection_setup_successfully">Password impostata correttamente. Reinstalla l\'app nel caso la dimenticassi.</string>
     <string name="fingerprint_setup_successfully">Protezione impostata correttamente. Reinstalla l\'app in caso di problemi nel ripristinarla.</string>
+    <string name="lock_folder">Blocca cartella</string>
+    <string name="unlock_folder">Sblocca cartella</string>
+    <string name="lock_folder_notice">Questa protezione funziona solo in questa applicazione, non si suppone di sostituire una crittografia reale a livello di sistema.</string>
     <string name="yesterday">Ieri</string>
     <string name="today">Oggi</string>
     <string name="tomorrow">Domani</string>
@@ -436,6 +444,7 @@
     <string name="no_entries_for_exporting">Nessun elemento trovato da esportare</string>
     <string name="usb">USB</string>
     <string name="usb_detected">È collegato un dispositivo USB al dispositivo. Per assicurarsi che i file appaiano correttamente, è necessario accettare permessi aggiuntivi.</string>
+    <string name="confirm_usb_storage_access_text">Si prega di scegliere la cartella superiore del dispositivo USB nella schermata successiva, per concedere l\'accesso</string>
     <string name="wrong_root_selected_usb">Cartella selezionata errata, seleziona la cartella di root del dispositivo USB</string>
     <string name="january">Gennaio</string>
     <string name="february">Febbraio</string>
@@ -528,6 +537,8 @@
     <string name="faq_5_text_commons">Se sono stati davvero eliminati, non puoi. Tuttavia, c\'è un Cestino abilitato di default, causerà che i file siano spostati nel Cestino invece di eliminarli.</string>
     <string name="faq_6_title_commons">L\'icona del launcher è sparita. Cosa faccio?</string>
     <string name="faq_6_text_commons">Il tuo launcher non supporta la personalizzazione delle icone. Prova ad avviare l\'app dal Google Play o da un widget, se possibile. Una volta avviata imposta nuovamente l\'icona arancione predefinita #F57C00. Nel peggiore dei casi dovrai reinstallare l\'app.</string>
+    <string name="faq_7_title_commons">Il denaro è stato detratto dal mio conto bancario, ma non riesco a scaricare l\'app. Cosa posso fare?</string>
+    <string name="faq_7_text_commons">I pagamenti sono completamente gestiti da Google, i loro difetti di sistema di volta in volta. Basta cancellare la cache dell\'app Google Play e riavviare il dispositivo, quindi riprovare a scaricarlo.</string>
     <string name="notice">Questa app usa le seguenti librerie di terze parti per semplificarmi la vita. Grazie.</string>
     <string name="third_party_licences">Licenze di terze parti</string>
     <string name="kotlin_title">Kotlin (linguaggio di programmazione)</string>
