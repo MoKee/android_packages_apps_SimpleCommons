@@ -26,7 +26,7 @@
     <string name="select_a_different_color">Одабери другу боју</string>
     <string name="download">Преузимање</string>
     <string name="notification">Обавештења</string>
-    <string name="email">Имејл</string>
+    <string name="email">Е-пошта</string>
     <string name="favorites">Омиљено</string>
     <string name="add_favorites">Додај омиљене</string>
     <string name="add_to_favorites">Додај у омиљене</string>
@@ -331,12 +331,12 @@
     <string name="extra_large">Веома велики</string>
     <string name="password_protect_hidden_items">Заштити шифром приступ скривеним фајловима</string>
     <string name="password_protect_whole_app">Заштити шифром апликацију</string>
-    <string name="password_protect_file_deletion">Заштити шифром брисанје и премештање фајлова</string>
+    <string name="password_protect_file_deletion">Заштити шифром брисање и премештање фајлова</string>
     <string name="keep_last_modified">Сачувај последње промене као копије</string>
     <string name="show_info_bubble">Прикажи балон са информацијама код превлачења</string>
     <string name="prevent_phone_from_sleeping">Онемогући мод мировања телефона ако постоји апликација која ради у позадини</string>
     <string name="skip_delete_confirmation">Увек прескочи потврду за брисање</string>
-    <string name="enable_pull_to_refresh">Омогући освежаванје код превлачења прстом по екрану од горе на доле</string>
+    <string name="enable_pull_to_refresh">Омогући освежавање код превлачења прстом по екрану од горе на доле</string>
     <string name="use_24_hour_time_format">Користи 24-часовни формат</string>
     <string name="change_date_and_time_format">Промени формат датума и времена</string>
     <string name="sunday_first">Почетак радне недеље у Недељу</string>
