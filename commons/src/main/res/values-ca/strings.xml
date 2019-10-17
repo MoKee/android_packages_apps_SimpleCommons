@@ -444,7 +444,6 @@
     <string name="friday_short">DV</string>
     <string name="saturday_short">DS</string>
     <string name="sunday_short">DG</string>
-    <string name="upgrade_to_pro_long">Aquesta versió de l\'aplicació ja no es manté. Actualitzeu a la versió Pro.</string>
     <string name="it_is_free">És gratuït fins a: %s. Si ho descarregueu fins aleshores, podreu utilitzar-lo de forma gratuïta per sempre.</string>
     <string name="more_info">Més informació</string>
     <string name="upgrade">Actualitza</string>

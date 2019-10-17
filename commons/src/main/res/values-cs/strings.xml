@@ -556,7 +556,6 @@
     <string name="friday_short">Pá</string>
     <string name="saturday_short">So</string>
     <string name="sunday_short">Ne</string>
-    <string name="upgrade_to_pro_long">Tato verze aplikace již není podporována. Proveďte upgrade na verzi Pro.</string>
     <string name="it_is_free">Je do bezplatné do: %s. Pokud si ji do té doby stáhnete, budete ji moci zdarma navždy používat.</string>
     <string name="more_info">Další informace</string>
     <string name="upgrade">Upgradovat</string>

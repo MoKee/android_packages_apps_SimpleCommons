@@ -459,7 +459,6 @@
     <string name="friday_short">周五</string>
     <string name="saturday_short">周六</string>
     <string name="sunday_short">周日</string>
-    <string name="upgrade_to_pro_long">此版本的应用不再支持维护。请升级到专业版。</string>
     <string name="it_is_free">免费期限至: %s。如果在此之后下载，你可以永久免费使用。</string>
     <string name="more_info">更多信息</string>
     <string name="upgrade">升级</string>

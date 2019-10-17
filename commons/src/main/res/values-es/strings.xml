@@ -459,7 +459,6 @@
     <string name="friday_short">Vie</string>
     <string name="saturday_short">Sáb</string>
     <string name="sunday_short">Dom</string>
-    <string name="upgrade_to_pro_long">Esta versión de la aplicación ya no se mantiene. Por favor, actualice a la versión Pro.</string>
     <string name="it_is_free">Es gratis hasta: %s. Si lo descargas hasta entonces, podrás usarlo gratis para siempre..</string>
     <string name="more_info">Más informanción</string>
     <string name="upgrade">Actualizar</string>

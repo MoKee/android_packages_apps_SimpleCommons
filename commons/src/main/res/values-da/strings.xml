@@ -416,7 +416,6 @@
     <string name="friday_short">Fre</string>
     <string name="saturday_short">Lør</string>
     <string name="sunday_short">Søn</string>
-    <string name="upgrade_to_pro_long">Denne version af appen vedligeholdes ikke længere. I stedet er der kommet en Pro-version du kan opgradere til.</string>
     <string name="it_is_free">Den er stadig gratis indtil: %s. Downloader du den indtil da kan du blive ved at bruge den gratis fremover.</string>
     <string name="about">Om</string>
     <string name="website_label">For at se kildekoden besøg</string>

@@ -443,7 +443,6 @@
     <string name="friday_short">Παρ</string>
     <string name="saturday_short">Σαβ</string>
     <string name="sunday_short">Κυρ</string>
-    <string name="upgrade_to_pro_long">Αυτή η έκδοση της εφαρμογής δεν υποστηρίζεται πλέον. Αναβαθμίστε στην έκδοση Pro.</string>
     <string name="it_is_free">Είναι δωρεάν μέχρι: %s. Εάν κάνετε λήψη μέχρι τότε, θα μπορείτε να την χρησιμοποιείτε δωρεάν για πάντα.</string>
     <string name="more_info">Περισσότερα</string>
     <string name="upgrade">Αναβάθμιση</string>

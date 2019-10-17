@@ -487,7 +487,6 @@
     <string name="friday_short">Sex</string>
     <string name="saturday_short">Sáb</string>
     <string name="sunday_short">Dom</string>
-    <string name="upgrade_to_pro_long">Esta versão do aplicativo não está mais mantida. Por favor, atualize para a versão Pro.</string>
     <string name="it_is_free">É gratuito até: %s. Se você baixá-lo até lá, você será capaz de usá-lo de graça para sempre.</string>
     <string name="more_info">Mais informações</string>
     <string name="upgrade">Atualizar</string>

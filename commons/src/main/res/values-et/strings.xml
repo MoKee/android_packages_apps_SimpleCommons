@@ -492,7 +492,8 @@
     <string name="friday_short">R</string>
     <string name="saturday_short">L</string>
     <string name="sunday_short">L</string>
-    <string name="upgrade_to_pro_long">Seda rakenduse versiooni enam ei säilitata. Palun uuendage Pro versiooni.</string>
+    <string name="upgrade_to_pro_long">Teie rakenduse versiooni ei värskendata enam. Uute paranduste ja muude täiustuste saamiseks minge üle Pro versioonile.</string>
+    <string name="upgrade_to_pro_long_click">Teie rakenduse versiooni ei värskendata enam. Uute paranduste ja muude täiustuste saamiseks klõpsake siin klõpsates uuemale versioonile Pro.</string>
     <string name="it_is_free">See on tasuta kuni: %s. Kui te selle alla laadite, saate seda alati igavesti kasutada.</string>
     <string name="more_info">Lisateave</string>
     <string name="upgrade">Uuenda</string>
@@ -541,6 +542,10 @@
         Kui olete käivitanud, seadistage lihtsalt oranž vaikimisi ikoon # F57C00. Võimalik, et peatehalvimal juhul rakenduse uuesti installima.</string>
     <string name="faq_7_title_commons">Raha on minu pangakontolt maha arvestatud, kuid ma ei saa rakendust alla laadida. Mida ma teha saan?</string>
     <string name="faq_7_text_commons">Maksetega tegeleb täielikult Google, nende süsteem tõrgub aeg-ajalt. Tühjendage lihtsalt oma Google Play rakenduse vahemälu ja taaskäivitage seade ning proovige siis uuesti alla laadida.</string>
+    <string name="faq_8_title_commons">Miks peaksin minema versioonile Pro?</string>
+    <string name="faq_8_text_commons">Kuna teie rakenduse versiooni enam ei värskendata, ei parandata tõenäoliselt kunagi leitud vigu. Samuti ei lisata uusi funktsioone. Pro-versiooni saate väikese raha eest osta Google Playst.
+       See on ühekordne makse, mis tähendab, et pärast selle ostmist ei pea te enam kunagi maksma. Isegi mitte pärast uue seadme hankimist. Kui teile Pro versioon ei meeldi, saate selle mõne tunni jooksul lihtsalt desinstallida ja saate oma raha automaatselt tagasi.
+        Kui soovite tagasimakset igal ajal hiljem, võtke meiega lihtsalt ühendust aadressil hello@simplemobiletools.com ja saate selle kätte.</string>
     <string name="notice">See rakendus kasutab järgmisi kolmanda osapoole teeke, et teha oma elu lihtsamaks. Aitäh.</string>
     <string name="third_party_licences">Kolmandate isikute litsentsid</string>
     <string name="kotlin_title">Kotlin (programmeerimiskeel)</string>

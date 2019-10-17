@@ -542,7 +542,6 @@
     <string name="friday_short">Pią</string>
     <string name="saturday_short">Sob</string>
     <string name="sunday_short">Nie</string>
-    <string name="upgrade_to_pro_long">Ta wersja aplikacji nie jest już rozwijana. Zaktualizuj ją do wersji Pro.</string>
     <string name="it_is_free">Jest darmowa do %s. Jeśli pobierzesz ją do tego czasu, będziesz mieć ją bezterminowo za darmo.</string>
     <string name="more_info">Więcej informacji</string>
     <string name="upgrade">Aktualizuj</string>

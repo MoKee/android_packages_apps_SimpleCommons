@@ -435,7 +435,6 @@
     <string name="friday_short">Пет</string>
     <string name="saturday_short">Суб</string>
     <string name="sunday_short">Нед</string>
-    <string name="upgrade_to_pro_long">Ова верзија апликације се више не одржава. Надоградите на Про верзију.</string>
     <string name="it_is_free">Бесплатно је до:%s. Ако га преузмете до тада, моћи ћете га бесплатно користити заувек.</string>
     <string name="more_info">Више информација</string>
     <string name="upgrade">Надоградња</string>

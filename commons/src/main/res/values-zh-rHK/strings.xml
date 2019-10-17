@@ -458,7 +458,8 @@
     <string name="friday_short">週五</string>
     <string name="saturday_short">週六</string>
     <string name="sunday_short">週日</string>
-    <string name="upgrade_to_pro_long">此版本的應用程式已不再維護。請升級到專業版。</string>
+    <string name="upgrade_to_pro_long">您的應用程式版本將不再更新。請升級到專業版以獲得新的修復和其他改進。</string>
+    <string name="upgrade_to_pro_long_click">您的應用程式版本將不再更新。請通過點選這裡升級到專業版本以獲得新的修復和其他改進。</string>
     <string name="it_is_free">它在此日期前免費：%s。如果您在這個日期前下載它的話，您就可以永久免費使用它。</string>
     <string name="more_info">更多資訊</string>
     <string name="upgrade">升級</string>
@@ -506,6 +507,10 @@
     <string name="faq_6_text_commons">警告：某些啟動程序無法正確處理自定義應用程序圖標。如果可能，請嘗試通過Google Play或小部件打開應用，如果圖標不可見。如果您已重新打開該應用程序，只需重置默認的橙色圖標＃F57C00。在最壞的情況下，您可能需要重新安裝應用程序。</string>
     <string name="faq_7_title_commons">錢已經從我的銀行賬戶中扣除了，但我不能下載這個應用程式。我該怎麼辦？</string>
     <string name="faq_7_text_commons">支付完全由 Google 處理，他們的系統不時出現故障。只需清除你的 Google Play 應用程式快取並重新啟動您的裝置，然後重試下載。</string>
+    <string name="faq_8_title_commons">為什麼我應該升級到專業版？</string>
+    <string name="faq_8_text_commons">由於您的應用程式版本不再更新，您可能發現的 bug 將永遠無法修復。也不會增加新的功能。你可以用一小筆錢在 Google Play 上購買專業版。
+        這是一次性付款，也就是說，一旦你購買專業版，就能夠永遠使用，即使買了新裝置。如果你不喜歡專業版，你可以在幾個小時內解除安裝，它自動退款。
+        如果您以後需要退款，請通過 hello@simplemobiletools.com 聯繫我們，我們會為您提供服務。</string>
     <string name="notice">這程式使用了下列的第三方函式庫來讓我工作簡化。感謝。</string>
     <string name="third_party_licences">第三方授權</string>
     <string name="kotlin_title">Kotlin (編程語言)</string>

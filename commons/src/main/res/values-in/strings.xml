@@ -423,7 +423,6 @@
     <string name="friday_short">Jum</string>
     <string name="saturday_short">Sab</string>
     <string name="sunday_short">Min</string>
-    <string name="upgrade_to_pro_long">Versi aplikasi ini tidak lagi dipertahankan. Harap tingkatkan ke versi Pro.</string>
     <string name="it_is_free">Gratis hingga: %s. Jika Anda mengunduhnya hingga saat itu, Anda akan dapat menggunakannya secara gratis selamanya.</string>
     <string name="more_info">Info selengkapnya</string>
     <string name="upgrade">Tingkatkan</string>

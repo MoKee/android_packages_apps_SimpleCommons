@@ -619,7 +619,6 @@
     <string name="friday_short">جمع</string>
     <string name="saturday_short">سبت</string>
     <string name="sunday_short">أحد</string>
-    <string name="upgrade_to_pro_long">لم يعد يتم الحفاظ على هذا الإصدار من التطبيق. يرجى الترقية إلى الإصدار المحترف.</string>
     <string name="it_is_free">إنه مجاني حتى: %s. إذا قمت بتنزيله حتى ذلك الحين ، فستتمكن من استخدامه إلى الأبد.</string>
     <string name="more_info">مزيد من المعلومات</string>
     <string name="upgrade">ترقية</string>

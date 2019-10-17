@@ -558,7 +558,6 @@
     <string name="friday_short">Пт</string>
     <string name="saturday_short">Сб</string>
     <string name="sunday_short">Вс</string>
-    <string name="upgrade_to_pro_long">Эта версия приложения больше не поддерживается. Выполните обновление до Pro версии.</string>
     <string name="it_is_free">Это бесплатно до: %s. Если вы загрузите версию PRO, вы сможете использовать его бесплатно навсегда.</string>
     <string name="more_info">Подробнее</string>
     <string name="upgrade">Обновить</string>

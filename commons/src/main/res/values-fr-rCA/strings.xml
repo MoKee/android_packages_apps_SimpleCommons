@@ -466,7 +466,6 @@
     <string name="friday_short">Ven</string>
     <string name="saturday_short">Sam</string>
     <string name="sunday_short">Dim</string>
-    <string name="upgrade_to_pro_long">Cette version de l\'application n\'est plus maintenue. Veuillez passer à la version Pro.</string>
     <string name="it_is_free">C\'est gratuit jusqu\'au : %s. Si vous la téléchargez jusque-là, vous pourrez définitivement l\'utiliser gratuitement.</string>
     <string name="more_info">Plus d\'information</string>
     <string name="upgrade">Passer à la version Pro</string>
