@@ -106,6 +106,7 @@
     <string name="select_folder">Zvolte složku</string>
     <string name="select_file">Zvolte soubor</string>
     <string name="confirm_storage_access_title">Potvrďte přístup k externímu úložišti</string>
+    <string name="confirm_storage_access_text">Na následující obrazovce prosím zvolte kořenovou složku SD karty pro povolení oprávnění k zápisu</string>
     <string name="confirm_storage_access_text_sd">Pokud nevidíte SD kartu, vyzkoušejte následující</string>
     <string name="confirm_selection">Potvrďte výběr</string>
     <plurals name="items">
@@ -510,6 +511,7 @@
     <string name="no_entries_for_exporting">Nebyly nalezeny žádné položky pro export</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Zdá se, že máte k zařízení připojeno zařízení USB. Chcete-li se ujistit, zda se soubory zobrazují správně, musíte udělit další oprávnění.</string>
+    <string name="confirm_usb_storage_access_text">Na následující obrazovce zvolte kořenovou složku USB zařízení pro povolení oprávnění</string>
     <string name="wrong_root_selected_usb">Vybrána neplatná složka, vyberte root složku vašeho USB zařízení</string>
     <string name="january">Leden</string>
     <string name="february">Únor</string>
@@ -602,6 +604,7 @@
     <string name="faq_6_title_commons">Ikona spouštěče aplikací zmizela. Co můžu dělat?</string>
     <string name="faq_6_text_commons">To je způsobeno tím, že váš spouštěč nepodporuje přizpůsobení ikon správně. Zkuste spustit aplikaci přes Obchod Play nebo nějaký widgetu, pokud je k dispozici.
         Po spuštění stačí nastavit výchozí oranžovou ikonu # F57C00. V nejhorším případě budete muset aplikaci přeinstalovat.</string>
+    <string name="faq_8_title_commons">Proč bych měl provést upgrade na verzi Pro?</string>
     <string name="notice">Tato aplikace využívá následující knihovny třetích stran. Děkuji.</string>
     <string name="third_party_licences">Licence třetích stran</string>
     <string name="kotlin_title">Kotlin (programovací jazyk)</string>
