@@ -187,9 +187,11 @@
     <string name="seconds_raw">ಸೆಕೆಂಡುಗಳು</string>
     <string name="minutes_raw">ನಿಮಿಷಗಳು</string>
     <string name="hours_raw">ಗಂಟೆಗಳು</string>
+    <string name="alarm">ಎಚ್ಚರಿಕೆ ಧ್ಚನಿ</string>
     <string name="snooze">ಲಘು ನಿದ್ದೆ</string>
     <string name="dismiss">ವಜಾ ಮಾಡು</string>
     <string name="settings">ಸಂಯೋಜನೆಗಳು</string>
+    <string name="small">ಚಿಕ್ಕ</string>
     <string name="medium">ಮಧ್ಯಮ</string>
     <string name="widgets">ವಿಜೆಟ್‌ಗಳು</string>
     <string name="visibility">ಗೋಚರಿಕೆ</string>
