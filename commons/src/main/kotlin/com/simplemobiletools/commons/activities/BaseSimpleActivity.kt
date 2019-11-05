@@ -21,6 +21,7 @@ import com.simplemobiletools.commons.asynctasks.CopyMoveTask
 import com.simplemobiletools.commons.dialogs.ConfirmationDialog
 import com.simplemobiletools.commons.dialogs.ExportSettingsDialog
 import com.simplemobiletools.commons.dialogs.FileConflictDialog
+import com.simplemobiletools.commons.dialogs.WritePermissionDialog
 import com.simplemobiletools.commons.extensions.*
 import com.simplemobiletools.commons.helpers.*
 import com.simplemobiletools.commons.interfaces.CopyMoveListener
@@ -276,6 +277,28 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
     }
 
+    fun handleOTGPermission(callback: (success: Boolean) -> Unit) {
+        if (baseConfig.OTGTreeUri.isNotEmpty()) {
+            callback(true)
+            return
+        }
+
+        funAfterSAFPermission = callback
+        WritePermissionDialog(this, true) {
+            Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
+                if (resolveActivity(packageManager) == null) {
+                    type = "*/*"
+                }
+
+                if (resolveActivity(packageManager) != null) {
+                    startActivityForResult(this, OPEN_DOCUMENT_TREE_OTG)
+                } else {
+                    toast(R.string.unknown_error_occurred)
+                }
+            }
+        }
+    }
+
     fun copyMoveFilesTo(fileDirItems: ArrayList<FileDirItem>, source: String, destination: String, isCopyOperation: Boolean, copyPhotoVideoOnly: Boolean,
                         copyHidden: Boolean, callback: (destinationPath: String) -> Unit) {
         if (source == destination) {
@@ -283,7 +306,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             return
         }
 
-        if (!File(destination).exists()) {
+        if (!getDoesFilePathExist(destination)) {
             toast(R.string.invalid_destination)
             return
         }
@@ -350,13 +373,13 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             val newName = String.format("%s(%d).%s", file.nameWithoutExtension, fileIndex, file.extension)
             newFile = File(file.parent, newName)
             fileIndex++
-        } while (File(newFile!!.absolutePath).exists())
+        } while (getDoesFilePathExist(newFile!!.absolutePath))
         return newFile
     }
 
     private fun startCopyMove(files: ArrayList<FileDirItem>, destinationPath: String, isCopyOperation: Boolean, copyPhotoVideoOnly: Boolean, copyHidden: Boolean) {
         val availableSpace = destinationPath.getAvailableStorageB()
-        val sumToCopy = files.sumByLong { it.getProperSize(copyHidden) }
+        val sumToCopy = files.sumByLong { it.getProperSize(applicationContext, copyHidden) }
         if (sumToCopy < availableSpace) {
             checkConflicts(files, destinationPath, 0, LinkedHashMap()) {
                 toast(if (isCopyOperation) R.string.copying else R.string.moving)
@@ -378,7 +401,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
         val file = files[index]
         val newFileDirItem = FileDirItem("$destinationPath/${file.name}", file.name, file.isDirectory)
-        if (File(newFileDirItem.path).exists()) {
+        if (getDoesFilePathExist(newFileDirItem.path)) {
             FileConflictDialog(this, newFileDirItem, files.size > 1) { resolution, applyForAll ->
                 if (applyForAll) {
                     conflictResolutions.clear()
