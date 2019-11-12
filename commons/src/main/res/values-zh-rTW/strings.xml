@@ -59,7 +59,7 @@
     <string name="simple_renaming">簡單重新命名</string>
     <string name="pattern_renaming">圖形</string>
     <string name="string_to_add">要新增的字串</string>
-    <string name="rename_date_time_pattern">%Y - 年\n%M - 月\n%D - 日\n%h - 時\n%m - 分\n%s - 秒</string>
+    <string name="rename_date_time_pattern">%Y - 年\n%M - 月\n%D - 日\n%h - 時\n%m - 分\n%s - 秒\n%i - 從 1 開始增加</string>
     <string name="copy">複製</string>
     <string name="move">移動</string>
     <string name="copy_move">複製 / 移動</string>

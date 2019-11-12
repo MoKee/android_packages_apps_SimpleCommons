@@ -57,7 +57,6 @@
     <string name="prepend_filenames">اعد أسماء الملفات</string>
     <string name="append_filenames">اعد أسماء الملفات</string>
     <string name="pattern_renaming">النمط</string>
-    <string name="rename_date_time_pattern">%Y - سنة\n%M - شهر\n%D - يوم\n%h - ساعة\n%m - دقيقة\n%s - ثانية</string>
     <string name="copy">نسخ</string>
     <string name="move">نقل</string>
     <string name="copy_move">نسخ/نقل</string>

@@ -59,7 +59,6 @@
     <string name="simple_renaming">Rinomina semplice</string>
     <string name="pattern_renaming">Sequenza</string>
     <string name="string_to_add">Stringa da aggiungere</string>
-    <string name="rename_date_time_pattern">%Y - anno\n%M - mese\n%D - giorno\n%h - ora\n%m - minuto\n%s - secondo</string>
     <string name="copy">Copia</string>
     <string name="move">Sposta</string>
     <string name="copy_move">Copia / Sposta</string>

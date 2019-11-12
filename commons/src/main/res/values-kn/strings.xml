@@ -55,7 +55,6 @@
     <string name="extension_cannot_be_empty">ವಿಸ್ತರಣೆಯು ಖಾಲಿಯಿರುವಂತಿಲ್ಲ</string>
     <string name="source_file_doesnt_exist">%s ಮೂಲ ಕಡತವು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ</string>
     <string name="prepend_filenames">ಕಡತ ಹೆಸರುಗಳನ್ನು ಸೇರಿಸು</string>
-    <string name="rename_date_time_pattern">%Y- ವರ್ಷ\n%M - ತಿಂಗಳು\n%D - ದಿನ\n%h - ಗಂಟೆ\n%m - ನಿಮಿಷ\n%s - ಸೆಕೆಂಡು</string>
     <string name="copy">ನಕಲಿಸಿ</string>
     <string name="move">ಸ್ಥಳಾಂತರಿಸಿ</string>
     <string name="copy_move">ನಕಲಿಸು / ಸ್ಥಳಾಂತರಿಸು</string>

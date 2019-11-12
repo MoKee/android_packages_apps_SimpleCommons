@@ -59,7 +59,7 @@
     <string name="simple_renaming">Egyszerű átnevezés</string>
     <string name="pattern_renaming">Feloldóminta</string>
     <string name="string_to_add">Hozzáadandó karakterlánc</string>
-    <string name="rename_date_time_pattern">%Y - év\n%M - hónap\n%D - nap\n%h - óra\n%m - perc\n%s - másodperc</string>
+    <string name="rename_date_time_pattern">%Y - év\n%M - hónap\n%D - nap\n%h - óra\n%m - perc\n%s - másodperc\n%i - 1-től növekvő szám</string>
     <string name="copy">Másolás</string>
     <string name="move">Áthelyezés</string>
     <string name="copy_move">Másolás / Áthelyezés</string>
@@ -492,6 +492,8 @@
     <string name="friday_short">Pén</string>
     <string name="saturday_short">Szo</string>
     <string name="sunday_short">Vas</string>
+    <string name="upgrade_to_pro_long">Az a verzió, amit Ön használ, már nem frissül többé. Kérjük, váltson a Pro-verzióra, hogy új javításokat és egyéb fejlesztéseket kapjon.</string>
+    <string name="upgrade_to_pro_long_click">Az a verzió, amit Ön használ, már nem frissül többé. Kérjük, váltson a Pro-verzióra, hogy új javításokat és egyéb fejlesztéseket kapjon. Kattintson ide.</string>
     <string name="it_is_free">Ez ingyenes a következő ideig: %s. Ha a határidőig letölti, akkor örökre ingyen használhatja.</string>
     <string name="more_info">További információ</string>
     <string name="upgrade">Frissítés</string>
@@ -517,6 +519,7 @@
     <string name="purchase">Vásárlás</string>
     <string name="update_thank_you">Kérjük, frissítse a Simple Thank You alkalmazást a legújabb verzióra</string>
     <string name="before_asking_question_read_faq">Mielőtt feltenné a kérdését, kérjük, először nézze meg a Gyakran Ismételt Kérdéseket az alkalmazás beállításaiban, lehet már ott van a megoldás.</string>
+    <string name="make_sure_latest">Szintén legyen biztos abban, hogy az alkalmazás legfrissebb verzióját használja.</string>
     <string name="read_it">Olvassa el</string>
     <string name="rate_us_prompt">Helló,\n\núgy tűnik, hogy már régóta használja ezt az alkalmazást, ezt nagyra értékeljük.\n\nHa megtenne egy szívességet és értékelné munkánkat a Google Play áruházban, az tényleg sokat segítene nekünk.\n\nNem számít, milyen döntést hoz, ez az üzenet nem fog többé megjelenni.\n\nKöszönjük!</string>
     <string name="sideloaded_app">            Úgy tűnik, az alkalmazás verziója nem megfelelő. Kérjük, töltsön le egy eredeti verziót <a href="%s">innen</a>.
@@ -540,6 +543,10 @@
       Miután elindult, állítsa vissza az alapértelmezett narancssárga ikont #F57C00. A legrosszabb esetben újra kell telepítenie az alkalmazást.</string>
     <string name="faq_7_title_commons">A pénzt már levonták a bankszámlámról, de nem tudom letölteni az alkalmazást. Mit tehetek?</string>
     <string name="faq_7_text_commons">A kifizetéseket kizárólag a Google kezeli, rendszerük időről időre frissít. Törölje a Google Play alkalmazás gyorsítótárát, indítsa újra készülékét, majd próbálja meg újra letölteni az alkalmazást.</string>
+    <string name="faq_8_title_commons">Miért kellene frissítenem a Pro-verzióra?</string>
+    <string name="faq_8_text_commons">Mivel az alkalmazás jelenlegi verziója többé nem frissül, az esetlegesen észlelt hibákat soha nem fogja senki kijavítani. Nem kerülnek új funkciók hozzáadásra. Jutányos áron megvásárolhatja a Pro-verziót a Google Áruházban.
+         Az egyszeri fizetés, azt jelenti, hogy ha egyszer megvásárolta, soha nem kell többet fizetnie. Még egy új telefon vásárlása után sem. Ha nem tetszik a Pro-verzió, egyszerűen eltávolíthatja azt néhány órán belül, és automatikusan visszakapja a pénzét.
+         Ha bármikor később szeretne visszatérítést kérni, lépjen kapcsolatba velünk a hello@simplemobiletools.com címen, és megkapja.</string>
     <string name="notice">Ez az alkalmazás a következő harmadik fél könyvtárait használja az életem megkönnyítésére. Köszönöm.</string>
     <string name="third_party_licences">Harmadik fél licencek</string>
     <string name="kotlin_title">Kotlin (programnyelv)</string>

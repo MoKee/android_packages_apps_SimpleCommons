@@ -59,7 +59,6 @@
     <string name="simple_renaming">Snadné přejmenování</string>
     <string name="pattern_renaming">Vzor</string>
     <string name="string_to_add">Řetězec k přidání</string>
-    <string name="rename_date_time_pattern">%Y - rok\n%M - měsíc\n%D - den\n%h - hodina\n%m - minuta\n%s - sekunda</string>
     <string name="copy">Kopírovat</string>
     <string name="move">Přesunout</string>
     <string name="copy_move">Kopírovat / Přesunout</string>

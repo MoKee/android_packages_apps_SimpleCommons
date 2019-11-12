@@ -71,5 +71,6 @@
     <string name="saturday_letter">Ю</string>
     <string name="sunday_letter">Ю</string>
     <string name="about">Относно</string>
+    <string name="rate">Оцени</string>
     <string name="donate">Дарение</string>
 </resources>

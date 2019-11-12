@@ -95,6 +95,7 @@
     <string name="saturday_letter">S</string>
     <string name="sunday_letter">S</string>
     <string name="about">Despre</string>
+    <string name="rate">Evaluaţi</string>
     <string name="donate">Doneaza</string>
     <string name="purchase">Cumpărare</string>
 </resources>

@@ -59,7 +59,6 @@
     <string name="simple_renaming">Simple renaming</string>
     <string name="pattern_renaming">Графический ключ</string>
     <string name="string_to_add">String to add</string>
-    <string name="rename_date_time_pattern">%Y - год\n%M - месяц\n%D - день\n%h - час\n%m - минута\n%s - секунда</string>
     <string name="copy">Копировать</string>
     <string name="move">Переместить</string>
     <string name="copy_move">Копировать/переместить</string>

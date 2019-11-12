@@ -73,5 +73,6 @@
     <string name="saturday_letter">Пд</string>
     <string name="sunday_letter">Пд</string>
     <string name="about">Про додаток</string>
+    <string name="rate">Оцінити</string>
     <string name="donate">Пожертвувати</string>
 </resources>
