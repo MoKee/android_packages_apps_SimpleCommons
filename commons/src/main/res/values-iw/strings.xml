@@ -86,6 +86,7 @@
     <string name="saturday_letter">ש\'</string>
     <string name="sunday_letter">א\'</string>
     <string name="about">אודות</string>
+    <string name="rate">דרג</string>
     <string name="donate">תרום</string>
     <string name="purchase">קנה</string>
 </resources>

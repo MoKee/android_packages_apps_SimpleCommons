@@ -456,6 +456,7 @@
     <string name="share_text">Έι, έλα να δεις %1$s στο %2$s</string>
     <string name="invite_via">Πρόσκληση μέσω</string>
     <string name="rate_us_underlined"><u>Βαθμολογήστε μας</u></string>
+    <string name="rate">דרג</string>
     <string name="donate">Δωρεά</string>
     <string name="donate_underlined"><u>Δωρεά</u></string>
     <string name="follow_us">Ακολουθήστε μας</string>

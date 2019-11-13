@@ -373,6 +373,7 @@
     <string name="share_text">Hei, tutustu %1$s täällä %2$s</string>
     <string name="invite_via">Kutsu sovelluksella</string>
     <string name="rate_us_underlined"><u>Arvostele</u></string>
+    <string name="rate">Arvostele</string>
     <string name="donate">Lahjoita</string>
     <string name="donate_underlined"><u>Lahjoita</u></string>
     <string name="follow_us">Seuraa</string>

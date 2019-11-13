@@ -141,6 +141,7 @@
     <string name="altitude">Altitud</string>
     <string name="background_color">Color del fondo</string>
     <string name="text_color">Color del texto</string>
+    <string name="primary_color">Color principal</string>
     <string name="foreground_color">Color de primer plano</string>
     <string name="app_icon_color">Color del icono de la aplicación</string>
     <string name="bottom_navigation_bar_color">Color de la barra de navegación inferior</string>
@@ -193,6 +194,8 @@
     <string name="extension">Extensión</string>
     <string name="random">Aleatorio</string>
     <string name="sort_randomly">Ordenar aleatoriamente</string>
+    <string name="ascending">Ascendente</string>
+    <string name="descending">Descendente</string>
     <string name="use_for_this_folder">Sólo para esta carpeta</string>
     <string name="proceed_with_deletion">¿Está seguro de querer continuar con la eliminación?</string>
     <string name="deletion_confirmation">Estas seguro que quieres borrar %s?</string>
@@ -478,6 +481,7 @@
     <string name="additional_info">Información adicional</string>
     <string name="app_version">Versión de la aplicación: %s</string>
     <string name="device_os">SO del dispositivo: %s</string>
+    <string name="purchase">Comprar</string>
     <string name="update_thank_you">Por favor, actualice Simple Tank You a la última versión</string>
     <string name="read_it">Leer</string>
     <string name="frequently_asked_questions">Preguntas frecuentes</string>

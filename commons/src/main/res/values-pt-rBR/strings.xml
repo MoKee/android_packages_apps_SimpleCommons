@@ -56,8 +56,9 @@
     <string name="source_file_doesnt_exist">Arquivo de origem %s não existe</string>
     <string name="prepend_filenames">Prefira nomes de arquivos</string>
     <string name="append_filenames">Anexar nomes de arquivos</string>
+    <string name="simple_renaming">Renomeação simples</string>
     <string name="pattern_renaming">Padrão</string>
-    <string name="rename_date_time_pattern">%Y - ano\n%M - mês\n%D - dia\n%h - hora\n%m - minuto\n%s - segundo</string>
+    <string name="string_to_add">String para adicionar</string>
     <string name="copy">Copiar</string>
     <string name="move">Mover</string>
     <string name="copy_move">Copiar/mover para</string>
@@ -83,6 +84,7 @@
     <string name="could_not_create_folder">Não foi possível criar pasta %s</string>
     <string name="could_not_create_file">Não foi possível criar arquivo %s</string>
     <string name="no_new_items">Nenhum item novo foi encontrado</string>
+    <string name="no_space">O destino não tem espaço suficiente disponível.\nNecessário %1$s, disponível %2$s</string>
     <string name="create_new">Criar</string>
     <string name="folder">Pasta</string>
     <string name="file">Arquivo</string>
@@ -103,6 +105,7 @@
     <string name="select_folder">Selecionar pasta</string>
     <string name="select_file">Selecionar arquivo</string>
     <string name="confirm_storage_access_title">Confirmação de acesso ao armazenamento externo</string>
+    <string name="confirm_storage_access_text">Por favor escolha a pasta raiz do cartão SD no próximo passo para conceder acesso de escrita</string>
     <string name="confirm_storage_access_text_sd">Se você não encontrar o cartão SD, tente isto</string>
     <string name="confirm_selection">Confirmar seleção</string>
     <plurals name="items">
@@ -441,6 +444,7 @@
     <string name="no_entries_for_exporting">Não foram encontramos ítens para exportar</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Você parece ter um dispositivo USB anexado ao seu dispositivo. Para garantir que seus arquivos apareçam corretamente, conceda permissões adicionais.</string>
+    <string name="confirm_usb_storage_access_text">Por favor, escolha a pasta raiz do dispositivo USB na próxima tela, para conceder acesso</string>
     <string name="wrong_root_selected_usb">Pasta errada selecionada, selecione a pasta raiz do seu dispositivo USB</string>
     <string name="january">janeiro</string>
     <string name="february">fevereiro</string>
@@ -487,6 +491,8 @@
     <string name="friday_short">Sex</string>
     <string name="saturday_short">Sáb</string>
     <string name="sunday_short">Dom</string>
+    <string name="upgrade_to_pro_long">Sua versão do aplicativo não será mais atualizada. Por favor, atualize para a versão Pro para receber novas correções e outras melhorias.</string>
+    <string name="upgrade_to_pro_long_click">Sua versão do aplicativo não será mais atualizada. Por favor, atualize para a versão Pro para receber novas correções e outras melhorias, clicando aqui.</string>
     <string name="it_is_free">É gratuito até: %s. Se você baixá-lo até lá, você será capaz de usá-lo de graça para sempre.</string>
     <string name="more_info">Mais informações</string>
     <string name="upgrade">Atualizar</string>
@@ -512,9 +518,10 @@
     <string name="purchase">Comprar</string>
     <string name="update_thank_you">Por favor, atualize o Simple Thank You para a versão mais recente</string>
     <string name="before_asking_question_read_faq">Antes de fazer uma pergunta, verifique as configurações do aplicativo e leia as Perguntas frequentes primeiro. Talvez a solução esteja lá.</string>
+    <string name="make_sure_latest">Certifique-se também de que você está usando a versão mais recente do aplicativo.</string>
     <string name="read_it">Ler</string>
     <string name="rate_us_prompt">Olá,\n\nparece que você já está usando este aplicativo já há algum tempo e nós realmente apreciamos isso.\n\nSe pudermos pedir um favor, avalie-nos no Google Play. Isso realmente nos ajudaria muito.\n\nNão importa como você decida, você não verá essa mensagem novamente.\n\nObrigado!</string>
-    <string name="sideloaded_app">            Parece que sua versão do aplicativo está corrompida. Por favor, baixe a versão original &lt;a href="%s"&gt;aqui&lt;/a&gt;.
+    <string name="sideloaded_app">            Parece que sua versão do aplicativo está corrompida. Por favor, baixe a versão original &lt;a href=\"%s\"&gt;aqui&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Perguntas frequentes</string>
     <string name="before_asking_question">Antes de fazer uma pergunta, leia primeiro a</string>
@@ -532,6 +539,12 @@
     <string name="faq_6_title_commons">O ícone do launcher do app desapareceu. O que posso fazer?</string>
     <string name="faq_6_text_commons">É causada por seu lançador não oferecer suporte a personalização do ícone corretamente. Tente lançar o app via Google Play ou algum widget, se disponível.
         uma vez lançado, defina o ícone padrão laranja #F57C00. Você pode ter que reinstalar o app na pior das hipóteses.</string>
+    <string name="faq_7_title_commons">O dinheiro foi deduzido da minha conta bancária, mas eu não posso baixar o aplicativo. O que posso fazer?</string>
+    <string name="faq_7_text_commons">Os pagamentos são totalmente geridos pelo Google, seus sistemas brilham de vez em quando. Limpe seu cache do Google Play e reinicie seu dispositivo e, em seguida, tente fazer o download novamente.</string>
+    <string name="faq_8_title_commons">Por que devo atualizar para a versão Pro?</string>
+    <string name="faq_8_text_commons">Como a versão do seu aplicativo não é mais atualizada, os erros que você talvez tenha avistado nunca serão corrigidos. Também não haverá novas funções adicionadas. Você pode comprar a versão Pro no Google Play por uma pequena soma de dinheiro.
+        É uma vez pagamento, isto significa que quando você comprá-lo, você nunca terá de pagar novamente. Não mesmo depois de receber um novo dispositivo. Se você não gosta da versão Pro, você pode desinstalá-la dentro de algumas horas e você receberá automaticamente seu dinheiro de volta.
+        Se você quer um reembolso a qualquer momento mais tarde, basta entrar em contato conosco em hello@simplemobiletools. e você o receberá.</string>
     <string name="notice">Este aplicativo usa as seguintes bibliotecas de terceiros para facilitar a minha vida. Obrigado.</string>
     <string name="third_party_licences">Licenças de terceiros</string>
     <string name="kotlin_title">Kotlin (linguagem de programação)</string>

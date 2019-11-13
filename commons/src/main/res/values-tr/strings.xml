@@ -59,7 +59,7 @@
     <string name="simple_renaming">Basit yeniden adlandırma</string>
     <string name="pattern_renaming">Desen</string>
     <string name="string_to_add">Eklenecek dize</string>
-    <string name="rename_date_time_pattern">%Y - yıl\n%M - ay\n%D - gün\n%h - saat\n%m - dakika\n%s - saniye</string>
+    <string name="rename_date_time_pattern">%Y - Yıl \n%M - Ay \n%D - Gün \n%h - Saat \n%m - Dakika \n%s - saniye \n%i - 1den daha fazla sayı</string>
     <string name="copy">Kopyala</string>
     <string name="move">Taşı</string>
     <string name="copy_move">Kopyala / Taşı</string>
@@ -543,6 +543,9 @@
     <string name="faq_7_title_commons">Para banka hesabımdan düşüldü, ancak uygulamayı indiremiyorum. Ne yapabilirim?</string>
     <string name="faq_7_text_commons">Ödemeler google tarafından tam olarak gerçekleştirilir, sistem zaman zaman artar. Google play uygulama önbelleğinizi temizleyin ve cihazınızı yeniden başlatın, ardından indirmeyi tekrar deneyin.</string>
     <string name="faq_8_title_commons">Neden Pro sürümüne yükseltmeliyim?</string>
+    <string name="faq_8_text_commons">Uygulama sürümünüz artık güncellenmediğinden, tespit ettiğiniz hatalar hiçbir zaman düzeltilmez. Ayrıca yeni fonksiyonlar eklenmeyecek. Pro sürümünü Google Play\'de satın alabilirsiniz, az miktarda para için.
+        Bu tek seferlik bir ödemedir, yani bir kez satın aldığınızda bir daha asla ödeme yapmanız gerekmeyecektir. Yeni bir cihaz aldıktan sonra bile. Pro sürümünü beğenmezseniz, birkaç saat içinde kaldırabilir ve otomatik olarak paranızı geri alabilirsiniz.
+        Daha sonra herhangi bir zamanda geri ödeme yapmak istiyorsanız, hello@simplemobiletools.com adresinden bizimle iletişime geçmeniz yeterli olacaktır.</string>
     <string name="notice">Bu uygulama hayatımı kolaylaştırmak için aşağıdaki üçüncü taraf kitaplıklarını kullanır. Teşekkürler.</string>
     <string name="third_party_licences">Üçüncü taraf lisansları</string>
     <string name="kotlin_title">Kotlin (programlama dili)</string>
