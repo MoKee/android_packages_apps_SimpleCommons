@@ -56,7 +56,9 @@
     <string name="source_file_doesnt_exist">ملف المصدر %s غير موجود</string>
     <string name="prepend_filenames">اعد أسماء الملفات</string>
     <string name="append_filenames">اعد أسماء الملفات</string>
+    <string name="simple_renaming">إعادة تسمية بسيطة</string>
     <string name="pattern_renaming">النمط</string>
+    <string name="string_to_add">سلسلة للإضافة</string>
     <string name="copy">نسخ</string>
     <string name="move">نقل</string>
     <string name="copy_move">نسخ/نقل</string>
@@ -102,6 +104,7 @@
     <string name="select_folder">إختر مجلد</string>
     <string name="select_file">إختر ملف</string>
     <string name="confirm_storage_access_title">تأكيد الوصول إلى وحدة التخزين الخارجية</string>
+    <string name="confirm_storage_access_text">الرجاء اختيار المجلد الجذر لجهاز SD على الشاشة التالية، لمنح حق الوصول</string>
     <string name="confirm_storage_access_text_sd">إذا كنت لا ترى بطاقة SD، جرب هذا</string>
     <string name="confirm_selection">تأكيد الاختيار</string>
     <plurals name="items">
@@ -572,6 +575,7 @@
     <string name="no_entries_for_exporting">لم يتم العثور على إدخالات للتصدير</string>
     <string name="usb">USB</string>
     <string name="usb_detected">يبدو أنك لديك جهاز OTG ملحق بجهازك. للتأكد من ظهور الملفات به بشكل صحيح، تحتاج إلى منح أذونات إضافية.</string>
+    <string name="confirm_usb_storage_access_text">الرجاء اختيار المجلد الجذر لجهاز USB على الشاشة التالية، لمنح حق الوصول</string>
     <string name="wrong_root_selected_usb">تم اختيار مجلد خاطئ ، يرجى تحديد المجلد الجذر لجهاز OTG الخاص بك</string>
     <string name="january">كانون الثاني</string>
     <string name="february">شباط</string>
@@ -618,6 +622,8 @@
     <string name="friday_short">جمع</string>
     <string name="saturday_short">سبت</string>
     <string name="sunday_short">أحد</string>
+    <string name="upgrade_to_pro_long">لن يتم تحديث إصدار التطبيق الخاص بك بعد الآن. يرجى الترقية إلى إصدار Pro لتلقي إصلاحات جديدة وتحسينات أخرى.</string>
+    <string name="upgrade_to_pro_long_click">لن يتم تحديث إصدار التطبيق الخاص بك بعد الآن. يرجى الترقية إلى إصدار Pro لتلقي إصلاحات جديدة وتحسينات أخرى.</string>
     <string name="it_is_free">إنه مجاني حتى: %s. إذا قمت بتنزيله حتى ذلك الحين ، فستتمكن من استخدامه إلى الأبد.</string>
     <string name="more_info">مزيد من المعلومات</string>
     <string name="upgrade">ترقية</string>
@@ -643,6 +649,7 @@
     <string name="purchase">الشراء</string>
     <string name="update_thank_you">يرجى تحديث Simple Thank You إلى أحدث إصدار</string>
     <string name="before_asking_question_read_faq">قبل أن تسأل سؤالاً، الرجاء قراءة \"الأسئلة المتداولة\" أولاً، ربما الحل هناك.</string>
+    <string name="make_sure_latest">تأكد أيضًا من أنك تستخدم أحدث إصدار من التطبيق.</string>
     <string name="read_it">اقرأها</string>
     <string name="rate_us_prompt">مرحباً،\n\nيبدو أنك تستخدم هذا التطبيق لفترة طويلة بالفعل، ونحن نقدر ذلك حقاً.\n\nإذا كان يمكن أن نطلب منكم صالح، الرجاء تقييم تطبيقنا في متجر Google. أنه حقاً سيساعدنا كثيراً.\n\nبغض النظر عن كيف تقرر ان تقيمنا، لن تشاهد هذه الرسالة مرة أخرى.\n\nشكراً!</string>
     <string name="sideloaded_app">            يبدو أن إصدار التطبيق الخاص بك تالف. الرجاء تحميل النسخة الأصلية <a href="%s">هنا</a>.
@@ -664,6 +671,10 @@
     <string name="faq_6_title_commons">اختفى رمز تطبيق المشغل. ماذا بإمكاني أن أفعل؟</string>
     <string name="faq_6_text_commons">يحدث ذلك بسبب عدم دعم المشغل الخاص بك لتخصيص الرمز بشكل صحيح. جرب تشغيل التطبيق عبر Google Play أو بعض الأدوات ، إذا كان متاحاً.
         بمجرد التشغيل ، فقط أعد الرمز البرتقالي الافتراضي #F57C00. قد تضطر إلى إعادة تثبيت التطبيق في أسوأ الحالات.</string>
+    <string name="faq_7_title_commons">تم خصم الأموال من حسابي المصرفي ، لكن لا يمكنني تنزيل التطبيق. ماذا يمكنني أن أفعل؟</string>
+    <string name="faq_7_text_commons">تتم معالجة المدفوعات بالكامل بواسطة Google ، حيث تتعطل نظامها من وقت لآخر. كل ما عليك هو مسح ذاكرة التخزين المؤقت للتطبيق في Google Play وإعادة تشغيل جهازك ، ثم أعد محاولة تنزيله.</string>
+    <string name="faq_8_title_commons">لماذا يجب علي الترقية للحساب المدفوع؟</string>
+    <string name="faq_8_text_commons">نظرًا لأن إصدار التطبيق الخاص بك لم يعد محدثًا ، فلن يتم إصلاح الأخطاء التي رصدتها.  لن يكون هناك أيضا وظائف جديدة المضافة.  يمكنك شراء الإصدار Pro على Google Play مقابل مبلغ صغير من المال.  إنه دفعة لمرة واحدة ، مما يعني أنه بمجرد شرائها ، لن تضطر إلى الدفع مرة أخرى.  ليس حتى بعد الحصول على جهاز جديد.  إذا كنت لا ترغب في إصدار Pro ، فيمكنك إلغاء تثبيته في غضون ساعات قليلة وستحصل على أموالك تلقائيًا.  إذا كنت تريد استرداد الأموال في أي وقت لاحق ، فما عليك سوى الاتصال بنا على hello@simplemobiletools.com وستحصل عليه.</string>
     <string name="notice">يستخدم هذا التطبيق مكتبات الطرف الثالث التالية لجعل حياتي أسهل. شكرا لكم.</string>
     <string name="third_party_licences">تراخيص الطرف الثالث</string>
     <string name="kotlin_title">كوتلين (لغة برمجة)</string>

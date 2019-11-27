@@ -59,6 +59,7 @@
     <string name="simple_renaming">Simple renaming</string>
     <string name="pattern_renaming">Графический ключ</string>
     <string name="string_to_add">String to add</string>
+    <string name="rename_date_time_pattern">%Y - год\n%M - месяц\n%D - день\n%h - час\n%m - минута\n%s - секунда\n%i - число увеличивается с 1</string>
     <string name="copy">Копировать</string>
     <string name="move">Переместить</string>
     <string name="copy_move">Копировать/переместить</string>
@@ -557,6 +558,8 @@
     <string name="friday_short">Пт</string>
     <string name="saturday_short">Сб</string>
     <string name="sunday_short">Вс</string>
+    <string name="upgrade_to_pro_long">Версия вашего приложения больше не будет обновлена. Пожалуйста, обновите до версии Pro, чтобы получить новые исправления и другие улучшения.</string>
+    <string name="upgrade_to_pro_long_click">Версия вашего приложения больше не будет обновлена. Пожалуйста, обновите его до версии Pro, чтобы получить новые исправления и другие улучшения, нажав здесь.</string>
     <string name="it_is_free">Это бесплатно до: %s. Если вы загрузите версию PRO, вы сможете использовать его бесплатно навсегда.</string>
     <string name="more_info">Подробнее</string>
     <string name="upgrade">Обновить</string>
@@ -582,6 +585,7 @@
     <string name="purchase">Купить</string>
     <string name="update_thank_you">Пожалуйста, обновите \"Simple Thank You\" до последней версии.</string>
     <string name="before_asking_question_read_faq">Прежде чем задать вопрос, пожалуйста, проверьте настройки приложения и сначала ознакомьтесь с часто задаваемыми вопросами. Может быть, решение вашего вопроса есть среди них.</string>
+    <string name="make_sure_latest">Убедитесь также, что вы используете последнюю версию приложения.</string>
     <string name="read_it">Прочитать</string>
     <string name="rate_us_prompt">Привет!\n\nПохоже, вы уже давно пользуетесь этим приложением, и мы действительно ценим это.\n\nЕсли у вас есть свободная минута, пожалуйста, оцените нас в Play Маркет. Это очень поможет нам.\n\nНезависимо от того, как вы решите, вы не увидите это сообщение снова.\n\nСпасибо!</string>
     <string name="sideloaded_app">            Похоже, вы установили неверную версию приложения. Пожалуйста, скачайте оригинальную версию <a href="%s">здесь</a>.
@@ -605,6 +609,10 @@
         После запуска просто установите оранжевый значок по умолчанию #F57C00. Возможно, вам придется переустановить приложение.</string>
     <string name="faq_7_title_commons">The money has been deducted from my bank account, but I cannot download the app. What can I do?</string>
     <string name="faq_7_text_commons">Payments are fully handled by Google, their system glitches from time to time. Just clear your Google Play app cache and restart your device, then retry downloading it.</string>
+    <string name="faq_8_title_commons">Почему мне следует обновиться до Премиум версии?</string>
+    <string name="faq_8_text_commons">Поскольку версия вашего приложения больше не обновляется, ошибки, которые вы обнаружили, никогда не будут исправлены. Кроме того, новые функции не будут добавлены. Вы можете купить Pro версию на Google Play за небольшую сумму денег.
+        Это единовременный платеж, что означает, что после покупки вам никогда не придется платить снова. Даже после получения нового устройства. Если вам не понравится версия Pro, вы можете просто удалить ее в течение нескольких часов, и вы автоматически получите ваши деньги обратно.
+        Если вы хотите вернуть деньги позже, просто свяжитесь с нами по адресу hello@simplemobiletools. и вы его получите.</string>
     <string name="notice">Это приложение использует следующие библиотеки сторонних разработчиков, чтобы облегчить мой труд. Спасибо.</string>
     <string name="third_party_licences">Лицензии третьих сторон</string>
     <string name="kotlin_title">Kotlin (язык программирования)</string>
