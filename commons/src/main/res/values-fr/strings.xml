@@ -55,7 +55,11 @@
     <string name="extension_cannot_be_empty">L\'extension ne peut pas rester vide</string>
     <string name="source_file_doesnt_exist">Le fichier source %s n\'existe pas</string>
     <string name="prepend_filenames">Ajouter un préfixe aux noms de fichiers</string>
+    <string name="append_filenames">Ajouter nom de fichier</string>
+    <string name="simple_renaming">Renommage simple</string>
     <string name="pattern_renaming">Schéma</string>
+    <string name="string_to_add">Chaîne à ajouter</string>
+    <string name="rename_date_time_pattern">%Y - année\n%M - mois\n%D - jour\n%h - heure\n%m - minute\n%s - seconde\n%i - nombre croissant de 1</string>
     <string name="copy">Copier</string>
     <string name="move">Déplacer</string>
     <string name="copy_move">Copier ou déplacer</string>
@@ -80,6 +84,8 @@
     <string name="saving">Enregistrement en cours…</string>
     <string name="could_not_create_folder">Impossible de créer le dossier %s</string>
     <string name="could_not_create_file">Impossible de créer le fichier %s</string>
+    <string name="no_new_items">Aucun nouvel item n\'a été trouvé</string>
+    <string name="no_space">La destination n\'a pas assez d\'espace disponible.\nRequis %1$s, disponible %2$s</string>
     <string name="create_new">Créer un nouveau</string>
     <string name="folder">Dossier</string>
     <string name="file">Fichier</string>
@@ -100,6 +106,7 @@
     <string name="select_folder">Sélectionner un dossier</string>
     <string name="select_file">Sélectionner un fichier</string>
     <string name="confirm_storage_access_title">Confirmez l\'accès au stockage externe</string>
+    <string name="confirm_storage_access_text">Veuillez choisir le dossier supérieur de la carte SD sur l\'écran suivant, pour autoriser l\'accès en écriture</string>
     <string name="confirm_storage_access_text_sd">Si vous ne voyez pas la carte SD, essayez ceci</string>
     <string name="confirm_selection">Confirmer la sélection</string>
     <plurals name="items">
@@ -138,6 +145,8 @@
     <string name="camera">Caméra</string>
     <string name="exif">EXIF</string>
     <string name="song_title">Titre de la chanson</string>
+    <string name="gps_coordinates">Coordonnées GPS</string>
+    <string name="altitude">Altitude</string>
     <string name="background_color">Couleur d\'arrière-plan</string>
     <string name="text_color">Couleur du texte</string>
     <string name="primary_color">Couleur primaire</string>
@@ -199,6 +208,7 @@
     <string name="ascending">Croissant</string>
     <string name="descending">Décroissant</string>
     <string name="use_for_this_folder">Utiliser pour ce dossier uniquement</string>
+    <string name="sort_numeric_parts">Trier les parties numériques par valeur réelle</string>
     <string name="proceed_with_deletion">Voulez-vous vraiment effectuer la suppression ?</string>
     <string name="deletion_confirmation">Voulez-vous vraiment supprimer %s ?</string>
     <string name="move_to_recycle_bin_confirmation">Voulez-vous vraiment déplacer %s vers la corbeille ?</string>
@@ -230,6 +240,9 @@
     <string name="go_to_settings">Aller aux Paramètres</string>
     <string name="protection_setup_successfully">Mot de passe défini. Veuillez réinstaller l\'application en cas problèmes de réinitialisation.</string>
     <string name="fingerprint_setup_successfully">Protection définie. Veuillez réinstaller l\'application en cas problèmes de réinitialisation.</string>
+    <string name="lock_folder">Verrouiller le dossier</string>
+    <string name="unlock_folder">Déverrouiller le dossier</string>
+    <string name="lock_folder_notice">Cette protection ne fonctionne que dans cette application, elle n\'est pas censée remplacer un véritable cryptage de dossier à l\'échelle du système.</string>
     <string name="yesterday">Hier</string>
     <string name="today">Aujourd\'hui</string>
     <string name="tomorrow">Demain</string>
@@ -308,6 +321,18 @@
     <plurals name="days_before">
         <item quantity="one">%d jour avant</item>
         <item quantity="other">%d jours avant</item>
+    </plurals>
+    <plurals name="weeks_before">
+        <item quantity="one">%d semaine avant</item>
+        <item quantity="other">%d semaines avant</item>
+    </plurals>
+    <plurals name="months_before">
+        <item quantity="one">%d mois avant</item>
+        <item quantity="other">%d mois avant</item>
+    </plurals>
+    <plurals name="years_before">
+        <item quantity="one">%d année avant</item>
+        <item quantity="other">%d années avant</item>
     </plurals>
     <plurals name="by_seconds">
         <item quantity="one">%d seconde</item>
@@ -420,6 +445,7 @@
     <string name="no_entries_for_exporting">Aucun élément pouvant être exporté n\'a été trouvé</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Vous semblez avoir un périphérique USB connecté à votre périphérique. Pour s’assurer que ses dossiers s’affichent correctement, vous devez accorder des autorisations supplémentaires.</string>
+    <string name="confirm_usb_storage_access_text">Veuillez choisir le dossier supérieur du périphérique USB sur l\'écran suivant, pour autoriser l\'accès</string>
     <string name="wrong_root_selected_usb">Mauvais répertoire sélectionné. Veuillez sélectionner le répertoire racine du périphérique USB.</string>
     <string name="january">Janvier</string>
     <string name="february">Février</string>
@@ -466,6 +492,8 @@
     <string name="friday_short">Ven</string>
     <string name="saturday_short">Sam</string>
     <string name="sunday_short">Dim</string>
+    <string name="upgrade_to_pro_long">La version de votre application ne sera plus mise à jour. Veuillez passer à la version Pro pour recevoir de nouvelles corrections et autres améliorations.</string>
+    <string name="upgrade_to_pro_long_click">La version de votre application ne sera plus mise à jour. Veuillez passer à la version Pro pour recevoir de nouvelles corrections et autres améliorations en appuyant ici.</string>
     <string name="it_is_free">C\'est gratuit jusqu\'au : %s. Si vous la téléchargez jusque-là, vous pourrez définitivement l\'utiliser gratuitement.</string>
     <string name="more_info">Plus d\'information</string>
     <string name="upgrade">Passer à la version Pro</string>
@@ -491,7 +519,9 @@
     <string name="purchase">Acheter</string>
     <string name="update_thank_you">Veuillez mettre à jour Simple Thank You</string>
     <string name="before_asking_question_read_faq">Avant de poser une question, veuillez vérifier les paramètres de l\'application et lire d\'abord les questions fréquemment posées. Peut-être que la solution y est déjà.</string>
+    <string name="make_sure_latest">Assurez-vous également que vous utilisez la dernière version de l\'application.</string>
     <string name="read_it">Consulter</string>
+    <string name="rate_us_prompt">Bonjour,\n\nil semble que vous utilisez cette application depuis un certain temps déjà, et nous l\'apprécions vraiment.\n\nSi nous pouvons vous demander une faveur, veuillez nous noter sur Google Play. Cela nous aiderait vraiment beaucoup.\n\nPeu importe comment vous décidez, vous ne verrez plus ce message.\n\nMerci !</string>
     <string name="sideloaded_app">            La version de l\'application semble être corrompue. Téléchargez la version originale de <a href="%s">ici </a>.
         </string>
     <string name="frequently_asked_questions">Foire aux questions (FAQ)</string>
@@ -506,9 +536,16 @@
     <string name="faq_4_title_commons">Je n\'aime pas les couleurs du widget. Puis-je les changer ?</string>
     <string name="faq_4_text_commons">Oui, quand vous glissez le widget sur l\'écran d\'accueil un dialogue de configuration apparaît. Vous verrez des carrés en bas à gauche, en appuyant dessus vous pouvez choisir une nouvelle couleur. Vous pouvez aussi utiliser le curseur pour régler la transparence.</string>
     <string name="faq_5_title_commons">Puis-je restaurer les fichiers supprimés ?</string>
+    <string name="faq_5_text_commons">S\'ils ont vraiment été supprimés, vous ne pouvez pas. Cependant, il y a une corbeille activée par défaut, cela fera que les fichiers seront déplacés dans la corbeille au lieu de les supprimer.</string>
     <string name="faq_6_title_commons">L’icône du lanceur d\'application a disparu. Que puis-je faire ?</string>
     <string name="faq_6_text_commons">Avertissement : Certains lanceurs ne manipulent pas correctement la personnalisation de l\'icône d\'application. Dans le cas où l’icône disparaîtra, essayez de lancer l’application via Google Play ou certains widget, si elles sont disponibles.
         une fois lancé, juste restaurez l’icône  orange par défaut #F57C00. Au pire, vous devrez réinstaller l\'application.</string>
+    <string name="faq_7_title_commons">L\'argent a été déduit de mon compte bancaire, mais je ne peux pas télécharger l\'application. Que puis-je faire ?</string>
+    <string name="faq_7_text_commons">Les paiements sont entièrement gérés par Google, leur système a des problèmes techniques de temps à autre. Il suffit de vider le cache de l\'application Google Play et de redémarrer votre appareil, puis de réessayer de le télécharger.</string>
+    <string name="faq_8_title_commons">Pourquoi devrais je passer à la version Pro ?</string>
+    <string name="faq_8_text_commons">Comme la version de votre application n\'est plus mise à jour, les bugs que vous avez peut-être détectés ne seront jamais corrigés. Il n\'y aura pas non plus de nouvelles fonctions ajoutées. Vous pouvez acheter la version Pro sur Google Play pour une petite somme d\'argent.
+        Il s\'agit d\'un paiement unique, Ce qui signifie qu\'une fois que vous l\'aurez acheté, vous n\'aurez plus jamais à payer à nouveau. Pas même après avoir obtenu un nouvel appareil. Si vous n\'aimez pas la version Pro, vous pouvez la désinstaller en quelques heures et vous recevrez automatiquement votre argent.
+        Si vous souhaitez un remboursement à tout moment plus tard, contactez-nous à hello@simplemobiletools.com et vous l\'obtiendrez.</string>
     <string name="notice">Cette application utilise les bibliothèques tierces suivantes pour me simplifier la vie. Merci.</string>
     <string name="third_party_licences">Licences tierces</string>
     <string name="kotlin_title">Kotlin (langage de programmation)</string>
