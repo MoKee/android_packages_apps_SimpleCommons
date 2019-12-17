@@ -34,7 +34,6 @@ import java.util.regex.Pattern
 abstract class BaseSimpleActivity : AppCompatActivity() {
     var copyMoveCallback: ((destinationPath: String) -> Unit)? = null
     var actionOnPermission: ((granted: Boolean) -> Unit)? = null
-    var showCopyMoveToasts = true
     var isAskingPermissions = false
     var useDynamicTheme = true
     var checkedDocumentPath = ""
@@ -184,43 +183,51 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
         val sdOtgPattern = Pattern.compile(SD_OTG_SHORT)
 
-        if (requestCode == OPEN_DOCUMENT_TREE && resultCode == Activity.RESULT_OK && resultData != null && resultData.data != null) {
-            val isProperPartition = partition.isEmpty() || !sdOtgPattern.matcher(partition).matches() || (sdOtgPattern.matcher(partition).matches() && resultData.dataString!!.contains(partition))
-            if (isProperSDFolder(resultData.data!!) && isProperPartition) {
-                if (resultData.dataString == baseConfig.OTGTreeUri) {
-                    toast(R.string.sd_card_usb_same)
-                    return
-                }
+        if (requestCode == OPEN_DOCUMENT_TREE) {
+            if (resultCode == Activity.RESULT_OK && resultData != null && resultData.data != null) {
+                val isProperPartition = partition.isEmpty() || !sdOtgPattern.matcher(partition).matches() || (sdOtgPattern.matcher(partition).matches() && resultData.dataString!!.contains(partition))
+                if (isProperSDFolder(resultData.data!!) && isProperPartition) {
+                    if (resultData.dataString == baseConfig.OTGTreeUri) {
+                        toast(R.string.sd_card_usb_same)
+                        return
+                    }
 
-                saveTreeUri(resultData)
-                funAfterSAFPermission?.invoke(true)
-                funAfterSAFPermission = null
+                    saveTreeUri(resultData)
+                    funAfterSAFPermission?.invoke(true)
+                    funAfterSAFPermission = null
+                } else {
+                    toast(R.string.wrong_root_selected)
+                    val intent = Intent(Intent.ACTION_OPEN_DOCUMENT_TREE)
+                    startActivityForResult(intent, requestCode)
+                }
             } else {
-                toast(R.string.wrong_root_selected)
-                val intent = Intent(Intent.ACTION_OPEN_DOCUMENT_TREE)
-                startActivityForResult(intent, requestCode)
+                funAfterSAFPermission?.invoke(false)
             }
-        } else if (requestCode == OPEN_DOCUMENT_TREE_OTG && resultCode == Activity.RESULT_OK && resultData != null && resultData.data != null) {
-            val isProperPartition = partition.isEmpty() || !sdOtgPattern.matcher(partition).matches() || (sdOtgPattern.matcher(partition).matches() && resultData.dataString!!.contains(partition))
-            if (isProperOTGFolder(resultData.data!!) && isProperPartition) {
-                if (resultData.dataString == baseConfig.treeUri) {
-                    funAfterSAFPermission?.invoke(false)
-                    toast(R.string.sd_card_usb_same)
-                    return
+        } else if (requestCode == OPEN_DOCUMENT_TREE_OTG) {
+            if (resultCode == Activity.RESULT_OK && resultData != null && resultData.data != null) {
+                val isProperPartition = partition.isEmpty() || !sdOtgPattern.matcher(partition).matches() || (sdOtgPattern.matcher(partition).matches() && resultData.dataString!!.contains(partition))
+                if (isProperOTGFolder(resultData.data!!) && isProperPartition) {
+                    if (resultData.dataString == baseConfig.treeUri) {
+                        funAfterSAFPermission?.invoke(false)
+                        toast(R.string.sd_card_usb_same)
+                        return
+                    }
+                    baseConfig.OTGTreeUri = resultData.dataString!!
+                    baseConfig.OTGPartition = baseConfig.OTGTreeUri.removeSuffix("%3A").substringAfterLast('/').trimEnd('/')
+                    updateOTGPathFromPartition()
+
+                    val takeFlags = Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_GRANT_WRITE_URI_PERMISSION
+                    applicationContext.contentResolver.takePersistableUriPermission(resultData.data!!, takeFlags)
+
+                    funAfterSAFPermission?.invoke(true)
+                    funAfterSAFPermission = null
+                } else {
+                    toast(R.string.wrong_root_selected_usb)
+                    val intent = Intent(Intent.ACTION_OPEN_DOCUMENT_TREE)
+                    startActivityForResult(intent, requestCode)
                 }
-                baseConfig.OTGTreeUri = resultData.dataString!!
-                baseConfig.OTGPartition = baseConfig.OTGTreeUri.removeSuffix("%3A").substringAfterLast('/').trimEnd('/')
-                updateOTGPathFromPartition()
-
-                val takeFlags = Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_GRANT_WRITE_URI_PERMISSION
-                applicationContext.contentResolver.takePersistableUriPermission(resultData.data!!, takeFlags)
-
-                funAfterSAFPermission?.invoke(true)
-                funAfterSAFPermission = null
             } else {
-                toast(R.string.wrong_root_selected_usb)
-                val intent = Intent(Intent.ACTION_OPEN_DOCUMENT_TREE)
-                startActivityForResult(intent, requestCode)
+                funAfterSAFPermission?.invoke(false)
             }
         }
     }
@@ -264,6 +271,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
     }
 
+    // synchronous return value determines only if we are showing the SAF dialog, callback result tells if the SD or OTG permission has been granted
     fun handleSAFDialog(path: String, callback: (success: Boolean) -> Unit): Boolean {
         return if (!packageName.startsWith("com.simplemobiletools")
                 && !packageName.equals("com.android.calendar")) {
@@ -301,7 +309,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun copyMoveFilesTo(fileDirItems: ArrayList<FileDirItem>, source: String, destination: String, isCopyOperation: Boolean, copyPhotoVideoOnly: Boolean,
-                        copyHidden: Boolean, showToasts: Boolean, forceCopyMoveTask: Boolean, callback: (destinationPath: String) -> Unit) {
+                        copyHidden: Boolean, callback: (destinationPath: String) -> Unit) {
         if (source == destination) {
             toast(R.string.source_and_destination_same)
             return
@@ -313,15 +321,21 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
 
         handleSAFDialog(destination) {
-            showCopyMoveToasts = showToasts
+            if (!it) {
+                copyMoveListener.copyFailed()
+                return@handleSAFDialog
+            }
+
             copyMoveCallback = callback
             var fileCountToCopy = fileDirItems.size
-            if (isCopyOperation || forceCopyMoveTask) {
-                startCopyMove(fileDirItems, destination, isCopyOperation, copyPhotoVideoOnly, copyHidden, showToasts)
+            if (isCopyOperation) {
+                startCopyMove(fileDirItems, destination, isCopyOperation, copyPhotoVideoOnly, copyHidden)
             } else {
                 if (isPathOnOTG(source) || isPathOnOTG(destination) || isPathOnSD(source) || isPathOnSD(destination) || fileDirItems.first().isDirectory) {
                     handleSAFDialog(source) {
-                        startCopyMove(fileDirItems, destination, isCopyOperation, copyPhotoVideoOnly, copyHidden, showToasts)
+                        if (it) {
+                            startCopyMove(fileDirItems, destination, isCopyOperation, copyPhotoVideoOnly, copyHidden)
+                        }
                     }
                 } else {
                     try {
@@ -377,16 +391,12 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         return newFile
     }
 
-    private fun startCopyMove(files: ArrayList<FileDirItem>, destinationPath: String, isCopyOperation: Boolean, copyPhotoVideoOnly: Boolean, copyHidden: Boolean,
-                              showToasts: Boolean) {
+    private fun startCopyMove(files: ArrayList<FileDirItem>, destinationPath: String, isCopyOperation: Boolean, copyPhotoVideoOnly: Boolean, copyHidden: Boolean) {
         val availableSpace = destinationPath.getAvailableStorageB()
         val sumToCopy = files.sumByLong { it.getProperSize(applicationContext, copyHidden) }
         if (availableSpace == -1L || sumToCopy < availableSpace) {
             checkConflicts(files, destinationPath, 0, LinkedHashMap()) {
-                if (showToasts) {
-                    toast(if (isCopyOperation) R.string.copying else R.string.moving)
-                }
-
+                toast(if (isCopyOperation) R.string.copying else R.string.moving)
                 val pair = Pair(files, destinationPath)
                 CopyMoveTask(this, isCopyOperation, copyPhotoVideoOnly, it, copyMoveListener, copyHidden).execute(pair)
             }
@@ -458,12 +468,10 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     val copyMoveListener = object : CopyMoveListener {
         override fun copySucceeded(copyOnly: Boolean, copiedAll: Boolean, destinationPath: String) {
-            if (showCopyMoveToasts) {
-                if (copyOnly) {
-                    toast(if (copiedAll) R.string.copying_success else R.string.copying_success_partial)
-                } else {
-                    toast(if (copiedAll) R.string.moving_success else R.string.moving_success_partial)
-                }
+            if (copyOnly) {
+                toast(if (copiedAll) R.string.copying_success else R.string.copying_success_partial)
+            } else {
+                toast(if (copiedAll) R.string.moving_success else R.string.moving_success_partial)
             }
 
             copyMoveCallback?.invoke(destinationPath)
@@ -471,10 +479,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
 
         override fun copyFailed() {
-            if (showCopyMoveToasts) {
-                toast(R.string.copy_move_failed)
-            }
-
+            toast(R.string.copy_move_failed)
             copyMoveCallback = null
         }
     }

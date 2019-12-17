@@ -393,6 +393,10 @@ fun BaseSimpleActivity.deleteFoldersBg(folders: ArrayList<FileDirItem>, deleteMe
     }
 
     handleSAFDialog(needPermissionForPath) {
+        if (!it) {
+            return@handleSAFDialog
+        }
+
         folders.forEachIndexed { index, folder ->
             deleteFolderBg(folder, deleteMediaOnly) {
                 if (it)
@@ -455,6 +459,10 @@ fun BaseSimpleActivity.deleteFilesBg(files: ArrayList<FileDirItem>, allowDeleteF
 
     var wasSuccess = false
     handleSAFDialog(files[0].path) {
+        if (!it) {
+            return@handleSAFDialog
+        }
+
         files.forEachIndexed { index, file ->
             deleteFileBg(file, allowDeleteFolder) {
                 if (it) {
@@ -499,7 +507,9 @@ fun BaseSimpleActivity.deleteFileBg(fileDirItem: FileDirItem, allowDeleteFolder:
         if (!fileDeleted) {
             if (needsStupidWritePermissions(path)) {
                 handleSAFDialog(path) {
-                    trySAFFileDelete(fileDirItem, allowDeleteFolder, callback)
+                    if (it) {
+                        trySAFFileDelete(fileDirItem, allowDeleteFolder, callback)
+                    }
                 }
             }
         }
@@ -540,6 +550,10 @@ fun Activity.rescanPaths(paths: ArrayList<String>, callback: (() -> Unit)? = nul
 fun BaseSimpleActivity.renameFile(oldPath: String, newPath: String, callback: ((success: Boolean) -> Unit)? = null) {
     if (needsStupidWritePermissions(newPath)) {
         handleSAFDialog(newPath) {
+            if (!it) {
+                return@handleSAFDialog
+            }
+
             val document = getSomeDocumentFile(oldPath)
             if (document == null || (File(oldPath).isDirectory != document.isDirectory)) {
                 runOnUiThread {
@@ -619,6 +633,10 @@ fun Activity.hideKeyboard(view: View) {
 fun BaseSimpleActivity.getFileOutputStream(fileDirItem: FileDirItem, allowCreatingNewFile: Boolean = false, callback: (outputStream: OutputStream?) -> Unit) {
     if (needsStupidWritePermissions(fileDirItem.path)) {
         handleSAFDialog(fileDirItem.path) {
+            if (!it) {
+                return@handleSAFDialog
+            }
+
             var document = getDocumentFile(fileDirItem.path)
             if (document == null && allowCreatingNewFile) {
                 document = getDocumentFile(fileDirItem.getParentPath())
