@@ -303,7 +303,7 @@ fun Activity.openPathIntent(path: String, forceChooser: Boolean, applicationId: 
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
 
             if (applicationId == "com.simplemobiletools.gallery.pro" || applicationId == "com.simplemobiletools.gallery.pro.debug"
-                    || applicationId == "com.simplemobiletools.gallery.mokee") {
+                    || applicationId == "com.simplemobiletools.gallery.mokee" || applicationId == "com.mokee.gallery") {
                 putExtra(IS_FROM_GALLERY, true)
             }
 
