@@ -24,22 +24,12 @@ import java.util.regex.Pattern
 // http://stackoverflow.com/a/40582634/1967672
 fun Context.getSDCardPath(): String {
     val directories = getStorageDirectories().filter {
-        it != getInternalStoragePath() && (baseConfig.OTGPartition.isEmpty() || !it.endsWith(baseConfig.OTGPartition))
+        !it.equals(getInternalStoragePath()) && !it.equals("/storage/emulated/0", true) && (baseConfig.OTGPartition.isEmpty() || !it.endsWith(baseConfig.OTGPartition))
     }
 
     val fullSDpattern = Pattern.compile(SD_OTG_PATTERN)
     var sdCardPath = directories.firstOrNull { fullSDpattern.matcher(it).matches() }
             ?: directories.firstOrNull { !physicalPaths.contains(it.toLowerCase()) } ?: ""
-
-    // on some devices no method retrieved any SD card path, so test if its not sdcard1 by any chance. It happened on an Android 5.1
-    if (sdCardPath.trimEnd('/').isEmpty()) {
-        val file = File("/storage/sdcard1")
-        if (file.exists()) {
-            return file.absolutePath
-        }
-
-        sdCardPath = directories.firstOrNull() ?: ""
-    }
 
     if (sdCardPath.isEmpty()) {
         val SDpattern = Pattern.compile(SD_OTG_SHORT)
@@ -130,13 +120,16 @@ fun Context.humanizePath(path: String): String {
     }
 }
 
-fun Context.getInternalStoragePath() = Environment.getExternalStorageDirectory().absolutePath.trimEnd('/')
+fun Context.getInternalStoragePath() = if (File("/storage/emulated/0").exists()) "/storage/emulated/0" else Environment.getExternalStorageDirectory().absolutePath.trimEnd('/')
 
 fun Context.isPathOnSD(path: String) = sdCardPath.isNotEmpty() && path.startsWith(sdCardPath)
 
 fun Context.isPathOnOTG(path: String) = otgPath.isNotEmpty() && path.startsWith(otgPath)
 
-fun Context.needsStupidWritePermissions(path: String) = isPathOnSD(path) || isPathOnOTG(path)
+// no need to use DocumentFile if an SD card is set as the default storage
+fun Context.needsStupidWritePermissions(path: String) = (isPathOnSD(path) || isPathOnOTG(path)) && !isSDCardSetAsDefaultStorage()
+
+fun Context.isSDCardSetAsDefaultStorage() = sdCardPath.isNotEmpty() && Environment.getExternalStorageDirectory().absolutePath.equals(sdCardPath, true)
 
 fun Context.hasProperStoredTreeUri(isOTG: Boolean): Boolean {
     val uri = if (isOTG) baseConfig.OTGTreeUri else baseConfig.treeUri
@@ -295,7 +288,7 @@ fun Context.getFileUri(path: String) = when {
 
 // these functions update the mediastore instantly, MediaScannerConnection.scanFileRecursively takes some time to really get applied
 fun Context.deleteFromMediaStore(path: String) {
-    if (getDoesFilePathExist(path) || getIsPathDirectory(path)) {
+    if (getIsPathDirectory(path)) {
         return
     }
 
