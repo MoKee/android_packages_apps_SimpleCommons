@@ -205,6 +205,7 @@
     <string name="do_not_ask_again">No volver a preguntar en esta sesión</string>
     <string name="yes">Sí</string>
     <string name="no">no</string>
+    <string name="maybe">Quizás</string>
     <plurals name="delete_warning">
         <item quantity="one">ADVERTENCIA: está eliminando %d carpeta</item>
         <item quantity="other">ADVERTENCIA: está eliminando %d carpetas</item>
@@ -500,5 +501,6 @@
     <string name="notice">Esta aplicación usa las siguientes bibliotecas de terceros que hacen mi vida más fácil. Gracias.</string>
     <string name="third_party_licences">Licencias de terceros</string>
     <string name="kotlin_title">Kotlin (Programming language)</string>
+    <string name="espresso_title">Espresso (ayudante de pruebas)</string>
     <string name="number_picker_title">Selector de número (selector de número personalizable)</string>
 </resources>
