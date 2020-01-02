@@ -59,6 +59,7 @@
     <string name="simple_renaming">Renomeação simples</string>
     <string name="pattern_renaming">Padrão</string>
     <string name="string_to_add">String para adicionar</string>
+    <string name="rename_date_time_pattern">%D - dia\n%M - mês\n%Y - ano\n%h - hora\n%m - minuto\n%s - segundo\n%i - número aumentando a partir de 1</string>
     <string name="copy">Copiar</string>
     <string name="move">Mover</string>
     <string name="copy_move">Copiar/mover para</string>

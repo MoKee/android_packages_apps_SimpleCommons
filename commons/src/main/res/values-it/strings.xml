@@ -59,6 +59,7 @@
     <string name="simple_renaming">Rinomina semplice</string>
     <string name="pattern_renaming">Sequenza</string>
     <string name="string_to_add">Stringa da aggiungere</string>
+    <string name="rename_date_time_pattern">%Y - anno\n%M - mese\n%D - giorno\n%h - ora\n%m - minuto\n%s - secondo\n%i - numero a partire da 1</string>
     <string name="copy">Copia</string>
     <string name="move">Sposta</string>
     <string name="copy_move">Copia / Sposta</string>
@@ -490,6 +491,8 @@
     <string name="friday_short">Ven</string>
     <string name="saturday_short">Sab</string>
     <string name="sunday_short">Dom</string>
+    <string name="upgrade_to_pro_long">La tua versione dell\'app non verrà più aggiornata. Aggiorna alla versione Pro per ricevere nuove correzioni e altri miglioramenti.</string>
+    <string name="upgrade_to_pro_long_click">La tua versione dell\'app non verrà più aggiornata. Aggiorna alla versione Pro per ricevere nuove correzioni e altri miglioramenti cliccando qui.</string>
     <string name="it_is_free">È gratuita fino a: %s. Se la scarichi entro quella data, essa sarà gratuita per sempre.</string>
     <string name="more_info">Maggiori informazioni</string>
     <string name="upgrade">Aggiorna</string>
@@ -515,6 +518,7 @@
     <string name="purchase">Acquista</string>
     <string name="update_thank_you">Per favore aggiorna Simple Thank You all\'ultima versione</string>
     <string name="before_asking_question_read_faq">Prima di fare una domanda, controlla le impostazioni dell\'app e leggi prima le Domande Frequenti. Forse la soluzione è lì.</string>
+    <string name="make_sure_latest">Assicurati anche di utilizzare l\'ultima versione dell\'app.</string>
     <string name="read_it">Leggile</string>
     <string name="rate_us_prompt">Ciao,\n\nSembra che tu stia usando questa app per un po\' di tempo, e lo apprezziamo molto.\n\nSe possiamo chiederti un favore, votaci su Google Play. Questo ci aiuterebbe davvero molto.\n\nNon importa come decidi, non vedrai più questo messaggio.\n\nGrazie!</string>
     <string name="sideloaded_app">            La versione dell\'app sembra essere corrotta. Si prega di scaricare<a href="%s">qui</a>.Versione originale
@@ -537,6 +541,10 @@
     <string name="faq_6_text_commons">Il tuo launcher non supporta la personalizzazione delle icone. Prova ad avviare l\'app dal Google Play o da un widget, se possibile. Una volta avviata imposta nuovamente l\'icona arancione predefinita #F57C00. Nel peggiore dei casi dovrai reinstallare l\'app.</string>
     <string name="faq_7_title_commons">Il denaro è stato detratto dal mio conto bancario, ma non riesco a scaricare l\'app. Cosa posso fare?</string>
     <string name="faq_7_text_commons">I pagamenti sono completamente gestiti da Google, i loro difetti di sistema di volta in volta. Basta cancellare la cache dell\'app Google Play e riavviare il dispositivo, quindi riprovare a scaricarlo.</string>
+    <string name="faq_8_title_commons">Perché dovrei aggiornare alla versione Pro?</string>
+    <string name="faq_8_text_commons">Poiché la versione della tua app non è più aggiornata, i bug che potresti aver notato non verranno mai risolti. Non verranno neanche aggiunte nuove funzioni. Puoi acquistare la versione Pro su Google Play per una piccola somma di denaro.
+        È un pagamento una tantum, ciò significa che una volta acquistato, non dovrai più pagare. Nemmeno dopo il passaggio a un nuovo dispositivo. Se non ti piace la versione Pro, puoi semplicemente disinstallarla entro qualche ora e riceverai automaticamente il denaro.
+        Se desideri un rimborso in qualsiasi momento, contattaci a hello@simplemobiletool. om e potrai richiederlo.</string>
     <string name="notice">Questa app usa le seguenti librerie di terze parti per semplificarmi la vita. Grazie.</string>
     <string name="third_party_licences">Licenze di terze parti</string>
     <string name="kotlin_title">Kotlin (linguaggio di programmazione)</string>

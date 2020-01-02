@@ -160,6 +160,7 @@
     <string name="share_colors_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Shared\', Por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Oscuro</string>
+    <string name="solarized">Solarizar</string>
     <string name="dark_red">Rojo Oscuro</string>
     <string name="black_white">Blanco &amp; Negro</string>
     <string name="custom">Personalizado</string>
@@ -498,6 +499,7 @@
     <string name="faq_4_title_commons">No me gustan los colores del widget, ¿puedo cambiarlos?</string>
     <string name="faq_4_text_commons">Sí, al arrastrar un widget en la pantalla de inicio aparece una pantalla de configuración de widgets. Verá cuadrados de colores en la esquina inferior izquierda, solo presione para elegir un nuevo color. Puede usar el control deslizante para ajustar el alfa también.</string>
     <string name="faq_5_title_commons">¿Puedo de alguna manera restaurar archivos borrados?</string>
+    <string name="faq_6_title_commons">El icono del lanzador de aplicaciones ha desaparecido. ¿Qué puedo hacer?</string>
     <string name="notice">Esta aplicación usa las siguientes bibliotecas de terceros que hacen mi vida más fácil. Gracias.</string>
     <string name="third_party_licences">Licencias de terceros</string>
     <string name="kotlin_title">Kotlin (Programming language)</string>
