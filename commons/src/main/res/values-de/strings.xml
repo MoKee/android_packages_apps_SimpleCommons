@@ -55,7 +55,11 @@
     <string name="extension_cannot_be_empty">Dateiendung darf nicht leer sein</string>
     <string name="source_file_doesnt_exist">Quelldatei %s existiert nicht</string>
     <string name="prepend_filenames">Dateinamen voranstellen</string>
+    <string name="append_filenames">Dateinamen voranstellen</string>
+    <string name="simple_renaming">Einfaches Umbenennen</string>
     <string name="pattern_renaming">Muster</string>
+    <string name="string_to_add">Zeichenkette hinzufügen</string>
+    <string name="rename_date_time_pattern">%Y - Jahr\n%M - Monat\n%D - Tag\n%h - Stunde\n%m - Minute\n%s - Sekunde\n%i - Anzahl erhöht von 1</string>
     <string name="copy">Kopieren</string>
     <string name="move">Verschieben</string>
     <string name="copy_move">Kopieren / Verschieben</string>
@@ -80,6 +84,8 @@
     <string name="saving">Speichern…</string>
     <string name="could_not_create_folder">Ordner %s konnte nicht erstellt werden</string>
     <string name="could_not_create_file">Datei %s konnte nicht erstellt werden</string>
+    <string name="no_new_items">Es wurden keine neuen Artikel gefunden</string>
+    <string name="no_space">Das Ziel hat nicht genügend Platz zur Verfügung.\nBenötigt %1$s, verfügbar %2$s</string>
     <string name="create_new">Neuer Ordner</string>
     <string name="folder">Ordner</string>
     <string name="file">Datei</string>
@@ -100,6 +106,7 @@
     <string name="select_folder">Ordner auswählen</string>
     <string name="select_file">Datei auswählen</string>
     <string name="confirm_storage_access_title">Bitte Zugriff auf externen Speicher bestätigen</string>
+    <string name="confirm_storage_access_text">Bitte am nächsten Bildschirm das Hauptverzeichnis deiner SD-Karte auswählen, um Schreibzugriff zu erlauben</string>
     <string name="confirm_storage_access_text_sd">Wenn die SD-Karte nicht angezeigt wird, versuche das</string>
     <string name="confirm_selection">Auswahl bestätigen</string>
     <plurals name="items">
@@ -138,6 +145,8 @@
     <string name="camera">Kamera</string>
     <string name="exif">EXIF</string>
     <string name="song_title">Liedtitel</string>
+    <string name="gps_coordinates">GPS-Koordinaten</string>
+    <string name="altitude">Höhe</string>
     <string name="background_color">Hintergrundfarbe</string>
     <string name="text_color">Schriftfarbe</string>
     <string name="primary_color">Primäre Farbe</string>
@@ -183,6 +192,8 @@
     <string name="empty_and_disable_recycle_bin">Papierkorb leeren und deaktivieren</string>
     <string name="undo">Rückgängig</string>
     <string name="redo">Wiederholen</string>
+    <string name="print">Drucken</string>
+    <string name="create_shortcut">Verknüpfung erstellen</string>
     <string name="sort_by">Sortieren nach</string>
     <string name="name">Name: </string>
     <string name="size">Größe</string>
@@ -196,6 +207,7 @@
     <string name="ascending">Aufsteigend</string>
     <string name="descending">Absteigend</string>
     <string name="use_for_this_folder">Nur auf diesen Ordner anwenden</string>
+    <string name="sort_numeric_parts">Numerische Teile nach aktuellem Wert sortieren</string>
     <string name="proceed_with_deletion">Willst du mit dem Löschen fortfahren?</string>
     <string name="deletion_confirmation">Sollen %s wirklich gelöscht werden?</string>
     <string name="move_to_recycle_bin_confirmation">Sollen %s wirklich in den Papierkorb verschoben werden?</string>
@@ -204,6 +216,7 @@
     <string name="do_not_ask_again">Nicht erneut fragen (in dieser Sitzung)</string>
     <string name="yes">Ja</string>
     <string name="no">Nein</string>
+    <string name="maybe">Vielleicht</string>
     <plurals name="delete_warning">
         <item quantity="one">WARNUNG: %d Ordner soll gelöscht werden</item>
         <item quantity="other">WARNUNG: %d Ordner sollen gelöscht werden</item>
@@ -226,6 +239,9 @@
     <string name="go_to_settings">Einstellungen öffnen</string>
     <string name="protection_setup_successfully">Muster/PIN erfolgreich gespeichert. Falls vergessen, muss die App neu installiert werden.</string>
     <string name="fingerprint_setup_successfully">Schutz erfolgreich eingerichtet. Falls beim Zurücksetzen Probleme auftreten, bitte die App neu installieren.</string>
+    <string name="lock_folder">Ordner sperren</string>
+    <string name="unlock_folder">Ordner sperren</string>
+    <string name="lock_folder_notice">Dieser Schutz funktioniert nur in dieser App, er soll eine echte Systemweite Ordnerverschlüsselung nicht ersetzen.</string>
     <string name="yesterday">Gestern</string>
     <string name="today">Heute</string>
     <string name="tomorrow">Morgen</string>
@@ -305,6 +321,18 @@
         <item quantity="one">%d Tag vorher</item>
         <item quantity="other">%d Tage vorher</item>
     </plurals>
+    <plurals name="weeks_before">
+        <item quantity="one">%d Woche vorher</item>
+        <item quantity="other">%d Wochen vorher</item>
+    </plurals>
+    <plurals name="months_before">
+        <item quantity="one">%d Monat vorher</item>
+        <item quantity="other">%d Monate vorher</item>
+    </plurals>
+    <plurals name="years_before">
+        <item quantity="one">%d Jahr davor</item>
+        <item quantity="other">%d Jahre zuvor</item>
+    </plurals>
     <plurals name="by_seconds">
         <item quantity="one">%d Sekunde</item>
         <item quantity="other">%d Sekunden</item>
@@ -361,11 +389,13 @@
     <string name="password_protect_hidden_items">Versteckte Elemente mit Muster/PIN schützen</string>
     <string name="password_protect_whole_app">Gesamte App mit Passwort schützen</string>
     <string name="password_protect_file_deletion">Mit Passwort vor Dateilöschung und -verschiebung schützen.</string>
+    <string name="keep_last_modified">Beim Modifizieren von Dateien die alte Änderungszeit beibehalten</string>
     <string name="show_info_bubble">Beim Scrollen mit dem Scrollbalken Infofenster anzeigen</string>
     <string name="prevent_phone_from_sleeping">Verhindere, dass das Handy in den Ruhemodus wechselt, solange die App im Vordergrund läuft</string>
     <string name="skip_delete_confirmation">Verwende keinen Löschen-bestätigen-Dialog</string>
     <string name="enable_pull_to_refresh">Ermögliche \"Auffrischen\" durch Ziehen von der oberen Kante</string>
     <string name="use_24_hour_time_format">Benutze 24-Std.-Zeitformat</string>
+    <string name="change_date_and_time_format">Datums- und Uhrzeitformat ändern</string>
     <string name="sunday_first">Beginne die Woche am Sonntag</string>
     <string name="widgets">Widgets</string>
     <string name="use_same_snooze">Immer dasselbe Schlummer-Intervall nutzen</string>
@@ -375,6 +405,10 @@
     <string name="recycle_bin_cleaning_interval">Intervall zum Leeren des Papierkorbs</string>
     <string name="empty_recycle_bin">Papierkorb leeren</string>
     <string name="force_portrait_mode">Porträt-Modus erzwingen</string>
+    <string name="export_settings">Einstellungen exportieren</string>
+    <string name="import_settings">Einstellungen importieren</string>
+    <string name="settings_exported_successfully">Einstellungen wurden erfolgreich exportiert</string>
+    <string name="settings_imported_successfully">Einstellungen wurden erfolgreich importiert</string>
     <string name="visibility">Sichtbarkeit</string>
     <string name="security">Sicherheit</string>
     <string name="scrolling">Scrollen</string>
@@ -383,6 +417,7 @@
     <string name="saving_label">Speichern</string>
     <string name="startup">Beim Starten</string>
     <string name="text">Text</string>
+    <string name="migrating">Umziehen</string>
     <string name="restore_this_file">Diese Datei wiederherstellen</string>
     <string name="restore_selected_files">Markierte Dateien wiederherstellen</string>
     <string name="restore_all_files">Alle Dateien wiederherstellen</string>
@@ -391,6 +426,8 @@
     <string name="empty_recycle_bin_confirmation">Papierkorb wirklich leeren? Die Dateien sind dann unwiederbringlich gelöscht.</string>
     <string name="recycle_bin_empty">Der Papierkorb ist leer</string>
     <string name="moving_recycle_bin_items_disabled">Papierkorbelemente bewegen ist deaktivert, bitte benutze Wiederherstellen.</string>
+    <string name="show_the_recycle_bin">Papierkorb anzeigen</string>
+    <string name="hide_the_recycle_bin">Papierkorb verbergen</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">Bewege %d Objekt in den Papierkorb</item>
         <item quantity="other">Bewege %d Objekte in den Papierkorb</item>
@@ -403,9 +440,11 @@
     <string name="exporting_failed">Exportieren fehlgeschlagen</string>
     <string name="importing_some_entries_failed">Importieren einiger Einträge fehlgeschlagen</string>
     <string name="exporting_some_entries_failed">Exportieren einiger Einträge fehlgeschlagen</string>
+    <string name="no_entries_for_importing">Keine Einträge zum Exportieren gefunden</string>
     <string name="no_entries_for_exporting">Keine Einträge zum Exportieren gefunden</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Es scheint, Du hast ein USB-Gerät an Dein Gerät angeschlossen. Du musst zusätzliche Berechtigungen gewähren, um die Dateien anzuzeigen.</string>
+    <string name="confirm_usb_storage_access_text">Bitte den Basis-Ordner des USB-Geräts auf der folgenden Seite wählen, um Zugriff zu gewähren</string>
     <string name="wrong_root_selected_usb">Falscher Ordner gewählt, bitte den Basis- (Root-) Ordner des USB-Geräts wählen</string>
     <string name="january">Januar</string>
     <string name="february">Februar</string>
@@ -452,6 +491,8 @@
     <string name="friday_short">Fr</string>
     <string name="saturday_short">Sa</string>
     <string name="sunday_short">So</string>
+    <string name="upgrade_to_pro_long">Ihre App-Version wird nicht mehr aktualisiert. Bitte aktualisieren Sie auf die Pro-Version, um neue Korrekturen und andere Verbesserungen zu erhalten.</string>
+    <string name="upgrade_to_pro_long_click">Ihre App-Version wird nicht mehr aktualisiert. Bitte aktualisieren Sie auf die Pro-Version, um neue Korrekturen und andere Verbesserungen zu erhalten, indem Sie hier klicken.</string>
     <string name="it_is_free">Sie ist gratis bis: %s. Wenn Du sie bis dahin herunterlädst, darfst Du sie für immer gratis nutzen.</string>
     <string name="more_info">Mehr Infos</string>
     <string name="upgrade">Upgrade</string>
@@ -476,7 +517,12 @@
     <string name="device_os">Betriebssystem: %s</string>
     <string name="purchase">Kaufen</string>
     <string name="update_thank_you">Bitte Simple Thank You auf die neueste Version aktualisieren</string>
+    <string name="before_asking_question_read_faq">Vor einer Frage bitte die Faq (häufig gestellte Fragen) lesen, oft findet sich dort bereits die Antwort.</string>
+    <string name="make_sure_latest">Stellen Sie sicher, dass Sie die neueste App-Version verwenden.</string>
     <string name="read_it">Bitte lesen</string>
+    <string name="rate_us_prompt">Hallo,\n\nes sieht so aus, als würden Sie diese App bereits eine Weile verwenden, und wir schätzen sie sehr.\n\nWenn wir Ihnen einen Gefallen erfragen können, bewerten Sie uns bitte auf Google Play. Das würde uns wirklich sehr helfen.\n\nEgal, wie Sie sich entscheiden, Sie werden diese Nachricht nicht mehr sehen.\n\nDanke!</string>
+    <string name="sideloaded_app">            Es sieht so aus, als ob Ihre App-Version beschädigt ist. Bitte laden Sie die Originalversion &lt;a href="%s"&gt;hier herunter&lt;/a&gt;.
+        </string>
     <string name="frequently_asked_questions">Häufig gestellte Fragen</string>
     <string name="before_asking_question">Bevor du eine Frage stellst, bitte lies diese Seite:</string>
     <string name="faq_1_title_commons">Weshalb sehe ich das Widget dieser App nicht in der Liste der Widgets?</string>
@@ -489,8 +535,15 @@
     <string name="faq_4_title_commons">Ich mag die Farben des Widgets nicht. Kann ich sie wechseln?</string>
     <string name="faq_4_text_commons">Ja, wenn du ein Widget auf den Home Screen ziehst, erscheint ein Konfigurationsmenü. In der linken unteren Ecke sind farbige Kästchen, drücke auf sie und wähle eine neue Farbe. Ausserdem kannst du den Regler nutzen, um den Alphaparameter (Transparenz) einzustellen.</string>
     <string name="faq_5_title_commons">Kann ich irgendwie gelöschte Dateien wiederherstellen?</string>
+    <string name="faq_5_text_commons">Wenn sie wirklich gelöscht wurden, können Sie das nicht. Es gibt jedoch einen standardmäßig aktivierten Papierkorb, der bewirkt, dass die Dateien nur in den Papierkorb verschoben werden, anstatt sie zu löschen.</string>
     <string name="faq_6_title_commons">Das App-Launcher-Symbol ist verschwunden. Was kann ich tun?</string>
     <string name="faq_6_text_commons">Dies wird durch die fehlerhafte Unterstützung ihres Launchers für angepasste Symbole verursacht. Versuchen Sie die durch Google Play oder ein Widget zu öffnen, falls möglich.        Wenn Sie die App erneut geöffnet haben, setzen Sie einfach das orangefarbige Standardsymbol #F57C00 zurück. Eventuell müssen Sie die App im schlimmsten Fall erneut installieren.</string>
+    <string name="faq_7_title_commons">Das Geld wurde von meinem Bankkonto abgezogen, aber ich kann die App nicht herunterladen. Was kann ich tun?</string>
+    <string name="faq_7_text_commons">Zahlungen werden vollständig von Google erledigt. Leere einfach deinen Google Play App Cache und starte dein Gerät neu, dann versuche es erneut.</string>
+    <string name="faq_8_title_commons">Warum sollte ich auf Premium umsteigen?</string>
+    <string name="faq_8_text_commons">Da Ihre App-Version nicht mehr aktualisiert wird, werden die Fehler, die Sie vielleicht entdeckt haben, nie behoben. Es werden auch keine neuen Funktionen hinzugefügt. Sie können die Pro-Version bei Google Play gegen eine kleine Summe kaufen.
+        Es ist eine einmalige Zahlung, das heißt, wenn Sie es kaufen, müssen Sie nie wieder bezahlen. Nicht einmal nach dem Erhalten eines neuen Geräts. Wenn Ihnen die Pro-Version nicht gefällt, können Sie sie innerhalb weniger Stunden deinstallieren und Sie erhalten automatisch Ihr Geld zurück.
+        Wenn Sie später eine Erstattung wünschen, kontaktieren Sie uns einfach unter hello@simplemobiletools.com.</string>
     <string name="notice">Diese App nutzt die folgenden Drittanbieterbibliotheken, die mein Leben einfacher machen. Danke!</string>
     <string name="third_party_licences">Drittanbieterlizenzen</string>
     <string name="kotlin_title">Kotlin (Programmiersprache)</string>
@@ -516,4 +569,7 @@
     <string name="panorama_view_title">VR Panorama View (Panoramabilder anzeigen)</string>
     <string name="sanselan_title">Apache Sanselan (Bild-Metadaten lesen)</string>
     <string name="filters_title">Android Photo Filters (Bilder filtern)</string>
+    <string name="gesture_views_title">Gestenansichten (zoombare Bilder)</string>
+    <string name="deprecated_app">VERALTET: Diese Version der App wird nicht mehr aktualisiert, erhalten Sie die Pro-Version auf https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
+    <string name="pro_app_refund">Vergessen Sie nicht, dass Sie bei der Deinstallation einer kostenpflichtigen App innerhalb von 2 Stunden automatisch erstattet werden. Wenn Sie später eine Erstattung wünschen, kontaktieren Sie uns einfach unter hello@simplemobiletools.com</string>
 </resources>
