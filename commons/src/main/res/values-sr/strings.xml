@@ -253,95 +253,15 @@
     <string name="minutes_raw">минута</string>
     <string name="hours_raw">сати</string>
     <string name="days_raw">дани</string>
-    <plurals name="seconds">
-        <item quantity="one">%d секунду</item>
-        <item quantity="few">%d секунди</item>
-        <item quantity="other">%d секунди</item>
-    </plurals>
-    <plurals name="minutes">
-        <item quantity="one">%d минут</item>
-        <item quantity="few">%d минута</item>
-        <item quantity="other">%d минута</item>
-    </plurals>
-    <plurals name="hours">
-        <item quantity="one">%d сат</item>
-        <item quantity="few">%d сати</item>
-        <item quantity="other">%d сати</item>
-    </plurals>
-    <plurals name="days">
-        <item quantity="one">%d дан</item>
-        <item quantity="few">%d дана</item>
-        <item quantity="other">%d дана</item>
-    </plurals>
-    <plurals name="weeks">
-        <item quantity="one">%d недеља</item>
-        <item quantity="few">%d недеља</item>
-        <item quantity="other">%d недеља</item>
-    </plurals>
-    <plurals name="months">
-        <item quantity="one">%d месец</item>
-        <item quantity="few">%d месеци</item>
-        <item quantity="other">%d месеци</item>
-    </plurals>
-    <plurals name="years">
-        <item quantity="one">%d година</item>
-        <item quantity="few">%d година</item>
-        <item quantity="other">%d година</item>
-    </plurals>
-    <plurals name="in_seconds">
-        <item quantity="one">%d секунду</item>
-        <item quantity="few">%d секунди</item>
-        <item quantity="other">%d секунди</item>
-    </plurals>
-    <plurals name="in_minutes">
-        <item quantity="one">%d минут</item>
-        <item quantity="few">%d минута</item>
-        <item quantity="other">%d минута</item>
-    </plurals>
-    <plurals name="in_hours">
-        <item quantity="one">%d сат</item>
-        <item quantity="few">%d сати</item>
-        <item quantity="other">%d сати</item>
-    </plurals>
-    <plurals name="in_days">
-        <item quantity="one">%d дан</item>
-        <item quantity="few">%d дана</item>
-        <item quantity="other">%d дана</item>
-    </plurals>
     <plurals name="in_weeks">
         <item quantity="one">%d недеља</item>
         <item quantity="few">%d недеље</item>
         <item quantity="other">%d недеље</item>
     </plurals>
-    <plurals name="in_months">
-        <item quantity="one">%d месец</item>
-        <item quantity="few">%d месеци</item>
-        <item quantity="other">%d месеци</item>
-    </plurals>
-    <plurals name="in_years">
-        <item quantity="one">%d година</item>
-        <item quantity="few">%d година</item>
-        <item quantity="other">%d година</item>
-    </plurals>
-    <plurals name="seconds_before">
-        <item quantity="one">%d секунд прије</item>
-        <item quantity="few">%d секунди прије</item>
-        <item quantity="other">%d секунди прије</item>
-    </plurals>
     <plurals name="minutes_before">
         <item quantity="one">%d минут прије</item>
         <item quantity="few">%d минута прије</item>
         <item quantity="other">%d минута прије</item>
-    </plurals>
-    <plurals name="hours_before">
-        <item quantity="one">%d сат прије</item>
-        <item quantity="few">%d сати прије</item>
-        <item quantity="other">%d сати прије</item>
-    </plurals>
-    <plurals name="days_before">
-        <item quantity="one">%d дан прије</item>
-        <item quantity="few">%d дана прије</item>
-        <item quantity="other">%d дана прије</item>
     </plurals>
     <plurals name="weeks_before">
         <item quantity="one">%d недеља прије</item>
@@ -357,16 +277,6 @@
         <item quantity="one">%d година прије</item>
         <item quantity="few">%d година прије</item>
         <item quantity="other">%d година прије</item>
-    </plurals>
-    <plurals name="by_seconds">
-        <item quantity="one">%d секунду</item>
-        <item quantity="few">%d секунди</item>
-        <item quantity="other">%d секунди</item>
-    </plurals>
-    <plurals name="by_minutes">
-        <item quantity="one">%d минут</item>
-        <item quantity="few">%d минута</item>
-        <item quantity="other">%d минута</item>
     </plurals>
     <plurals name="by_hours">
         <item quantity="one">%d сат</item>

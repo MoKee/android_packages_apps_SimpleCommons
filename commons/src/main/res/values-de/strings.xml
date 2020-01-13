@@ -440,7 +440,7 @@
     <string name="exporting_failed">Exportieren fehlgeschlagen</string>
     <string name="importing_some_entries_failed">Importieren einiger Einträge fehlgeschlagen</string>
     <string name="exporting_some_entries_failed">Exportieren einiger Einträge fehlgeschlagen</string>
-    <string name="no_entries_for_importing">Keine Einträge zum Exportieren gefunden</string>
+    <string name="no_entries_for_importing">Keine Einträge zum Importieren gefunden</string>
     <string name="no_entries_for_exporting">Keine Einträge zum Exportieren gefunden</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Es scheint, Du hast ein USB-Gerät an Dein Gerät angeschlossen. Du musst zusätzliche Berechtigungen gewähren, um die Dateien anzuzeigen.</string>
@@ -517,7 +517,7 @@
     <string name="device_os">Betriebssystem: %s</string>
     <string name="purchase">Kaufen</string>
     <string name="update_thank_you">Bitte Simple Thank You auf die neueste Version aktualisieren</string>
-    <string name="before_asking_question_read_faq">Vor einer Frage bitte die Faq (häufig gestellte Fragen) lesen, oft findet sich dort bereits die Antwort.</string>
+    <string name="before_asking_question_read_faq">Vor einer Frage bitte die FAQ (häufig gestellte Fragen) lesen, oft findet sich dort bereits die Antwort.</string>
     <string name="make_sure_latest">Stellen Sie sicher, dass Sie die neueste App-Version verwenden.</string>
     <string name="read_it">Bitte lesen</string>
     <string name="rate_us_prompt">Hallo,\n\nes sieht so aus, als würden Sie diese App bereits eine Weile verwenden, und wir schätzen sie sehr.\n\nWenn wir Ihnen einen Gefallen erfragen können, bewerten Sie uns bitte auf Google Play. Das würde uns wirklich sehr helfen.\n\nEgal, wie Sie sich entscheiden, Sie werden diese Nachricht nicht mehr sehen.\n\nDanke!</string>
