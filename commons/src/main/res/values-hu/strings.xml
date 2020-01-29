@@ -519,8 +519,10 @@
     <string name="purchase">Vásárlás</string>
     <string name="update_thank_you">Kérjük, frissítse a Simple Thank You alkalmazást a legújabb verzióra</string>
     <string name="before_asking_question_read_faq">Mielőtt feltenné a kérdését, kérjük, először nézze meg a Gyakran Ismételt Kérdéseket az alkalmazás beállításaiban, lehet már ott van a megoldás.</string>
+    <string name="before_rate_read_faq">Mielőtt gyenge értékelést adna, kérjük, először nézze meg a Gyakran Ismételt Kérdéseket az alkalmazás beállításaiban, lehet már ott van a megoldás a problémájára.</string>
     <string name="make_sure_latest">Szintén legyen biztos abban, hogy az alkalmazás legfrissebb verzióját használja.</string>
     <string name="read_it">Olvassa el</string>
+    <string name="read_faq">A GYIK olvasása</string>
     <string name="rate_us_prompt">Helló,\n\núgy tűnik, hogy már régóta használja ezt az alkalmazást, ezt nagyra értékeljük.\n\nHa megtenne egy szívességet és értékelné munkánkat a Google Play áruházban, az tényleg sokat segítene nekünk.\n\nNem számít, milyen döntést hoz, ez az üzenet nem fog többé megjelenni.\n\nKöszönjük!</string>
     <string name="sideloaded_app">            Úgy tűnik, az alkalmazás verziója nem megfelelő. Kérjük, töltsön le egy eredeti verziót <a href="%s">innen</a>.
         </string>

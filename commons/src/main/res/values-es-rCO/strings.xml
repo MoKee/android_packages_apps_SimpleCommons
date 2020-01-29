@@ -157,6 +157,8 @@
     <string name="undo_changes_confirmation">¿Seguro que quiere deshacer los cambios?</string>
     <string name="save_before_closing">Tiene cambios sin aplicar. ¿Guardar antes de salir?</string>
     <string name="apply_to_all_apps">Aplicar colores a todas las aplicaciones Simple Apps</string>
+    <string name="app_icon_color_warning">AVISO: Algunos lanzadores no admiten la personalización de iconos correctamente. En ese caso el icono desaparecerá, intente lanzar la app mediante Google Play o algún widget, si está disponible.
+Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Puede que tengas que reinstalar la aplicación en el peor de los casos.</string>
     <string name="share_colors_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Shared\', Por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Oscuro</string>

@@ -519,8 +519,10 @@
     <string name="purchase">Osta</string>
     <string name="update_thank_you">Palun uuendage Simple Thank viimasele versioonile</string>
     <string name="before_asking_question_read_faq">Enne küsimuse esitamist kontrollige rakenduse seadeid ja lugege kõigepealt korduma kippuvaid küsimusi. Võib-olla on lahendus olemas.</string>
+    <string name="before_rate_read_faq">Enne kui hindate meid, kontrollige palun rakenduse seadeid ja lugege kõigepealt korduma kippuvaid küsimusi. Kui teil on probleeme, võib-olla on lahendus olemas.</string>
     <string name="make_sure_latest">Veenduge, et kasutate uusimat rakenduse versiooni.</string>
     <string name="read_it">Loe seda</string>
+    <string name="read_faq">Lugege KKK-sid</string>
     <string name="rate_us_prompt">Tere,\n\n tundub, et kasutate seda rakendust juba mõnda aega ja me hindame seda tõesti.\n\nKui saame teid paluda, siis hinnake meid Google Plays. See aitaks meid tõesti palju.\n\nÜkskõik kuidas otsustate, ei näe te seda sõnumit uuesti.\n\nTäname!</string>
     <string name="sideloaded_app">            Tundub, et teie rakenduse versioon on rikutud. Palun laadige alla originaalversioon &lt;a href=\"%s\"&gt;siia&lt;/a&gt;.
         </string>

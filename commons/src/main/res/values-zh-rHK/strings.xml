@@ -485,8 +485,10 @@
     <string name="purchase">購買</string>
     <string name="update_thank_you">請更新[Simple Thank You]至最新版本</string>
     <string name="before_asking_question_read_faq">在提問之前，請先檢視應用程式設定並閱讀常見問題，也許答案就在那裡。</string>
+    <string name="before_rate_read_faq">在給我們評分之前，請檢查應用程式設置並閱讀常見問題解答。如果您有任何問題，也許有解決方案。</string>
     <string name="make_sure_latest">另外，還要確保您使用的是最新版應用程式</string>
     <string name="read_it">讀它</string>
+    <string name="read_faq">閱讀常見問題</string>
     <string name="rate_us_prompt">Hello,\n\nit looks like you are using this app for quite a while already, and we really appreciate it.\n\nIf we can ask you a favor, please rate us on Google Play. That would really help us a lot.\n\nNo matter how you decide, you will not see this message again.\n\nThanks!</string>
     <string name="sideloaded_app">            應用版本似乎已損壞。請下載<a href="%s">此处</a>.的原始版本
         </string>
