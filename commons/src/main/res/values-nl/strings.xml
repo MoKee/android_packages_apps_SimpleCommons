@@ -122,7 +122,7 @@
     <string name="duration">Duur</string>
     <string name="artist">Artiest</string>
     <string name="focal_length">Brandpuntsafstand</string>
-    <string name="exposure_time">Sluitertijd</string>
+    <string name="exposure_time">Belichtingstijd</string>
     <string name="iso_speed">ISO-waarde</string>
     <string name="f_number">Diafragmagetal</string>
     <string name="camera">Camera</string>
@@ -133,7 +133,7 @@
     <string name="foreground_color">Kleur voorgrond</string>
     <string name="app_icon_color">Kleur app-icoon</string>
     <string name="bottom_navigation_bar_color">Kleur navigatiebalk onder aan het scherm</string>
-    <string name="restore_defaults">Standaardwaarden</string>
+    <string name="restore_defaults">Standaardinstellingen herstellen</string>
     <string name="use_default">Standaard gebruiken</string>
     <string name="default_color">Standaard</string>
     <string name="change_color">Kleur veranderen</string>
@@ -157,7 +157,7 @@
     <string name="whats_new_disclaimer">* Alleen de belangrijkste veranderingen worden hier vermeld</string>
     <string name="delete">Verwijderen</string>
     <string name="remove">Weghalen</string>
-    <string name="rename">Hernoemen</string>
+    <string name="rename">Naam wijzigen</string>
     <string name="share">Delen</string>
     <string name="share_via">Delen via</string>
     <string name="select_all">Alles selecteren</string>
@@ -315,8 +315,8 @@
     <string name="reminder_warning">Controleer eerst of de herinneringen goed werken. Er kunnen zich problemen voordoen door de batterijbesparing van Android.</string>
     <string name="notifications_disabled">Notificaties van deze app zijn uitgeschakeld. Ga naar de systeeminstellingen voor de app om deze in te schakelen.</string>
     <string name="alarm">Alarm</string>
-    <string name="snooze">Uitstellen</string>
-    <string name="dismiss">Uitzetten</string>
+    <string name="snooze">Snoozen</string>
+    <string name="dismiss">Sluiten</string>
     <string name="no_reminder">Geen herinnering</string>
     <string name="at_start">Als afspraak begint</string>
     <string name="system_sounds">Systeemgeluiden</string>
@@ -330,7 +330,7 @@
     <string name="show_hidden_items">Verborgen items tonen</string>
     <string name="font_size">Lettergrootte</string>
     <string name="small">Klein</string>
-    <string name="medium">Normaal</string>
+    <string name="medium">Middel</string>
     <string name="large">Groot</string>
     <string name="extra_large">Extra groot</string>
     <string name="password_protect_hidden_items">Verborgen items met wachtwoord beveiligen</string>

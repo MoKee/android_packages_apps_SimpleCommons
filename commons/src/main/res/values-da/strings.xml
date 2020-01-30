@@ -11,7 +11,7 @@
     <string name="open_with">Åbn med</string>
     <string name="edit_with">Rediger med</string>
     <string name="no_app_found">Der blev ikke fundet en gyldig app</string>
-    <string name="set_as">Anvend som</string>
+    <string name="set_as">Angiv som</string>
     <string name="value_copied_to_clipboard">Værdi kopieret til udklipsholder</string>
     <string name="unknown">Ukendt</string>
     <string name="always">Altid</string>
@@ -137,7 +137,6 @@
     <string name="primary_color">Primær farve</string>
     <string name="foreground_color">Forgrundsfarve</string>
     <string name="app_icon_color">Farve til appens ikon</string>
-    <string name="restore_defaults">Gendan standarder</string>
     <string name="use_default">Brug standard</string>
     <string name="default_color">Standard</string>
     <string name="change_color">Skift farve</string>
@@ -150,11 +149,11 @@
     <string name="save_before_closing">Du har ændringer der ikke er gemt. Vil du gemme dem?</string>
     <string name="apply_to_all_apps">Anvend farverne på alle Simple Apps</string>
     <string name="share_colors_success">Farverne er ændret. Et nyt udseende kaldet \"Tilpasset\" er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
-    <string name="light_theme">Lys</string>
+    <string name="light_theme">Lyst</string>
     <string name="dark_theme">Mørk</string>
     <string name="dark_red">Mørkerød</string>
     <string name="black_white">Sort &amp; hvid</string>
-    <string name="custom">Tilpasset</string>
+    <string name="custom">Brugerdefineret</string>
     <string name="shared">Gemt</string>
     <string name="whats_new">Hvad er nyt</string>
     <string name="whats_new_disclaimer">* Kun større opdateringer er nævnt her, der er altid flere mindre forbedringer også</string>
@@ -325,7 +324,7 @@
     <string name="reminder_warning">Du anbefales sikre dig at påmindelser virker som de skal inden du stoler på dem. De kan drille som følge af strømbesparende begrænsninger på systemet.</string>
     <string name="notifications_disabled">Påmindelser er ikke aktiveret for denne app. Du kan aktivere dem i indstillingerne på din enhed.</string>
     <string name="snooze">Udsæt</string>
-    <string name="dismiss">Slå fra</string>
+    <string name="dismiss">Afvis</string>
     <string name="no_reminder">Ingen påmindelse</string>
     <string name="at_start">Ved start</string>
     <string name="system_sounds">Systemlyde</string>

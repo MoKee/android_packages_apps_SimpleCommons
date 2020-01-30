@@ -4,12 +4,12 @@
     <string name="set_as">Hlela njenge</string>
     <string name="unknown">Akwaziwa</string>
     <string name="details">Imininingwane</string>
-    <string name="none">Akunalutho</string>
+    <string name="none">Lutho</string>
     <string name="search">Sesha</string>
     <string name="path">Indlela</string>
     <string name="duration">Ubude besikhathi</string>
     <string name="exposure_time">Isikhathi esisobala</string>
-    <string name="camera">Ikhamera</string>
+    <string name="camera">Ikhamela</string>
     <string name="save">Londoloza</string>
     <string name="custom">Ngokwezifiso</string>
     <string name="delete">Susa</string>

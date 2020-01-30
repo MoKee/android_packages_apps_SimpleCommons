@@ -132,7 +132,7 @@
     <string name="artist">Artista</string>
     <string name="album">Álbum</string>
     <string name="focal_length">Longitud focal</string>
-    <string name="exposure_time">Tiempo de exposición</string>
+    <string name="exposure_time">Tiempo exposic</string>
     <string name="iso_speed">Velocidad ISO</string>
     <string name="camera">Cámara</string>
     <string name="exif">EXIF</string>

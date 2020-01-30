@@ -4,11 +4,11 @@
     <string name="set_as">Weka kama</string>
     <string name="unknown">Haijulikani</string>
     <string name="details">Maelezo</string>
-    <string name="none">Umekamilisha</string>
+    <string name="none">Hamna</string>
     <string name="search">Tafuta</string>
     <string name="path">Njia</string>
     <string name="duration">Muda</string>
-    <string name="exposure_time">Muda ambao kilango cha kamera kinakaa wazi</string>
+    <string name="exposure_time">Muda ambao kitundu cha kamera kinakaa wazi</string>
     <string name="camera">Kamera</string>
     <string name="save">Hifadhi</string>
     <string name="custom">Maalum</string>

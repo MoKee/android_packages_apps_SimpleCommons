@@ -6,7 +6,7 @@
     <string name="set_as">הגדר בתור</string>
     <string name="unknown">לא ידוע</string>
     <string name="always">תמיד</string>
-    <string name="never">אף פעם</string>
+    <string name="never">לעולם לא</string>
     <string name="details">פרטים</string>
     <string name="none">ללא</string>
     <string name="download">מצב הורדה</string>
@@ -19,7 +19,7 @@
     <string name="skip">דלג</string>
     <string name="sd_card">כרטיס זיכרון</string>
     <string name="path">נתיב</string>
-    <string name="duration">משך</string>
+    <string name="duration">משך זמן</string>
     <string name="artist">אמן</string>
     <string name="album">אלבום</string>
     <string name="exposure_time">זמן חשיפה</string>
@@ -55,7 +55,7 @@
     <string name="hours_raw">שעות</string>
     <string name="alarm">שעון מעורר</string>
     <string name="snooze">נודניק</string>
-    <string name="dismiss">בטל</string>
+    <string name="dismiss">דחה</string>
     <string name="at_start">בהתחלה</string>
     <string name="settings">הגדרות</string>
     <string name="small">קטן</string>
@@ -81,10 +81,10 @@
     <string name="monday_letter">ב\'</string>
     <string name="tuesday_letter">ג\'</string>
     <string name="wednesday_letter">ד\'</string>
-    <string name="thursday_letter">ה\'</string>
+    <string name="thursday_letter">ג\'</string>
     <string name="friday_letter">ו\'</string>
     <string name="saturday_letter">ש\'</string>
-    <string name="sunday_letter">א\'</string>
+    <string name="sunday_letter">ש\'</string>
     <string name="about">אודות</string>
     <string name="rate">דרג</string>
     <string name="donate">תרום</string>

@@ -11,7 +11,7 @@
     <string name="open_with">Öppna med</string>
     <string name="edit_with">Redigera med</string>
     <string name="no_app_found">Ingen giltig app hittades</string>
-    <string name="set_as">Använd som</string>
+    <string name="set_as">Ange som</string>
     <string name="value_copied_to_clipboard">Värdet har kopierats till Urklipp</string>
     <string name="unknown">Okänd</string>
     <string name="always">Alltid</string>
@@ -125,7 +125,7 @@
     <string name="direct_children_count">Antal direkta döttrar</string>
     <string name="files_count">Antal filer</string>
     <string name="resolution">Upplösning</string>
-    <string name="duration">Varaktighet</string>
+    <string name="duration">Längd</string>
     <string name="artist">Artist</string>
     <string name="album">Album</string>
     <string name="focal_length">Brännvidd</string>
@@ -139,7 +139,7 @@
     <string name="primary_color">Primär färg</string>
     <string name="foreground_color">Förgrundsfärg</string>
     <string name="app_icon_color">Appikonens färg</string>
-    <string name="restore_defaults">Återställ standardfärger</string>
+    <string name="restore_defaults">Återställ standardvärden</string>
     <string name="use_default">Använd standard</string>
     <string name="default_color">Standard</string>
     <string name="change_color">Ändra färg</string>
@@ -152,12 +152,12 @@
     <string name="save_before_closing">Du har ändringar som inte är sparade. Spara innan du lämnar?</string>
     <string name="apply_to_all_apps">Använd färgerna i alla Simple-appar</string>
     <string name="share_colors_success">Färgerna har uppdaterats. Ett nytt Tema som heter \'Delat\' har lagts till, använd det för att uppdatera alla apparnas färger i framtiden.</string>
-    <string name="light_theme">Ljust</string>
-    <string name="dark_theme">Mörkt</string>
+    <string name="light_theme">Ljus</string>
+    <string name="dark_theme">Mörk</string>
     <string name="solarized">Solariserat</string>
     <string name="dark_red">Mörkrött</string>
     <string name="black_white">Svartvitt</string>
-    <string name="custom">Anpassat</string>
+    <string name="custom">Anpassad</string>
     <string name="shared">Delat</string>
     <string name="whats_new">Vad är nytt</string>
     <string name="whats_new_disclaimer">* bara de större uppdateringarna visas här, det görs också alltid några mindre förbättringar</string>
@@ -330,8 +330,8 @@
     <string name="alarm_warning">Kontrollera att alarmet fungerar som det ska innan du förlitar dig på det. Det kanske inte fungerar som det ska på grund av batterisparrelaterade systembegränsningar.</string>
     <string name="reminder_warning">Kontrollera att påminnelserna fungerar som de ska innan du förlitar dig på dem. De kanske inte fungerar som de ska på grund av batterisparrelaterade systembegränsningar.</string>
     <string name="alarm">Alarm</string>
-    <string name="snooze">Snooza</string>
-    <string name="dismiss">Stäng av</string>
+    <string name="snooze">Snooze</string>
+    <string name="dismiss">Avvisa</string>
     <string name="no_reminder">Ingen påminnelse</string>
     <string name="at_start">Vid start</string>
     <string name="system_sounds">Systemljud</string>
@@ -346,7 +346,6 @@
     <string name="show_hidden_items">Visa dolda objekt</string>
     <string name="font_size">Teckenstorlek</string>
     <string name="small">Liten</string>
-    <string name="medium">Medelstor</string>
     <string name="large">Stor</string>
     <string name="extra_large">Extra stor</string>
     <string name="password_protect_hidden_items">Lösenordsskydda synligheten för dolda objekt</string>

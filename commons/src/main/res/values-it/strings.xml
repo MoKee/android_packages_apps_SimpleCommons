@@ -13,7 +13,7 @@
     <string name="no_app_found">Non è stata trovata nessuna applicazione valida</string>
     <string name="set_as">Imposta come</string>
     <string name="value_copied_to_clipboard">Valore copiato negli appunti</string>
-    <string name="unknown">Sconosciuto</string>
+    <string name="unknown">Sconosciuta</string>
     <string name="always">Sempre</string>
     <string name="never">Mai</string>
     <string name="details">Dettagli</string>
@@ -139,7 +139,7 @@
     <string name="artist">Artista</string>
     <string name="album">Album</string>
     <string name="focal_length">Lunghezza focale</string>
-    <string name="exposure_time">Tempo di esposizione</string>
+    <string name="exposure_time">Tempo esposiz.</string>
     <string name="iso_speed">Velocità ISO</string>
     <string name="f_number">Rapporto focale</string>
     <string name="camera">Fotocamera</string>
@@ -153,7 +153,7 @@
     <string name="foreground_color">Colore in primo piano</string>
     <string name="app_icon_color">Colore dell\'icona app</string>
     <string name="bottom_navigation_bar_color">Colore della barra di navigazione</string>
-    <string name="restore_defaults">Ripristina predefiniti</string>
+    <string name="restore_defaults">Ripristina predefinite</string>
     <string name="use_default">Usa predefinita</string>
     <string name="default_color">Predefinito</string>
     <string name="change_color">Cambia colore</string>
@@ -172,7 +172,7 @@
     <string name="solarized">Solarizzato</string>
     <string name="dark_red">Rosso scuro</string>
     <string name="black_white">Bianco e nero</string>
-    <string name="custom">Personale</string>
+    <string name="custom">Personalizzato</string>
     <string name="shared">Condiviso</string>
     <string name="whats_new">Novità</string>
     <string name="whats_new_disclaimer">* qui vengono elencate solo le modifiche maggiori, ci sono sempre anche altri piccoli miglioramenti</string>
@@ -214,7 +214,7 @@
     <string name="are_you_sure_delete">Sei sicuro di volere eliminare questo elemento?</string>
     <string name="are_you_sure_recycle_bin">Sei sicuro di volere spostare questo elemento nel cestino?</string>
     <string name="do_not_ask_again">Non chiedere nuovamente in questa sessione</string>
-    <string name="yes">Sì</string>
+    <string name="yes">Si</string>
     <string name="no">No</string>
     <string name="maybe">Forse</string>
     <plurals name="delete_warning">
@@ -367,8 +367,8 @@
     <string name="reminder_warning">Assicurati che i promemoria funzionino correttamente prima di fare affidamento su di essi. Potrebbero comportarsi in modo anomalo a causa di restrizioni di sistema relative al risparmio della batteria.</string>
     <string name="notifications_disabled">Le notifiche di questa applicazione sono disattivate. Vai nelle impostazioni del dispositivo per attivarle.</string>
     <string name="alarm">Sveglia</string>
-    <string name="snooze">Posponi</string>
-    <string name="dismiss">Ignora</string>
+    <string name="snooze">Posticipa</string>
+    <string name="dismiss">Annulla</string>
     <string name="no_reminder">Nessun promemoria</string>
     <string name="at_start">All\'inizio</string>
     <string name="system_sounds">Suoni di sistema</string>
@@ -383,7 +383,7 @@
     <string name="show_hidden_items">Mostra gli elementi nascosti</string>
     <string name="font_size">Dimensione carattere</string>
     <string name="small">Piccolo</string>
-    <string name="medium">Medio</string>
+    <string name="medium">Media</string>
     <string name="large">Grande</string>
     <string name="extra_large">Molto grande</string>
     <string name="password_protect_hidden_items">Proteggi con password gli elementi nascosti</string>
@@ -480,10 +480,10 @@
     <string name="monday_letter">L</string>
     <string name="tuesday_letter">M</string>
     <string name="wednesday_letter">M</string>
-    <string name="thursday_letter">G</string>
+    <string name="thursday_letter">M</string>
     <string name="friday_letter">V</string>
     <string name="saturday_letter">S</string>
-    <string name="sunday_letter">D</string>
+    <string name="sunday_letter">S</string>
     <string name="monday_short">Lun</string>
     <string name="tuesday_short">Mar</string>
     <string name="wednesday_short">Mer</string>
@@ -507,7 +507,7 @@
     <string name="share_text">Ciao, controlla %1$s su %2$s</string>
     <string name="invite_via">Invita con</string>
     <string name="rate_us_underlined"><u>Dacci un voto sul Play Store</u></string>
-    <string name="rate">Vota</string>
+    <string name="rate">Valuta</string>
     <string name="donate">Dona</string>
     <string name="donate_underlined"><u>Dona</u></string>
     <string name="follow_us">Seguici</string>

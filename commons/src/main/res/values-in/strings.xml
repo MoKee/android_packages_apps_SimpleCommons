@@ -11,11 +11,11 @@
     <string name="open_with">Buka dengan</string>
     <string name="edit_with">Sunting dengan</string>
     <string name="no_app_found">Tidak ditemukan aplikasi yang valid</string>
-    <string name="set_as">Setel sebagai</string>
+    <string name="set_as">Atur sebagai</string>
     <string name="value_copied_to_clipboard">Nilai disalin ke papan klip</string>
-    <string name="unknown">Tidak diketahui</string>
+    <string name="unknown">Tidak dikenal</string>
     <string name="always">Selalu</string>
-    <string name="never">Tidak pernah</string>
+    <string name="never">Jangan pernah</string>
     <string name="details">Rincian</string>
     <string name="notes">Catatan</string>
     <string name="deleting_folder">Menghapus folder \'%s\'</string>
@@ -31,10 +31,10 @@
     <string name="add_favorites">Tambah ke favorit</string>
     <string name="add_to_favorites">Tambahkan ke favorit</string>
     <string name="remove_from_favorites">Hapus dari favorit</string>
-    <string name="search">Pencarian</string>
+    <string name="search">Cari</string>
     <string name="type_2_characters">Ketikkan setidaknya 2 karakter untuk memulai pencarian.</string>
-    <string name="filter">Menyaring</string>
-    <string name="no_items_found">Tidak ada item yang ditemukan.</string>
+    <string name="filter">Saring</string>
+    <string name="no_items_found">Item tidak ditemukan.</string>
     <string name="change_filter">Ganti filter</string>
     <string name="no_storage_permissions">Izin Penyimpanan diperlukan</string>
     <string name="no_contacts_permission">Izin Kontak diperlukan</string>
@@ -47,7 +47,7 @@
     <string name="rename_folder_empty">Nama folder tidak boleh kosong</string>
     <string name="rename_folder_exists">Folder dengan nama itu sudah ada</string>
     <string name="rename_folder_root">Tidak dapat mengubah nama folder root dari penyimpanan</string>
-    <string name="rename_folder_ok">Folder diubah namanya dengan sukses</string>
+    <string name="rename_folder_ok">Folder berhasil diubah namanya</string>
     <string name="renaming_folder">Mengubah nama folder</string>
     <string name="filename_cannot_be_empty">Nama berkas tidak boleh kosong</string>
     <string name="filename_invalid_characters">Nama file berisi karakter yang tidak valid</string>
@@ -95,7 +95,7 @@
     <string name="keep_both">Simpan keduanya</string>
     <string name="overwrite">Timpa</string>
     <string name="skip">Lewati</string>
-    <string name="append">Menambahkan dengan \'_1\'</string>
+    <string name="append">Tambahkan dengan \'_1\'</string>
     <string name="apply_to_all">Terapkan ke semua</string>
     <string name="select_folder">Pilih folder</string>
     <string name="select_file">Pilih berkas</string>
@@ -120,7 +120,7 @@
     <string name="app_on_sd_card">Sepertinya aplikasi telah dipasang di kartu SD, yang membuat widget aplikasi tidak tersedia. Anda bahkan tidak akan melihat mereka di daftar widget yang tersedia.
         Ini adalah batasan sistem, jadi jika Anda ingin menggunakan widget, Anda harus memindahkan aplikasi kembali ke penyimpanan internal.</string>
     <string name="properties">Rincian</string>
-    <string name="path">Jalur</string>
+    <string name="path">Alur</string>
     <string name="items_selected">Item dipilih</string>
     <string name="direct_children_count">Direct children count</string>
     <string name="files_count">Menghitung jumlah berkas</string>
@@ -149,17 +149,17 @@
     <string name="changing_color_description">Mengubah warna akan membuatnya beralih ke tema Kustom</string>
     <string name="save">Simpan</string>
     <string name="discard">Buang</string>
-    <string name="undo_changes">Batalkan Perubahan</string>
+    <string name="undo_changes">Batalkan perubahan</string>
     <string name="undo_changes_confirmation">Apakah Anda yakin ingin membatalkan perubahan Anda?</string>
     <string name="save_before_closing">Anda memiliki perubahan yang belum disimpan. Simpan sebelum keluar?</string>
-    <string name="apply_to_all_apps">Terapkan warna ke semua Aplikasi Sederhana</string>
+    <string name="apply_to_all_apps">Terapkan warna ke semua Simple Apps</string>
     <string name="app_icon_color_warning">PERINGATAN: Beberapa peluncur tidak menangani penyesuaian ikon aplikasi dengan benar. Jika ikonnya akan hilang, coba luncurkan aplikasi melalui Google Play atau beberapa widget, jika tersedia.
         Setelah diluncurkan, cukup atur kembali ikon oranye default #F57C00. Anda mungkin harus menginstal ulang aplikasi dalam kasus terburuk.</string>
     <string name="share_colors_success">Warna berhasil diperbarui. Tema baru yang disebut \'Shared\' telah ditambahkan, silakan gunakan itu untuk memperbarui semua warna aplikasi di masa mendatang.</string>
     <string name="light_theme">Terang</string>
     <string name="dark_theme">Gelap</string>
     <string name="solarized">Solarized</string>
-    <string name="dark_red">Merah tua</string>
+    <string name="dark_red">Merah gelap</string>
     <string name="black_white">Black &amp; White</string>
     <string name="custom">Khusus</string>
     <string name="shared">Shared</string>
@@ -186,11 +186,11 @@
     <string name="size">Ukuran</string>
     <string name="last_modified">Terakhir diubah</string>
     <string name="date_taken">Tanggal diambil</string>
-    <string name="title">Judul</string>
-    <string name="filename">Nama berkas</string>
+    <string name="title">Nama</string>
+    <string name="filename">Nama file</string>
     <string name="extension">Ekstensi</string>
     <string name="random">Acak</string>
-    <string name="sort_randomly">Sortir secara acak</string>
+    <string name="sort_randomly">Urutkan secara acak</string>
     <string name="ascending">Menaik</string>
     <string name="descending">Menurun</string>
     <string name="use_for_this_folder">Gunakan hanya untuk folder ini</string>
@@ -312,7 +312,7 @@
     <string name="notifications_disabled">Pemberitahuan dari aplikasi ini dinonaktifkan. Silakan masuk ke pengaturan perangkat Anda untuk mengaktifkannya.</string>
     <string name="alarm">Alarm</string>
     <string name="snooze">Tunda</string>
-    <string name="dismiss">Abaikan</string>
+    <string name="dismiss">Tutup</string>
     <string name="no_reminder">Tidak ada pengingat</string>
     <string name="at_start">Saat mulai</string>
     <string name="system_sounds">Suara sistem</string>
@@ -355,8 +355,8 @@
     <string name="saving_label">Menyimpan</string>
     <string name="startup">Memulai</string>
     <string name="text">Teks</string>
-    <string name="restore_this_file">Restore this file</string>
-    <string name="restore_selected_files">Kembalikan file yang dipilih</string>
+    <string name="restore_this_file">Pulihkan file ini</string>
+    <string name="restore_selected_files">Pulihkan file yang dipilih</string>
     <string name="restore_all_files">Pulihkan semua file</string>
     <string name="recycle_bin_emptied">Keranjang Sampah berhasil dikosongkan</string>
     <string name="files_restored_successfully">File telah berhasil dipulihkan</string>
@@ -411,8 +411,8 @@
     <string name="sunday">Minggu</string>
     <string name="monday_letter">S</string>
     <string name="tuesday_letter">S</string>
-    <string name="wednesday_letter">B</string>
-    <string name="thursday_letter">K</string>
+    <string name="wednesday_letter">R</string>
+    <string name="thursday_letter">S</string>
     <string name="friday_letter">J</string>
     <string name="saturday_letter">S</string>
     <string name="sunday_letter">S</string>
@@ -437,7 +437,7 @@
     <string name="share_text">Hai, ayo periksa %1$s pada %2$s</string>
     <string name="invite_via">Undang melalui</string>
     <string name="rate_us_underlined"><u>Nilai kami</u></string>
-    <string name="rate">Beri peringkat</string>
+    <string name="rate">Beri nilai</string>
     <string name="donate">Donasi</string>
     <string name="donate_underlined"><u>Donasi</u></string>
     <string name="follow_us">Ikuti kami</string>

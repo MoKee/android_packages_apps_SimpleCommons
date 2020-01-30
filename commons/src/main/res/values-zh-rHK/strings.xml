@@ -15,7 +15,7 @@
     <string name="value_copied_to_clipboard">數值複製到剪貼簿</string>
     <string name="unknown">不明</string>
     <string name="always">永遠</string>
-    <string name="never">永不</string>
+    <string name="never">Noway</string>
     <string name="details">詳細資料</string>
     <string name="notes">筆記</string>
     <string name="deleting_folder">資料夾 \'%s\' 刪除中</string>
@@ -132,7 +132,7 @@
     <string name="direct_children_count">子目錄數</string>
     <string name="files_count">總檔案數</string>
     <string name="resolution">解析度</string>
-    <string name="duration">通話時間</string>
+    <string name="duration">片長</string>
     <string name="artist">演出者</string>
     <string name="album">專輯</string>
     <string name="focal_length">焦距</string>
@@ -241,7 +241,7 @@
     <string name="yesterday">昨天</string>
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>
-    <string name="seconds_raw">秒鐘</string>
+    <string name="seconds_raw">秒</string>
     <string name="minutes_raw">分鐘</string>
     <string name="hours_raw">小時</string>
     <string name="days_raw">天</string>

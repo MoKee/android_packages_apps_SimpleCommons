@@ -13,7 +13,7 @@
     <string name="no_app_found">Nie mogę znaleźć danych aplikacji</string>
     <string name="set_as">Ustaw jako</string>
     <string name="value_copied_to_clipboard">Wartość została skopiowana do schowka</string>
-    <string name="unknown">Nieznane</string>
+    <string name="unknown">Nieznana</string>
     <string name="always">Zawsze</string>
     <string name="never">Nigdy</string>
     <string name="details">Szczegóły</string>
@@ -109,10 +109,10 @@
         <item quantity="other">%d pozycji</item>
     </plurals>
     <plurals name="delete_items">
-        <item quantity="one">%d element</item>
-        <item quantity="few">%d elementy</item>
-        <item quantity="many">%d elementów</item>
-        <item quantity="other">%d elementów</item>
+        <item quantity="one">%d pozycja</item>
+        <item quantity="few">%d pozycje</item>
+        <item quantity="many">%d pozycji</item>
+        <item quantity="other">%d pozycji</item>
     </plurals>
     <plurals name="deleting_items">
         <item quantity="one">Usuwanie %d elementu</item>
@@ -122,7 +122,7 @@
     </plurals>
     <string name="select_storage">Wybierz pamięć</string>
     <string name="internal">Wewnętrzna</string>
-    <string name="sd_card">Karta pamięci</string>
+    <string name="sd_card">Karta SD</string>
     <string name="root">Folder główny</string>
     <string name="wrong_root_selected">Wybrano nieprawidłowy folder. Wybierz główny folder karty pamięci.</string>
     <string name="sd_card_usb_same">Ścieżka do karty pamięci i urządzenia USB nie może być taka sama</string>
@@ -140,7 +140,7 @@
     <string name="exposure_time">Czas ekspozycji</string>
     <string name="iso_speed">Czułość ISO</string>
     <string name="f_number">Otwór względny obiektywu</string>
-    <string name="camera">Kamera/aparat</string>
+    <string name="camera">Aparat</string>
     <string name="exif">Dane EXIF</string>
     <string name="song_title">Tytuł piosenki</string>
     <string name="background_color">Tło</string>
@@ -165,7 +165,7 @@
          Po uruchomieniu, przywróć domyślną pomarańczową ikonę # F57C00. W najgorszym przypadku może być konieczne ponowne zainstalowanie aplikacji.</string>
     <string name="share_colors_success">Kolory zostały zmienione. Utworzony został nowy, \'wspólny\' motyw - użyj go, aby zaktualizować kolorystykę wszystkich Prostych Aplikacji.</string>
     <string name="light_theme">Jasny</string>
-    <string name="dark_theme">Ciemny</string>
+    <string name="dark_theme">Ciemność</string>
     <string name="solarized">Solaryzacja</string>
     <string name="dark_red">Ciemnoczerwony</string>
     <string name="black_white">Czerń i biel</string>
@@ -239,9 +239,9 @@
     <string name="yesterday">Wczoraj</string>
     <string name="today">Dzisiaj</string>
     <string name="tomorrow">Jutro</string>
-    <string name="seconds_raw">sekundy</string>
-    <string name="minutes_raw">minuty</string>
-    <string name="hours_raw">godziny</string>
+    <string name="seconds_raw">s</string>
+    <string name="minutes_raw">min</string>
+    <string name="hours_raw">godz.</string>
     <string name="days_raw">dni</string>
     <plurals name="seconds">
         <item quantity="one">%d sekunda</item>
@@ -286,19 +286,19 @@
         <item quantity="other">%d lat</item>
     </plurals>
     <plurals name="in_seconds">
-        <item quantity="one">%d sekundę</item>
+        <item quantity="one">%d sekunda</item>
         <item quantity="few">%d sekundy</item>
         <item quantity="many">%d sekund</item>
         <item quantity="other">%d sekund</item>
     </plurals>
     <plurals name="in_minutes">
-        <item quantity="one">%d minutę</item>
+        <item quantity="one">%d minuta</item>
         <item quantity="few">%d minuty</item>
         <item quantity="many">%d minut</item>
         <item quantity="other">%d minut</item>
     </plurals>
     <plurals name="in_hours">
-        <item quantity="one">%d godzinę</item>
+        <item quantity="one">%d godzina</item>
         <item quantity="few">%d godziny</item>
         <item quantity="many">%d godzin</item>
         <item quantity="other">%d godzin</item>
@@ -370,19 +370,19 @@
         <item quantity="other">%d lat przed</item>
     </plurals>
     <plurals name="by_seconds">
-        <item quantity="one">%d sekundę</item>
+        <item quantity="one">%d sekunda</item>
         <item quantity="few">%d sekundy</item>
         <item quantity="many">%d sekund</item>
         <item quantity="other">%d sekund</item>
     </plurals>
     <plurals name="by_minutes">
-        <item quantity="one">%d minutę</item>
+        <item quantity="one">%d minuta</item>
         <item quantity="few">%d minuty</item>
         <item quantity="many">%d minut</item>
         <item quantity="other">%d minut</item>
     </plurals>
     <plurals name="by_hours">
-        <item quantity="one">%d godzinę</item>
+        <item quantity="one">%d godzina</item>
         <item quantity="few">%d godziny</item>
         <item quantity="many">%d godzin</item>
         <item quantity="other">%d godzin</item>
@@ -418,7 +418,7 @@
     <string name="notifications_disabled">Powiadomienia tej aplikacji zostały wyłączone. Przejdź do ustawień systemu, aby je z powrotem włączyć.</string>
     <string name="alarm">Budzik</string>
     <string name="snooze">Drzemka</string>
-    <string name="dismiss">Wyłącz</string>
+    <string name="dismiss">Odrzuć</string>
     <string name="no_reminder">Brak przypomnienia</string>
     <string name="at_start">Przy rozpoczęciu</string>
     <string name="system_sounds">Dźwięki systemowe</string>
@@ -432,8 +432,8 @@
     <string name="use_english_language">Wymuś używanie przez aplikację języka angielskiego</string>
     <string name="show_hidden_items">Pokazuj ukryte elementy</string>
     <string name="font_size">Rozmiar czcionki</string>
-    <string name="small">Mała</string>
-    <string name="medium">Średnia</string>
+    <string name="small">Mały</string>
+    <string name="medium">Średnia czułość</string>
     <string name="large">Duża</string>
     <string name="extra_large">Bardzo duża</string>
     <string name="password_protect_hidden_items">Chroń widoczność ukrytych plików</string>
@@ -531,10 +531,10 @@
     <string name="monday_letter">PN</string>
     <string name="tuesday_letter">W</string>
     <string name="wednesday_letter">Ś</string>
-    <string name="thursday_letter">C</string>
+    <string name="thursday_letter">W</string>
     <string name="friday_letter">PT</string>
     <string name="saturday_letter">Płd.</string>
-    <string name="sunday_letter">N</string>
+    <string name="sunday_letter">Płd.</string>
     <string name="monday_short">Pon</string>
     <string name="tuesday_short">Wto</string>
     <string name="wednesday_short">Śro</string>

@@ -13,13 +13,13 @@
     <string name="no_app_found">Nebyla nalezena žádná vhodná aplikace</string>
     <string name="set_as">Nastavit jako</string>
     <string name="value_copied_to_clipboard">Hodnota zkopírována do schránky</string>
-    <string name="unknown">Neznámá</string>
+    <string name="unknown">Neznámé</string>
     <string name="always">Vždy</string>
     <string name="never">Nikdy</string>
     <string name="details">Podrobnosti</string>
     <string name="notes">Poznámky</string>
     <string name="deleting_folder">Maže se složka \'%s\'</string>
-    <string name="none">Nic</string>
+    <string name="none">Žádný</string>
     <string name="label">Popis</string>
     <string name="transparent">Průhledné</string>
     <string name="transparent_color">Průhledná barva</string>
@@ -31,7 +31,7 @@
     <string name="add_favorites">Přidat oblíbené</string>
     <string name="add_to_favorites">Přidat do oblíbených</string>
     <string name="remove_from_favorites">Odebrat z oblíbených</string>
-    <string name="search">Hledat</string>
+    <string name="search">Vyhledat</string>
     <string name="type_2_characters">Zadejte alespoň 2 znaky pro spuštění hledání.</string>
     <string name="filter">Filtrovat</string>
     <string name="no_items_found">Nebyly nalezeny žádné položky.</string>
@@ -59,6 +59,7 @@
     <string name="simple_renaming">Snadné přejmenování</string>
     <string name="pattern_renaming">Vzor</string>
     <string name="string_to_add">Řetězec k přidání</string>
+    <string name="rename_date_time_pattern">%Y - rok\n%M - měsíc\n%D - den\n%h - hodina\n%m - minuta\n%s - sekunda\n%i - číslo se zvyšuje od 1</string>
     <string name="copy">Kopírovat</string>
     <string name="move">Přesunout</string>
     <string name="copy_move">Kopírovat / Přesunout</string>
@@ -144,7 +145,7 @@
     <string name="artist">Autor</string>
     <string name="album">Album</string>
     <string name="focal_length">Ohnisková vzdálenost</string>
-    <string name="exposure_time">Čas explozice</string>
+    <string name="exposure_time">Expoziční čas</string>
     <string name="iso_speed">ISO rychlost</string>
     <string name="f_number">F-číslo</string>
     <string name="camera">Fotoaparát</string>
@@ -158,7 +159,7 @@
     <string name="foreground_color">Barva popředí</string>
     <string name="app_icon_color">Barva ikony aplikace</string>
     <string name="bottom_navigation_bar_color">Barva dolního navigačního panelu</string>
-    <string name="restore_defaults">Obnovit výchozí</string>
+    <string name="restore_defaults">Obnovit původní</string>
     <string name="use_default">Použít výchozí</string>
     <string name="default_color">Výchozí</string>
     <string name="change_color">Změnit barvu</string>
@@ -174,7 +175,7 @@
         Po spuštění stačí nastavit výchozí oranžovou ikonu # F57C00. V nejhorším případě budete muset aplikaci přeinstalovat.</string>
     <string name="share_colors_success">Barvy byly úspěšně aktualizovány. Byl přidán nový \'Sdílený\' motiv, prosím použijte jej při další úpravě barev.</string>
     <string name="light_theme">Světlý</string>
-    <string name="dark_theme">Tmavý</string>
+    <string name="dark_theme">Temný</string>
     <string name="solarized">Solarizovaný</string>
     <string name="dark_red">Tmavě červená</string>
     <string name="black_white">Černá &amp; Bílá</string>
@@ -201,11 +202,11 @@
     <string name="print">Tisk</string>
     <string name="create_shortcut">Vytvořit zástupce</string>
     <string name="sort_by">Seřadit dle</string>
-    <string name="name">Názvu</string>
+    <string name="name">Jméno</string>
     <string name="size">Velikosti</string>
     <string name="last_modified">Poslední úpravy</string>
     <string name="date_taken">Data pořízení</string>
-    <string name="title">Názvu</string>
+    <string name="title">Název</string>
     <string name="filename">Názvu souboru</string>
     <string name="extension">Přípony</string>
     <string name="random">Náhodně</string>
@@ -253,9 +254,9 @@
     <string name="yesterday">Včera</string>
     <string name="today">Dnes</string>
     <string name="tomorrow">Zítra</string>
-    <string name="seconds_raw">sekundy</string>
-    <string name="minutes_raw">minuty</string>
-    <string name="hours_raw">hodiny</string>
+    <string name="seconds_raw">s</string>
+    <string name="minutes_raw">min</string>
+    <string name="hours_raw">hod</string>
     <string name="days_raw">dny</string>
     <plurals name="seconds">
         <item quantity="one">%d sekunda</item>
@@ -432,7 +433,7 @@
     <string name="notifications_disabled">Oznámení této aplikace jsou zakázány. Přejděte do nastavení zařízení pro jejich povolení.</string>
     <string name="alarm">Budík</string>
     <string name="snooze">Odložit</string>
-    <string name="dismiss">Zrušit</string>
+    <string name="dismiss">Neukládat</string>
     <string name="no_reminder">Žádná připomínka</string>
     <string name="at_start">Na začátku</string>
     <string name="system_sounds">Systémové zvuky</string>
@@ -446,7 +447,7 @@
     <string name="use_english_language">Použít anglický jazyk</string>
     <string name="show_hidden_items">Zobrazit skryté položky</string>
     <string name="font_size">Velikost písma</string>
-    <string name="small">Malé</string>
+    <string name="small">Malý</string>
     <string name="medium">Střední</string>
     <string name="large">Velké</string>
     <string name="extra_large">Extra velké</string>
@@ -546,10 +547,10 @@
     <string name="monday_letter">Po</string>
     <string name="tuesday_letter">Út</string>
     <string name="wednesday_letter">St</string>
-    <string name="thursday_letter">Čt</string>
+    <string name="thursday_letter">Út</string>
     <string name="friday_letter">Pá</string>
     <string name="saturday_letter">So</string>
-    <string name="sunday_letter">Ne</string>
+    <string name="sunday_letter">So</string>
     <string name="monday_short">Po</string>
     <string name="tuesday_short">Út</string>
     <string name="wednesday_short">St</string>

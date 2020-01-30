@@ -19,7 +19,7 @@
     <string name="details">Podrobnosti</string>
     <string name="notes">Zapiski</string>
     <string name="deleting_folder">Brisanje mape \'%s\'</string>
-    <string name="none">Nič</string>
+    <string name="none">Brez</string>
     <string name="label">Oznaka</string>
     <string name="transparent">Prosojno</string>
     <string name="transparent_color">Prosojene barve</string>
@@ -31,7 +31,7 @@
     <string name="add_favorites">Dodaj priljubljene</string>
     <string name="add_to_favorites">Dodaj med priljubljene</string>
     <string name="remove_from_favorites">Odstrani od priljubljenih</string>
-    <string name="search">Iskanje</string>
+    <string name="search">Išči</string>
     <string name="type_2_characters">Vpišite vsaj 2 znaka za začetek iskanja</string>
     <string name="filter">Filter</string>
     <string name="no_items_found">Nobenih rezultatov.</string>
@@ -133,7 +133,7 @@
     <string name="direct_children_count">Število neposrednih potomcev</string>
     <string name="files_count">Skupno število datotek</string>
     <string name="resolution">Ločljivost</string>
-    <string name="duration">Dolžina</string>
+    <string name="duration">Trajanje</string>
     <string name="artist">Avtor</string>
     <string name="album">Album</string>
     <string name="focal_length">Goriščna razdalja</string>
@@ -149,7 +149,7 @@
     <string name="foreground_color">Barva ospredja</string>
     <string name="app_icon_color">Barva ikone aplikacije</string>
     <string name="bottom_navigation_bar_color">Barva spodnje navigacijske vrstice</string>
-    <string name="restore_defaults">Ponastavi na privzeto</string>
+    <string name="restore_defaults">Obnovi privzete</string>
     <string name="use_default">Uporabi privzeto</string>
     <string name="default_color">Privzeta</string>
     <string name="change_color">Spremeni barvo</string>
@@ -164,7 +164,7 @@
     <string name="app_icon_color_warning">OPOZORILO: Nekateri zaganjalniki ne ravnajo pravilno s prilagoditvijo ikone aplikacije. Če bo ikona izginila, poskusite zagnati aplikacijo prek storitve Google Play ali kakšnega pripomočka, če je na voljo.
  Po zagonu, nastavite nazaj privzeto oranžno ikono # F57C00. Morda boste morali v najslabšem primeru znova namestiti aplikacijo.</string>
     <string name="share_colors_success">Barve so bile uspešno posodobljene. Nova tema \'Deljeno\' je bila dodana. V prihodnje za spreminjanje barv uporabljajte to.</string>
-    <string name="light_theme">Svetlo</string>
+    <string name="light_theme">Svetla</string>
     <string name="dark_theme">Temno</string>
     <string name="solarized">Osončeno</string>
     <string name="dark_red">Temno rdeče</string>
@@ -176,7 +176,7 @@
     <string name="delete">Izbriši</string>
     <string name="remove">Odstrani</string>
     <string name="rename">Preimenuj</string>
-    <string name="share">Deli</string>
+    <string name="share">Souporaba</string>
     <string name="share_via">Deli preko</string>
     <string name="select_all">Izberi vse</string>
     <string name="hide">Skrij</string>
@@ -196,7 +196,7 @@
     <string name="size">Velikost</string>
     <string name="last_modified">Zadnja sprememba</string>
     <string name="date_taken">Datum nastanka</string>
-    <string name="title">Naslov</string>
+    <string name="title">Naziv</string>
     <string name="filename">Ime datoteke</string>
     <string name="extension">Datotečna končnica</string>
     <string name="random">Naključno</string>
@@ -242,8 +242,8 @@
     <string name="yesterday">Včeraj</string>
     <string name="today">Danes</string>
     <string name="tomorrow">Jutri</string>
-    <string name="seconds_raw">sekund</string>
-    <string name="minutes_raw">minut</string>
+    <string name="seconds_raw">s</string>
+    <string name="minutes_raw">min.</string>
     <string name="hours_raw">ur</string>
     <string name="days_raw">dni</string>
     <plurals name="seconds">
@@ -396,14 +396,14 @@
         <item quantity="few">%d leta</item>
         <item quantity="other">%d let</item>
     </plurals>
-    <string name="alarm_goes_off_in">Čas do sprožitve alarma: %s</string>
+    <string name="alarm_goes_off_in">Čas do sprožitve budilke:\n%s</string>
     <string name="reminder_triggers_in">Čas do sprožitve opomnika: %s</string>
-    <string name="alarm_warning">Predlagamo, da alarm preizkusite, preden se nanj zanašate. Zaradi sistemskih omejitev, povezanih z ohranjanjem baterije, lahko alarm zataji.</string>
-    <string name="reminder_warning">Predlagamo, da opomnike preiskusite, preden se zanašate na njih. Zaradi sistemskih omejitev, povezanih z ohranjanjem baterije, lahko opomniki zatajijo.</string>
+    <string name="alarm_warning">Predlagamo, da budilko preizkusite, preden se nanjo zanašate. Zaradi sistemskih omejitev, povezanih z ohranjanjem akumulatorja, lahko budilka zataji.</string>
+    <string name="reminder_warning">Predlagamo, da opomnike preiskusite, preden se zanašate na njih. Zaradi sistemskih omejitev, povezanih z ohranjanjem akumulatorja, lahko opomniki zatajijo.</string>
     <string name="notifications_disabled">Obvestila so za to aplikacijo onemogočena. Vklopite jih lahko v nastavitvah naprave.</string>
     <string name="alarm">Budilka</string>
     <string name="snooze">Dremež</string>
-    <string name="dismiss">Ustavi</string>
+    <string name="dismiss">Opusti</string>
     <string name="no_reminder">Brez opomnika</string>
     <string name="at_start">Na začetku</string>
     <string name="system_sounds">Sistemski zvoki</string>
@@ -417,7 +417,7 @@
     <string name="use_english_language">Uporabljaj angleški jezik</string>
     <string name="show_hidden_items">Prikaži skrite elemente</string>
     <string name="font_size">Velikost pisave</string>
-    <string name="small">Majhna</string>
+    <string name="small">Majhno</string>
     <string name="medium">Srednja</string>
     <string name="large">Velika</string>
     <string name="extra_large">Zelo velika</string>

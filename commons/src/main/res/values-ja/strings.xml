@@ -11,11 +11,11 @@
     <string name="open_with">別のアプリで開く</string>
     <string name="edit_with">他のアプリで編集</string>
     <string name="no_app_found">有効なアプリが見つかりません</string>
-    <string name="set_as">他で使う</string>
+    <string name="set_as">登録</string>
     <string name="value_copied_to_clipboard">値をクリップボードにコピーしました</string>
     <string name="unknown">不明</string>
     <string name="always">常に</string>
-    <string name="never">何もしない</string>
+    <string name="never">無期限</string>
     <string name="details">詳細</string>
     <string name="notes">メモ</string>
     <string name="deleting_folder">フォルダ \'%s\' を削除しています</string>
@@ -113,7 +113,7 @@
     </plurals>
     <string name="select_storage">ストレージを選択</string>
     <string name="internal">内部</string>
-    <string name="sd_card">SDカード</string>
+    <string name="sd_card">SD カード</string>
     <string name="root">ルート</string>
     <string name="wrong_root_selected">フォルダの選択が正しくありません。SDカードを選択してください</string>
     <string name="sd_card_usb_same">SDカードとUSBデバイスのパスを同じにすることはできません</string>
@@ -123,14 +123,14 @@
     <string name="direct_children_count">直接の子の数</string>
     <string name="files_count">合計ファイル数</string>
     <string name="resolution">解像度</string>
-    <string name="duration">期間</string>
+    <string name="duration">録画時間</string>
     <string name="artist">アーティスト</string>
     <string name="album">アルバム</string>
     <string name="focal_length">焦点距離</string>
     <string name="exposure_time">露出時間</string>
     <string name="iso_speed">ISO感度</string>
     <string name="f_number">絞り値</string>
-    <string name="camera">カメラ名</string>
+    <string name="camera">カメラ</string>
     <string name="exif">EXIF</string>
     <string name="song_title">曲名</string>
     <string name="background_color">背景色</string>
@@ -138,7 +138,7 @@
     <string name="primary_color">メインカラー</string>
     <string name="foreground_color">前景色</string>
     <string name="app_icon_color">アプリアイコンの色</string>
-    <string name="restore_defaults">デフォルトに戻す</string>
+    <string name="restore_defaults">既定に戻す</string>
     <string name="use_default">デフォルトに戻す</string>
     <string name="default_color">デフォルト</string>
     <string name="change_color">色を変更</string>
@@ -150,8 +150,8 @@
     <string name="undo_changes_confirmation">変更を元に戻してもよろしいですか？</string>
     <string name="save_before_closing">保存していない変更があります。保存しますか？</string>
     <string name="apply_to_all_apps">すべてのSimple Appsに色を適用する</string>
-    <string name="light_theme">ライト</string>
-    <string name="dark_theme">ダーク</string>
+    <string name="light_theme">明るい</string>
+    <string name="dark_theme">暗闇</string>
     <string name="solarized">ｿﾗﾘｾﾞｰｼｮﾝ</string>
     <string name="dark_red">ダークレッド</string>
     <string name="black_white">モノクロ</string>
@@ -285,7 +285,7 @@
         <item quantity="other">%d分</item>
     </plurals>
     <plurals name="by_hours">
-        <item quantity="other">%d時</item>
+        <item quantity="other">%d時間</item>
     </plurals>
     <plurals name="by_days">
         <item quantity="other">%d日</item>
@@ -314,8 +314,8 @@
     <string name="use_english_language">英語で表示する</string>
     <string name="show_hidden_items">隠しノードの表示</string>
     <string name="font_size">メモのフォントサイズ</string>
-    <string name="small">小</string>
-    <string name="medium">通常</string>
+    <string name="small">小さい</string>
+    <string name="medium">標準</string>
     <string name="large">大</string>
     <string name="extra_large">特大</string>
     <string name="password_protect_hidden_items">非表示にした項目をパスワードで保護する</string>
@@ -381,10 +381,10 @@
     <string name="monday_letter">月</string>
     <string name="tuesday_letter">火</string>
     <string name="wednesday_letter">水</string>
-    <string name="thursday_letter">木</string>
+    <string name="thursday_letter">火</string>
     <string name="friday_letter">金</string>
     <string name="saturday_letter">土</string>
-    <string name="sunday_letter">日</string>
+    <string name="sunday_letter">土</string>
     <string name="monday_short">月</string>
     <string name="tuesday_short">火</string>
     <string name="wednesday_short">水</string>
