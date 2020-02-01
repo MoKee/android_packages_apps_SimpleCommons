@@ -19,7 +19,7 @@
     <string name="details">Λεπτομέρειες</string>
     <string name="notes">Σημειώσεις</string>
     <string name="deleting_folder">Διαγραφή φακέλου \'%s\'</string>
-    <string name="none">Κανένα</string>
+    <string name="none">Χωρίς</string>
     <string name="label">Ετικέτα</string>
     <string name="transparent">Διαφάνεια</string>
     <string name="transparent_color">Χρώμα διαφάνειας</string>
@@ -93,7 +93,7 @@
     <string name="merge">Συγχώνευση</string>
     <string name="keep_both">Κρατήστε και τα δύο</string>
     <string name="overwrite">Αντικατάσταση</string>
-    <string name="skip">Παράλειψη</string>
+    <string name="skip">Παράβλεψη</string>
     <string name="append">Προσάρτηση με \'_1\'</string>
     <string name="apply_to_all">Εφαρμογή σε όλα</string>
     <string name="select_folder">Επιλέξτε ένα φάκελο</string>
@@ -133,7 +133,7 @@
     <string name="exposure_time">Χρόνος έκθεσης</string>
     <string name="iso_speed">Ταχύτητα ISO</string>
     <string name="f_number">F-αριθμός</string>
-    <string name="camera">Φωτογραφική μηχανή</string>
+    <string name="camera">Κάμερα</string>
     <string name="song_title">Τίτλος τραγουδιού</string>
     <string name="background_color">Χρώμα φόντου</string>
     <string name="text_color">Χρώμα κειμένου</string>
@@ -154,17 +154,17 @@
     <string name="apply_to_all_apps">Εφαρμογή χρωμάτων σε όλες τις Simple Apps</string>
     <string name="share_colors_success">Τα χρώματα ενημερώθηκαν με επιτυχία. Ένα νέο θέμα που ονομάζεται  \"Κοινόχρηστο\" έχει προστεθεί, παρακαλούμε να χρησιμοποιήστε το για την ενημέρωση των χρωμάτων όλων των εφαρμ. στο μέλλον.</string>
     <string name="light_theme">Φωτεινό</string>
-    <string name="dark_theme">Σκοτάδι</string>
+    <string name="dark_theme">Σκούρο</string>
     <string name="dark_red">Σκούρο κόκκινο</string>
     <string name="black_white">Μαύρο &amp; Άσπρο</string>
-    <string name="custom">Προσαρμοσμένη</string>
+    <string name="custom">Προσαρμογή</string>
     <string name="shared">Κοινόχρηστο</string>
     <string name="whats_new">Τι νέο υπάρχει</string>
     <string name="whats_new_disclaimer">* μόνο οι μεγαλύτερες ενημερώσεις παρατίθενται εδώ, υπάρχουν πάντα μερικές μικρότερες βελτιώσεις επίσης</string>
     <string name="delete">Διαγραφή</string>
     <string name="remove">Αφαίρεση</string>
     <string name="rename">Μετονομασία</string>
-    <string name="share">Κοινή χρήση</string>
+    <string name="share">Κοινόχρηστο</string>
     <string name="share_via">Κοινόχρηστο μέσω</string>
     <string name="select_all">Επιλογή όλων</string>
     <string name="hide">Απόκρυψη</string>
@@ -182,7 +182,7 @@
     <string name="size">Μέγεθος</string>
     <string name="last_modified">Τελευταία τροποποίηση</string>
     <string name="date_taken">Ημερ. λήψης</string>
-    <string name="title">Τίτλος</string>
+    <string name="title">Τίτλο</string>
     <string name="filename">Όνομα αρχείου</string>
     <string name="extension">Επέκταση</string>
     <string name="random">Τυχαία</string>
@@ -196,7 +196,7 @@
     <string name="are_you_sure_delete">Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το στοιχείο?</string>
     <string name="are_you_sure_recycle_bin">Είστε βέβαιοι ότι θέλετε να μετακινήσετε αυτό το στοιχείο στον κάδο ανακύκλωσης?</string>
     <string name="do_not_ask_again">Μην ξαναρωτήσετε σε αυτήν την περίοδο</string>
-    <string name="yes">Ναι</string>
+    <string name="yes">Ναί</string>
     <string name="no">Όχι</string>
     <plurals name="delete_warning">
         <item quantity="one">Προειδοποίηση: Διαγράφετε %d φάκελο</item>
@@ -222,9 +222,9 @@
     <string name="yesterday">Χθές</string>
     <string name="today">Σήμερα</string>
     <string name="tomorrow">Αύριο</string>
-    <string name="seconds_raw">δευτερόλεπτα</string>
-    <string name="minutes_raw">λεπτά</string>
-    <string name="hours_raw">ώρες</string>
+    <string name="seconds_raw">δευτ.</string>
+    <string name="minutes_raw">λεπτ.</string>
+    <string name="hours_raw">ώρ.</string>
     <string name="days_raw">ημερ.</string>
     <plurals name="seconds">
         <item quantity="one">%d δευτ.</item>
@@ -255,16 +255,16 @@
         <item quantity="other">%d χρόνια</item>
     </plurals>
     <plurals name="in_seconds">
-        <item quantity="one">%d δευτ.</item>
-        <item quantity="other">%d δευτ.</item>
+        <item quantity="one">σε %d δευτ.</item>
+        <item quantity="other">σε %d δευτ.</item>
     </plurals>
     <plurals name="in_minutes">
-        <item quantity="one">%d λεπτ.</item>
-        <item quantity="other">%d λεπτ.</item>
+        <item quantity="one">σε %d λεπτ.</item>
+        <item quantity="other">σε %d λεπτ.</item>
     </plurals>
     <plurals name="in_hours">
-        <item quantity="one">%d ώρ.</item>
-        <item quantity="other">%d ώρ.</item>
+        <item quantity="one">σε %d ώρ.</item>
+        <item quantity="other">σε %d ώρ.</item>
     </plurals>
     <plurals name="in_days">
         <item quantity="one">%d ημερ.</item>
@@ -299,16 +299,16 @@
         <item quantity="other">πρίν %d ημερ.</item>
     </plurals>
     <plurals name="by_seconds">
-        <item quantity="one">%d δευτ.</item>
-        <item quantity="other">%d δευτ.</item>
+        <item quantity="one">αναβολή %d δευτ.</item>
+        <item quantity="other">αναβολή %d δευτ.</item>
     </plurals>
     <plurals name="by_minutes">
-        <item quantity="one">%d λεπτ.</item>
-        <item quantity="other">%d λεπτ.</item>
+        <item quantity="one">αναβολή %d λεπτ.</item>
+        <item quantity="other">αναβολή %d λεπτ.</item>
     </plurals>
     <plurals name="by_hours">
-        <item quantity="one">%d ώρ.</item>
-        <item quantity="other">%d ώρ.</item>
+        <item quantity="one">αναβολή %d ώρ.</item>
+        <item quantity="other">αναβολή %d ώρ.</item>
     </plurals>
     <plurals name="by_days">
         <item quantity="one">%d ημερ.</item>
@@ -331,9 +331,9 @@
     <string name="alarm_warning">Βεβαιωθείτε ότι η ειδοποίηση λειτουργεί σωστά πριν βασιστείτε σε αυτήν. Θα μπορούσε να αποτύχει λόγω των περιορισμών του συστήματος που σχετίζονται με την εξοικονόμηση μπαταρίας.</string>
     <string name="reminder_warning">Βεβαιωθείτε ότι η υπενθύμιση λειτουργεί σωστά πριν βασιστείτε σε αυτήν. Θα μπορούσε να αποτύχει λόγω των περιορισμών του συστήματος που σχετίζονται με την εξοικονόμηση μπαταρίας.</string>
     <string name="notifications_disabled">Οι ειδοποιήσεις αυτής της εφαρμογής είναι απενεργοποιημένες. Μεταβείτε στις ρυθμίσεις της συσκευής για να τις ενεργοποιήσετε.</string>
-    <string name="alarm">Ξυπνητήρι</string>
+    <string name="alarm">Ειδοποιήσεις</string>
     <string name="snooze">Αναβολή</string>
-    <string name="dismiss">Παράβλεψη</string>
+    <string name="dismiss">Απόρριψη</string>
     <string name="no_reminder">Χωρίς υπενθύμιση</string>
     <string name="at_start">Κατά την έναρξη</string>
     <string name="system_sounds">Ήχοι συστήματος</string>
@@ -348,7 +348,7 @@
     <string name="show_hidden_items">Εμφάνιση κρυφών στοιχείων</string>
     <string name="font_size">Μέγεθος κειμένου</string>
     <string name="small">Μικρό</string>
-    <string name="medium">Μέτρια</string>
+    <string name="medium">Μεσαίο</string>
     <string name="large">Μεγάλο</string>
     <string name="extra_large">Πολύ Μεγάλο</string>
     <string name="password_protect_hidden_items">Κωδικός προστασίας προβολής κρυφών στοιχείων</string>
@@ -432,10 +432,10 @@
     <string name="monday_letter">Δ</string>
     <string name="tuesday_letter">Τ</string>
     <string name="wednesday_letter">Τ</string>
-    <string name="thursday_letter">Τ</string>
+    <string name="thursday_letter">Π</string>
     <string name="friday_letter">Π</string>
     <string name="saturday_letter">Σ</string>
-    <string name="sunday_letter">Σ</string>
+    <string name="sunday_letter">Κ</string>
     <string name="monday_short">Δευ</string>
     <string name="tuesday_short">Τρί</string>
     <string name="wednesday_short">Τετ</string>

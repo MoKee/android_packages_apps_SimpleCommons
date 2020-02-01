@@ -11,7 +11,7 @@
     <string name="open_with">Åpne med</string>
     <string name="edit_with">Rediger med</string>
     <string name="no_app_found">Ingen gyldig app funnet</string>
-    <string name="set_as">Angi som</string>
+    <string name="set_as">Sett som</string>
     <string name="value_copied_to_clipboard">Verdi kopiert til utklippstavle</string>
     <string name="unknown">Ukjent</string>
     <string name="always">Alltid</string>
@@ -117,6 +117,7 @@
     <string name="primary_color">Primærfarge</string>
     <string name="foreground_color">Forgrunnsfarge</string>
     <string name="app_icon_color">Farge for app-ikon</string>
+    <string name="restore_defaults">Gjenopprett standard</string>
     <string name="use_default">Bruk standard</string>
     <string name="default_color">Standard</string>
     <string name="change_color">Endre farge</string>
@@ -129,17 +130,18 @@
     <string name="save_before_closing">Du har endringer som ikke er lagret. Lagre før du avslutter?</string>
     <string name="apply_to_all_apps">Bruk fargene i alle Simple Apps</string>
     <string name="share_colors_success">Fargene er vellykket oppdatert. Et nytt tema kalt \'Delt\' er lagt til, bruk det for å oppdatere alle appenes farger i fremtiden.</string>
+    <string name="light_theme">Lyst</string>
     <string name="dark_theme">Mørkt</string>
     <string name="solarized">Solarisert</string>
     <string name="dark_red">Mørkerødt</string>
     <string name="black_white">Svart &amp; hvitt</string>
-    <string name="custom">Egendefinert</string>
+    <string name="custom">Tilpasset</string>
     <string name="shared">Delt</string>
     <string name="whats_new">Hva er nytt</string>
     <string name="whats_new_disclaimer">* bare de større oppdateringene er oppført her, det er alltid noen mindre forbedringer også</string>
     <string name="delete">Slett</string>
     <string name="remove">Fjern</string>
-    <string name="rename">Gi nytt navn</string>
+    <string name="rename">Endre navn</string>
     <string name="share">Del</string>
     <string name="share_via">Del via</string>
     <string name="select_all">Velg alle</string>

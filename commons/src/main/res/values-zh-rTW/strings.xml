@@ -13,9 +13,9 @@
     <string name="no_app_found">找不到應用程式</string>
     <string name="set_as">設為</string>
     <string name="value_copied_to_clipboard">數值複製到剪貼簿</string>
-    <string name="unknown">不明</string>
+    <string name="unknown">未知的</string>
     <string name="always">總是</string>
-    <string name="never">永不</string>
+    <string name="never">從不</string>
     <string name="details">詳細資訊</string>
     <string name="notes">筆記</string>
     <string name="deleting_folder">資料夾 \'%s\' 刪除中</string>
@@ -100,7 +100,7 @@
     <string name="merge">合併</string>
     <string name="keep_both">雙方皆保留</string>
     <string name="overwrite">覆蓋</string>
-    <string name="skip">略過</string>
+    <string name="skip">跳過</string>
     <string name="append">附加 \'_1\'</string>
     <string name="apply_to_all">添加到全部衝突</string>
     <string name="select_folder">選擇資料夾</string>
@@ -120,7 +120,7 @@
     </plurals>
     <string name="select_storage">選擇儲存空間</string>
     <string name="internal">內部儲存空間</string>
-    <string name="sd_card">SD 卡</string>
+    <string name="sd_card">SD卡</string>
     <string name="root">根目錄</string>
     <string name="wrong_root_selected">選擇了錯誤的資料夾，請選擇SD卡的根目錄</string>
     <string name="sd_card_usb_same">SD 卡和 USB 裝置的路徑不能相同</string>
@@ -150,7 +150,7 @@
     <string name="foreground_color">前景顏色</string>
     <string name="app_icon_color">應用程式圖標顏色</string>
     <string name="bottom_navigation_bar_color">底部導航列顏色</string>
-    <string name="restore_defaults">還原預設值</string>
+    <string name="restore_defaults">恢復預設</string>
     <string name="use_default">使用預設</string>
     <string name="default_color">預設</string>
     <string name="change_color">改變顏色</string>
@@ -164,8 +164,8 @@
     <string name="apply_to_all_apps">將顏色套用於[簡易]系列全部應用程式</string>
     <string name="app_icon_color_warning">警告：某些啟動程序無法正確處理自定義應用程序圖標。如果可能，請嘗試通過Google Play或小部件打開應用，如果圖標不可見。如果您已重新打開該應用程序，只需重置默認的橙色圖標＃F57C00。在最壞的情況下，您可能需要重新安裝應用程序。</string>
     <string name="share_colors_success">顏色更新成功。新增了一個名為 \'Shared\' 的新主題，以後請使用那個來更新全部應用程式顏色。</string>
-    <string name="light_theme">淺色</string>
-    <string name="dark_theme">深色</string>
+    <string name="light_theme">明亮主題</string>
+    <string name="dark_theme">灰暗主題</string>
     <string name="solarized">過度曝光</string>
     <string name="dark_red">深紅主題</string>
     <string name="black_white">黑白主題</string>
@@ -241,7 +241,7 @@
     <string name="yesterday">昨天</string>
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>
-    <string name="seconds_raw">秒</string>
+    <string name="seconds_raw">秒鐘</string>
     <string name="minutes_raw">分鐘</string>
     <string name="hours_raw">小時</string>
     <string name="days_raw">天</string>
@@ -335,8 +335,8 @@
     <string name="reminder_warning">依靠提醒功能之前，請先確認是否正常運作，有可能因為省電相關的系統限制而導致失靈。</string>
     <string name="notifications_disabled">這應用程式的通知被停用了。請到你的裝置設定中去啟用。</string>
     <string name="alarm">鬧鐘</string>
-    <string name="snooze">貪睡</string>
-    <string name="dismiss">忽略</string>
+    <string name="snooze">延遲</string>
+    <string name="dismiss">關閉</string>
     <string name="no_reminder">不提醒</string>
     <string name="at_start">準時</string>
     <string name="system_sounds">系統音效</string>
@@ -384,7 +384,7 @@
     <string name="recycle_bin">回收桶</string>
     <string name="saving_label">儲存中</string>
     <string name="startup">啟動</string>
-    <string name="text">純文字</string>
+    <string name="text">文字</string>
     <string name="migrating">移入</string>
     <string name="restore_this_file">還原這個檔案</string>
     <string name="restore_selected_files">還原選擇的檔案</string>
@@ -447,10 +447,10 @@
     <string name="monday_letter">一</string>
     <string name="tuesday_letter">二</string>
     <string name="wednesday_letter">三</string>
-    <string name="thursday_letter">二</string>
+    <string name="thursday_letter">四</string>
     <string name="friday_letter">五</string>
     <string name="saturday_letter">六</string>
-    <string name="sunday_letter">六</string>
+    <string name="sunday_letter">日</string>
     <string name="monday_short">週一</string>
     <string name="tuesday_short">週二</string>
     <string name="wednesday_short">週三</string>
@@ -474,7 +474,7 @@
     <string name="share_text">嘿，來試試看「%1$s」吧！ %2$s</string>
     <string name="invite_via">邀請</string>
     <string name="rate_us_underlined"><u>評分我們</u></string>
-    <string name="rate">評分</string>
+    <string name="rate">評價</string>
     <string name="donate">捐贈</string>
     <string name="donate_underlined"><u>捐贈</u></string>
     <string name="follow_us">追蹤我們</string>

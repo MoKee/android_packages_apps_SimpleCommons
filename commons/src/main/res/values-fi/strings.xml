@@ -11,12 +11,12 @@
     <string name="open_with">Avaa sovelluksessa</string>
     <string name="edit_with">Muokkaa sovelluksella</string>
     <string name="no_app_found">Sovelluksia ei löydetty</string>
-    <string name="set_as">Aseta kuva</string>
+    <string name="set_as">Aseta</string>
     <string name="value_copied_to_clipboard">Kopioitu leikepöydälle</string>
-    <string name="unknown">Ei tiedossa</string>
+    <string name="unknown">Tuntematon</string>
     <string name="always">Aina</string>
     <string name="never">Ei koskaan</string>
-    <string name="details">Tiedot</string>
+    <string name="details">Yksityiskohdat</string>
     <string name="notes">Muistiinpanot</string>
     <string name="none">Ei mitään</string>
     <string name="download">Lataa</string>
@@ -25,7 +25,7 @@
     <string name="favorites">Suosikit</string>
     <string name="add_to_favorites">Lisää suosikkeihin</string>
     <string name="remove_from_favorites">Poista suosikeista</string>
-    <string name="search">Etsi</string>
+    <string name="search">Haku</string>
     <string name="type_2_characters">Syötä ainakin 2 merkkiä hakeaksesi</string>
     <string name="filter">Suodata</string>
     <string name="no_items_found">Tiedostoja ei löytynyt.</string>
@@ -96,7 +96,7 @@
     <string name="confirm_selection">Vahvista valinta</string>
     <string name="select_storage">Valitse tallennustila</string>
     <string name="internal">Sisäinen</string>
-    <string name="sd_card">SD-kortti</string>
+    <string name="sd_card">Muistikortti</string>
     <string name="wrong_root_selected">Väärä kansio valittu, valitse muistikortin root-kansio</string>
     <string name="sd_card_usb_same">Muistikortin ja USB-laitteen polut eivät voi olla samat</string>
     <string name="properties">Ominaisuudet</string>
@@ -119,7 +119,7 @@
     <string name="primary_color">Ensisijainen väri</string>
     <string name="foreground_color">Etualan väri</string>
     <string name="app_icon_color">Sovelluksen ikonin väri</string>
-    <string name="restore_defaults">Palauta oletusarvot</string>
+    <string name="restore_defaults">Palauta oletukset</string>
     <string name="use_default">Käytä oletuksia</string>
     <string name="default_color">Oletus</string>
     <string name="theme">Teema</string>
@@ -135,13 +135,13 @@
     <string name="dark_theme">Tumma</string>
     <string name="dark_red">Tumman punainen</string>
     <string name="black_white">Musta &amp; Valkoinen</string>
-    <string name="custom">Muokattu</string>
+    <string name="custom">Oma</string>
     <string name="shared">Jaettu</string>
     <string name="whats_new">Mitä uutta</string>
     <string name="whats_new_disclaimer">* tässä mainitaan vain isot muutokset, ei pieniä korjauksia</string>
     <string name="delete">Poista</string>
     <string name="remove">Poista</string>
-    <string name="rename">Nimeä uudelleen</string>
+    <string name="rename">Uudelleennimeä</string>
     <string name="share">Jaa</string>
     <string name="share_via">Jaa sovelluksella</string>
     <string name="select_all">Valitse kaikki</string>
@@ -155,19 +155,19 @@
     <string name="undo">Kumoa</string>
     <string name="redo">Toista</string>
     <string name="sort_by">Järjestä</string>
-    <string name="name">Nimi</string>
+    <string name="name">Nimen perusteella</string>
     <string name="size">Koon perusteella</string>
     <string name="last_modified">Viimeksi muokattu</string>
     <string name="date_taken">Viimeksi kuvattu</string>
-    <string name="title">Nimi</string>
+    <string name="title">Otsikko</string>
     <string name="filename">Tiedostonimi</string>
     <string name="ascending">Nouseva</string>
     <string name="descending">Laskeva</string>
     <string name="use_for_this_folder">Käytä vain tässä kansiossa</string>
     <string name="proceed_with_deletion">Haluatko varmasti poistaa pysyvästi?</string>
     <string name="do_not_ask_again">Älä kysy uudestaan tällä istunnolla</string>
-    <string name="yes">Kyllä</string>
-    <string name="no">Ei</string>
+    <string name="yes">Poista</string>
+    <string name="no">Peruuta</string>
     <string name="enter_pin">Syötä PIN</string>
     <string name="please_enter_pin">Syötä PIN</string>
     <string name="wrong_pin">Väärä PIN</string>
@@ -188,8 +188,8 @@
     <string name="today">Tänään</string>
     <string name="tomorrow">Huomenna</string>
     <string name="seconds_raw">sekuntia</string>
-    <string name="minutes_raw">minuuttia</string>
-    <string name="hours_raw">tuntia</string>
+    <string name="minutes_raw">minuutit</string>
+    <string name="hours_raw">tunnit</string>
     <string name="days_raw">päivät</string>
     <plurals name="seconds">
         <item quantity="one">%d sekunti</item>
@@ -220,16 +220,16 @@
         <item quantity="other">%d vuotta</item>
     </plurals>
     <plurals name="in_seconds">
-        <item quantity="one">%d sekunti</item>
-        <item quantity="other">%d sekuntia</item>
+        <item quantity="one">%d sekunnissa</item>
+        <item quantity="other">%d sekunnissa</item>
     </plurals>
     <plurals name="in_minutes">
-        <item quantity="one">%d minuutti</item>
-        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">%d minuutissa</item>
+        <item quantity="other">%d minuutissa</item>
     </plurals>
     <plurals name="in_hours">
-        <item quantity="one">%d tunti</item>
-        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunnissa</item>
+        <item quantity="other">%d tunnissa</item>
     </plurals>
     <plurals name="in_days">
         <item quantity="one">%d päivä</item>
@@ -264,16 +264,16 @@
         <item quantity="other">%d päivää ennen</item>
     </plurals>
     <plurals name="by_seconds">
-        <item quantity="one">%d sekunti</item>
-        <item quantity="other">%d sekuntia</item>
+        <item quantity="one">%d sekunnilla</item>
+        <item quantity="other">%d sekunnilla</item>
     </plurals>
     <plurals name="by_minutes">
-        <item quantity="one">%d minuutti</item>
-        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">%d minuutilla</item>
+        <item quantity="other">%d minuutilla</item>
     </plurals>
     <plurals name="by_hours">
-        <item quantity="one">%d tunti</item>
-        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunnilla</item>
+        <item quantity="other">%d tunnilla</item>
     </plurals>
     <plurals name="by_days">
         <item quantity="one">%d päivä</item>
@@ -295,8 +295,8 @@
     <string name="alarm_warning">Varmista että hälytys toimii ennenkuin turvaudut siihen. Se voi toimia virheellisesti laitteesi virransäästötoiminnoista riippuen.</string>
     <string name="reminder_warning">Varmista että muistutus toimii ennenkuin turvaudut siihen. Se voi toimia virheellisesti laitteesi virransäästötoiminnoista riippuen.</string>
     <string name="alarm">Hälytys</string>
-    <string name="snooze">Torkku</string>
-    <string name="dismiss">Hylkää</string>
+    <string name="snooze">Torkuta</string>
+    <string name="dismiss">Ohita</string>
     <string name="no_reminder">Ei muistutusta</string>
     <string name="at_start">Alussa</string>
     <string name="settings">Asetukset</string>
@@ -305,7 +305,7 @@
     <string name="show_hidden_items">Näytä piilotetut tiedostot</string>
     <string name="font_size">Fonttikoko</string>
     <string name="small">Pieni</string>
-    <string name="medium">Keskitaso</string>
+    <string name="medium">Keskikokoinen</string>
     <string name="large">Suuri</string>
     <string name="extra_large">Erittäin suuri</string>
     <string name="password_protect_hidden_items">Suojaa piilotetut salasanalla</string>
@@ -357,7 +357,7 @@
     <string name="wednesday_letter">K</string>
     <string name="friday_letter">P</string>
     <string name="saturday_letter">L</string>
-    <string name="sunday_letter">L</string>
+    <string name="sunday_letter">S</string>
     <string name="monday_short">Maa</string>
     <string name="tuesday_short">Tii</string>
     <string name="wednesday_short">Kes</string>

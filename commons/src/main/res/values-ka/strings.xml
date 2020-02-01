@@ -7,7 +7,7 @@
     <string name="none">არც ერთი</string>
     <string name="search">ძიება</string>
     <string name="path">მდებარეობა</string>
-    <string name="duration">ხანგრძლივობა</string>
+    <string name="duration">ხანგრძლივობა:</string>
     <string name="exposure_time">ექსპოზიციის დრო</string>
     <string name="camera">კამერა</string>
     <string name="save">შენახვა</string>
@@ -24,7 +24,7 @@
     <string name="yes">დიახ</string>
     <string name="today">დღეს</string>
     <string name="tomorrow">ხვალ</string>
-    <string name="seconds_raw">წამები</string>
+    <string name="seconds_raw">წამი</string>
     <string name="minutes_raw">წუთი</string>
     <string name="hours_raw">საათი</string>
     <string name="snooze">ჩაჩუმება</string>

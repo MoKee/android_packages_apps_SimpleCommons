@@ -3,7 +3,7 @@
 <resources>
     <string name="set_as">កំណត់​ជា</string>
     <string name="unknown">មិន​ស្គាល់</string>
-    <string name="details">ព័ត៌មាន​លម្អិត</string>
+    <string name="details">សេចក្ដី​លម្អិត</string>
     <string name="none">គ្មាន</string>
     <string name="search">ស្វែងរក</string>
     <string name="path">ផ្លូវ</string>

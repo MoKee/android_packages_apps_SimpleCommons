@@ -13,7 +13,7 @@
     <string name="no_app_found">Não foi encontrada nenhuma aplicação válida</string>
     <string name="set_as">Definir como</string>
     <string name="value_copied_to_clipboard">Valor copiado para área de transferência</string>
-    <string name="unknown">Desconhecida</string>
+    <string name="unknown">Desconhecido</string>
     <string name="always">Sempre</string>
     <string name="never">Nunca</string>
     <string name="details">Detalhes</string>
@@ -24,14 +24,14 @@
     <string name="transparent">Transparente</string>
     <string name="transparent_color">Cor transparente</string>
     <string name="select_a_different_color">Selecionar uma cor diferente</string>
-    <string name="download">Transferir</string>
+    <string name="download">Transferência</string>
     <string name="notification">Notificação</string>
     <string name="email">E-mail</string>
     <string name="favorites">Marcadores</string>
     <string name="add_favorites">Adicionar favoritos</string>
     <string name="add_to_favorites">Adicionar aos marcadores</string>
     <string name="remove_from_favorites">Remover dos favoritos</string>
-    <string name="search">Pesquisar</string>
+    <string name="search">Pesquisa</string>
     <string name="type_2_characters">Digite pelo menos 2 caracteres para iniciar a pesquisa.</string>
     <string name="filter">Filtro</string>
     <string name="no_items_found">Não foram encontrados itens.</string>
@@ -94,7 +94,7 @@
     <string name="merge">Unir</string>
     <string name="keep_both">Manter ambos</string>
     <string name="overwrite">Substituir</string>
-    <string name="skip">Saltar</string>
+    <string name="skip">Pular</string>
     <string name="append">Anexar com \'_1\'</string>
     <string name="apply_to_all">Aplicar a tudo</string>
     <string name="select_folder">Selecionar uma pasta</string>
@@ -132,7 +132,7 @@
     <string name="artist">Artista</string>
     <string name="album">Álbum</string>
     <string name="focal_length">Distância focal</string>
-    <string name="exposure_time">Tempo de exposição</string>
+    <string name="exposure_time">Tempo expos.</string>
     <string name="iso_speed">Velocidade ISO</string>
     <string name="f_number">Número F</string>
     <string name="camera">Câmara</string>
@@ -391,7 +391,7 @@
     <string name="more_info">Mais informação</string>
     <string name="upgrade">Actualizar</string>
     <string name="about">Sobre</string>
-    <string name="rate">Classifique</string>
+    <string name="rate">Avaliar</string>
     <string name="donate">Doar</string>
     <string name="purchase">Compra</string>
     <string name="third_party_licences">Licenças de terceiros</string>

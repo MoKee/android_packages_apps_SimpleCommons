@@ -19,11 +19,11 @@
     <string name="default_color">Verstek</string>
     <string name="save">Stoor</string>
     <string name="dark_theme">Donker</string>
-    <string name="custom">Pasmaak</string>
-    <string name="delete">Verwyder</string>
+    <string name="custom">Gepasmaakte</string>
+    <string name="delete">Vee uit</string>
     <string name="remove">Verwyder</string>
     <string name="rename">Hernoem</string>
-    <string name="share">Deel</string>
+    <string name="share">Deling</string>
     <string name="share_via">Deel via</string>
     <string name="select_all">Kies almal</string>
     <string name="undo">Ontdoen</string>
@@ -38,10 +38,10 @@
     <string name="tomorrow">Môre</string>
     <string name="seconds_raw">sekondes</string>
     <string name="minutes_raw">minute</string>
-    <string name="hours_raw">uur</string>
+    <string name="hours_raw">ure</string>
     <string name="alarm">Wekker</string>
     <string name="snooze">Sluimer</string>
-    <string name="dismiss">Maak toe</string>
+    <string name="dismiss">Verwyder</string>
     <string name="settings">Instellings</string>
     <string name="small">Klein</string>
     <string name="medium">Gemiddeld</string>

@@ -6,11 +6,11 @@
     <string name="save_as">Salvar como</string>
     <string name="file_saved">Arquivo salvo com sucesso</string>
     <string name="invalid_file_format">Formato de arquivo inválido</string>
-    <string name="out_of_memory_error">Erro de falta de memória</string>
+    <string name="out_of_memory_error">Memória insuficiente</string>
     <string name="an_error_occurred">Ocorreu um erro: %s</string>
     <string name="open_with">Abrir com</string>
     <string name="edit_with">Editar com</string>
-    <string name="no_app_found">Nenhum aplicativo válido encontrado</string>
+    <string name="no_app_found">Nenhum aplicativo encontrado</string>
     <string name="set_as">Definir como</string>
     <string name="value_copied_to_clipboard">Valor copiado para a área de transferência</string>
     <string name="unknown">Desconhecido</string>
@@ -18,9 +18,9 @@
     <string name="never">Nunca</string>
     <string name="details">Detalhes</string>
     <string name="notes">Notas</string>
-    <string name="deleting_folder">Excluindo a pasta \'%s\'</string>
-    <string name="none">Sem efeito</string>
-    <string name="label">Rótulo</string>
+    <string name="deleting_folder">Excluindo pastas \'%s\'</string>
+    <string name="none">Nenhum</string>
+    <string name="label">Descrição</string>
     <string name="transparent">Transparente</string>
     <string name="transparent_color">Cor transparente</string>
     <string name="select_a_different_color">Selecione uma cor diferente</string>
@@ -31,7 +31,7 @@
     <string name="add_favorites">Adicionar favoritos</string>
     <string name="add_to_favorites">Adicionar aos favoritos</string>
     <string name="remove_from_favorites">Remover dos favoritos</string>
-    <string name="search">Procurar</string>
+    <string name="search">Pesquisar</string>
     <string name="type_2_characters">Digite pelo menos 2 letras para iniciar a pesquisa.</string>
     <string name="filter">Filtrar</string>
     <string name="no_items_found">Nenhum item encontrado.</string>
@@ -100,7 +100,7 @@
     <string name="merge">Mesclar</string>
     <string name="keep_both">Manter ambos</string>
     <string name="overwrite">Substituir</string>
-    <string name="skip">Pular</string>
+    <string name="skip">Ignorar</string>
     <string name="append">Adicionar sufixo \'_1\'</string>
     <string name="apply_to_all">Aplicar a todos os conflitos</string>
     <string name="select_folder">Selecionar pasta</string>
@@ -139,7 +139,7 @@
     <string name="artist">Artista</string>
     <string name="album">Álbum</string>
     <string name="focal_length">Distância focal</string>
-    <string name="exposure_time">Temp. exposiç.</string>
+    <string name="exposure_time">Tempo de exposição</string>
     <string name="iso_speed">Velocidade ISO</string>
     <string name="f_number">Abertura</string>
     <string name="camera">Câmera</string>
@@ -153,7 +153,7 @@
     <string name="foreground_color">Cor da fonte</string>
     <string name="app_icon_color">Cor do ícone do aplicativo</string>
     <string name="bottom_navigation_bar_color">Cor da barra de navegação inferior</string>
-    <string name="restore_defaults">Restaurar padrões</string>
+    <string name="restore_defaults">Restaurar predefinições</string>
     <string name="use_default">Usar padrão</string>
     <string name="default_color">Padrão</string>
     <string name="change_color">Mudar cor</string>
@@ -177,7 +177,7 @@
     <string name="shared">Compartilhado</string>
     <string name="whats_new">Novidades</string>
     <string name="whats_new_disclaimer">* apenas as alterações significativas são listadas aqui, mas existem sempre mais alterações do que as aqui referidas</string>
-    <string name="delete">Excluir</string>
+    <string name="delete">Apagar</string>
     <string name="remove">Remover</string>
     <string name="rename">Renomear</string>
     <string name="share">Compartilhar</string>
@@ -384,7 +384,7 @@
     <string name="show_hidden_items">Mostrar itens ocultos</string>
     <string name="font_size">Tamanho do texto</string>
     <string name="small">Pequeno</string>
-    <string name="medium">Média</string>
+    <string name="medium">Médio</string>
     <string name="large">Grande</string>
     <string name="extra_large">Muito grande</string>
     <string name="password_protect_hidden_items">Restringir a visualização de itens ocultos com senha</string>
@@ -484,7 +484,7 @@
     <string name="thursday_letter">Q</string>
     <string name="friday_letter">S</string>
     <string name="saturday_letter">S</string>
-    <string name="sunday_letter">S</string>
+    <string name="sunday_letter">D</string>
     <string name="monday_short">Seg</string>
     <string name="tuesday_short">Ter</string>
     <string name="wednesday_short">Qua</string>
@@ -508,7 +508,7 @@
     <string name="share_text">Olá, experimente %1$s em %2$s</string>
     <string name="invite_via">Convidar via</string>
     <string name="rate_us_underlined"><u>Nos avalie na Play Store</u></string>
-    <string name="rate">Nota</string>
+    <string name="rate">Avaliar</string>
     <string name="donate">Doações</string>
     <string name="donate_underlined"><u>Doações</u></string>
     <string name="follow_us">Siga-nos</string>

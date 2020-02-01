@@ -11,15 +11,15 @@
     <string name="open_with">Открыть в…</string>
     <string name="edit_with">Редактировать в…</string>
     <string name="no_app_found">Приложение не найдено</string>
-    <string name="set_as">Установить как</string>
+    <string name="set_as">Установить как…</string>
     <string name="value_copied_to_clipboard">Значение скопировано в буфер обмена</string>
     <string name="unknown">Неизвестно</string>
     <string name="always">Всегда</string>
-    <string name="never">Не отключать</string>
-    <string name="details">Детали</string>
+    <string name="never">Никогда</string>
+    <string name="details">Подробности</string>
     <string name="notes">Заметки</string>
     <string name="deleting_folder">Удаление папки \"%s\"</string>
-    <string name="none">Без эффекта</string>
+    <string name="none">Нет</string>
     <string name="label">Метка</string>
     <string name="transparent">Прозрачный</string>
     <string name="transparent_color">Прозрачный цвет</string>
@@ -136,7 +136,7 @@
     <string name="app_on_sd_card">Похоже, что приложение у вас установлено на SD-карту, а это делает виджеты приложений недоступными. Вы даже не увидите их в списке доступных виджетов.
         Это системное ограничение, поэтому, если вы хотите использовать виджеты, вам нужно переместить приложение обратно во внутреннюю память.</string>
     <string name="properties">Свойства</string>
-    <string name="path">Путь</string>
+    <string name="path">Расположение</string>
     <string name="items_selected">Выбрано элементов</string>
     <string name="direct_children_count">Дочерних элементов</string>
     <string name="files_count">Всего файлов внутри</string>
@@ -159,7 +159,7 @@
     <string name="foreground_color">Цвет переднего плана</string>
     <string name="app_icon_color">Цвет значка приложения</string>
     <string name="bottom_navigation_bar_color">Цвет нижней панели навигации</string>
-    <string name="restore_defaults">Восстановить по умолчанию</string>
+    <string name="restore_defaults">Сбросить к стандартным</string>
     <string name="use_default">Использовать по умолчанию</string>
     <string name="default_color">По умолчанию</string>
     <string name="change_color">Изменить цвет</string>
@@ -174,19 +174,19 @@
     <string name="app_icon_color_warning">ВНИМАНИЕ: Некоторые лаунчеры неправильно обрабатывают настройку значков приложений. Если значок приложения исчез, ​​попробуйте запустить приложение через Google Play или с помощью виджета приложения, если он доступен.
         После запуска просто установите оранжевый значок по умолчанию #F57C00. Возможно, вам придется переустановить приложение.</string>
     <string name="share_colors_success">Цвета обновлены. Добавлена новая тема с названием \"Общая\", в дальнейшем используйте её для обновления цветов всех приложений.</string>
-    <string name="light_theme">Светлый</string>
-    <string name="dark_theme">Темнота</string>
+    <string name="light_theme">Светлая</string>
+    <string name="dark_theme">Тёмная</string>
     <string name="solarized">Солнечная</string>
     <string name="dark_red">Тёмно-красная</string>
     <string name="black_white">Чёрно-белая</string>
-    <string name="custom">Пользовательские настр.</string>
+    <string name="custom">Своя</string>
     <string name="shared">Общая</string>
     <string name="whats_new">Что нового</string>
     <string name="whats_new_disclaimer">* здесь представлены только значительные изменения, но всегда присутствуют и мелкие исправления</string>
     <string name="delete">Удалить</string>
     <string name="remove">Убрать</string>
     <string name="rename">Переименовать</string>
-    <string name="share">Отправить</string>
+    <string name="share">Поделиться</string>
     <string name="share_via">Отправить через</string>
     <string name="select_all">Выделить все</string>
     <string name="hide">Скрыть</string>
@@ -202,7 +202,7 @@
     <string name="print">Печать</string>
     <string name="create_shortcut">Создать ярлык</string>
     <string name="sort_by">Сортировать по…</string>
-    <string name="name">Название</string>
+    <string name="name">Имя</string>
     <string name="size">Размер</string>
     <string name="last_modified">Время изменения</string>
     <string name="date_taken">Время создания</string>
@@ -254,9 +254,9 @@
     <string name="yesterday">Вчера</string>
     <string name="today">Сегодня</string>
     <string name="tomorrow">Завтра</string>
-    <string name="seconds_raw">сек.</string>
-    <string name="minutes_raw">мин.</string>
-    <string name="hours_raw">ч.</string>
+    <string name="seconds_raw">секунд</string>
+    <string name="minutes_raw">минут</string>
+    <string name="hours_raw">часов</string>
     <string name="days_raw">дней</string>
     <plurals name="seconds">
         <item quantity="one">%d секунда</item>
@@ -301,13 +301,13 @@
         <item quantity="other">%d года(лет)</item>
     </plurals>
     <plurals name="in_seconds">
-        <item quantity="one">%d секунда</item>
+        <item quantity="one">%d секунду</item>
         <item quantity="few">%d секунды</item>
         <item quantity="many">%d секунд</item>
         <item quantity="other">%d секунд</item>
     </plurals>
     <plurals name="in_minutes">
-        <item quantity="one">%d минута</item>
+        <item quantity="one">%d минуту</item>
         <item quantity="few">%d минуты</item>
         <item quantity="many">%d минут</item>
         <item quantity="other">%d минут</item>
@@ -385,13 +385,13 @@
         <item quantity="other">%d лет назад</item>
     </plurals>
     <plurals name="by_seconds">
-        <item quantity="one">%d секунда</item>
+        <item quantity="one">%d секунду</item>
         <item quantity="few">%d секунды</item>
         <item quantity="many">%d секунд</item>
         <item quantity="other">%d секунд</item>
     </plurals>
     <plurals name="by_minutes">
-        <item quantity="one">%d минута</item>
+        <item quantity="one">%d минуту</item>
         <item quantity="few">%d минуты</item>
         <item quantity="many">%d минут</item>
         <item quantity="other">%d минут</item>
@@ -433,7 +433,7 @@
     <string name="notifications_disabled">Уведомления этого приложения отключены. Пожалуйста, перейдите в настройки устройства и включите их.</string>
     <string name="alarm">Будильник</string>
     <string name="snooze">Отложить</string>
-    <string name="dismiss">Отклонить</string>
+    <string name="dismiss">Закрыть</string>
     <string name="no_reminder">Без напоминания</string>
     <string name="at_start">С наступлением события</string>
     <string name="system_sounds">Системные звуки</string>
@@ -447,8 +447,8 @@
     <string name="use_english_language">Использовать английский язык</string>
     <string name="show_hidden_items">Показывать скрытые файлы</string>
     <string name="font_size">Размер шрифта</string>
-    <string name="small">Небольшой</string>
-    <string name="medium">Средний</string>
+    <string name="small">Мелкий</string>
+    <string name="medium">Нормальный</string>
     <string name="large">Крупный</string>
     <string name="extra_large">Очень крупный</string>
     <string name="password_protect_hidden_items">Защита паролем отображения скрытых объектов</string>
@@ -547,10 +547,10 @@
     <string name="monday_letter">Пн</string>
     <string name="tuesday_letter">Вт</string>
     <string name="wednesday_letter">Ср</string>
-    <string name="thursday_letter">Вт</string>
+    <string name="thursday_letter">Чт</string>
     <string name="friday_letter">Пт</string>
     <string name="saturday_letter">Сб</string>
-    <string name="sunday_letter">Сб</string>
+    <string name="sunday_letter">Вс</string>
     <string name="monday_short">Пн</string>
     <string name="tuesday_short">Вт</string>
     <string name="wednesday_short">Ср</string>
@@ -574,7 +574,7 @@
     <string name="share_text">Эй! Попробуй %1$s по ссылке %2$s</string>
     <string name="invite_via">Пригласить с помощью</string>
     <string name="rate_us_underlined"><u>Оценить нас в Google Play</u></string>
-    <string name="rate">Оценить</string>
+    <string name="rate">Оценка</string>
     <string name="donate">Поддержать разработчика</string>
     <string name="donate_underlined"><u>Поддержать разработчика</u></string>
     <string name="follow_us">Подписаться на нас</string>

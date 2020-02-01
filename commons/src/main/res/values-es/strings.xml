@@ -19,7 +19,7 @@
     <string name="details">Detalles</string>
     <string name="notes">Notas</string>
     <string name="deleting_folder">Eliminando carpeta \'%s\'</string>
-    <string name="none">Ninguna</string>
+    <string name="none">Ninguno</string>
     <string name="label">Etiqueta</string>
     <string name="transparent">Transparente</string>
     <string name="transparent_color">Color transparente</string>
@@ -94,7 +94,7 @@
     <string name="merge">Fusionar</string>
     <string name="keep_both">Mantener ambos</string>
     <string name="overwrite">Sobreescribir</string>
-    <string name="skip">Omitir</string>
+    <string name="skip">Saltar</string>
     <string name="append">Añadir \'_1\'</string>
     <string name="apply_to_all">Aplicar a todo</string>
     <string name="select_folder">Seleccione una carpeta</string>
@@ -123,7 +123,7 @@
     <string name="app_on_sd_card">Parece que tienes la aplicación instalada en una tarjeta SD, lo que hace que los widgets de la aplicación no estén disponibles. Ni siquiera los verás en la lista de widgets disponibles.
         Es una limitación del sistema, por lo que si deseas usar los widgets, debes volver a colocar la aplicación en el almacenamiento interno.</string>
     <string name="properties">Propiedades</string>
-    <string name="path">Ruta</string>
+    <string name="path">Ubicación</string>
     <string name="items_selected">Elementos seleccionados</string>
     <string name="direct_children_count">Número de archivos directamente contenidos</string>
     <string name="files_count">Número total de archivos</string>
@@ -145,7 +145,7 @@
     <string name="foreground_color">Color de primer plano</string>
     <string name="app_icon_color">Color del icono de la aplicación</string>
     <string name="bottom_navigation_bar_color">Color de la barra de navegación inferior</string>
-    <string name="restore_defaults">Restablecer a valores predefinidos</string>
+    <string name="restore_defaults">Valores por defecto</string>
     <string name="use_default">Uso por defecto</string>
     <string name="default_color">Por defecto</string>
     <string name="change_color">Cambiar de color</string>
@@ -188,7 +188,7 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="print">Imprimir</string>
     <string name="create_shortcut">Crear acceso directo</string>
     <string name="sort_by">Ordenar por</string>
-    <string name="name">Nombre </string>
+    <string name="name">Nombre</string>
     <string name="size">Tamaño</string>
     <string name="last_modified">Modificación</string>
     <string name="date_taken">Creación</string>
@@ -347,7 +347,7 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="notifications_disabled">Las notificaciones de esta aplicación están deshabilitadas. Vaya a la configuración de su dispositivo para habilitarlos.</string>
     <string name="alarm">Alarma</string>
     <string name="snooze">Posponer</string>
-    <string name="dismiss">Descartar</string>
+    <string name="dismiss">Cancelar</string>
     <string name="no_reminder">Sin recordatorio</string>
     <string name="at_start">Al inicio</string>
     <string name="system_sounds">Sonidos del sistema</string>
@@ -361,8 +361,8 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="use_english_language">Usar el idioma Inglés</string>
     <string name="show_hidden_items">Mostrar elementos ocultos</string>
     <string name="font_size">Tamaño de fuente</string>
-    <string name="small">Pequeño</string>
-    <string name="medium">Media</string>
+    <string name="small">Pequeña</string>
+    <string name="medium">Mediana</string>
     <string name="large">Grande</string>
     <string name="extra_large">Enorme</string>
     <string name="password_protect_hidden_items">Contraseña para proteger los medios ocultos</string>
@@ -452,10 +452,10 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="monday_letter">L</string>
     <string name="tuesday_letter">M</string>
     <string name="wednesday_letter">X</string>
-    <string name="thursday_letter">M</string>
+    <string name="thursday_letter">J</string>
     <string name="friday_letter">V</string>
     <string name="saturday_letter">S</string>
-    <string name="sunday_letter">S</string>
+    <string name="sunday_letter">D</string>
     <string name="monday_short">Lun</string>
     <string name="tuesday_short">Mar</string>
     <string name="wednesday_short">Mié</string>

@@ -4,14 +4,14 @@
     <string name="ok">OK</string>
     <string name="cancel">Tühista</string>
     <string name="save_as">Salvesta kui</string>
-    <string name="file_saved">Fail edukalt salvestatud</string>
+    <string name="file_saved">Faip edukalt salvestatud</string>
     <string name="invalid_file_format">Sobimatu failivorming</string>
     <string name="out_of_memory_error">Mälu viga</string>
     <string name="an_error_occurred">Ilmnes tõrge: %s</string>
     <string name="open_with">Ava rakendusega</string>
     <string name="edit_with">Muutmine</string>
     <string name="no_app_found">Kehtivat rakendust ei leitud</string>
-    <string name="set_as">Määra kui</string>
+    <string name="set_as">Seadista kui</string>
     <string name="value_copied_to_clipboard">Väärtus kopeeritakse lõikepuhvrisse</string>
     <string name="unknown">Teadmata</string>
     <string name="always">Alati</string>
@@ -19,7 +19,7 @@
     <string name="details">Üksikasjad</string>
     <string name="notes">Märkmed</string>
     <string name="deleting_folder">Kausta kustutamine \'%s\'</string>
-    <string name="none">Puudub</string>
+    <string name="none">Mitte ühtegi</string>
     <string name="label">Nimetus</string>
     <string name="transparent">Läbipaistev</string>
     <string name="transparent_color">Läbipaistev toon</string>
@@ -246,9 +246,9 @@
     <string name="yesterday">Eile</string>
     <string name="today">Täna</string>
     <string name="tomorrow">Homme</string>
-    <string name="seconds_raw">sekundid</string>
-    <string name="minutes_raw">minutid</string>
-    <string name="hours_raw">tunnid</string>
+    <string name="seconds_raw">sekundit</string>
+    <string name="minutes_raw">minutit</string>
+    <string name="hours_raw">tundi</string>
     <string name="days_raw">päeva</string>
     <plurals name="seconds">
         <item quantity="one">%d sekund</item>
@@ -316,11 +316,11 @@
     </plurals>
     <plurals name="hours_before">
         <item quantity="one">%d tund tagasi</item>
-        <item quantity="other">%d tund tagasi</item>
+        <item quantity="other">%d tundi tagasi</item>
     </plurals>
     <plurals name="days_before">
         <item quantity="one">%d päev tagasi</item>
-        <item quantity="other">%d päev tagasi</item>
+        <item quantity="other">%d päeva tagasi</item>
     </plurals>
     <plurals name="weeks_before">
         <item quantity="one">%d nädal tagasi</item>
@@ -481,21 +481,21 @@
     <string name="monday_letter">E</string>
     <string name="tuesday_letter">T</string>
     <string name="wednesday_letter">K</string>
-    <string name="thursday_letter">T</string>
+    <string name="thursday_letter">N</string>
     <string name="friday_letter">R</string>
     <string name="saturday_letter">L</string>
-    <string name="sunday_letter">L</string>
+    <string name="sunday_letter">P</string>
     <string name="monday_short">E</string>
     <string name="tuesday_short">T</string>
     <string name="wednesday_short">K</string>
     <string name="thursday_short">N</string>
     <string name="friday_short">R</string>
     <string name="saturday_short">L</string>
-    <string name="sunday_short">P</string>
+    <string name="sunday_short">L</string>
     <string name="upgrade_to_pro_long">Teie rakenduse versiooni ei värskendata enam. Uute paranduste ja muude täiustuste saamiseks minge üle Pro versioonile.</string>
     <string name="upgrade_to_pro_long_click">Teie rakenduse versiooni ei värskendata enam. Uute paranduste ja muude täiustuste saamiseks klõpsake siin klõpsates uuemale versioonile Pro.</string>
     <string name="it_is_free">See on tasuta kuni: %s. Kui te selle alla laadite, saate seda alati igavesti kasutada.</string>
-    <string name="more_info">Rohkem infot</string>
+    <string name="more_info">Lisateave</string>
     <string name="upgrade">Uuenda</string>
     <string name="upgrade_calendar">Peate kohapeal salvestatud sündmused käsitsi läbi viima .ics-failis ja seejärel importima. Nii ekspordi / impordi nupud leiate peaekraanimenüüst.</string>
     <string name="about">Teave</string>

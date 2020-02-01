@@ -13,13 +13,13 @@
     <string name="no_app_found">Nenašla sa žiadna vhodná aplikácia</string>
     <string name="set_as">Nastaviť ako</string>
     <string name="value_copied_to_clipboard">Hodnota bola vložená do schránky</string>
-    <string name="unknown">Neznáme</string>
+    <string name="unknown">Neznámy</string>
     <string name="always">Vždy</string>
     <string name="never">Nikdy</string>
-    <string name="details">Podrobnosti</string>
+    <string name="details">Detaily</string>
     <string name="notes">Poznámky</string>
     <string name="deleting_folder">Odstraňuje sa priečinok \'%s\'</string>
-    <string name="none">Žiadne</string>
+    <string name="none">Žiadny</string>
     <string name="label">Štítok</string>
     <string name="transparent">Priesvitná</string>
     <string name="transparent_color">Priesvitná farba</string>
@@ -31,7 +31,7 @@
     <string name="add_favorites">Pridať obľúbené</string>
     <string name="add_to_favorites">Pridať medzi obľúbené</string>
     <string name="remove_from_favorites">Odstrániť spomedzi obľúbených</string>
-    <string name="search">Vyhľadať</string>
+    <string name="search">Hľadať</string>
     <string name="type_2_characters">Zadajte aspoň 2 znaky pre spustenie hľadania.</string>
     <string name="filter">Filtrovať</string>
     <string name="no_items_found">Nenašli sa žiadne položky.</string>
@@ -114,7 +114,7 @@
         <item quantity="other">%d položiek</item>
     </plurals>
     <plurals name="delete_items">
-        <item quantity="one">%d položka</item>
+        <item quantity="one">%d položku</item>
         <item quantity="few">%d položky</item>
         <item quantity="many">%d položiek</item>
         <item quantity="other">%d položiek</item>
@@ -143,7 +143,7 @@
     <string name="artist">Skupina</string>
     <string name="album">Album</string>
     <string name="focal_length">Ohnisková vzdialenosť</string>
-    <string name="exposure_time">Doba expozície</string>
+    <string name="exposure_time">Dĺžka expozície</string>
     <string name="iso_speed">Rýchlosť ISO</string>
     <string name="f_number">Clonové číslo</string>
     <string name="camera">Fotoaparát</string>
@@ -173,11 +173,11 @@
         Po spustení nastavte predvolenú oranžovú ikonu #F57C00. V najhoršom prípade budete musieť aplikáciu preinštalovať.</string>
     <string name="share_colors_success">Farby boli úspešne aktualizované. Bola pridaná nová \'Zdieľaná\' téma, prosím použite ju pri ďalšej úprave farieb.</string>
     <string name="light_theme">Svetlá</string>
-    <string name="dark_theme">Tmavý</string>
+    <string name="dark_theme">Tmavá</string>
     <string name="solarized">Solarizovaná</string>
     <string name="dark_red">Tmavo červená</string>
     <string name="black_white">Čiernobiela</string>
-    <string name="custom">Vlastný</string>
+    <string name="custom">Vlastná</string>
     <string name="shared">Zdieľaná</string>
     <string name="whats_new">Novinky</string>
     <string name="whats_new_disclaimer">* sú tu vypísané iba väčšie aktualizácie, stále sú vykonané aj menšie opravy</string>
@@ -200,7 +200,7 @@
     <string name="print">Tlač</string>
     <string name="create_shortcut">Vytvoriť skratku</string>
     <string name="sort_by">Na zoradenie použiť</string>
-    <string name="name">Meno</string>
+    <string name="name">Názov</string>
     <string name="size">Veľkosť</string>
     <string name="last_modified">Dátum poslednej úpravy</string>
     <string name="date_taken">Dátum vytvorenia</string>
@@ -252,7 +252,7 @@
     <string name="yesterday">Včera</string>
     <string name="today">Dnes</string>
     <string name="tomorrow">Zajtra</string>
-    <string name="seconds_raw">s</string>
+    <string name="seconds_raw">sekundy</string>
     <string name="minutes_raw">minúty</string>
     <string name="hours_raw">hodiny</string>
     <string name="days_raw">dni</string>
@@ -299,19 +299,19 @@
         <item quantity="other">%d rokov</item>
     </plurals>
     <plurals name="in_seconds">
-        <item quantity="one">%d sekunda</item>
+        <item quantity="one">%d sekundu</item>
         <item quantity="few">%d sekundy</item>
         <item quantity="many">%d sekúnd</item>
         <item quantity="other">%d sekúnd</item>
     </plurals>
     <plurals name="in_minutes">
-        <item quantity="one">%d minúta</item>
+        <item quantity="one">%d minútu</item>
         <item quantity="few">%d minúty</item>
         <item quantity="many">%d minút</item>
         <item quantity="other">%d minút</item>
     </plurals>
     <plurals name="in_hours">
-        <item quantity="one">%d hodina</item>
+        <item quantity="one">%d hodinu</item>
         <item quantity="few">%d hodiny</item>
         <item quantity="many">%d hodín</item>
         <item quantity="other">%d hodín</item>
@@ -365,19 +365,19 @@
         <item quantity="other">%d dní vopred</item>
     </plurals>
     <plurals name="by_seconds">
-        <item quantity="one">%d sekunda</item>
+        <item quantity="one">%d sekundu</item>
         <item quantity="few">%d sekundy</item>
         <item quantity="many">%d sekúnd</item>
         <item quantity="other">%d sekúnd</item>
     </plurals>
     <plurals name="by_minutes">
-        <item quantity="one">%d minúta</item>
+        <item quantity="one">%d minútu</item>
         <item quantity="few">%d minúty</item>
         <item quantity="many">%d minút</item>
         <item quantity="other">%d minút</item>
     </plurals>
     <plurals name="by_hours">
-        <item quantity="one">%d hodina</item>
+        <item quantity="one">%d hodinu</item>
         <item quantity="few">%d hodiny</item>
         <item quantity="many">%d hodín</item>
         <item quantity="other">%d hodín</item>
@@ -413,7 +413,7 @@
     <string name="notifications_disabled">Pripomienky tejto aplikácie sú vypnuté. Pre ich zapnutie prosím choďte do nastavení zariadenia.</string>
     <string name="alarm">Budík</string>
     <string name="snooze">Odložiť</string>
-    <string name="dismiss">Odmietnuť</string>
+    <string name="dismiss">Odstrániť</string>
     <string name="no_reminder">Žiadna pripomienka</string>
     <string name="at_start">Na začiatku</string>
     <string name="system_sounds">Systémové zvuky</string>
@@ -427,8 +427,8 @@
     <string name="use_english_language">Použiť angličtinu</string>
     <string name="show_hidden_items">Zobraziť skryté položky</string>
     <string name="font_size">Veľkosť písma</string>
-    <string name="small">Malý</string>
-    <string name="medium">Stredná</string>
+    <string name="small">Malé</string>
+    <string name="medium">Stredné</string>
     <string name="large">Veľké</string>
     <string name="extra_large">Extra veľké</string>
     <string name="password_protect_hidden_items">Uzamknúť viditeľnosť skrytých položiek heslom</string>
@@ -526,10 +526,10 @@
     <string name="monday_letter">P</string>
     <string name="tuesday_letter">U</string>
     <string name="wednesday_letter">S</string>
-    <string name="thursday_letter">U</string>
+    <string name="thursday_letter">Š</string>
     <string name="friday_letter">P</string>
     <string name="saturday_letter">So</string>
-    <string name="sunday_letter">So</string>
+    <string name="sunday_letter">Ne</string>
     <string name="monday_short">Po</string>
     <string name="tuesday_short">Ut</string>
     <string name="wednesday_short">St</string>

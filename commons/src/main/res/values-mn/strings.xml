@@ -4,11 +4,11 @@
     <string name="set_as">Тохируулах</string>
     <string name="unknown">Тодорхойгүй</string>
     <string name="details">Дэлгэрэнгүй</string>
-    <string name="none">Хоосон</string>
+    <string name="none">Байхгүй</string>
     <string name="search">Хайх</string>
     <string name="path">Зам</string>
     <string name="duration">Үргэлжлэх хугацаа</string>
-    <string name="exposure_time">Буулгалтын хугацаа</string>
+    <string name="exposure_time">Гаргах цаг</string>
     <string name="camera">Камер</string>
     <string name="save">Хадгалах</string>
     <string name="custom">Тусгай</string>

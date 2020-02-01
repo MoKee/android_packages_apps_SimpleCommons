@@ -11,7 +11,7 @@
     <string name="open_with">Birlikte aç</string>
     <string name="edit_with">İle düzenle</string>
     <string name="no_app_found">Geçerli bir uygulama bulunamadı</string>
-    <string name="set_as">Şu şekilde ayarla</string>
+    <string name="set_as">Ayarla</string>
     <string name="value_copied_to_clipboard">Değer panoya kopyalandı</string>
     <string name="unknown">Bilinmiyor</string>
     <string name="always">Her zaman</string>
@@ -19,7 +19,7 @@
     <string name="details">Ayrıntılar</string>
     <string name="notes">Notlar</string>
     <string name="deleting_folder">\'%s\' klasörü siliniyor</string>
-    <string name="none">Yok</string>
+    <string name="none">Hiçbiri</string>
     <string name="label">Etiket</string>
     <string name="transparent">Şeffaflık</string>
     <string name="transparent_color">Şeffaf renk</string>
@@ -153,7 +153,7 @@
     <string name="foreground_color">Ön plan rengi</string>
     <string name="app_icon_color">Uygulama simgesi rengi</string>
     <string name="bottom_navigation_bar_color">Alt gezinme çubuğu rengi</string>
-    <string name="restore_defaults">Varsayılana geri yükle</string>
+    <string name="restore_defaults">Varsayılanları geri yükle</string>
     <string name="use_default">Varsayılanı kullan</string>
     <string name="default_color">Varsayılan</string>
     <string name="change_color">Rengi değiştir</string>
@@ -369,7 +369,7 @@
     <string name="notifications_disabled">Bu uygulamanın bildirimleri devre dışı bırakıldı. Lütfen bunları etkinleştirmek için cihaz ayarlarınıza gidin.</string>
     <string name="alarm">Alarm</string>
     <string name="snooze">Ertele</string>
-    <string name="dismiss">Reddet</string>
+    <string name="dismiss">Kapat</string>
     <string name="no_reminder">Hatırlatma yok</string>
     <string name="at_start">Başlangıçta</string>
     <string name="system_sounds">Sistem sesleri</string>
@@ -481,10 +481,10 @@
     <string name="monday_letter">P</string>
     <string name="tuesday_letter">S</string>
     <string name="wednesday_letter">Ç</string>
-    <string name="thursday_letter">S</string>
+    <string name="thursday_letter">P</string>
     <string name="friday_letter">C</string>
     <string name="saturday_letter">C</string>
-    <string name="sunday_letter">C</string>
+    <string name="sunday_letter">P</string>
     <string name="monday_short">Pzt</string>
     <string name="tuesday_short">Sal</string>
     <string name="wednesday_short">Çar</string>
@@ -508,7 +508,7 @@
     <string name="share_text">Selam, %1$s adlı harika bir uygulama buldum. %2$s adresinden indir</string>
     <string name="invite_via">Şununla davet et</string>
     <string name="rate_us_underlined"><u>Bizi değerlendirin</u></string>
-    <string name="rate">Oy ver</string>
+    <string name="rate">Oyla</string>
     <string name="donate">Bağış yapın</string>
     <string name="donate_underlined"><u>Bağış yapın</u></string>
     <string name="follow_us">Bizi takip edin</string>

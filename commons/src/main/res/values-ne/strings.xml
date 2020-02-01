@@ -7,7 +7,7 @@
     <string name="none">कुनै पनि होइन</string>
     <string name="search">खोज्नुहोस्</string>
     <string name="path">बाटो</string>
-    <string name="duration">अवधि</string>
+    <string name="duration">अवधि:</string>
     <string name="exposure_time">एक्सपोजर समय</string>
     <string name="camera">क्यामेरा</string>
     <string name="save">बचत गर्नुहोस्</string>
@@ -22,7 +22,7 @@
     <string name="date_taken">मिति लिइयो</string>
     <string name="title">शीर्षक</string>
     <string name="yes">हो</string>
-    <string name="seconds_raw">सेकोन्ड</string>
+    <string name="seconds_raw">सेकेन्ड</string>
     <string name="minutes_raw">मिनेट</string>
     <string name="hours_raw">घन्टा</string>
     <string name="widgets">विजेटहरू</string>

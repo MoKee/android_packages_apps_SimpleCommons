@@ -3,8 +3,8 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Batal</string>
-    <string name="set_as">Tetap sebagai</string>
-    <string name="unknown">Tak diketahui</string>
+    <string name="set_as">Tetapkan sebagai</string>
+    <string name="unknown">Tidak diketahui</string>
     <string name="never">Tidak pernah</string>
     <string name="details">Butiran</string>
     <string name="none">Tiada</string>
