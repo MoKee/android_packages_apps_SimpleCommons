@@ -518,8 +518,10 @@
     <string name="purchase">Acquista</string>
     <string name="update_thank_you">Per favore aggiorna Simple Thank You all\'ultima versione</string>
     <string name="before_asking_question_read_faq">Prima di fare una domanda, controlla le impostazioni dell\'app e leggi prima le Domande Frequenti. Forse la soluzione è lì.</string>
+    <string name="before_rate_read_faq">Prima di votarci, leggi prima le domande frequenti nelle impostazione dell\'app. Se avete qualche problema, forse la soluzione è lì.</string>
     <string name="make_sure_latest">Assicurati anche di utilizzare l\'ultima versione dell\'app.</string>
     <string name="read_it">Leggile</string>
+    <string name="read_faq">Leggi le FAQ</string>
     <string name="rate_us_prompt">Ciao,\n\nSembra che tu stia usando questa app per un po\' di tempo, e lo apprezziamo molto.\n\nSe possiamo chiederti un favore, votaci su Google Play. Questo ci aiuterebbe davvero molto.\n\nNon importa come decidi, non vedrai più questo messaggio.\n\nGrazie!</string>
     <string name="sideloaded_app">            La versione dell\'app sembra essere corrotta. Si prega di scaricare<a href="%s">qui</a>.Versione originale
         </string>
