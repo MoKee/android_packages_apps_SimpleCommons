@@ -58,6 +58,7 @@
     <string name="simple_renaming">إعادة تسمية بسيطة</string>
     <string name="pattern_renaming">النمط</string>
     <string name="string_to_add">سلسلة للإضافة</string>
+    <string name="rename_date_time_pattern">%Y - سنة/n%M - شهر\n%D - يوم\n%h - ساعة\n%m - دقيقة\n%s - ثانية/n%i - رقم من ١ فصاعداً</string>
     <string name="copy">نسخ</string>
     <string name="move">نقل</string>
     <string name="copy_move">نسخ/نقل</string>
@@ -650,6 +651,7 @@
     <string name="before_asking_question_read_faq">قبل أن تسأل سؤالاً، الرجاء قراءة \"الأسئلة المتداولة\" أولاً، ربما الحل هناك.</string>
     <string name="make_sure_latest">تأكد أيضًا من أنك تستخدم أحدث إصدار من التطبيق.</string>
     <string name="read_it">اقرأها</string>
+    <string name="read_faq">قراءة التعليمات</string>
     <string name="rate_us_prompt">مرحباً،\n\nيبدو أنك تستخدم هذا التطبيق لفترة طويلة بالفعل، ونحن نقدر ذلك حقاً.\n\nإذا كان يمكن أن نطلب منكم صالح، الرجاء تقييم تطبيقنا في متجر Google. أنه حقاً سيساعدنا كثيراً.\n\nبغض النظر عن كيف تقرر ان تقيمنا، لن تشاهد هذه الرسالة مرة أخرى.\n\nشكراً!</string>
     <string name="sideloaded_app">            يبدو أن إصدار التطبيق الخاص بك تالف. الرجاء تحميل النسخة الأصلية <a href="%s">هنا</a>.
         </string>
