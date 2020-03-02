@@ -54,7 +54,11 @@
     <string name="extension_cannot_be_empty">Rozszerzenie pliku nie może być puste</string>
     <string name="source_file_doesnt_exist">Plik źródłowy nie istnieje</string>
     <string name="prepend_filenames">Poprzedzaj nazwy plików</string>
+    <string name="append_filenames">Dołącz nazwy plików</string>
+    <string name="simple_renaming">Prosta zmiana nazwy</string>
     <string name="pattern_renaming">Wzór</string>
+    <string name="string_to_add">Tekst do dodania</string>
+    <string name="rename_date_time_pattern">%Y - rok\n%M - miesiąc\n%D - dzień\n%h - godzina\n%m - minuta\n%s - sekunda\n%i - liczba rośnie o 1</string>
     <string name="copy">Kopiuj</string>
     <string name="move">Przenieś</string>
     <string name="copy_move">Kopiuj / przenieś</string>
@@ -79,6 +83,8 @@
     <string name="saving">Zapisuję…</string>
     <string name="could_not_create_folder">Nie mogę utworzyć folderu %s</string>
     <string name="could_not_create_file">Nie mogę utworzyć pliku %s</string>
+    <string name="no_new_items">Nie znaleziono nowych elementów</string>
+    <string name="no_space">Folder docelowy nie ma wystarczającej ilości wolnego miejsca.\nWymagane %1$s, dostępne %2$s</string>
     <string name="create_new">Utwórz nowy</string>
     <string name="folder">Katalog</string>
     <string name="file">Plik</string>
@@ -99,6 +105,7 @@
     <string name="select_folder">Wybierz folder</string>
     <string name="select_file">Wybierz plik</string>
     <string name="confirm_storage_access_title">Potwierdź dostęp do karty pamięci</string>
+    <string name="confirm_storage_access_text">Wybierz folder główny urządzenia USB na następnym ekranie, aby uzyskać do niego dostęp</string>
     <string name="confirm_storage_access_text_sd">Jeśli nie widzisz karty pamięci, spróbuj tego:</string>
     <string name="confirm_selection">Potwierdź wybór</string>
     <plurals name="items">
@@ -142,6 +149,8 @@
     <string name="camera">Kamera/aparat</string>
     <string name="exif">Dane EXIF</string>
     <string name="song_title">Tytuł piosenki</string>
+    <string name="gps_coordinates">Pokaż współrzędne GPS</string>
+    <string name="altitude">Wysokość n. p. m.</string>
     <string name="background_color">Tło</string>
     <string name="text_color">Tekst</string>
     <string name="primary_color">Belka i przełączniki</string>
@@ -189,6 +198,7 @@
     <string name="undo">Cofnij</string>
     <string name="redo">Ponów</string>
     <string name="print">Drukuj</string>
+    <string name="create_shortcut">Utwórz skrót</string>
     <string name="sort_by">Sortuj według parametru:</string>
     <string name="name">Nazwa</string>
     <string name="size">Rozmiar</string>
@@ -202,6 +212,7 @@
     <string name="ascending">Rosnąco</string>
     <string name="descending">Malejąco</string>
     <string name="use_for_this_folder">Tylko w tym folderze</string>
+    <string name="sort_numeric_parts">Sortuj części liczbowe według rzeczywistej wartości</string>
     <string name="proceed_with_deletion">Czy na pewno chcesz to usunąć?</string>
     <string name="deletion_confirmation">Czy na pewno chcesz usunąć %s?</string>
     <string name="move_to_recycle_bin_confirmation">Czy na pewno chcesz %s do kosza?</string>
@@ -235,6 +246,9 @@
     <string name="go_to_settings">Przejdź do ustawień</string>
     <string name="protection_setup_successfully">Hasło zostało ustawione. Jeśli je zapomnisz, przeinstaluj aplikację.</string>
     <string name="fingerprint_setup_successfully">Zabezpieczenie zostało ustawione. W razie problemów z jego zresetowaniem przeinstaluj aplikację.</string>
+    <string name="lock_folder">Zablokuj folder</string>
+    <string name="unlock_folder">Odblokuj folder</string>
+    <string name="lock_folder_notice">Ta ochrona działa tylko w tej aplikacji, nie powinna zastępować prawdziwego systemowego szyfrowania folderów.</string>
     <string name="yesterday">Wczoraj</string>
     <string name="today">Dzisiaj</string>
     <string name="tomorrow">Jutro</string>
@@ -495,6 +509,7 @@
     <string name="no_entries_for_exporting">Nie znalazłem żadnych wpisów do wyeksportowania</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Wygląda na to, że do twojego urządzenia jest podłączone urządzenie USB. Aby upewnić się, że pliki są wyświetlane poprawnie, musisz udzielić dodatkowych uprawnień.</string>
+    <string name="confirm_usb_storage_access_text">Wybierz folder główny urządzenia USB na następnym ekranie, aby uzyskać do niego dostęp</string>
     <string name="wrong_root_selected_usb">Wybrany został niewłaściwy folder. Wybierz główny folder urządzenia USB.</string>
     <string name="january">Styczeń</string>
     <string name="february">Luty</string>
@@ -541,6 +556,8 @@
     <string name="friday_short">Pią</string>
     <string name="saturday_short">Sob</string>
     <string name="sunday_short">Nie</string>
+    <string name="upgrade_to_pro_long">Twoja wersja aplikacji nie zostanie już zaktualizowana. Zaktualizuj ją do wersji Pro, aby otrzymywać nowe poprawki i inne ulepszenia.</string>
+    <string name="upgrade_to_pro_long_click">Twoja wersja aplikacji nie zostanie już zaktualizowana. Zaktualizuj ją do wersji Pro, aby otrzymywać nowe poprawki i inne ulepszenia.</string>
     <string name="it_is_free">Jest darmowa do %s. Jeśli pobierzesz ją do tego czasu, będziesz mieć ją bezterminowo za darmo.</string>
     <string name="more_info">Więcej informacji</string>
     <string name="upgrade">Aktualizuj</string>
@@ -550,6 +567,7 @@
     <string name="email_label">Napisz do nas, przyślij nam swoje uwagi:</string>
     <string name="upgrade_to_pro">Zaktualizuj do wersji Pro</string>
     <string name="more_apps_underlined"><u>Więcej naszych aplikacji</u></string>
+    <string name="more_apps_from_us_underlined"><u>Więcej aplikacji od nas</u></string>
     <string name="third_party_licences_underlined"><u>Licencje innych firm</u></string>
     <string name="invite_friends_underlined"><u>Zaproponuj aplikację znajomym</u></string>
     <string name="share_text">Hej! Sprawdź aplikację %1$s (%2$s).</string>
@@ -566,7 +584,11 @@
     <string name="purchase">Kup</string>
     <string name="update_thank_you">Zaktualizuj aplikcję Proste Podziękowanie do najnowszej wersji</string>
     <string name="before_asking_question_read_faq">Zanim zadasz pytanie, sprawdź ustawienia aplikacji i przeczytaj \'Najczęściej zadawane pytania\' (FAQ). Być może rozwiązanie już tam jest.</string>
+    <string name="before_rate_read_faq">Zanim ocenisz nas, sprawdź ustawienia aplikacji i przeczytaj najpierw najczęściej zadawane pytania. Jeśli masz jakieś problemy, być może tam jest rozwiązanie.</string>
+    <string name="make_sure_latest">Upewnij się także, że używasz najnowszej wersji aplikacji.</string>
     <string name="read_it">Przeczytaj</string>
+    <string name="read_faq">Przeczytaj FAQ</string>
+    <string name="rate_us_prompt">Cześć,\n\nwygląda na to, że używasz tej aplikacji już od pewnego czasu, i naprawdę to doceniamy.\n\nJeśli możemy zapytać o przysługę, oceń nas w Google Play. To naprawdę bardzo by nam pomogło.\n\nNiezależnie od tego, jak zadecydujesz, nie zobaczysz tej wiadomości ponownie.\n\nDzięki!</string>
     <string name="sideloaded_app">           Wygląda na to, że ta wersja aplikacji jest uszkodzona. Proszę pobierz jej oryginalną wersję &lt;a href=\"%s\"&gt;tutaj&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Często zadawane pytania (FAQ)</string>
@@ -580,9 +602,16 @@
     <string name="faq_4_title_commons">Nie za bardzo podobają mi się domyślne kolory widżetów. Mogę je jakoś zmienić?</string>
     <string name="faq_4_text_commons">Tak. Po przeciągnięciu widżetu na pulpit pojawia się okno jego konfiguracji. Zobaczysz na nim kolorowe kwadraty, za pomocą których możesz wybrać nowe kolory. Suwakiem możesz też ustawić poziom przezroczystości.</string>
     <string name="faq_5_title_commons">Czy mogę jakoś odzyskać usunięte pliki?</string>
+    <string name="faq_5_text_commons">Gdyby zostały naprawdę usunięte, nie możesz. Domyślnie jest jednak włączony kosz który, powoduje, że pliki zostaną do niego przeniesione zamiast być od razu usunięte.</string>
     <string name="faq_6_title_commons">Ikona aplikacji została usunięta. Co mogę zrobić?</string>
     <string name="faq_6_text_commons">Jest to spowodowane tym, że twój launcher nie obsługuje poprawnie dostosowania ikon. Spróbuj uruchomić aplikację przez Google Play lub jakiś widżet, jeśli jest dostępny.
          Po uruchomieniu, przywróć domyślną pomarańczową ikonę # F57C00. W najgorszym przypadku może być konieczne ponowne zainstalowanie aplikacji.</string>
+    <string name="faq_7_title_commons">Pieniądze zostały pobrane z mojego konta bankowego, ale nie mogę pobrać aplikacji. Co mogę zrobić?</string>
+    <string name="faq_7_text_commons">Płatności są w pełni obsługiwane przez Google, ich system zawiesza się od czasu do czasu. Wystarczy wtedy wyczyścić pamięć podręczną aplikacji Google Play i zrestartować urządzenie, a następnie ponowić próbę pobrania.</string>
+    <string name="faq_8_title_commons">Dlaczego powinienem przejść na wersję Premium?</string>
+    <string name="faq_8_text_commons">Ponieważ twoja wersja aplikacji nie jest już aktualizowana, błędy, które masz być może nie zostaną naprawione. Nie zostaną dodane też żadne nowe funkcje. Możesz kupić wersję Pro w Google Play za niewielką sumę pieniędzy.
+        Jest to jednorazowa płatność, co oznacza, że po zakupie, nigdy więcej nie będziesz musiał płacić, nawet po otrzymaniu nowego urządzenia. Jeśli nie lubisz wersji Pro, możesz ją odinstalować w ciągu kilku godzin i automatycznie odzyskać pieniądze.
+        Jeśli chcesz zwrócić pieniądze w dowolnym momencie, skontaktuj się z nami pod adresem hello@simplemobiletools a my je zwrócimy.</string>
     <string name="notice">Aplikacja korzysta z następujących bibliotek innych firm:</string>
     <string name="third_party_licences">Licencje innych firm</string>
     <string name="kotlin_title">Kotlin (język programowania)</string>
@@ -609,6 +638,7 @@
     <string name="sanselan_title">Apache Sanselan (odczytywanie metadanych obrazów)</string>
     <string name="filters_title">Android Photo Filters (fitry obrazów)</string>
     <string name="gesture_views_title">Widoki gestów (obrazy z możliwością powiększania)</string>
+    <string name="indicator_fast_scroll_title">Wskażnik szybkiego przewijania (litery na pasku przewijania)</string>
     <string name="deprecated_app">PRZESTARZAŁE: Ta wersja aplikacji nie jest już rozwijana, wersja PRO dostępna pod https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Nie zapominaj, że jeśli odinstalujesz płatną aplikację w ciągu 2 godzin, otrzymasz automatyczny zwrot. Jeśli chcesz otrzymać zwrot w dowolnym momencie, skontaktuj się z nami pod adresem hello@simplemobiletools.com, a otrzymasz go. To ułatwia wypróbowanie :)</string>
 </resources>

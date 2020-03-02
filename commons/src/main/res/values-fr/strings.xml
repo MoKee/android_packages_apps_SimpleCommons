@@ -502,6 +502,7 @@
     <string name="email_label">Envoyez vos commentaires ou suggestions à</string>
     <string name="upgrade_to_pro">Passer à la version Pro</string>
     <string name="more_apps_underlined"><u>Plus d\'applications</u></string>
+    <string name="more_apps_from_us_underlined"><u>Nos autres applications</u></string>
     <string name="third_party_licences_underlined"><u>Licences tierces</u></string>
     <string name="invite_friends_underlined"><u>Inviter des amis</u></string>
     <string name="share_text">Salut, viens voir %1$s à %2$s</string>
@@ -518,8 +519,10 @@
     <string name="purchase">Acheter</string>
     <string name="update_thank_you">Veuillez mettre à jour Simple Thank You</string>
     <string name="before_asking_question_read_faq">Avant de poser une question, veuillez vérifier les paramètres de l\'application et lire d\'abord les questions fréquemment posées. Peut-être que la solution y est déjà.</string>
+    <string name="before_rate_read_faq">Avant de nous évoluer, veuillez d\'abord vérifier les paramètres de l\'application et lire la Foire aux Questions. Si vous avez des problèmes, la solution est peut-être là.</string>
     <string name="make_sure_latest">Assurez-vous également que vous utilisez la dernière version de l\'application.</string>
     <string name="read_it">Consulter</string>
+    <string name="read_faq">Lire la FAQ</string>
     <string name="rate_us_prompt">Bonjour,\n\nil semble que vous utilisez cette application depuis un certain temps déjà, et nous l\'apprécions vraiment.\n\nSi nous pouvons vous demander une faveur, veuillez nous noter sur Google Play. Cela nous aiderait vraiment beaucoup.\n\nPeu importe comment vous décidez, vous ne verrez plus ce message.\n\nMerci !</string>
     <string name="sideloaded_app">            La version de l\'application semble être corrompue. Téléchargez la version originale de <a href="%s">ici </a>.
         </string>
@@ -571,6 +574,7 @@
     <string name="sanselan_title">Apache Sanselan (lecture de métadonnées d\'image)</string>
     <string name="filters_title">Android Photo Filters (filtres d\'image)</string>
     <string name="gesture_views_title">Aperçu des gestes (images extensibles)</string>
+    <string name="indicator_fast_scroll_title">Défilement rapide de l\'indicateur (lettres sur la barre de défilement)</string>
     <string name="deprecated_app">OBSOLÈTE: Cette version de l\'application n\'est plus maintenue, obtenez la version Pro à https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payée dans les 2 heures, vous serez automatiquement remboursé. Si vous souhaitez un remboursement à tout moment plus tard, contactez-nous à hello@simplemobiletools.com et vous l\'obtiendrez. Cela vous permet de l\'essayer facilement :)</string>
 </resources>
