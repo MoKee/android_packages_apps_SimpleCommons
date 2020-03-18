@@ -159,10 +159,10 @@ class CustomizationActivity : BaseSimpleActivity() {
         }
 
         RadioGroupDialog(this@CustomizationActivity, items, curSelectedThemeId) {
-            if (it == THEME_SHARED && !isThankYouInstalled()) {
-                PurchaseThankYouDialog(this)
-                return@RadioGroupDialog
-            }
+//            if (it == THEME_SHARED && !isThankYouInstalled()) {
+//                PurchaseThankYouDialog(this)
+//                return@RadioGroupDialog
+//            }
 
             updateColorTheme(it as Int, true)
             if (it != THEME_CUSTOM && it != THEME_SHARED && !baseConfig.wasCustomThemeSwitchDescriptionShown) {
@@ -454,7 +454,7 @@ class CustomizationActivity : BaseSimpleActivity() {
     private fun getUpdatedTheme() = if (curSelectedThemeId == THEME_SHARED) THEME_SHARED else THEME_CUSTOM
 
     private fun applyToAll() {
-        if (isThankYouInstalled()) {
+//        if (isThankYouInstalled()) {
             ConfirmationDialog(this, "", R.string.share_colors_success, R.string.ok, 0) {
                 Intent().apply {
                     action = MyContentProvider.SHARED_THEME_ACTIVATED
@@ -469,8 +469,8 @@ class CustomizationActivity : BaseSimpleActivity() {
                 updateColorTheme(THEME_SHARED)
                 saveChanges(false)
             }
-        } else {
-            PurchaseThankYouDialog(this)
-        }
+//        } else {
+//            PurchaseThankYouDialog(this)
+//        }
     }
 }
