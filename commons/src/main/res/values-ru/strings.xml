@@ -590,6 +590,8 @@
     <string name="read_it">Прочитать</string>
     <string name="read_faq">Читать FAQ</string>
     <string name="rate_us_prompt">Привет!\n\nПохоже, вы уже давно пользуетесь этим приложением, и мы действительно ценим это.\n\nЕсли у вас есть свободная минута, пожалуйста, оцените нас в Play Маркет. Это очень поможет нам.\n\nНезависимо от того, как вы решите, вы не увидите это сообщение снова.\n\nСпасибо!</string>
+    <string name="rate_our_app">Пожалуйста, оцените наше приложение :)</string>
+    <string name="thank_you">Спасибо</string>
     <string name="sideloaded_app">            Похоже, вы установили неверную версию приложения. Пожалуйста, скачайте оригинальную версию <a href="%s">здесь</a>.
         </string>
     <string name="frequently_asked_questions">Часто задаваемые вопросы</string>
@@ -641,6 +643,7 @@
     <string name="sanselan_title">Apache Sanselan (чтение метаданных изображений)</string>
     <string name="filters_title">Android Photo Filters (фильтры изображений)</string>
     <string name="gesture_views_title">Предварительный просмотр жестов (расширяемые изображения)</string>
+    <string name="indicator_fast_scroll_title">Индикатор быстрой прокрутки (буквы на панели)</string>
     <string name="deprecated_app">НЕ ПОДДЕРЖИВАЕТСЯ: Эта версия приложения больше не поддерживается, загрузите версию Pro, перейдя по ссылке:
 https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Не забывайте, что если вы удалите любое платное приложение в течение 2 часов, вам будет автоматически возвращена сумма оплаты. Если вы хотите вернуть деньги в другой момент, просто свяжитесь с нами по адресу hello@simplemobiletools.com и вы получите деньги обратно.</string>

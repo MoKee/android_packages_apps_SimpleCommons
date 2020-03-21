@@ -524,6 +524,8 @@
     <string name="read_it">Le lire</string>
     <string name="read_faq">Lire la FAQ</string>
     <string name="rate_us_prompt">Bonjour,\n\nil semble que vous utilisez cette application depuis un certain temps déjà, et nous l\'apprécions vraiment.\n\nSi nous pouvons vous demander une faveur, veuillez nous noter sur Google Play. Cela nous aiderait vraiment beaucoup.\n\nPeu importe comment vous décidez, vous ne verrez plus ce message.\n\nMerci !</string>
+    <string name="rate_our_app">Évaluez notre application s\'il vous plaît :)</string>
+    <string name="thank_you">Merci</string>
     <string name="sideloaded_app">            La version de l\'application semble être corrompue. Téléchargez la version originale de <a href="%s">ici </a>.
         </string>
     <string name="frequently_asked_questions">Foire aux questions (FAQ)</string>

@@ -8,7 +8,7 @@
     <string name="out_of_memory_error">Chyba nedostatku paměti</string>
     <string name="an_error_occurred">Vyskytla se chyba: %s</string>
     <string name="open_with">Otevřít pomocí</string>
-    <string name="edit_with">Upravit s</string>
+    <string name="edit_with">Upravit pomocí</string>
     <string name="no_app_found">Nebyla nalezena žádná vhodná aplikace</string>
     <string name="set_as">Nastavit jako</string>
     <string name="value_copied_to_clipboard">Hodnota zkopírována do schránky</string>
@@ -20,10 +20,10 @@
     <string name="deleting_folder">Maže se složka \'%s\'</string>
     <string name="none">Nic</string>
     <string name="label">Popis</string>
-    <string name="transparent">Průhledné</string>
+    <string name="transparent">Průhledná</string>
     <string name="transparent_color">Průhledná barva</string>
     <string name="select_a_different_color">Zvolte jinou barvu</string>
-    <string name="download">Ke stažení</string>
+    <string name="download">Stáhnout</string>
     <string name="notification">Oznámení</string>
     <string name="email">E-mail</string>
     <string name="favorites">Oblíbené</string>
@@ -32,7 +32,7 @@
     <string name="remove_from_favorites">Odebrat z oblíbených</string>
     <string name="search">Hledat</string>
     <string name="type_2_characters">Zadejte alespoň 2 znaky pro spuštění hledání.</string>
-    <string name="filter">Filtrovat</string>
+    <string name="filter">Filtr</string>
     <string name="no_items_found">Nebyly nalezeny žádné položky.</string>
     <string name="change_filter">Změnit filtr</string>
     <string name="no_storage_permissions">Vyžadováno oprávnění k úložišti</string>
@@ -68,7 +68,7 @@
     <string name="destination">Cíl</string>
     <string name="select_destination">Vybrat cíl</string>
     <string name="click_select_destination">Klikněte zde pro volbu cílové cesty</string>
-    <string name="invalid_destination">Nelze zapisovat do cílové destinace</string>
+    <string name="invalid_destination">Nelze zapisovat do vybraného cíle</string>
     <string name="please_select_destination">Prosím zvolte cíl</string>
     <string name="source_and_destination_same">Zdroj a cíl se musí lišit</string>
     <string name="copy_failed">Nelze zkopírovat soubory</string>
@@ -93,9 +93,9 @@
     <string name="invalid_name">Název obsahuje neplatné znaky</string>
     <string name="empty_name">Zadejte prosím název</string>
     <string name="unknown_error_occurred">Vyskytla se neznámá chyba</string>
-    <string name="file_already_exists">Soubor \"%s\" již existuje</string>
-    <string name="file_already_exists_overwrite">Soubor \"%s\" již existuje. Přepsat?</string>
-    <string name="folder_already_exists">Složka \"%s\" již existuje</string>
+    <string name="file_already_exists">Soubor s názvem \"%s\" již existuje</string>
+    <string name="file_already_exists_overwrite">Soubor s názvem \"%s\" již existuje. Přepsat?</string>
+    <string name="folder_already_exists">Složka s názvem \"%s\" již existuje</string>
     <string name="merge">Sloučit</string>
     <string name="keep_both">Zachovat oba</string>
     <string name="overwrite">Přepsat</string>
@@ -169,15 +169,15 @@
     <string name="undo_changes">Vrátit změny</string>
     <string name="undo_changes_confirmation">Opravdu chcete vrátit změny?</string>
     <string name="save_before_closing">Máte neuložené změny. Uložit před zavřením?</string>
-    <string name="apply_to_all_apps">Použít barvy pro všechny Jednoduché aplikace</string>
+    <string name="apply_to_all_apps">Použít barvy pro všechny aplikace Simple </string>
     <string name="app_icon_color_warning">VAROVÁNÍ: Některé spouštěče nezpracovávají přizpůsobení ikon aplikací správně. V případě, že ikona zmizí, zkuste spustit aplikaci přes Obchod Play nebo nějaký widget, pokud je k dispozici.
         Po spuštění stačí nastavit výchozí oranžovou ikonu # F57C00. V nejhorším případě budete muset aplikaci přeinstalovat.</string>
     <string name="share_colors_success">Barvy byly úspěšně aktualizovány. Byl přidán nový \'Sdílený\' motiv, prosím použijte jej při další úpravě barev.</string>
     <string name="light_theme">Světlý</string>
     <string name="dark_theme">Tmavý</string>
     <string name="solarized">Solarizovaný</string>
-    <string name="dark_red">Tmavě červená</string>
-    <string name="black_white">Černá &amp; Bílá</string>
+    <string name="dark_red">Tmavě červený</string>
+    <string name="black_white">Černý &amp; bílý</string>
     <string name="custom">Vlastní</string>
     <string name="shared">Sdíleno</string>
     <string name="whats_new">Co je nového</string>
@@ -196,7 +196,7 @@
     <string name="stop_showing_hidden">Ukončit zobrazování skrytých médií</string>
     <string name="maximum_share_reached">Nelze sdílet tolik obsahu najednou</string>
     <string name="empty_and_disable_recycle_bin">Vyprázdnit a zakázat koš</string>
-    <string name="undo">Zpět</string>
+    <string name="undo">Vrátit zpět</string>
     <string name="redo">Opakovat</string>
     <string name="print">Tisk</string>
     <string name="create_shortcut">Vytvořit zástupce</string>
@@ -215,7 +215,7 @@
     <string name="use_for_this_folder">Použít pouze pro tuto složku</string>
     <string name="sort_numeric_parts">Seřadit číselné části podle skutečné hodnoty</string>
     <string name="proceed_with_deletion">Opravdu chcete pokračovat s odstraněním?</string>
-    <string name="deletion_confirmation">Jste si jisti že chcete odstranit %s?</string>
+    <string name="deletion_confirmation">Jste si jisti, že chcete odstranit %s?</string>
     <string name="move_to_recycle_bin_confirmation">Opravdu chcete přesunout %s do koše?</string>
     <string name="are_you_sure_delete">Jste si jisti, že chcete odstranit tuto položku?</string>
     <string name="are_you_sure_recycle_bin">Jste si jisti, že chcete vyhodit tuto položku do koše?</string>
@@ -231,7 +231,7 @@
     </plurals>
     <string name="pin">PIN</string>
     <string name="enter_pin">Zadejte PIN</string>
-    <string name="please_enter_pin">Prosím zadejte PIN</string>
+    <string name="please_enter_pin">Prosím, zadejte PIN</string>
     <string name="wrong_pin">Nesprávný PIN</string>
     <string name="repeat_pin">Zopakujte PIN</string>
     <string name="pattern">Vzor</string>
@@ -296,8 +296,8 @@
     <plurals name="years">
         <item quantity="one">%d rok</item>
         <item quantity="few">%d roky</item>
-        <item quantity="many">%d roků</item>
-        <item quantity="other">%d roků</item>
+        <item quantity="many">%d let</item>
+        <item quantity="other">%d let</item>
     </plurals>
     <plurals name="in_seconds">
         <item quantity="one">%d sekunda</item>
@@ -338,14 +338,14 @@
     <plurals name="in_years">
         <item quantity="one">%d rok</item>
         <item quantity="few">%d roky</item>
-        <item quantity="many">%d roků</item>
-        <item quantity="other">%d roků</item>
+        <item quantity="many">%d let</item>
+        <item quantity="other">%d let</item>
     </plurals>
     <plurals name="seconds_before">
-        <item quantity="one">o %d sekundu dříve</item>
-        <item quantity="few">o %d sekundy dříve</item>
-        <item quantity="many">o %d sekund dříve</item>
-        <item quantity="other">o %d sekund dříve</item>
+        <item quantity="one">před %d sekundou</item>
+        <item quantity="few">před %d sekundami</item>
+        <item quantity="many">před %d sekundami</item>
+        <item quantity="other">před %d sekundami</item>
     </plurals>
     <plurals name="minutes_before">
         <item quantity="one">před %d minutou</item>
@@ -422,10 +422,10 @@
     <plurals name="by_years">
         <item quantity="one">%d rok</item>
         <item quantity="few">%d roky</item>
-        <item quantity="many">%d roků</item>
-        <item quantity="other">%d roků</item>
+        <item quantity="many">%d let</item>
+        <item quantity="other">%d let</item>
     </plurals>
-    <string name="alarm_goes_off_in">Zbývající čas do zvonění budíku:\n%s</string>
+    <string name="alarm_goes_off_in">Zbývající čas do vypnutí budíku:\n%s</string>
     <string name="reminder_triggers_in">Zbývající čas do připomínky:\n%s</string>
     <string name="alarm_warning">Před tím, než se začnete spoléhat na budík, prosím ujistěte se, zda funguje správně. Mohlo by dojít k potížím díky omezením systému týkajících se úspory baterie.</string>
     <string name="reminder_warning">Před tím, než se začnete spoléhat na upozornění, prosím ujistěte se, zda fungují správně. Mohlo by dojít k potížím díky omezením systému týkajících se úspory baterie.</string>
@@ -462,7 +462,7 @@
     <string name="change_date_and_time_format">Změna formátu data a času</string>
     <string name="sunday_first">Začátek týdne v neděli</string>
     <string name="widgets">Widgety</string>
-    <string name="use_same_snooze">Vždy používat stejnou čas odložení</string>
+    <string name="use_same_snooze">Vždy používat stejný čas odložení</string>
     <string name="snooze_time">Čas odložení</string>
     <string name="vibrate_on_button_press">Vibrovat při stisknutí tlačítka</string>
     <string name="move_items_into_recycle_bin">Místo vymazání přesunout položky do odpadkového koše</string>
@@ -557,15 +557,18 @@
     <string name="friday_short">Pá</string>
     <string name="saturday_short">So</string>
     <string name="sunday_short">Ne</string>
-    <string name="it_is_free">Je do bezplatné do: %s. Pokud si ji do té doby stáhnete, budete ji moci zdarma navždy používat.</string>
+    <string name="upgrade_to_pro_long">Verze vaší aplikace již nebude aktualizována. Chcete-li dostávat nové opravy a další vylepšení, upgradujte na verzi Pro.</string>
+    <string name="upgrade_to_pro_long_click">Verze vaší aplikace již nebude aktualizována. Chcete-li dostávat nové opravy a další vylepšení, klepnutím sem upgradujte na verzi Pro.</string>
+    <string name="it_is_free">Je zdarma do: %s. Pokud si ji do té doby stáhnete, budete ji moci zdarma navždy používat.</string>
     <string name="more_info">Další informace</string>
     <string name="upgrade">Upgradovat</string>
     <string name="upgrade_calendar">Musíte migrovat lokálně uložené události ručně prostřednictvím exportu do souboru .ics a následně importovat. V nabídce hlavní obrazovky naleznete tlačítka export/import.</string>
     <string name="about">O aplikaci</string>
     <string name="website_label">Pro zdrojové kódy navštivte</string>
-    <string name="email_label">Zpětnou vazbu či návhry posílejte na</string>
+    <string name="email_label">Zpětnou vazbu či návrhy posílejte na</string>
     <string name="upgrade_to_pro">Upgradovat na Pro</string>
     <string name="more_apps_underlined"><u>Více aplikací</u></string>
+    <string name="more_apps_from_us_underlined"><u>Další aplikace od nás</u></string>
     <string name="third_party_licences_underlined"><u>Licence třetích stran</u></string>
     <string name="invite_friends_underlined"><u>Pozvat přátele</u></string>
     <string name="share_text">Ahoj, vyzkoušej %1$s na %2$s</string>
@@ -573,18 +576,23 @@
     <string name="rate_us_underlined"><u>Ohodnotit</u></string>
     <string name="rate">Ohodnotit</string>
     <string name="donate">Přispět</string>
-    <string name="donate_underlined"><u>Darovat</u></string>
+    <string name="donate_underlined"><u>Přispět</u></string>
     <string name="follow_us">Sledujte nás</string>
-    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="copyright">v %1$s\nAutorská práva © Simple Mobile Tools %2$d</string>
     <string name="additional_info">Další informace</string>
     <string name="app_version">Verze aplikace: %s</string>
     <string name="device_os">OS zařízení: %s</string>
     <string name="purchase">Zakoupit</string>
     <string name="update_thank_you">Prosím aktualizujte Simple Thank You na nejnovější verzi</string>
     <string name="before_asking_question_read_faq">Než se něco zeptáte, nejprve zkontrolujte nastavení aplikace a přečtěte si prosím FAQ. Možná tam najdete svou odpověď.</string>
+    <string name="before_rate_read_faq">Než nás ohodnotíte, zkontrolujte prosím nastavení aplikace a přečtěte si FAQ. Pokud máte nějaké problémy, možná tam najdete řešení.</string>
+    <string name="make_sure_latest">Také se ujistěte, že používáte nejnovější verzi aplikace.</string>
     <string name="read_it">Čtěte</string>
+    <string name="read_faq">Číst FAQ</string>
     <string name="rate_us_prompt">Ahoj,\n\nzdá se, že tuto aplikaci už nějakou dobu používáte a opravdu si toho vážíme.\n\nPokud vás můžeme požádat o laskavost, napište nám recenzi na Google Play. To by nám hodně pomohlo.\n\nBez ohledu na to, jak se rozhodnete, tuto zprávu vícekrát neuvidíte.\n\nDíky!</string>
-    <string name="sideloaded_app">            Zdá se, že verze aplikace je poškozená. Stáhněte si prosím původní verzi <a href="%s">here</a>.
+    <string name="rate_our_app">Ohodnoťte prosím naši aplikaci :)</string>
+    <string name="thank_you">Děkujeme</string>
+    <string name="sideloaded_app">            Zdá se, že verze aplikace je poškozena. Stáhněte si prosím původní verzi &lt;a href="%s"&gt;zde&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Často kladené otázky</string>
     <string name="before_asking_question">Před položením otázky, prosím nejprve čtěte</string>
@@ -603,7 +611,12 @@
     <string name="faq_6_title_commons">Ikona spouštěče aplikací zmizela. Co můžu dělat?</string>
     <string name="faq_6_text_commons">To je způsobeno tím, že váš spouštěč nepodporuje přizpůsobení ikon správně. Zkuste spustit aplikaci přes Obchod Play nebo nějaký widgetu, pokud je k dispozici.
         Po spuštění stačí nastavit výchozí oranžovou ikonu # F57C00. V nejhorším případě budete muset aplikaci přeinstalovat.</string>
+    <string name="faq_7_title_commons">Peníze byly odečteny z mého bankovního účtu, ale aplikaci si nemůžu stáhnout. Co můžu dělat?</string>
+    <string name="faq_7_text_commons">Platby jsou plně zpracovávány společností Google, jejich systémové závady se čas od času objeví. Vymažte mezipaměť aplikace Obchod Play, restartujte zařízení a zkuste stáhnout aplikaci znovu.</string>
     <string name="faq_8_title_commons">Proč bych měl provést upgrade na verzi Pro?</string>
+    <string name="faq_8_text_commons">Protože verze vaší aplikace již není aktualizována, chyby, které jste možná objevili, nebudou nikdy opraveny. Nebudou také přidány žádné nové funkce. Za malou částku si můžete zakoupit verzi Pro z Obchodu Play.
+        Jedná se o jednorázovou platbu, což znamená, že jakmile si aplikaci koupíte, už nikdy nebudete muset platit. Ani pro instalaci na nové zařízení. Pokud se vám verze Pro nebude líbit, stačí ji během několika hodin odinstalovat a peníze dostanete automaticky zpět.
+        Pokud chcete vrátit peníze kdykoli později, kontaktujte nás na adrese hello@simplemobiletools.com a dostanete je zpět.</string>
     <string name="notice">Tato aplikace využívá následující knihovny třetích stran. Děkuji.</string>
     <string name="third_party_licences">Licence třetích stran</string>
     <string name="kotlin_title">Kotlin (programovací jazyk)</string>
@@ -630,6 +643,7 @@
     <string name="sanselan_title">Apache Sanselan (čtení metadat obrázků)</string>
     <string name="filters_title">Android Photo Filters (filtry obrázků)</string>
     <string name="gesture_views_title">Náhledy gesty (přiblížitelné obrázky)</string>
+    <string name="indicator_fast_scroll_title">Indikátor Rychlé posouvání (písmena na posuvníku)</string>
     <string name="deprecated_app">ZASTARALÁ: Tato verze aplikace již není udržována, získejte verzi Pro na https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Nezapomeňte, že pokud odinstalujete všechny placené aplikace do 2 hodin, platba budete automaticky vrácena. Pokud chcete vrátit peníze později, kontaktujte nás na hello@simplemobiletools.com a získáte je zpět. To vám usnadní vyzkoušení :)</string>
 </resources>

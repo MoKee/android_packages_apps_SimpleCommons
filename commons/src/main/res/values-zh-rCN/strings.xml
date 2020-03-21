@@ -11,7 +11,7 @@
     <string name="edit_with">编辑方式</string>
     <string name="no_app_found">未找到可用应用</string>
     <string name="set_as">设置为</string>
-    <string name="value_copied_to_clipboard">颜色值已复制到剪贴板</string>
+    <string name="value_copied_to_clipboard">该值已复制到剪贴板</string>
     <string name="unknown">未知</string>
     <string name="always">总是</string>
     <string name="never">从不</string>
@@ -183,7 +183,7 @@
     <string name="unhide">取消隐藏</string>
     <string name="hide_folder">隐藏文件夹</string>
     <string name="unhide_folder">取消隐藏文件夹</string>
-    <string name="temporarily_show_hidden">显示／隐藏缓存内容</string>
+    <string name="temporarily_show_hidden">暂时显示隐藏内容</string>
     <string name="stop_showing_hidden">不显示隐藏的媒体文件</string>
     <string name="maximum_share_reached">您不能一次分享太多的内容</string>
     <string name="empty_and_disable_recycle_bin">清空并禁用回收站</string>
@@ -204,7 +204,7 @@
     <string name="ascending">递增</string>
     <string name="descending">递减</string>
     <string name="use_for_this_folder">仅应用于此文件夹</string>
-    <string name="sort_numeric_parts">按实际值排序数字部件</string>
+    <string name="sort_numeric_parts">按实际值排序数字部分</string>
     <string name="proceed_with_deletion">是否执行此删除操作？</string>
     <string name="deletion_confirmation">你确定要删除 %s？</string>
     <string name="move_to_recycle_bin_confirmation">你确定要移动 %s到回收站？</string>
@@ -235,7 +235,7 @@
     <string name="go_to_settings">去设置</string>
     <string name="protection_setup_successfully">密码设置成功。如果你不慎遗忘了，请重新安装本应用。</string>
     <string name="fingerprint_setup_successfully">指纹保护设置成功。如果出现问题，请重新安装本应用。</string>
-    <string name="lock_folder">锁定文件夹</string>
+    <string name="lock_folder">文件夹上锁</string>
     <string name="unlock_folder">解锁文件夹</string>
     <string name="lock_folder_notice">此保护仅在此应用程序中运行，它不是一个真正的全系统文件夹加密。</string>
     <string name="yesterday">昨天</string>
@@ -491,6 +491,8 @@
     <string name="read_it">阅读</string>
     <string name="read_faq">阅读常见问题</string>
     <string name="rate_us_prompt">您好，\n\n看起来您已经使用这款应用有一段时间了，我们对此表示非常感谢。\n\n如果可以的话，请您在 Google Play 上帮我们对该应用进行评分。这将给予我们很大的帮助。\n\n无论您作何决定，都将不会再看到本条消息。\n\n谢谢！</string>
+    <string name="rate_our_app">请给我们的应用评分 :)</string>
+    <string name="thank_you">谢谢</string>
     <string name="sideloaded_app">            应用版本似乎已损坏。 请下载<a href="%s">此处</a>.的原始版本
         </string>
     <string name="frequently_asked_questions">常见问题</string>

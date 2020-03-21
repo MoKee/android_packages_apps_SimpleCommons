@@ -524,6 +524,8 @@
     <string name="read_it">Loe seda</string>
     <string name="read_faq">Lugege KKK-sid</string>
     <string name="rate_us_prompt">Tere,\n\n tundub, et kasutate seda rakendust juba mõnda aega ja me hindame seda tõesti.\n\nKui saame teid paluda, siis hinnake meid Google Plays. See aitaks meid tõesti palju.\n\nÜkskõik kuidas otsustate, ei näe te seda sõnumit uuesti.\n\nTäname!</string>
+    <string name="rate_our_app">Hinda meie rakendust palun :)</string>
+    <string name="thank_you">Aitäh</string>
     <string name="sideloaded_app">            Tundub, et teie rakenduse versioon on rikutud. Palun laadige alla originaalversioon &lt;a href=\"%s\"&gt;siia&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Korduma Kippuvad Küsimused</string>

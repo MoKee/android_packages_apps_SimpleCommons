@@ -589,6 +589,8 @@
     <string name="read_it">Przeczytaj</string>
     <string name="read_faq">Przeczytaj FAQ</string>
     <string name="rate_us_prompt">Cześć,\n\nwygląda na to, że używasz tej aplikacji już od pewnego czasu, i naprawdę to doceniamy.\n\nJeśli możemy zapytać o przysługę, oceń nas w Google Play. To naprawdę bardzo by nam pomogło.\n\nNiezależnie od tego, jak zadecydujesz, nie zobaczysz tej wiadomości ponownie.\n\nDzięki!</string>
+    <string name="rate_our_app">Oceń naszą aplikację :)</string>
+    <string name="thank_you">Dziękuję</string>
     <string name="sideloaded_app">           Wygląda na to, że ta wersja aplikacji jest uszkodzona. Proszę pobierz jej oryginalną wersję &lt;a href=\"%s\"&gt;tutaj&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Często zadawane pytania (FAQ)</string>

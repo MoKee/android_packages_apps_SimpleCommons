@@ -490,6 +490,8 @@
     <string name="read_it">讀它</string>
     <string name="read_faq">閱讀常見問題</string>
     <string name="rate_us_prompt">Hello,\n\nit looks like you are using this app for quite a while already, and we really appreciate it.\n\nIf we can ask you a favor, please rate us on Google Play. That would really help us a lot.\n\nNo matter how you decide, you will not see this message again.\n\nThanks!</string>
+    <string name="rate_our_app">請給我們的應用程式評分 :)</string>
+    <string name="thank_you">謝謝你</string>
     <string name="sideloaded_app">            應用版本似乎已損壞。請下載<a href="%s">此处</a>.的原始版本
         </string>
     <string name="frequently_asked_questions">常見問題</string>
