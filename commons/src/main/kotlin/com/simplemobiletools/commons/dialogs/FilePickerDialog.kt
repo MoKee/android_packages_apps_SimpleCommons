@@ -58,7 +58,11 @@ class FilePickerDialog(val activity: BaseSimpleActivity,
             currPath = activity.internalStoragePath
         }
 
-        mDialogView.filepicker_breadcrumbs.listener = this
+        mDialogView.filepicker_breadcrumbs.apply {
+            listener = this@FilePickerDialog
+            updateFontSize(activity.getTextSize())
+        }
+
         tryUpdateItems()
 
         val builder = AlertDialog.Builder(activity)
@@ -152,7 +156,6 @@ class FilePickerDialog(val activity: BaseSimpleActivity,
                 verifyPath()
             }
         }
-        adapter.addVerticalDividers(true)
 
         val layoutManager = mDialogView.filepicker_list.layoutManager as LinearLayoutManager
         mScrollStates[mPrevPath.trimEnd('/')] = layoutManager.onSaveInstanceState()!!
