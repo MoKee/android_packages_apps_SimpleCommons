@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="ok">Լավ</string>
+    <string name="cancel">Չեղարկել</string>
+    <string name="save_as">Պահել ինչպես</string>
     <string name="set_as">Սահմանել որպես</string>
     <string name="unknown">Անհայտ</string>
+    <string name="always">Միշտ</string>
+    <string name="never">Երբեք</string>
     <string name="details">Մանրամասներ</string>
+    <string name="notes">Նշումներ</string>
     <string name="none">Ոչ մեկը</string>
+    <string name="label">Պիտակ</string>
+    <string name="notification">Ծանուցում</string>
+    <string name="email">Էլ. փոստ.</string>
     <string name="search">Որոնել</string>
+    <string name="filter">Ֆիլտր</string>
     <string name="path">Ուղի</string>
     <string name="duration">Տևողությունը</string>
     <string name="exposure_time">Լուսավորման ժամանակը</string>
