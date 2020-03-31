@@ -27,7 +27,10 @@ import com.simplemobiletools.commons.helpers.*
 import com.simplemobiletools.commons.models.*
 import com.simplemobiletools.commons.views.MyTextView
 import kotlinx.android.synthetic.main.dialog_title.view.*
-import java.io.*
+import java.io.File
+import java.io.FileNotFoundException
+import java.io.FileOutputStream
+import java.io.OutputStream
 import java.util.*
 import kotlin.collections.HashMap
 
@@ -728,15 +731,6 @@ fun BaseSimpleActivity.getFileOutputStreamSync(path: String, mimeType: String, p
             showErrorToast(e)
             null
         }
-    }
-}
-
-fun BaseSimpleActivity.getFileInputStreamSync(path: String): InputStream? {
-    return if (isPathOnOTG(path)) {
-        val fileDocument = getSomeDocumentFile(path)
-        applicationContext.contentResolver.openInputStream(fileDocument?.uri!!)
-    } else {
-        FileInputStream(File(path))
     }
 }
 
