@@ -12,6 +12,8 @@
     <string name="download">Изтегли</string>
     <string name="notification">Известия</string>
     <string name="email">Имейл</string>
+    <string name="previous">Предишна</string>
+    <string name="next">Следваща</string>
     <string name="favorites">Любими</string>
     <string name="add_to_favorites">Добави към Любими</string>
     <string name="remove_from_favorites">Премахни от любими</string>

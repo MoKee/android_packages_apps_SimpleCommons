@@ -21,6 +21,8 @@
     <string name="download">Lataa</string>
     <string name="notification">Ilmoitus</string>
     <string name="email">Sähköposti</string>
+    <string name="previous">Edellinen</string>
+    <string name="next">Seuraava</string>
     <string name="favorites">Suosikit</string>
     <string name="add_to_favorites">Lisää suosikkeihin</string>
     <string name="remove_from_favorites">Poista suosikeista</string>

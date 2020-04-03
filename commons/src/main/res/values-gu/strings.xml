@@ -5,6 +5,8 @@
     <string name="details">વિગતો</string>
     <string name="none">કોઈ નહીં</string>
     <string name="email">ઇમેઇલ</string>
+    <string name="previous">"પાછળ"</string>
+    <string name="next">"આગામી"</string>
     <string name="skip">છોડી દો</string>
     <string name="path">પાથ</string>
     <string name="duration">અવધિ</string>

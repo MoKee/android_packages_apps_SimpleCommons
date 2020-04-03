@@ -20,6 +20,8 @@
     <string name="none">Ningún</string>
     <string name="download">Descarga</string>
     <string name="email">Correo electrónico</string>
+    <string name="previous">Anterior</string>
+    <string name="next">Seguinte</string>
     <string name="search">Buscar</string>
     <string name="type_2_characters">Escribe por lo menos dos caracteres para iniciar la búsqueda.</string>
     <string name="filter">Filtrar</string>

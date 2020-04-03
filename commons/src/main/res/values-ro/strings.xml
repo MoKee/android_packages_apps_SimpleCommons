@@ -13,6 +13,8 @@
     <string name="download">Descarcă</string>
     <string name="notification">Notificare</string>
     <string name="email">Email</string>
+    <string name="previous">Anterior</string>
+    <string name="next">Înainte</string>
     <string name="favorites">Favorite</string>
     <string name="add_to_favorites">Adaugă la favorite</string>
     <string name="remove_from_favorites">Ștergeți de la favorite</string>

@@ -12,6 +12,8 @@
     <string name="download">다운로드</string>
     <string name="notification">알림</string>
     <string name="email">이메일</string>
+    <string name="previous">이전</string>
+    <string name="next">다음</string>
     <string name="favorites">즐겨찾기</string>
     <string name="add_to_favorites">즐겨찾기에 추가</string>
     <string name="remove_from_favorites">즐겨찾기에서 제거</string>

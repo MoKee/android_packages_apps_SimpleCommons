@@ -21,6 +21,8 @@
     <string name="label">Etiket</string>
     <string name="download">Endir</string>
     <string name="email">E-poçt</string>
+    <string name="previous">Əvvəlki</string>
+    <string name="next">Sonrakı</string>
     <string name="favorites">Sevimlilər</string>
     <string name="add_favorites">Sevimlilər əlavə et</string>
     <string name="add_to_favorites">Sevimlilərə əlavə et</string>

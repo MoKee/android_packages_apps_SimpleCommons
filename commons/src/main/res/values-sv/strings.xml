@@ -26,6 +26,8 @@
     <string name="download">Hämta</string>
     <string name="notification">Notifikation</string>
     <string name="email">E-post</string>
+    <string name="previous">Föregående</string>
+    <string name="next">Nästa</string>
     <string name="favorites">Favoriter</string>
     <string name="add_favorites">Lägg till favoriter</string>
     <string name="add_to_favorites">Lägg till i favoriter</string>

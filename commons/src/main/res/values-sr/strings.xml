@@ -26,6 +26,8 @@
     <string name="download">Преузимање</string>
     <string name="notification">Обавештења</string>
     <string name="email">Е-пошта</string>
+    <string name="previous">Претходно</string>
+    <string name="next">Следеће</string>
     <string name="favorites">Омиљено</string>
     <string name="add_favorites">Додај омиљене</string>
     <string name="add_to_favorites">Додај у омиљене</string>

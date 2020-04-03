@@ -26,6 +26,8 @@
     <string name="download">Allalaadimine</string>
     <string name="notification">Teade</string>
     <string name="email">E-mail</string>
+    <string name="previous">Eelmine</string>
+    <string name="next">Järgmine</string>
     <string name="favorites">Lemmikud</string>
     <string name="add_favorites">Lisa lemmikuid</string>
     <string name="add_to_favorites">Lisa lemmikutesse</string>

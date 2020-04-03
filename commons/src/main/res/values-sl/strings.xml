@@ -26,6 +26,8 @@
     <string name="download">Prenos</string>
     <string name="notification">Obvestilo</string>
     <string name="email">E-pošta</string>
+    <string name="previous">Prejšnja</string>
+    <string name="next">Naprej</string>
     <string name="favorites">Priljubljeno</string>
     <string name="add_favorites">Dodaj priljubljene</string>
     <string name="add_to_favorites">Dodaj med priljubljene</string>

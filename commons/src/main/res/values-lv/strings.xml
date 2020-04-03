@@ -5,6 +5,8 @@
     <string name="details">Detalizēta informācija</string>
     <string name="none">Nav</string>
     <string name="notification">Paziņojums</string>
+    <string name="previous">Iepriekšējais</string>
+    <string name="next">Nākamais</string>
     <string name="search">Meklēt</string>
     <string name="skip">Izlaist</string>
     <string name="path">Ceļš</string>

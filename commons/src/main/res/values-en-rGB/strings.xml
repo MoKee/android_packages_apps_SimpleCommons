@@ -7,6 +7,7 @@
     <string name="download">Download</string>
     <string name="notification">Notification</string>
     <string name="email">Email</string>
+    <string name="next">Next</string>
     <string name="favorites">Favourites</string>
     <string name="add_to_favorites">Add to favourites</string>
     <string name="remove_from_favorites">Remove from favourites</string>

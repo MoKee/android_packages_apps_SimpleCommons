@@ -25,6 +25,8 @@
     <string name="select_a_different_color">Επιλέξτε διαφορετικό χρώμα</string>
     <string name="download">Λήψη αρχείου</string>
     <string name="email">Ηλεκτρονικό ταχυδρομείο</string>
+    <string name="previous">Προηγούμενο</string>
+    <string name="next">Επόμενο</string>
     <string name="favorites">Αγαπημένα</string>
     <string name="add_favorites">Προσθήκη αγαπημένων</string>
     <string name="add_to_favorites">Προσθήκη στα αγαπημένα</string>

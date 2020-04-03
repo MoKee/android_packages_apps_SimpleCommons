@@ -26,6 +26,8 @@
     <string name="download">Transferência</string>
     <string name="notification">Notificação</string>
     <string name="email">E-mail</string>
+    <string name="previous">Anterior</string>
+    <string name="next">Seguinte</string>
     <string name="favorites">Marcadores</string>
     <string name="add_favorites">Adicionar favoritos</string>
     <string name="add_to_favorites">Adicionar aos marcadores</string>

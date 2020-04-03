@@ -9,6 +9,8 @@
     <string name="none">कुछ नहीं</string>
     <string name="download">डाउनलोड करें</string>
     <string name="notification">अधिसूचना</string>
+    <string name="previous">पिछला</string>
+    <string name="next">अगला</string>
     <string name="search">खोज</string>
     <string name="folder">फ़ोल्डर</string>
     <string name="skip">छोड़ें</string>

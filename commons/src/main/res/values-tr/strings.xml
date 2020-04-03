@@ -26,6 +26,8 @@
     <string name="download">İndirme</string>
     <string name="notification">Bildirim</string>
     <string name="email">E-posta</string>
+    <string name="previous">Önceki</string>
+    <string name="next">Sonraki</string>
     <string name="favorites">Favoriler</string>
     <string name="add_favorites">Favori ekle</string>
     <string name="add_to_favorites">Favorilere ekle</string>

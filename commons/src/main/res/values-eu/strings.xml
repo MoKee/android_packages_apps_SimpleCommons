@@ -10,6 +10,8 @@
     <string name="download">Deskarga</string>
     <string name="notification">Jakinarazpena</string>
     <string name="email">E-posta</string>
+    <string name="previous">Aurrekoa</string>
+    <string name="next">Hurrengoa</string>
     <string name="search">Bilatu</string>
     <string name="skip">Saltatu</string>
     <string name="sd_card">SD txartela</string>

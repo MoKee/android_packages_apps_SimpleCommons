@@ -26,6 +26,8 @@
     <string name="download">Завантажити</string>
     <string name="notification">Нагадування</string>
     <string name="email">Електронна пошта</string>
+    <string name="previous">Попереднє відео</string>
+    <string name="next">Далі</string>
     <string name="favorites">Обране</string>
     <string name="add_favorites">Додати в улюблені</string>
     <string name="add_to_favorites">Додати до улюбленого</string>

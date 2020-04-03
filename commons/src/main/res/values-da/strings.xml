@@ -24,6 +24,8 @@
     <string name="download">Download</string>
     <string name="notification">Underretning</string>
     <string name="email">E-mail</string>
+    <string name="previous">Forrige</string>
+    <string name="next">Næste</string>
     <string name="favorites">Bogmærker</string>
     <string name="add_favorites">Tilføj bogmærker</string>
     <string name="add_to_favorites">Føj til bogmærker</string>

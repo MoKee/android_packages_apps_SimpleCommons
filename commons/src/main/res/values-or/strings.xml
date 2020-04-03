@@ -5,6 +5,8 @@
     <string name="details">ବିବରଣୀଗୁଡିକ</string>
     <string name="none">କିଛି ନୁହେଁ</string>
     <string name="email">ଇମେଲ୍</string>
+    <string name="previous">"ପୂର୍ବବର୍ତ୍ତୀ"</string>
+    <string name="next">"ପରବର୍ତ୍ତୀ"</string>
     <string name="skip">ସ୍କିପ୍</string>
     <string name="path">ପଥ</string>
     <string name="duration">ଅବଧି</string>

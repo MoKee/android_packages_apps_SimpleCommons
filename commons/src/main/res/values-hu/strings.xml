@@ -26,6 +26,8 @@
     <string name="download">Letöltés</string>
     <string name="notification">Értesítés</string>
     <string name="email">E-mail</string>
+    <string name="previous">Előző</string>
+    <string name="next">Következő</string>
     <string name="favorites">Kedvencek</string>
     <string name="add_favorites">Kedvencek hozzáadása</string>
     <string name="add_to_favorites">Hozzáadás a Kedvencekhez</string>

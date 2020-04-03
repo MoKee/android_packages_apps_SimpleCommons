@@ -26,6 +26,8 @@
     <string name="download">ダウンロード</string>
     <string name="notification">通知</string>
     <string name="email">メール</string>
+    <string name="previous">前へ</string>
+    <string name="next">次へ</string>
     <string name="favorites">お気に入り</string>
     <string name="add_favorites">お気に入りを追加</string>
     <string name="add_to_favorites">お気に入りに追加</string>

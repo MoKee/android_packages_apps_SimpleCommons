@@ -11,6 +11,8 @@
     <string name="download">Спампаваць</string>
     <string name="notification">Апавяшчэнне</string>
     <string name="email">Электронная пошта</string>
+    <string name="previous">Папярэдні трэк</string>
+    <string name="next">Далей</string>
     <string name="favorites">Абранае</string>
     <string name="add_to_favorites">Дадаць у абранае</string>
     <string name="search">Пошук</string>

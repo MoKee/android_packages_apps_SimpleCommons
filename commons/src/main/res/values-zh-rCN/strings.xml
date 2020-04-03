@@ -26,6 +26,8 @@
     <string name="download">下载</string>
     <string name="notification">通知</string>
     <string name="email">电子邮件</string>
+    <string name="previous">上一个</string>
+    <string name="next">下一步</string>
     <string name="favorites">收藏</string>
     <string name="add_favorites">添加收藏</string>
     <string name="add_to_favorites">添加到收藏</string>

@@ -26,6 +26,8 @@
     <string name="download">ಡೌನ್‍ಲೋಡ್</string>
     <string name="notification">ಅಧಿಸೂಚನೆಗಳು</string>
     <string name="email">ಇಮೇಲ್</string>
+    <string name="previous">ಹಿಂದಿನ</string>
+    <string name="next">ಮುಂದಿನ</string>
     <string name="favorites">ಮೆಚ್ಚಿನ</string>
     <string name="add_favorites">ಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸಿ</string>
     <string name="add_to_favorites">ಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸಿ</string>

@@ -7,6 +7,8 @@
     <string name="none">هیچ‌کدام</string>
     <string name="download">دانلود</string>
     <string name="email">ایمیل</string>
+    <string name="previous">قبلی</string>
+    <string name="next">بعدی</string>
     <string name="search">جستجو</string>
     <string name="folder">پوشه</string>
     <string name="skip">رد شدن</string>

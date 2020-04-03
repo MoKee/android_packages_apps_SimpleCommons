@@ -6,6 +6,8 @@
     <string name="details">వివరాలు</string>
     <string name="none">ఏదీ వద్దు</string>
     <string name="email">ఈమెయిల్‌</string>
+    <string name="previous">"మునుపటి"</string>
+    <string name="next">"తదుపరి"</string>
     <string name="skip">దాటవేయి</string>
     <string name="path">పథం</string>
     <string name="duration">వ్యవధి</string>

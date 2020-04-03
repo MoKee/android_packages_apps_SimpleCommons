@@ -26,6 +26,8 @@
     <string name="download">Tải xuống</string>
     <string name="notification">Thông báo</string>
     <string name="email">Thư điện tử</string>
+    <string name="previous">Trước</string>
+    <string name="next">Tiếp theo</string>
     <string name="favorites">Yêu thích</string>
     <string name="add_favorites">Thêm yêu thích</string>
     <string name="add_to_favorites">Thêm vào yêu thích</string>

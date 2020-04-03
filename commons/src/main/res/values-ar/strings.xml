@@ -26,6 +26,8 @@
     <string name="download">تنزيل</string>
     <string name="notification">الاشعارات</string>
     <string name="email">البريد الإلكتروني</string>
+    <string name="previous">السابق</string>
+    <string name="next">القادم</string>
     <string name="favorites">المفضلة</string>
     <string name="add_favorites">إضافة مفضلات</string>
     <string name="add_to_favorites">اضافة الى المفضلة</string>

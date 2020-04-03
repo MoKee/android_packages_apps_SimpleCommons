@@ -11,6 +11,8 @@
     <string name="download">I-download</string>
     <string name="notification">Notipikasyon</string>
     <string name="email">Email</string>
+    <string name="previous">Nakaraan</string>
+    <string name="next">Susunod</string>
     <string name="favorites">Mga paborito</string>
     <string name="add_to_favorites">Idagdag sa mga paborito</string>
     <string name="search">Hanapin</string>

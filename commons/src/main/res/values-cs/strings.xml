@@ -26,6 +26,8 @@
     <string name="download">Stáhnout</string>
     <string name="notification">Oznámení</string>
     <string name="email">E-mail</string>
+    <string name="previous">Předchozí</string>
+    <string name="next">Další</string>
     <string name="favorites">Oblíbené</string>
     <string name="add_favorites">Přidat oblíbené</string>
     <string name="add_to_favorites">Přidat do oblíbených</string>

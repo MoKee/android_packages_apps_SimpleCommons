@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">Iawn</string>
     <string name="cancel">Canslo</string>
+    <string name="next">Nesaf</string>
     <string name="search">Chwilio</string>
     <string name="skip">Neidio</string>
     <string name="dark_theme">Tywyll</string>

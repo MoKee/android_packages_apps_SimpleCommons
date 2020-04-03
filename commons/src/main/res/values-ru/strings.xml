@@ -26,6 +26,8 @@
     <string name="download">Загрузить</string>
     <string name="notification">Уведомления</string>
     <string name="email">Почта</string>
+    <string name="previous">Предыдущее видео</string>
+    <string name="next">Следующий</string>
     <string name="favorites">Избранное</string>
     <string name="add_favorites">Добавить избранное</string>
     <string name="add_to_favorites">Добавить в избранное</string>

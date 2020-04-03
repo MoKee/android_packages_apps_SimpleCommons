@@ -9,6 +9,8 @@
     <string name="none">Tiada</string>
     <string name="download">Muat turun</string>
     <string name="email">E-mel</string>
+    <string name="previous">Sebelumnya</string>
+    <string name="next">Selepas</string>
     <string name="favorites">Kegemaran</string>
     <string name="add_to_favorites">Tambahkan ke dalam kegemaran</string>
     <string name="search">Carikan</string>

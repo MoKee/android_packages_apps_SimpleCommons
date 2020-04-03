@@ -8,6 +8,8 @@
     <string name="none">Geen</string>
     <string name="notification">Kennisgewing</string>
     <string name="email">Epos</string>
+    <string name="previous">Vorige</string>
+    <string name="next">Volgende</string>
     <string name="search">Soek</string>
     <string name="skip">Slaan oor</string>
     <string name="sd_card">SD-kaart</string>

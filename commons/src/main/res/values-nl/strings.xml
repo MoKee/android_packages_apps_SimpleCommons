@@ -26,6 +26,8 @@
     <string name="download">Download</string>
     <string name="notification">Melding</string>
     <string name="email">E-mail</string>
+    <string name="previous">Vorige</string>
+    <string name="next">Volgende</string>
     <string name="favorites">Favorieten</string>
     <string name="add_favorites">Favorieten toevoegen</string>
     <string name="add_to_favorites">Aan favorieten toevoegen</string>

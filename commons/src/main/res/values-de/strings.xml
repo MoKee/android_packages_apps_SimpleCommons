@@ -26,6 +26,8 @@
     <string name="download">Download-Modus</string>
     <string name="notification">Benachrichtigung</string>
     <string name="email">E-Mail</string>
+    <string name="previous">Zurück</string>
+    <string name="next">Weiter</string>
     <string name="favorites">Favoriten</string>
     <string name="add_favorites">Favoriten hinzufügen</string>
     <string name="add_to_favorites">Zu Favoriten hinzufügen</string>

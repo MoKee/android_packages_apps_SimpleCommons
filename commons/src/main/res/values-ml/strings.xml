@@ -9,6 +9,8 @@
     <string name="none">ഒന്നുമില്ല</string>
     <string name="download">ഡൗൺലോഡ്</string>
     <string name="email">ഇമെയിൽ</string>
+    <string name="previous">"മുമ്പത്തെ"</string>
+    <string name="next">"അടുത്തത്"</string>
     <string name="skip">ഒഴിവാക്കുക</string>
     <string name="path">പാത്ത്</string>
     <string name="duration">ദൈർഘ്യം</string>

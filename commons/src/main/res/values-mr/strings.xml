@@ -5,6 +5,8 @@
     <string name="details">तपशील</string>
     <string name="none">काहीही नाही</string>
     <string name="email">ईमेल करा</string>
+    <string name="previous">"मागील"</string>
+    <string name="next">"पुढील"</string>
     <string name="skip">वगळा</string>
     <string name="path">मार्ग</string>
     <string name="duration">कालावधी</string>
