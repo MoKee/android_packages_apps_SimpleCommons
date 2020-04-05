@@ -27,6 +27,7 @@
     <string name="notification">通知</string>
     <string name="email">電子郵件</string>
     <string name="previous">上一個</string>
+    <string name="playpause">播放 / 暫停</string>
     <string name="next">下一步</string>
     <string name="favorites">我的最愛</string>
     <string name="add_favorites">添加我的最愛</string>
@@ -545,6 +546,8 @@
     <string name="filters_title">Android Photo Filters (圖像濾鏡)</string>
     <string name="gesture_views_title">手勢視圖 (可縮放的圖像)</string>
     <string name="indicator_fast_scroll_title">快速滑動指示器（在滑動條處顯示字母）</string>
+    <string name="event_bus_title">事件匯流排（應用程式內的通訊）</string>
+    <string name="audio_record_view_title">錄音檢視（音訊視覺化）</string>
     <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at hello@simplemobiletools.com and you will get it. That makes it easy to try it out :)</string>
 </resources>

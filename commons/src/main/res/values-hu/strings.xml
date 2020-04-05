@@ -27,6 +27,7 @@
     <string name="notification">Értesítés</string>
     <string name="email">E-mail</string>
     <string name="previous">Előző</string>
+    <string name="playpause">Lejátszás / Megállítás</string>
     <string name="next">Következő</string>
     <string name="favorites">Kedvencek</string>
     <string name="add_favorites">Kedvencek hozzáadása</string>
@@ -580,6 +581,8 @@
     <string name="filters_title">Android Photo Filters (kép szűrők)</string>
     <string name="gesture_views_title">Kézmozdulat-vezérléses nézetek (nagyítható képek)</string>
     <string name="indicator_fast_scroll_title">Gyors jelzőgörgetés (betűk a görgetősávon)</string>
+    <string name="event_bus_title">Event Bus (kommunikáció az alkalmazáson belül)</string>
+    <string name="audio_record_view_title">Audiófelvétel-nézet (audió-vizualizáció)</string>
     <string name="deprecated_app">ELAVULT: Az alkalmazás ezen verziójára már nincs többé támogatás, szerezze be a Pro-verziót a https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro webhelyről</string>
     <string name="pro_app_refund">Ne felejtse, ha egy fizetős alkalmazást 2 órán belül töröl (uninstallál), akkor automatikusan megkapja a visszatérítést. Ha bármikor később szeretne visszatérést kapni, vegye fel velünk a kapcsolatot a hello@simplemobiletools.com címen. Ez megkönnyítheti a tesztelést :-)</string>
 </resources>

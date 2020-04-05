@@ -27,6 +27,7 @@
     <string name="notification">Teade</string>
     <string name="email">E-mail</string>
     <string name="previous">Eelmine</string>
+    <string name="playpause">Mängi/Paus</string>
     <string name="next">Järgmine</string>
     <string name="favorites">Lemmikud</string>
     <string name="add_favorites">Lisa lemmikuid</string>
@@ -580,6 +581,8 @@
     <string name="filters_title">Androidi fotofiltrid (pildifiltrid)</string>
     <string name="gesture_views_title">Gesture Views (suurendatavad pildid)</string>
     <string name="indicator_fast_scroll_title">Kiire keriminse indikaator (tähed kerimisribal)</string>
+    <string name="event_bus_title">Event Bus (suhtlus rakenduses)</string>
+    <string name="audio_record_view_title">Helisalvestuse vaade (heli visualiseerimine)</string>
     <string name="deprecated_app">Selle rakenduse versiooni enam ei säilitata, hankige Pro versioon aadressilt https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Ärge unustage, et kui te eemaldate makstud rakendused 2 tunni jooksul, tagastatakse raha see automaatselt. Kui soovite tagasimakseid hiljem, võtke meiega ühendust aadressil hello@simplemobiletools.com ja te saate selle. See võimaldab rakendusi hõlpsasti proovida :)</string>
 </resources>
