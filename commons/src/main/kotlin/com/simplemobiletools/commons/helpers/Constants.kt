@@ -3,6 +3,7 @@ package com.simplemobiletools.commons.helpers
 import android.graphics.Color
 import android.os.Build
 import android.os.Looper
+import android.util.Log
 import java.util.*
 
 const val APP_NAME = "app_name"
@@ -327,3 +328,5 @@ fun getConflictResolution(resolutions: LinkedHashMap<String, Int>, path: String)
         CONFLICT_SKIP
     }
 }
+
+fun mydebug(message: String) = Log.e("DEBUG", message)
