@@ -27,6 +27,7 @@
     <string name="notification">Уведомления</string>
     <string name="email">Почта</string>
     <string name="previous">Предыдущее видео</string>
+    <string name="playpause">Воспроизвести / Пауза</string>
     <string name="next">Следующий</string>
     <string name="favorites">Избранное</string>
     <string name="add_favorites">Добавить избранное</string>
@@ -646,6 +647,8 @@
     <string name="filters_title">Android Photo Filters (фильтры изображений)</string>
     <string name="gesture_views_title">Предварительный просмотр жестов (расширяемые изображения)</string>
     <string name="indicator_fast_scroll_title">Индикатор быстрой прокрутки (буквы на панели)</string>
+    <string name="event_bus_title">шина событий (коммуникации внутри приложения)</string>
+    <string name="audio_record_view_title">Просмотр аудиозаписи (визуализация звука)</string>
     <string name="deprecated_app">НЕ ПОДДЕРЖИВАЕТСЯ: Эта версия приложения больше не поддерживается, загрузите версию Pro, перейдя по ссылке:
 https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Не забывайте, что если вы удалите любое платное приложение в течение 2 часов, вам будет автоматически возвращена сумма оплаты. Если вы хотите вернуть деньги в другой момент, просто свяжитесь с нами по адресу hello@simplemobiletools.com и вы получите деньги обратно.</string>

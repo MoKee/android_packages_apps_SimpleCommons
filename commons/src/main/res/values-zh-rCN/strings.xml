@@ -27,6 +27,7 @@
     <string name="notification">通知</string>
     <string name="email">电子邮件</string>
     <string name="previous">上一个</string>
+    <string name="playpause">播放 / 暂停</string>
     <string name="next">下一步</string>
     <string name="favorites">收藏</string>
     <string name="add_favorites">添加收藏</string>
