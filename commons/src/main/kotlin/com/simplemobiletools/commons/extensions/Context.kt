@@ -78,6 +78,7 @@ fun Context.updateTextColors(viewGroup: ViewGroup, tmpTextColor: Int = 0, tmpAcc
                     is MyCompatRadioButton -> it.setColors(textColor, accentColor, backgroundColor)
                     is MyAppCompatCheckbox -> it.setColors(textColor, accentColor, backgroundColor)
                     is MyEditText -> it.setColors(textColor, accentColor, backgroundColor)
+                    is MyAutoCompleteTextView -> it.setColors(textColor, accentColor, backgroundColor)
                     is MyFloatingActionButton -> it.setColors(textColor, accentColor, backgroundColor)
                     is MySeekBar -> it.setColors(textColor, accentColor, backgroundColor)
                     is MyButton -> it.setColors(textColor, accentColor, backgroundColor)
@@ -261,6 +262,7 @@ fun Context.getPermissionString(id: Int) = when (id) {
     PERMISSION_WRITE_CALL_LOG -> Manifest.permission.WRITE_CALL_LOG
     PERMISSION_GET_ACCOUNTS -> Manifest.permission.GET_ACCOUNTS
     PERMISSION_READ_SMS -> Manifest.permission.READ_SMS
+    PERMISSION_SEND_SMS -> Manifest.permission.SEND_SMS
     else -> ""
 }
 
