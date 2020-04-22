@@ -151,33 +151,35 @@ val Context.otgPath: String get() = baseConfig.OTGPath
 fun Context.isFingerPrintSensorAvailable() = isMarshmallowPlus() && Reprint.isHardwarePresent()
 
 fun Context.getLatestMediaId(uri: Uri = Files.getContentUri("external")): Long {
-    val MAX_VALUE = "max_value"
-    val projection = arrayOf("MAX(${BaseColumns._ID}) AS $MAX_VALUE")
-    var cursor: Cursor? = null
+    val projection = arrayOf(
+            BaseColumns._ID
+    )
+    val sortOrder = "${BaseColumns._ID} DESC LIMIT 1"
     try {
-        cursor = contentResolver.query(uri, projection, null, null, null)
-        if (cursor?.moveToFirst() == true) {
-            return cursor.getLongValue(MAX_VALUE)
+        val cursor = contentResolver.query(uri, projection, null, null, sortOrder)
+        cursor?.use {
+            if (cursor.moveToFirst()) {
+                return cursor.getLongValue(BaseColumns._ID)
+            }
         }
     } catch (ignored: Exception) {
-    } finally {
-        cursor?.close()
     }
     return 0
 }
 
 fun Context.getLatestMediaByDateId(uri: Uri = Files.getContentUri("external")): Long {
-    val projection = arrayOf(BaseColumns._ID)
-    val sortOrder = "${Images.ImageColumns.DATE_TAKEN} DESC"
-    var cursor: Cursor? = null
+    val projection = arrayOf(
+            BaseColumns._ID
+    )
+    val sortOrder = "${Images.ImageColumns.DATE_TAKEN} DESC LIMIT 1"
     try {
-        cursor = contentResolver.query(uri, projection, null, null, sortOrder)
-        if (cursor?.moveToFirst() == true) {
-            return cursor.getLongValue(BaseColumns._ID)
+        val cursor = contentResolver.query(uri, projection, null, null, sortOrder)
+        cursor?.use {
+            if (cursor.moveToFirst()) {
+                return cursor.getLongValue(BaseColumns._ID)
+            }
         }
     } catch (ignored: Exception) {
-    } finally {
-        cursor?.close()
     }
     return 0
 }
@@ -706,7 +708,7 @@ val Context.windowManager: WindowManager get() = getSystemService(Context.WINDOW
 val Context.portrait get() = resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT
 val Context.navigationBarRight: Boolean get() = usableScreenSize.x < realScreenSize.x
 val Context.navigationBarBottom: Boolean get() = usableScreenSize.y < realScreenSize.y
-val Context.navigationBarHeight: Int get() = if (navigationBarBottom) navigationBarSize.y else 0
+val Context.navigationBarHeight: Int get() = if (navigationBarBottom && navigationBarSize.y != usableScreenSize.y) navigationBarSize.y else 0
 val Context.navigationBarWidth: Int get() = if (navigationBarRight) navigationBarSize.x else 0
 
 val Context.navigationBarSize: Point
