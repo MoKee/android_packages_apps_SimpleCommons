@@ -27,6 +27,7 @@
     <string name="notification">Notificación</string>
     <string name="email">Correo electrónico</string>
     <string name="previous">Anterior</string>
+    <string name="playpause">Reproducir / Pausar</string>
     <string name="next">Siguiente</string>
     <string name="favorites">Favoritos</string>
     <string name="add_favorites">Agregar a favoritos</string>
@@ -580,6 +581,8 @@
     <string name="filters_title">Android Photo Filters (filtros de imagen)</string>
     <string name="gesture_views_title">Vistas de gestos (imágenes zoomables)</string>
     <string name="indicator_fast_scroll_title">Pergamino rápido indicador (letras en la barra de desplazamiento)</string>
+    <string name="event_bus_title">Bus de evento (comunicación dentro de la aplicación)</string>
+    <string name="audio_record_view_title">Vista de grabación de audio (visualización de audio)</string>
     <string name="deprecated_app">OBSOLETA: Esta versión de la aplicación ya no está mantenida, obtén la versión Pro en https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">No olvides que si desinstalas cualquier aplicación de pago en un plazo de 2 horas, se te reembolsará automáticamente. Si deseas un reembolso en cualquier momento posterior, ponte en contacto con nosotros en hello@simplemobiletools.com y lo conseguirás. Eso hace que sea fácil probarlo :)</string>
 </resources>

@@ -27,6 +27,7 @@
     <string name="notification">Bildirim</string>
     <string name="email">E-posta</string>
     <string name="previous">Önceki</string>
+    <string name="playpause">Oynat / Duraklat</string>
     <string name="next">Sonraki</string>
     <string name="favorites">Favoriler</string>
     <string name="add_favorites">Favori ekle</string>

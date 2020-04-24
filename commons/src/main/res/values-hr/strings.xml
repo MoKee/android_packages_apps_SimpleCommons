@@ -20,6 +20,9 @@
     <string name="deleting_folder">Brisanje mape \'%s\'</string>
     <string name="none">Nijedan</string>
     <string name="label">Označi</string>
+    <string name="transparent">Prozirna</string>
+    <string name="transparent_color">Prozirna boja</string>
+    <string name="select_a_different_color">Odaberite drugu boju</string>
     <string name="download">Preuzmi</string>
     <string name="notification">Obavijest</string>
     <string name="email">E-pošta</string>
@@ -52,6 +55,7 @@
     <string name="filename_invalid_characters_placeholder">Naziv datoteke \'%s\' sadrži nevažeće znakove</string>
     <string name="extension_cannot_be_empty">Ekstenzija ne smije biti prazna</string>
     <string name="source_file_doesnt_exist">Izvorišna datoteka %s ne postoji</string>
+    <string name="prepend_filenames">Dodajte datoteke</string>
     <string name="pattern_renaming">Uzorak</string>
     <string name="copy">Kopiraj</string>
     <string name="move">Premjesti</string>
@@ -89,6 +93,7 @@
     <string name="file_already_exists_overwrite">Datoteka \"%s\" već postoji. Presnimiti?</string>
     <string name="folder_already_exists">Mapa \"%s\" već postoji</string>
     <string name="merge">Spoji</string>
+    <string name="keep_both">Zadrzi oboje</string>
     <string name="overwrite">Presnimi</string>
     <string name="skip">Preskoči</string>
     <string name="append">Dodaj s \'_1\'</string>
@@ -116,6 +121,7 @@
     <string name="select_storage">Odaberite prostor za pohranu</string>
     <string name="internal">Unutranji prostor za pohranu</string>
     <string name="sd_card">SD kartica</string>
+    <string name="root">Korijenski</string>
     <string name="wrong_root_selected">Odabrana je pogrešana mapa, molimo odaberite root mapu Vaše SD kartice</string>
     <string name="sd_card_usb_same">SD kartice i USB putevi uređaja ne mogu biti isti</string>
     <string name="app_on_sd_card">Čini se da je aplikacija instalirana na SD karticu, što čini widgete aplikacije nedostupnim. Nećete ih čak ni vidjeti na popisu dostupnih widgeta.
@@ -128,17 +134,20 @@
     <string name="resolution">Rezolucija</string>
     <string name="duration">Trajanje</string>
     <string name="artist">Umjetnik</string>
+    <string name="album">Album</string>
     <string name="focal_length">Žarišna duljina</string>
     <string name="exposure_time">Vrijeme izloženosti</string>
     <string name="iso_speed">ISO brzina</string>
     <string name="f_number">F-broj</string>
     <string name="camera">Kamera</string>
+    <string name="exif">EXIF</string>
     <string name="song_title">Naziv pjesme</string>
     <string name="background_color">Boja pozadine</string>
     <string name="text_color">Boja teksta</string>
     <string name="primary_color">Primarna boja</string>
     <string name="foreground_color">Boja pozadine</string>
     <string name="app_icon_color">Boja ikone aplikacije</string>
+    <string name="bottom_navigation_bar_color">Boja donje navigacijske trake</string>
     <string name="restore_defaults">Vrati zadano</string>
     <string name="use_default">Koristi zadano</string>
     <string name="default_color">Zadano</string>
@@ -151,6 +160,7 @@
     <string name="undo_changes_confirmation">Jeste li sigurni da želite poništiti Vaše promjene?</string>
     <string name="save_before_closing">Imate ne spremljene promjene. Želite li spremiti prije izlaska?</string>
     <string name="apply_to_all_apps">Primjeni boje na sve Simple Aplikacije</string>
+    <string name="app_icon_color_warning">UPOZORENJE: Neki pokretači ne rade pravilno prilagodbu ikona aplikacije. U slučaju da ikona nestane, pokušajte pokrenuti aplikaciju putem Google Play-a ili nekog widgeta, ako je dostupan.          Nakon pokretanja vratite natrag zadanu narančastu ikonu # F57C00. Možda ćete morati instalirati aplikaciju u najgorem slučaju.</string>
     <string name="share_colors_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
     <string name="light_theme">Svijetla</string>
     <string name="dark_theme">Tamna</string>
@@ -185,6 +195,8 @@
     <string name="title">Naslov</string>
     <string name="filename">Naziv datoteke</string>
     <string name="extension">Tip datoteke</string>
+    <string name="random">Nasumično</string>
+    <string name="sort_randomly">Poredati nasumično</string>
     <string name="ascending">Uzlazno</string>
     <string name="descending">Silazno</string>
     <string name="use_for_this_folder">Koristi samo za ovu mapu</string>
@@ -201,6 +213,7 @@
         <item quantity="few">UPOZORENJE: Brišete %d mapa</item>
         <item quantity="other">UPOZORENJE: Brišete %d mapa</item>
     </plurals>
+    <string name="pin">PIN</string>
     <string name="enter_pin">Unesite PIN</string>
     <string name="please_enter_pin">Molimo unesite PIN</string>
     <string name="wrong_pin">Pogrešan PIN</string>
@@ -354,6 +367,7 @@
     <string name="reminder_triggers_in">Preostalo vrijeme do pokretanja podsjetnika:\n%s</string>
     <string name="alarm_warning">Provjerite da li alarm ispravno funkcionira prije nego što se oslonite na njega. Moglo bi se dogoditi pogreška zbog ograničenja sustava vezanih uz štednju baterije.</string>
     <string name="reminder_warning">Pazite da podsjetnici ispravno rade prije nego što se oslonite na njih. Moglo bi se dogoditi pogreška zbog ograničenja sustava vezanih uz štednju baterije.</string>
+    <string name="notifications_disabled">Obavijesti o ovoj aplikaciji onemogućene su. Molimo vas da otvorite postavke uređaja da biste ih omogućili.</string>
     <string name="alarm">Alarm</string>
     <string name="snooze">Odgodi</string>
     <string name="dismiss">Odbaci</string>
@@ -376,6 +390,7 @@
     <string name="extra_large">Puno veće</string>
     <string name="password_protect_hidden_items">Vidljivost skrivenih, lozinkom zaštićenih stavki</string>
     <string name="password_protect_whole_app">Zaštiti cijelu aplikaciju lozinkom</string>
+    <string name="password_protect_file_deletion">Brisanje datoteke i premještanje datoteka zaštićuju lozinkom</string>
     <string name="show_info_bubble">Prikažite informativni mjehur prilikom pomicanja stavki pomicanjem trake za pomicanje</string>
     <string name="prevent_phone_from_sleeping">Spriječite da uređaj prijeđe u stanje mirovanja dok je aplikacija u prvom planu</string>
     <string name="skip_delete_confirmation">Uvijek preskoči dijaloški okvir za potvrdu brisanja</string>
@@ -405,6 +420,12 @@
     <string name="files_restored_successfully">Datoteke su uspješno vraćene</string>
     <string name="empty_recycle_bin_confirmation">Jeste li sigurni da želite isprazniti koš za smeće? Datoteke će biti trajno izgubljene.</string>
     <string name="recycle_bin_empty">Koš za smeće je prazan</string>
+    <string name="moving_recycle_bin_items_disabled">Pomicanje predmeta košare je onemogućeno, koristite vraćanje</string>
+    <plurals name="moving_items_into_bin">
+        <item quantity="one">Pomicanje %d predmeta u Recikliraj</item>
+        <item quantity="few">Pomicanje %d predmeta u Recikliraj</item>
+        <item quantity="other">Pomicanje %d predmeta u Recikliraj</item>
+    </plurals>
     <string name="importing">Uvoz…</string>
     <string name="exporting">Izvoz…</string>
     <string name="importing_successful">Uvoz je uspješan</string>
@@ -415,6 +436,7 @@
     <string name="exporting_some_entries_failed">Izvoz nekih unosa nije uspio</string>
     <string name="no_entries_for_exporting">Nije pronađen nijedan unos za izvoz</string>
     <string name="usb">USB</string>
+    <string name="usb_detected">Čini se da je na vaš uređaj priključen USB uređaj. Da biste bili sigurni da se njegove datoteke ispravno pojavljuju, morate dati dodatna dopuštenja.</string>
     <string name="wrong_root_selected_usb">Odabrana mapa je pogrešna, odaberite root mapu svog USB uređaja</string>
     <string name="january">Siječanj</string>
     <string name="february">Veljača</string>
@@ -452,6 +474,7 @@
     <string name="wednesday_letter">S</string>
     <string name="thursday_letter">Č</string>
     <string name="friday_letter">P</string>
+    <string name="saturday_letter">S</string>
     <string name="sunday_letter">N</string>
     <string name="monday_short">Pon</string>
     <string name="tuesday_short">Uto</string>
@@ -460,9 +483,14 @@
     <string name="friday_short">Pet</string>
     <string name="saturday_short">Sub</string>
     <string name="sunday_short">Ned</string>
+    <string name="it_is_free">Besplatno je do: %s. Ako ga preuzmete do tada, moći ćete ga besplatno koristiti zauvijek.</string>
+    <string name="more_info">Više informacija</string>
+    <string name="upgrade">Ažuriraj</string>
+    <string name="upgrade_calendar">Lokalno pohranjene događaje morate ručno migrirati izvozom u datoteku .ics, a zatim uvozom. Oba gumba za izvoz/uvoz možete pronaći na glavnom izborniku.</string>
     <string name="about">O nama</string>
     <string name="website_label">Za pregled izvornog koda posjetite</string>
     <string name="email_label">Pošaljite nam povratne informacije ili prijedloge na</string>
+    <string name="upgrade_to_pro">Nadogradi na Pro verziju</string>
     <string name="more_apps_underlined"><u>Više aplikacija</u></string>
     <string name="third_party_licences_underlined"><u>Licence trećih strana</u></string>
     <string name="invite_friends_underlined"><u>Pozovite prijatelje</u></string>
@@ -473,6 +501,7 @@
     <string name="donate">Donirajte</string>
     <string name="donate_underlined"><u>Donirajte</u></string>
     <string name="follow_us">Pratite nas</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="additional_info">Dodatne informacije</string>
     <string name="app_version">Verzija aplikacije: %s</string>
     <string name="device_os">OS uređaja: %s</string>
@@ -492,6 +521,8 @@
     <string name="faq_4_title_commons">Ne sviđa mi se boja widgeta, mogu li ih promijeniti?</string>
     <string name="faq_4_text_commons">Da, kada povlačite widget na početnom zaslonu, pojavit će se zaslon za konfiguraciju widgeta. U donjem lijevom kutu vidjet ćete obojene kvadrate, samo ih pritisnite da biste odabrali novu boju. Možete koristiti i klizač za podešavanje alphe.</string>
     <string name="faq_5_title_commons">Mogu li nekako vratiti izbrisane datoteke?</string>
+    <string name="faq_6_title_commons">Ikona pokretača aplikacije nestala je. Što mogu učiniti?</string>
+    <string name="faq_6_text_commons">UPOZORENJE: Neki pokretači ne rade pravilno prilagodbu ikona aplikacije. U slučaju da ikona nestane, pokušajte pokrenuti aplikaciju putem Google Play-a ili nekog widgeta, ako je dostupan.          Nakon pokretanja vratite natrag zadanu narančastu ikonu # F57C00. Možda ćete morati instalirati aplikaciju u najgorem slučaju.</string>
     <string name="notice">Ova aplikacija koristi biblioteke trećih strana kako bi olakšala moj život. Hvala Vam.</string>
     <string name="third_party_licences">Licence trećih strana</string>
     <string name="kotlin_title">Kotlin (programski jezik)</string>
@@ -510,8 +541,10 @@
     <string name="autofittextview_title">AutoFitTextView (mijenjanje veličine teksta)</string>
     <string name="robolectric_title">Robolectric (framework za testiranje)</string>
     <string name="espresso_title">Espresso (pomoćnik testiranja)</string>
+    <string name="gson_title">Gson (JSON parser)</string>
     <string name="leak_canary_title">Leak Canary (detektor propuštanja memorije)</string>
     <string name="number_picker_title">Number Picker (prilagodljiv birač brojeva)</string>
+    <string name="exoplayer_title">ExoPlayer (video player)</string>
     <string name="panorama_view_title">VR Panorama View (prikaz panorama)</string>
     <string name="sanselan_title">Apache Sanselan (čitanje metapodataka slike)</string>
     <string name="filters_title">Android Photo Filters (filteri za slike)</string>

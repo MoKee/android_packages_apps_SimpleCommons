@@ -546,6 +546,8 @@
     <string name="filters_title">Android Photo Filters (图像过滤器)</string>
     <string name="gesture_views_title">手势视图 (可缩放的图像)</string>
     <string name="indicator_fast_scroll_title">快速滚动指示器 (在滚动条处显示字母)</string>
+    <string name="event_bus_title">事件总线(应用内部通信)</string>
+    <string name="audio_record_view_title">音频记录视图 (音频可视化)</string>
     <string name="deprecated_app">DECADED: 此应用版本不再受到维护, 获取专业版https://play.google.com/store/apps/details?id=com.simplemobiletiles.xx.pro</string>
     <string name="pro_app_refund">如您需要申请退款，通过以下简单的方法即可获得：如果您在2小时内卸载任意付费应用，将会自动收到退款。而若需要在这之后申请退款，只需通过 hello@simplemobiletools.com 联系我们 :)</string>
 </resources>
