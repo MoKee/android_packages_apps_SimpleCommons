@@ -11,6 +11,7 @@
     <string name="edit_with">用其他程式編輯</string>
     <string name="no_app_found">找不到應用程式</string>
     <string name="set_as">設為</string>
+    <string name="copy_to_clipboard">複製到剪貼簿</string>
     <string name="value_copied_to_clipboard">數值複製到剪貼簿</string>
     <string name="unknown">未知的</string>
     <string name="always">總是</string>
@@ -29,6 +30,20 @@
     <string name="previous">上一個</string>
     <string name="playpause">播放 / 暫停</string>
     <string name="next">下一步</string>
+    <string name="number">號碼</string>
+    <string name="no_contacts_found">找不到聯絡人</string>
+    <string name="request_the_required_permissions">要求必要的權限</string>
+    <string name="no_access_to_contacts">該應用程式無法存取您的聯繫人</string>
+    <string name="insert_text_here">在此輸入文字</string>
+    <string name="manage_blocked_numbers">管理封鎖號碼</string>
+    <string name="not_blocking_anyone">你沒有封鎖任何人。</string>
+    <string name="add_a_blocked_number">新增封鎖號碼</string>
+    <string name="block_number">黑名單</string>
+    <string name="block_numbers">黑名單</string>
+    <string name="blocked_numbers">已封鎖的號碼</string>
+    <string name="must_make_default_dialer">你必須將此應用程式的設為預設撥號應用程式，以利用封鎖的號碼。</string>
+    <string name="set_as_default">設定成預設</string>
+    <string name="block_confirmation">您確定要封鎖「%s」？</string>
     <string name="favorites">我的最愛</string>
     <string name="add_favorites">添加我的最愛</string>
     <string name="add_to_favorites">加入我的最愛</string>
@@ -550,4 +565,5 @@
     <string name="audio_record_view_title">錄音檢視（音訊視覺化）</string>
     <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at hello@simplemobiletools.com and you will get it. That makes it easy to try it out :)</string>
+    <string name="developer_description">一組簡單、開源的 Android 應用程式，帶有可定製的小工具，沒有廣告和不必要的權限要求。</string>
 </resources>

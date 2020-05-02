@@ -73,6 +73,7 @@
     <string name="change_color">வண்ணத்தை மாற்று</string>
     <string name="theme">கருப்பொருள்</string>
     <string name="save">சேமி</string>
+    <string name="light_theme">வெளிச்சம்</string>
     <string name="dark_theme">அடர்</string>
     <string name="custom">தனிப்பயன்</string>
     <string name="delete">நீக்கு</string>

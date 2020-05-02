@@ -11,6 +11,7 @@
     <string name="edit_with">Chỉnh sửa với</string>
     <string name="no_app_found">Không có ứng dụng hợp lệ</string>
     <string name="set_as">Đặt làm</string>
+    <string name="copy_to_clipboard">Sao chép vào khay nhớ tạm</string>
     <string name="value_copied_to_clipboard">Giá trị đã được copy vô Clipboard</string>
     <string name="unknown">Không rõ</string>
     <string name="always">Luôn luôn</string>
@@ -29,6 +30,20 @@
     <string name="previous">Trước</string>
     <string name="playpause">Phát/Dừng</string>
     <string name="next">Tiếp theo</string>
+    <string name="number">Số</string>
+    <string name="no_contacts_found">Không tìm thấy liên hệ</string>
+    <string name="request_the_required_permissions">Xin cấp quyền yêu cầu</string>
+    <string name="no_access_to_contacts">Ứng dụng không thể truy cập danh bạ của bạn</string>
+    <string name="insert_text_here">Chèn văn bản ở đây</string>
+    <string name="manage_blocked_numbers">Quản lý số bị chặn</string>
+    <string name="not_blocking_anyone">Bạn đang không chặn ai cả.</string>
+    <string name="add_a_blocked_number">Thêm một số bị chặn</string>
+    <string name="block_number">Chặn số</string>
+    <string name="block_numbers">Chặn số</string>
+    <string name="blocked_numbers">Số bị chặn</string>
+    <string name="must_make_default_dialer">Bạn phải đặt ứng dụng này thành ứng dụng quay số mặc định để sử dụng các số bị chặn.</string>
+    <string name="set_as_default">Đặt làm mặc định</string>
+    <string name="block_confirmation">Bạn có chắc chắn muốn chặn \"%s\"?</string>
     <string name="favorites">Yêu thích</string>
     <string name="add_favorites">Thêm yêu thích</string>
     <string name="add_to_favorites">Thêm vào yêu thích</string>
@@ -548,6 +563,8 @@
     <string name="indicator_fast_scroll_title">Chỉ báo cuộn nhanh (chữ cái trên thanh cuộn)</string>
     <string name="event_bus_title">Bus sự kiện (liên lạc trong ứng dụng)</string>
     <string name="audio_record_view_title">Chế độ xem bản ghi âm thanh (trực quan hóa âm thanh)</string>
+    <string name="sms_mms_title">SMS MMS (Xử lý SMS và MMS)</string>
     <string name="deprecated_app">ĐỔI: Phiên bản của ứng dụng này không còn được duy trì, hãy lấy phiên bản Pro tại https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Đừng quên rằng nếu bạn gỡ cài đặt bất kỳ ứng dụng phải trả tiền nào trong vòng 2 giờ, bạn sẽ tự động được hoàn tiền. Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại hello@simplemobiletools.com và bạn sẽ nhận được nó. Điều đó làm cho nó dễ dàng để thử nó :)</string>
+    <string name="developer_description">Một nhóm các ứng dụng Android nguồn mở đơn giản với các widget có thể tùy chỉnh, không có quảng cáo và các quyền không cần thiết.</string>
 </resources>

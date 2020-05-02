@@ -11,6 +11,7 @@
     <string name="edit_with">Редактировать в…</string>
     <string name="no_app_found">Приложение не найдено</string>
     <string name="set_as">Установить как…</string>
+    <string name="copy_to_clipboard">Копировать в буфер</string>
     <string name="value_copied_to_clipboard">Значение скопировано в буфер обмена</string>
     <string name="unknown">Неизвестно</string>
     <string name="always">Всегда</string>
@@ -29,6 +30,20 @@
     <string name="previous">Предыдущее видео</string>
     <string name="playpause">Воспроизвести / Пауза</string>
     <string name="next">Следующий</string>
+    <string name="number">Номер</string>
+    <string name="no_contacts_found">Контакты не найдены</string>
+    <string name="request_the_required_permissions">Запросить необходимые разрешения</string>
+    <string name="no_access_to_contacts">Приложение не может получить доступ к вашим контактам</string>
+    <string name="insert_text_here">Введите текст</string>
+    <string name="manage_blocked_numbers">Управление заблокированными номерами</string>
+    <string name="not_blocking_anyone">Вы никого не блокируете.</string>
+    <string name="add_a_blocked_number">Добавить заблокированный номер</string>
+    <string name="block_number">Заблокировать номер</string>
+    <string name="block_numbers">Блокировать номера</string>
+    <string name="blocked_numbers">Заблокированные номера</string>
+    <string name="must_make_default_dialer">Вы должны сделать это приложение приложением для вызова по умолчанию, чтобы использовать заблокированные номера.</string>
+    <string name="set_as_default">Установить по умолчанию</string>
+    <string name="block_confirmation">Вы уверены, что хотите заблокировать \"%s\"?</string>
     <string name="favorites">Избранное</string>
     <string name="add_favorites">Добавить избранное</string>
     <string name="add_to_favorites">Добавить в избранное</string>
@@ -649,7 +664,9 @@
     <string name="indicator_fast_scroll_title">Индикатор быстрой прокрутки (буквы на панели)</string>
     <string name="event_bus_title">шина событий (коммуникации внутри приложения)</string>
     <string name="audio_record_view_title">Просмотр аудиозаписи (визуализация звука)</string>
+    <string name="sms_mms_title">SMS MMS (обработка SMS и MMS)</string>
     <string name="deprecated_app">НЕ ПОДДЕРЖИВАЕТСЯ: Эта версия приложения больше не поддерживается, загрузите версию Pro, перейдя по ссылке:
 https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Не забывайте, что если вы удалите любое платное приложение в течение 2 часов, вам будет автоматически возвращена сумма оплаты. Если вы хотите вернуть деньги в другой момент, просто свяжитесь с нами по адресу hello@simplemobiletools.com и вы получите деньги обратно.</string>
+    <string name="developer_description">Группа простых приложений с открытым исходным кодом для Android с настраиваемыми виджетами, без рекламы и ненужных разрешений.</string>
 </resources>

@@ -11,6 +11,7 @@
     <string name="edit_with">编辑方式</string>
     <string name="no_app_found">未找到可用应用</string>
     <string name="set_as">设置为</string>
+    <string name="copy_to_clipboard">复制到剪贴板</string>
     <string name="value_copied_to_clipboard">该值已复制到剪贴板</string>
     <string name="unknown">未知</string>
     <string name="always">总是</string>
@@ -29,6 +30,20 @@
     <string name="previous">上一个</string>
     <string name="playpause">播放 / 暂停</string>
     <string name="next">下一步</string>
+    <string name="number">号码</string>
+    <string name="no_contacts_found">未找到联系人</string>
+    <string name="request_the_required_permissions">请求所需的权限</string>
+    <string name="no_access_to_contacts">该应用无法获取您的联系人</string>
+    <string name="insert_text_here">在此处插入文本</string>
+    <string name="manage_blocked_numbers">管理屏蔽的号码</string>
+    <string name="not_blocking_anyone">您没有屏蔽任何号码。</string>
+    <string name="add_a_blocked_number">添加屏蔽的号码</string>
+    <string name="block_number">屏蔽号码</string>
+    <string name="block_numbers">屏蔽号码</string>
+    <string name="blocked_numbers">已屏蔽的号码</string>
+    <string name="must_make_default_dialer">您必须将该应用设置为默认拨号程序才能使用屏蔽号码功能。</string>
+    <string name="set_as_default">设为默认</string>
+    <string name="block_confirmation">您确定要屏蔽“%s“吗？</string>
     <string name="favorites">收藏</string>
     <string name="add_favorites">添加收藏</string>
     <string name="add_to_favorites">添加到收藏</string>
@@ -548,6 +563,8 @@
     <string name="indicator_fast_scroll_title">快速滚动指示器 (在滚动条处显示字母)</string>
     <string name="event_bus_title">事件总线(应用内部通信)</string>
     <string name="audio_record_view_title">音频记录视图 (音频可视化)</string>
+    <string name="sms_mms_title">短信、彩信（短信和彩信处理）</string>
     <string name="deprecated_app">DECADED: 此应用版本不再受到维护, 获取专业版https://play.google.com/store/apps/details?id=com.simplemobiletiles.xx.pro</string>
     <string name="pro_app_refund">如您需要申请退款，通过以下简单的方法即可获得：如果您在2小时内卸载任意付费应用，将会自动收到退款。而若需要在这之后申请退款，只需通过 hello@simplemobiletools.com 联系我们 :)</string>
+    <string name="developer_description">一组简约且开源的 Android 应用程序，拥有可自定义的小部件，没有广告和不必要的权限。</string>
 </resources>

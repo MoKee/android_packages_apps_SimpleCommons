@@ -11,6 +11,7 @@
     <string name="edit_with">Muutmine</string>
     <string name="no_app_found">Kehtivat rakendust ei leitud</string>
     <string name="set_as">Seadista kui</string>
+    <string name="copy_to_clipboard">Kopeeri lõikelauale</string>
     <string name="value_copied_to_clipboard">Väärtus kopeeritakse lõikepuhvrisse</string>
     <string name="unknown">Teadmata</string>
     <string name="always">Alati</string>
@@ -29,6 +30,20 @@
     <string name="previous">Eelmine</string>
     <string name="playpause">Mängi/Paus</string>
     <string name="next">Järgmine</string>
+    <string name="number">Number</string>
+    <string name="no_contacts_found">Kontakte ei leitud</string>
+    <string name="request_the_required_permissions">Taotlege vajalikke õigusi</string>
+    <string name="no_access_to_contacts">Rakendus ei pääsenud teie kontaktidele ligi</string>
+    <string name="insert_text_here">Sisestage tekst siia</string>
+    <string name="manage_blocked_numbers">Halda blokeeritud numbreid</string>
+    <string name="not_blocking_anyone">Te ei blokeeri kedagi.</string>
+    <string name="add_a_blocked_number">Lisage blokeeritud number</string>
+    <string name="block_number">Blokeeri number</string>
+    <string name="block_numbers">Blokeer numbrid</string>
+    <string name="blocked_numbers">Blokeeritud numbrid</string>
+    <string name="must_make_default_dialer">Blokeeritud numbrite kasutamiseks peate selle rakenduse muutma vaikimisi valijarakenduseks.</string>
+    <string name="set_as_default">Määra vaikimisi</string>
+    <string name="block_confirmation">Olete kindel, et soovite \"%s\" blokeerida?</string>
     <string name="favorites">Lemmikud</string>
     <string name="add_favorites">Lisa lemmikuid</string>
     <string name="add_to_favorites">Lisa lemmikutesse</string>
@@ -583,6 +598,8 @@
     <string name="indicator_fast_scroll_title">Kiire keriminse indikaator (tähed kerimisribal)</string>
     <string name="event_bus_title">Event Bus (suhtlus rakenduses)</string>
     <string name="audio_record_view_title">Helisalvestuse vaade (heli visualiseerimine)</string>
+    <string name="sms_mms_title">SMS MMS (SMS ja MMS hooldamine)</string>
     <string name="deprecated_app">Selle rakenduse versiooni enam ei säilitata, hankige Pro versioon aadressilt https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Ärge unustage, et kui te eemaldate makstud rakendused 2 tunni jooksul, tagastatakse raha see automaatselt. Kui soovite tagasimakseid hiljem, võtke meiega ühendust aadressil hello@simplemobiletools.com ja te saate selle. See võimaldab rakendusi hõlpsasti proovida :)</string>
+    <string name="developer_description">Rühm lihtsaid, avatud lähtekoodiga Androidi rakendusi koos kohandatavate vidinatega, ilma reklaamide ja tarbetute lubadeta.</string>
 </resources>

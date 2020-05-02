@@ -11,13 +11,16 @@
     <string name="edit_with">Muokkaa sovelluksella</string>
     <string name="no_app_found">Sovelluksia ei löydetty</string>
     <string name="set_as">Aseta</string>
+    <string name="copy_to_clipboard">Kopioi leikepöydälle</string>
     <string name="value_copied_to_clipboard">Kopioitu leikepöydälle</string>
     <string name="unknown">Tuntematon</string>
     <string name="always">Aina</string>
     <string name="never">Ei koskaan</string>
     <string name="details">Yksityiskohdat</string>
     <string name="notes">Muistiinpanot</string>
+    <string name="deleting_folder">Poistetaan kansiota...</string>
     <string name="none">Ei mitään</string>
+    <string name="transparent">Läpinäkyvä</string>
     <string name="download">Lataa</string>
     <string name="notification">Ilmoitus</string>
     <string name="email">Sähköposti</string>

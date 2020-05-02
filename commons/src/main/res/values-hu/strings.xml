@@ -11,6 +11,7 @@
     <string name="edit_with">Szerkesztés ezzel</string>
     <string name="no_app_found">Nem található érvényes alkalmazás</string>
     <string name="set_as">Beállítás ennek</string>
+    <string name="copy_to_clipboard">Másolás vágólapra</string>
     <string name="value_copied_to_clipboard">Érték másolva a vágólapra</string>
     <string name="unknown">Ismeretlen</string>
     <string name="always">Mindig</string>
@@ -29,6 +30,20 @@
     <string name="previous">Előző</string>
     <string name="playpause">Lejátszás / Megállítás</string>
     <string name="next">Következő</string>
+    <string name="number">Szám</string>
+    <string name="no_contacts_found">Nem található névjegy</string>
+    <string name="request_the_required_permissions">A szükséges engedélyek kérése</string>
+    <string name="no_access_to_contacts">Az alkalmazás nem tudta elérni a névjegyeket</string>
+    <string name="insert_text_here">Ide írjon szöveget</string>
+    <string name="manage_blocked_numbers">Letiltott számok kezelése</string>
+    <string name="not_blocking_anyone">Ön nem blokkol senkit.</string>
+    <string name="add_a_blocked_number">Tiltandó telefonszám hozzáadása</string>
+    <string name="block_number">Számtiltás</string>
+    <string name="block_numbers">Több szám tiltása</string>
+    <string name="blocked_numbers">Letiltott számok</string>
+    <string name="must_make_default_dialer">Ezt a Tárcsázót kell használnia alapértelmezettként, hogy a tiltott számok valóban tiltásra kerüljenek.</string>
+    <string name="set_as_default">Beállítás alapértelmezettként</string>
+    <string name="block_confirmation">Biztos, hogy letiltja a következőt: \"%s\"?</string>
     <string name="favorites">Kedvencek</string>
     <string name="add_favorites">Kedvencek hozzáadása</string>
     <string name="add_to_favorites">Hozzáadás a Kedvencekhez</string>
@@ -583,6 +598,8 @@
     <string name="indicator_fast_scroll_title">Gyors jelzőgörgetés (betűk a görgetősávon)</string>
     <string name="event_bus_title">Event Bus (kommunikáció az alkalmazáson belül)</string>
     <string name="audio_record_view_title">Audiófelvétel-nézet (audió-vizualizáció)</string>
+    <string name="sms_mms_title">SMS MMS (SMS- és MMS-kezelés)</string>
     <string name="deprecated_app">ELAVULT: Az alkalmazás ezen verziójára már nincs többé támogatás, szerezze be a Pro-verziót a https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro webhelyről</string>
     <string name="pro_app_refund">Ne felejtse, ha egy fizetős alkalmazást 2 órán belül töröl (uninstallál), akkor automatikusan megkapja a visszatérítést. Ha bármikor később szeretne visszatérést kapni, vegye fel velünk a kapcsolatot a hello@simplemobiletools.com címen. Ez megkönnyítheti a tesztelést :-)</string>
+    <string name="developer_description">Egyszerű, nyílt forráskódú Android-alkalmazások csoportja, testreszabható kisalkalmazásokkal, szükségtelen engedélyek és reklámok nélkül.</string>
 </resources>

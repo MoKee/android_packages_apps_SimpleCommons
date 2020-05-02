@@ -11,6 +11,7 @@
     <string name="edit_with">Upravit pomocí</string>
     <string name="no_app_found">Nebyla nalezena žádná vhodná aplikace</string>
     <string name="set_as">Nastavit jako</string>
+    <string name="copy_to_clipboard">Zkopírovat do schránky</string>
     <string name="value_copied_to_clipboard">Hodnota zkopírována do schránky</string>
     <string name="unknown">Neznámá</string>
     <string name="always">Vždy</string>
@@ -29,6 +30,20 @@
     <string name="previous">Předchozí</string>
     <string name="playpause">Přehrát/Pozastavit</string>
     <string name="next">Další</string>
+    <string name="number">Číslo</string>
+    <string name="no_contacts_found">Nenalezeny žádné kontakty</string>
+    <string name="request_the_required_permissions">Vyžádat požadovaná oprávnění</string>
+    <string name="no_access_to_contacts">Aplikace nemohla získat přístup k vašim kontaktům</string>
+    <string name="insert_text_here">Zde vložte text</string>
+    <string name="manage_blocked_numbers">Spravovat blokovaná čísla</string>
+    <string name="not_blocking_anyone">Nikoho neblokujete.</string>
+    <string name="add_a_blocked_number">Přidat blokované číslo</string>
+    <string name="block_number">Blokovat číslo</string>
+    <string name="block_numbers">Blokovat čísla</string>
+    <string name="blocked_numbers">Blokovaná čísla</string>
+    <string name="must_make_default_dialer">Aby bylo možné blokovat čísla, musíte tuto aplikaci nastavit jako výchozí aplikaci pro volání.</string>
+    <string name="set_as_default">Nastavit jako výchozí</string>
+    <string name="block_confirmation">Opravdu chcete zablokovat \"%s\"?</string>
     <string name="favorites">Oblíbené</string>
     <string name="add_favorites">Přidat oblíbené</string>
     <string name="add_to_favorites">Přidat do oblíbených</string>
@@ -649,6 +664,8 @@
     <string name="indicator_fast_scroll_title">Indikátor Rychlé posouvání (písmena na posuvníku)</string>
     <string name="event_bus_title">Event Bus (komunikace v aplikaci)</string>
     <string name="audio_record_view_title">Zobrazení zvukového záznamu (vizualizace zvuku)</string>
+    <string name="sms_mms_title">SMS MMS (SMS a MMS)</string>
     <string name="deprecated_app">ZASTARALÁ: Tato verze aplikace již není udržována, získejte verzi Pro na https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Nezapomeňte, že pokud odinstalujete všechny placené aplikace do 2 hodin, platba budete automaticky vrácena. Pokud chcete vrátit peníze později, kontaktujte nás na hello@simplemobiletools.com a získáte je zpět. To vám usnadní vyzkoušení :)</string>
+    <string name="developer_description">Skupina jednoduchých aplikací s otevřeným zdrojovým kódem pro Android s přizpůsobitelnými widgety, bez reklam a zbytečných oprávnění.</string>
 </resources>
