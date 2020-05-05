@@ -88,20 +88,6 @@ fun String.containsNoMedia() = File(this).containsNoMedia()
 
 fun String.doesThisOrParentHaveNoMedia() = File(this).doesThisOrParentHaveNoMedia()
 
-fun String.getDuration() = getFileDurationSeconds()?.getFormattedDuration()
-
-fun String.getFileDurationSeconds(): Int? {
-    return try {
-        val retriever = MediaMetadataRetriever()
-        retriever.setDataSource(this)
-        val time = retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_DURATION)
-        val timeInMs = java.lang.Long.parseLong(time)
-        (timeInMs / 1000).toInt()
-    } catch (e: Exception) {
-        null
-    }
-}
-
 fun String.getFileArtist(): String? {
     return try {
         val retriever = MediaMetadataRetriever()
@@ -248,7 +234,7 @@ fun String.trimToComparableNumber(): String {
 }
 
 // get the contact names first letter at showing the placeholder without image
-fun String.getNameLetter() = normalizeString().toCharArray().getOrNull(0)?.toString()?.toUpperCase(Locale.getDefault()) ?: "S"
+fun String.getNameLetter() = normalizeString().toCharArray().getOrNull(0)?.toString()?.toUpperCase(Locale.getDefault()) ?: "A"
 
 fun String.getMimeType(): String {
     val typesMap = HashMap<String, String>().apply {
