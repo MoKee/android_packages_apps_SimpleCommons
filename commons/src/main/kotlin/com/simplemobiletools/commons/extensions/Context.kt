@@ -690,7 +690,7 @@ fun Context.getVideoResolution(path: String): Point? {
     return point
 }
 
-fun Context.getVideoDuration(path: String): Int? {
+fun Context.getDuration(path: String): Int? {
     val projection = arrayOf(
         Video.Media.DURATION
     )
