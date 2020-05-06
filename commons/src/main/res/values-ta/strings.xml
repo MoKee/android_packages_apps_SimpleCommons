@@ -15,6 +15,7 @@
     <string name="none">ஏதுமில்லை</string>
     <string name="select_a_different_color">மற்றோரு வண்ணத்தைத் தேர்வுசெய்க</string>
     <string name="download">பதிவிறக்கம்</string>
+    <string name="notification">அறிவிப்பு</string>
     <string name="email">மின்னஞ்சல்</string>
     <string name="previous">"முந்தைய"</string>
     <string name="next">அடுத்து</string>

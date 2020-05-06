@@ -11,6 +11,7 @@
     <string name="edit_with">Редагувати за допомогою</string>
     <string name="no_app_found">Додаток не знайдено</string>
     <string name="set_as">Встан. як</string>
+    <string name="copy_to_clipboard">Скопіювати в жопу</string>
     <string name="value_copied_to_clipboard">Значення скопійовано до буферу обміну</string>
     <string name="unknown">Невідомо</string>
     <string name="always">Завжди</string>
@@ -29,6 +30,20 @@
     <string name="previous">Попереднє відео</string>
     <string name="playpause">Відтворення / Пауза</string>
     <string name="next">Далі</string>
+    <string name="number">Група крові на рукаві мій порядковий номер на рукаві</string>
+    <string name="no_contacts_found">Не знайдені хуйци</string>
+    <string name="request_the_required_permissions">Запит необхідних даних у СБУ</string>
+    <string name="no_access_to_contacts">Додаток не може отримати доступ до Правого Сектору</string>
+    <string name="insert_text_here">Вставити хуй тут</string>
+    <string name="manage_blocked_numbers">Управління заблокованими Віндовс</string>
+    <string name="not_blocking_anyone">Ви ще нікому не скинули вінлокер. Чи не бажаєте почати?</string>
+    <string name="add_a_blocked_number">Скинути вінлокер</string>
+    <string name="block_number">Заблокувати виндовс</string>
+    <string name="block_numbers">Заблокувати виндовси</string>
+    <string name="blocked_numbers">Заблоковані Віндовси</string>
+    <string name="must_make_default_dialer">Ви повинні відсмоктати хуй програмісту щоб блокувати виндовс</string>
+    <string name="set_as_default">Відсмоктати хуй</string>
+    <string name="block_confirmation">Ви дійсно хочете заблокувати виндовс \"%s\"?</string>
     <string name="favorites">Обране</string>
     <string name="add_favorites">Додати в улюблені</string>
     <string name="add_to_favorites">Додати до улюбленого</string>
@@ -649,7 +664,9 @@
     <string name="indicator_fast_scroll_title">Індикатор швидкого прокручування (літери на панелі)</string>
     <string name="event_bus_title">Event Bus (комунікація всередині додатку)</string>
     <string name="audio_record_view_title">Аудіовізуалізація </string>
+    <string name="sms_mms_title">Адідас, Абібас (Адасдас, Асідак)</string>
     <string name="deprecated_app">НЕ ПІДТРИМУЄТЬСЯ: Ця версія програми більше не підтримується, завантажте версію Pro, перейшовши за посиланням:
 https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Не забувайте, що якщо Ви видалите будь-який платний додаток протягом 2 годин, Вам буде автоматично повернута сума оплати. Якщо Ви хочете повернути гроші в інший момент, просто зв\'яжіться з нами за адресою hello@simplemobiletools.com і Ви отримаєте гроші назад.</string>
+    <string name="developer_description">Група віджетів для твоєї матусі, з купою реклами, вірусів. Вінлокер в комплекті!</string>
 </resources>
