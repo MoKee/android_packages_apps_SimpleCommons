@@ -4,8 +4,8 @@ import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Point
-import android.media.MediaMetadataRetriever
 import android.os.StatFs
+import android.provider.MediaStore
 import android.text.Spannable
 import android.text.SpannableString
 import android.text.TextUtils
@@ -60,9 +60,9 @@ fun String.isImageFast() = photoExtensions.any { endsWith(it, true) }
 fun String.isAudioFast() = audioExtensions.any { endsWith(it, true) }
 fun String.isRawFast() = rawExtensions.any { endsWith(it, true) }
 
-fun String.isImageSlow() = isImageFast() || getMimeType().startsWith("image")
-fun String.isVideoSlow() = isVideoFast() || getMimeType().startsWith("video")
-fun String.isAudioSlow() = isAudioFast() || getMimeType().startsWith("audio")
+fun String.isImageSlow() = isImageFast() || getMimeType().startsWith("image") || startsWith(MediaStore.Images.Media.EXTERNAL_CONTENT_URI.toString())
+fun String.isVideoSlow() = isVideoFast() || getMimeType().startsWith("video") || startsWith(MediaStore.Video.Media.EXTERNAL_CONTENT_URI.toString())
+fun String.isAudioSlow() = isAudioFast() || getMimeType().startsWith("audio") || startsWith(MediaStore.Audio.Media.EXTERNAL_CONTENT_URI.toString())
 
 fun String.getCompressionFormat() = when (getFilenameExtension().toLowerCase()) {
     "png" -> Bitmap.CompressFormat.PNG
@@ -87,36 +87,6 @@ fun String.getParentPath() = removeSuffix("/${getFilenameFromPath()}")
 fun String.containsNoMedia() = File(this).containsNoMedia()
 
 fun String.doesThisOrParentHaveNoMedia() = File(this).doesThisOrParentHaveNoMedia()
-
-fun String.getFileArtist(): String? {
-    return try {
-        val retriever = MediaMetadataRetriever()
-        retriever.setDataSource(this)
-        retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_ARTIST)
-    } catch (ignored: Exception) {
-        null
-    }
-}
-
-fun String.getFileAlbum(): String? {
-    return try {
-        val retriever = MediaMetadataRetriever()
-        retriever.setDataSource(this)
-        retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_ALBUM)
-    } catch (ignored: Exception) {
-        null
-    }
-}
-
-fun String.getFileSongTitle(): String? {
-    return try {
-        val retriever = MediaMetadataRetriever()
-        retriever.setDataSource(this)
-        retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_TITLE)
-    } catch (ignored: Exception) {
-        null
-    }
-}
 
 fun String.getImageResolution(): Point? {
     val options = BitmapFactory.Options()
@@ -838,5 +808,6 @@ fun String.getMimeType(): String {
         put("z", "application/x-compress")
         put("zip", "application/zip")
     }
+
     return typesMap[getFilenameExtension().toLowerCase()] ?: ""
 }

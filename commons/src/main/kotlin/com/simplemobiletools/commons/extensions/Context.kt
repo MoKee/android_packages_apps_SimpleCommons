@@ -692,31 +692,135 @@ fun Context.getVideoResolution(path: String): Point? {
 
 fun Context.getDuration(path: String): Int? {
     val projection = arrayOf(
-        Video.Media.DURATION
+        MediaColumns.DURATION
     )
 
-    val uri = Files.getContentUri("external")
-    val selection = "${Video.Media.DATA} = ?"
-    val selectionArgs = arrayOf(path)
+    val uri = getFileUri(path)
+    val selection = if (path.startsWith("content://")) "${BaseColumns._ID} = ?" else "${MediaColumns.DATA} = ?"
+    val selectionArgs = if (path.startsWith("content://")) arrayOf(path.substringAfterLast("/")) else arrayOf(path)
 
     try {
         val cursor = contentResolver.query(uri, projection, selection, selectionArgs, null)
         cursor?.use {
             if (cursor.moveToFirst()) {
-                return Math.round(cursor.getIntValue(Video.Media.DURATION) / 1000.toDouble()).toInt()
+                return Math.round(cursor.getIntValue(MediaColumns.DURATION) / 1000.toDouble()).toInt()
             }
         }
     } catch (ignored: Exception) {
     }
 
-    try {
+    return try {
         val retriever = MediaMetadataRetriever()
         retriever.setDataSource(path)
-        return Math.round(retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_DURATION).toInt() / 1000f)
+        Math.round(retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_DURATION).toInt() / 1000f)
+    } catch (ignored: Exception) {
+        null
+    }
+}
+
+fun Context.getTitle(path: String): String? {
+    val projection = arrayOf(
+        MediaColumns.TITLE
+    )
+
+    val uri = getFileUri(path)
+    val selection = if (path.startsWith("content://")) "${BaseColumns._ID} = ?" else "${MediaColumns.DATA} = ?"
+    val selectionArgs = if (path.startsWith("content://")) arrayOf(path.substringAfterLast("/")) else arrayOf(path)
+
+    try {
+        val cursor = contentResolver.query(uri, projection, selection, selectionArgs, null)
+        cursor?.use {
+            if (cursor.moveToFirst()) {
+                return cursor.getStringValue(MediaColumns.TITLE)
+            }
+        }
     } catch (ignored: Exception) {
     }
 
-    return null
+    return try {
+        val retriever = MediaMetadataRetriever()
+        retriever.setDataSource(path)
+        retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_TITLE)
+    } catch (ignored: Exception) {
+        null
+    }
+}
+
+fun Context.getArtist(path: String): String? {
+    val projection = arrayOf(
+        Audio.Media.ARTIST
+    )
+
+    val uri = getFileUri(path)
+    val selection = if (path.startsWith("content://")) "${BaseColumns._ID} = ?" else "${MediaColumns.DATA} = ?"
+    val selectionArgs = if (path.startsWith("content://")) arrayOf(path.substringAfterLast("/")) else arrayOf(path)
+
+    try {
+        val cursor = contentResolver.query(uri, projection, selection, selectionArgs, null)
+        cursor?.use {
+            if (cursor.moveToFirst()) {
+                return cursor.getStringValue(Audio.Media.ARTIST)
+            }
+        }
+    } catch (ignored: Exception) {
+    }
+
+    return try {
+        val retriever = MediaMetadataRetriever()
+        retriever.setDataSource(path)
+        retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_ARTIST)
+    } catch (ignored: Exception) {
+        null
+    }
+}
+
+fun Context.getAlbum(path: String): String? {
+    val projection = arrayOf(
+        Audio.Media.ALBUM
+    )
+
+    val uri = getFileUri(path)
+    val selection = if (path.startsWith("content://")) "${BaseColumns._ID} = ?" else "${MediaColumns.DATA} = ?"
+    val selectionArgs = if (path.startsWith("content://")) arrayOf(path.substringAfterLast("/")) else arrayOf(path)
+
+    try {
+        val cursor = contentResolver.query(uri, projection, selection, selectionArgs, null)
+        cursor?.use {
+            if (cursor.moveToFirst()) {
+                return cursor.getStringValue(Audio.Media.ALBUM)
+            }
+        }
+    } catch (ignored: Exception) {
+    }
+
+    return try {
+        val retriever = MediaMetadataRetriever()
+        retriever.setDataSource(path)
+        retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_ALBUM)
+    } catch (ignored: Exception) {
+        null
+    }
+}
+
+fun Context.getMediaStoreLastModified(path: String): Long {
+    val projection = arrayOf(
+        MediaColumns.DATE_MODIFIED
+    )
+
+    val uri = getFileUri(path)
+    val selection = "${BaseColumns._ID} = ?"
+    val selectionArgs = arrayOf(path.substringAfterLast("/"))
+
+    try {
+        val cursor = contentResolver.query(uri, projection, selection, selectionArgs, null)
+        cursor?.use {
+            if (cursor.moveToFirst()) {
+                return cursor.getLongValue(MediaColumns.DATE_MODIFIED) * 1000
+            }
+        }
+    } catch (ignored: Exception) {
+    }
+    return 0
 }
 
 fun Context.getStringsPackageName() = getString(R.string.package_name)

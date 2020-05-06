@@ -1,6 +1,7 @@
 package com.simplemobiletools.commons.models
 
 import android.content.Context
+import android.net.Uri
 import com.simplemobiletools.commons.extensions.*
 import com.simplemobiletools.commons.helpers.*
 import java.io.File
@@ -58,6 +59,8 @@ open class FileDirItem(val path: String, val name: String = "", var isDirectory:
     fun getProperSize(context: Context, countHidden: Boolean): Long {
         return if (context.isPathOnOTG(path)) {
             context.getDocumentFile(path)?.getItemSize(countHidden) ?: 0
+        } else if (isNougatPlus() && path.startsWith("content://")) {
+            context.contentResolver.openInputStream(Uri.parse(path))?.available()?.toLong() ?: 0L
         } else {
             File(path).getProperSize(countHidden)
         }
@@ -82,6 +85,8 @@ open class FileDirItem(val path: String, val name: String = "", var isDirectory:
     fun getLastModified(context: Context): Long {
         return if (context.isPathOnOTG(path)) {
             context.getFastDocumentFile(path)?.lastModified() ?: 0L
+        } else if (isNougatPlus() && path.startsWith("content://")) {
+            context.getMediaStoreLastModified(path)
         } else {
             File(path).lastModified()
         }
@@ -93,11 +98,11 @@ open class FileDirItem(val path: String, val name: String = "", var isDirectory:
 
     fun getFileDurationSeconds(context: Context) = context.getDuration(path)
 
-    fun getArtist() = path.getFileArtist()
+    fun getArtist(context: Context) = context.getArtist(path)
 
-    fun getAlbum() = path.getFileAlbum()
+    fun getAlbum(context: Context) = context.getAlbum(path)
 
-    fun getSongTitle() = path.getFileSongTitle()
+    fun getTitle(context: Context) = context.getTitle(path)
 
     fun getResolution(context: Context) = context.getResolution(path)
 
