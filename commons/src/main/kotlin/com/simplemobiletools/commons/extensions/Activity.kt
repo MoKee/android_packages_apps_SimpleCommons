@@ -7,8 +7,11 @@ import android.content.pm.PackageManager
 import android.media.RingtoneManager
 import android.net.Uri
 import android.os.TransactionTooLargeException
+import android.provider.ContactsContract
 import android.provider.DocumentsContract
 import android.provider.MediaStore
+import android.telecom.PhoneAccountHandle
+import android.telecom.TelecomManager
 import android.text.Html
 import android.view.View
 import android.view.ViewGroup
@@ -358,6 +361,37 @@ fun Activity.openPathIntent(path: String, forceChooser: Boolean, applicationId: 
                 if (!tryGenericMimeType(this, mimeType, newUri)) {
                     toast(R.string.no_app_found)
                 }
+            }
+        }
+    }
+}
+
+fun Activity.launchViewContactIntent(uri: Uri) {
+    Intent().apply {
+        action = ContactsContract.QuickContact.ACTION_QUICK_CONTACT
+        data = uri
+        if (resolveActivity(packageManager) != null) {
+            startActivity(this)
+        } else {
+            toast(R.string.no_app_found)
+        }
+    }
+}
+
+fun BaseSimpleActivity.launchCallIntent(recipient: String, handle: PhoneAccountHandle? = null) {
+    handlePermission(PERMISSION_CALL_PHONE) {
+        val action = if (it) Intent.ACTION_CALL else Intent.ACTION_DIAL
+        Intent(action).apply {
+            data = Uri.fromParts("tel", recipient, null)
+
+            if (handle != null && isMarshmallowPlus()) {
+                putExtra(TelecomManager.EXTRA_PHONE_ACCOUNT_HANDLE, handle)
+            }
+
+            if (resolveActivity(packageManager) != null) {
+                startActivity(this)
+            } else {
+                toast(R.string.no_app_found)
             }
         }
     }
@@ -742,7 +776,7 @@ fun BaseSimpleActivity.getFileOutputStreamSync(path: String, mimeType: String, p
             } else {
                 documentFile = getDocumentFile(targetFile.parentFile.parent)
                 documentFile = documentFile!!.createDirectory(targetFile.parentFile.name)
-                        ?: getDocumentFile(targetFile.parentFile.absolutePath)
+                    ?: getDocumentFile(targetFile.parentFile.absolutePath)
             }
         }
 
