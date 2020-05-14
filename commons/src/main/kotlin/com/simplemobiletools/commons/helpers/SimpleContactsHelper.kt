@@ -15,6 +15,7 @@ import android.text.TextUtils
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.DecodeFormat
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestOptions
@@ -23,10 +24,10 @@ import com.simplemobiletools.commons.extensions.*
 import com.simplemobiletools.commons.models.SimpleContact
 
 class SimpleContactsHelper(val context: Context) {
-    fun getAvailableContacts(callback: (ArrayList<SimpleContact>) -> Unit) {
+    fun getAvailableContacts(favoritesOnly: Boolean, callback: (ArrayList<SimpleContact>) -> Unit) {
         ensureBackgroundThread {
-            val names = getContactNames()
-            var allContacts = getContactPhoneNumbers()
+            val names = getContactNames(favoritesOnly)
+            var allContacts = getContactPhoneNumbers(favoritesOnly)
             allContacts.forEach {
                 val contactId = it.rawId
                 val contact = names.firstOrNull { it.rawId == contactId }
@@ -51,7 +52,7 @@ class SimpleContactsHelper(val context: Context) {
         }
     }
 
-    private fun getContactNames(): List<SimpleContact> {
+    private fun getContactNames(favoritesOnly: Boolean): List<SimpleContact> {
         val contacts = ArrayList<SimpleContact>()
         val uri = Data.CONTENT_URI
         val projection = arrayOf(
@@ -68,7 +69,12 @@ class SimpleContactsHelper(val context: Context) {
             Data.MIMETYPE
         )
 
-        val selection = "${Data.MIMETYPE} = ? OR ${Data.MIMETYPE} = ?"
+        var selection = "(${Data.MIMETYPE} = ? OR ${Data.MIMETYPE} = ?)"
+
+        if (favoritesOnly) {
+            selection += " AND ${Data.STARRED} = 1"
+        }
+
         val selectionArgs = arrayOf(
             StructuredName.CONTENT_ITEM_TYPE,
             Organization.CONTENT_ITEM_TYPE
@@ -108,7 +114,7 @@ class SimpleContactsHelper(val context: Context) {
         return contacts
     }
 
-    private fun getContactPhoneNumbers(): ArrayList<SimpleContact> {
+    private fun getContactPhoneNumbers(favoritesOnly: Boolean): ArrayList<SimpleContact> {
         val contacts = ArrayList<SimpleContact>()
         val uri = CommonDataKinds.Phone.CONTENT_URI
         val projection = arrayOf(
@@ -117,14 +123,14 @@ class SimpleContactsHelper(val context: Context) {
             CommonDataKinds.Phone.NORMALIZED_NUMBER
         )
 
-        context.queryCursor(uri, projection) { cursor ->
+        val selection = if (favoritesOnly) "${Data.STARRED} = 1" else null
+
+        context.queryCursor(uri, projection, selection) { cursor ->
+            val phoneNumber = cursor.getStringValue(CommonDataKinds.Phone.NORMALIZED_NUMBER) ?: return@queryCursor
             val rawId = cursor.getIntValue(Data.RAW_CONTACT_ID)
             val contactId = cursor.getIntValue(Data.CONTACT_ID)
-            val phoneNumber = cursor.getStringValue(CommonDataKinds.Phone.NORMALIZED_NUMBER)
-            if (phoneNumber != null) {
-                val contact = SimpleContact(rawId, contactId, "", "", phoneNumber)
-                contacts.add(contact)
-            }
+            val contact = SimpleContact(rawId, contactId, "", "", phoneNumber)
+            contacts.add(contact)
         }
         return contacts
     }
@@ -258,6 +264,32 @@ class SimpleContactsHelper(val context: Context) {
                 context.contentResolver.delete(uri, selection, selectionArgs)
             }
             callback()
+        }
+    }
+
+    fun getShortcutImage(path: String, placeholderName: String, callback: (image: Bitmap) -> Unit) {
+        ensureBackgroundThread {
+            val placeholder = BitmapDrawable(context.resources, getContactLetterIcon(placeholderName))
+            try {
+                val options = RequestOptions()
+                    .format(DecodeFormat.PREFER_ARGB_8888)
+                    .diskCacheStrategy(DiskCacheStrategy.NONE)
+                    .error(placeholder)
+                    .centerCrop()
+
+                val size = context.resources.getDimension(R.dimen.shortcut_size).toInt()
+                val bitmap = Glide.with(context).asBitmap()
+                    .load(path)
+                    .placeholder(placeholder)
+                    .apply(options)
+                    .apply(RequestOptions.circleCropTransform())
+                    .into(size, size)
+                    .get()
+
+                callback(bitmap)
+            } catch (ignored: Exception) {
+                callback(placeholder.bitmap)
+            }
         }
     }
 }
