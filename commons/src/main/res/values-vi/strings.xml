@@ -402,6 +402,10 @@
     <string name="startup">Khởi động</string>
     <string name="text">Văn bản</string>
     <string name="migrating">Di chuyển</string>
+    <string name="contacts_tab">Liên hệ</string>
+    <string name="favorites_tab">Yêu thích</string>
+    <string name="groups_tab">Nhóm</string>
+    <string name="last_used_tab">Lần sử dụng cuối cùng</string>
     <string name="restore_this_file">Phục hồi tệp này</string>
     <string name="restore_selected_files">Khôi phục các tập tin đã chọn</string>
     <string name="restore_all_files">Khôi phục tất cả các tệp</string>

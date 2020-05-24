@@ -374,6 +374,7 @@
     <string name="saving_label">Sparande</string>
     <string name="startup">Start</string>
     <string name="text">Text</string>
+    <string name="favorites_tab">Favoriter</string>
     <string name="restore_this_file">Återställ filen</string>
     <string name="restore_selected_files">Återställ valda filer</string>
     <string name="restore_all_files">Återställ alla filer</string>

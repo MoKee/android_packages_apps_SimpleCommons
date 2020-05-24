@@ -403,6 +403,10 @@
     <string name="startup">啟動</string>
     <string name="text">文字</string>
     <string name="migrating">移入</string>
+    <string name="contacts_tab">連絡人</string>
+    <string name="favorites_tab">我的最愛</string>
+    <string name="groups_tab">群組</string>
+    <string name="last_used_tab">最後使用</string>
     <string name="restore_this_file">還原這個檔案</string>
     <string name="restore_selected_files">還原選擇的檔案</string>
     <string name="restore_all_files">還原全部檔案</string>

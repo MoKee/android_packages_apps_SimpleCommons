@@ -118,6 +118,9 @@
     <string name="root">ルート</string>
     <string name="wrong_root_selected">フォルダの選択が正しくありません。SDカードを選択してください</string>
     <string name="sd_card_usb_same">SDカードとUSBデバイスのパスを同じにすることはできません</string>
+    <string name="app_on_sd_card">SDカードにアプリをインストールしているため、アプリのウィジェットが利用できません。
+また、一覧にも表示されません。
+システム上の制限のため、ウィジェットを使用したい場合はアプリを内部ストレージに戻す必要があります。</string>
     <string name="properties">プロパティ</string>
     <string name="path">パス</string>
     <string name="items_selected">アイテム選択</string>
@@ -139,6 +142,7 @@
     <string name="primary_color">メインカラー</string>
     <string name="foreground_color">前景色</string>
     <string name="app_icon_color">アプリアイコンの色</string>
+    <string name="bottom_navigation_bar_color">ナビゲーションバーの色</string>
     <string name="restore_defaults">デフォルトに戻す</string>
     <string name="use_default">デフォルトに戻す</string>
     <string name="default_color">デフォルト</string>
@@ -151,6 +155,9 @@
     <string name="undo_changes_confirmation">変更を元に戻してもよろしいですか？</string>
     <string name="save_before_closing">保存していない変更があります。保存しますか？</string>
     <string name="apply_to_all_apps">すべてのSimple Appsに色を適用する</string>
+    <string name="app_icon_color_warning">警告: 一部のランチャーではアプリアイコンのカスタマイズが正しく処理されません。 アイコンが表示されない場合は、Google Play またはいくつかのウィジェットでアプリを起動してみてください。
+        起動後、デフォルトのオレンジ色のアイコン#F57C00を設定してください。 最悪の場合はアプリを再インストールする必要があるかもしれません。</string>
+    <string name="share_colors_success">色の更新に成功しました。「共有」と呼ばれる新しいテーマが追加されました。今後すべてのアプリの色を更新するために使用してください。</string>
     <string name="light_theme">ライト</string>
     <string name="dark_theme">ダーク</string>
     <string name="solarized">ｿﾗﾘｾﾞｰｼｮﾝ</string>
@@ -336,6 +343,7 @@
     <string name="recycle_bin">ごみ箱</string>
     <string name="saving_label">保存中</string>
     <string name="text">テキスト</string>
+    <string name="favorites_tab">お気に入り</string>
     <string name="restore_this_file">このファイルを復元</string>
     <string name="restore_selected_files">選択したファイルを復元</string>
     <string name="restore_all_files">すべてのファイルを復元</string>

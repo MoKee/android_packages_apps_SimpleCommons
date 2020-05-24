@@ -11,6 +11,7 @@
     <string name="edit_with">Editar con</string>
     <string name="no_app_found">No se encontró una aplicación válida</string>
     <string name="set_as">Establecer como</string>
+    <string name="copy_to_clipboard">Copiar al portapapeles</string>
     <string name="value_copied_to_clipboard">Valor copiado al portapapeles</string>
     <string name="unknown">Desconocido</string>
     <string name="always">Siempre</string>
@@ -29,6 +30,20 @@
     <string name="previous">Anterior</string>
     <string name="playpause">Reproducir / Pausar</string>
     <string name="next">Siguiente</string>
+    <string name="number">Número</string>
+    <string name="no_contacts_found">No hay contactos</string>
+    <string name="request_the_required_permissions">Solicitar los permisos necesarios</string>
+    <string name="no_access_to_contacts">La aplicación no pudo acceder a tus contactos</string>
+    <string name="insert_text_here">Insertar texto aquí</string>
+    <string name="manage_blocked_numbers">Administrar números bloqueados</string>
+    <string name="not_blocking_anyone">No estás bloqueando a nadie.</string>
+    <string name="add_a_blocked_number">Añadir un número para bloquear</string>
+    <string name="block_number">Bloquear número</string>
+    <string name="block_numbers">Bloquear números</string>
+    <string name="blocked_numbers">Números bloqueados</string>
+    <string name="must_make_default_dialer">Tienes que hacer de esta aplicación la aplicación de teléfono por defecto para hacer uso de números bloqueados.</string>
+    <string name="set_as_default">Establecer como predeterminado</string>
+    <string name="block_confirmation">¿Estás seguro que deseas bloquear a \"%s\"?</string>
     <string name="favorites">Favoritos</string>
     <string name="add_favorites">Agregar a favoritos</string>
     <string name="add_to_favorites">Agregar a Favoritos</string>
@@ -123,6 +138,10 @@
         <item quantity="one">Eliminando %d elemento</item>
         <item quantity="other">Eliminando %d elementos</item>
     </plurals>
+    <plurals name="delete_contacts">
+        <item quantity="one">%d contacto</item>
+        <item quantity="other">%d contactos</item>
+    </plurals>
     <string name="select_storage">Seleccione almacenamiento</string>
     <string name="internal">Almacenamiento interno</string>
     <string name="sd_card">Tarjeta SD</string>
@@ -197,6 +216,7 @@
     <string name="redo">Rehacer</string>
     <string name="print">Imprimir</string>
     <string name="create_shortcut">Crear acceso directo</string>
+    <string name="add_number_to_contact">Añadir número al contacto</string>
     <string name="sort_by">Ordenar por</string>
     <string name="name">Nombre </string>
     <string name="size">Tamaño</string>
@@ -421,6 +441,9 @@
     <string name="startup">Puesta en marcha</string>
     <string name="text">Texto</string>
     <string name="migrating">Migrando</string>
+    <string name="contacts_tab">Contactos</string>
+    <string name="favorites_tab">Favoritos</string>
+    <string name="groups_tab">Grupos</string>
     <string name="restore_this_file">Restaurar el fichero</string>
     <string name="restore_selected_files">Restaurar los ficheros seleccionados</string>
     <string name="restore_all_files">Restaurar todos los ficheros</string>
@@ -583,6 +606,8 @@
     <string name="indicator_fast_scroll_title">Pergamino rápido indicador (letras en la barra de desplazamiento)</string>
     <string name="event_bus_title">Bus de evento (comunicación dentro de la aplicación)</string>
     <string name="audio_record_view_title">Vista de grabación de audio (visualización de audio)</string>
+    <string name="sms_mms_title">SMS MMS (SMS y MMS)</string>
     <string name="deprecated_app">OBSOLETA: Esta versión de la aplicación ya no está mantenida, obtén la versión Pro en https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">No olvides que si desinstalas cualquier aplicación de pago en un plazo de 2 horas, se te reembolsará automáticamente. Si deseas un reembolso en cualquier momento posterior, ponte en contacto con nosotros en hello@simplemobiletools.com y lo conseguirás. Eso hace que sea fácil probarlo :)</string>
+    <string name="developer_description">Un grupo de aplicaciones simples y de código abierto con widgets personalizables, sin anuncios y permisos innecesarios.</string>
 </resources>

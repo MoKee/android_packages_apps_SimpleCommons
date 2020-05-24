@@ -500,6 +500,10 @@
     <string name="startup">Запуск</string>
     <string name="text">Текст</string>
     <string name="migrating">Перенос данных</string>
+    <string name="contacts_tab">Контакты</string>
+    <string name="favorites_tab">Избранное</string>
+    <string name="groups_tab">Группы</string>
+    <string name="last_used_tab">Последний использованный</string>
     <string name="restore_this_file">Восстановить этот файл</string>
     <string name="restore_selected_files">Восстановить выбранные файлы</string>
     <string name="restore_all_files">Восстановить все файлы</string>

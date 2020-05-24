@@ -352,6 +352,7 @@
     <string name="file_operations">Filoperasjoner</string>
     <string name="recycle_bin">Papirkurv</string>
     <string name="text">Tekst</string>
+    <string name="favorites_tab">Favoritter</string>
     <string name="restore_this_file">Gjenopprett denne filen</string>
     <string name="restore_selected_files">Gjenopprett valgte filer</string>
     <string name="restore_all_files">Gjenopprett alle filer</string>

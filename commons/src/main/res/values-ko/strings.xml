@@ -68,6 +68,7 @@
     <string name="widgets">위젯</string>
     <string name="visibility">가시성</string>
     <string name="text">텍스트</string>
+    <string name="favorites_tab">즐겨찾기</string>
     <string name="monday">월요일</string>
     <string name="tuesday">화요일</string>
     <string name="wednesday">수요일</string>

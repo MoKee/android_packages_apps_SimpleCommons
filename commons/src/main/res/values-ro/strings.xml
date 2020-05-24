@@ -84,6 +84,8 @@
     <string name="widgets">Widgeturi</string>
     <string name="visibility">Vizibilitate</string>
     <string name="text">Text</string>
+    <string name="favorites_tab">Favorite</string>
+    <string name="groups_tab">Grupuri</string>
     <string name="usb">USB</string>
     <string name="monday">Luni</string>
     <string name="tuesday">Marţi</string>

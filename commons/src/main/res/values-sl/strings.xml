@@ -453,6 +453,7 @@
     <string name="startup">Zagon</string>
     <string name="text">Besedilo</string>
     <string name="migrating">Migracija</string>
+    <string name="favorites_tab">Priljubljeno</string>
     <string name="restore_this_file">Obnovi to datoteko</string>
     <string name="restore_selected_files">Obnovite izbrane datoteke</string>
     <string name="restore_all_files">Obnovite vse datoteke</string>

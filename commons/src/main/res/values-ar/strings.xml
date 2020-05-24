@@ -547,6 +547,9 @@
     <string name="startup">بدء التشغيل</string>
     <string name="text">نص</string>
     <string name="migrating">الإنتقال</string>
+    <string name="favorites_tab">المفضلة</string>
+    <string name="groups_tab">المجموعات</string>
+    <string name="last_used_tab">اخر واحد مستخدم</string>
     <string name="restore_this_file">استعادة هذا الملف</string>
     <string name="restore_selected_files">استعادة الملفات المحددة</string>
     <string name="restore_all_files">استعادة كافة الملفات</string>

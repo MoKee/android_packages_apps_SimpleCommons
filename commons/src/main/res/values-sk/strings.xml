@@ -464,6 +464,9 @@
     <string name="startup">Po spustení</string>
     <string name="text">Text</string>
     <string name="migrating">Migrácia</string>
+    <string name="favorites_tab">Obľúbené</string>
+    <string name="groups_tab">Skupiny</string>
+    <string name="last_used_tab">Naposledy použité</string>
     <string name="restore_this_file">Obnoviť tento súbor</string>
     <string name="restore_selected_files">Obnoviť vybrané súbory</string>
     <string name="restore_all_files">Obnoviť všetky súbory</string>

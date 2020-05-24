@@ -11,6 +11,7 @@
     <string name="edit_with">Edytuj w:</string>
     <string name="no_app_found">Nie mogę znaleźć danych aplikacji</string>
     <string name="set_as">Ustaw jako</string>
+    <string name="copy_to_clipboard">Kopiuj do schowka</string>
     <string name="value_copied_to_clipboard">Wartość została skopiowana do schowka</string>
     <string name="unknown">Nieznane</string>
     <string name="always">Zawsze</string>
@@ -27,7 +28,22 @@
     <string name="notification">Powiadomienia</string>
     <string name="email">E-mail</string>
     <string name="previous">Wróć</string>
+    <string name="playpause">Odtwarzaj / Wstrzymaj</string>
     <string name="next">Dalej</string>
+    <string name="number">Numer</string>
+    <string name="no_contacts_found">Nie znaleziono kontaktów.</string>
+    <string name="request_the_required_permissions">Poproś o wymagane uprawnienia</string>
+    <string name="no_access_to_contacts">Aplikacja nie mogła uzyskać dostępu do Twoich kontaktów</string>
+    <string name="insert_text_here">Wpisz tekst tutaj</string>
+    <string name="manage_blocked_numbers">Zarządzaj zablokowanymi numerami</string>
+    <string name="not_blocking_anyone">Brak zablokowanych numerów</string>
+    <string name="add_a_blocked_number">Dodaj zablokowany numer</string>
+    <string name="block_number">Zablokuj numer</string>
+    <string name="block_numbers">Zablokuj numery</string>
+    <string name="blocked_numbers">Zablokowane numery</string>
+    <string name="must_make_default_dialer">Musisz ustawić tę aplikację jako domyślną aplikację do dzwonienia, by móc korzystać z blokowania numerów.</string>
+    <string name="set_as_default">Ustaw jako domyślną</string>
+    <string name="block_confirmation">Czy jesteś pewny że chcesz zablokować \"%s\"?</string>
     <string name="favorites">Ulubione</string>
     <string name="add_favorites">Dodaj ulubione</string>
     <string name="add_to_favorites">Dodaj do ulubionych</string>
@@ -483,6 +499,10 @@
     <string name="startup">Uruchamianie</string>
     <string name="text">Tekst</string>
     <string name="migrating">Migrowanie</string>
+    <string name="contacts_tab">Kontakty</string>
+    <string name="favorites_tab">Ulubione</string>
+    <string name="groups_tab">Grupy</string>
+    <string name="last_used_tab">Ostatnio użyte</string>
     <string name="restore_this_file">Przywróć ten plik</string>
     <string name="restore_selected_files">Przywróć wybrane pliki</string>
     <string name="restore_all_files">Przywróć wszystkie pliki</string>
@@ -643,6 +663,10 @@
     <string name="filters_title">Android Photo Filters (fitry obrazów)</string>
     <string name="gesture_views_title">Widoki gestów (obrazy z możliwością powiększania)</string>
     <string name="indicator_fast_scroll_title">Wskażnik szybkiego przewijania (litery na pasku przewijania)</string>
+    <string name="event_bus_title">Bus wydarzeń (komunikacja wewnątrz aplikacji)</string>
+    <string name="audio_record_view_title">Widok nagrywania dźwięku (wizualizacja dźwięku)</string>
+    <string name="sms_mms_title">SMS MMS (obsługa SMS i MMS)</string>
     <string name="deprecated_app">PRZESTARZAŁE: Ta wersja aplikacji nie jest już rozwijana, wersja PRO dostępna pod https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Nie zapominaj, że jeśli odinstalujesz płatną aplikację w ciągu 2 godzin, otrzymasz automatyczny zwrot. Jeśli chcesz otrzymać zwrot w dowolnym momencie, skontaktuj się z nami pod adresem hello@simplemobiletools.com, a otrzymasz go. To ułatwia wypróbowanie :)</string>
+    <string name="developer_description">Grupa prostych, open sourcowych aplikacji na system Android z konfigurowalnymi widżetami, bez reklam i niepotrzebnych uprawnień.</string>
 </resources>

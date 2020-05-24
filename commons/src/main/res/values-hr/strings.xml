@@ -413,6 +413,7 @@
     <string name="saving_label">Spremanje</string>
     <string name="startup">Pokretanje</string>
     <string name="text">Tekst</string>
+    <string name="favorites_tab">Favoriti</string>
     <string name="restore_this_file">Vrati ovu datoteku</string>
     <string name="restore_selected_files">Vrati odabrane datoteke</string>
     <string name="restore_all_files">Vrati sve datoteke</string>

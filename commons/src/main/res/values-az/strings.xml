@@ -363,6 +363,7 @@
     <string name="saving_label">Saxlama</string>
     <string name="startup">Başlanğıc</string>
     <string name="text">Mətn</string>
+    <string name="favorites_tab">Sevimlilər</string>
     <string name="restore_this_file">Bu faylı geri qaytar</string>
     <string name="restore_selected_files">Bu faylları geri qaytar</string>
     <string name="restore_all_files">Bütün faylları geri qaytar</string>

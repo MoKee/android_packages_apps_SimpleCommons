@@ -451,6 +451,9 @@
     <string name="startup">Покретање</string>
     <string name="text">Текст</string>
     <string name="migrating">Миграција</string>
+    <string name="favorites_tab">Омиљено</string>
+    <string name="groups_tab">Групе</string>
+    <string name="last_used_tab">Задње корршћено</string>
     <string name="restore_this_file">Поврати ову датотеку</string>
     <string name="restore_selected_files">Поврати изабрану датотеку</string>
     <string name="restore_all_files">Поврати све датотеке</string>

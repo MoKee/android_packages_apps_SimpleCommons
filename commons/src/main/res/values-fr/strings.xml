@@ -420,6 +420,10 @@
     <string name="startup">Démarrage en cours…</string>
     <string name="text">Texte</string>
     <string name="migrating">Migration</string>
+    <string name="contacts_tab">Contacts</string>
+    <string name="favorites_tab">Favoris</string>
+    <string name="groups_tab">Groupes</string>
+    <string name="last_used_tab">Dernier utilisé</string>
     <string name="restore_this_file">Récupérer ce fichier</string>
     <string name="restore_selected_files">Récupérer les fichiers sélectionnés</string>
     <string name="restore_all_files">Récupérer tous les fichiers </string>

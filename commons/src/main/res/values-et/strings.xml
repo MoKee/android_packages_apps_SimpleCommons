@@ -138,6 +138,10 @@
         <item quantity="one">Kustuta %d kirje</item>
         <item quantity="other">Kustuta %d kirjet</item>
     </plurals>
+    <plurals name="delete_contacts">
+        <item quantity="one">%d kondakt</item>
+        <item quantity="other">%d kontakti</item>
+    </plurals>
     <string name="select_storage">Vali andmekandja</string>
     <string name="internal">Sisemine</string>
     <string name="sd_card">SD kaart</string>
@@ -212,6 +216,7 @@
     <string name="redo">Tee uuesti</string>
     <string name="print">Prindi</string>
     <string name="create_shortcut">Loo otsetee</string>
+    <string name="add_number_to_contact">Lisage number kontakti jaoks</string>
     <string name="sort_by">Sorteeri</string>
     <string name="name">Nimi</string>
     <string name="size">Suurus</string>
@@ -436,6 +441,10 @@
     <string name="startup">Käivitamine</string>
     <string name="text">Tekst</string>
     <string name="migrating">Rändamine</string>
+    <string name="contacts_tab">Kontaktid</string>
+    <string name="favorites_tab">Lemmikud</string>
+    <string name="groups_tab">Grupid</string>
+    <string name="last_used_tab">Viimati kasutatud</string>
     <string name="restore_this_file">Taasta see fail</string>
     <string name="restore_selected_files">Taasta valitud failid</string>
     <string name="restore_all_files">Taasta kõik failid</string>

@@ -421,6 +421,10 @@
     <string name="startup">Başlangıç</string>
     <string name="text">Metin</string>
     <string name="migrating">Geçiş yapma</string>
+    <string name="contacts_tab">Rehber</string>
+    <string name="favorites_tab">Favoriler</string>
+    <string name="groups_tab">Gruplar</string>
+    <string name="last_used_tab">Son kullanılan</string>
     <string name="restore_this_file">Bu dosyayı geri yükle</string>
     <string name="restore_selected_files">Seçilen dosyaları geri yükle</string>
     <string name="restore_all_files">Tüm dosyaları geri yükle</string>

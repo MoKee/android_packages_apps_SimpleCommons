@@ -135,6 +135,9 @@
     <plurals name="deleting_items">
         <item quantity="other">正在删除 %d 个项目</item>
     </plurals>
+    <plurals name="delete_contacts">
+        <item quantity="other">%d 个联系人</item>
+    </plurals>
     <string name="select_storage">选择存储器</string>
     <string name="internal">内部存储器</string>
     <string name="sd_card">SD 卡</string>
@@ -209,6 +212,7 @@
     <string name="redo">重做</string>
     <string name="print">打印</string>
     <string name="create_shortcut">创建快捷方式</string>
+    <string name="add_number_to_contact">添加号码到联系人</string>
     <string name="sort_by">排序方式</string>
     <string name="name">名称</string>
     <string name="size">大小</string>
@@ -404,6 +408,10 @@
     <string name="startup">启动</string>
     <string name="text">文本</string>
     <string name="migrating">迁移中</string>
+    <string name="contacts_tab">联系人</string>
+    <string name="favorites_tab">收藏</string>
+    <string name="groups_tab">社交群组</string>
+    <string name="last_used_tab">上次使用</string>
     <string name="restore_this_file">恢复此文件</string>
     <string name="restore_selected_files">恢复选中的文件</string>
     <string name="restore_all_files">恢复所有文件</string>

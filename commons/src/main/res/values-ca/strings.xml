@@ -377,6 +377,7 @@
     <string name="recycle_bin">Paperera de reciclatge</string>
     <string name="saving_label">Desant</string>
     <string name="startup">Inici</string>
+    <string name="favorites_tab">Preferits</string>
     <string name="restore_this_file">Restaura aquest fitxer</string>
     <string name="restore_selected_files">Restaura els fitxers seleccionats</string>
     <string name="restore_all_files">Restaura tots els fitxers</string>

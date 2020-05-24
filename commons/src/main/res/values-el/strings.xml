@@ -377,6 +377,7 @@
     <string name="saving_label">Εξοικονόμηση</string>
     <string name="startup">Εκκίνηση</string>
     <string name="text">Κείμενο</string>
+    <string name="favorites_tab">Αγαπημένα</string>
     <string name="restore_this_file">Επαναφορά αυτού του αρχείου</string>
     <string name="restore_selected_files">Επαναφορά επιλεγμένων αρχείων</string>
     <string name="restore_all_files">Επαναφορά όλων των αρχείων</string>

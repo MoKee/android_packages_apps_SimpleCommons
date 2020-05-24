@@ -11,6 +11,7 @@
     <string name="edit_with">Editar com</string>
     <string name="no_app_found">Nenhum aplicativo encontrado</string>
     <string name="set_as">Definir como</string>
+    <string name="copy_to_clipboard">Copiar para área de transferência</string>
     <string name="value_copied_to_clipboard">Valor copiado para a área de transferência</string>
     <string name="unknown">Desconhecido</string>
     <string name="always">Sempre</string>
@@ -27,7 +28,22 @@
     <string name="notification">Notificação</string>
     <string name="email">E-mail</string>
     <string name="previous">Anterior</string>
+    <string name="playpause">Reproduzir / Pausar</string>
     <string name="next">Próximo</string>
+    <string name="number">Número</string>
+    <string name="no_contacts_found">Nenhum contato encontrado</string>
+    <string name="request_the_required_permissions">Solicite as permissões necessárias</string>
+    <string name="no_access_to_contacts">O aplicativo não pôde acessar seus contatos</string>
+    <string name="insert_text_here">Inserir texto aqui</string>
+    <string name="manage_blocked_numbers">Gerenciar números bloqueados</string>
+    <string name="not_blocking_anyone">Você não está bloqueando ninguém.</string>
+    <string name="add_a_blocked_number">Adicionar um número bloqueado</string>
+    <string name="block_number">Bloquear número</string>
+    <string name="block_numbers">Bloquear números</string>
+    <string name="blocked_numbers">Números bloqueados</string>
+    <string name="must_make_default_dialer">Você precisa tornar este app o app de discagem padrão para usar números bloqueados.</string>
+    <string name="set_as_default">Definir como padrão</string>
+    <string name="block_confirmation">Tem certeza que deseja excluir \"%s\"?</string>
     <string name="favorites">Favoritos</string>
     <string name="add_favorites">Adicionar favoritos</string>
     <string name="add_to_favorites">Adicionar aos favoritos</string>
@@ -420,6 +436,10 @@
     <string name="startup">Inicialização</string>
     <string name="text">Texto</string>
     <string name="migrating">Migrando</string>
+    <string name="contacts_tab">Contatos</string>
+    <string name="favorites_tab">Favoritos</string>
+    <string name="groups_tab">Grupos</string>
+    <string name="last_used_tab">Usado por último</string>
     <string name="restore_this_file">Restaurar este arquivo</string>
     <string name="restore_selected_files">Restaurar os itens selecionados</string>
     <string name="restore_all_files">Restaurar todos os arquivos</string>
@@ -504,6 +524,7 @@
     <string name="email_label">Envie os seus comentários ou sugestões para</string>
     <string name="upgrade_to_pro">Atualizar para PRO</string>
     <string name="more_apps_underlined"><u>Mais aplicativos</u></string>
+    <string name="more_apps_from_us_underlined"><u>Mais aplicativos nossos</u></string>
     <string name="third_party_licences_underlined"><u>Licenças de terceiros</u></string>
     <string name="invite_friends_underlined"><u>Convidar amigos</u></string>
     <string name="share_text">Olá, experimente %1$s em %2$s</string>
@@ -525,6 +546,8 @@
     <string name="read_it">Ler</string>
     <string name="read_faq">Ler FAQ</string>
     <string name="rate_us_prompt">Olá,\n\nparece que você já está usando este aplicativo já há algum tempo e nós realmente apreciamos isso.\n\nSe pudermos pedir um favor, avalie-nos no Google Play. Isso realmente nos ajudaria muito.\n\nNão importa como você decida, você não verá essa mensagem novamente.\n\nObrigado!</string>
+    <string name="rate_our_app">Avalie nosso aplicativo, por favor :)</string>
+    <string name="thank_you">Obrigado</string>
     <string name="sideloaded_app">            Parece que sua versão do aplicativo está corrompida. Por favor, baixe a versão original &lt;a href=\"%s\"&gt;aqui&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Perguntas frequentes</string>
@@ -575,6 +598,11 @@
     <string name="sanselan_title">Apache Sanselan (lendo metadados da imagem)</string>
     <string name="filters_title">Filtros de fotos Android (filtros de imagens)</string>
     <string name="gesture_views_title">Visualizações de gestos (imagens com zoom)</string>
+    <string name="indicator_fast_scroll_title">Indicador de rolagem rápida (letras na barra de rolagem)</string>
+    <string name="event_bus_title">Barramento de Eventos (comunicação dentro do aplicativo)</string>
+    <string name="audio_record_view_title">Visualização de registro de áudio (visualização de áudio)</string>
+    <string name="sms_mms_title">SMS SMS (tratamento de SMS e MMS)</string>
     <string name="deprecated_app">DESCONTINUADO: Esta versão do aplicativo não é mais mantida, obtenha a versão Pro em https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Não se esqueça de que, se você desinstalar qualquer aplicativo pago em até duas horas, você será automaticamente reembolsado. Se você quiser um reembolso a qualquer momento, entre em contato conosco pelo e-mail hello@simplemobiletools.com e você receberá. Isso torna mais fácil experimentá-lo :)</string>
+    <string name="developer_description">Um grupo de aplicativos Android simples e de código aberto com widgets personalizáveis, sem anúncios e permissões desnecessárias.</string>
 </resources>

@@ -359,6 +359,7 @@
     <string name="saving_label">Opslaan</string>
     <string name="startup">Opstarten</string>
     <string name="text">Tekst</string>
+    <string name="favorites_tab">Favorieten</string>
     <string name="restore_this_file">Bestand herstellen</string>
     <string name="restore_selected_files">Selectie herstellen</string>
     <string name="restore_all_files">Alles herstellen</string>

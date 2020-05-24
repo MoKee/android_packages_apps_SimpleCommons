@@ -436,6 +436,10 @@
     <string name="startup">Indítás</string>
     <string name="text">Szöveg</string>
     <string name="migrating">Költöztetés</string>
+    <string name="contacts_tab">Névjegyek</string>
+    <string name="favorites_tab">Kedvencek</string>
+    <string name="groups_tab">Csoportok</string>
+    <string name="last_used_tab">A legutóbb használt</string>
     <string name="restore_this_file">Fájl visszaállítása</string>
     <string name="restore_selected_files">Kiválasztott fájl visszaállítása</string>
     <string name="restore_all_files">Összes fájl visszaállítása</string>

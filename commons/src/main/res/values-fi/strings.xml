@@ -329,6 +329,7 @@
     <string name="scrolling">Vierittäminen</string>
     <string name="file_operations">Tiedostot</string>
     <string name="text">Teksti</string>
+    <string name="favorites_tab">Suosikit</string>
     <string name="importing">Tuodaan</string>
     <string name="exporting">Viedään</string>
     <string name="importing_successful">Tuonti onnistui</string>
