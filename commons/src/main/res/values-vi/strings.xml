@@ -513,6 +513,14 @@
     <string name="rate_us_prompt">Xin chào,\n\ncó vẻ như bạn đang sử dụng ứng dụng này khá lâu và chúng tôi thực sự đánh giá cao nó.\n\nNếu chúng tôi có thể yêu cầu bạn một ưu tiên, vui lòng đánh giá chúng tôi trên Google Play. Điều đó thực sự sẽ giúp chúng tôi rất nhiều.\n\nBất kể bạn quyết định như thế nào, bạn sẽ không thấy thông báo này nữa.\n\nCảm ơn!</string>
     <string name="rate_our_app">Hãy đánh giá ứng dụng của chúng tôi :)</string>
     <string name="thank_you">Cảm ơn</string>
+    <string name="calendar_short">Lịch</string>
+    <string name="camera_short">Máy ảnh</string>
+    <string name="clock_short">Đồng hồ</string>
+    <string name="contacts_short">Liên hệ</string>
+    <string name="dialer_short">Trình quay số</string>
+    <string name="flashlight_short">Đèn pin</string>
+    <string name="gallery_short">Thư viện</string>
+    <string name="notes_short">Ghi chú</string>
     <string name="sideloaded_app">             Có vẻ như phiên bản ứng dụng của bạn bị hỏng. Vui lòng tải xuống phiên bản gốc &lt;a href="%s"&gt;tại đây&lt;/a&gt;.
          </string>
     <string name="frequently_asked_questions">Câu hỏi thường gặp</string>

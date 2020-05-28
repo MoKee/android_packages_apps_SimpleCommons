@@ -91,4 +91,7 @@
     <string name="rate">דרג</string>
     <string name="donate">תרום</string>
     <string name="purchase">קנה</string>
+    <string name="calendar_short">לוח שנה</string>
+    <string name="camera_short">מצלמה</string>
+    <string name="clock_short">שעון</string>
 </resources>

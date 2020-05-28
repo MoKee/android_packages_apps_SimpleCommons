@@ -31,4 +31,6 @@
     <string name="widgets">വിജറ്റുകൾ</string>
     <string name="text">ടെക്സ്റ്റ്</string>
     <string name="donate">സംഭാവന</string>
+    <string name="calendar_short">കലണ്ടർ</string>
+    <string name="camera_short">ക്യാമറ</string>
 </resources>

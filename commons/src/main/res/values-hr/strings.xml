@@ -509,6 +509,12 @@
     <string name="purchase">Kupi</string>
     <string name="update_thank_you">Molim ažurirajte Jednostavno hvala na najnoviju verziju</string>
     <string name="read_it">Pročitajte</string>
+    <string name="calendar_short">Kalendar</string>
+    <string name="camera_short">Fotoaparat</string>
+    <string name="clock_short">Sat</string>
+    <string name="flashlight_short">Svjetiljka</string>
+    <string name="gallery_short">Galerija</string>
+    <string name="notes_short">Bilješke</string>
     <string name="frequently_asked_questions">Često postavljenja pitanja</string>
     <string name="before_asking_question">Prije postavljanja pitanja, najprije pročitajte</string>
     <string name="faq_1_title_commons">Kako ne vidim widgete ove aplikacije na popisu widgeta?</string>

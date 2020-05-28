@@ -31,4 +31,5 @@
     <string name="monday">ሰኞ</string>
     <string name="saturday">ቅዳሜ</string>
     <string name="sunday">እሁድ</string>
+    <string name="camera_short">ካሜራ</string>
 </resources>

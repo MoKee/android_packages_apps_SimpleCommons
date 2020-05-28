@@ -14,4 +14,6 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="donate">Donate</string>
+    <string name="calendar_short">Calendar</string>
+    <string name="flashlight_short">flash</string>
 </resources>

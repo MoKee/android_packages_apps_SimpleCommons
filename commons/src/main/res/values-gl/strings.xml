@@ -370,6 +370,11 @@
     <string name="follow_us">Síguenos</string>
     <string name="additional_info">Información adicional</string>
     <string name="purchase">Comprar</string>
+    <string name="calendar_short">Calendario</string>
+    <string name="camera_short">Cámara</string>
+    <string name="clock_short">Reloxo</string>
+    <string name="gallery_short">Galería</string>
+    <string name="notes_short">Notas</string>
     <string name="frequently_asked_questions">Preguntas frecuentes</string>
     <string name="faq_1_title_commons">¿Cómo es que no veo este widget de aplicaciones en la lista de widgets?</string>
     <string name="faq_1_text_commons">Lo más probable es que haya movido la aplicación en una tarjeta SD. Hay una limitación del sistema Android que oculta los widgets de la aplicación dada

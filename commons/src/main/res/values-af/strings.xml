@@ -51,4 +51,8 @@
     <string name="monday">Maandag</string>
     <string name="saturday">Saterdag</string>
     <string name="sunday">Sondag</string>
+    <string name="calendar_short">Kalender</string>
+    <string name="camera_short">Kamera</string>
+    <string name="clock_short">Horlosie</string>
+    <string name="flashlight_short">Flitslig</string>
 </resources>

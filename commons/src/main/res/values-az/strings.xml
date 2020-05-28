@@ -443,6 +443,9 @@
     <string name="device_os">Cihaz ƏS: %s</string>
     <string name="purchase">Ödəniş Et</string>
     <string name="update_thank_you">Xahiş olunur Sadə Təşəkkür tətbiqini ən son versiyaya yeniləyin</string>
+    <string name="calendar_short">Təqvim</string>
+    <string name="camera_short">Kamera</string>
+    <string name="notes_short">Qeydlər</string>
     <string name="frequently_asked_questions">Tez-tez Soruşulan Suallar</string>
     <string name="before_asking_question">Xahiş olunur sual verməmişdən qabaq aşağıdakı bölməni oxuyun</string>
     <string name="notice">Bu tətbiq həyatımı asanlaşdırmaq üçün aşağıdakı üçüncü partiya tətbiq kitabxanalarından istifadə edir. Təşəkkürlər.</string>

@@ -553,6 +553,12 @@
     <string name="purchase">Kupi</string>
     <string name="update_thank_you">Prosimo nadgradite Simple Thank You na zadnjo verzijo</string>
     <string name="read_it">Preberite</string>
+    <string name="calendar_short">Koledar</string>
+    <string name="camera_short">Fotoaparat</string>
+    <string name="clock_short">Ura</string>
+    <string name="flashlight_short">Svetilka</string>
+    <string name="gallery_short">Galerija</string>
+    <string name="notes_short">Zapiski</string>
     <string name="sideloaded_app">            Kot kaže je vaša različica aplikacije poškodovana. Prenesite izvirno različico &lt;a href=\"%s\"&gt;tukaj&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Pogosta vprašanja</string>

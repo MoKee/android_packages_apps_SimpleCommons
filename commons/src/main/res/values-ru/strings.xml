@@ -144,6 +144,12 @@
         <item quantity="many">Удаление %d объектов</item>
         <item quantity="other">Удаление %d объектов</item>
     </plurals>
+    <plurals name="delete_contacts">
+        <item quantity="one">%d контакт</item>
+        <item quantity="few">%d контакты</item>
+        <item quantity="many">%d контактов</item>
+        <item quantity="other">%d контактов</item>
+    </plurals>
     <string name="select_storage">Выбрать хранилище</string>
     <string name="internal">Внутренняя память</string>
     <string name="sd_card">SD-карта</string>
@@ -218,6 +224,7 @@
     <string name="redo">Повторить</string>
     <string name="print">Печать</string>
     <string name="create_shortcut">Создать ярлык</string>
+    <string name="add_number_to_contact">Добавить номер в контакты</string>
     <string name="sort_by">Сортировать по…</string>
     <string name="name">Имя</string>
     <string name="size">Размер</string>
@@ -502,6 +509,7 @@
     <string name="migrating">Перенос данных</string>
     <string name="contacts_tab">Контакты</string>
     <string name="favorites_tab">Избранное</string>
+    <string name="call_history_tab">История звонков</string>
     <string name="groups_tab">Группы</string>
     <string name="last_used_tab">Последний использованный</string>
     <string name="restore_this_file">Восстановить этот файл</string>
@@ -614,6 +622,14 @@
     <string name="rate_us_prompt">Привет!\n\nПохоже, вы уже давно пользуетесь этим приложением, и мы действительно ценим это.\n\nЕсли у вас есть свободная минута, пожалуйста, оцените нас в Play Маркет. Это очень поможет нам.\n\nНезависимо от того, как вы решите, вы не увидите это сообщение снова.\n\nСпасибо!</string>
     <string name="rate_our_app">Пожалуйста, оцените наше приложение :)</string>
     <string name="thank_you">Спасибо</string>
+    <string name="calendar_short">Календарь</string>
+    <string name="camera_short">Камера</string>
+    <string name="clock_short">Часы</string>
+    <string name="contacts_short">Контакты</string>
+    <string name="dialer_short">Телефон</string>
+    <string name="flashlight_short">Вспышка</string>
+    <string name="gallery_short">Галерея</string>
+    <string name="notes_short">Заметки</string>
     <string name="sideloaded_app">            Похоже, вы установили неверную версию приложения. Пожалуйста, скачайте оригинальную версию <a href="%s">здесь</a>.
         </string>
     <string name="frequently_asked_questions">Часто задаваемые вопросы</string>

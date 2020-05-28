@@ -492,6 +492,12 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="purchase">Comprar</string>
     <string name="update_thank_you">Por favor, actualice Simple Tank You a la última versión</string>
     <string name="read_it">Leer</string>
+    <string name="calendar_short">Calendario</string>
+    <string name="camera_short">Cámara</string>
+    <string name="clock_short">Reloj</string>
+    <string name="flashlight_short">Linterna</string>
+    <string name="gallery_short">Galeria</string>
+    <string name="notes_short">Notas</string>
     <string name="frequently_asked_questions">Preguntas frecuentes</string>
     <string name="before_asking_question">Antes de hacer una pregunta, primero lea las</string>
     <string name="faq_1_title_commons">¿Cómo es que no veo este widget de aplicaciones en la lista de widgets?</string>

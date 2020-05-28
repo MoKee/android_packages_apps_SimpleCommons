@@ -555,6 +555,12 @@
     <string name="before_asking_question_read_faq">Прије него питате нешто погледајте \"Стандардно Постављена Питања\"(Faq) где можете пронаћи одговор.</string>
     <string name="read_it">Прочитајте</string>
     <string name="rate_us_prompt">Поздрав,\n\n изгледа да већ дуго користите ову апликацију, и заиста то ценимо.\n\nАко вам можемо затражити услугу, оцените нас на Google Play.-у То би нам заиста пуно помогло.\n\n Без обзира на то како се одлучите, више нећете видети ову поруку. \n\nХвала!</string>
+    <string name="calendar_short">Календар</string>
+    <string name="camera_short">Камера</string>
+    <string name="clock_short">Сат</string>
+    <string name="flashlight_short">Батеријска лампа</string>
+    <string name="gallery_short">Галерија</string>
+    <string name="notes_short">Напомене</string>
     <string name="sideloaded_app">          Изгледа да је ваша апликација оштећена. Преузмите оригиналну верзију са  &lt;a href=\"%s\"&gt;here&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Чеcто Поcтављана Питања</string>

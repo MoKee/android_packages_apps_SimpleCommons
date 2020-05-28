@@ -447,6 +447,12 @@
     <string name="purchase">Kopen</string>
     <string name="update_thank_you">Er is een nieuwe versie van Simple Thank You</string>
     <string name="read_it">Nu lezen</string>
+    <string name="calendar_short">Agenda</string>
+    <string name="camera_short">Camera</string>
+    <string name="clock_short">Klok</string>
+    <string name="flashlight_short">Zaklamp</string>
+    <string name="gallery_short">Galerij</string>
+    <string name="notes_short">Notities</string>
     <string name="frequently_asked_questions">Veelgestelde vragen</string>
     <string name="before_asking_question">Voor het stellen van een vraag, lees eerst de</string>
     <string name="faq_1_title_commons">Waarom zie ik de widget van deze app niet in de lijst met widgets?</string>

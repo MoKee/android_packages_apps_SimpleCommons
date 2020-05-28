@@ -32,4 +32,6 @@
     <string name="monday">સોમવાર</string>
     <string name="saturday">શનિવાર</string>
     <string name="sunday">રવિવાર</string>
+    <string name="calendar_short">કૅલેન્ડર</string>
+    <string name="camera_short">કૅમેરો</string>
 </resources>

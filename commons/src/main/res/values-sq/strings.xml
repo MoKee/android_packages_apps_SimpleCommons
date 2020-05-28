@@ -42,4 +42,7 @@
     <string name="monday">E hënë</string>
     <string name="saturday">E shtunë</string>
     <string name="sunday">E diel</string>
+    <string name="calendar_short">Kalendari</string>
+    <string name="camera_short">Kamera</string>
+    <string name="clock_short">Ora</string>
 </resources>

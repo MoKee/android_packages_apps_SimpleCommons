@@ -469,6 +469,11 @@
     <string name="purchase">Comprar</string>
     <string name="update_thank_you">Si us plau, actualitzeu Simple Thank You a la darrera versió</string>
     <string name="read_it">Llegiu</string>
+    <string name="calendar_short">Calendari</string>
+    <string name="camera_short">Càmera</string>
+    <string name="clock_short">Rellotge</string>
+    <string name="flashlight_short">Llanterna</string>
+    <string name="gallery_short">Galeria</string>
     <string name="frequently_asked_questions">Preguntes frequents</string>
     <string name="before_asking_question">Abans de fer una pregunta, primer llegeix les</string>
     <string name="faq_1_title_commons">Com és que no veig aquest widget a la llista de widgets?</string>

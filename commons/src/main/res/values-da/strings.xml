@@ -435,6 +435,11 @@
     <string name="purchase">Køb</string>
     <string name="update_thank_you">Opdater venligst Simple Thank You til den seneste version</string>
     <string name="read_it">Læs det</string>
+    <string name="calendar_short">Kalender</string>
+    <string name="camera_short">Kamera</string>
+    <string name="clock_short">Ur</string>
+    <string name="flashlight_short">Lommelygte</string>
+    <string name="notes_short">Noter</string>
     <string name="frequently_asked_questions">Ofte stillede spørgsmål</string>
     <string name="before_asking_question">Inden du stiller et spørgsmål bedes du først læse</string>
     <string name="faq_1_title_commons">Hvorfor kan jeg ikke se denne app\'s widget på listen med widgets?</string>

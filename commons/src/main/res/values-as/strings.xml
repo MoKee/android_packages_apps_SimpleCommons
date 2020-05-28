@@ -19,4 +19,6 @@
     <string name="minutes_raw">মিনিটসমূহ</string>
     <string name="hours_raw">ঘন্টাসমূহ</string>
     <string name="text">টেক্সট</string>
+    <string name="calendar_short">কেলেণ্ডাৰ</string>
+    <string name="camera_short">কেমেৰা</string>
 </resources>

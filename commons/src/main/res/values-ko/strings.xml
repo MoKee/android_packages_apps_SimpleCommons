@@ -83,4 +83,9 @@
     <string name="rate">별점</string>
     <string name="donate">기부</string>
     <string name="purchase">구매하기</string>
+    <string name="calendar_short">일정</string>
+    <string name="camera_short">카메라</string>
+    <string name="clock_short">시계</string>
+    <string name="flashlight_short">손전등</string>
+    <string name="gallery_short">갤러리</string>
 </resources>

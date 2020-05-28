@@ -441,8 +441,10 @@
     <string name="startup">Käivitamine</string>
     <string name="text">Tekst</string>
     <string name="migrating">Rändamine</string>
+    <string name="default_tab_to_open">Vahekaart avatakse rakenduse käivitamisel</string>
     <string name="contacts_tab">Kontaktid</string>
     <string name="favorites_tab">Lemmikud</string>
+    <string name="call_history_tab">Kõnede ajalugu</string>
     <string name="groups_tab">Grupid</string>
     <string name="last_used_tab">Viimati kasutatud</string>
     <string name="restore_this_file">Taasta see fail</string>
@@ -553,6 +555,14 @@
     <string name="rate_us_prompt">Tere,\n\n tundub, et kasutate seda rakendust juba mõnda aega ja me hindame seda tõesti.\n\nKui saame teid paluda, siis hinnake meid Google Plays. See aitaks meid tõesti palju.\n\nÜkskõik kuidas otsustate, ei näe te seda sõnumit uuesti.\n\nTäname!</string>
     <string name="rate_our_app">Hinda meie rakendust palun :)</string>
     <string name="thank_you">Aitäh</string>
+    <string name="calendar_short">Kalender</string>
+    <string name="camera_short">Kaamera</string>
+    <string name="clock_short">Kell</string>
+    <string name="contacts_short">Kontaktid</string>
+    <string name="dialer_short">Numbrivalija</string>
+    <string name="flashlight_short">Välkvalgus</string>
+    <string name="gallery_short">Galerii</string>
+    <string name="notes_short">Märkmed</string>
     <string name="sideloaded_app">            Tundub, et teie rakenduse versioon on rikutud. Palun laadige alla originaalversioon &lt;a href=\"%s\"&gt;siia&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Korduma Kippuvad Küsimused</string>

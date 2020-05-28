@@ -533,6 +533,14 @@
     <string name="rate_us_prompt">Merhaba,\n\nbu uygulamayı uzun süredir kullanıyorsunuz gibi görünüyor ve gerçekten takdir ediyoruz.\n\nSizden bir iyilik isteyebilirsek, lütfen bizi Google Play\'de derecelendirin. Bu bize gerçekten çok yardımcı olacaktır.\n\nNasıl derecelendirdiğiniz önemli değil, bu mesajı bir daha görmeyeceksiniz.\n\nTeşekkürler!</string>
     <string name="rate_our_app">Lütfen uygulamamızı değerlendirin :)</string>
     <string name="thank_you">Teşekkürler</string>
+    <string name="calendar_short">Takvim</string>
+    <string name="camera_short">Kamera</string>
+    <string name="clock_short">Saat</string>
+    <string name="contacts_short">Rehber</string>
+    <string name="dialer_short">Telefon</string>
+    <string name="flashlight_short">El feneri</string>
+    <string name="gallery_short">Galeri</string>
+    <string name="notes_short">Notlar</string>
     <string name="sideloaded_app">            Uygulama sürümünüz bozuk görünüyor.  Lütfen orijinal sürümü indirin <a href="%s">here</a>.
         </string>
     <string name="frequently_asked_questions">Sık sorulan sorular</string>

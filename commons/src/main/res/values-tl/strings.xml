@@ -64,4 +64,9 @@
     <string name="sunday_letter">S</string>
     <string name="about">Tungkol sa</string>
     <string name="donate">Mag-abuloy</string>
+    <string name="calendar_short">Kalendaryo</string>
+    <string name="camera_short">Ang kamera</string>
+    <string name="clock_short">Orasan</string>
+    <string name="flashlight_short">Ilaw</string>
+    <string name="gallery_short">Gallery</string>
 </resources>

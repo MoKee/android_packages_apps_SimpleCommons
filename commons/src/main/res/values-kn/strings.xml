@@ -212,4 +212,10 @@
     <string name="about">ಕುರಿತು</string>
     <string name="rate">ದರ</string>
     <string name="donate">ಕಾಣಿಕೆ</string>
+    <string name="calendar_short">ಕ್ಯಾಲೆಂಡರ್</string>
+    <string name="camera_short">ಕ್ಯಾಮರಾ</string>
+    <string name="clock_short">ಗಡಿಯಾರ</string>
+    <string name="flashlight_short">ಮಿಂಚುಬೆಳಕು</string>
+    <string name="gallery_short">ಗ್ಯಾಲರಿ</string>
+    <string name="notes_short">ಟಿಪ್ಪಣಿಗಳು</string>
 </resources>

@@ -53,4 +53,9 @@
     <string name="monday">Astelehena</string>
     <string name="saturday">Larunbata</string>
     <string name="sunday">Igandea</string>
+    <string name="calendar_short">Egutegia</string>
+    <string name="camera_short">Kamera</string>
+    <string name="clock_short">Erlojua</string>
+    <string name="flashlight_short">Flasha</string>
+    <string name="gallery_short">Galeria</string>
 </resources>

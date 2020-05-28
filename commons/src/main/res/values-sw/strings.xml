@@ -25,4 +25,5 @@
     <string name="minutes_raw">dakika</string>
     <string name="hours_raw">saa</string>
     <string name="widgets">Wijeti</string>
+    <string name="camera_short">Kamera</string>
 </resources>

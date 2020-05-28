@@ -75,4 +75,9 @@
     <string name="about">Относно</string>
     <string name="rate">Оцени</string>
     <string name="donate">Дарение</string>
+    <string name="calendar_short">Календар</string>
+    <string name="camera_short">Камера</string>
+    <string name="clock_short">Часовник</string>
+    <string name="flashlight_short">Фенерче</string>
+    <string name="gallery_short">Галерия</string>
 </resources>

@@ -48,4 +48,7 @@
     <string name="saturday">शनिवार</string>
     <string name="sunday">रविवार</string>
     <string name="about">हमारे बारे में</string>
+    <string name="camera_short">कैमरा</string>
+    <string name="clock_short">घड़ी</string>
+    <string name="flashlight_short">टॉर्च</string>
 </resources>

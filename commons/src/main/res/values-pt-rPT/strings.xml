@@ -527,6 +527,12 @@
     <string name="read_it">Ler isso</string>
     <string name="read_faq">Ler FAQ</string>
     <string name="rate_us_prompt">Olá,\n\nparece que você está usando este app por um bom tempo, e nós realmente agradecemos por isso.\n\nSe pudermos lhe pedir um favor, por favor, avalie-nos no Google Play. Isso ajudar-nos-ia muito.\n\nNão importa como você decida, você não verá essa mensagem novamente.\n\nObrigado!</string>
+    <string name="calendar_short">Calendário</string>
+    <string name="camera_short">Câmara</string>
+    <string name="clock_short">Relógio</string>
+    <string name="flashlight_short">Lanterna</string>
+    <string name="gallery_short">Galeria</string>
+    <string name="notes_short">Notas</string>
     <string name="frequently_asked_questions">Perguntas Frequentes</string>
     <string name="before_asking_question">Antes de fazer uma pergunta, leia primeiro a</string>
     <string name="faq_1_title_commons">Por que não vejo esse widget de aplicativos na lista de widgets?</string>

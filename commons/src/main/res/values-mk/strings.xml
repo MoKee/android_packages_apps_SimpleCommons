@@ -23,4 +23,5 @@
     <string name="small">Мал</string>
     <string name="widgets">Додатоци</string>
     <string name="text">Текст</string>
+    <string name="clock_short">Часовник</string>
 </resources>

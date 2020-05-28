@@ -42,4 +42,7 @@
     <string name="monday">Երկուշաբթի</string>
     <string name="saturday">Շաբաթ</string>
     <string name="sunday">Կիրակի</string>
+    <string name="camera_short">Ֆոտոխցիկ</string>
+    <string name="contacts_short">Կոնտակտներ</string>
+    <string name="flashlight_short">Լապտեր</string>
 </resources>

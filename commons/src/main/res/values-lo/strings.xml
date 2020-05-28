@@ -35,4 +35,6 @@
     <string name="widgets">ວິດເຈັດ</string>
     <string name="about">ກ່ຽວກັບ</string>
     <string name="donate">ບໍລິຈາກ</string>
+    <string name="calendar_short">ປະຕິທິນ</string>
+    <string name="camera_short">ກ້ອງ</string>
 </resources>

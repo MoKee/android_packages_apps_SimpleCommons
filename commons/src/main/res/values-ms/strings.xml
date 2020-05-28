@@ -45,4 +45,8 @@
     <string name="sunday_letter">Selatan</string>
     <string name="about">Tentang</string>
     <string name="donate">Donasi</string>
+    <string name="calendar_short">Kalendar</string>
+    <string name="camera_short">Kamera</string>
+    <string name="flashlight_short">Lampu suluh</string>
+    <string name="gallery_short">Galeri</string>
 </resources>

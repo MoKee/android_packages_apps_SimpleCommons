@@ -422,6 +422,12 @@
     <string name="device_os">デバイスOS: %s</string>
     <string name="purchase">購入</string>
     <string name="update_thank_you">\"Simple Thank You\" アプリを最新版に更新してください</string>
+    <string name="calendar_short">カレンダー</string>
+    <string name="camera_short">カメラ</string>
+    <string name="clock_short">時計</string>
+    <string name="flashlight_short">ライト</string>
+    <string name="gallery_short">ギャラリー</string>
+    <string name="notes_short">メモ</string>
     <string name="frequently_asked_questions">よくある質問（FAQ）</string>
     <string name="notice">このアプリは、私の暮らしにゆとりを持たせるために、次のサードパーティのライブラリーを使用しています。ありがとうございます。</string>
     <string name="third_party_licences">サードパーティー ライセンス</string>

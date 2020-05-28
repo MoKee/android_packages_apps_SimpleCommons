@@ -455,6 +455,9 @@
     <string name="additional_info">Papildoma informacija</string>
     <string name="app_version">Programėlės versija: %s</string>
     <string name="device_os">Įrenginio OS: %s</string>
+    <string name="calendar_short">Kalendorius</string>
+    <string name="camera_short">Fotoaparatas</string>
+    <string name="notes_short">Užrašai</string>
     <string name="frequently_asked_questions">Dažniausiai užduodami klausimai</string>
     <string name="faq_1_title_commons">Kodėl aš negaliu pamatyti šios programėlės valdiklių sąraše?</string>
     <string name="faq_1_text_commons">Labiausiai tikėtina, kad perkėlėte programėlę į SD kortelę. Yra \"Android\" sistemos apribojimas, kuris slepia nurodytos programėlės valdiklį tuo atveju. Vienintelis sprendimas yra perkelti programėlę į vidinę atmintinę per įrenginio nustatymus.</string>

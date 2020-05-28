@@ -37,4 +37,7 @@
     <string name="settings">تنظیمات</string>
     <string name="widgets">ابزارک‌ها</string>
     <string name="usb">یواس‌بی</string>
+    <string name="calendar_short">تقویم</string>
+    <string name="camera_short">دوربین</string>
+    <string name="flashlight_short">چراغ‌قوه</string>
 </resources>

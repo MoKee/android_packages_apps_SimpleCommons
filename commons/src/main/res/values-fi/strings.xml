@@ -386,6 +386,12 @@
     <string name="app_version">Sovelluksen versio: %s</string>
     <string name="device_os">Laitteen käyttöjärjestelmä: %s</string>
     <string name="purchase">Osta</string>
+    <string name="calendar_short">Kalenteri</string>
+    <string name="camera_short">Kamera</string>
+    <string name="clock_short">Kello</string>
+    <string name="flashlight_short">Taskulamppu</string>
+    <string name="gallery_short">Galleria</string>
+    <string name="notes_short">Muistiinpanot</string>
     <string name="frequently_asked_questions">Usein kysytyt kysymykset</string>
     <string name="faq_1_title_commons">Miksi en näe tämän sovelluksen widgettiä widget-valikossa?</string>
     <string name="faq_1_text_commons">Todennäköisesti asensit sovelluksen ulkoiselle muistikortille. Tässä tapauksessa ainoa vaihtoehto on uudelleenasentaa sovellus laitteen sisäiseen tallennustilaan.</string>

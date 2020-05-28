@@ -28,4 +28,6 @@
     <string name="widgets">విడ్జెట్‌లు</string>
     <string name="text">పాఠం</string>
     <string name="donate">దానం</string>
+    <string name="calendar_short">క్యాలెండర్</string>
+    <string name="camera_short">కెమెరా</string>
 </resources>

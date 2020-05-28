@@ -101,4 +101,9 @@
     <string name="rate">Evaluaţi</string>
     <string name="donate">Doneaza</string>
     <string name="purchase">Cumpărare</string>
+    <string name="calendar_short">Calendar</string>
+    <string name="camera_short">Cameră foto</string>
+    <string name="clock_short">Ceas</string>
+    <string name="flashlight_short">Lanternă</string>
+    <string name="gallery_short">Galerie</string>
 </resources>

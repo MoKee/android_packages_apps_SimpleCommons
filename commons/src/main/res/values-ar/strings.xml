@@ -658,6 +658,12 @@
     <string name="read_it">اقرأها</string>
     <string name="read_faq">قراءة التعليمات</string>
     <string name="rate_us_prompt">مرحباً،\n\nيبدو أنك تستخدم هذا التطبيق لفترة طويلة بالفعل، ونحن نقدر ذلك حقاً.\n\nإذا كان يمكن أن نطلب منكم صالح، الرجاء تقييم تطبيقنا في متجر Google. أنه حقاً سيساعدنا كثيراً.\n\nبغض النظر عن كيف تقرر ان تقيمنا، لن تشاهد هذه الرسالة مرة أخرى.\n\nشكراً!</string>
+    <string name="calendar_short">التقويم</string>
+    <string name="camera_short">الكاميرا</string>
+    <string name="clock_short">الساعة</string>
+    <string name="flashlight_short">ضوء الفلاش</string>
+    <string name="gallery_short">المعرض</string>
+    <string name="notes_short">الملاحظات</string>
     <string name="sideloaded_app">            يبدو أن إصدار التطبيق الخاص بك تالف. الرجاء تحميل النسخة الأصلية <a href="%s">هنا</a>.
         </string>
     <string name="frequently_asked_questions">الأسئلة المتداولة</string>

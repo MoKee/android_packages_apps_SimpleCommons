@@ -26,4 +26,6 @@
     <string name="hours_raw">तास</string>
     <string name="widgets">विजेट</string>
     <string name="text">मजकूर</string>
+    <string name="calendar_short">कॅलेंडर</string>
+    <string name="camera_short">कॅमेरा</string>
 </resources>

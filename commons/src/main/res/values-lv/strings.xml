@@ -32,4 +32,6 @@
     <string name="wednesday_letter">R</string>
     <string name="saturday_letter">D</string>
     <string name="sunday_letter">D</string>
+    <string name="camera_short">Kamera</string>
+    <string name="flashlight_short">Lukturis</string>
 </resources>

@@ -26,4 +26,6 @@
     <string name="sunday">রবিবার</string>
     <string name="about">About</string>
     <string name="donate">দান করুন</string>
+    <string name="calendar_short">ক্যালেন্ডার</string>
+    <string name="flashlight_short">উজ্জল বাতি</string>
 </resources>

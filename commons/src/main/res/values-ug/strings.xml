@@ -32,4 +32,6 @@
     <string name="settings">تەڭشەش</string>
     <string name="text">تېكىست</string>
     <string name="donate">ئىئانە</string>
+    <string name="calendar_short">كالېندار</string>
+    <string name="camera_short">كامېرا</string>
 </resources>

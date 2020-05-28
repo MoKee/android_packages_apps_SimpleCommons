@@ -528,6 +528,13 @@
     <string name="read_it">Leggile</string>
     <string name="read_faq">Leggi le FAQ</string>
     <string name="rate_us_prompt">Ciao,\n\nSembra che tu stia usando questa app per un po\' di tempo, e lo apprezziamo molto.\n\nSe possiamo chiederti un favore, votaci su Google Play. Questo ci aiuterebbe davvero molto.\n\nNon importa come decidi, non vedrai più questo messaggio.\n\nGrazie!</string>
+    <string name="calendar_short">Calendario</string>
+    <string name="camera_short">Fotocamera</string>
+    <string name="clock_short">Orologio</string>
+    <string name="contacts_short">Contatti</string>
+    <string name="flashlight_short">Torcia</string>
+    <string name="gallery_short">Galleria</string>
+    <string name="notes_short">Note</string>
     <string name="sideloaded_app">            La versione dell\'app sembra essere corrotta. Si prega di scaricare<a href="%s">qui</a>.Versione originale
         </string>
     <string name="frequently_asked_questions">Domande frequenti</string>

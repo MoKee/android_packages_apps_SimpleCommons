@@ -138,6 +138,10 @@
         <item quantity="one">%d elem törlése</item>
         <item quantity="other">%d elem törlése</item>
     </plurals>
+    <plurals name="delete_contacts">
+        <item quantity="one">%d névjegy</item>
+        <item quantity="other">%d névjegy</item>
+    </plurals>
     <string name="select_storage">Tárhely-választás</string>
     <string name="internal">Belső</string>
     <string name="sd_card">SD kártya</string>
@@ -212,6 +216,7 @@
     <string name="redo">Mégis</string>
     <string name="print">Nyomtatás</string>
     <string name="create_shortcut">Parancsikon-létrehozás</string>
+    <string name="add_number_to_contact">Sorszám hozzáadása a névjegyhez</string>
     <string name="sort_by">Rendezés</string>
     <string name="name">Név</string>
     <string name="size">Méret</string>
@@ -436,8 +441,10 @@
     <string name="startup">Indítás</string>
     <string name="text">Szöveg</string>
     <string name="migrating">Költöztetés</string>
+    <string name="default_tab_to_open">A fül megnyitása az alkalmazás indításakor</string>
     <string name="contacts_tab">Névjegyek</string>
     <string name="favorites_tab">Kedvencek</string>
+    <string name="call_history_tab">Híváslista</string>
     <string name="groups_tab">Csoportok</string>
     <string name="last_used_tab">A legutóbb használt</string>
     <string name="restore_this_file">Fájl visszaállítása</string>
@@ -548,6 +555,14 @@
     <string name="rate_us_prompt">Helló,\n\núgy tűnik, hogy már régóta használja ezt az alkalmazást, ezt nagyra értékeljük.\n\nHa megtenne egy szívességet és értékelné munkánkat a Google Play áruházban, az tényleg sokat segítene nekünk.\n\nNem számít, milyen döntést hoz, ez az üzenet nem fog többé megjelenni.\n\nKöszönjük!</string>
     <string name="rate_our_app">Kérjük, értékelje alkalmazásunkat :)</string>
     <string name="thank_you">Köszönjük!</string>
+    <string name="calendar_short">Naptár</string>
+    <string name="camera_short">Kamera</string>
+    <string name="clock_short">Óra</string>
+    <string name="contacts_short">Névjegyek</string>
+    <string name="dialer_short">Tárcsázó</string>
+    <string name="flashlight_short">Zseblámpa</string>
+    <string name="gallery_short">Galéria</string>
+    <string name="notes_short">Jegyzetek</string>
     <string name="sideloaded_app">            Úgy tűnik, az alkalmazás verziója nem megfelelő. Kérjük, töltsön le egy eredeti verziót <a href="%s">innen</a>.
         </string>
     <string name="frequently_asked_questions">Gyakran Ismételt Kérdések</string>

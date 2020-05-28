@@ -31,4 +31,8 @@
     <string name="dismiss">Escartar</string>
     <string name="settings">Axustes</string>
     <string name="text">Testu</string>
+    <string name="calendar_short">Calendariu</string>
+    <string name="camera_short">Cámara</string>
+    <string name="clock_short">Reló</string>
+    <string name="gallery_short">Galería</string>
 </resources>

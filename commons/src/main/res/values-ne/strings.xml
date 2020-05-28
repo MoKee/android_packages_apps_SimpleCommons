@@ -25,4 +25,5 @@
     <string name="minutes_raw">मिनेट</string>
     <string name="hours_raw">घन्टा</string>
     <string name="widgets">विजेटहरू</string>
+    <string name="camera_short">क्यामेरा</string>
 </resources>

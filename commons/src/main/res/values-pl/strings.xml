@@ -144,6 +144,12 @@
         <item quantity="many">Usuwanie %d elementów</item>
         <item quantity="other">Usuwanie %d elementów</item>
     </plurals>
+    <plurals name="delete_contacts">
+        <item quantity="one">%d kontakt</item>
+        <item quantity="few">%d kontakty</item>
+        <item quantity="many">%d kontaktów</item>
+        <item quantity="other">%d kontaktów</item>
+    </plurals>
     <string name="select_storage">Wybierz pamięć</string>
     <string name="internal">Wewnętrzna</string>
     <string name="sd_card">Karta pamięci</string>
@@ -217,6 +223,7 @@
     <string name="redo">Ponów</string>
     <string name="print">Drukuj</string>
     <string name="create_shortcut">Utwórz skrót</string>
+    <string name="add_number_to_contact">Dodaj numer do kontaktu</string>
     <string name="sort_by">Sortuj według parametru:</string>
     <string name="name">Nazwa</string>
     <string name="size">Rozmiar</string>
@@ -499,8 +506,10 @@
     <string name="startup">Uruchamianie</string>
     <string name="text">Tekst</string>
     <string name="migrating">Migrowanie</string>
+    <string name="default_tab_to_open">Zakładka do otwarcia przy starcie aplikacji</string>
     <string name="contacts_tab">Kontakty</string>
     <string name="favorites_tab">Ulubione</string>
+    <string name="call_history_tab">Rejestr połączeń</string>
     <string name="groups_tab">Grupy</string>
     <string name="last_used_tab">Ostatnio użyte</string>
     <string name="restore_this_file">Przywróć ten plik</string>
@@ -613,6 +622,14 @@
     <string name="rate_us_prompt">Cześć,\n\nwygląda na to, że używasz tej aplikacji już od pewnego czasu, i naprawdę to doceniamy.\n\nJeśli możemy zapytać o przysługę, oceń nas w Google Play. To naprawdę bardzo by nam pomogło.\n\nNiezależnie od tego, jak zadecydujesz, nie zobaczysz tej wiadomości ponownie.\n\nDzięki!</string>
     <string name="rate_our_app">Oceń naszą aplikację :)</string>
     <string name="thank_you">Dziękuję</string>
+    <string name="calendar_short">Kalendarz</string>
+    <string name="camera_short">Aparat</string>
+    <string name="clock_short">Zegar</string>
+    <string name="contacts_short">Kontakty</string>
+    <string name="dialer_short">Dialer</string>
+    <string name="flashlight_short">Latarka</string>
+    <string name="gallery_short">Galeria</string>
+    <string name="notes_short">Notatnik</string>
     <string name="sideloaded_app">           Wygląda na to, że ta wersja aplikacji jest uszkodzona. Proszę pobierz jej oryginalną wersję &lt;a href=\"%s\"&gt;tutaj&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Często zadawane pytania (FAQ)</string>

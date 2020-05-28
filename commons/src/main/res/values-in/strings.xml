@@ -452,6 +452,13 @@
     <string name="purchase">Membeli</string>
     <string name="update_thank_you">Harap perbarui Simple Thank You ke versi terbaru</string>
     <string name="read_it">Baca</string>
+    <string name="calendar_short">Kalender</string>
+    <string name="camera_short">Kamera</string>
+    <string name="clock_short">Jam</string>
+    <string name="contacts_short">Kontak</string>
+    <string name="flashlight_short">Lampu Senter</string>
+    <string name="gallery_short">Galeri</string>
+    <string name="notes_short">Catatan</string>
     <string name="frequently_asked_questions">Pertanyaan yang sering diajukan</string>
     <string name="before_asking_question">Sebelum Anda mengajukan pertanyaan, harap baca terlebih dahulu</string>
     <string name="faq_1_title_commons">Kenapa saya tidak melihat widget aplikasi ini di daftar widget?</string>

@@ -527,6 +527,13 @@
     <string name="read_it">Bitte lesen</string>
     <string name="read_faq">FAQ lesen</string>
     <string name="rate_us_prompt">Hallo,\n\nes sieht so aus, als würden Sie diese App bereits eine Weile verwenden, und wir schätzen sie sehr.\n\nWenn wir Ihnen einen Gefallen erfragen können, bewerten Sie uns bitte auf Google Play. Das würde uns wirklich sehr helfen.\n\nEgal, wie Sie sich entscheiden, Sie werden diese Nachricht nicht mehr sehen.\n\nDanke!</string>
+    <string name="calendar_short">Kalender</string>
+    <string name="camera_short">Kamera</string>
+    <string name="clock_short">Uhr</string>
+    <string name="dialer_short">Telefon</string>
+    <string name="flashlight_short">Taschenlampe</string>
+    <string name="gallery_short">Galerie</string>
+    <string name="notes_short">Notizen</string>
     <string name="sideloaded_app">            Es sieht so aus, als ob Ihre App-Version beschädigt ist. Bitte laden Sie die Originalversion &lt;a href=\"%s\"&gt;hier herunter&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Häufig gestellte Fragen</string>

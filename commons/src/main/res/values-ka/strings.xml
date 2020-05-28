@@ -31,4 +31,5 @@
     <string name="monday">ორშაბათი</string>
     <string name="saturday">შაბათი</string>
     <string name="sunday">კვირა</string>
+    <string name="camera_short">კამერა</string>
 </resources>

@@ -426,6 +426,9 @@
     <string name="app_version">App-versjon: %s</string>
     <string name="device_os">Operativsystem: %s</string>
     <string name="purchase">Kjøp</string>
+    <string name="calendar_short">Kalender</string>
+    <string name="camera_short">Kamera</string>
+    <string name="clock_short">Klokke</string>
     <string name="frequently_asked_questions">Ofte stilte spørsmål</string>
     <string name="before_asking_question">Før du stiller et spørsmål, les først</string>
     <string name="third_party_licences">Tredjepartslisenser</string>
