@@ -231,6 +231,10 @@
     <string name="descending">Kahanev</string>
     <string name="use_for_this_folder">Kasutage ainult seda kausta</string>
     <string name="sort_numeric_parts">Sorteeri numbrilised osad tegeliku väärtuse järgi</string>
+    <string name="first_name">Eesnimi</string>
+    <string name="middle_name">Teine eesnimi</string>
+    <string name="surname">Perekonnanimi</string>
+    <string name="full_name">Täisnimi</string>
     <string name="proceed_with_deletion">Kas soovite kindlasti kustutamist jätkata?</string>
     <string name="deletion_confirmation">Kas oled kindel, et soovid selle %s kustutada?</string>
     <string name="move_to_recycle_bin_confirmation">Kas olete kindel, et soovite %s prügikasti teisaldada?</string>
@@ -432,6 +436,7 @@
     <string name="import_settings">Impordi seaded</string>
     <string name="settings_exported_successfully">Seaded eksporditi edukalt</string>
     <string name="settings_imported_successfully">Seaded imporditi edukalt</string>
+    <string name="start_name_with_surname">Algnimi perekonnanimega</string>
     <string name="visibility">Nähtavus</string>
     <string name="security">Turvalisus</string>
     <string name="scrolling">Kerimine</string>
@@ -555,14 +560,22 @@
     <string name="rate_us_prompt">Tere,\n\n tundub, et kasutate seda rakendust juba mõnda aega ja me hindame seda tõesti.\n\nKui saame teid paluda, siis hinnake meid Google Plays. See aitaks meid tõesti palju.\n\nÜkskõik kuidas otsustate, ei näe te seda sõnumit uuesti.\n\nTäname!</string>
     <string name="rate_our_app">Hinda meie rakendust palun :)</string>
     <string name="thank_you">Aitäh</string>
+    <string name="app_launcher_short">Rakenduste käivitaja</string>
+    <string name="calculator_short">Kalkulaator</string>
     <string name="calendar_short">Kalender</string>
     <string name="camera_short">Kaamera</string>
     <string name="clock_short">Kell</string>
     <string name="contacts_short">Kontaktid</string>
     <string name="dialer_short">Numbrivalija</string>
+    <string name="draw_short">Joonistus</string>
+    <string name="file_manager_short">Failihaldur</string>
     <string name="flashlight_short">Välkvalgus</string>
     <string name="gallery_short">Galerii</string>
+    <string name="music_player_short">Muusikaesitaja</string>
     <string name="notes_short">Märkmed</string>
+    <string name="sms_messenger_short">SMS Messenger</string>
+    <string name="thank_you_short">Aitäh</string>
+    <string name="voice_recorder_short">Helisalvesti</string>
     <string name="sideloaded_app">            Tundub, et teie rakenduse versioon on rikutud. Palun laadige alla originaalversioon &lt;a href=\"%s\"&gt;siia&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Korduma Kippuvad Küsimused</string>

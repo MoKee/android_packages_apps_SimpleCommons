@@ -166,8 +166,8 @@
     <string name="undo_changes_confirmation">Tem certeza que deseja desfazer as alterações?</string>
     <string name="save_before_closing">Você tem alterações não salvas. Salvar antes de sair?</string>
     <string name="apply_to_all_apps">Aplicar cores a todos os Apps Simples</string>
-    <string name="app_icon_color_warning">AVISO: alguns launchers não lidam com a personalização do ícone do aplicativo corretamente. Caso o ícone desapareça, tente iniciar o aplicativo pelo Google Play ou algum widget, se disponível.
-        Uma vez lançado, basta redefinir o ícone laranja padrão #F57C00. Você pode ter que reinstalar o app no pior dos casos.</string>
+    <string name="app_icon_color_warning">AVISO: alguns launchers não lidam bem com a personalização do ícone da aplicação. Caso o ícone desapareça, tente iniciar a aplicação pela Google Play ou algum widget, se disponível.
+        Uma vez iniciada, basta redefinir o ícone predefinido laranja #F57C00. Poderá ter de reinstalar a aplicação, no pior dos casos.</string>
     <string name="share_colors_success">Cores atualizadas com sucesso. Um novo tema chamado \'Compartilhado\' foi adicionado, use-o para atualizar as cores de todos os apps no futuro.</string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
@@ -237,10 +237,10 @@
     <string name="place_finger">Posicione seu dedo no sensor de impressão digital</string>
     <string name="authentication_failed">Autenticação falhou</string>
     <string name="authentication_blocked">Autenticação bloqueada, por favor tente novamente em alguns instantes</string>
-    <string name="no_fingerprints_registered">Você não possui nenhuma impressão digital registrada, por favor adicione alguma nas configurações do seu dispositivo</string>
+    <string name="no_fingerprints_registered">Não possui nenhuma impressão digital registada. Por favor, adicione algumas nas definições do seu dispositivo</string>
     <string name="go_to_settings">Ir para Definições</string>
-    <string name="protection_setup_successfully">Senha criada com sucesso. Reinstale o aplicativo caso você a esqueça.</string>
-    <string name="fingerprint_setup_successfully">Proteção criada com sucesso. Reinstale o aplicativo em caso de problemas com reinicialização.</string>
+    <string name="protection_setup_successfully">Palavra-passe criada com sucesso. Reinstale a aplicação caso a esqueça.</string>
+    <string name="fingerprint_setup_successfully">Proteção criada com sucesso. Reinstale a aplicação em caso de problemas com a reposição.</string>
     <string name="lock_folder">Bloquear pasta</string>
     <string name="unlock_folder">Bloquear pasta</string>
     <string name="lock_folder_notice">Esta proteção funciona apenas neste aplicativo, não é suposto substituir uma criptografia de pasta do sistema real.</string>
@@ -367,7 +367,7 @@
     <string name="reminder_triggers_in">Tempo restante até o lembrete acionar:\n%s</string>
     <string name="alarm_warning">Certifique-se de que o alarme funciona corretamente antes de confiar nele. Ele pode se comportar mal devido a restrições do sistema relacionadas à economia de bateria.</string>
     <string name="reminder_warning">Certifique-se de que o alarme funciona corretamente antes de confiar nele. Ele pode se comportar mal devido a restrições do sistema relacionadas à economia de bateria.</string>
-    <string name="notifications_disabled">Notificações deste aplicativo estão desativadas. Por favor, vá nas configurações do seu dispositivo para habilitá-las.</string>
+    <string name="notifications_disabled">As notificações desta aplicação estão desativadas. Por favor, ative-as nas definições do seu dispositivo.</string>
     <string name="alarm">Alarme</string>
     <string name="snooze">Suspender</string>
     <string name="dismiss">Ignorar</string>
@@ -421,6 +421,7 @@
     <string name="text">Texto</string>
     <string name="migrating">Migrando</string>
     <string name="favorites_tab">Marcadores</string>
+    <string name="groups_tab">Grupos</string>
     <string name="last_used_tab">Usado pela última vez em</string>
     <string name="restore_this_file">Restaurar este ficheiro</string>
     <string name="restore_selected_files">Restaurar os ficheiros selecionados</string>
@@ -505,7 +506,7 @@
     <string name="website_label">Para os códigos de origem visite</string>
     <string name="email_label">Deixe aqui o seu feedback ou sugestão...</string>
     <string name="upgrade_to_pro">Obter versão Pro</string>
-    <string name="more_apps_underlined"><u>Mais aplicativos</u></string>
+    <string name="more_apps_underlined"><u>Mais aplicações</u></string>
     <string name="third_party_licences_underlined">Licenças de terceiros</string>
     <string name="invite_friends_underlined"><u>Convidar amigos</u></string>
     <string name="share_text">Ei! Dê uma olhada em %1$s em %2$s</string>
@@ -533,30 +534,31 @@
     <string name="flashlight_short">Lanterna</string>
     <string name="gallery_short">Galeria</string>
     <string name="notes_short">Notas</string>
+    <string name="sideloaded_app">            Parece que a versão da aplicação está corrompida. Por favor, transfira a versão original &lt;a href="%s"&gt;aqui&lt;/a&gt;.
+        </string>
     <string name="frequently_asked_questions">Perguntas Frequentes</string>
     <string name="before_asking_question">Antes de fazer uma pergunta, leia primeiro a</string>
-    <string name="faq_1_title_commons">Por que não vejo esse widget de aplicativos na lista de widgets?</string>
-    <string name="faq_1_text_commons">É muito provável que você moveu o aplicativo em um cartão SD. Existe uma limitação do sistema Android que oculta os widgets determinados do aplicativo
-        nesse caso. A única solução é mover o app de volta para o Armazenamento Interno através das configurações do seu dispositivo.</string>
+    <string name="faq_1_title_commons">Por que é que não vejo os widgets desta aplicação na lista de widgets?</string>
+    <string name="faq_1_text_commons">É muito provável que tenha movido a aplicação para um cartão SD. Existe uma limitação do sistema Android que oculta os widgets das aplicações nesse caso. A única solução é mover a aplicação de volta para o Armazenamento Interno através das definições do seu dispositivo.</string>
     <string name="faq_2_title_commons">Eu quero te apoiar, mas não posso doar dinheiro. Há algo mais que eu possa fazer?</string>
-    <string name="faq_2_text_commons">Sim, claro. Você pode espalhar a palavra sobre os aplicativos ou dar bons comentários e avaliações. Você também pode ajudar, traduzindo os aplicativos em um novo idioma, ou apenas atualizar algumas traduções existentes.
-        Você pode encontrar o guia em https://github. om/SimpleMobileTools/General-Discussion ou apenas atire para mim uma mensagem em hello@simplemobiletools.com se precisar de ajuda.</string>
+    <string name="faq_2_text_commons">Sim, claro. Pode espalhar a palavra sobre as aplicações ou fazer bons comentários e avaliações. Também pode ajudar traduzindo as aplicações para um novo idioma, ou apenas ao atualizar algumas traduções existentes.
+Pode encontrar o guia em https://github.com/SimpleMobileTools/General-Discussion ou envie-me uma mensagem para hello@simplemobiletools.com se precisar de ajuda.</string>
     <string name="faq_3_title_commons">Eu apaguei alguns arquivos por engano, como posso recuperá-los?</string>
     <string name="faq_3_text_commons">Infelizmente, você não pode. Os arquivos são apagados instantaneamente após a caixa de diálogo de confirmação, não há lixeira disponível.</string>
     <string name="faq_4_title_commons">Eu não gosto das cores do widget, posso mudá-las?</string>
     <string name="faq_4_text_commons">Sim, enquanto você arrasta um widget em sua tela inicial, uma tela de configuração do widget aparece. Você verá quadrados coloridos no canto inferior esquerdo, basta pressioná-los para escolher uma nova cor. Você pode usar o controle deslizante para ajustar o alfa também.</string>
     <string name="faq_5_title_commons">Posso restaurar de alguma forma os arquivos excluídos?</string>
     <string name="faq_5_text_commons">Se ele foi realmente apagado, você não pode. No entanto, há uma Lixeira habilitada por padrão, pois os arquivos só serão movidos na Lixeira em vez de excluí-los.</string>
-    <string name="faq_6_title_commons">O ícone do launcher do aplicativo desapareceu. O que posso fazer?</string>
-    <string name="faq_6_text_commons">AVISO: alguns launchers não lidam com a personalização do ícone do aplicativo corretamente. Caso o ícone desapareça, tente iniciar o aplicativo pelo Google Play ou algum widget, se disponível.
-        Uma vez lançado, basta redefinir o ícone laranja padrão #F57C00. Você pode ter que reinstalar o app no pior dos casos.</string>
+    <string name="faq_6_title_commons">O ícone da aplicação desapareceu do launcher. O que posso fazer?</string>
+    <string name="faq_6_text_commons">AVISO: alguns launchers não lidam bem com a personalização do ícone da aplicação. Caso o ícone desapareça, tente iniciar a aplicação pela Google Play ou algum widget, se disponível.
+Uma vez iniciada, basta repor o ícone predefinido laranja #F57C00. Poderá ter de reinstalar a aplicação, no pior dos casos.</string>
     <string name="faq_7_title_commons">O dinheiro foi deduzido da minha conta bancária, mas não posso baixar o app. O que posso fazer?</string>
     <string name="faq_7_text_commons">Os pagamentos são totalmente geridos pelo Google, seus erros de sistema de tempos em tempos. Limpe seu cache do aplicativo do Google Play e reinicie seu dispositivo, e tente fazer o download novamente.</string>
     <string name="faq_8_title_commons">Por que devo fazer o upgrade para Premium?</string>
     <string name="faq_8_text_commons">Como a versão do seu aplicativo não é mais atualizada, os erros que você encontrou nunca serão corrigidos. Também não haverá novas funções adicionadas. Você pode comprar a versão Pro no Google Play para uma pequena soma de dinheiro.
         É uma única vez, o que significa que, uma vez comprada, nunca mais teremos de pagar mais. Nem mesmo depois de obter um novo dispositivo. Se você não vai gostar da versão Pro, é possível desinstalá-la dentro de algumas horas e automaticamente vai receber seu dinheiro.
         Se você quiser um reembolso a qualquer momento depois, basta nos contatar em hello@simplemobiletools. tome e você o conseguirá.</string>
-    <string name="notice">Este aplicativo usa as seguintes bibliotecas de terceiros para facilitar a minha vida. Obrigado.</string>
+    <string name="notice">Esta aplicação utiliza as seguintes bibliotecas de terceiros para facilitar a minha vida. Obrigado.</string>
     <string name="third_party_licences">Licenças de terceiros</string>
     <string name="kotlin_title">Kotlin (linguagem de programação)</string>
     <string name="subsampling_title">Subsampling Scale Image View (ampliação de imagens)</string>

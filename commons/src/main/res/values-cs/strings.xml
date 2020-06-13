@@ -239,6 +239,10 @@
     <string name="descending">Sestupně</string>
     <string name="use_for_this_folder">Použít pouze pro tuto složku</string>
     <string name="sort_numeric_parts">Seřadit číselné části podle skutečné hodnoty</string>
+    <string name="first_name">Křestní jméno</string>
+    <string name="middle_name">Druhé křestní jméno</string>
+    <string name="surname">Příjmení</string>
+    <string name="full_name">Jméno a příjmení</string>
     <string name="proceed_with_deletion">Opravdu chcete pokračovat s odstraněním?</string>
     <string name="deletion_confirmation">Jste si jisti, že chcete odstranit %s?</string>
     <string name="move_to_recycle_bin_confirmation">Opravdu chcete přesunout %s do koše?</string>
@@ -498,6 +502,7 @@
     <string name="import_settings">Import nastavení</string>
     <string name="settings_exported_successfully">Nastavení bylo úspěšně exportováno</string>
     <string name="settings_imported_successfully">Nastavení bylo úspěšně importováno</string>
+    <string name="start_name_with_surname">Začněte jménem s příjmením</string>
     <string name="visibility">Viditelnost</string>
     <string name="security">Zabezpečení</string>
     <string name="scrolling">Rolování</string>
@@ -623,14 +628,22 @@
     <string name="rate_us_prompt">Ahoj,\n\nzdá se, že tuto aplikaci už nějakou dobu používáte a opravdu si toho vážíme.\n\nPokud vás můžeme požádat o laskavost, napište nám recenzi na Google Play. To by nám hodně pomohlo.\n\nBez ohledu na to, jak se rozhodnete, tuto zprávu vícekrát neuvidíte.\n\nDíky!</string>
     <string name="rate_our_app">Ohodnoťte prosím naši aplikaci :)</string>
     <string name="thank_you">Děkujeme</string>
+    <string name="app_launcher_short">Spouštěč aplikací</string>
+    <string name="calculator_short">Kalkulačka</string>
     <string name="calendar_short">Kalendář</string>
     <string name="camera_short">Fotoaparát</string>
     <string name="clock_short">Hodiny</string>
     <string name="contacts_short">Kontakty</string>
     <string name="dialer_short">Telefon</string>
+    <string name="draw_short">Kreslit</string>
+    <string name="file_manager_short">Správce souborů</string>
     <string name="flashlight_short">Svítilna</string>
     <string name="gallery_short">Galerie</string>
+    <string name="music_player_short">Přehrávač hudby</string>
     <string name="notes_short">Poznámky</string>
+    <string name="sms_messenger_short">SMS messenger</string>
+    <string name="thank_you_short">Ďekujeme</string>
+    <string name="voice_recorder_short">Hlasový záznamník</string>
     <string name="sideloaded_app">            Zdá se, že verze aplikace je poškozena. Stáhněte si prosím původní verzi &lt;a href="%s"&gt;zde&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Často kladené otázky</string>

@@ -231,6 +231,10 @@
     <string name="descending">Csökkenő</string>
     <string name="use_for_this_folder">Csak ehhez a mappához használja</string>
     <string name="sort_numeric_parts">Rendezze a numerikus részeket a tényleges értékükkel</string>
+    <string name="first_name">Keresztnév</string>
+    <string name="middle_name">Középső név</string>
+    <string name="surname">Családnév</string>
+    <string name="full_name">Teljes név</string>
     <string name="proceed_with_deletion">Biztosan folytatja a törlést?</string>
     <string name="deletion_confirmation">Biztos törölni akarja ezt: %s?</string>
     <string name="move_to_recycle_bin_confirmation">Biztos át akarja helyezni %s fájlt a Lomtárba?</string>
@@ -432,6 +436,7 @@
     <string name="import_settings">Beállítás-importálás</string>
     <string name="settings_exported_successfully">A Beállítás-exportálás sikeresen lezajlott</string>
     <string name="settings_imported_successfully">A Beállítás-importálás sikeresen lezajlott</string>
+    <string name="start_name_with_surname">A családnévvel kezdődjön a név</string>
     <string name="visibility">Láthatóság</string>
     <string name="security">Biztonság</string>
     <string name="scrolling">Görgetés</string>
@@ -555,14 +560,22 @@
     <string name="rate_us_prompt">Helló,\n\núgy tűnik, hogy már régóta használja ezt az alkalmazást, ezt nagyra értékeljük.\n\nHa megtenne egy szívességet és értékelné munkánkat a Google Play áruházban, az tényleg sokat segítene nekünk.\n\nNem számít, milyen döntést hoz, ez az üzenet nem fog többé megjelenni.\n\nKöszönjük!</string>
     <string name="rate_our_app">Kérjük, értékelje alkalmazásunkat :)</string>
     <string name="thank_you">Köszönjük!</string>
+    <string name="app_launcher_short">Alkalmazásindító-fiók</string>
+    <string name="calculator_short">Számológép</string>
     <string name="calendar_short">Naptár</string>
     <string name="camera_short">Kamera</string>
     <string name="clock_short">Óra</string>
     <string name="contacts_short">Névjegyek</string>
     <string name="dialer_short">Tárcsázó</string>
+    <string name="draw_short">Rajzok</string>
+    <string name="file_manager_short">Fájlkezelő</string>
     <string name="flashlight_short">Zseblámpa</string>
     <string name="gallery_short">Galéria</string>
+    <string name="music_player_short">Zenelejátszó</string>
     <string name="notes_short">Jegyzetek</string>
+    <string name="sms_messenger_short">SMS-küldő</string>
+    <string name="thank_you_short">Thank You</string>
+    <string name="voice_recorder_short">Hangrögzítő</string>
     <string name="sideloaded_app">            Úgy tűnik, az alkalmazás verziója nem megfelelő. Kérjük, töltsön le egy eredeti verziót <a href="%s">innen</a>.
         </string>
     <string name="frequently_asked_questions">Gyakran Ismételt Kérdések</string>

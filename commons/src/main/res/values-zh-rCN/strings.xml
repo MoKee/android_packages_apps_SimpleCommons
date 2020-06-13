@@ -521,14 +521,22 @@
     <string name="rate_us_prompt">您好，\n\n看起来您已经使用这款应用有一段时间了，我们对此表示非常感谢。\n\n如果可以的话，请您在 Google Play 上帮我们对该应用进行评分。这将给予我们很大的帮助。\n\n无论您作何决定，都将不会再看到本条消息。\n\n谢谢！</string>
     <string name="rate_our_app">请给我们的应用评分 :)</string>
     <string name="thank_you">谢谢</string>
+    <string name="app_launcher_short">应用启动器</string>
+    <string name="calculator_short">计算器</string>
     <string name="calendar_short">日历</string>
     <string name="camera_short">相机</string>
     <string name="clock_short">时钟</string>
     <string name="contacts_short">联系人</string>
     <string name="dialer_short">电话</string>
+    <string name="draw_short">绘图</string>
+    <string name="file_manager_short">文件管理器</string>
     <string name="flashlight_short">手电筒</string>
     <string name="gallery_short">图库</string>
+    <string name="music_player_short">音乐播放器</string>
     <string name="notes_short">笔记</string>
+    <string name="sms_messenger_short">短信</string>
+    <string name="thank_you_short">谢谢</string>
+    <string name="voice_recorder_short">语音录音机</string>
     <string name="sideloaded_app">            应用版本似乎已损坏。 请下载<a href="%s">此处</a>.的原始版本
         </string>
     <string name="frequently_asked_questions">常见问题</string>
