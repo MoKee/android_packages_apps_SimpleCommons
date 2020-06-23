@@ -138,6 +138,10 @@
         <item quantity="one">Excluindo %d item</item>
         <item quantity="other">Excluindo %d itens</item>
     </plurals>
+    <plurals name="delete_contacts">
+        <item quantity="one">%d contato</item>
+        <item quantity="other">%d contatos</item>
+    </plurals>
     <string name="select_storage">Selecionar armazenamento</string>
     <string name="internal">Interno</string>
     <string name="sd_card">Cartão SD</string>
@@ -212,6 +216,7 @@
     <string name="redo">Refazer</string>
     <string name="print">Imprimir</string>
     <string name="create_shortcut">Criar atalho</string>
+    <string name="add_number_to_contact">Adicionar número ao contato</string>
     <string name="sort_by">Ordenar por</string>
     <string name="name">Nome</string>
     <string name="size">Tamanho</string>
@@ -226,6 +231,10 @@
     <string name="descending">Decrescente</string>
     <string name="use_for_this_folder">Apenas para esta pasta</string>
     <string name="sort_numeric_parts">Ordenar partes numéricas pelo valor real</string>
+    <string name="first_name">Primeiro nome</string>
+    <string name="middle_name">Nome do meio</string>
+    <string name="surname">Sobrenome</string>
+    <string name="full_name">Nome completo</string>
     <string name="proceed_with_deletion">Deseja realmente excluir?</string>
     <string name="deletion_confirmation">Deseja realmente excluir %s?</string>
     <string name="move_to_recycle_bin_confirmation">Deseja realmente mover %s para a Lixeira?</string>
@@ -427,6 +436,7 @@
     <string name="import_settings">Importar configurações</string>
     <string name="settings_exported_successfully">Configurações exportadas com sucesso</string>
     <string name="settings_imported_successfully">Configurações importadas com sucesso</string>
+    <string name="start_name_with_surname">Nome inicial com sobrenome</string>
     <string name="visibility">Visibilidade</string>
     <string name="security">Segurança</string>
     <string name="scrolling">Rolagem</string>
@@ -436,8 +446,10 @@
     <string name="startup">Inicialização</string>
     <string name="text">Texto</string>
     <string name="migrating">Migrando</string>
+    <string name="default_tab_to_open">Aba para abrir ao iniciar o aplicativo</string>
     <string name="contacts_tab">Contatos</string>
     <string name="favorites_tab">Favoritos</string>
+    <string name="call_history_tab">Histórico de chamadas</string>
     <string name="groups_tab">Grupos</string>
     <string name="last_used_tab">Usado por último</string>
     <string name="restore_this_file">Restaurar este arquivo</string>
@@ -548,14 +560,22 @@
     <string name="rate_us_prompt">Olá,\n\nparece que você já está usando este aplicativo já há algum tempo e nós realmente apreciamos isso.\n\nSe pudermos pedir um favor, avalie-nos no Google Play. Isso realmente nos ajudaria muito.\n\nNão importa como você decida, você não verá essa mensagem novamente.\n\nObrigado!</string>
     <string name="rate_our_app">Avalie nosso aplicativo, por favor :)</string>
     <string name="thank_you">Obrigado</string>
+    <string name="app_launcher_short">Iniciador de aplicativos</string>
+    <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendário</string>
     <string name="camera_short">Câmera</string>
     <string name="clock_short">Relógio</string>
     <string name="contacts_short">Contatos</string>
     <string name="dialer_short">Telefone</string>
+    <string name="draw_short">Desenhar</string>
+    <string name="file_manager_short">Gerenciador de Arquivos</string>
     <string name="flashlight_short">Lanterna</string>
     <string name="gallery_short">Galeria</string>
+    <string name="music_player_short">Reprodutor de música</string>
     <string name="notes_short">Notas</string>
+    <string name="sms_messenger_short">Mensageiro SMS</string>
+    <string name="thank_you_short">Obrigado</string>
+    <string name="voice_recorder_short">Gravador de Voz</string>
     <string name="sideloaded_app">            Parece que sua versão do aplicativo está corrompida. Por favor, baixe a versão original &lt;a href=\"%s\"&gt;aqui&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Perguntas frequentes</string>

@@ -239,6 +239,10 @@
     <string name="descending">По убыванию</string>
     <string name="use_for_this_folder">Использовать только для этой папки</string>
     <string name="sort_numeric_parts">Сортировать числовые части по фактическому значению</string>
+    <string name="first_name">Имя</string>
+    <string name="middle_name">Отчество</string>
+    <string name="surname">Фамилия</string>
+    <string name="full_name">Полное имя</string>
     <string name="proceed_with_deletion">Подтверждение удаления</string>
     <string name="deletion_confirmation">Вы действительно хотите удалить %s?</string>
     <string name="move_to_recycle_bin_confirmation">Вы действительно хотите переместить %s в корзину?</string>
@@ -498,6 +502,7 @@
     <string name="import_settings">Импорт настроек</string>
     <string name="settings_exported_successfully">Настройки успешно экспортированы</string>
     <string name="settings_imported_successfully">Настройки успешно импортированы</string>
+    <string name="start_name_with_surname">Начните с фамилии</string>
     <string name="visibility">Отображение</string>
     <string name="security">Безопасность</string>
     <string name="scrolling">Прокрутка</string>
@@ -507,6 +512,7 @@
     <string name="startup">Запуск</string>
     <string name="text">Текст</string>
     <string name="migrating">Перенос данных</string>
+    <string name="default_tab_to_open">Вкладка для открытия при запуске приложения</string>
     <string name="contacts_tab">Контакты</string>
     <string name="favorites_tab">Избранное</string>
     <string name="call_history_tab">История звонков</string>
@@ -622,14 +628,22 @@
     <string name="rate_us_prompt">Привет!\n\nПохоже, вы уже давно пользуетесь этим приложением, и мы действительно ценим это.\n\nЕсли у вас есть свободная минута, пожалуйста, оцените нас в Play Маркет. Это очень поможет нам.\n\nНезависимо от того, как вы решите, вы не увидите это сообщение снова.\n\nСпасибо!</string>
     <string name="rate_our_app">Пожалуйста, оцените наше приложение :)</string>
     <string name="thank_you">Спасибо</string>
+    <string name="app_launcher_short">Панель запуска приложений</string>
+    <string name="calculator_short">Калькулятор</string>
     <string name="calendar_short">Календарь</string>
     <string name="camera_short">Камера</string>
     <string name="clock_short">Часы</string>
     <string name="contacts_short">Контакты</string>
     <string name="dialer_short">Телефон</string>
+    <string name="draw_short">Рисовать</string>
+    <string name="file_manager_short">Проводник</string>
     <string name="flashlight_short">Вспышка</string>
     <string name="gallery_short">Галерея</string>
+    <string name="music_player_short">Музыка</string>
     <string name="notes_short">Заметки</string>
+    <string name="sms_messenger_short">SMS-сообщения</string>
+    <string name="thank_you_short">Спасибо!</string>
+    <string name="voice_recorder_short">Диктофон</string>
     <string name="sideloaded_app">            Похоже, вы установили неверную версию приложения. Пожалуйста, скачайте оригинальную версию <a href="%s">здесь</a>.
         </string>
     <string name="frequently_asked_questions">Часто задаваемые вопросы</string>

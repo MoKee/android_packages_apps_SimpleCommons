@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="none">کوئی نہیں</string>
+    <string name="notification">پیغام</string>
     <string name="custom">حسب ضرورت</string>
     <string name="remove">ہٹائیں</string>
     <string name="undo">کالعدم کریں</string>
@@ -8,4 +9,5 @@
     <string name="size">سائز</string>
     <string name="date_taken">لیے جانے کی تاریخ</string>
     <string name="widgets">ویجیٹس</string>
+    <string name="flashlight_short">ٹارچ</string>
 </resources>

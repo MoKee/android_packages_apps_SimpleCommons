@@ -358,7 +358,8 @@
     <string name="text">Teks</string>
     <string name="contacts_tab">Kontak</string>
     <string name="favorites_tab">Favorit</string>
-    <string name="groups_tab">Grup</string>
+    <string name="groups_tab">Kelompok</string>
+    <string name="last_used_tab">Terakhir digunakan</string>
     <string name="restore_this_file">Restore this file</string>
     <string name="restore_selected_files">Kembalikan file yang dipilih</string>
     <string name="restore_all_files">Pulihkan semua file</string>

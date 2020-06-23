@@ -135,6 +135,9 @@
     <plurals name="deleting_items">
         <item quantity="other">Đang xóa %d mục [one] [other]</item>
     </plurals>
+    <plurals name="delete_contacts">
+        <item quantity="other">%d liên hệ</item>
+    </plurals>
     <string name="select_storage">Chọn bộ nhớ</string>
     <string name="internal">Nội bộ</string>
     <string name="sd_card">Thẻ SD</string>
@@ -207,6 +210,7 @@
     <string name="redo">Làm lại</string>
     <string name="print">In</string>
     <string name="create_shortcut">Tạo phím tắt</string>
+    <string name="add_number_to_contact">Thêm số vào liên hệ</string>
     <string name="sort_by">Sắp xếp theo</string>
     <string name="name">Tên: </string>
     <string name="size">Kích thước</string>
@@ -221,6 +225,10 @@
     <string name="descending">Giảm dần</string>
     <string name="use_for_this_folder">Chỉ sử dụng cho thư mục này</string>
     <string name="sort_numeric_parts">Sắp xếp các phần số theo giá trị thực</string>
+    <string name="first_name">Tên</string>
+    <string name="middle_name">Tên đệm</string>
+    <string name="surname">Họ</string>
+    <string name="full_name">Họ và tên</string>
     <string name="proceed_with_deletion">Bạn có chắc chắn muốn tiến hành xóa?</string>
     <string name="deletion_confirmation">Bạn có chắc chắn muốn xóa %s?</string>
     <string name="move_to_recycle_bin_confirmation">Bạn có chắc chắn muốn chuyển %s vào Thùng rác không?</string>
@@ -393,6 +401,7 @@
     <string name="import_settings">Nhập cài đặt</string>
     <string name="settings_exported_successfully">Cài đặt được xuất thành công</string>
     <string name="settings_imported_successfully">Cài đặt được nhập thành công</string>
+    <string name="start_name_with_surname">Tên bắt đầu với họ</string>
     <string name="visibility">Kiểu hiển thị</string>
     <string name="security">Bảo mật</string>
     <string name="scrolling">Cuộn</string>
@@ -402,8 +411,10 @@
     <string name="startup">Khởi động</string>
     <string name="text">Văn bản</string>
     <string name="migrating">Di chuyển</string>
+    <string name="default_tab_to_open">Tab để mở khi bắt đầu ứng dụng</string>
     <string name="contacts_tab">Liên hệ</string>
     <string name="favorites_tab">Yêu thích</string>
+    <string name="call_history_tab">Nhật ký cuộc gọi</string>
     <string name="groups_tab">Nhóm</string>
     <string name="last_used_tab">Lần sử dụng cuối cùng</string>
     <string name="restore_this_file">Phục hồi tệp này</string>
@@ -513,14 +524,22 @@
     <string name="rate_us_prompt">Xin chào,\n\ncó vẻ như bạn đang sử dụng ứng dụng này khá lâu và chúng tôi thực sự đánh giá cao nó.\n\nNếu chúng tôi có thể yêu cầu bạn một ưu tiên, vui lòng đánh giá chúng tôi trên Google Play. Điều đó thực sự sẽ giúp chúng tôi rất nhiều.\n\nBất kể bạn quyết định như thế nào, bạn sẽ không thấy thông báo này nữa.\n\nCảm ơn!</string>
     <string name="rate_our_app">Hãy đánh giá ứng dụng của chúng tôi :)</string>
     <string name="thank_you">Cảm ơn</string>
+    <string name="app_launcher_short">Trình khởi chạy ứng dụng</string>
+    <string name="calculator_short">Máy tính</string>
     <string name="calendar_short">Lịch</string>
     <string name="camera_short">Máy ảnh</string>
     <string name="clock_short">Đồng hồ</string>
     <string name="contacts_short">Liên hệ</string>
     <string name="dialer_short">Trình quay số</string>
+    <string name="draw_short">Vẽ</string>
+    <string name="file_manager_short">Quản lý tập tin</string>
     <string name="flashlight_short">Đèn pin</string>
     <string name="gallery_short">Thư viện</string>
+    <string name="music_player_short">Trình phát nhạc</string>
     <string name="notes_short">Ghi chú</string>
+    <string name="sms_messenger_short">Máy nhắn tin</string>
+    <string name="thank_you_short">Cảm ơn bạn</string>
+    <string name="voice_recorder_short">Trình ghi âm</string>
     <string name="sideloaded_app">             Có vẻ như phiên bản ứng dụng của bạn bị hỏng. Vui lòng tải xuống phiên bản gốc &lt;a href="%s"&gt;tại đây&lt;/a&gt;.
          </string>
     <string name="frequently_asked_questions">Câu hỏi thường gặp</string>

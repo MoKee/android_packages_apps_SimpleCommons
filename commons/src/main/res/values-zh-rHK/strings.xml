@@ -135,6 +135,9 @@
     <plurals name="deleting_items">
         <item quantity="other">%d個項目刪除中</item>
     </plurals>
+    <plurals name="delete_contacts">
+        <item quantity="other">%d 個聯絡人</item>
+    </plurals>
     <string name="select_storage">選擇儲存空間</string>
     <string name="internal">內部儲存空間</string>
     <string name="sd_card">SD 卡</string>
@@ -208,6 +211,7 @@
     <string name="redo">取消復原</string>
     <string name="print">列印</string>
     <string name="create_shortcut">建立捷徑</string>
+    <string name="add_number_to_contact">新增號碼到聯繫人</string>
     <string name="sort_by">排序</string>
     <string name="name">名稱：</string>
     <string name="size">大小</string>
@@ -222,6 +226,10 @@
     <string name="descending">降序排列</string>
     <string name="use_for_this_folder">僅套用於此資料夾</string>
     <string name="sort_numeric_parts">按實際值排序數字部件</string>
+    <string name="first_name">名字</string>
+    <string name="middle_name">中間名</string>
+    <string name="surname">姓氏</string>
+    <string name="full_name">全名</string>
     <string name="proceed_with_deletion">確定要進行刪除嗎?</string>
     <string name="deletion_confirmation">你確定要刪除%s嗎?</string>
     <string name="move_to_recycle_bin_confirmation">你確定要把%s移到回收桶嗎?</string>
@@ -394,6 +402,7 @@
     <string name="import_settings">匯入設定</string>
     <string name="settings_exported_successfully">設定還原成功</string>
     <string name="settings_imported_successfully">設定還原成功</string>
+    <string name="start_name_with_surname">姓氏在前</string>
     <string name="visibility">可見性</string>
     <string name="security">安全性</string>
     <string name="scrolling">滑動</string>
@@ -403,6 +412,7 @@
     <string name="startup">啟動</string>
     <string name="text">文字</string>
     <string name="migrating">移入</string>
+    <string name="default_tab_to_open">應用程式啟動時開啟的標籤頁</string>
     <string name="contacts_tab">連絡人</string>
     <string name="favorites_tab">我的最愛</string>
     <string name="call_history_tab">通話紀錄</string>
@@ -515,14 +525,22 @@
     <string name="rate_us_prompt">Hello,\n\nit looks like you are using this app for quite a while already, and we really appreciate it.\n\nIf we can ask you a favor, please rate us on Google Play. That would really help us a lot.\n\nNo matter how you decide, you will not see this message again.\n\nThanks!</string>
     <string name="rate_our_app">請給我們的應用程式評分 :)</string>
     <string name="thank_you">謝謝你</string>
+    <string name="app_launcher_short">應用程式啟動器</string>
+    <string name="calculator_short">計算機</string>
     <string name="calendar_short">行事曆</string>
     <string name="camera_short">相機</string>
     <string name="clock_short">時鐘</string>
     <string name="contacts_short">連絡人</string>
     <string name="dialer_short">電話</string>
+    <string name="draw_short">繪圖</string>
+    <string name="file_manager_short">檔案管理器</string>
     <string name="flashlight_short">手電筒</string>
     <string name="gallery_short">圖片庫</string>
+    <string name="music_player_short">音樂播放器</string>
     <string name="notes_short">筆記</string>
+    <string name="sms_messenger_short">簡訊</string>
+    <string name="thank_you_short">謝謝你</string>
+    <string name="voice_recorder_short">錄音機</string>
     <string name="sideloaded_app">            應用版本似乎已損壞。請下載<a href="%s">此处</a>.的原始版本
         </string>
     <string name="frequently_asked_questions">常見問題</string>
@@ -576,6 +594,7 @@
     <string name="indicator_fast_scroll_title">快速滑動指示器（在滑動條處顯示字母）</string>
     <string name="event_bus_title">事件匯流排（應用程式內的通訊）</string>
     <string name="audio_record_view_title">錄音檢視（音訊視覺化）</string>
+    <string name="sms_mms_title">簡訊、多媒體簡訊（簡訊和多媒體簡訊處理）</string>
     <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at hello@simplemobiletools.com and you will get it. That makes it easy to try it out :)</string>
     <string name="developer_description">一組簡單、開源的 Android 應用程式，帶有可定製的小工具，沒有廣告和不必要的權限要求。</string>
