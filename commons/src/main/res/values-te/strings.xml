@@ -5,6 +5,7 @@
     <string name="never">ఎప్పటికీ వద్దు</string>
     <string name="details">వివరాలు</string>
     <string name="none">ఏదీ వద్దు</string>
+    <string name="notification">ప్రకటనలు </string>
     <string name="email">ఈమెయిల్‌</string>
     <string name="previous">"మునుపటి"</string>
     <string name="next">"తదుపరి"</string>
@@ -30,4 +31,5 @@
     <string name="donate">దానం</string>
     <string name="calendar_short">క్యాలెండర్</string>
     <string name="camera_short">కెమెరా</string>
+    <string name="flashlight_short">ఫ్లాష్లైట్</string>
 </resources>
