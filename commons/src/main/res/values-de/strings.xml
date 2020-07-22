@@ -11,6 +11,7 @@
     <string name="edit_with">Bearbeiten mit:</string>
     <string name="no_app_found">Keine passende App gefunden</string>
     <string name="set_as">Festlegen als</string>
+    <string name="copy_to_clipboard">In die Zwischenablage kopieren</string>
     <string name="value_copied_to_clipboard">Wert in Zwischenablage kopiert</string>
     <string name="unknown">Unbekannt</string>
     <string name="always">Immer</string>
@@ -27,7 +28,14 @@
     <string name="notification">Benachrichtigung</string>
     <string name="email">E-Mail</string>
     <string name="previous">Zurück</string>
+    <string name="playpause">Wiedergabe / Pause</string>
     <string name="next">Weiter</string>
+    <string name="number">Rufnummer</string>
+    <string name="no_contacts_found">Keine Kontakte gefunden</string>
+    <string name="manage_blocked_numbers">Blockierte Rufnummern verwalten</string>
+    <string name="blocked_numbers">Gesperrte Nummern</string>
+    <string name="set_as_default">Als Standard festlegen</string>
+    <string name="block_confirmation">Sind Sie sicher, dass Sie \"%s \" blockieren möchten?</string>
     <string name="favorites">Favoriten</string>
     <string name="add_favorites">Favoriten hinzufügen</string>
     <string name="add_to_favorites">Zu Favoriten hinzufügen</string>
@@ -195,6 +203,7 @@
     <string name="redo">Wiederholen</string>
     <string name="print">Drucken</string>
     <string name="create_shortcut">Verknüpfung erstellen</string>
+    <string name="add_number_to_contact">Nummer zum Kontakt hinzufügen</string>
     <string name="sort_by">Sortieren nach</string>
     <string name="name">Name: </string>
     <string name="size">Größe</string>
@@ -209,6 +218,10 @@
     <string name="descending">Absteigend</string>
     <string name="use_for_this_folder">Nur auf diesen Ordner anwenden</string>
     <string name="sort_numeric_parts">Numerische Teile nach aktuellem Wert sortieren</string>
+    <string name="first_name">Vorname</string>
+    <string name="middle_name">Zweiter Vorname</string>
+    <string name="surname">Familienname</string>
+    <string name="full_name">Vollständiger Name</string>
     <string name="proceed_with_deletion">Willst du mit dem Löschen fortfahren?</string>
     <string name="deletion_confirmation">Sollen %s wirklich gelöscht werden?</string>
     <string name="move_to_recycle_bin_confirmation">Sollen %s wirklich in den Papierkorb verschoben werden?</string>
@@ -246,6 +259,7 @@
     <string name="yesterday">Gestern</string>
     <string name="today">Heute</string>
     <string name="tomorrow">Morgen</string>
+    <string name="hide_year">Jahr ausblenden</string>
     <string name="seconds_raw">Sekunden</string>
     <string name="minutes_raw">Minuten</string>
     <string name="hours_raw">Stunden</string>
@@ -410,6 +424,7 @@
     <string name="import_settings">Einstellungen importieren</string>
     <string name="settings_exported_successfully">Einstellungen wurden erfolgreich exportiert</string>
     <string name="settings_imported_successfully">Einstellungen wurden erfolgreich importiert</string>
+    <string name="start_name_with_surname">Name mit Familiennamen starten</string>
     <string name="visibility">Sichtbarkeit</string>
     <string name="security">Sicherheit</string>
     <string name="scrolling">Scrollen</string>
@@ -419,7 +434,9 @@
     <string name="startup">Beim Starten</string>
     <string name="text">Text</string>
     <string name="migrating">Umziehen</string>
+    <string name="contacts_tab">Kontakte</string>
     <string name="favorites_tab">Favoriten</string>
+    <string name="call_history_tab">Anrufliste</string>
     <string name="groups_tab">Gruppen</string>
     <string name="last_used_tab">Zuletzt verwendet</string>
     <string name="restore_this_file">Diese Datei wiederherstellen</string>
@@ -527,13 +544,19 @@
     <string name="read_it">Bitte lesen</string>
     <string name="read_faq">FAQ lesen</string>
     <string name="rate_us_prompt">Hallo,\n\nes sieht so aus, als würden Sie diese App bereits eine Weile verwenden, und wir schätzen sie sehr.\n\nWenn wir Ihnen einen Gefallen erfragen können, bewerten Sie uns bitte auf Google Play. Das würde uns wirklich sehr helfen.\n\nEgal, wie Sie sich entscheiden, Sie werden diese Nachricht nicht mehr sehen.\n\nDanke!</string>
+    <string name="thank_you">Vielen Dank</string>
+    <string name="calculator_short">Rechner</string>
     <string name="calendar_short">Kalender</string>
     <string name="camera_short">Kamera</string>
     <string name="clock_short">Uhr</string>
+    <string name="contacts_short">Kontakte</string>
     <string name="dialer_short">Telefon</string>
+    <string name="draw_short">Zeichnen</string>
+    <string name="file_manager_short">Dateimanager</string>
     <string name="flashlight_short">Taschenlampe</string>
     <string name="gallery_short">Galerie</string>
     <string name="notes_short">Notizen</string>
+    <string name="thank_you_short">Vielen Dank</string>
     <string name="sideloaded_app">            Es sieht so aus, als ob Ihre App-Version beschädigt ist. Bitte laden Sie die Originalversion &lt;a href=\"%s\"&gt;hier herunter&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Häufig gestellte Fragen</string>
