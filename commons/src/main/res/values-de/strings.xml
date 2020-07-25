@@ -32,6 +32,7 @@
     <string name="next">Weiter</string>
     <string name="number">Rufnummer</string>
     <string name="no_contacts_found">Keine Kontakte gefunden</string>
+    <string name="no_access_to_contacts">Die App konnte nicht auf Ihre Kontakte zugreifen</string>
     <string name="manage_blocked_numbers">Blockierte Rufnummern verwalten</string>
     <string name="blocked_numbers">Gesperrte Nummern</string>
     <string name="set_as_default">Als Standard festlegen</string>
@@ -544,6 +545,7 @@
     <string name="read_it">Bitte lesen</string>
     <string name="read_faq">FAQ lesen</string>
     <string name="rate_us_prompt">Hallo,\n\nes sieht so aus, als würden Sie diese App bereits eine Weile verwenden, und wir schätzen sie sehr.\n\nWenn wir Ihnen einen Gefallen erfragen können, bewerten Sie uns bitte auf Google Play. Das würde uns wirklich sehr helfen.\n\nEgal, wie Sie sich entscheiden, Sie werden diese Nachricht nicht mehr sehen.\n\nDanke!</string>
+    <string name="rate_our_app">Bitte bewerte unsere App :)</string>
     <string name="thank_you">Vielen Dank</string>
     <string name="calculator_short">Rechner</string>
     <string name="calendar_short">Kalender</string>
