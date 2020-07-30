@@ -307,6 +307,11 @@
     <plurals name="by_years">
         <item quantity="other">%d年</item>
     </plurals>
+    <string name="alarm_goes_off_in">アラームが鳴るまでの時間:\n%s</string>
+    <string name="reminder_triggers_in">リマインダーが通知するまでの時間:\n%s</string>
+    <string name="alarm_warning">アラームを信用する前に、きちんと動作することを確認してください。バッテリーセーバーに関連したシステムの制限により誤作動する可能性があります。</string>
+    <string name="reminder_warning">リマインダーを信用する前に、きちんと動作することを確認してください。バッテリーセーバーに関連したシステムの制限により誤作動する可能性があります。</string>
+    <string name="notifications_disabled">このアプリの通知は無効になっています。有効にするには端末の設定から行ってください。</string>
     <string name="alarm">アラーム</string>
     <string name="snooze">スヌーズ</string>
     <string name="dismiss">閉じる</string>
@@ -317,6 +322,7 @@
     <string name="add_new_sound">新しいサウンドを追加</string>
     <string name="no_sound">サウンドなし</string>
     <string name="settings">設定</string>
+    <string name="purchase_simple_thank_you">寄付で感謝を伝える</string>
     <string name="customize_colors">表示色のカスタマイズ</string>
     <string name="customize_widget_colors">ウィジェットの色をカスタマイズ</string>
     <string name="use_english_language">英語で表示する</string>
@@ -329,19 +335,27 @@
     <string name="password_protect_hidden_items">非表示にした項目をパスワードで保護する</string>
     <string name="password_protect_whole_app">アプリ全体をパスワードで保護する</string>
     <string name="password_protect_file_deletion">ファイルの削除と移動をパスワードで保護する</string>
+    <string name="show_info_bubble">スクロールバーをドラッグしてアイテムをスクロールする際に情報バブルを表示する</string>
     <string name="prevent_phone_from_sleeping">アプリを使用中は端末がスリープ状態にならないようにする</string>
     <string name="skip_delete_confirmation">削除時の確認ダイアログを表示しない</string>
+    <string name="enable_pull_to_refresh">上部から引っ張って更新(pull-to-refresh)を有効化する</string>
     <string name="use_24_hour_time_format">24時間表示を使用</string>
+    <string name="sunday_first">週の始まりを日曜日にする</string>
     <string name="widgets">ウィジェット</string>
+    <string name="use_same_snooze">常に同じスヌーズの時間を使用する</string>
+    <string name="snooze_time">スヌーズの時間</string>
     <string name="vibrate_on_button_press">ボタンを押した時に振動する</string>
     <string name="move_items_into_recycle_bin">削除の代わりにアイテムをごみ箱に移動する</string>
+    <string name="recycle_bin_cleaning_interval">ごみ箱のクリーニング間隔</string>
     <string name="empty_recycle_bin">ゴミ箱を空にする</string>
     <string name="force_portrait_mode">ポートレートモードを強制する</string>
     <string name="visibility">可視性</string>
     <string name="security">セキュリティ</string>
+    <string name="scrolling">スクロール</string>
     <string name="file_operations">ファイル操作</string>
     <string name="recycle_bin">ごみ箱</string>
     <string name="saving_label">保存中</string>
+    <string name="startup">スタートアップ</string>
     <string name="text">テキスト</string>
     <string name="favorites_tab">お気に入り</string>
     <string name="restore_this_file">このファイルを復元</string>
@@ -351,6 +365,7 @@
     <string name="files_restored_successfully">ファイルが正常に復元されました</string>
     <string name="empty_recycle_bin_confirmation">ごみ箱を空にしてもよろしいですか？この操作は元に戻すことができません。</string>
     <string name="recycle_bin_empty">ゴミ箱は空です</string>
+    <string name="moving_recycle_bin_items_disabled">ごみ箱内の項目の移動は無効になっています。復元を使用してください</string>
     <plurals name="moving_items_into_bin">
         <item quantity="other">%d個のアイテムをごみ箱に移動しています</item>
     </plurals>
@@ -364,6 +379,8 @@
     <string name="exporting_some_entries_failed">一部のエントリのエクスポートに失敗しました</string>
     <string name="no_entries_for_exporting">エクスポートするエントリが見つかりませんでした</string>
     <string name="usb">USB</string>
+    <string name="usb_detected">USBデバイスが端末に接続されているようです。ファイルが正しく表示されるようにするには、追加の権限を付与する必要があります。</string>
+    <string name="wrong_root_selected_usb">フォルダの選択が正しくありません。USBデバイスのルートを選択してください</string>
     <string name="january">1月</string>
     <string name="february">2月</string>
     <string name="march">3月</string>
@@ -376,6 +393,14 @@
     <string name="october">10月</string>
     <string name="november">11月</string>
     <string name="december">12月</string>
+    <string name="in_january">1月中</string>
+    <string name="in_february">2月中</string>
+    <string name="in_march">3月中</string>
+    <string name="in_april">4月中</string>
+    <string name="in_may">5月中</string>
+    <string name="in_june">6月中</string>
+    <string name="in_july">7月中</string>
+    <string name="in_august">8月中</string>
     <string name="in_september">9月</string>
     <string name="in_october">10月</string>
     <string name="in_november">11月</string>
@@ -429,6 +454,7 @@
     <string name="gallery_short">ギャラリー</string>
     <string name="notes_short">メモ</string>
     <string name="frequently_asked_questions">よくある質問（FAQ）</string>
+    <string name="faq_5_title_commons">削除されたファイルを何とか復元できますか?</string>
     <string name="notice">このアプリは、私の暮らしにゆとりを持たせるために、次のサードパーティのライブラリーを使用しています。ありがとうございます。</string>
     <string name="third_party_licences">サードパーティー ライセンス</string>
     <string name="kotlin_title">Kotlin (プログラミング言語)</string>

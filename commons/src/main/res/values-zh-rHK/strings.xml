@@ -11,7 +11,6 @@
     <string name="edit_with">用其他程式編輯</string>
     <string name="no_app_found">找不到應用程式</string>
     <string name="set_as">設為</string>
-    <string name="copy_to_clipboard">複製到剪貼簿</string>
     <string name="value_copied_to_clipboard">數值複製到剪貼簿</string>
     <string name="unknown">不明</string>
     <string name="always">永遠</string>
@@ -28,22 +27,7 @@
     <string name="notification">通知</string>
     <string name="email">電郵</string>
     <string name="previous">上一首</string>
-    <string name="playpause">播放 / 暫停</string>
     <string name="next">下一步</string>
-    <string name="number">號碼</string>
-    <string name="no_contacts_found">找不到聯絡人</string>
-    <string name="request_the_required_permissions">要求必要的權限</string>
-    <string name="no_access_to_contacts">該應用程式無法存取您的聯繫人</string>
-    <string name="insert_text_here">在此輸入文字</string>
-    <string name="manage_blocked_numbers">管理封鎖號碼</string>
-    <string name="not_blocking_anyone">你沒有封鎖任何人。</string>
-    <string name="add_a_blocked_number">新增封鎖號碼</string>
-    <string name="block_number">黑名單</string>
-    <string name="block_numbers">黑名單</string>
-    <string name="blocked_numbers">已封鎖的號碼</string>
-    <string name="must_make_default_dialer">你必須將此應用程式的設為預設撥號應用程式，以利用封鎖的號碼。</string>
-    <string name="set_as_default">設定成預設</string>
-    <string name="block_confirmation">您確定要封鎖「%s」？</string>
     <string name="favorites">我的最愛</string>
     <string name="add_favorites">添加我的最愛</string>
     <string name="add_to_favorites">新增至我的最愛</string>
@@ -135,9 +119,6 @@
     <plurals name="deleting_items">
         <item quantity="other">%d個項目刪除中</item>
     </plurals>
-    <plurals name="delete_contacts">
-        <item quantity="other">%d 個聯絡人</item>
-    </plurals>
     <string name="select_storage">選擇儲存空間</string>
     <string name="internal">內部儲存空間</string>
     <string name="sd_card">SD 卡</string>
@@ -211,7 +192,6 @@
     <string name="redo">取消復原</string>
     <string name="print">列印</string>
     <string name="create_shortcut">建立捷徑</string>
-    <string name="add_number_to_contact">新增號碼到聯絡人</string>
     <string name="sort_by">排序</string>
     <string name="name">名稱：</string>
     <string name="size">大小</string>
@@ -226,10 +206,6 @@
     <string name="descending">降序排列</string>
     <string name="use_for_this_folder">僅套用於此資料夾</string>
     <string name="sort_numeric_parts">按實際值排序數字部件</string>
-    <string name="first_name">名字</string>
-    <string name="middle_name">中間名</string>
-    <string name="surname">姓氏</string>
-    <string name="full_name">全名</string>
     <string name="proceed_with_deletion">確定要進行刪除嗎?</string>
     <string name="deletion_confirmation">你確定要刪除%s嗎?</string>
     <string name="move_to_recycle_bin_confirmation">你確定要把%s移到回收桶嗎?</string>
@@ -402,7 +378,6 @@
     <string name="import_settings">匯入設定</string>
     <string name="settings_exported_successfully">設定還原成功</string>
     <string name="settings_imported_successfully">設定還原成功</string>
-    <string name="start_name_with_surname">姓氏在前</string>
     <string name="visibility">可見性</string>
     <string name="security">安全性</string>
     <string name="scrolling">滑動</string>
@@ -412,10 +387,8 @@
     <string name="startup">啟動</string>
     <string name="text">文字</string>
     <string name="migrating">移入</string>
-    <string name="default_tab_to_open">應用程式啟動時開啟的標籤頁</string>
     <string name="contacts_tab">連絡人</string>
     <string name="favorites_tab">我的最愛</string>
-    <string name="call_history_tab">通話紀錄</string>
     <string name="groups_tab">群組</string>
     <string name="last_used_tab">最後使用</string>
     <string name="restore_this_file">還原這個檔案</string>
@@ -501,7 +474,6 @@
     <string name="email_label">傳送您的反饋或建議</string>
     <string name="upgrade_to_pro">升級至專業版</string>
     <string name="more_apps_underlined"><u>更多應用程式</u></string>
-    <string name="more_apps_from_us_underlined"><u>更多我們的應用程式</u></string>
     <string name="third_party_licences_underlined"><u>第三方授權</u></string>
     <string name="invite_friends_underlined"><u>邀請朋友</u></string>
     <string name="share_text">嘿，來試試看「%1$s」吧！ %2$s</string>
@@ -523,24 +495,14 @@
     <string name="read_it">讀它</string>
     <string name="read_faq">閱讀常見問題</string>
     <string name="rate_us_prompt">Hello,\n\nit looks like you are using this app for quite a while already, and we really appreciate it.\n\nIf we can ask you a favor, please rate us on Google Play. That would really help us a lot.\n\nNo matter how you decide, you will not see this message again.\n\nThanks!</string>
-    <string name="rate_our_app">請給我們的應用程式評分 :)</string>
-    <string name="thank_you">謝謝你</string>
-    <string name="app_launcher_short">應用程式啟動器</string>
-    <string name="calculator_short">計算機</string>
     <string name="calendar_short">行事曆</string>
     <string name="camera_short">相機</string>
     <string name="clock_short">時鐘</string>
     <string name="contacts_short">連絡人</string>
     <string name="dialer_short">電話</string>
-    <string name="draw_short">繪圖</string>
-    <string name="file_manager_short">檔案管理器</string>
     <string name="flashlight_short">手電筒</string>
     <string name="gallery_short">圖片庫</string>
-    <string name="music_player_short">音樂播放器</string>
     <string name="notes_short">筆記</string>
-    <string name="sms_messenger_short">簡訊</string>
-    <string name="thank_you_short">謝謝你</string>
-    <string name="voice_recorder_short">錄音機</string>
     <string name="sideloaded_app">            應用版本似乎已損壞。請下載<a href="%s">此处</a>.的原始版本
         </string>
     <string name="frequently_asked_questions">常見問題</string>
@@ -591,11 +553,6 @@
     <string name="sanselan_title">Apache Sanselan (讀取圖像元數據)</string>
     <string name="filters_title">Android Photo Filters (圖像濾鏡)</string>
     <string name="gesture_views_title">手勢視圖 (可縮放的圖像)</string>
-    <string name="indicator_fast_scroll_title">快速滑動指示器（在滑動條處顯示字母）</string>
-    <string name="event_bus_title">事件匯流排（應用程式內的通訊）</string>
-    <string name="audio_record_view_title">錄音檢視（音訊視覺化）</string>
-    <string name="sms_mms_title">簡訊、多媒體簡訊（簡訊和多媒體簡訊處理）</string>
     <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at hello@simplemobiletools.com and you will get it. That makes it easy to try it out :)</string>
-    <string name="developer_description">一組簡單、開源的 Android 應用程式，帶有可定製的小工具，沒有廣告和不必要的權限要求。</string>
 </resources>

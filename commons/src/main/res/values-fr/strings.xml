@@ -27,6 +27,7 @@
     <string name="notification">Notification</string>
     <string name="email">E-mail</string>
     <string name="previous">Précédent</string>
+    <string name="playpause">Lire/pause</string>
     <string name="next">Suivant</string>
     <string name="favorites">Favoris</string>
     <string name="add_favorites">Ajouter des favoris</string>
@@ -122,6 +123,10 @@
         <item quantity="one">Suppression d\' %d élément en cours…</item>
         <item quantity="other">Suppression de %d éléments en cours…</item>
     </plurals>
+    <plurals name="delete_contacts">
+        <item quantity="one">%d contact</item>
+        <item quantity="other">%d contacts</item>
+    </plurals>
     <string name="select_storage">Sélectionner le stockage</string>
     <string name="internal">Interne</string>
     <string name="sd_card">Carte SD</string>
@@ -196,6 +201,7 @@
     <string name="redo">Répéter</string>
     <string name="print">Imprimer</string>
     <string name="create_shortcut">Créer un raccourci</string>
+    <string name="add_number_to_contact">Ajouter un numéro au contact</string>
     <string name="sort_by">Trier par</string>
     <string name="name">Nom</string>
     <string name="size">Dimension</string>
@@ -210,6 +216,10 @@
     <string name="descending">Décroissant</string>
     <string name="use_for_this_folder">Utiliser pour ce dossier uniquement</string>
     <string name="sort_numeric_parts">Trier les parties numériques par valeur réelle</string>
+    <string name="first_name">Prénom</string>
+    <string name="middle_name">Deuxième prénom</string>
+    <string name="surname">Nom</string>
+    <string name="full_name">Nom complet</string>
     <string name="proceed_with_deletion">Voulez-vous vraiment effectuer la suppression ?</string>
     <string name="deletion_confirmation">Voulez-vous vraiment supprimer %s ?</string>
     <string name="move_to_recycle_bin_confirmation">Voulez-vous vraiment déplacer %s vers la corbeille ?</string>
