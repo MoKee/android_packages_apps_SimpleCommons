@@ -189,6 +189,7 @@
     <string name="app_icon_color_warning">FIGYELMEZTETÉS: Elég sok Launcher nem támogatja megfelelően az ikonok testreszabását. Ebben az esetben eltűnik az ikon. Próbálja elindítani az alkalmazást a Google Playen vagy ha van, egy elérhető widgeten keresztül.
       Miután elindult, állítsa vissza az alapértelmezett narancssárga ikont #F57C00. A legrosszabb esetben újra kell telepítenie az alkalmazást.</string>
     <string name="share_colors_success">A színek sikeresen frissültek. Hozzáadott egy új témát, amelynek neve \'Megosztott\'. Kérjük, a jövőben ezt használja az összes alkalmazás színeinek frissítéséhez.</string>
+    <string name="shared_theme_note">Vegye figyelembe, hogy annak ellenére, hogy a Pro alkalmazásverziót használja, technikai okokból továbbra is szüksége van a Simple Thank You-ra.  Ez gondoskodik a színszinkronizálásról.</string>
     <string name="light_theme">Világos</string>
     <string name="dark_theme">Sötét</string>
     <string name="solarized">Kiégetett</string>

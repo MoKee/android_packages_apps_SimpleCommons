@@ -197,6 +197,7 @@
     <string name="app_icon_color_warning">VAROVÁNÍ: Některé spouštěče nezpracovávají přizpůsobení ikon aplikací správně. V případě, že ikona zmizí, zkuste spustit aplikaci přes Obchod Play nebo nějaký widget, pokud je k dispozici.
         Po spuštění stačí nastavit výchozí oranžovou ikonu # F57C00. V nejhorším případě budete muset aplikaci přeinstalovat.</string>
     <string name="share_colors_success">Barvy byly úspěšně aktualizovány. Byl přidán nový \'Sdílený\' motiv, prosím použijte jej při další úpravě barev.</string>
+    <string name="shared_theme_note">Upozorňujeme, že přestože používáte verzi aplikace Pro, z technických důvodů stále potřebujete aplikaci Simple Thanks. Postará se o synchronizaci barev.</string>
     <string name="light_theme">Světlý</string>
     <string name="dark_theme">Tmavý</string>
     <string name="solarized">Solarizovaný</string>
