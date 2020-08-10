@@ -189,6 +189,7 @@
     <string name="app_icon_color_warning">HOIATUS: Mõned käivitajad ei käsitle rakenduse ikooni kohandamist korralikult. Kui ikoon kaob, proovige rakendust Google Play või mõne vidina abil käivitada, kui see on saadaval.
         Kui olete käivitanud, seadistage lihtsalt oranž vaikimisi ikoon # F57C00. Võimalik, et peate halvimal juhul rakenduse uuesti installima.</string>
     <string name="share_colors_success">Värvid värskendati edukalt. Lisatud on uus teema „Jagatud”, palun kasutage seda kõigi rakendusvärvide värskendamiseks tulevikus.</string>
+    <string name="shared_theme_note">Pange tähele, et isegi kui kasutate rakenduse Pro versiooni, vajate tehnilistel põhjustel siiski lihtsat tänu. See hoolitseb värvide sünkroonimise eest.</string>
     <string name="light_theme">Hele</string>
     <string name="dark_theme">Tume</string>
     <string name="solarized">Ülesäritus</string>
