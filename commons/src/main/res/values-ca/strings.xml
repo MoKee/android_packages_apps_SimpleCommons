@@ -487,6 +487,7 @@
     <string name="faq_4_title_commons">No m\'agraden els colors del widget, puc canviar-los?</string>
     <string name="faq_4_text_commons">Sí, mentre arrossegueu un widget a la vostra pantalla d\'inici, apareixerà una pantalla de configuració de widgets. Veureu quadrats de colors a l\'extrem inferior esquerre, només cal prémer-los per seleccionar un color nou. També podeu utilitzar el control lliscant per ajustar l\'alfa.</string>
     <string name="faq_5_title_commons">Puc recuperar d\'alguna manera els fitxers eliminats?</string>
+    <string name="why_upgrade_basic_version">Bàsic</string>
     <string name="notice">Aquesta aplicació fa servir les següents biblioteques de tercers que ens faciliten la feina. Gràcies.</string>
     <string name="third_party_licences">Llicències de tercers</string>
     <string name="kotlin_title">Kotlin (Programming language)</string>

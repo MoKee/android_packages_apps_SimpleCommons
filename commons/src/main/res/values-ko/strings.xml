@@ -88,4 +88,5 @@
     <string name="clock_short">시계</string>
     <string name="flashlight_short">손전등</string>
     <string name="gallery_short">갤러리</string>
+    <string name="why_upgrade_basic_version">기본</string>
 </resources>

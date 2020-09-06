@@ -106,4 +106,5 @@
     <string name="clock_short">Ceas</string>
     <string name="flashlight_short">Lanternă</string>
     <string name="gallery_short">Galerie</string>
+    <string name="why_upgrade_basic_version">De bază</string>
 </resources>

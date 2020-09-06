@@ -459,6 +459,7 @@
     <string name="notes_short">Anteckningar</string>
     <string name="frequently_asked_questions">Frågor och svar</string>
     <string name="before_asking_question">Innan du ställer en fråga, läs först</string>
+    <string name="why_upgrade_basic_version">Grundläggande</string>
     <string name="notice">Denna app använder följande tredjepartsbibliotek för att göra mitt liv enklare. Tack.</string>
     <string name="third_party_licences">Tredjepartslicenser</string>
     <string name="kotlin_title">Kotlin (programmeringsspråk)</string>

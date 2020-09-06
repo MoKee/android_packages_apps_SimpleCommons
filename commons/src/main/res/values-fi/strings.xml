@@ -402,6 +402,7 @@
     <string name="faq_3_text_commons">Valitettavasti se ei ole mahdollista. Tiedostot poistetaan aina pysyvästi.</string>
     <string name="faq_4_title_commons">En pidä widgetin väreistä, voinko vaihtaa ne?</string>
     <string name="faq_4_text_commons">Kyllä. Kun luot widgetin aloitusnäytölle aukeaa widgetin määritysikkuna. Paina värillisiä neliöitä valitaksesi uudet värit. Vierityspalkista voit myös säätää läpinäkyvyyttä.</string>
+    <string name="why_upgrade_basic_version">Perus</string>
     <string name="notice">Tämä sovellus käyttää kolmannen osapuolen lisenssejä tehdäkseni elämästäni helpompaa. Kiitos.</string>
     <string name="third_party_licences">Kolmansien osapuolien lisenssit</string>
 </resources>

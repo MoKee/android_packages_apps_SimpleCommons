@@ -584,6 +584,7 @@
     <string name="faq_8_text_commons">Como la versión de tu aplicación ya no está actualizada, los errores que tal vez tengas nunca serán corregidos. Tampoco se añadirán nuevas funciones. Puedes adquirir la versión Pro en Google Play por una pequeña suma de dinero.
         Es un pago único, lo que significa que una vez que lo compres, nunca tendrás que volver a pagar. Ni siquiera después de obtener un nuevo dispositivo. Si no te gusta la versión Pro, puedes desinstalarla en pocas horas y automáticamente recuperarás tu dinero.
         Si deseas un reembolso en cualquier momento posterior, póngase en contacto con nosotros en hello@simplemobiletools.com y lo conseguirás.</string>
+    <string name="why_upgrade_basic_version">Básico</string>
     <string name="notice">Esta aplicación usa las siguientes bibliotecas de terceros que hacen mi vida más fácil. Gracias.</string>
     <string name="third_party_licences">Licencias de terceros</string>
     <string name="kotlin_title">Kotlin (Programming language)</string>

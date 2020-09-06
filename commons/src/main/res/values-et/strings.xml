@@ -603,6 +603,7 @@
     <string name="faq_8_text_commons">Kuna teie rakenduse versiooni enam ei värskendata, ei parandata tõenäoliselt kunagi leitud vigu. Samuti ei lisata uusi funktsioone. Pro-versiooni saate väikese raha eest osta Google Playst.
        See on ühekordne makse, mis tähendab, et pärast selle ostmist ei pea te enam kunagi maksma. Isegi mitte pärast uue seadme hankimist. Kui teile Pro versioon ei meeldi, saate selle mõne tunni jooksul lihtsalt desinstallida ja saate oma raha automaatselt tagasi.
         Kui soovite tagasimakset igal ajal hiljem, võtke meiega lihtsalt ühendust aadressil hello@simplemobiletools.com ja saate selle kätte.</string>
+    <string name="why_upgrade_basic_version">Põhiline</string>
     <string name="notice">See rakendus kasutab järgmisi kolmanda osapoole teeke, et teha oma elu lihtsamaks. Aitäh.</string>
     <string name="third_party_licences">Kolmandate isikute litsentsid</string>
     <string name="kotlin_title">Kotlin (programmeerimiskeel)</string>

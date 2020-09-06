@@ -455,6 +455,7 @@
     <string name="notes_short">メモ</string>
     <string name="frequently_asked_questions">よくある質問（FAQ）</string>
     <string name="faq_5_title_commons">削除されたファイルを何とか復元できますか?</string>
+    <string name="why_upgrade_basic_version">基本</string>
     <string name="notice">このアプリは、私の暮らしにゆとりを持たせるために、次のサードパーティのライブラリーを使用しています。ありがとうございます。</string>
     <string name="third_party_licences">サードパーティー ライセンス</string>
     <string name="kotlin_title">Kotlin (プログラミング言語)</string>

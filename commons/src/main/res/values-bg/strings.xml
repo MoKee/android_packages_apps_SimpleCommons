@@ -80,4 +80,5 @@
     <string name="clock_short">Часовник</string>
     <string name="flashlight_short">Фенерче</string>
     <string name="gallery_short">Галерия</string>
+    <string name="why_upgrade_basic_version">Основни</string>
 </resources>

@@ -558,6 +558,7 @@ Uma vez iniciada, basta repor o ícone predefinido laranja #F57C00. Poderá ter 
     <string name="faq_8_text_commons">Como a versão do seu aplicativo não é mais atualizada, os erros que você encontrou nunca serão corrigidos. Também não haverá novas funções adicionadas. Você pode comprar a versão Pro no Google Play para uma pequena soma de dinheiro.
         É uma única vez, o que significa que, uma vez comprada, nunca mais teremos de pagar mais. Nem mesmo depois de obter um novo dispositivo. Se você não vai gostar da versão Pro, é possível desinstalá-la dentro de algumas horas e automaticamente vai receber seu dinheiro.
         Se você quiser um reembolso a qualquer momento depois, basta nos contatar em hello@simplemobiletools. tome e você o conseguirá.</string>
+    <string name="why_upgrade_basic_version">Básico</string>
     <string name="notice">Esta aplicação utiliza as seguintes bibliotecas de terceiros para facilitar a minha vida. Obrigado.</string>
     <string name="third_party_licences">Licenças de terceiros</string>
     <string name="kotlin_title">Kotlin (linguagem de programação)</string>

@@ -45,4 +45,5 @@
     <string name="calendar_short">Kalendari</string>
     <string name="camera_short">Kamera</string>
     <string name="clock_short">Ora</string>
+    <string name="why_upgrade_basic_version">Bazik</string>
 </resources>

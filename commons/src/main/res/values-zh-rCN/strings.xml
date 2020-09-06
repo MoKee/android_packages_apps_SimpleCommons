@@ -565,6 +565,7 @@
     <string name="faq_8_text_commons">由于您的应用版本不再更新，您发现的程序错误可能永远不会被修复。 此外，也不会有新的功能。 您可以在Google Play上支付一小笔钱购买专业版。
         这是一次性付款，这意味着一旦您购买，您将永远不再需要支付。 即使在获得新的设备之后，也不需要。 如果您不喜欢专业版，您可以在几个小时内卸载它，并且您将自动获得您的资金。
         如果您希望稍后退款，请通过hello@simplemobiletools.com与我们联系，您将获得退款。</string>
+    <string name="why_upgrade_basic_version">基本</string>
     <string name="notice">此应用使用了以下三方库。谢谢。</string>
     <string name="third_party_licences">开放源代码</string>
     <string name="kotlin_title">Kotlin (编程语言)</string>

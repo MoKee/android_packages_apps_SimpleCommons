@@ -671,6 +671,7 @@
     <string name="faq_8_text_commons">Protože verze vaší aplikace již není aktualizována, chyby, které jste možná objevili, nebudou nikdy opraveny. Nebudou také přidány žádné nové funkce. Za malou částku si můžete zakoupit verzi Pro z Obchodu Play.
         Jedná se o jednorázovou platbu, což znamená, že jakmile si aplikaci koupíte, už nikdy nebudete muset platit. Ani pro instalaci na nové zařízení. Pokud se vám verze Pro nebude líbit, stačí ji během několika hodin odinstalovat a peníze dostanete automaticky zpět.
         Pokud chcete vrátit peníze kdykoli později, kontaktujte nás na adrese hello@simplemobiletools.com a dostanete je zpět.</string>
+    <string name="why_upgrade_basic_version">Základní</string>
     <string name="notice">Tato aplikace využívá následující knihovny třetích stran. Děkuji.</string>
     <string name="third_party_licences">Licence třetích stran</string>
     <string name="kotlin_title">Kotlin (programovací jazyk)</string>

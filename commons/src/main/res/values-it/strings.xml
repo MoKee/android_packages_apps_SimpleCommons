@@ -559,6 +559,7 @@
     <string name="faq_8_text_commons">Poiché la versione della tua app non è più aggiornata, i bug che potresti aver notato non verranno mai risolti. Non verranno neanche aggiunte nuove funzioni. Puoi acquistare la versione Pro su Google Play per una piccola somma di denaro.
         È un pagamento una tantum, ciò significa che una volta acquistato, non dovrai più pagare. Nemmeno dopo il passaggio a un nuovo dispositivo. Se non ti piace la versione Pro, puoi semplicemente disinstallarla entro qualche ora e riceverai automaticamente il denaro.
         Se desideri un rimborso in qualsiasi momento, contattaci a hello@simplemobiletool. om e potrai richiederlo.</string>
+    <string name="why_upgrade_basic_version">Base</string>
     <string name="notice">Questa app usa le seguenti librerie di terze parti per semplificarmi la vita. Grazie.</string>
     <string name="third_party_licences">Licenze di terze parti</string>
     <string name="kotlin_title">Kotlin (linguaggio di programmazione)</string>

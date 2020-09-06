@@ -55,4 +55,5 @@
     <string name="camera_short">Kamera</string>
     <string name="clock_short">Horlosie</string>
     <string name="flashlight_short">Flitslig</string>
+    <string name="why_upgrade_basic_version">Basies</string>
 </resources>

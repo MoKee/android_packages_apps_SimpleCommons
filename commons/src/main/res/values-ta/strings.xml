@@ -264,6 +264,7 @@
     <string name="gallery_short">படத்தொகுப்பு</string>
     <string name="notes_short">குறிப்புகள்</string>
     <string name="frequently_asked_questions">அடிக்கடி கேட்கப்படும் கேள்விகள்</string>
+    <string name="why_upgrade_basic_version">அடிப்படை</string>
     <string name="third_party_licences">மூன்றாம் தரப்பு உரிமங்கள்</string>
     <string name="kotlin_title">Koltin (நிரலாக்க மொழி)</string>
 </resources>

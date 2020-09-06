@@ -575,6 +575,7 @@
     <string name="faq_5_title_commons">Lahko kako obnovim izbrisane datoteke?</string>
     <string name="faq_6_title_commons">Ikona zaganjalnika aplikacij je izginila. Kaj lahko naredim?</string>
     <string name="faq_6_text_commons">Vzrok je, da zaganjalnik ne podpira pravilne prilagoditve ikone. Poskusite zagnati aplikacijo prek storitve Google Play ali kakšnega pripomočka, če je na voljo. Ko ste zagnali, nastavite nazaj privzeto oranžno ikono # F57C00. Morda boste morali v najslabšem primeru znova namestiti aplikacijo.</string>
+    <string name="why_upgrade_basic_version">Osnoven</string>
     <string name="notice">Da si olajšamo delo, aplikacija uporablja naslednje programske knjižnice. Hvala.</string>
     <string name="third_party_licences">Licence tretjih oseb</string>
     <string name="kotlin_title">Kotlin (programski jezik)</string>

@@ -527,6 +527,7 @@
     <string name="faq_8_text_commons">由於您的應用程式版本不再更新，您可能發現的 bug 將永遠無法修復。也不會增加新的功能。你可以用一小筆錢在 Google Play 上購買專業版。
         這是一次性付款，也就是說，一旦你購買專業版，就能夠永遠使用，即使買了新裝置。如果你不喜歡專業版，你可以在幾個小時內解除安裝，它自動退款。
         如果您以後需要退款，請通過 hello@simplemobiletools.com 聯繫我們，我們會為您提供服務。</string>
+    <string name="why_upgrade_basic_version">基本</string>
     <string name="notice">這程式使用了下列的第三方函式庫來讓我工作簡化。感謝。</string>
     <string name="third_party_licences">第三方授權</string>
     <string name="kotlin_title">Kotlin (編程語言)</string>

@@ -565,6 +565,7 @@
     <string name="faq_8_text_commons">Uygulama sürümünüz artık güncellenmediğinden, tespit ettiğiniz hatalar hiçbir zaman düzeltilmez. Ayrıca yeni fonksiyonlar eklenmeyecek. Pro sürümünü Google Play\'de satın alabilirsiniz, az miktarda para için.
         Bu tek seferlik bir ödemedir, yani bir kez satın aldığınızda bir daha asla ödeme yapmanız gerekmeyecektir. Yeni bir cihaz aldıktan sonra bile. Pro sürümünü beğenmezseniz, birkaç saat içinde kaldırabilir ve otomatik olarak paranızı geri alabilirsiniz.
         Daha sonra herhangi bir zamanda geri ödeme yapmak istiyorsanız, hello@simplemobiletools.com adresinden bizimle iletişime geçmeniz yeterli olacaktır.</string>
+    <string name="why_upgrade_basic_version">Temel</string>
     <string name="notice">Bu uygulama hayatımı kolaylaştırmak için aşağıdaki üçüncü taraf kitaplıklarını kullanır. Teşekkürler.</string>
     <string name="third_party_licences">Üçüncü taraf lisansları</string>
     <string name="kotlin_title">Kotlin (programlama dili)</string>

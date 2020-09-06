@@ -603,6 +603,7 @@
     <string name="faq_8_text_commons">Mivel az alkalmazás jelenlegi verziója többé nem frissül, az esetlegesen észlelt hibákat soha nem fogja senki kijavítani. Nem kerülnek új funkciók hozzáadásra. Jutányos áron megvásárolhatja a Pro-verziót a Google Áruházban.
          Az egyszeri fizetés, azt jelenti, hogy ha egyszer megvásárolta, soha nem kell többet fizetnie. Még egy új telefon vásárlása után sem. Ha nem tetszik a Pro-verzió, egyszerűen eltávolíthatja azt néhány órán belül, és automatikusan visszakapja a pénzét.
          Ha bármikor később szeretne visszatérítést kérni, lépjen kapcsolatba velünk a hello@simplemobiletools.com címen, és megkapja.</string>
+    <string name="why_upgrade_basic_version">Alap</string>
     <string name="notice">Ez az alkalmazás a következő harmadik fél könyvtárait használja az életem megkönnyítésére. Köszönöm.</string>
     <string name="third_party_licences">Harmadik fél licencek</string>
     <string name="kotlin_title">Kotlin (programnyelv)</string>

@@ -582,6 +582,7 @@
     <string name="faq_8_text_commons">Da Ihre App-Version nicht mehr aktualisiert wird, werden die Fehler, die Sie vielleicht entdeckt haben, nie behoben. Es werden auch keine neuen Funktionen hinzugefügt. Sie können die Pro-Version bei Google Play gegen eine kleine Summe kaufen.
         Es ist eine einmalige Zahlung, das heißt, wenn Sie es kaufen, müssen Sie nie wieder bezahlen. Nicht einmal nach dem Erhalten eines neuen Geräts. Wenn Ihnen die Pro-Version nicht gefällt, können Sie sie innerhalb weniger Stunden deinstallieren und Sie erhalten automatisch Ihr Geld zurück.
         Wenn Sie später eine Erstattung wünschen, kontaktieren Sie uns einfach unter hello@simplemobiletools.com.</string>
+    <string name="why_upgrade_basic_version">Einfach</string>
     <string name="notice">Diese App nutzt die folgenden Drittanbieterbibliotheken, die mein Leben einfacher machen. Danke!</string>
     <string name="third_party_licences">Drittanbieterlizenzen</string>
     <string name="kotlin_title">Kotlin (Programmiersprache)</string>

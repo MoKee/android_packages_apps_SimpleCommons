@@ -94,4 +94,5 @@
     <string name="calendar_short">לוח שנה</string>
     <string name="camera_short">מצלמה</string>
     <string name="clock_short">שעון</string>
+    <string name="why_upgrade_basic_version">בסיסי</string>
 </resources>

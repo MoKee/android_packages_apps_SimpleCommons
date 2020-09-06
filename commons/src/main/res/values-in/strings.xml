@@ -476,6 +476,7 @@
     <string name="faq_6_title_commons">Ikon peluncur aplikasi menghilang. Apa harus saya lakukan?</string>
     <string name="faq_6_text_commons">It is caused by your launcher not supporting icon customization properly. Try launching the app via Google Play or some widget, if available.
         Setelah diluncurkan, cukup atur kembali ikon oranye default # F57C00. Anda mungkin harus menginstal ulang aplikasi dalam kasus terburuk.</string>
+    <string name="why_upgrade_basic_version">Dasar</string>
     <string name="notice">Aplikasi ini menggunakan lib pihak ketiga berikut untuk membuat hidup saya lebih mudah. Terima kasih.</string>
     <string name="third_party_licences">Lisensi pihak ketiga</string>
     <string name="kotlin_title">Kotlin (bahasa pemrograman)</string>

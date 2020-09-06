@@ -24,4 +24,5 @@
     <string name="widgets">Додатоци</string>
     <string name="text">Текст</string>
     <string name="clock_short">Часовник</string>
+    <string name="why_upgrade_basic_version">Основно</string>
 </resources>

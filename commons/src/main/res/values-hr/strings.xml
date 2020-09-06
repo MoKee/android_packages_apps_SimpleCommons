@@ -530,6 +530,7 @@
     <string name="faq_5_title_commons">Mogu li nekako vratiti izbrisane datoteke?</string>
     <string name="faq_6_title_commons">Ikona pokretača aplikacije nestala je. Što mogu učiniti?</string>
     <string name="faq_6_text_commons">UPOZORENJE: Neki pokretači ne rade pravilno prilagodbu ikona aplikacije. U slučaju da ikona nestane, pokušajte pokrenuti aplikaciju putem Google Play-a ili nekog widgeta, ako je dostupan.          Nakon pokretanja vratite natrag zadanu narančastu ikonu # F57C00. Možda ćete morati instalirati aplikaciju u najgorem slučaju.</string>
+    <string name="why_upgrade_basic_version">Osnovno</string>
     <string name="notice">Ova aplikacija koristi biblioteke trećih strana kako bi olakšala moj život. Hvala Vam.</string>
     <string name="third_party_licences">Licence trećih strana</string>
     <string name="kotlin_title">Kotlin (programski jezik)</string>

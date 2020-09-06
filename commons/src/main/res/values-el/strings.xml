@@ -24,6 +24,7 @@
     <string name="transparent_color">Χρώμα διαφάνειας</string>
     <string name="select_a_different_color">Επιλέξτε διαφορετικό χρώμα</string>
     <string name="download">Λήψη αρχείου</string>
+    <string name="notification">Ειδοποίηση</string>
     <string name="email">Ηλεκτρονικό ταχυδρομείο</string>
     <string name="previous">Προηγούμενο</string>
     <string name="next">Επόμενο</string>
@@ -471,6 +472,7 @@
     <string name="calendar_short">Ημερολόγιο</string>
     <string name="camera_short">Φωτογραφική μηχανή</string>
     <string name="clock_short">Ρολόι</string>
+    <string name="flashlight_short">Φακός</string>
     <string name="gallery_short">Συλλογή</string>
     <string name="notes_short">Σημειώσεις</string>
     <string name="frequently_asked_questions">Συχνές ερωτήσεις</string>
@@ -486,6 +488,7 @@
     <string name="faq_4_title_commons">Δεν μου αρέσουν τα χρώματα widget, μπορώ να τα αλλάξω;</string>
     <string name="faq_4_text_commons">Ναι, καθώς σύρετε ένα γραφικό στοιχείο στην αρχική οθόνη σας, εμφανίζεται μια οθόνη διαμόρφωσης widget. Θα δείτε έγχρωμα τετράγωνα στην κάτω αριστερή γωνία, απλά πατήστε τα για να επιλέξετε ένα νέο χρώμα. Μπορείτε να χρησιμοποιήσετε το ρυθμιστικό για να ρυθμίσετε το alpha επίσης.</string>
     <string name="faq_5_title_commons">Μπορώ να επαναφέρω με κάποιο τρόπο τα διαγραμμένα αρχεία;</string>
+    <string name="why_upgrade_basic_version">Βασικό</string>
     <string name="notice">Αυτή η εφαρμογή χρησιμοποιεί τις ακόλουθες βιβλιοθήκες τρίτων για να διευκολύνει τη ζωή μου. Ευχαριστώ.</string>
     <string name="third_party_licences">Άδειες τρίτων</string>
 </resources>
