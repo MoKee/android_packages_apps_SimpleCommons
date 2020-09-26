@@ -11,6 +11,7 @@
     <string name="edit_with">Editar com</string>
     <string name="no_app_found">Não foi encontrada nenhuma aplicação válida</string>
     <string name="set_as">Definir como</string>
+    <string name="copy_to_clipboard">Copiar para área de transferência</string>
     <string name="value_copied_to_clipboard">Valor copiado para área de transferência</string>
     <string name="unknown">Desconhecido</string>
     <string name="always">Sempre</string>
@@ -27,7 +28,22 @@
     <string name="notification">Notificação</string>
     <string name="email">E-mail</string>
     <string name="previous">Anterior</string>
+    <string name="playpause">Reproduzir / Pausar</string>
     <string name="next">Seguinte</string>
+    <string name="number">Número</string>
+    <string name="no_contacts_found">Nenhum contacto encontrado</string>
+    <string name="request_the_required_permissions">Solicitar as permissões necessárias</string>
+    <string name="no_access_to_contacts">A aplicação não conseguiu aceder aos seus contactos</string>
+    <string name="insert_text_here">Digite o texto aqui</string>
+    <string name="manage_blocked_numbers">Gerir números bloqueados</string>
+    <string name="not_blocking_anyone">Nenhum número bloqueado</string>
+    <string name="add_a_blocked_number">Adicionar um número para bloquear</string>
+    <string name="block_number">Bloquear número</string>
+    <string name="block_numbers">Bloquear números</string>
+    <string name="blocked_numbers">Números bloqueados</string>
+    <string name="must_make_default_dialer">Necessita de fazer desta a sua aplicação de telefone predefinida de modo a poder bloquear os números.</string>
+    <string name="set_as_default">Definir como predefinida</string>
+    <string name="block_confirmation">Tem a certeza que deseja bloquear \"%s\"?</string>
     <string name="favorites">Marcadores</string>
     <string name="add_favorites">Adicionar favoritos</string>
     <string name="add_to_favorites">Adicionar aos marcadores</string>
@@ -122,6 +138,10 @@
         <item quantity="one">A eliminar %d item</item>
         <item quantity="other">A eliminar %d itens</item>
     </plurals>
+    <plurals name="delete_contacts">
+        <item quantity="one">%d contacto</item>
+        <item quantity="other">%d contactos</item>
+    </plurals>
     <string name="select_storage">Selecionar armazenamento</string>
     <string name="internal">Interno</string>
     <string name="sd_card">Cartão SD</string>
@@ -169,6 +189,7 @@
     <string name="app_icon_color_warning">AVISO: alguns launchers não lidam bem com a personalização do ícone da aplicação. Caso o ícone desapareça, tente iniciar a aplicação pela Google Play ou algum widget, se disponível.
         Uma vez iniciada, basta redefinir o ícone predefinido laranja #F57C00. Poderá ter de reinstalar a aplicação, no pior dos casos.</string>
     <string name="share_colors_success">Cores atualizadas com sucesso. Um novo tema chamado \'Compartilhado\' foi adicionado, use-o para atualizar as cores de todos os apps no futuro.</string>
+    <string name="shared_theme_note">Tenha em atenção que apesar de estar a utilizar a versão Pro da aplicação, continua a necessitar da versão Simples por razões técnicas. Esta corrige a sincronização de cor. </string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
     <string name="solarized">Solarizar</string>
@@ -196,6 +217,7 @@
     <string name="redo">Refazer</string>
     <string name="print">Imprimir</string>
     <string name="create_shortcut">Criar atalho</string>
+    <string name="add_number_to_contact">Adicionar número ao contacto</string>
     <string name="sort_by">Sort by:</string>
     <string name="name">Nome</string>
     <string name="size">Tamanho</string>
@@ -210,6 +232,10 @@
     <string name="descending">Descendente</string>
     <string name="use_for_this_folder">Usar apenas para esta pasta</string>
     <string name="sort_numeric_parts">Ordenar partes numéricas pelo valor real</string>
+    <string name="first_name">Nome próprio</string>
+    <string name="middle_name">Nome do meio</string>
+    <string name="surname">Apelido</string>
+    <string name="full_name">Nome completo</string>
     <string name="proceed_with_deletion">Tem certeza de que deseja prosseguir com a exclusão?</string>
     <string name="deletion_confirmation">Tem a certeza que quer eliminar %s?</string>
     <string name="move_to_recycle_bin_confirmation">Confirma que pretende mover isto para a Reciclagem?</string>
@@ -247,6 +273,7 @@
     <string name="yesterday">Ontem</string>
     <string name="today">Hoje</string>
     <string name="tomorrow">Amanhã</string>
+    <string name="hide_year">Esconder ano</string>
     <string name="seconds_raw">segundos</string>
     <string name="minutes_raw">minutos</string>
     <string name="hours_raw">horas</string>
@@ -411,6 +438,7 @@
     <string name="import_settings">Exportar configurações</string>
     <string name="settings_exported_successfully">Definições restauradas com sucesso</string>
     <string name="settings_imported_successfully">Definições restauradas com sucesso</string>
+    <string name="start_name_with_surname">Apelido como nome inicial</string>
     <string name="visibility">Visibilidade</string>
     <string name="security">Segurança</string>
     <string name="scrolling">A Deslocar</string>
@@ -420,7 +448,10 @@
     <string name="startup">Arranque</string>
     <string name="text">Texto</string>
     <string name="migrating">Migrando</string>
+    <string name="default_tab_to_open">Abrir aba ao iniciar aplicação</string>
+    <string name="contacts_tab">Contactos</string>
     <string name="favorites_tab">Marcadores</string>
+    <string name="call_history_tab">Histórico de Chamadas</string>
     <string name="groups_tab">Grupos</string>
     <string name="last_used_tab">Usado pela última vez em</string>
     <string name="restore_this_file">Restaurar este ficheiro</string>
@@ -507,6 +538,7 @@
     <string name="email_label">Deixe aqui o seu feedback ou sugestão...</string>
     <string name="upgrade_to_pro">Obter versão Pro</string>
     <string name="more_apps_underlined"><u>Mais aplicações</u></string>
+    <string name="more_apps_from_us_underlined"><u>Mais aplicações nossas</u></string>
     <string name="third_party_licences_underlined">Licenças de terceiros</string>
     <string name="invite_friends_underlined"><u>Convidar amigos</u></string>
     <string name="share_text">Ei! Dê uma olhada em %1$s em %2$s</string>
@@ -528,12 +560,24 @@
     <string name="read_it">Ler isso</string>
     <string name="read_faq">Ler FAQ</string>
     <string name="rate_us_prompt">Olá,\n\nparece que você está usando este app por um bom tempo, e nós realmente agradecemos por isso.\n\nSe pudermos lhe pedir um favor, por favor, avalie-nos no Google Play. Isso ajudar-nos-ia muito.\n\nNão importa como você decida, você não verá essa mensagem novamente.\n\nObrigado!</string>
+    <string name="rate_our_app">Avalie a nossa aplicação, por favor :)</string>
+    <string name="thank_you">Obrigado</string>
+    <string name="app_launcher_short">Launcher de aplicações</string>
+    <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendário</string>
     <string name="camera_short">Câmara</string>
     <string name="clock_short">Relógio</string>
+    <string name="contacts_short">Contactos</string>
+    <string name="dialer_short">Telefone</string>
+    <string name="draw_short">Desenhar</string>
+    <string name="file_manager_short">Gestor de Ficheiros</string>
     <string name="flashlight_short">Lanterna</string>
     <string name="gallery_short">Galeria</string>
+    <string name="music_player_short">Leitor de Música</string>
     <string name="notes_short">Notas</string>
+    <string name="sms_messenger_short">Mensageiro SMS</string>
+    <string name="thank_you_short">Obrigado</string>
+    <string name="voice_recorder_short">Gravador de Voz</string>
     <string name="sideloaded_app">            Parece que a versão da aplicação está corrompida. Por favor, transfira a versão original &lt;a href="%s"&gt;aqui&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Perguntas Frequentes</string>
@@ -558,7 +602,31 @@ Uma vez iniciada, basta repor o ícone predefinido laranja #F57C00. Poderá ter 
     <string name="faq_8_text_commons">Como a versão do seu aplicativo não é mais atualizada, os erros que você encontrou nunca serão corrigidos. Também não haverá novas funções adicionadas. Você pode comprar a versão Pro no Google Play para uma pequena soma de dinheiro.
         É uma única vez, o que significa que, uma vez comprada, nunca mais teremos de pagar mais. Nem mesmo depois de obter um novo dispositivo. Se você não vai gostar da versão Pro, é possível desinstalá-la dentro de algumas horas e automaticamente vai receber seu dinheiro.
         Se você quiser um reembolso a qualquer momento depois, basta nos contatar em hello@simplemobiletools. tome e você o conseguirá.</string>
+    <string name="why_upgrade">Obtenha a versão Pro agora!</string>
     <string name="why_upgrade_basic_version">Básico</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="why_upgrade_no_ads">Sem anúncios</string>
+    <string name="why_upgrade_no_internet_access">Sem acesso à internet</string>
+    <string name="why_upgrade_footer">+ 100% Garantia de Reembolso</string>
+    <string name="why_upgrade_advanced_photo_editor">Editor avançado de fotos</string>
+    <string name="why_upgrade_heic_support">Suporte a ficheiros HEIC/HEIF</string>
+    <string name="why_upgrade_batch_renaming">Renomeação avançada de ficheiros em lote</string>
+    <string name="why_upgrade_folder_locking">Bloqueio individual de pasta</string>
+    <string name="why_upgrade_printing_support">Suporte à impressão</string>
+    <string name="why_upgrade_time_zone_support">Suporte a fuso horário</string>
+    <string name="why_upgrade_attendees_emails">Participantes e lembretes por e-mail</string>
+    <string name="why_upgrade_easy_event_importing">Importação fácil de eventos</string>
+    <string name="why_upgrade_new_widgets">Novos widgets</string>
+    <string name="why_upgrade_duplicate_contact_merging">Combinação de contactos duplicados melhorada</string>
+    <string name="why_upgrade_font_size_customization">Personalização do tamanho da fonte</string>
+    <string name="why_upgrade_private_contact_sharing">Partilha opcional de contacto privado por entre as nossas aplicações</string>
+    <string name="why_upgrade_checklists">Listas de verificação</string>
+    <string name="why_upgrade_different_note_per_widget">Notas e cores diferentes por widget</string>
+    <string name="why_upgrade_date_and_time_format">Personalização do formato de data e hora</string>
+    <string name="why_upgrade_shortcuts">Atalhos do ecrã inicial</string>
+    <string name="why_upgrade_file_compression">Suporte a compressão de ficheiros</string>
+    <string name="why_upgrade_background_color_customization">Personalização da cor de fundo</string>
+    <string name="why_upgrade_file_importing">Suporte à importação de ficheiros</string>
     <string name="notice">Esta aplicação utiliza as seguintes bibliotecas de terceiros para facilitar a minha vida. Obrigado.</string>
     <string name="third_party_licences">Licenças de terceiros</string>
     <string name="kotlin_title">Kotlin (linguagem de programação)</string>
@@ -585,6 +653,11 @@ Uma vez iniciada, basta repor o ícone predefinido laranja #F57C00. Poderá ter 
     <string name="sanselan_title">Apache Sanselan (lendo metadados da imagem)</string>
     <string name="filters_title">Filtros de Fotos Android (filtros de imagens)</string>
     <string name="gesture_views_title">Visualizações de gestos (imagens com zoom)</string>
+    <string name="indicator_fast_scroll_title">Indicador de rolagem rápida (letras na barra de rolagem)</string>
+    <string name="event_bus_title">Event Bus (comunicação dentro da aplicação)</string>
+    <string name="audio_record_view_title">Visualização da gravação de áudio (visualização de áudio)</string>
+    <string name="sms_mms_title">SMS SMS (tratamento de SMS e MMS)</string>
     <string name="deprecated_app">OBSOLETO: Esta versão do aplicativo não é mais mantida, obtenha a versão Pro em https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Não se esqueça de que, se você desinstalar qualquer aplicativo pago em até 2 horas, você será automaticamente reembolsado. Se você quiser reembolsar a qualquer momento mais tarde, entre em contato conosco através do e-mail hello@simplemobiletools. om e você vai conseguir. Isso faz com que seja fácil experimentá-lo :)</string>
+    <string name="developer_description">Um grupo de aplicações Android simples e de código aberto com widgets personalizáveis, sem anúncios ou permissões desnecessárias. </string>
 </resources>

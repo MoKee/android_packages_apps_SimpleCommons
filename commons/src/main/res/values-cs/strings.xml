@@ -671,7 +671,31 @@
     <string name="faq_8_text_commons">Protože verze vaší aplikace již není aktualizována, chyby, které jste možná objevili, nebudou nikdy opraveny. Nebudou také přidány žádné nové funkce. Za malou částku si můžete zakoupit verzi Pro z Obchodu Play.
         Jedná se o jednorázovou platbu, což znamená, že jakmile si aplikaci koupíte, už nikdy nebudete muset platit. Ani pro instalaci na nové zařízení. Pokud se vám verze Pro nebude líbit, stačí ji během několika hodin odinstalovat a peníze dostanete automaticky zpět.
         Pokud chcete vrátit peníze kdykoli později, kontaktujte nás na adrese hello@simplemobiletools.com a dostanete je zpět.</string>
+    <string name="why_upgrade">Získejte nyní Pro verzi!</string>
     <string name="why_upgrade_basic_version">Základní</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="why_upgrade_no_ads">Bez reklam</string>
+    <string name="why_upgrade_no_internet_access">Není připojení k Internetu</string>
+    <string name="why_upgrade_footer">+ 100% záruka vrácení peněz</string>
+    <string name="why_upgrade_advanced_photo_editor">Pokročilý editor fotografií</string>
+    <string name="why_upgrade_heic_support">Podpora souborů HEIC/HEIF</string>
+    <string name="why_upgrade_batch_renaming">Rozšířené dávkové přejmenování souborů</string>
+    <string name="why_upgrade_folder_locking">Uzamčení jednotlivých složek</string>
+    <string name="why_upgrade_printing_support">Podpora tisku</string>
+    <string name="why_upgrade_time_zone_support">Podpora časových pásem</string>
+    <string name="why_upgrade_attendees_emails">Účastníci a e-mailové upomínky</string>
+    <string name="why_upgrade_easy_event_importing">Snadný import událostí</string>
+    <string name="why_upgrade_new_widgets">Nové widgety</string>
+    <string name="why_upgrade_duplicate_contact_merging">Vylepšené sloučení duplicitních kontaktů</string>
+    <string name="why_upgrade_font_size_customization">Přizpůsobení velikosti písem</string>
+    <string name="why_upgrade_private_contact_sharing">Volitelné soukromé sdílení kontaktů v rámci našich aplikací</string>
+    <string name="why_upgrade_checklists">Seznamy</string>
+    <string name="why_upgrade_different_note_per_widget">Různé poznámky a barvy na widgety</string>
+    <string name="why_upgrade_date_and_time_format">Přizpůsobení formátů data a času</string>
+    <string name="why_upgrade_shortcuts">Zkratky na domovské obrazovce</string>
+    <string name="why_upgrade_file_compression">Podpora komprese souborů</string>
+    <string name="why_upgrade_background_color_customization">Přizpůsobení barev pozadí</string>
+    <string name="why_upgrade_file_importing">Podpora importu souborů</string>
     <string name="notice">Tato aplikace využívá následující knihovny třetích stran. Děkuji.</string>
     <string name="third_party_licences">Licence třetích stran</string>
     <string name="kotlin_title">Kotlin (programovací jazyk)</string>

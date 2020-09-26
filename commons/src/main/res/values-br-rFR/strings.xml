@@ -190,6 +190,7 @@
     <string name="calendar_short">Deiziataer</string>
     <string name="camera_short">Kamera</string>
     <string name="contacts_short">Darempredoù</string>
+    <string name="flashlight_short">Lampig-cʼhodell</string>
     <string name="notes_short">Notennoù</string>
     <string name="thank_you_short">Trugarez</string>
 </resources>

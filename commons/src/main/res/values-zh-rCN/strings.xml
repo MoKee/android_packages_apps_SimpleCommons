@@ -267,6 +267,7 @@
     <string name="yesterday">昨天</string>
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>
+    <string name="hide_year">隐藏年份</string>
     <string name="seconds_raw">秒</string>
     <string name="minutes_raw">分钟</string>
     <string name="hours_raw">小时</string>
@@ -565,7 +566,30 @@
     <string name="faq_8_text_commons">由于您的应用版本不再更新，您发现的程序错误可能永远不会被修复。 此外，也不会有新的功能。 您可以在Google Play上支付一小笔钱购买专业版。
         这是一次性付款，这意味着一旦您购买，您将永远不再需要支付。 即使在获得新的设备之后，也不需要。 如果您不喜欢专业版，您可以在几个小时内卸载它，并且您将自动获得您的资金。
         如果您希望稍后退款，请通过hello@simplemobiletools.com与我们联系，您将获得退款。</string>
+    <string name="why_upgrade">升级专业版</string>
     <string name="why_upgrade_basic_version">基本</string>
+    <string name="why_upgrade_pro_version">专业版</string>
+    <string name="why_upgrade_no_ads">无广告</string>
+    <string name="why_upgrade_no_internet_access">无网络连接</string>
+    <string name="why_upgrade_footer">+100%退款保证</string>
+    <string name="why_upgrade_advanced_photo_editor">高级照片编辑器</string>
+    <string name="why_upgrade_heic_support">HEIC/HEIF 文件支持</string>
+    <string name="why_upgrade_batch_renaming">高级重命名批量文件</string>
+    <string name="why_upgrade_folder_locking">锁定独立文件夹</string>
+    <string name="why_upgrade_printing_support">打印支持</string>
+    <string name="why_upgrade_time_zone_support">时区支持</string>
+    <string name="why_upgrade_easy_event_importing">轻松导入事件</string>
+    <string name="why_upgrade_new_widgets">新建微件</string>
+    <string name="why_upgrade_duplicate_contact_merging">改进重复联系人合并功能</string>
+    <string name="why_upgrade_font_size_customization">自定义字体大小</string>
+    <string name="why_upgrade_private_contact_sharing">可选的应用内私人联系人分享</string>
+    <string name="why_upgrade_checklists">清单</string>
+    <string name="why_upgrade_different_note_per_widget">每个控件有不同的标记和颜色</string>
+    <string name="why_upgrade_date_and_time_format">自定义日期和时间格式</string>
+    <string name="why_upgrade_shortcuts">主屏幕快捷方式</string>
+    <string name="why_upgrade_file_compression">支持压缩文件</string>
+    <string name="why_upgrade_background_color_customization">自定义背景颜色</string>
+    <string name="why_upgrade_file_importing">支持文件导入</string>
     <string name="notice">此应用使用了以下三方库。谢谢。</string>
     <string name="third_party_licences">开放源代码</string>
     <string name="kotlin_title">Kotlin (编程语言)</string>

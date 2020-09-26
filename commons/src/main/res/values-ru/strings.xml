@@ -671,7 +671,31 @@
     <string name="faq_8_text_commons">Поскольку версия вашего приложения больше не обновляется, ошибки, которые вы обнаружили, никогда не будут исправлены. Кроме того, новые функции не будут добавлены. Вы можете купить Pro версию на Google Play за небольшую сумму денег.
         Это единовременный платеж, что означает, что после покупки вам никогда не придется платить снова. Даже после получения нового устройства. Если вам не понравится версия Pro, вы можете просто удалить ее в течение нескольких часов, и вы автоматически получите ваши деньги обратно.
         Если вы хотите вернуть деньги позже, просто свяжитесь с нами по адресу hello@simplemobiletools. и вы его получите.</string>
+    <string name="why_upgrade">Получите версию Pro прямо сейчас!</string>
     <string name="why_upgrade_basic_version">Базовый</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="why_upgrade_no_ads">Без рекламы</string>
+    <string name="why_upgrade_no_internet_access">Без доступа к интернету</string>
+    <string name="why_upgrade_footer">+ 100% гарантия возврата денег</string>
+    <string name="why_upgrade_advanced_photo_editor">Расширенный редактор фото</string>
+    <string name="why_upgrade_heic_support">Поддержка файлов HEIC/HEIF</string>
+    <string name="why_upgrade_batch_renaming">Расширенное переименование пакетного файла</string>
+    <string name="why_upgrade_folder_locking">Индивидуальная блокировка папок</string>
+    <string name="why_upgrade_printing_support">Поддержка печати</string>
+    <string name="why_upgrade_time_zone_support">Поддержка часовых поясов</string>
+    <string name="why_upgrade_attendees_emails">Участники и напоминания по электронной почте</string>
+    <string name="why_upgrade_easy_event_importing">Легкий импорт событий</string>
+    <string name="why_upgrade_new_widgets">Новые виджеты</string>
+    <string name="why_upgrade_duplicate_contact_merging">Улучшено объединение дубликатов контактов</string>
+    <string name="why_upgrade_font_size_customization">Настройка размера шрифта</string>
+    <string name="why_upgrade_private_contact_sharing">Дополнительный обмен конфиденциальными контактами в наших приложениях</string>
+    <string name="why_upgrade_checklists">Контрольные списки</string>
+    <string name="why_upgrade_different_note_per_widget">Разные заметки и цвета для каждого виджета</string>
+    <string name="why_upgrade_date_and_time_format">Настройка формата даты и времени</string>
+    <string name="why_upgrade_shortcuts">Ярлыки на главном экране</string>
+    <string name="why_upgrade_file_compression">Поддержка сжатия файлов</string>
+    <string name="why_upgrade_background_color_customization">Настройка цвета фона</string>
+    <string name="why_upgrade_file_importing">Поддержка импорта файлов</string>
     <string name="notice">Это приложение использует следующие библиотеки сторонних разработчиков, чтобы облегчить мой труд. Спасибо.</string>
     <string name="third_party_licences">Лицензии третьих сторон</string>
     <string name="kotlin_title">Kotlin (язык программирования)</string>

@@ -603,7 +603,31 @@
     <string name="faq_8_text_commons">Mivel az alkalmazás jelenlegi verziója többé nem frissül, az esetlegesen észlelt hibákat soha nem fogja senki kijavítani. Nem kerülnek új funkciók hozzáadásra. Jutányos áron megvásárolhatja a Pro-verziót a Google Áruházban.
          Az egyszeri fizetés, azt jelenti, hogy ha egyszer megvásárolta, soha nem kell többet fizetnie. Még egy új telefon vásárlása után sem. Ha nem tetszik a Pro-verzió, egyszerűen eltávolíthatja azt néhány órán belül, és automatikusan visszakapja a pénzét.
          Ha bármikor később szeretne visszatérítést kérni, lépjen kapcsolatba velünk a hello@simplemobiletools.com címen, és megkapja.</string>
+    <string name="why_upgrade">Szerezze meg most a Pro verziót!</string>
     <string name="why_upgrade_basic_version">Alap</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="why_upgrade_no_ads">Reklámmentes</string>
+    <string name="why_upgrade_no_internet_access">Nincs szükség internetre</string>
+    <string name="why_upgrade_footer">100%-os pénz-visszafizetési garancia</string>
+    <string name="why_upgrade_advanced_photo_editor">Kiemelkedő fényképszerkesztő</string>
+    <string name="why_upgrade_heic_support">HEIC/HEIF fájltámogatás</string>
+    <string name="why_upgrade_batch_renaming">Átalakított csoportos fájlátnevezés</string>
+    <string name="why_upgrade_folder_locking">Egyenkénti mappazárolás</string>
+    <string name="why_upgrade_printing_support">Nyomtatási támogatás</string>
+    <string name="why_upgrade_time_zone_support">Időzónák támogatása</string>
+    <string name="why_upgrade_attendees_emails">Résztvevők és e-mailes emlékeztetők</string>
+    <string name="why_upgrade_easy_event_importing">Egyszerű eseményimportálás</string>
+    <string name="why_upgrade_new_widgets">Új kisalkalmazások</string>
+    <string name="why_upgrade_duplicate_contact_merging">Továbbfejlesztett névjegyegyesítés</string>
+    <string name="why_upgrade_font_size_customization">Testreszabható betűméretek</string>
+    <string name="why_upgrade_private_contact_sharing">Választható privát névjegymegosztás a béna alkalmazásunkat kihagyva</string>
+    <string name="why_upgrade_checklists">Ellenőrzőlista</string>
+    <string name="why_upgrade_different_note_per_widget">Külöbnböző jegyzetek és színek a kisalkalmazásokhoz</string>
+    <string name="why_upgrade_date_and_time_format">Testreszabható dátum- és időformátum</string>
+    <string name="why_upgrade_shortcuts">Kezdőképernyő parancsikonok</string>
+    <string name="why_upgrade_file_compression">Fájltömörítési támogatás</string>
+    <string name="why_upgrade_background_color_customization">Testreszabható háttérszín</string>
+    <string name="why_upgrade_file_importing">Fájlátviteli támogatás</string>
     <string name="notice">Ez az alkalmazás a következő harmadik fél könyvtárait használja az életem megkönnyítésére. Köszönöm.</string>
     <string name="third_party_licences">Harmadik fél licencek</string>
     <string name="kotlin_title">Kotlin (programnyelv)</string>

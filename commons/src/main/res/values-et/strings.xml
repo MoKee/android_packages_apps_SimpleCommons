@@ -603,7 +603,31 @@
     <string name="faq_8_text_commons">Kuna teie rakenduse versiooni enam ei värskendata, ei parandata tõenäoliselt kunagi leitud vigu. Samuti ei lisata uusi funktsioone. Pro-versiooni saate väikese raha eest osta Google Playst.
        See on ühekordne makse, mis tähendab, et pärast selle ostmist ei pea te enam kunagi maksma. Isegi mitte pärast uue seadme hankimist. Kui teile Pro versioon ei meeldi, saate selle mõne tunni jooksul lihtsalt desinstallida ja saate oma raha automaatselt tagasi.
         Kui soovite tagasimakset igal ajal hiljem, võtke meiega lihtsalt ühendust aadressil hello@simplemobiletools.com ja saate selle kätte.</string>
+    <string name="why_upgrade">Hankige kohe Pro versioon!</string>
     <string name="why_upgrade_basic_version">Põhiline</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="why_upgrade_no_ads">Reklaamivaba</string>
+    <string name="why_upgrade_no_internet_access">Interneti-ühendus puudub.</string>
+    <string name="why_upgrade_footer">+ 100% raha tagasi garantii</string>
+    <string name="why_upgrade_advanced_photo_editor">Täiustatud fototöötlus</string>
+    <string name="why_upgrade_heic_support">HEIC/HEIF failide tugi</string>
+    <string name="why_upgrade_batch_renaming">Täpsem paket failide ümbernimetamine</string>
+    <string name="why_upgrade_folder_locking">Individuaalne kausta lukustamine</string>
+    <string name="why_upgrade_printing_support">Printimise tugi</string>
+    <string name="why_upgrade_time_zone_support">Ajavööndi tugi</string>
+    <string name="why_upgrade_attendees_emails">Osalejad ja meeldetuletused e-postiga</string>
+    <string name="why_upgrade_easy_event_importing">Lihtne sündmuste importimine</string>
+    <string name="why_upgrade_new_widgets">Uued vidinad</string>
+    <string name="why_upgrade_duplicate_contact_merging">Täiustatud duplikaatkontaktide ühendamine</string>
+    <string name="why_upgrade_font_size_customization">Fondi suuruse kohandamine</string>
+    <string name="why_upgrade_private_contact_sharing">Valikuline privaatsete kontaktide jagamine meie rakendustes</string>
+    <string name="why_upgrade_checklists">Kontrollnimekirjad</string>
+    <string name="why_upgrade_different_note_per_widget">Erinevad märkused ja värvid vidina kohta</string>
+    <string name="why_upgrade_date_and_time_format">Kuupäeva ja kellaaja vormingu kohandamine</string>
+    <string name="why_upgrade_shortcuts">Avakuva viited</string>
+    <string name="why_upgrade_file_compression">Failide tihendamise tugi</string>
+    <string name="why_upgrade_background_color_customization">Taustavärvi kohandamine</string>
+    <string name="why_upgrade_file_importing">Failide importimise tugi</string>
     <string name="notice">See rakendus kasutab järgmisi kolmanda osapoole teeke, et teha oma elu lihtsamaks. Aitäh.</string>
     <string name="third_party_licences">Kolmandate isikute litsentsid</string>
     <string name="kotlin_title">Kotlin (programmeerimiskeel)</string>
