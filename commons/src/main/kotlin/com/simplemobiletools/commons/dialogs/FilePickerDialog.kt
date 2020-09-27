@@ -160,7 +160,6 @@ class FilePickerDialog(val activity: BaseSimpleActivity,
         }
 
         val sortedItems = items.sortedWith(compareBy({ !it.isDirectory }, { it.name.toLowerCase() }))
-
         val adapter = FilepickerItemsAdapter(activity, sortedItems, mDialogView.filepicker_list) {
             if ((it as FileDirItem).isDirectory) {
                 activity.handleLockedFolderOpening(it.path) { success ->
@@ -223,11 +222,12 @@ class FilePickerDialog(val activity: BaseSimpleActivity,
         if (activity.isPathOnOTG(path)) {
             activity.getOTGItems(path, showHidden, false, callback)
         } else {
-            getRegularItems(path, callback)
+            val lastModifieds = activity.getFolderLastModifieds(path)
+            getRegularItems(path, lastModifieds, callback)
         }
     }
 
-    private fun getRegularItems(path: String, callback: (List<FileDirItem>) -> Unit) {
+    private fun getRegularItems(path: String, lastModifieds: HashMap<String, Long>, callback: (List<FileDirItem>) -> Unit) {
         val items = ArrayList<FileDirItem>()
         val base = File(path)
         val files = base.listFiles()
@@ -237,14 +237,21 @@ class FilePickerDialog(val activity: BaseSimpleActivity,
         }
 
         for (file in files) {
-            if (!showHidden && file.isHidden) {
+            if (!showHidden && file.name.startsWith('.')) {
                 continue
             }
 
             val curPath = file.absolutePath
             val curName = curPath.getFilenameFromPath()
             val size = file.length()
-            items.add(FileDirItem(curPath, curName, file.isDirectory, file.getDirectChildrenCount(showHidden), size, file.lastModified()))
+            var lastModified = lastModifieds.remove(curPath)
+            val isDirectory = if (lastModified != null) false else file.isDirectory
+            if (lastModified == null) {
+                lastModified = 0    // we don't actually need the real lastModified that badly, do not check file.lastModified()
+            }
+
+            val children = if (isDirectory) file.getDirectChildrenCount(showHidden) else 0
+            items.add(FileDirItem(curPath, curName, isDirectory, children, size, lastModified))
         }
         callback(items)
     }
