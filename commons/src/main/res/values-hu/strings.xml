@@ -658,6 +658,7 @@
     <string name="event_bus_title">Event Bus (kommunikáció az alkalmazáson belül)</string>
     <string name="audio_record_view_title">Audiófelvétel-nézet (audió-vizualizáció)</string>
     <string name="sms_mms_title">SMS MMS (SMS- és MMS-kezelés)</string>
+    <string name="apng_title">APNG Android (animált WebP támogatás)</string>
     <string name="deprecated_app">ELAVULT: Az alkalmazás ezen verziójára már nincs többé támogatás, szerezze be a Pro-verziót a https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro webhelyről</string>
     <string name="pro_app_refund">Ne felejtse, ha egy fizetős alkalmazást 2 órán belül töröl (uninstallál), akkor automatikusan megkapja a visszatérítést. Ha bármikor később szeretne visszatérést kapni, vegye fel velünk a kapcsolatot a hello@simplemobiletools.com címen. Ez megkönnyítheti a tesztelést :-)</string>
     <string name="developer_description">Egyszerű, nyílt forráskódú Android-alkalmazások csoportja, testreszabható kisalkalmazásokkal, szükségtelen engedélyek és reklámok nélkül.</string>

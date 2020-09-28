@@ -726,6 +726,7 @@
     <string name="event_bus_title">Event Bus (komunikace v aplikaci)</string>
     <string name="audio_record_view_title">Zobrazení zvukového záznamu (vizualizace zvuku)</string>
     <string name="sms_mms_title">SMS MMS (SMS a MMS)</string>
+    <string name="apng_title">APNG Android (podpora animovaných WebP)</string>
     <string name="deprecated_app">ZASTARALÁ: Tato verze aplikace již není udržována, získejte verzi Pro na https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Nezapomeňte, že pokud odinstalujete všechny placené aplikace do 2 hodin, platba budete automaticky vrácena. Pokud chcete vrátit peníze později, kontaktujte nás na hello@simplemobiletools.com a získáte je zpět. To vám usnadní vyzkoušení :)</string>
     <string name="developer_description">Skupina jednoduchých aplikací s otevřeným zdrojovým kódem pro Android s přizpůsobitelnými widgety, bez reklam a zbytečných oprávnění.</string>
