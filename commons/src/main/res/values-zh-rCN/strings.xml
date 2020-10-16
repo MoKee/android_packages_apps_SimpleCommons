@@ -185,6 +185,7 @@
     <string name="app_icon_color_warning">警告：某些启动程序无法正确处理应用程序图标的自定义。 如果图标消失，请尝试通过Google Play或某个小部件（如果可用）启动应用。
          一旦启动，只需恢复默认的橙色图标＃F57C00。 如果不行，您需要重新安装该应用程序。</string>
     <string name="share_colors_success">颜色更改成功。已添加名为“共享”的新主题，以后你可以使用它来更改所有应用的颜色。</string>
+    <string name="shared_theme_note">请注意，即使您使用的是专业版应用程序，出于技术原因，您仍然需要Simple Thank You应用。它负责颜色同步。</string>
     <string name="light_theme">浅色主题</string>
     <string name="dark_theme">深色主题</string>
     <string name="solarized">过度曝光</string>
@@ -578,6 +579,7 @@
     <string name="why_upgrade_folder_locking">锁定独立文件夹</string>
     <string name="why_upgrade_printing_support">打印支持</string>
     <string name="why_upgrade_time_zone_support">时区支持</string>
+    <string name="why_upgrade_attendees_emails">与会者和电子邮件提醒</string>
     <string name="why_upgrade_easy_event_importing">轻松导入事件</string>
     <string name="why_upgrade_new_widgets">新建微件</string>
     <string name="why_upgrade_duplicate_contact_merging">改进重复联系人合并功能</string>
@@ -620,6 +622,7 @@
     <string name="event_bus_title">事件总线(应用内部通信)</string>
     <string name="audio_record_view_title">音频记录视图 (音频可视化)</string>
     <string name="sms_mms_title">短信、彩信（短信和彩信处理）</string>
+    <string name="apng_title">APNG Android(动态WebP支持)</string>
     <string name="deprecated_app">DECADED: 此应用版本不再受到维护, 获取专业版https://play.google.com/store/apps/details?id=com.simplemobiletiles.xx.pro</string>
     <string name="pro_app_refund">如您需要申请退款，通过以下简单的方法即可获得：如果您在2小时内卸载任意付费应用，将会自动收到退款。而若需要在这之后申请退款，只需通过 hello@simplemobiletools.com 联系我们 :)</string>
     <string name="developer_description">一组简约且开源的 Android 应用程序，拥有可自定义的小部件，没有广告和不必要的权限。</string>

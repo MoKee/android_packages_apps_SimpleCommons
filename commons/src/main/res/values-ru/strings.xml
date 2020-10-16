@@ -726,6 +726,7 @@
     <string name="event_bus_title">шина событий (коммуникации внутри приложения)</string>
     <string name="audio_record_view_title">Просмотр аудиозаписи (визуализация звука)</string>
     <string name="sms_mms_title">SMS MMS (обработка SMS и MMS)</string>
+    <string name="apng_title">APNG Android (анимированная поддержка WebP)</string>
     <string name="deprecated_app">НЕ ПОДДЕРЖИВАЕТСЯ: Эта версия приложения больше не поддерживается, загрузите версию Pro, перейдя по ссылке:
 https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Не забывайте, что если вы удалите любое платное приложение в течение 2 часов, вам будет автоматически возвращена сумма оплаты. Если вы хотите вернуть деньги в другой момент, просто свяжитесь с нами по адресу hello@simplemobiletools.com и вы получите деньги обратно.</string>

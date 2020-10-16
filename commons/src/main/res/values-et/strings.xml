@@ -658,6 +658,7 @@
     <string name="event_bus_title">Event Bus (suhtlus rakenduses)</string>
     <string name="audio_record_view_title">Helisalvestuse vaade (heli visualiseerimine)</string>
     <string name="sms_mms_title">SMS MMS (SMS ja MMS hooldamine)</string>
+    <string name="apng_title">APNG Android (animeeritud WebP tugi)</string>
     <string name="deprecated_app">Selle rakenduse versiooni enam ei säilitata, hankige Pro versioon aadressilt https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Ärge unustage, et kui te eemaldate makstud rakendused 2 tunni jooksul, tagastatakse raha see automaatselt. Kui soovite tagasimakseid hiljem, võtke meiega ühendust aadressil hello@simplemobiletools.com ja te saate selle. See võimaldab rakendusi hõlpsasti proovida :)</string>
     <string name="developer_description">Rühm lihtsaid, avatud lähtekoodiga Androidi rakendusi koos kohandatavate vidinatega, ilma reklaamide ja tarbetute lubadeta.</string>
