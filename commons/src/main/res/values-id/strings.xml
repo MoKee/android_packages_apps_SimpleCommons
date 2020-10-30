@@ -35,6 +35,15 @@
     <string name="no_access_to_contacts">The app could not access your contacts</string>
     <string name="insert_text_here">Insert text here</string>
 
+    <!-- View types -->
+    <string name="change_view_type">Ubah tampilan</string>
+    <string name="grid">Kotak</string>
+    <string name="list">Daftar</string>
+    <string name="increase_column_count">Tambah jumlah kolom</string>
+    <string name="reduce_column_count">Kurangi jumlah kolom</string>
+    <string name="change_cover_image">Ubah gambar kover</string>
+    <string name="select_photo">Pilih foto</string>
+
     <!-- Blocked numbers -->
     <string name="manage_blocked_numbers">Kelola nomor yang diblokir</string>
     <string name="not_blocking_anyone">Anda tidak memblokir siapapun.</string>
