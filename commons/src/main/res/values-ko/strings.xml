@@ -14,6 +14,10 @@
     <string name="email">이메일</string>
     <string name="previous">이전</string>
     <string name="next">다음</string>
+    <string name="change_view_type">보기 방식 변경하기</string>
+    <string name="grid">격자</string>
+    <string name="list">목록</string>
+    <string name="select_photo">사진 선택</string>
     <string name="favorites">즐겨찾기</string>
     <string name="add_to_favorites">즐겨찾기에 추가</string>
     <string name="remove_from_favorites">즐겨찾기에서 제거</string>

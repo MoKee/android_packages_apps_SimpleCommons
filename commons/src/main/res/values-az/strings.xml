@@ -23,6 +23,7 @@
     <string name="email">E-poçt</string>
     <string name="previous">Əvvəlki</string>
     <string name="next">Sonrakı</string>
+    <string name="select_photo">Foto seçin</string>
     <string name="favorites">Sevimlilər</string>
     <string name="add_favorites">Sevimlilər əlavə et</string>
     <string name="add_to_favorites">Sevimlilərə əlavə et</string>
@@ -318,7 +319,6 @@
     <string name="alarm_goes_off_in">Zəng dayanana qədər qalan vaxt:\n%s</string>
     <string name="reminder_triggers_in">Xatırladıcının işləməsinə qalan vaxt:\n%s</string>
     <string name="alarm_warning">Xahiş olunur zəngə istinad etməzdən əvvəl işləyib işləmədiyini yoxlayın. Güc qoruma parametrləri onun işləməsində problem yarada bilər.</string>
-    <string name="reminder_warning">Xahiş olunur xatırladıcılara istinad etməzdən əvvəl işləyib işləmədiyini yoxlayın. Güc qoruma parametrləri onların işləməsində problem yarada bilər.</string>
     <string name="alarm">Zəng</string>
     <string name="snooze">Yuxu</string>
     <string name="dismiss">Burax</string>

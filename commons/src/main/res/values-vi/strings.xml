@@ -35,6 +35,13 @@
     <string name="request_the_required_permissions">Xin cấp quyền yêu cầu</string>
     <string name="no_access_to_contacts">Ứng dụng không thể truy cập danh bạ của bạn</string>
     <string name="insert_text_here">Chèn văn bản ở đây</string>
+    <string name="change_view_type">Change view type</string>
+    <string name="grid">Lưới</string>
+    <string name="list">List</string>
+    <string name="increase_column_count">Tăng số cột</string>
+    <string name="reduce_column_count">Giảm số cột</string>
+    <string name="change_cover_image">Thay đổi ảnh bìa</string>
+    <string name="select_photo">Chọn ảnh</string>
     <string name="manage_blocked_numbers">Quản lý số bị chặn</string>
     <string name="not_blocking_anyone">Bạn đang không chặn ai cả.</string>
     <string name="add_a_blocked_number">Thêm một số bị chặn</string>
@@ -356,7 +363,6 @@
     <string name="alarm_goes_off_in">Thời gian còn lại cho đến khi báo thức kêu:\n%s</string>
     <string name="reminder_triggers_in">Thời gian còn lại cho đến khi nhắc nhở kích hoạt:\n%s</string>
     <string name="alarm_warning">Hãy chắc chắn rằng báo động hoạt động đúng trước khi dựa vào nó. Nó có thể hoạt động sai do hạn chế hệ thống liên quan đến tiết kiệm pin.</string>
-    <string name="reminder_warning">Hãy chắc chắn rằng các lời nhắc hoạt động đúng trước khi dựa vào chúng. Chúng có thể hoạt động sai do hạn chế hệ thống liên quan đến tiết kiệm pin.</string>
     <string name="notifications_disabled">Thông báo của ứng dụng này bị vô hiệu hóa. Vui lòng vào cài đặt thiết bị của bạn để kích hoạt chúng.</string>
     <string name="alarm">Báo thức</string>
     <string name="snooze">Báo lại</string>

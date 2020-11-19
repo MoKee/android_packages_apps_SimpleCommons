@@ -7,6 +7,7 @@
     <string name="notification">Paziņojums</string>
     <string name="previous">Iepriekšējais</string>
     <string name="next">Nākamais</string>
+    <string name="select_photo">Atlasiet fotoattēlu</string>
     <string name="search">Meklēt</string>
     <string name="skip">Izlaist</string>
     <string name="path">Ceļš</string>

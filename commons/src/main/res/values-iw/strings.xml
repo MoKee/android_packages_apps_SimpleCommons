@@ -12,6 +12,7 @@
     <string name="email">דוא\"ל</string>
     <string name="previous">הקודם</string>
     <string name="next">הבא</string>
+    <string name="select_photo">בחר תמונה</string>
     <string name="favorites">מועדפים</string>
     <string name="add_to_favorites">הוספה למועדפים</string>
     <string name="remove_from_favorites">הסרה מהמועדפים</string>

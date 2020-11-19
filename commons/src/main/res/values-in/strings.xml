@@ -28,6 +28,13 @@
     <string name="email">Surel</string>
     <string name="previous">Sebelumnya</string>
     <string name="next">Berikutnya</string>
+    <string name="change_view_type">Ubah jenis tampilan</string>
+    <string name="grid">Kotak</string>
+    <string name="list">Daftar</string>
+    <string name="increase_column_count">Tambah jumlah kolom</string>
+    <string name="reduce_column_count">Mengurangi jumlah kolom</string>
+    <string name="change_cover_image">Ubah gambar sampul</string>
+    <string name="select_photo">Pilih foto</string>
     <string name="favorites">Favorit</string>
     <string name="add_favorites">Tambah ke favorit</string>
     <string name="add_to_favorites">Tambahkan ke favorit</string>
@@ -309,7 +316,6 @@
     <string name="alarm_goes_off_in">Waktu tersisa sampai alarm berbunyi:\n%s</string>
     <string name="reminder_triggers_in">Waktu tersisa hingga pengingat aktif:\n%s</string>
     <string name="alarm_warning">Harap pastikan alarm berfungsi dengan baik sebelum menggunakannya. Ini bisa berakibat buruk karena pembatasan sistem yang terkait dengan penghematan baterai.</string>
-    <string name="reminder_warning">Harap pastikan pengingat berfungsi dengan baik sebelum menggunakannya. Ini bisa berakibat buruk karena pembatasan sistem yang terkait dengan penghematan baterai.</string>
     <string name="notifications_disabled">Pemberitahuan dari aplikasi ini dinonaktifkan. Silakan masuk ke pengaturan perangkat Anda untuk mengaktifkannya.</string>
     <string name="alarm">Alarm</string>
     <string name="snooze">Tunda</string>

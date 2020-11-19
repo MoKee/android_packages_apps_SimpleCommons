@@ -35,6 +35,13 @@
     <string name="request_the_required_permissions">Запросить необходимые разрешения</string>
     <string name="no_access_to_contacts">Приложение не может получить доступ к вашим контактам</string>
     <string name="insert_text_here">Введите текст</string>
+    <string name="change_view_type">Режим отображения</string>
+    <string name="grid">Сетка</string>
+    <string name="list">Список</string>
+    <string name="increase_column_count">Добавить столбец</string>
+    <string name="reduce_column_count">Убрать столбец</string>
+    <string name="change_cover_image">Изменить обложку</string>
+    <string name="select_photo">Выбрать изображение</string>
     <string name="manage_blocked_numbers">Управление заблокированными номерами</string>
     <string name="not_blocking_anyone">Вы никого не блокируете.</string>
     <string name="add_a_blocked_number">Добавить заблокированный номер</string>
@@ -459,7 +466,6 @@
     <string name="alarm_goes_off_in">Время, оставшееся до срабатывания будильника:\n%s</string>
     <string name="reminder_triggers_in">Время, оставшееся до срабатывания напоминания:\n%s</string>
     <string name="alarm_warning">Пожалуйста, убедитесь, что будильник работает правильно, прежде чем полагаться на него. Он может не работать должным образом из-за системных ограничений, связанных с экономией батареи.</string>
-    <string name="reminder_warning">Пожалуйста, убедитесь, что напоминания работают правильно, прежде чем полагаться на них. Они могут не работать должным образом из-за системных ограничений, связанных с экономией батареи.</string>
     <string name="notifications_disabled">Уведомления этого приложения отключены. Пожалуйста, перейдите в настройки устройства и включите их.</string>
     <string name="alarm">Будильник</string>
     <string name="snooze">Отложить</string>

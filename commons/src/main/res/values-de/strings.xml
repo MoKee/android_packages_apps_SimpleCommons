@@ -33,6 +33,13 @@
     <string name="number">Rufnummer</string>
     <string name="no_contacts_found">Keine Kontakte gefunden</string>
     <string name="no_access_to_contacts">Die App konnte nicht auf Ihre Kontakte zugreifen</string>
+    <string name="change_view_type">Darstellung ändern</string>
+    <string name="grid">Gitternetz</string>
+    <string name="list">Liste</string>
+    <string name="increase_column_count">Kacheln verkleinern</string>
+    <string name="reduce_column_count">Kacheln vergrößern</string>
+    <string name="change_cover_image">Coverbild ändern</string>
+    <string name="select_photo">Auswählen</string>
     <string name="manage_blocked_numbers">Blockierte Rufnummern verwalten</string>
     <string name="blocked_numbers">Gesperrte Nummern</string>
     <string name="set_as_default">Als Standard festlegen</string>
@@ -380,7 +387,6 @@
     <string name="alarm_goes_off_in">Zeit bis Alarm:\n%s</string>
     <string name="reminder_triggers_in">Verbleibende Zeit bis Alarm ausgelöst wird:\n%s</string>
     <string name="alarm_warning">Bitte stell sicher, dass der Alarm zuverlässig funktioniert, bevor Du Dich darauf verlässt. Es könnte wegen Systemeinschränkungen (z.B. Stromsparfunktion) fehlschlagen.</string>
-    <string name="reminder_warning">Bitte stell sicher, dass die Erinnerung zuverlässig funktioniert, bevor Du Dich darauf verlässt. Es könnte wegen Systemeinschränkungen (z.B. Stromsparfunktion) fehlschlagen.</string>
     <string name="notifications_disabled">Benachrichtigungen für diese App sind deaktiviert. Bitte geh in deine Systemeinstellungen und aktiviere sie.</string>
     <string name="alarm">Wecker</string>
     <string name="snooze">Schlummern</string>

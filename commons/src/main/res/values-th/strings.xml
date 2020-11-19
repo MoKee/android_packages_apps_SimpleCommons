@@ -9,6 +9,7 @@
     <string name="email">อีเมล</string>
     <string name="previous">ก่อนหน้า</string>
     <string name="next">ถัดไป</string>
+    <string name="select_photo">เลือกรูปภาพ</string>
     <string name="search">ค้นหา</string>
     <string name="skip">ข้าม</string>
     <string name="path">เส้นทาง</string>

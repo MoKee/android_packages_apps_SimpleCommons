@@ -4,6 +4,7 @@
     <string name="unknown">უცნობი</string>
     <string name="details">დეტალები</string>
     <string name="none">არც ერთი</string>
+    <string name="select_photo">ფოტოს შერჩევა</string>
     <string name="search">ძიება</string>
     <string name="path">მდებარეობა</string>
     <string name="duration">ხანგრძლივობა:</string>

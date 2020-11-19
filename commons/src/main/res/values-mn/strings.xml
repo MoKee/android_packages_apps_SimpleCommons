@@ -4,6 +4,7 @@
     <string name="unknown">Тодорхойгүй</string>
     <string name="details">Дэлгэрэнгүй</string>
     <string name="none">Байхгүй</string>
+    <string name="select_photo">Зураг сонгох</string>
     <string name="search">Хайх</string>
     <string name="path">Зам</string>
     <string name="duration">Үргэлжлэх хугацаа</string>

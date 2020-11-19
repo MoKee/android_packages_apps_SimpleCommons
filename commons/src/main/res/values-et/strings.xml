@@ -35,6 +35,13 @@
     <string name="request_the_required_permissions">Taotlege vajalikke õigusi</string>
     <string name="no_access_to_contacts">Rakendus ei pääsenud teie kontaktidele ligi</string>
     <string name="insert_text_here">Sisestage tekst siia</string>
+    <string name="change_view_type">Muuda vaatetüüpi</string>
+    <string name="grid">Ruudustik</string>
+    <string name="list">Loend</string>
+    <string name="increase_column_count">Suurendage veergude arvu</string>
+    <string name="reduce_column_count">Vähendage veergude arvu</string>
+    <string name="change_cover_image">Muuda tausta pilt</string>
+    <string name="select_photo">Valige foto</string>
     <string name="manage_blocked_numbers">Halda blokeeritud numbreid</string>
     <string name="not_blocking_anyone">Te ei blokeeri kedagi.</string>
     <string name="add_a_blocked_number">Lisage blokeeritud number</string>
@@ -393,7 +400,6 @@
     <string name="alarm_goes_off_in">Alarmi lõppemiseni jäänud aeg:\n%s</string>
     <string name="reminder_triggers_in">Meeldetuletamiseni jäänud aeg:\n%s</string>
     <string name="alarm_warning">Enne selle kasutusele võtmist veenduge, et alarm töötab korralikult. Aku säästmisega seotud süsteemipiirangute tõttu võib see valesti toimida.</string>
-    <string name="reminder_warning">Veenduge, et meeldetuletused toimiksid enne nende kasutamist. Neid võivad eksitada aku säästmisega seotud süsteemi piirangut.</string>
     <string name="notifications_disabled">Selle rakenduse teated on keelatud. Palun lubage nende seadistamiseks oma seadme seaded.</string>
     <string name="alarm">Äratus</string>
     <string name="snooze">Lükka edasi</string>

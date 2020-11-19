@@ -29,6 +29,13 @@
     <string name="previous">Précédent</string>
     <string name="playpause">Lire/pause</string>
     <string name="next">Suivant</string>
+    <string name="change_view_type">Changer le type de vue</string>
+    <string name="grid">Grille</string>
+    <string name="list">Liste</string>
+    <string name="increase_column_count">Augmenter le nombre de colonnes</string>
+    <string name="reduce_column_count">Réduire le nombre de colonnes</string>
+    <string name="change_cover_image">Changer l\'image de couverture</string>
+    <string name="select_photo">Sélectionner photo</string>
     <string name="favorites">Favoris</string>
     <string name="add_favorites">Ajouter des favoris</string>
     <string name="add_to_favorites">Ajouter aux Favoris</string>
@@ -376,7 +383,6 @@
     <string name="alarm_goes_off_in">Temps restant jusqu\'au déclenchement de l\'alarme : \n%s</string>
     <string name="reminder_triggers_in">Durée restante jusqu\'au déclenchement du rappel :\n%s</string>
     <string name="alarm_warning">Veuillez vérifier que l\'alarme fonctionne correctement avant de lui faire confiance. Elle pourrait ne pas fonctionner correctement, à cause de la politique d\'économie d\'énergie de votre appareil.</string>
-    <string name="reminder_warning">Veuillez vérifier que les rappels fonctionnent correctement avant de leur faire confiance. Ils pourraient ne pas fonctionner correctement, à cause de la politique d\'économie d\'énergie de votre appareil.</string>
     <string name="notifications_disabled">Les notifications de cette application sont désactivées. Veuillez les activer depuis les paramètres de votre appareil.</string>
     <string name="alarm">Alarme</string>
     <string name="snooze">Rappel de sonnerie</string>

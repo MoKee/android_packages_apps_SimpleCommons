@@ -22,6 +22,10 @@
     <string name="email">மின்னஞ்சல்</string>
     <string name="previous">"முந்தைய"</string>
     <string name="next">அடுத்து</string>
+    <string name="change_view_type">காட்சி வகையை மாற்று</string>
+    <string name="grid">கட்டம்</string>
+    <string name="list">பட்டியல்</string>
+    <string name="select_photo">படத்தைத் தேர்வுசெய்க</string>
     <string name="favorites">பிடித்தவை</string>
     <string name="add_to_favorites">பிடித்தவையில் சேர்</string>
     <string name="remove_from_favorites">பிடித்தவையிலிருந்து அகற்று</string>

@@ -35,6 +35,13 @@
     <string name="request_the_required_permissions">要求必要的權限</string>
     <string name="no_access_to_contacts">該應用程式無法存取您的聯繫人</string>
     <string name="insert_text_here">在此輸入文字</string>
+    <string name="change_view_type">改變瀏覽類型</string>
+    <string name="grid">格狀</string>
+    <string name="list">清單</string>
+    <string name="increase_column_count">增加欄數</string>
+    <string name="reduce_column_count">減少欄數</string>
+    <string name="change_cover_image">更換封面圖片</string>
+    <string name="select_photo">選擇相片</string>
     <string name="manage_blocked_numbers">管理封鎖號碼</string>
     <string name="not_blocking_anyone">你沒有封鎖任何人。</string>
     <string name="add_a_blocked_number">新增封鎖號碼</string>
@@ -358,7 +365,6 @@
     <string name="alarm_goes_off_in">鬧鐘響起剩餘時間:\n%s</string>
     <string name="reminder_triggers_in">提醒觸發剩餘時間:\n%s</string>
     <string name="alarm_warning">依靠鬧鐘功能之前，請先確認是否正常運作，有可能因為省電相關的系統限制而導致失靈。</string>
-    <string name="reminder_warning">依靠提醒功能之前，請先確認是否正常運作，有可能因為省電相關的系統限制而導致失靈。</string>
     <string name="notifications_disabled">這應用程式的通知被停用了。請到你的裝置設定中去啟用。</string>
     <string name="alarm">鬧鐘</string>
     <string name="snooze">延遲</string>
@@ -566,9 +572,23 @@
     <string name="faq_8_text_commons">由於您的應用程式版本不再更新，您可能發現的 bug 將永遠無法修復。也不會增加新的功能。你可以用一小筆錢在 Google Play 上購買專業版。
         這是一次性付款，也就是說，一旦你購買專業版，就能夠永遠使用，即使買了新裝置。如果你不喜歡專業版，你可以在幾個小時內解除安裝，它自動退款。
         如果您以後需要退款，請通過 hello@simplemobiletools.com 聯繫我們，我們會為您提供服務。</string>
+    <string name="why_upgrade">升級專業版</string>
     <string name="why_upgrade_basic_version">基本</string>
+    <string name="why_upgrade_pro_version">專業版</string>
+    <string name="why_upgrade_no_ads">無廣告</string>
     <string name="why_upgrade_no_internet_access">無網路存取</string>
+    <string name="why_upgrade_footer">100% 保證退款</string>
     <string name="why_upgrade_advanced_photo_editor">進階圖片編輯器</string>
+    <string name="why_upgrade_heic_support">支援 HEIC / HEIF 檔案</string>
+    <string name="why_upgrade_batch_renaming">進階批次重新命名文件</string>
+    <string name="why_upgrade_printing_support">支援列印</string>
+    <string name="why_upgrade_time_zone_support">支援時區</string>
+    <string name="why_upgrade_duplicate_contact_merging">改進合併重複聯絡人</string>
+    <string name="why_upgrade_font_size_customization">自訂字體大小</string>
+    <string name="why_upgrade_checklists">清單</string>
+    <string name="why_upgrade_file_compression">支援壓縮檔</string>
+    <string name="why_upgrade_background_color_customization">自訂背景顏色</string>
+    <string name="why_upgrade_file_importing">支援檔案匯入</string>
     <string name="notice">這程式使用了下列的第三方函式庫來讓我工作簡化。感謝。</string>
     <string name="third_party_licences">第三方授權</string>
     <string name="kotlin_title">Kotlin (編程語言)</string>

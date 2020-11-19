@@ -29,6 +29,13 @@
     <string name="previous">Önceki</string>
     <string name="playpause">Oynat / Duraklat</string>
     <string name="next">Sonraki</string>
+    <string name="change_view_type">Önizleme türünü değiştir</string>
+    <string name="grid">Izgara</string>
+    <string name="list">Liste</string>
+    <string name="increase_column_count">Sütun sayısını artır</string>
+    <string name="reduce_column_count">Sütun sayısını azalt</string>
+    <string name="change_cover_image">Kapak görüntüsünü değiştir</string>
+    <string name="select_photo">Fotoğraf seçin</string>
     <string name="favorites">Favoriler</string>
     <string name="add_favorites">Favori ekle</string>
     <string name="add_to_favorites">Favorilere ekle</string>
@@ -367,7 +374,6 @@
     <string name="alarm_goes_off_in">Alarmın çalmasına şu kadar kaldı:\n%s</string>
     <string name="reminder_triggers_in">Hatırlatıcı tetiklenene kadar kalan süre:\n%s</string>
     <string name="alarm_warning">Lütfen alarma güvenmeden önce düzgün çalıştığından emin olun. Pil tasarrufu ile ilgili sistem kısıtlamaları nedeniyle yanlış davranabilir.</string>
-    <string name="reminder_warning">Lütfen hatırlatıcılara güvenmeden önce düzgün çalıştıklarından emin olun. Pil tasarrufu ile ilgili sistem kısıtlamaları nedeniyle yanlış davranabilirler.</string>
     <string name="notifications_disabled">Bu uygulamanın bildirimleri devre dışı bırakıldı. Lütfen bunları etkinleştirmek için cihaz ayarlarınıza gidin.</string>
     <string name="alarm">Alarm</string>
     <string name="snooze">Ertele</string>

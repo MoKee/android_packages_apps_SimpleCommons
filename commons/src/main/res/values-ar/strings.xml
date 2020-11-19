@@ -28,6 +28,13 @@
     <string name="email">البريد الإلكتروني</string>
     <string name="previous">السابق</string>
     <string name="next">القادم</string>
+    <string name="change_view_type">تغيير طريقة العرض</string>
+    <string name="grid">الشبكة</string>
+    <string name="list">القائمة</string>
+    <string name="increase_column_count">زيادة عدد الأعمدة</string>
+    <string name="reduce_column_count">تقليل عدد الأعمدة</string>
+    <string name="change_cover_image">تغيير صورة الغلاف</string>
+    <string name="select_photo">اختر الصور</string>
     <string name="favorites">المفضلة</string>
     <string name="add_favorites">إضافة مفضلات</string>
     <string name="add_to_favorites">اضافة الى المفضلة</string>
@@ -493,7 +500,6 @@
     <string name="alarm_goes_off_in">الوقت المتبقي حتى توقف المنبه:\n%s</string>
     <string name="reminder_triggers_in">الوقت المتبقي حتى يتم تشغيل التذكير:\n%s</string>
     <string name="alarm_warning">يرجى التأكد من أن التنبيه يعمل بشكل صحيح قبل الاعتماد عليه. يمكن أن يسيء التصرف بسبب قيود النظام المتعلقة بتوفير البطارية.</string>
-    <string name="reminder_warning">يرجى التأكد من أن التنبيه يعمل بشكل صحيح قبل الاعتماد عليه. يمكن أن يسيء التصرف بسبب قيود النظام المتعلقة بتوفير البطارية.</string>
     <string name="notifications_disabled">يتم تعطيل الإشعارات من هذا التطبيق. الرجاء الذهاب إلى إعدادات الجهاز لتمكينها.</string>
     <string name="alarm">المنبّه</string>
     <string name="snooze">غفوة</string>

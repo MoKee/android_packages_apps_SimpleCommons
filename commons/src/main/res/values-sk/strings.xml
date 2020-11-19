@@ -28,6 +28,13 @@
     <string name="email">E-mail</string>
     <string name="previous">Predchádzajúce</string>
     <string name="next">Ďalší</string>
+    <string name="change_view_type">Zmeniť typ zobrazenia</string>
+    <string name="grid">Mriežka</string>
+    <string name="list">Zoznam</string>
+    <string name="increase_column_count">Zvýšiť počet stĺpcov</string>
+    <string name="reduce_column_count">Znížiť počet stĺpcov</string>
+    <string name="change_cover_image">Zmeniť obal albumu</string>
+    <string name="select_photo">Zvoliť foto</string>
     <string name="favorites">Obľúbené</string>
     <string name="add_favorites">Pridať obľúbené</string>
     <string name="add_to_favorites">Pridať medzi obľúbené</string>
@@ -410,7 +417,6 @@
     <string name="alarm_goes_off_in">Zostávajúci čas do zvonenia budíka:\n%s</string>
     <string name="reminder_triggers_in">Zostávajúci čas do pripomienky:\n%s</string>
     <string name="alarm_warning">Pred tým, ako by ste sa na budík spoliehali, sa prosím uistite, že funguje správne. Niektoré systémové obmedzenia spojené so zlepšením výdrže batérie môžu spôsobiť problémy.</string>
-    <string name="reminder_warning">Pred tým, ako by ste sa na pripomienky spoliehali, sa prosím uistite, že fungujú správne. Niektoré systémové obmedzenia spojené so zlepšením výdrže batérie môžu spôsobiť problémy.</string>
     <string name="notifications_disabled">Pripomienky tejto aplikácie sú vypnuté. Pre ich zapnutie prosím choďte do nastavení zariadenia.</string>
     <string name="alarm">Budík</string>
     <string name="snooze">Odložiť</string>

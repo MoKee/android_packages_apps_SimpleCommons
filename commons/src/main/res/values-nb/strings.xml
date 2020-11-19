@@ -22,6 +22,13 @@
     <string name="email">E-post</string>
     <string name="previous">Forrige</string>
     <string name="next">Neste</string>
+    <string name="change_view_type">Endre visningstype</string>
+    <string name="grid">Rutenett</string>
+    <string name="list">Liste</string>
+    <string name="increase_column_count">Øk antall kolonner</string>
+    <string name="reduce_column_count">Reduser antall kolonner</string>
+    <string name="change_cover_image">Endre omslagsbilde</string>
+    <string name="select_photo">Velg foto</string>
     <string name="favorites">Favoritter</string>
     <string name="add_favorites">Legg til favoritter</string>
     <string name="add_to_favorites">Legg til i favorittene</string>
@@ -309,7 +316,6 @@
     <string name="alarm_goes_off_in">Tid igjen til alarmen går:\n%s</string>
     <string name="reminder_triggers_in">Tid som gjenstår til påminnelsen utløser:\n%s</string>
     <string name="alarm_warning">Sørg for at alarmen fungerer ordentlig før du stoler på den. Den kan fungere dårlig på grunn av systembegrensninger relatert til batterisparing.</string>
-    <string name="reminder_warning">Sørg for at påminnelsene fungerer riktig før du stoler på dem. De kan fungere dårlig på grunn av systembegrensninger relatert til batterisparing.</string>
     <string name="snooze">Utsett</string>
     <string name="dismiss">Avvis</string>
     <string name="no_reminder">Ingen påminnelse</string>

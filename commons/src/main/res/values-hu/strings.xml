@@ -35,6 +35,13 @@
     <string name="request_the_required_permissions">A szükséges engedélyek kérése</string>
     <string name="no_access_to_contacts">Az alkalmazás nem tudta elérni a névjegyeket</string>
     <string name="insert_text_here">Ide írjon szöveget</string>
+    <string name="change_view_type">Nézet típus változtatása</string>
+    <string name="grid">Rács</string>
+    <string name="list">Lista</string>
+    <string name="increase_column_count">Növelje az oszlopok számát</string>
+    <string name="reduce_column_count">Csökkentse az oszlopok számát</string>
+    <string name="change_cover_image">Borítókép változtatása</string>
+    <string name="select_photo">Válasszon fotót</string>
     <string name="manage_blocked_numbers">Letiltott számok kezelése</string>
     <string name="not_blocking_anyone">Ön nem blokkol senkit.</string>
     <string name="add_a_blocked_number">Tiltandó telefonszám hozzáadása</string>
@@ -393,7 +400,6 @@
     <string name="alarm_goes_off_in">A riasztásig hátralévő idő eltűnik:\n%s</string>
     <string name="reminder_triggers_in">Az emlékeztető aktiválásáig hátralévő idő:\n%s</string>
     <string name="alarm_warning">Győződjön meg róla, hogy a riasztás megfelelően működik, mielőtt napi szinten használná. Az akkumulátor takarékossággal kapcsolatos rendszerkorlátozások miatt helytelenül is működhetnek.</string>
-    <string name="reminder_warning">Győződjön meg róla, hogy az emlékeztetők megfelelően működnek, mielőtt napi szinten használná. Az akkumulátor takarékossággal kapcsolatos rendszerkorlátozások miatt helytelenül is működhetnek.</string>
     <string name="notifications_disabled">Az alkalmazás értesítései le vannak tiltva. Kérjük, lépjen be a készülék beállításaiba és engedélyezze ezeket.</string>
     <string name="alarm">Riasztás</string>
     <string name="snooze">Elhalasztás</string>

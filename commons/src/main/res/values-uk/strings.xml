@@ -29,6 +29,13 @@
     <string name="previous">Попереднє відео</string>
     <string name="playpause">Відтворення / Пауза</string>
     <string name="next">Далі</string>
+    <string name="change_view_type">Змінити тип перегляду</string>
+    <string name="grid">Сітка</string>
+    <string name="list">Список</string>
+    <string name="increase_column_count">Збільшити кількість колонок</string>
+    <string name="reduce_column_count">Зменшити кількість колонок</string>
+    <string name="change_cover_image">Змінити обкладинку</string>
+    <string name="select_photo">Вибрати фото</string>
     <string name="favorites">Обране</string>
     <string name="add_favorites">Додати в улюблені</string>
     <string name="add_to_favorites">Додати до улюбленого</string>
@@ -431,7 +438,6 @@
     <string name="alarm_goes_off_in">Час, що залишився до спрацьовування будильника:\n%s</string>
     <string name="reminder_triggers_in">Час, що залишився до спрацьовування нагадування:\n%s</string>
     <string name="alarm_warning">Будь ласка, переконайтеся, що будильник працює правильно, перш ніж покладатися на нього. Він може не працювати належним чином через системні обмеження, пов\'язані з економією батареї.</string>
-    <string name="reminder_warning">Будь ласка, переконайтеся, що нагадування працюють правильно, перш ніж покладатися на них. Вони можуть не працювати належним чином через системні обмеження, пов\'язані з економією батареї.</string>
     <string name="notifications_disabled">Повідомлення цього додатка відключені. Будь ласка, перейдіть в Налаштування пристрою і включіть їх.</string>
     <string name="alarm">Будильник</string>
     <string name="snooze">Відкласти</string>

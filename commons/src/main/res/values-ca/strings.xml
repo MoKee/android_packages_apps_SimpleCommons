@@ -26,6 +26,13 @@
     <string name="email">Correu electrònic</string>
     <string name="previous">Anterior</string>
     <string name="next">Següent</string>
+    <string name="change_view_type">Canviar el tipus de vista</string>
+    <string name="grid">Reixeta</string>
+    <string name="list">Llista</string>
+    <string name="increase_column_count">Augmentar el número de columnes</string>
+    <string name="reduce_column_count">Reduir el número de columnes</string>
+    <string name="change_cover_image">Canviar imatge de portada</string>
+    <string name="select_photo">Sel·leccionar imatge</string>
     <string name="favorites">Preferits</string>
     <string name="add_favorites">Afegeix als preferits</string>
     <string name="add_to_favorites">Afegeix als preferits</string>
@@ -331,7 +338,6 @@
     <string name="alarm_goes_off_in">Temps restant fins que soni l\'alarma: \n%s</string>
     <string name="reminder_triggers_in">Temps restant fins el recordatori:\n%s</string>
     <string name="alarm_warning">Assegureu-vos que l\'alarma funcioni correctament abans de confiar-hi. Pot comportar-se malament a causa de les restriccions del sistema relacionades amb l\'estalvi de bateria.</string>
-    <string name="reminder_warning">Assegureu-vos que els recordatoris funcionin correctament abans de confiar-hi. Podrien comportar-se malament a causa de les restriccions del sistema relacionades amb l\'estalvi de bateria.</string>
     <string name="notifications_disabled">Les notificacions d\'aquesta aplicació estan desactivades. Aneu a la configuració del vostre dispositiu per habilitar-los.</string>
     <string name="alarm">Alarma</string>
     <string name="snooze">Posposar</string>

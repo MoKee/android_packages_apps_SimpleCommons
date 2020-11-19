@@ -6,6 +6,7 @@
     <string name="none">කිසිවක් නැත</string>
     <string name="previous">පෙර</string>
     <string name="next">ඊළඟ</string>
+    <string name="select_photo">ඡායාරූපය තෝරන්න</string>
     <string name="search">සෙවීම</string>
     <string name="path">මග</string>
     <string name="duration">කාල සීමාව</string>

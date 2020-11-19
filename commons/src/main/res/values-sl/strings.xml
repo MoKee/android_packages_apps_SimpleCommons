@@ -28,6 +28,13 @@
     <string name="email">E-pošta</string>
     <string name="previous">Prejšnja</string>
     <string name="next">Naprej</string>
+    <string name="change_view_type">Spremeni tip pogleda</string>
+    <string name="grid">Mreža</string>
+    <string name="list">Seznam</string>
+    <string name="increase_column_count">Povečaj število stolpcev</string>
+    <string name="reduce_column_count">Zmanjšaj število stolpcev</string>
+    <string name="change_cover_image">Spremeni naslovno fotografijo</string>
+    <string name="select_photo">Izberi fotografijo</string>
     <string name="favorites">Priljubljeno</string>
     <string name="add_favorites">Dodaj priljubljene</string>
     <string name="add_to_favorites">Dodaj med priljubljene</string>
@@ -400,7 +407,6 @@
     <string name="alarm_goes_off_in">Čas do sprožitve alarma: %s</string>
     <string name="reminder_triggers_in">Čas do sprožitve opomnika: %s</string>
     <string name="alarm_warning">Predlagamo, da alarm preizkusite, preden se nanj zanašate. Zaradi sistemskih omejitev, povezanih z ohranjanjem baterije, lahko alarm zataji.</string>
-    <string name="reminder_warning">Predlagamo, da opomnike preiskusite, preden se zanašate na njih. Zaradi sistemskih omejitev, povezanih z ohranjanjem baterije, lahko opomniki zatajijo.</string>
     <string name="notifications_disabled">Obvestila so za to aplikacijo onemogočena. Vklopite jih lahko v nastavitvah naprave.</string>
     <string name="alarm">Budilka</string>
     <string name="snooze">Dremež</string>

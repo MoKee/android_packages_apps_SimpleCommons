@@ -28,6 +28,13 @@
     <string name="email">Ηλεκτρονικό ταχυδρομείο</string>
     <string name="previous">Προηγούμενο</string>
     <string name="next">Επόμενο</string>
+    <string name="change_view_type">Αλλαγή τύπου εμφάνισης</string>
+    <string name="grid">Πλέγμα</string>
+    <string name="list">Λίστα</string>
+    <string name="increase_column_count">Αύξηση αριθμού στηλών</string>
+    <string name="reduce_column_count">Μείωση αριθμού στηλών</string>
+    <string name="change_cover_image">Αλλαγή εξώφυλλου φακέλου</string>
+    <string name="select_photo">Επιλογή φωτογραφίας</string>
     <string name="favorites">Αγαπημένα</string>
     <string name="add_favorites">Προσθήκη αγαπημένων</string>
     <string name="add_to_favorites">Προσθήκη στα αγαπημένα</string>
@@ -331,7 +338,6 @@
     <string name="alarm_goes_off_in">Χρόνος που απομένει μέχρι να κλείσει η ειδοποίηση:\n%s</string>
     <string name="reminder_triggers_in">Χρόνος που απομένει μέχρι να ενεργοποιηθεί η υπενθύμιση:\n%s</string>
     <string name="alarm_warning">Βεβαιωθείτε ότι η ειδοποίηση λειτουργεί σωστά πριν βασιστείτε σε αυτήν. Θα μπορούσε να αποτύχει λόγω των περιορισμών του συστήματος που σχετίζονται με την εξοικονόμηση μπαταρίας.</string>
-    <string name="reminder_warning">Βεβαιωθείτε ότι η υπενθύμιση λειτουργεί σωστά πριν βασιστείτε σε αυτήν. Θα μπορούσε να αποτύχει λόγω των περιορισμών του συστήματος που σχετίζονται με την εξοικονόμηση μπαταρίας.</string>
     <string name="notifications_disabled">Οι ειδοποιήσεις αυτής της εφαρμογής είναι απενεργοποιημένες. Μεταβείτε στις ρυθμίσεις της συσκευής για να τις ενεργοποιήσετε.</string>
     <string name="alarm">Ειδοποιήσεις</string>
     <string name="snooze">Αναβολή</string>

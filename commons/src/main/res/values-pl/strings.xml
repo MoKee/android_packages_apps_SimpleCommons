@@ -35,6 +35,13 @@
     <string name="request_the_required_permissions">Poproś o wymagane uprawnienia</string>
     <string name="no_access_to_contacts">Aplikacja nie mogła uzyskać dostępu do Twoich kontaktów</string>
     <string name="insert_text_here">Wpisz tekst tutaj</string>
+    <string name="change_view_type">Zmień typ widoku</string>
+    <string name="grid">Siatka</string>
+    <string name="list">Lista</string>
+    <string name="increase_column_count">Zwiększ liczbę kolumn</string>
+    <string name="reduce_column_count">Zmniejsz liczbę kolumn</string>
+    <string name="change_cover_image">Zmień okładkę</string>
+    <string name="select_photo">Wybierz obraz</string>
     <string name="manage_blocked_numbers">Zarządzaj zablokowanymi numerami</string>
     <string name="not_blocking_anyone">Brak zablokowanych numerów</string>
     <string name="add_a_blocked_number">Dodaj zablokowany numer</string>
@@ -196,6 +203,7 @@
     <string name="app_icon_color_warning">OSTRZEŻENIE: Niektóre launchery nie obsługują odpowiednio dostosowania ikon aplikacji. Jeśli ikona zniknie, spróbuj uruchomić aplikację przez Google Play lub jakiś widżet, jeśli jest dostępny.
          Po uruchomieniu, przywróć domyślną pomarańczową ikonę # F57C00. W najgorszym przypadku może być konieczne ponowne zainstalowanie aplikacji.</string>
     <string name="share_colors_success">Kolory zostały zmienione. Utworzony został nowy, \'wspólny\' motyw - użyj go, aby zaktualizować kolorystykę wszystkich Prostych Aplikacji.</string>
+    <string name="shared_theme_note">Pamiętaj, że mimo iż używasz wersji Pro, nadal potrzebujesz Prostej Dziękujemy ze względów technicznych. Zajmuje się synchronizacją kolorów.</string>
     <string name="light_theme">Jasny</string>
     <string name="dark_theme">Ciemny</string>
     <string name="solarized">Solaryzacja</string>
@@ -238,6 +246,10 @@
     <string name="descending">Malejąco</string>
     <string name="use_for_this_folder">Tylko w tym folderze</string>
     <string name="sort_numeric_parts">Sortuj części liczbowe według rzeczywistej wartości</string>
+    <string name="first_name">Imię</string>
+    <string name="middle_name">Drugie imię</string>
+    <string name="surname">Nazwisko</string>
+    <string name="full_name">Imię i nazwisko</string>
     <string name="proceed_with_deletion">Czy na pewno chcesz to usunąć?</string>
     <string name="deletion_confirmation">Czy na pewno chcesz usunąć %s?</string>
     <string name="move_to_recycle_bin_confirmation">Czy na pewno chcesz %s do kosza?</string>
@@ -277,6 +289,7 @@
     <string name="yesterday">Wczoraj</string>
     <string name="today">Dzisiaj</string>
     <string name="tomorrow">Jutro</string>
+    <string name="hide_year">Ukryj rok</string>
     <string name="seconds_raw">sekundy</string>
     <string name="minutes_raw">minuty</string>
     <string name="hours_raw">godziny</string>
@@ -452,7 +465,6 @@
     <string name="alarm_goes_off_in">Czas pozostały do aktywacji alarmu:\n%s</string>
     <string name="reminder_triggers_in">Czas pozostały do aktywacji przypomnienia:\n%s</string>
     <string name="alarm_warning">Upewnij się, że alarm działa poprawnie zanim zaczniesz na nim polegać. Przez ograniczenia związane m. in. z oszczędzaniem baterii coś może nie wypalić.</string>
-    <string name="reminder_warning">Upewnij się, że przypomnienia działają poprawnie zanim zaczniesz na nich polegać. Przez ograniczenia związane m. in. z oszczędzaniem baterii coś może nie wypalić.</string>
     <string name="notifications_disabled">Powiadomienia tej aplikacji zostały wyłączone. Przejdź do ustawień systemu, aby je z powrotem włączyć.</string>
     <string name="alarm">Budzik</string>
     <string name="snooze">Drzemka</string>
@@ -497,6 +509,7 @@
     <string name="import_settings">Importuj ustawienia</string>
     <string name="settings_exported_successfully">Ustawienia zostały wyeksportowane pomyślnie</string>
     <string name="settings_imported_successfully">Ustawienia zostały zaimportowane pomyślnie</string>
+    <string name="start_name_with_surname">Zacznij od nazwiska</string>
     <string name="visibility">Widoczność</string>
     <string name="security">Bezpieczeństwo</string>
     <string name="scrolling">Przewijanie</string>
@@ -622,14 +635,22 @@
     <string name="rate_us_prompt">Cześć,\n\nwygląda na to, że używasz tej aplikacji już od pewnego czasu, i naprawdę to doceniamy.\n\nJeśli możemy zapytać o przysługę, oceń nas w Google Play. To naprawdę bardzo by nam pomogło.\n\nNiezależnie od tego, jak zadecydujesz, nie zobaczysz tej wiadomości ponownie.\n\nDzięki!</string>
     <string name="rate_our_app">Oceń naszą aplikację :)</string>
     <string name="thank_you">Dziękuję</string>
+    <string name="app_launcher_short">Launcher aplikacji</string>
+    <string name="calculator_short">Kalkulator</string>
     <string name="calendar_short">Kalendarz</string>
     <string name="camera_short">Aparat</string>
     <string name="clock_short">Zegar</string>
     <string name="contacts_short">Kontakty</string>
     <string name="dialer_short">Dialer</string>
+    <string name="draw_short">Rysuj</string>
+    <string name="file_manager_short">Menadżer plików</string>
     <string name="flashlight_short">Latarka</string>
     <string name="gallery_short">Galeria</string>
+    <string name="music_player_short">Odtwarzacz muzyki</string>
     <string name="notes_short">Notatnik</string>
+    <string name="sms_messenger_short">Komunikator SMS</string>
+    <string name="thank_you_short">Dziękujemy</string>
+    <string name="voice_recorder_short">Nagrywanie głosu</string>
     <string name="sideloaded_app">           Wygląda na to, że ta wersja aplikacji jest uszkodzona. Proszę pobierz jej oryginalną wersję &lt;a href=\"%s\"&gt;tutaj&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Często zadawane pytania (FAQ)</string>
@@ -653,7 +674,31 @@
     <string name="faq_8_text_commons">Ponieważ twoja wersja aplikacji nie jest już aktualizowana, błędy, które masz być może nie zostaną naprawione. Nie zostaną dodane też żadne nowe funkcje. Możesz kupić wersję Pro w Google Play za niewielką sumę pieniędzy.
         Jest to jednorazowa płatność, co oznacza, że po zakupie, nigdy więcej nie będziesz musiał płacić, nawet po otrzymaniu nowego urządzenia. Jeśli nie lubisz wersji Pro, możesz ją odinstalować w ciągu kilku godzin i automatycznie odzyskać pieniądze.
         Jeśli chcesz zwrócić pieniądze w dowolnym momencie, skontaktuj się z nami pod adresem hello@simplemobiletools a my je zwrócimy.</string>
+    <string name="why_upgrade">Pobierz wersję Pro!</string>
     <string name="why_upgrade_basic_version">Podstawowy</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="why_upgrade_no_ads">Brak reklam</string>
+    <string name="why_upgrade_no_internet_access">Brak dostępu do internetu</string>
+    <string name="why_upgrade_footer">100% gwarancji zwrotu pieniędzy</string>
+    <string name="why_upgrade_advanced_photo_editor">Zaawansowany edytor zdjęć</string>
+    <string name="why_upgrade_heic_support">Obsługa plików HEIC/HEIF</string>
+    <string name="why_upgrade_batch_renaming">Zaawansowana zmiana nazwy pliku wsadowego</string>
+    <string name="why_upgrade_folder_locking">Indywidualne blokowanie folderów</string>
+    <string name="why_upgrade_printing_support">Obsługa drukowania</string>
+    <string name="why_upgrade_time_zone_support">Wsparcie dla strefy czasowej</string>
+    <string name="why_upgrade_attendees_emails">Uczestnicy i przypomnienia e-mail</string>
+    <string name="why_upgrade_easy_event_importing">Łatwe importowanie zdarzeń</string>
+    <string name="why_upgrade_new_widgets">Nowy widżet</string>
+    <string name="why_upgrade_duplicate_contact_merging">Ulepszone scalanie zduplikowanych kontaktów</string>
+    <string name="why_upgrade_font_size_customization">Dostosowanie rozmiaru czcionki</string>
+    <string name="why_upgrade_private_contact_sharing">Opcjonalne udostępnianie kontaktów w naszych aplikacjach</string>
+    <string name="why_upgrade_checklists">Listy kontrolne</string>
+    <string name="why_upgrade_different_note_per_widget">Różne notatki i kolory na widżet</string>
+    <string name="why_upgrade_date_and_time_format">Dostosowanie formatu daty i czasu</string>
+    <string name="why_upgrade_shortcuts">Skróty ekranu głównego</string>
+    <string name="why_upgrade_file_compression">Obsługa kompresji plików</string>
+    <string name="why_upgrade_background_color_customization">Dostosowanie koloru tła</string>
+    <string name="why_upgrade_file_importing">Obsługa importu plików</string>
     <string name="notice">Aplikacja korzysta z następujących bibliotek innych firm:</string>
     <string name="third_party_licences">Licencje innych firm</string>
     <string name="kotlin_title">Kotlin (język programowania)</string>
@@ -684,6 +729,7 @@
     <string name="event_bus_title">Bus wydarzeń (komunikacja wewnątrz aplikacji)</string>
     <string name="audio_record_view_title">Widok nagrywania dźwięku (wizualizacja dźwięku)</string>
     <string name="sms_mms_title">SMS MMS (obsługa SMS i MMS)</string>
+    <string name="apng_title">Android APNG (animowane wsparcie WebP)</string>
     <string name="deprecated_app">PRZESTARZAŁE: Ta wersja aplikacji nie jest już rozwijana, wersja PRO dostępna pod https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Nie zapominaj, że jeśli odinstalujesz płatną aplikację w ciągu 2 godzin, otrzymasz automatyczny zwrot. Jeśli chcesz otrzymać zwrot w dowolnym momencie, skontaktuj się z nami pod adresem hello@simplemobiletools.com, a otrzymasz go. To ułatwia wypróbowanie :)</string>
     <string name="developer_description">Grupa prostych, open sourcowych aplikacji na system Android z konfigurowalnymi widżetami, bez reklam i niepotrzebnych uprawnień.</string>

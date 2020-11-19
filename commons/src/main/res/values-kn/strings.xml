@@ -28,6 +28,13 @@
     <string name="email">ಇಮೇಲ್</string>
     <string name="previous">ಹಿಂದಿನ</string>
     <string name="next">ಮುಂದಿನ</string>
+    <string name="change_view_type">ನೋಟದ ರೀತಿ ಬದಲಾಯಿಸು</string>
+    <string name="grid">ಚೌಕಾಕಾರದ ಕ್ರಮ</string>
+    <string name="list">ಪಟ್ಟಿ ಕ್ರಮ</string>
+    <string name="increase_column_count">ಸ್ತಂಭ ಎಣಿಕೆಯನ್ನು ಹೆಚ್ಚಿಸಿ</string>
+    <string name="reduce_column_count">ಸ್ತಂಭ ಎಣಿಕೆ ಕಡಿಮೆ ಮಾಡಿ</string>
+    <string name="change_cover_image">ಮುಖಪುಟ ಚಿತ್ರವನ್ನು ಬದಲಾಯಿಸು</string>
+    <string name="select_photo">ಚಿತ್ರವನ್ನು ಆರಿಸಿ</string>
     <string name="favorites">ಮೆಚ್ಚಿನ</string>
     <string name="add_favorites">ಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸಿ</string>
     <string name="add_to_favorites">ಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸಿ</string>

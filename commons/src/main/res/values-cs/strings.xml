@@ -35,6 +35,13 @@
     <string name="request_the_required_permissions">Vyžádat požadovaná oprávnění</string>
     <string name="no_access_to_contacts">Aplikace nemohla získat přístup k vašim kontaktům</string>
     <string name="insert_text_here">Zde vložte text</string>
+    <string name="change_view_type">Změnit typ zobrazení</string>
+    <string name="grid">Mřížka</string>
+    <string name="list">Seznam</string>
+    <string name="increase_column_count">Zvýšit počet sloupců</string>
+    <string name="reduce_column_count">Snížit počet sloupců</string>
+    <string name="change_cover_image">Změnit obal alba</string>
+    <string name="select_photo">Vybrat fotografii</string>
     <string name="manage_blocked_numbers">Spravovat blokovaná čísla</string>
     <string name="not_blocking_anyone">Nikoho neblokujete.</string>
     <string name="add_a_blocked_number">Přidat blokované číslo</string>
@@ -459,7 +466,6 @@
     <string name="alarm_goes_off_in">Zbývající čas do vypnutí budíku:\n%s</string>
     <string name="reminder_triggers_in">Zbývající čas do připomínky:\n%s</string>
     <string name="alarm_warning">Před tím, než se začnete spoléhat na budík, prosím ujistěte se, zda funguje správně. Mohlo by dojít k potížím díky omezením systému týkajících se úspory baterie.</string>
-    <string name="reminder_warning">Před tím, než se začnete spoléhat na upozornění, prosím ujistěte se, zda fungují správně. Mohlo by dojít k potížím díky omezením systému týkajících se úspory baterie.</string>
     <string name="notifications_disabled">Oznámení této aplikace jsou zakázány. Přejděte do nastavení zařízení pro jejich povolení.</string>
     <string name="alarm">Budík</string>
     <string name="snooze">Odložit</string>

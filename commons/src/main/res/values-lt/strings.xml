@@ -23,6 +23,13 @@
     <string name="email">El. paštas</string>
     <string name="previous">Ankstesnis</string>
     <string name="next">Kitas</string>
+    <string name="change_view_type">Keisti peržiūros tipą</string>
+    <string name="grid">Tinklelis</string>
+    <string name="list">Sąrašas</string>
+    <string name="increase_column_count">Padidinti stulpelių skaičių</string>
+    <string name="reduce_column_count">Sumažinti stulpelių skaičių</string>
+    <string name="change_cover_image">Pakeisti viršelio atvaizdą</string>
+    <string name="select_photo">Pasirinkti nuotrauką</string>
     <string name="favorites">Mėgiamiausieji</string>
     <string name="add_favorites">Pridėti mėgiamiausiuosius</string>
     <string name="add_to_favorites">pridėti į mėgiamiausiuosius</string>
@@ -359,7 +366,6 @@
     </plurals>
     <string name="alarm_goes_off_in">Likęs laikas iki žadintuvo suveikimo:\n%s</string>
     <string name="alarm_warning">Prieš naudodamiesi, įsitikinkite, kad signalas veikia tinkamai. Gali nesuveikti dėl sistemos apribojimų, susijusių su baterijos taupymu.</string>
-    <string name="reminder_warning">Prieš naudodamiesi, įsitikinkite, kad priminimai tinkamai veikia. Jie gali netinkamai veikti dėl sistemos apribojimų, susijusių su baterijos taupymu.</string>
     <string name="alarm">Žadintuvas</string>
     <string name="snooze">Snausti</string>
     <string name="dismiss">Nutraukti</string>

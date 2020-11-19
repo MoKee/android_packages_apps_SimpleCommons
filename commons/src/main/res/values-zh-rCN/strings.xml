@@ -35,6 +35,13 @@
     <string name="request_the_required_permissions">请求所需的权限</string>
     <string name="no_access_to_contacts">该应用无法获取您的联系人</string>
     <string name="insert_text_here">在此处插入文本</string>
+    <string name="change_view_type">更改视图类型</string>
+    <string name="grid">网格</string>
+    <string name="list">列表</string>
+    <string name="increase_column_count">增加一栏</string>
+    <string name="reduce_column_count">减少一栏</string>
+    <string name="change_cover_image">更改封面图片</string>
+    <string name="select_photo">选择图片</string>
     <string name="manage_blocked_numbers">管理屏蔽的号码</string>
     <string name="not_blocking_anyone">您没有屏蔽任何号码。</string>
     <string name="add_a_blocked_number">添加屏蔽的号码</string>
@@ -360,7 +367,6 @@
     <string name="alarm_goes_off_in">距闹钟响起还有：\n%s</string>
     <string name="reminder_triggers_in">距提醒触发还有：\n%s</string>
     <string name="alarm_warning">在依赖它之前，请确保闹钟能够正常工作。由于系统与节电有关的限制，它有时可能会失灵。</string>
-    <string name="reminder_warning">在依赖它们之前，请确保提醒能够正常工作。由于系统与节电有关的限制，它们有时可能会失灵。</string>
     <string name="notifications_disabled">此应用程序的通知已被禁用。请在您的设备设置中启用它们。</string>
     <string name="alarm">闹钟</string>
     <string name="snooze">贪睡</string>

@@ -26,6 +26,13 @@
     <string name="email">Sähköposti</string>
     <string name="previous">Edellinen</string>
     <string name="next">Seuraava</string>
+    <string name="change_view_type">Vaihda näkymää</string>
+    <string name="grid">Ruudukko</string>
+    <string name="list">Lista</string>
+    <string name="increase_column_count">Lisää sarakkeita</string>
+    <string name="reduce_column_count">Vähennä sarakkeita</string>
+    <string name="change_cover_image">Vaihda kansikuva</string>
+    <string name="select_photo">Valitse kuva</string>
     <string name="favorites">Suosikit</string>
     <string name="add_to_favorites">Lisää suosikkeihin</string>
     <string name="remove_from_favorites">Poista suosikeista</string>
@@ -297,7 +304,6 @@
     </plurals>
     <string name="alarm_goes_off_in">Aikaa hälytykseen:\n%s</string>
     <string name="alarm_warning">Varmista että hälytys toimii ennenkuin turvaudut siihen. Se voi toimia virheellisesti laitteesi virransäästötoiminnoista riippuen.</string>
-    <string name="reminder_warning">Varmista että muistutus toimii ennenkuin turvaudut siihen. Se voi toimia virheellisesti laitteesi virransäästötoiminnoista riippuen.</string>
     <string name="alarm">Hälytys</string>
     <string name="snooze">Torkuta</string>
     <string name="dismiss">Ohita</string>

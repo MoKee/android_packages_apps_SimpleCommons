@@ -28,6 +28,13 @@
     <string name="email">E-mail</string>
     <string name="previous">Vorige</string>
     <string name="next">Volgende</string>
+    <string name="change_view_type">Weergave</string>
+    <string name="grid">Raster</string>
+    <string name="list">Lijst</string>
+    <string name="increase_column_count">Meer kolommen</string>
+    <string name="reduce_column_count">Minder kolommen</string>
+    <string name="change_cover_image">Afbeelding omslag wijzigen</string>
+    <string name="select_photo">Foto selecteren</string>
     <string name="favorites">Favorieten</string>
     <string name="add_favorites">Favorieten toevoegen</string>
     <string name="add_to_favorites">Aan favorieten toevoegen</string>
@@ -313,7 +320,6 @@
     <string name="alarm_goes_off_in">Het alarm zal afgaan over\n%s</string>
     <string name="reminder_triggers_in">De herinnering zal worden getoond over\n%s</string>
     <string name="alarm_warning">Controleer eerst of het alarm goed werkt. Er kunnen zich problemen voordoen door de batterijbesparing van Android.</string>
-    <string name="reminder_warning">Controleer eerst of de herinneringen goed werken. Er kunnen zich problemen voordoen door de batterijbesparing van Android.</string>
     <string name="notifications_disabled">Notificaties van deze app zijn uitgeschakeld. Ga naar de systeeminstellingen voor de app om deze in te schakelen.</string>
     <string name="alarm">Alarm</string>
     <string name="snooze">Uitstellen</string>
