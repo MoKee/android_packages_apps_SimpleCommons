@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="cancel">Anullo</string>
+    <string name="save_as">Ruaji si</string>
+    <string name="file_saved">U ruajt me sukses</string>
+    <string name="invalid_file_format">Formati i skaderit i pavlefshëm</string>
+    <string name="out_of_memory_error">Gabim! ska memorie te mjaftueshme.</string>
+    <string name="open_with">Hap me</string>
     <string name="set_as">Cakto si</string>
+    <string name="value_copied_to_clipboard">Vlera u kopjua në kujtesën e fragmenteve.</string>
+    <string name="always">Gjithmonë</string>
     <string name="details">Detajet</string>
+    <string name="notes">Shënime</string>
     <string name="none">Asnjë</string>
+    <string name="label">Etiketa</string>
+    <string name="transparent">E tejdukshme</string>
+    <string name="download">Shkarko</string>
+    <string name="notification">Njoftimet</string>
+    <string name="email">e-mail</string>
     <string name="next">Vazhdo</string>
+    <string name="favorites">Të preferuarat</string>
     <string name="search">Kërko</string>
+    <string name="filter">Filtri</string>
+    <string name="no_items_found">Nuk u gjet asnjë artikull.</string>
+    <string name="no_storage_permissions">Kërkohet leja e magazinimit</string>
+    <string name="no_contacts_permission">Kërkohet leja e magazinimit</string>
+    <string name="rename_folder_exists">Një dosje me këtë emër ekziston tashmë.</string>
+    <string name="name_taken">Një dosje apo skader me këtë emër ekziston tashmë.</string>
     <string name="skip">Jo tani</string>
     <string name="sd_card">Në kartën SD</string>
     <string name="duration">Kohëzgjatja</string>
@@ -24,6 +44,7 @@
     <string name="size">Madhësia</string>
     <string name="date_taken">Data e realizimit:</string>
     <string name="title">Titulli</string>
+    <string name="proceed_with_deletion">Jeni i sigurt që doni të vazhdoni me fshirjen?</string>
     <string name="yes">Po</string>
     <string name="no">Jo</string>
     <string name="today">Sot</string>
@@ -39,11 +60,16 @@
     <string name="medium">Mesatar</string>
     <string name="widgets">Miniaplikacionet</string>
     <string name="text">Tekst</string>
+    <string name="favorites_tab">Të preferuarat</string>
+    <string name="usb">USB</string>
     <string name="monday">E hënë</string>
     <string name="saturday">E shtunë</string>
     <string name="sunday">E diel</string>
     <string name="calendar_short">Kalendari</string>
     <string name="camera_short">Kamera</string>
     <string name="clock_short">Ora</string>
+    <string name="flashlight_short">Elektriku i dorës</string>
+    <string name="gallery_short">Galeria</string>
+    <string name="notes_short">Shënime</string>
     <string name="why_upgrade_basic_version">Bazik</string>
 </resources>

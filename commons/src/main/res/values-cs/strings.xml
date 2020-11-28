@@ -12,7 +12,9 @@
     <string name="no_app_found">Nebyla nalezena žádná vhodná aplikace</string>
     <string name="set_as">Nastavit jako</string>
     <string name="copy_to_clipboard">Zkopírovat do schránky</string>
+    <string name="copy_number_to_clipboard">Kopírovat číslo do schránky</string>
     <string name="value_copied_to_clipboard">Hodnota zkopírována do schránky</string>
+    <string name="dial_number">Vytočit číslo</string>
     <string name="unknown">Neznámá</string>
     <string name="always">Vždy</string>
     <string name="never">Nikdy</string>
@@ -220,6 +222,7 @@
     <string name="share">Sdílet</string>
     <string name="share_via">Sdílet pomocí</string>
     <string name="select_all">Označit vše</string>
+    <string name="select_text">Vybrat text</string>
     <string name="hide">Skrýt</string>
     <string name="unhide">Odkrýt</string>
     <string name="hide_folder">Skrýt složku</string>
@@ -251,6 +254,8 @@
     <string name="middle_name">Druhé křestní jméno</string>
     <string name="surname">Příjmení</string>
     <string name="full_name">Jméno a příjmení</string>
+    <string name="use_custom_sorting">Použít vlastní třídění</string>
+    <string name="change_order">Změnit pořadí</string>
     <string name="proceed_with_deletion">Opravdu chcete pokračovat s odstraněním?</string>
     <string name="deletion_confirmation">Jste si jisti, že chcete odstranit %s?</string>
     <string name="move_to_recycle_bin_confirmation">Opravdu chcete přesunout %s do koše?</string>
@@ -466,6 +471,7 @@
     <string name="alarm_goes_off_in">Zbývající čas do vypnutí budíku:\n%s</string>
     <string name="reminder_triggers_in">Zbývající čas do připomínky:\n%s</string>
     <string name="alarm_warning">Před tím, než se začnete spoléhat na budík, prosím ujistěte se, zda funguje správně. Mohlo by dojít k potížím díky omezením systému týkajících se úspory baterie.</string>
+    <string name="reminder_warning">Než se na ně budete moci spolehnout, ujistěte se, že připomenutí fungují správně. Zkontrolujte baterii a nastavení oznámení v zařízení, jestli nic neblokuje připomenutí nebo nezabíjí aplikaci na pozadí.</string>
     <string name="notifications_disabled">Oznámení této aplikace jsou zakázány. Přejděte do nastavení zařízení pro jejich povolení.</string>
     <string name="alarm">Budík</string>
     <string name="snooze">Odložit</string>
@@ -677,6 +683,10 @@
     <string name="faq_8_text_commons">Protože verze vaší aplikace již není aktualizována, chyby, které jste možná objevili, nebudou nikdy opraveny. Nebudou také přidány žádné nové funkce. Za malou částku si můžete zakoupit verzi Pro z Obchodu Play.
         Jedná se o jednorázovou platbu, což znamená, že jakmile si aplikaci koupíte, už nikdy nebudete muset platit. Ani pro instalaci na nové zařízení. Pokud se vám verze Pro nebude líbit, stačí ji během několika hodin odinstalovat a peníze dostanete automaticky zpět.
         Pokud chcete vrátit peníze kdykoli později, kontaktujte nás na adrese hello@simplemobiletools.com a dostanete je zpět.</string>
+    <string name="faq_9_title_commons">Jak můžu vybrat více položek najednou?</string>
+    <string name="faq_9_text_commons">Existuje několik způsobů, jak toho dosáhnout. První spouští režim výběru dlouhým stisknutím jedné položky a následným krátkým kliknutím na ostatní pro výběr. Druhý způsob je podobný výběru položek na PC pomocí myši,
+        stačí spustit režim výběru dlouhým stisknutím jedné položky a potom prstem stále dolů přetáhnout přes další položky pro výběr. Třetím způsobem výběru více položek je dlouhé stisknutí jedné položky, pak dlouhé stisknutí další - vybere se vše mezi nimi. Pokud
+        chcete vybrat všechny položky, stačí dlouze stisknout jednu položku a poté kliknout na počítadlo vybraných položek v levém horním rohu. Tím se vybere nebo zruší výběr všeho.</string>
     <string name="why_upgrade">Získejte nyní Pro verzi!</string>
     <string name="why_upgrade_basic_version">Základní</string>
     <string name="why_upgrade_pro_version">Pro</string>

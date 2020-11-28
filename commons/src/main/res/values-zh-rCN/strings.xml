@@ -12,7 +12,9 @@
     <string name="no_app_found">未找到可用应用</string>
     <string name="set_as">设置为</string>
     <string name="copy_to_clipboard">复制到剪贴板</string>
+    <string name="copy_number_to_clipboard">复制号码到剪贴板</string>
     <string name="value_copied_to_clipboard">该值已复制到剪贴板</string>
+    <string name="dial_number">拨打号码</string>
     <string name="unknown">未知</string>
     <string name="always">总是</string>
     <string name="never">从不</string>
@@ -208,6 +210,7 @@
     <string name="share">分享</string>
     <string name="share_via">分享到</string>
     <string name="select_all">全选</string>
+    <string name="select_text">选择文本</string>
     <string name="hide">隐藏</string>
     <string name="unhide">取消隐藏</string>
     <string name="hide_folder">隐藏文件夹</string>
@@ -239,6 +242,8 @@
     <string name="middle_name">中间名</string>
     <string name="surname">姓</string>
     <string name="full_name">全名</string>
+    <string name="use_custom_sorting">使用自定义排序</string>
+    <string name="change_order">更改顺序</string>
     <string name="proceed_with_deletion">是否执行此删除操作？</string>
     <string name="deletion_confirmation">你确定要删除 %s？</string>
     <string name="move_to_recycle_bin_confirmation">你确定要移动 %s到回收站？</string>
@@ -367,6 +372,7 @@
     <string name="alarm_goes_off_in">距闹钟响起还有：\n%s</string>
     <string name="reminder_triggers_in">距提醒触发还有：\n%s</string>
     <string name="alarm_warning">在依赖它之前，请确保闹钟能够正常工作。由于系统与节电有关的限制，它有时可能会失灵。</string>
+    <string name="reminder_warning">使用提醒器之前，请确保它们正常工作。检查你的设备电池和通知设置，看看有没有东西阻止提醒器，或者在后台终止应用程序。</string>
     <string name="notifications_disabled">此应用程序的通知已被禁用。请在您的设备设置中启用它们。</string>
     <string name="alarm">闹钟</string>
     <string name="snooze">贪睡</string>
@@ -573,6 +579,11 @@
     <string name="faq_8_text_commons">由于您的应用版本不再更新，您发现的程序错误可能永远不会被修复。 此外，也不会有新的功能。 您可以在Google Play上支付一小笔钱购买专业版。
         这是一次性付款，这意味着一旦您购买，您将永远不再需要支付。 即使在获得新的设备之后，也不需要。 如果您不喜欢专业版，您可以在几个小时内卸载它，并且您将自动获得您的资金。
         如果您希望稍后退款，请通过hello@simplemobiletools.com与我们联系，您将获得退款。</string>
+    <string name="faq_9_title_commons">我如何一次选择多个项目?</string>
+    <string name="faq_9_text_commons">有多种方法来实现。第一种是通过长按一项启动选择模式，然后短按其他项目来选中它们。第二种方式类似于用鼠标在pc上选择项目，
+        长按一项启动选择模式，然后继续用手指在其他项目上拖动以进行选择。选择多个项目的第三种方式是长按一个项目，然后长按另一个项目，在这之间的所有项目都会被选中。如果
+你
+        想选择所有项目，只需长按一个项目，接着单击左上角的选定项目的计数器。这将选择或取消选择所有的项目。</string>
     <string name="why_upgrade">升级专业版</string>
     <string name="why_upgrade_basic_version">基本</string>
     <string name="why_upgrade_pro_version">专业版</string>

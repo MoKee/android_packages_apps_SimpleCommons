@@ -12,7 +12,9 @@
     <string name="no_app_found">Nem található érvényes alkalmazás</string>
     <string name="set_as">Beállítás ennek</string>
     <string name="copy_to_clipboard">Másolás vágólapra</string>
+    <string name="copy_number_to_clipboard">Szám másolása a vágólapra</string>
     <string name="value_copied_to_clipboard">Érték másolva a vágólapra</string>
+    <string name="dial_number">Tárcsázás</string>
     <string name="unknown">Ismeretlen</string>
     <string name="always">Mindig</string>
     <string name="never">Soha</string>
@@ -212,6 +214,7 @@
     <string name="share">Megosztás</string>
     <string name="share_via">Megosztva ezzel</string>
     <string name="select_all">Összes kiválasztása</string>
+    <string name="select_text">Szövegkijelölés</string>
     <string name="hide">Elrejtés</string>
     <string name="unhide">Elrejtés megszüntetés</string>
     <string name="hide_folder">Mappa elrejtése</string>
@@ -243,6 +246,8 @@
     <string name="middle_name">Középső név</string>
     <string name="surname">Családnév</string>
     <string name="full_name">Teljes név</string>
+    <string name="use_custom_sorting">Egyéni sorrendbeállítás</string>
+    <string name="change_order">Sorrendváltoztatás</string>
     <string name="proceed_with_deletion">Biztosan folytatja a törlést?</string>
     <string name="deletion_confirmation">Biztos törölni akarja ezt: %s?</string>
     <string name="move_to_recycle_bin_confirmation">Biztos át akarja helyezni %s fájlt a Lomtárba?</string>
@@ -400,6 +405,7 @@
     <string name="alarm_goes_off_in">A riasztásig hátralévő idő eltűnik:\n%s</string>
     <string name="reminder_triggers_in">Az emlékeztető aktiválásáig hátralévő idő:\n%s</string>
     <string name="alarm_warning">Győződjön meg róla, hogy a riasztás megfelelően működik, mielőtt napi szinten használná. Az akkumulátor takarékossággal kapcsolatos rendszerkorlátozások miatt helytelenül is működhetnek.</string>
+    <string name="reminder_warning">Ellenőrizze, hogy az emlékeztetők megfelelően működnek-e, mielőtt azokat használná. Ellenőrizze a készüléke akkumulátor- és értesítési beállításait, hogy semmi se akadályozza az emlékeztetőket, semmi se állítsa le az alkalmazást a háttérben.</string>
     <string name="notifications_disabled">Az alkalmazás értesítései le vannak tiltva. Kérjük, lépjen be a készülék beállításaiba és engedélyezze ezeket.</string>
     <string name="alarm">Riasztás</string>
     <string name="snooze">Elhalasztás</string>
@@ -609,6 +615,10 @@
     <string name="faq_8_text_commons">Mivel az alkalmazás jelenlegi verziója többé nem frissül, az esetlegesen észlelt hibákat soha nem fogja senki kijavítani. Nem kerülnek új funkciók hozzáadásra. Jutányos áron megvásárolhatja a Pro-verziót a Google Áruházban.
          Az egyszeri fizetés, azt jelenti, hogy ha egyszer megvásárolta, soha nem kell többet fizetnie. Még egy új telefon vásárlása után sem. Ha nem tetszik a Pro-verzió, egyszerűen eltávolíthatja azt néhány órán belül, és automatikusan visszakapja a pénzét.
          Ha bármikor később szeretne visszatérítést kérni, lépjen kapcsolatba velünk a hello@simplemobiletools.com címen, és megkapja.</string>
+    <string name="faq_9_title_commons">Hogyan jelölhetek ki egyszerre több elemet?</string>
+    <string name="faq_9_text_commons">Ennek többféle módja van. Az első egy elem hosszú megnyomásával indítja el a kiválasztási módot, majd rövidre kattintva a többi kiválasztandó elemre. A második módszer hasonló az elemek kiválasztásához a számítógépeken egérrel,
+        csak indítsa el a kiválasztási módot egy elem hosszannyomásával, majd az ujjával még mindig lefelé húzva húzza át a többi elemen a kiválasztáshoz. A több elem kiválasztásának harmadik módja az, hogy hosszan nyomja meg az egyik elemet, majd hosszan nyomja meg a másikat, és minden, ami a kettő között van, kiválasztásra kerül.
+        Ha az összes elemet ki akarja jelölni, csak hosszan nyomja meg az egyik elemet, majd kattintson a bal felső sarokban lévő kiválasztott elem számlálójára. Ez kijelöli vagy leválasztja az összeset.</string>
     <string name="why_upgrade">Szerezze meg most a Pro verziót!</string>
     <string name="why_upgrade_basic_version">Alap</string>
     <string name="why_upgrade_pro_version">Pro</string>

@@ -12,7 +12,9 @@
     <string name="no_app_found">Kehtivat rakendust ei leitud</string>
     <string name="set_as">Seadista kui</string>
     <string name="copy_to_clipboard">Kopeeri lõikelauale</string>
+    <string name="copy_number_to_clipboard">Kopeeri number lõikelauale</string>
     <string name="value_copied_to_clipboard">Väärtus kopeeritakse lõikepuhvrisse</string>
+    <string name="dial_number">Vali number</string>
     <string name="unknown">Teadmata</string>
     <string name="always">Alati</string>
     <string name="never">Mitte kunagi</string>
@@ -212,6 +214,7 @@
     <string name="share">Jaga</string>
     <string name="share_via">Jaga läbi</string>
     <string name="select_all">Vali kõik</string>
+    <string name="select_text">Vali tekst</string>
     <string name="hide">Peida</string>
     <string name="unhide">Lõpeta peitmine</string>
     <string name="hide_folder">Peidetud kaust</string>
@@ -243,6 +246,8 @@
     <string name="middle_name">Teine eesnimi</string>
     <string name="surname">Perekonnanimi</string>
     <string name="full_name">Täisnimi</string>
+    <string name="use_custom_sorting">Kasuta kohandatud sortimist</string>
+    <string name="change_order">Muuda järjekorda</string>
     <string name="proceed_with_deletion">Kas soovite kindlasti kustutamist jätkata?</string>
     <string name="deletion_confirmation">Kas oled kindel, et soovid selle %s kustutada?</string>
     <string name="move_to_recycle_bin_confirmation">Kas olete kindel, et soovite %s prügikasti teisaldada?</string>
@@ -400,6 +405,7 @@
     <string name="alarm_goes_off_in">Alarmi lõppemiseni jäänud aeg:\n%s</string>
     <string name="reminder_triggers_in">Meeldetuletamiseni jäänud aeg:\n%s</string>
     <string name="alarm_warning">Enne selle kasutusele võtmist veenduge, et alarm töötab korralikult. Aku säästmisega seotud süsteemipiirangute tõttu võib see valesti toimida.</string>
+    <string name="reminder_warning">Enne neile tuginemist veendu, et meeldetuletused töötaksid korralikult. Kontrolli oma seadme aku ja märguandeseadeid, et miski ei blokeeri meeldetuletusi ega tapa rakendust taustal.</string>
     <string name="notifications_disabled">Selle rakenduse teated on keelatud. Palun lubage nende seadistamiseks oma seadme seaded.</string>
     <string name="alarm">Äratus</string>
     <string name="snooze">Lükka edasi</string>
@@ -609,6 +615,10 @@
     <string name="faq_8_text_commons">Kuna teie rakenduse versiooni enam ei värskendata, ei parandata tõenäoliselt kunagi leitud vigu. Samuti ei lisata uusi funktsioone. Pro-versiooni saate väikese raha eest osta Google Playst.
        See on ühekordne makse, mis tähendab, et pärast selle ostmist ei pea te enam kunagi maksma. Isegi mitte pärast uue seadme hankimist. Kui teile Pro versioon ei meeldi, saate selle mõne tunni jooksul lihtsalt desinstallida ja saate oma raha automaatselt tagasi.
         Kui soovite tagasimakset igal ajal hiljem, võtke meiega lihtsalt ühendust aadressil hello@simplemobiletools.com ja saate selle kätte.</string>
+    <string name="faq_9_title_commons">Kuidas valida korraga mitu üksust?</string>
+    <string name="faq_9_text_commons">Seda saab teha mitmel viisil. Esimene käivitab valikurežiimi, vajutades pikka aega ühte üksust ja seejärel nende valimiseks teistel lühikest klõpsamist. Teine viis on sarnane üksuste valimisega arvutites hiirega,
+        alusta lihtsalt valimisrežiimiga, vajutades pikka aega ühte üksust, seejärel teiste üksuste valimiseks lohista sõrme allapoole nende kohal. Kolmas viis mitme elemendi valimiseks on ühe elemendi pikaajaline vajutamine, seejärel viimase vajutamine ja kõik vahepealsed valitakse. Kui
+        soovid valida kõik üksused, vajuta lihtsalt pikka aega ühte üksust ja seejärel klõpsa vasakus ülanurgas valitud üksuste loenduri juures. See valib kõik valikud või tühistab nende valiku.</string>
     <string name="why_upgrade">Hankige kohe Pro versioon!</string>
     <string name="why_upgrade_basic_version">Põhiline</string>
     <string name="why_upgrade_pro_version">Pro</string>
