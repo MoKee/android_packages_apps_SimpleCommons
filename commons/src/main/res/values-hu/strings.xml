@@ -619,6 +619,8 @@
     <string name="faq_9_text_commons">Ennek többféle módja van. Az első egy elem hosszú megnyomásával indítja el a kiválasztási módot, majd rövidre kattintva a többi kiválasztandó elemre. A második módszer hasonló az elemek kiválasztásához a számítógépeken egérrel,
         csak indítsa el a kiválasztási módot egy elem hosszannyomásával, majd az ujjával még mindig lefelé húzva húzza át a többi elemen a kiválasztáshoz. A több elem kiválasztásának harmadik módja az, hogy hosszan nyomja meg az egyik elemet, majd hosszan nyomja meg a másikat, és minden, ami a kettő között van, kiválasztásra kerül.
         Ha az összes elemet ki akarja jelölni, csak hosszan nyomja meg az egyik elemet, majd kattintson a bal felső sarokban lévő kiválasztott elem számlálójára. Ez kijelöli vagy leválasztja az összeset.</string>
+    <string name="faq_10_title_commons">Megvettem már az alkalmazást, de nem tudom letölteni másik készülékre.</string>
+    <string name="faq_10_text_commons">Próbálja meg törölni a Google Áruház gyorsítótárát majd újraindítani a telefont. Ez egy Google Áruház hiba, nem függ az alkalmazástól.</string>
     <string name="why_upgrade">Szerezze meg most a Pro verziót!</string>
     <string name="why_upgrade_basic_version">Alap</string>
     <string name="why_upgrade_pro_version">Pro</string>

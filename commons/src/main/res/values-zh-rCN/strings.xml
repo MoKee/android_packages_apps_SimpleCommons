@@ -584,6 +584,8 @@
         长按一项启动选择模式，然后继续用手指在其他项目上拖动以进行选择。选择多个项目的第三种方式是长按一个项目，然后长按另一个项目，在这之间的所有项目都会被选中。如果
 你
         想选择所有项目，只需长按一个项目，接着单击左上角的选定项目的计数器。这将选择或取消选择所有的项目。</string>
+    <string name="faq_10_title_commons">我已经购买了这个应用，但我不能在另一台设备上下载它。</string>
+    <string name="faq_10_text_commons">尝试清理您的应用缓存并重启设备。这是 Google Play 的功能，与应用本身并没有关系。</string>
     <string name="why_upgrade">升级专业版</string>
     <string name="why_upgrade_basic_version">基本</string>
     <string name="why_upgrade_pro_version">专业版</string>

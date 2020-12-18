@@ -619,6 +619,8 @@
     <string name="faq_9_text_commons">Seda saab teha mitmel viisil. Esimene käivitab valikurežiimi, vajutades pikka aega ühte üksust ja seejärel nende valimiseks teistel lühikest klõpsamist. Teine viis on sarnane üksuste valimisega arvutites hiirega,
         alusta lihtsalt valimisrežiimiga, vajutades pikka aega ühte üksust, seejärel teiste üksuste valimiseks lohista sõrme allapoole nende kohal. Kolmas viis mitme elemendi valimiseks on ühe elemendi pikaajaline vajutamine, seejärel viimase vajutamine ja kõik vahepealsed valitakse. Kui
         soovid valida kõik üksused, vajuta lihtsalt pikka aega ühte üksust ja seejärel klõpsa vasakus ülanurgas valitud üksuste loenduri juures. See valib kõik valikud või tühistab nende valiku.</string>
+    <string name="faq_10_title_commons">Olen rakenduse ostnud, kuid ma ei saa seda teisest seadmest alla laadida.</string>
+    <string name="faq_10_text_commons">Tühjendage oma Google Play rakenduse vahemälu ja taaskäivitage seade. See on mõni Google Play tõrge, mis pole tegelikult seotud rakenduse endaga.</string>
     <string name="why_upgrade">Hankige kohe Pro versioon!</string>
     <string name="why_upgrade_basic_version">Põhiline</string>
     <string name="why_upgrade_pro_version">Pro</string>

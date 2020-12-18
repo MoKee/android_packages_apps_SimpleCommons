@@ -687,6 +687,8 @@
     <string name="faq_9_text_commons">Existuje několik způsobů, jak toho dosáhnout. První spouští režim výběru dlouhým stisknutím jedné položky a následným krátkým kliknutím na ostatní pro výběr. Druhý způsob je podobný výběru položek na PC pomocí myši,
         stačí spustit režim výběru dlouhým stisknutím jedné položky a potom prstem stále dolů přetáhnout přes další položky pro výběr. Třetím způsobem výběru více položek je dlouhé stisknutí jedné položky, pak dlouhé stisknutí další - vybere se vše mezi nimi. Pokud
         chcete vybrat všechny položky, stačí dlouze stisknout jednu položku a poté kliknout na počítadlo vybraných položek v levém horním rohu. Tím se vybere nebo zruší výběr všeho.</string>
+    <string name="faq_10_title_commons">Zakoupil jsem aplikaci, ale nemůžu ji stáhnout na jiném zařízení.</string>
+    <string name="faq_10_text_commons">Zkuste vymazat mezipaměť aplikace Obchod Play a restartovat zařízení. Je to nějaká chyba Obchodu Play, která ve skutečnosti nesouvisí se samotnou aplikací.</string>
     <string name="why_upgrade">Získejte nyní Pro verzi!</string>
     <string name="why_upgrade_basic_version">Základní</string>
     <string name="why_upgrade_pro_version">Pro</string>
