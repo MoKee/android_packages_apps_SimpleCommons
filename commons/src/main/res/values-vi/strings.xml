@@ -12,7 +12,9 @@
     <string name="no_app_found">Không có ứng dụng hợp lệ</string>
     <string name="set_as">Đặt làm</string>
     <string name="copy_to_clipboard">Sao chép vào khay nhớ tạm</string>
+    <string name="copy_number_to_clipboard">Sao chép số vào khay nhớ tạm</string>
     <string name="value_copied_to_clipboard">Giá trị đã được copy vô Clipboard</string>
+    <string name="dial_number">Quay số</string>
     <string name="unknown">Không rõ</string>
     <string name="always">Luôn luôn</string>
     <string name="never">Không bao giờ</string>
@@ -190,6 +192,7 @@
     <string name="apply_to_all_apps">Áp dụng màu sắc cho tất cả các ứng dụng đơn giản</string>
     <string name="app_icon_color_warning">CẢNH BÁO: Một số trình khởi chạy không hỗ trợ tùy chỉnh biểu tượng ứng dụng. Trong trường hợp biểu tượng biến mất, hãy thử khởi chạy ứng dụng qua Google Play hoặc một số tiện ích, nếu có.         Sau khi khởi chạy, chỉ cần đặt lại biểu tượng màu cam mặc định # F57C00. Bạn có thể phải cài đặt lại ứng dụng trong trường hợp xấu nhất</string>
     <string name="share_colors_success">Màu sắc được cập nhật thành công. Một Chủ đề mới có tên \'Shared\' đã được thêm, vui lòng sử dụng chủ đề đó để cập nhật tất cả các màu của ứng dụng trong tương lai</string>
+    <string name="shared_theme_note">Lưu ý rằng mặc dù bạn đang sử dụng phiên bản ứng dụng Pro, bạn vẫn cần Cảm ơn đơn giản vì lý do kỹ thuật. Nó quan tâm đến sự đồng bộ hóa màu sắc.</string>
     <string name="light_theme">Sáng</string>
     <string name="dark_theme">Tối</string>
     <string name="solarized">Phơi sáng</string>
@@ -205,6 +208,7 @@
     <string name="share">Chia sẻ</string>
     <string name="share_via">Chia sẻ qua</string>
     <string name="select_all">Chọn tất cả</string>
+    <string name="select_text">Chọn văn bản</string>
     <string name="hide">Ẩn</string>
     <string name="unhide">Bỏ ẩn</string>
     <string name="hide_folder">Ẩn thư mục</string>
@@ -236,6 +240,8 @@
     <string name="middle_name">Tên đệm</string>
     <string name="surname">Họ</string>
     <string name="full_name">Họ và tên</string>
+    <string name="use_custom_sorting">Sử dụng phân loại tùy chỉnh</string>
+    <string name="change_order">Đổi thứ tự</string>
     <string name="proceed_with_deletion">Bạn có chắc chắn muốn tiến hành xóa?</string>
     <string name="deletion_confirmation">Bạn có chắc chắn muốn xóa %s?</string>
     <string name="move_to_recycle_bin_confirmation">Bạn có chắc chắn muốn chuyển %s vào Thùng rác không?</string>
@@ -272,6 +278,7 @@
     <string name="yesterday">Hôm qua</string>
     <string name="today">Hôm nay</string>
     <string name="tomorrow">Ngày mai</string>
+    <string name="hide_year">Ẩn năm</string>
     <string name="seconds_raw">giây</string>
     <string name="minutes_raw">phút</string>
     <string name="hours_raw">giờ</string>
@@ -363,6 +370,7 @@
     <string name="alarm_goes_off_in">Thời gian còn lại cho đến khi báo thức kêu:\n%s</string>
     <string name="reminder_triggers_in">Thời gian còn lại cho đến khi nhắc nhở kích hoạt:\n%s</string>
     <string name="alarm_warning">Hãy chắc chắn rằng báo động hoạt động đúng trước khi dựa vào nó. Nó có thể hoạt động sai do hạn chế hệ thống liên quan đến tiết kiệm pin.</string>
+    <string name="reminder_warning">Hãy đảm bảo rằng lời nhắc hoạt động đúng cách trước khi dựa vào chúng. Kiểm tra cài đặt thông báo và pin thiết bị của bạn, nếu không có gì chặn lời nhắc hoặc tắt ứng dụng chạy trong nền.</string>
     <string name="notifications_disabled">Thông báo của ứng dụng này bị vô hiệu hóa. Vui lòng vào cài đặt thiết bị của bạn để kích hoạt chúng.</string>
     <string name="alarm">Báo thức</string>
     <string name="snooze">Báo lại</string>
@@ -571,7 +579,35 @@
     <string name="faq_8_text_commons">Vì phiên bản ứng dụng của bạn không còn được cập nhật, các lỗi bạn có thể phát hiện sẽ không bao giờ được sửa. Cũng sẽ không có chức năng mới được thêm vào. Bạn có thể mua phiên bản Pro trên Google Play với một khoản tiền nhỏ.
          Đó là thanh toán một lần, có nghĩa là một khi bạn mua nó, bạn sẽ không bao giờ phải trả lại. Ngay cả sau khi nhận được một thiết bị mới. Nếu bạn không thích phiên bản Pro, bạn chỉ cần gỡ cài đặt trong vòng vài giờ và bạn sẽ tự động lấy lại tiền.
          Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại hello@simplemobiletools.com và bạn sẽ nhận được nó.</string>
+    <string name="faq_9_title_commons">Làm cách nào tôi có thể chọn nhiều mục cùng một lúc?</string>
+    <string name="faq_9_text_commons">Có nhiều cách để làm điều đó. Cách đầu tiên là bắt đầu chế độ lựa chọn bằng cách nhấn và giữ một mục, sau đó nhấp nhanh vào các mục khác để chọn chúng. Cách thứ hai tương tự như chọn các mục trên PC bằng chuột, chỉ cần bắt đầu chế độ chọn bằng cách nhấn và giữ một mục, sau đó vẫn kéo ngón tay của bạn xuống trên các mục khác để chọn. Cách thứ ba để chọn nhiều mục là nhấn và giữ một mục, sau đó nhấn và giữ một mục khác và mọi thứ ở giữa sẽ được chọn. Nếu bạn muốn chọn tất cả các mục, chỉ cần nhấn và giữ một mục, sau đó nhấp vào quầy mục đã chọn ở góc trên cùng bên trái. Điều đó sẽ chọn hoặc bỏ chọn tất cả mọi thứ.</string>
+    <string name="faq_10_title_commons">Tôi đã mua ứng dụng, nhưng tôi không thể tải xuống ứng dụng trên thiết bị khác.</string>
+    <string name="faq_10_text_commons">Thử xóa bộ nhớ cache của ứng dụng Google Play và khởi động lại thiết bị của bạn. Đó là một số trục trặc của Google Play, không thực sự liên quan đến chính ứng dụng.</string>
+    <string name="why_upgrade">Tải xuống phiên bản Pro ngay bây giờ!</string>
     <string name="why_upgrade_basic_version">Cơ bản</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="why_upgrade_no_ads">Không quảng cáo</string>
+    <string name="why_upgrade_no_internet_access">Không quyền truy cập mạng</string>
+    <string name="why_upgrade_footer">Đảm bảo hoàn tiền 100%</string>
+    <string name="why_upgrade_advanced_photo_editor">Trình chỉnh sửa ảnh nâng cao</string>
+    <string name="why_upgrade_heic_support">Hỗ trợ tệp HEIC/HEIF</string>
+    <string name="why_upgrade_batch_renaming">Đổi tên tệp hàng loạt nâng cao</string>
+    <string name="why_upgrade_folder_locking">Khóa thư mục riêng lẻ</string>
+    <string name="why_upgrade_printing_support">Hỗ trợ in ấn</string>
+    <string name="why_upgrade_time_zone_support">Hỗ trợ múi giờ</string>
+    <string name="why_upgrade_attendees_emails">Người tham dự và lời nhắc qua email</string>
+    <string name="why_upgrade_easy_event_importing">Nhập sự kiện dễ dàng</string>
+    <string name="why_upgrade_new_widgets">Widget mới</string>
+    <string name="why_upgrade_duplicate_contact_merging">Cải thiện hợp nhất liên hệ trùng lặp</string>
+    <string name="why_upgrade_font_size_customization">Tùy chỉnh kích thước phông chữ</string>
+    <string name="why_upgrade_private_contact_sharing">Chia sẻ liên hệ riêng tư tùy chọn trong ứng dụng của chúng tôi</string>
+    <string name="why_upgrade_checklists">Danh sách kiểm tra</string>
+    <string name="why_upgrade_different_note_per_widget">Ghi chú và màu sắc khác nhau cho mỗi widget</string>
+    <string name="why_upgrade_date_and_time_format">Tùy chỉnh định dạng ngày và giờ</string>
+    <string name="why_upgrade_shortcuts">Lối tắt màn hình chính</string>
+    <string name="why_upgrade_file_compression">Hỗ trợ nén tệp</string>
+    <string name="why_upgrade_background_color_customization">Tùy chỉnh màu nền</string>
+    <string name="why_upgrade_file_importing">Hỗ trợ nhập tệp</string>
     <string name="notice">Ứng dụng này sử dụng các thư viện bên thứ ba sau đây để làm cho cuộc sống của tôi dễ dàng hơn. Cảm ơn bạn.</string>
     <string name="third_party_licences">Giấy phép bên thứ ba</string>
     <string name="kotlin_title">Kotlin (ngôn ngữ lập trình)</string>
@@ -602,6 +638,7 @@
     <string name="event_bus_title">Bus sự kiện (liên lạc trong ứng dụng)</string>
     <string name="audio_record_view_title">Chế độ xem bản ghi âm thanh (trực quan hóa âm thanh)</string>
     <string name="sms_mms_title">SMS MMS (Xử lý SMS và MMS)</string>
+    <string name="apng_title">APNG Android (hỗ trợ WebP động)</string>
     <string name="deprecated_app">ĐỔI: Phiên bản của ứng dụng này không còn được duy trì, hãy lấy phiên bản Pro tại https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Đừng quên rằng nếu bạn gỡ cài đặt bất kỳ ứng dụng phải trả tiền nào trong vòng 2 giờ, bạn sẽ tự động được hoàn tiền. Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại hello@simplemobiletools.com và bạn sẽ nhận được nó. Điều đó làm cho nó dễ dàng để thử nó :)</string>
     <string name="developer_description">Một nhóm các ứng dụng Android nguồn mở đơn giản với các widget có thể tùy chỉnh, không có quảng cáo và các quyền không cần thiết.</string>

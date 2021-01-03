@@ -11,7 +11,10 @@
     <string name="edit_with">Modifier avec</string>
     <string name="no_app_found">Aucune application disponible</string>
     <string name="set_as">Définir en tant que</string>
+    <string name="copy_to_clipboard">Copier dans le Presse-papiers</string>
+    <string name="copy_number_to_clipboard">Copier le numéro dans le presse-papier</string>
     <string name="value_copied_to_clipboard">Valeur copiée dans le presse-papier</string>
+    <string name="dial_number">Composer le numéro</string>
     <string name="unknown">Inconnu</string>
     <string name="always">Toujours</string>
     <string name="never">Jamais</string>
@@ -29,6 +32,11 @@
     <string name="previous">Précédent</string>
     <string name="playpause">Lire/pause</string>
     <string name="next">Suivant</string>
+    <string name="number">Numéros</string>
+    <string name="no_contacts_found">Aucun contact trouvé</string>
+    <string name="request_the_required_permissions">Demander les autorisations requises</string>
+    <string name="no_access_to_contacts">L\'application n\'a pas pu accéder à vos contacts</string>
+    <string name="insert_text_here">Insérez le texte ici</string>
     <string name="change_view_type">Changer de mode d\'affichage</string>
     <string name="grid">Grille</string>
     <string name="list">Liste</string>
@@ -36,6 +44,14 @@
     <string name="reduce_column_count">Supprimer une colonne</string>
     <string name="change_cover_image">Changer l\'image de couverture</string>
     <string name="select_photo">Sélectionner une photo</string>
+    <string name="manage_blocked_numbers">Gérer les numéros bloqués</string>
+    <string name="not_blocking_anyone">Vous ne bloquer personne.</string>
+    <string name="add_a_blocked_number">Ajouter un numéro bloqué</string>
+    <string name="block_number">Bloquer le numéro</string>
+    <string name="block_numbers">Bloquer les numéros</string>
+    <string name="blocked_numbers">Numéros bloqués</string>
+    <string name="set_as_default">Définir par défaut</string>
+    <string name="block_confirmation">Voulez-vous vraiment bloquer \"%s\" ?</string>
     <string name="favorites">Favoris</string>
     <string name="add_favorites">Ajouter des favoris</string>
     <string name="add_to_favorites">Ajouter aux favoris</string>
@@ -196,6 +212,7 @@
     <string name="share">Partager</string>
     <string name="share_via">Partager via</string>
     <string name="select_all">Tout sélectionner</string>
+    <string name="select_text">Sélectionner le texte</string>
     <string name="hide">Masquer</string>
     <string name="unhide">Faire apparaître</string>
     <string name="hide_folder">Masquer le dossier</string>
@@ -227,6 +244,8 @@
     <string name="middle_name">Deuxième prénom</string>
     <string name="surname">Nom</string>
     <string name="full_name">Nom complet</string>
+    <string name="use_custom_sorting">Utiliser un tri personnalisé</string>
+    <string name="change_order">Changer l\'ordre</string>
     <string name="proceed_with_deletion">Voulez-vous vraiment effectuer la suppression ?</string>
     <string name="deletion_confirmation">Voulez-vous vraiment supprimer %s ?</string>
     <string name="move_to_recycle_bin_confirmation">Voulez-vous vraiment déplacer %s vers la corbeille ?</string>
@@ -264,6 +283,7 @@
     <string name="yesterday">Hier</string>
     <string name="today">Aujourd\'hui</string>
     <string name="tomorrow">Demain</string>
+    <string name="hide_year">Cacher l\'année</string>
     <string name="seconds_raw">secondes</string>
     <string name="minutes_raw">minutes</string>
     <string name="hours_raw">heures</string>
@@ -427,6 +447,7 @@
     <string name="import_settings">Importer les paramètres</string>
     <string name="settings_exported_successfully">Les paramètres ont été restaurés avec succès</string>
     <string name="settings_imported_successfully">Paramètres importés avec succès</string>
+    <string name="start_name_with_surname">Commencer le nom par le nom de famille</string>
     <string name="visibility">Visibilité</string>
     <string name="security">Sécurité</string>
     <string name="scrolling">Défilement</string>
@@ -436,8 +457,10 @@
     <string name="startup">Démarrage en cours…</string>
     <string name="text">Texte</string>
     <string name="migrating">Migration</string>
+    <string name="default_tab_to_open">Onglet à ouvrir au démarrage de l\'application</string>
     <string name="contacts_tab">Contacts</string>
     <string name="favorites_tab">Favoris</string>
+    <string name="call_history_tab">Historique d\'appel</string>
     <string name="groups_tab">Groupes</string>
     <string name="last_used_tab">Dernier utilisé</string>
     <string name="restore_this_file">Récupérer ce fichier</string>
@@ -548,14 +571,22 @@
     <string name="rate_us_prompt">Bonjour,\n\nil semble que vous utilisez cette application depuis un certain temps déjà, et nous l\'apprécions vraiment.\n\nSi nous pouvons vous demander une faveur, veuillez nous noter sur Google Play. Cela nous aiderait vraiment beaucoup.\n\nPeu importe comment vous décidez, vous ne verrez plus ce message.\n\nMerci !</string>
     <string name="rate_our_app">Évaluez notre application s\'il vous plaît :)</string>
     <string name="thank_you">Merci</string>
+    <string name="app_launcher_short">Lanceur d\'applications</string>
+    <string name="calculator_short">Calculatrice</string>
     <string name="calendar_short">Agenda</string>
     <string name="camera_short">Appareil photo</string>
     <string name="clock_short">Horloge</string>
     <string name="contacts_short">Contacts</string>
     <string name="dialer_short">Composeur</string>
+    <string name="draw_short">Dessiner</string>
+    <string name="file_manager_short">Gestionnaire de fichiers</string>
     <string name="flashlight_short">Lampe de poche</string>
     <string name="gallery_short">Galerie</string>
+    <string name="music_player_short">Lecteur de musique</string>
     <string name="notes_short">Notes</string>
+    <string name="sms_messenger_short">SMS Messenger</string>
+    <string name="thank_you_short">Merci</string>
+    <string name="voice_recorder_short">Enregistreur vocal</string>
     <string name="sideloaded_app">            La version de l\'application semble être corrompue. Téléchargez la version originale de <a href="%s">ici </a>.
         </string>
     <string name="frequently_asked_questions">Foire aux questions (FAQ)</string>
@@ -580,7 +611,32 @@
     <string name="faq_8_text_commons">Comme la version de votre application n\'est plus mise à jour, les bugs que vous avez peut-être détectés ne seront jamais corrigés. Il n\'y aura pas non plus de nouvelles fonctions ajoutées. Vous pouvez acheter la version Pro sur Google Play pour une petite somme d\'argent.
         Il s\'agit d\'un paiement unique, Ce qui signifie qu\'une fois que vous l\'aurez acheté, vous n\'aurez plus jamais à payer à nouveau. Pas même après avoir obtenu un nouvel appareil. Si vous n\'aimez pas la version Pro, vous pouvez la désinstaller en quelques heures et vous recevrez automatiquement votre argent.
         Si vous souhaitez un remboursement à tout moment plus tard, contactez-nous à hello@simplemobiletools.com et vous l\'obtiendrez.</string>
+    <string name="faq_9_title_commons">Comment puis-je sélectionner plusieurs items à la fois?</string>
+    <string name="faq_10_title_commons">J\'ai acheter l\'appli, mais je ne peux pas la télécharger sur un autre appareil.</string>
+    <string name="why_upgrade">Obtenez la version Pro dès maintenant!</string>
     <string name="why_upgrade_basic_version">Basique</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="why_upgrade_no_ads">Pas de pub</string>
+    <string name="why_upgrade_no_internet_access">Pas d\'accès à Internet</string>
+    <string name="why_upgrade_footer">+ Garantie de Remboursement à 100%</string>
+    <string name="why_upgrade_advanced_photo_editor">Éditeur de photos avancé</string>
+    <string name="why_upgrade_heic_support">Support des fichiers HEIC/HEIF</string>
+    <string name="why_upgrade_batch_renaming">Renommage de fichiers batch avancé</string>
+    <string name="why_upgrade_folder_locking">Verrouillage de dossier (individuellement)</string>
+    <string name="why_upgrade_printing_support">Prise en charge de l\'impression</string>
+    <string name="why_upgrade_time_zone_support">Prise en charge du fuseau horaire</string>
+    <string name="why_upgrade_attendees_emails">Participants et rappels par e-mail</string>
+    <string name="why_upgrade_easy_event_importing">Importation facile des événements</string>
+    <string name="why_upgrade_new_widgets">Nouveaux widgets</string>
+    <string name="why_upgrade_duplicate_contact_merging">Fusion des contacts en double améliorée</string>
+    <string name="why_upgrade_font_size_customization">Personnalisation de la taille de la police</string>
+    <string name="why_upgrade_private_contact_sharing">Partage facultatif de contacts privés dans nos applications</string>
+    <string name="why_upgrade_checklists">Check-listes</string>
+    <string name="why_upgrade_different_note_per_widget">Notes et couleurs différentes par widget</string>
+    <string name="why_upgrade_shortcuts">Raccourcis d’écran d’accueil</string>
+    <string name="why_upgrade_file_compression">Prise en charge de la compression de fichiers</string>
+    <string name="why_upgrade_background_color_customization">Personnalisation de la couleur d\'arrière-plan</string>
+    <string name="why_upgrade_file_importing">Prise en charge de l\'importation de fichiers</string>
     <string name="notice">Cette application utilise les bibliothèques tierces suivantes pour me simplifier la vie. Merci.</string>
     <string name="third_party_licences">Licences tierces</string>
     <string name="kotlin_title">Kotlin (langage de programmation)</string>
@@ -608,6 +664,8 @@
     <string name="filters_title">Android Photo Filters (filtres d\'image)</string>
     <string name="gesture_views_title">Aperçu des gestes (images extensibles)</string>
     <string name="indicator_fast_scroll_title">Défilement rapide de l\'indicateur (lettres sur la barre de défilement)</string>
+    <string name="sms_mms_title">SMS MMS (Gestion des MMS SMS)</string>
+    <string name="apng_title">APNG Android (support du WebP animé)</string>
     <string name="deprecated_app">OBSOLÈTE: Cette version de l\'application n\'est plus maintenue, obtenez la version Pro à https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payée dans les 2 heures, vous serez automatiquement remboursé. Si vous souhaitez un remboursement à tout moment plus tard, contactez-nous à hello@simplemobiletools.com et vous l\'obtiendrez. Cela vous permet de l\'essayer facilement :)</string>
 </resources>
