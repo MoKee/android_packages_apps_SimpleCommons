@@ -228,6 +228,9 @@
     <string name="print">Prindi</string>
     <string name="create_shortcut">Loo otsetee</string>
     <string name="add_number_to_contact">Lisage number kontakti jaoks</string>
+    <string name="view_contact_details">Kuva kontaktandmed</string>
+    <string name="call_from_sim_1">Kõne SIM-kaardilt 1</string>
+    <string name="call_from_sim_2">Kõne SIM-kaardilt 2</string>
     <string name="sort_by">Sorteeri</string>
     <string name="name">Nimi</string>
     <string name="size">Suurus</string>
@@ -419,6 +422,7 @@
     <string name="settings">Seaded</string>
     <string name="purchase_simple_thank_you">Ostmine lihtne tänan teid</string>
     <string name="customize_colors">Kohanda värve</string>
+    <string name="customize_colors_locked">Värvide kohandamine (lukus)</string>
     <string name="customize_widget_colors">Vidinate värvide kohandamine</string>
     <string name="use_english_language">Kasutage inglise keelt</string>
     <string name="show_hidden_items">Näita peidetud objekte</string>

@@ -224,6 +224,9 @@
     <string name="print">打印</string>
     <string name="create_shortcut">创建快捷方式</string>
     <string name="add_number_to_contact">添加号码到联系人</string>
+    <string name="view_contact_details">查看联系人详情</string>
+    <string name="call_from_sim_1"> SIM 1 的来电</string>
+    <string name="call_from_sim_2"> SIM 2 的来电</string>
     <string name="sort_by">排序方式</string>
     <string name="name">名称</string>
     <string name="size">大小</string>
@@ -386,6 +389,7 @@
     <string name="settings">设置</string>
     <string name="purchase_simple_thank_you">购买 Simple Thank You</string>
     <string name="customize_colors">自定义颜色</string>
+    <string name="customize_colors_locked">自定义颜色 (锁定)</string>
     <string name="customize_widget_colors">自定义小部件颜色</string>
     <string name="use_english_language">强制使用英语语言</string>
     <string name="show_hidden_items">显示隐藏的项目</string>

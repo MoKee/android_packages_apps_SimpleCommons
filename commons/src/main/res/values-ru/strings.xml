@@ -12,7 +12,9 @@
     <string name="no_app_found">Приложение не найдено</string>
     <string name="set_as">Установить как…</string>
     <string name="copy_to_clipboard">Копировать в буфер</string>
+    <string name="copy_number_to_clipboard">Копировать номер в буфер обмена</string>
     <string name="value_copied_to_clipboard">Значение скопировано в буфер обмена</string>
+    <string name="dial_number">Наберите номер</string>
     <string name="unknown">Неизвестно</string>
     <string name="always">Всегда</string>
     <string name="never">Никогда</string>
@@ -220,6 +222,7 @@
     <string name="share">Поделиться</string>
     <string name="share_via">Отправить через</string>
     <string name="select_all">Выделить все</string>
+    <string name="select_text">Выбрать текст</string>
     <string name="hide">Скрыть</string>
     <string name="unhide">Показать</string>
     <string name="hide_folder">Скрыть папку</string>
@@ -233,6 +236,9 @@
     <string name="print">Печать</string>
     <string name="create_shortcut">Создать ярлык</string>
     <string name="add_number_to_contact">Добавить номер в контакты</string>
+    <string name="view_contact_details">Посмотреть контактную информацию</string>
+    <string name="call_from_sim_1">Звонок с SIM 1</string>
+    <string name="call_from_sim_2">Звонок с SIM 2</string>
     <string name="sort_by">Сортировать по…</string>
     <string name="name">Имя</string>
     <string name="size">Размер</string>
@@ -251,6 +257,8 @@
     <string name="middle_name">Отчество</string>
     <string name="surname">Фамилия</string>
     <string name="full_name">Полное имя</string>
+    <string name="use_custom_sorting">Использовать настраиваемую сортировку</string>
+    <string name="change_order">Изменить порядок</string>
     <string name="proceed_with_deletion">Подтверждение удаления</string>
     <string name="deletion_confirmation">Вы действительно хотите удалить %s?</string>
     <string name="move_to_recycle_bin_confirmation">Вы действительно хотите переместить %s в корзину?</string>
@@ -466,6 +474,7 @@
     <string name="alarm_goes_off_in">Время, оставшееся до срабатывания будильника:\n%s</string>
     <string name="reminder_triggers_in">Время, оставшееся до срабатывания напоминания:\n%s</string>
     <string name="alarm_warning">Пожалуйста, убедитесь, что будильник работает правильно, прежде чем полагаться на него. Он может не работать должным образом из-за системных ограничений, связанных с экономией батареи.</string>
+    <string name="reminder_warning">Пожалуйста, убедитесь, что напоминания работают правильно, прежде чем полагаться на них. Проверьте заряд батареи и настройки уведомлений, если нет блокировки напоминаний или если приложение закрыто в фоновом режиме.</string>
     <string name="notifications_disabled">Уведомления этого приложения отключены. Пожалуйста, перейдите в настройки устройства и включите их.</string>
     <string name="alarm">Будильник</string>
     <string name="snooze">Отложить</string>
@@ -479,6 +488,7 @@
     <string name="settings">Настройки</string>
     <string name="purchase_simple_thank_you">Купить Simple Thank You</string>
     <string name="customize_colors">Настроить цвета</string>
+    <string name="customize_colors_locked">Настроить цвета (закрытые)</string>
     <string name="customize_widget_colors">Настроить цвета виджета</string>
     <string name="use_english_language">Использовать английский язык</string>
     <string name="show_hidden_items">Показывать скрытые файлы</string>
@@ -677,6 +687,12 @@
     <string name="faq_8_text_commons">Поскольку версия вашего приложения больше не обновляется, ошибки, которые вы обнаружили, никогда не будут исправлены. Кроме того, новые функции не будут добавлены. Вы можете купить Pro версию на Google Play за небольшую сумму денег.
         Это единовременный платеж, что означает, что после покупки вам никогда не придется платить снова. Даже после получения нового устройства. Если вам не понравится версия Pro, вы можете просто удалить ее в течение нескольких часов, и вы автоматически получите ваши деньги обратно.
         Если вы хотите вернуть деньги позже, просто свяжитесь с нами по адресу hello@simplemobiletools. и вы его получите.</string>
+    <string name="faq_9_title_commons">Как я могу выбрать сразу несколько элементов?</string>
+    <string name="faq_9_text_commons">Есть несколько способов сделать это. Первый режим запускается длительным нажатием на один элемент, а затем коротким щелчком по другим, чтобы выбрать его. Второй способ похож на выбор элементов на ПК мышкой,
+        просто запустите режим выбора, удерживая один элемент, затем с помощью пальца еще вниз перетащите его на другие элементы для выбора. Третий способ выбора нескольких элементов — долгое нажатие на один элемент, затем длительное нажатие на другой, и все между ними будет выбрано. Если вы
+        хотите выбрать все элементы, просто нажмите на один элемент, затем нажмите в выбранном левом верхнем углу. Это выберет или удалит все что угодно.</string>
+    <string name="faq_10_title_commons">Я купил приложение, но я не могу скачать его на другом устройстве.</string>
+    <string name="faq_10_text_commons">Попробуйте очистить кэш приложений Google Play и перезапустить устройство. Это какой-то сбой Google Play, который не связан с самим приложением.</string>
     <string name="why_upgrade">Получите версию Pro прямо сейчас!</string>
     <string name="why_upgrade_basic_version">Базовый</string>
     <string name="why_upgrade_pro_version">Pro</string>

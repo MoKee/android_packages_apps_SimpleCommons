@@ -142,7 +142,7 @@
     <string name="focal_length">Longitud focal</string>
     <string name="exposure_time">Tiempo exposición</string>
     <string name="iso_speed">Velocidad ISO</string>
-    <string name="f_number">F_numero</string>
+    <string name="f_number">Número-F</string>
     <string name="camera">Cámara</string>
     <string name="exif">EXIF</string>
     <string name="song_title">Título de la canción</string>
@@ -518,33 +518,32 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="faq_4_text_commons">Sí, al arrastrar un widget en la pantalla de inicio aparece una pantalla de configuración de widgets. Verá cuadrados de colores en la esquina inferior izquierda, solo presione para elegir un nuevo color. Puede usar el control deslizante para ajustar el alfa también.</string>
     <string name="faq_5_title_commons">¿Puedo de alguna manera restaurar archivos borrados?</string>
     <string name="faq_6_title_commons">El icono del lanzador de aplicaciones ha desaparecido. ¿Qué puedo hacer?</string>
-    <string name="faq_6_text_commons">Esto, está causada por tu lanzador, que no soporta customozicacion de iconos. Intenta lanzar la aplicación desde Google Play o algún widget si hay disponibles.
-
-Una vez lanzado, solo ajusta de nuevo la icono naranja por defecto #F57C00. Es posible que en el peor de los casos tengas que reinstalar la aplicación.</string>
+    <string name="faq_6_text_commons">Esto es causado porque tu launcher no soporta correctamente personalización de íconos. Intente iniciar la aplicación a través de Google Play o algún widget, si está disponible.
+        Una vez iniciado, simplemente vuelva a establecer el ícono naranja predeterminado #F57C00. Es posible que tengas que volver a instalar la aplicación en el peor de los casos.</string>
     <string name="why_upgrade_basic_version">Básico</string>
     <string name="notice">Esta aplicación usa las siguientes bibliotecas de terceros que hacen mi vida más fácil. Gracias.</string>
     <string name="third_party_licences">Licencias de terceros</string>
     <string name="kotlin_title">Kotlin (Programming language)</string>
-    <string name="subsampling_title">Vista de escala de submuestreo (zoomable imageviews)</string>
+    <string name="subsampling_title">Subsampling Scale Image View (Visor de imágenes con zoom)</string>
     <string name="glide_title">Deslizar (carga de imágenes y caché)</string>
-    <string name="picasso_title">Picasso (carga y caché de imágenes)</string>
+    <string name="picasso_title">Picasso (Carga y almacenamiento en caché de imágenes)</string>
     <string name="cropper_title">Recorte de imagen de Android (recorte de imagen y rotación)</string>
-    <string name="rtl_viewpager_title">RtlViewPager (intercambiar de derecha a izquierda)</string>
-    <string name="joda_title">Joda-hora (reemplazo de fecha Java)</string>
-    <string name="stetho_title">Stetho (depurando bases de datos)</string>
-    <string name="otto_title">Otto (bus de evento)</string>
-    <string name="photoview_title">PhotoView (GIFs zoomables)</string>
-    <string name="pattern_title">PatternLockView (protección de patrón)</string>
-    <string name="reprint_title">Reimpresión (protección de huella dactilar)</string>
-    <string name="gif_drawable_title">Gif arrastrable (cargando GIFs)</string>
-    <string name="autofittextview_title">AutoFitTextView (redimensionar texto)</string>
-    <string name="robolectric_title">Robolectric (marco de prueba)</string>
+    <string name="rtl_viewpager_title">RtlViewPager (Desplazamiento de izquierda a derecha)</string>
+    <string name="joda_title">Joda-Time (Remplazo a la fecha de Java)</string>
+    <string name="stetho_title">Stetho (Depurador de bases de datos)</string>
+    <string name="otto_title">Otto (Bus de eventos)</string>
+    <string name="photoview_title">PhotoView (GIFs con zoom)</string>
+    <string name="pattern_title">PatternLockView (Protección con patrón)</string>
+    <string name="reprint_title">Reprint (Protección con huella digital)</string>
+    <string name="gif_drawable_title">Gif Drawable (Carga de GIFs)</string>
+    <string name="autofittextview_title">AutoFitTextView (Redimensionador de texto)</string>
+    <string name="robolectric_title">Robolectric (Framework de pruebas)</string>
     <string name="espresso_title">Espresso (ayudante de pruebas)</string>
-    <string name="gson_title">Gson (JSON parser)</string>
-    <string name="leak_canary_title">Leak Canary (detector de fugas de memoria)</string>
+    <string name="gson_title">Gson (Convertidor de JSON)</string>
+    <string name="leak_canary_title">Leak Canary (Detector de falta de memoria)</string>
     <string name="number_picker_title">Selector de número (selector de número personalizable)</string>
-    <string name="exoplayer_title">ExoPlayer (reproductor de vídeo)</string>
-    <string name="panorama_view_title">Vista panorámica VR (mostrando panoramas)</string>
-    <string name="sanselan_title">Apache Sanselan (leyendo metadatos de imágenes)</string>
-    <string name="filters_title">Filtros de fotos de Android (filtros de imágenes)</string>
+    <string name="exoplayer_title">ExoPlayer (Reproductor de video)</string>
+    <string name="panorama_view_title">VR Panorama View (Mostrador de panoramas)</string>
+    <string name="sanselan_title">Apache Sanselan (Lector de metadatos de imagen)</string>
+    <string name="filters_title">Android Photo Filters (Filtros de imagen)</string>
 </resources>

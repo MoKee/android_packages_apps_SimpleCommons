@@ -11,7 +11,10 @@
     <string name="edit_with">İle düzenle</string>
     <string name="no_app_found">Geçerli bir uygulama bulunamadı</string>
     <string name="set_as">Ayarla</string>
+    <string name="copy_to_clipboard">Panoya kopyala</string>
+    <string name="copy_number_to_clipboard">Numarayı panoya kopyala</string>
     <string name="value_copied_to_clipboard">Değer panoya kopyalandı</string>
+    <string name="dial_number">Numara çevir</string>
     <string name="unknown">Bilinmiyor</string>
     <string name="always">Her zaman</string>
     <string name="never">Asla</string>
@@ -29,6 +32,11 @@
     <string name="previous">Önceki</string>
     <string name="playpause">Oynat / Duraklat</string>
     <string name="next">Sonraki</string>
+    <string name="number">Numara</string>
+    <string name="no_contacts_found">Kişi bulunamadı</string>
+    <string name="request_the_required_permissions">Gerekli izinleri isteyin</string>
+    <string name="no_access_to_contacts">Uygulama kişilerinize erişemedi</string>
+    <string name="insert_text_here">Buraya metin ekleyin</string>
     <string name="change_view_type">Önizleme türünü değiştir</string>
     <string name="grid">Izgara</string>
     <string name="list">Liste</string>
@@ -36,6 +44,15 @@
     <string name="reduce_column_count">Sütun sayısını azalt</string>
     <string name="change_cover_image">Kapak görüntüsünü değiştir</string>
     <string name="select_photo">Fotoğraf seçin</string>
+    <string name="manage_blocked_numbers">Engellenen numaraları yönet</string>
+    <string name="not_blocking_anyone">Sen kimseyi engellemiyorsun.</string>
+    <string name="add_a_blocked_number">Engellenen bir numara ekleyin</string>
+    <string name="block_number">Numarayı engelle</string>
+    <string name="block_numbers">Numaraları engelle</string>
+    <string name="blocked_numbers">Engellenen numaralar</string>
+    <string name="must_make_default_dialer">Engellenen numaraları kullanmak için bu uygulamayı varsayılan çevirici uygulaması yapmanız gerekir.</string>
+    <string name="set_as_default">Varsayılan olarak ayarla</string>
+    <string name="block_confirmation">\"%s\" engellemek istediğinizden emin misiniz?</string>
     <string name="favorites">Favoriler</string>
     <string name="add_favorites">Favori ekle</string>
     <string name="add_to_favorites">Favorilere ekle</string>
@@ -130,6 +147,10 @@
         <item quantity="one">%d öğe siliniyor</item>
         <item quantity="other">%d öğe siliniyor</item>
     </plurals>
+    <plurals name="delete_contacts">
+        <item quantity="one">%d kişi</item>
+        <item quantity="other">%d kişiler</item>
+    </plurals>
     <string name="select_storage">Depolama seç</string>
     <string name="internal">Dahili</string>
     <string name="sd_card">SD Kart</string>
@@ -177,6 +198,7 @@
     <string name="app_icon_color_warning">UYARI: Bazı başlatıcılar, uygulama simgesi özelleştirmesini düzgün işlemez. Simgenin kaybolması durumunda, uygulamayı Google Play veya varsa bir widget kullanarak başlatmayı deneyin.
         Başlatıldıktan sonra, sadece #F57C00 varsayılan turuncu simgesini geri ayarlayın. En kötü durumda uygulamayı yeniden yüklemeniz gerekebilir.</string>
     <string name="share_colors_success">Renkler başarıyla güncellendi. \'Paylaşılan\' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için kullanınız.</string>
+    <string name="shared_theme_note">Pro uygulama sürümünü kullanıyor olsanız bile, teknik nedenlerden dolayı yine de Basit Teşekkürler\'e ihtiyacınız olduğunu unutmayın. Renk senkronizasyonu ile ilgilenir.</string>
     <string name="light_theme">Aydınlık</string>
     <string name="dark_theme">Karanlık</string>
     <string name="solarized">Soluk</string>
@@ -192,6 +214,7 @@
     <string name="share">Paylaş</string>
     <string name="share_via">Şununla paylaş</string>
     <string name="select_all">Tümünü seç</string>
+    <string name="select_text">Metin seç</string>
     <string name="hide">Gizle</string>
     <string name="unhide">Göster</string>
     <string name="hide_folder">Klasörü gizle</string>
@@ -204,6 +227,10 @@
     <string name="redo">Yeniden yap</string>
     <string name="print">Yazdır</string>
     <string name="create_shortcut">Kısayol oluştur</string>
+    <string name="add_number_to_contact">İletişim için numara ekleyin</string>
+    <string name="view_contact_details">Kişi detaylarını görüntüle</string>
+    <string name="call_from_sim_1">SIM 1\'den ara</string>
+    <string name="call_from_sim_2">SIM 2\'den ara</string>
     <string name="sort_by">Sıralama ölçütü</string>
     <string name="name">Ad</string>
     <string name="size">Boyut</string>
@@ -218,6 +245,12 @@
     <string name="descending">Azalan</string>
     <string name="use_for_this_folder">Sadece bu klasör için kullan</string>
     <string name="sort_numeric_parts">Sayısal parçaları gerçek değere göre sırala</string>
+    <string name="first_name">İlk isim</string>
+    <string name="middle_name">İkinci ad</string>
+    <string name="surname">Soyadı</string>
+    <string name="full_name">Tam adı</string>
+    <string name="use_custom_sorting">Özel sıralama kullan</string>
+    <string name="change_order">Sıralamayı değiştir</string>
     <string name="proceed_with_deletion">Silme işlemine devam etmek istediğinizden emin misiniz?</string>
     <string name="deletion_confirmation">%s gerçekten silinsin mi?</string>
     <string name="move_to_recycle_bin_confirmation">%s gerçekten Geri Dönüşüm Kutusuna taşınsın mı?</string>
@@ -255,6 +288,7 @@
     <string name="yesterday">Dün</string>
     <string name="today">Bugün</string>
     <string name="tomorrow">Yarın</string>
+    <string name="hide_year">Yılı gizle</string>
     <string name="seconds_raw">saniye</string>
     <string name="minutes_raw">dakika</string>
     <string name="hours_raw">saat</string>
@@ -374,6 +408,7 @@
     <string name="alarm_goes_off_in">Alarmın çalmasına şu kadar kaldı:\n%s</string>
     <string name="reminder_triggers_in">Hatırlatıcı tetiklenene kadar kalan süre:\n%s</string>
     <string name="alarm_warning">Lütfen alarma güvenmeden önce düzgün çalıştığından emin olun. Pil tasarrufu ile ilgili sistem kısıtlamaları nedeniyle yanlış davranabilir.</string>
+    <string name="reminder_warning">Lütfen güvenmeden önce hatırlatıcıların düzgün çalıştığından emin olun. Hatırlatıcıları engelleyen veya arka planda uygulamayı sonlandıran bir şey yoksa cihazınızın pilini ve bildirim ayarlarını kontrol edin.</string>
     <string name="notifications_disabled">Bu uygulamanın bildirimleri devre dışı bırakıldı. Lütfen bunları etkinleştirmek için cihaz ayarlarınıza gidin.</string>
     <string name="alarm">Alarm</string>
     <string name="snooze">Ertele</string>
@@ -387,6 +422,7 @@
     <string name="settings">Ayarlar</string>
     <string name="purchase_simple_thank_you">Satın alma basit teşekkür ederim</string>
     <string name="customize_colors">Renkleri özelleştir</string>
+    <string name="customize_colors_locked">Renkleri özelleştirin (Kilitli)</string>
     <string name="customize_widget_colors">Widget renklerini özelleştir</string>
     <string name="use_english_language">İngilizce dilini kullan</string>
     <string name="show_hidden_items">Gizli öğeleri göster</string>
@@ -418,6 +454,7 @@
     <string name="import_settings">İçe aktarma ayarları</string>
     <string name="settings_exported_successfully">Ayarlar başarıyla dışa aktarıldı</string>
     <string name="settings_imported_successfully">Ayarlar başarıyla içe aktarıldı</string>
+    <string name="start_name_with_surname">Adı soyadı ile başlayın</string>
     <string name="visibility">Görünürlük</string>
     <string name="security">Güvenlik</string>
     <string name="scrolling">Kaydırma</string>
@@ -427,8 +464,10 @@
     <string name="startup">Başlangıç</string>
     <string name="text">Metin</string>
     <string name="migrating">Geçiş yapma</string>
+    <string name="default_tab_to_open">Uygulama başlangıcında sekme açmak için</string>
     <string name="contacts_tab">Rehber</string>
     <string name="favorites_tab">Favoriler</string>
+    <string name="call_history_tab">Çağrı geçmişi</string>
     <string name="groups_tab">Gruplar</string>
     <string name="last_used_tab">Son kullanılan</string>
     <string name="restore_this_file">Bu dosyayı geri yükle</string>
@@ -539,14 +578,22 @@
     <string name="rate_us_prompt">Merhaba,\n\nbu uygulamayı uzun süredir kullanıyorsunuz gibi görünüyor ve gerçekten takdir ediyoruz.\n\nSizden bir iyilik isteyebilirsek, lütfen bizi Google Play\'de derecelendirin. Bu bize gerçekten çok yardımcı olacaktır.\n\nNasıl derecelendirdiğiniz önemli değil, bu mesajı bir daha görmeyeceksiniz.\n\nTeşekkürler!</string>
     <string name="rate_our_app">Lütfen uygulamamızı değerlendirin :)</string>
     <string name="thank_you">Teşekkürler</string>
+    <string name="app_launcher_short">Uygulama başlatıcısı</string>
+    <string name="calculator_short">Hesap makinesi</string>
     <string name="calendar_short">Takvim</string>
     <string name="camera_short">Kamera</string>
     <string name="clock_short">Saat</string>
     <string name="contacts_short">Rehber</string>
     <string name="dialer_short">Telefon</string>
+    <string name="draw_short">Çiz</string>
+    <string name="file_manager_short">Dosya yöneticisi</string>
     <string name="flashlight_short">El feneri</string>
     <string name="gallery_short">Galeri</string>
+    <string name="music_player_short">Müzik oynatıcı</string>
     <string name="notes_short">Notlar</string>
+    <string name="sms_messenger_short">SMS messenger</string>
+    <string name="thank_you_short">Teşekkürler</string>
+    <string name="voice_recorder_short">Ses kaydedici</string>
     <string name="sideloaded_app">            Uygulama sürümünüz bozuk görünüyor.  Lütfen orijinal sürümü indirin <a href="%s">here</a>.
         </string>
     <string name="frequently_asked_questions">Sık sorulan sorular</string>
@@ -571,7 +618,37 @@
     <string name="faq_8_text_commons">Uygulama sürümünüz artık güncellenmediğinden, tespit ettiğiniz hatalar hiçbir zaman düzeltilmez. Ayrıca yeni fonksiyonlar eklenmeyecek. Pro sürümünü Google Play\'de satın alabilirsiniz, az miktarda para için.
         Bu tek seferlik bir ödemedir, yani bir kez satın aldığınızda bir daha asla ödeme yapmanız gerekmeyecektir. Yeni bir cihaz aldıktan sonra bile. Pro sürümünü beğenmezseniz, birkaç saat içinde kaldırabilir ve otomatik olarak paranızı geri alabilirsiniz.
         Daha sonra herhangi bir zamanda geri ödeme yapmak istiyorsanız, hello@simplemobiletools.com adresinden bizimle iletişime geçmeniz yeterli olacaktır.</string>
+    <string name="faq_9_title_commons">Aynı anda birden fazla öğeyi nasıl seçebilirim?</string>
+    <string name="faq_9_text_commons">Bunu yapmanın birçok yolu var. Birincisi, bir öğeye uzun basarak seçim modunu başlatmak, ardından diğerlerini seçmek için kısa tıklamaktır. İkinci yöntem, bilgisayarlardaki öğeleri fareyle seçmeye benzer,
+         sadece bir öğeye uzun basarak seçim modunu başlatın, ardından parmağınızı hala aşağıya doğru seçmek için diğer öğelere sürükleyin. Birden fazla öğe seçmenin üçüncü yolu, bir öğeye uzun süre basmak, ardından başka bir öğeye uzun basmaktır ve aradaki her şey seçilir. Eğer sen
+         tüm öğeleri seçmek istiyorsanız, sadece bir öğeye uzun basın, ardından sol üst köşedeki seçili öğe sayacına tıklayın. Bu, her şeyi seçecek veya seçimini kaldıracaktır.</string>
+    <string name="faq_10_title_commons">Uygulamayı satın aldım ancak başka bir cihaza indiremiyorum.</string>
+    <string name="faq_10_text_commons">Google Play uygulama önbelleğinizi temizlemeyi ve cihazınızı yeniden başlatmayı deneyin. Bu, uygulamanın kendisiyle gerçekten ilgili olmayan bazı Google Play aksaklıklarıdır.</string>
+    <string name="why_upgrade">Pro sürümünü şimdi edinin!</string>
     <string name="why_upgrade_basic_version">Temel</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="why_upgrade_no_ads">Reklam yok</string>
+    <string name="why_upgrade_no_internet_access">İnternet erişimi yok</string>
+    <string name="why_upgrade_footer">+ 100% Para iade garantisi</string>
+    <string name="why_upgrade_advanced_photo_editor">Gelişmiş fotoğraf düzenleyici</string>
+    <string name="why_upgrade_heic_support">HEIC/HEIF dosya desteği</string>
+    <string name="why_upgrade_batch_renaming">Gelişmiş toplu dosyayı yeniden adlandırma</string>
+    <string name="why_upgrade_folder_locking">Bireysel klasör kilitleme</string>
+    <string name="why_upgrade_printing_support">Baskı desteği</string>
+    <string name="why_upgrade_time_zone_support">Saat dilimi desteği</string>
+    <string name="why_upgrade_attendees_emails">Katılımcılar ve e-posta hatırlatıcıları</string>
+    <string name="why_upgrade_easy_event_importing">Kolay olay içe aktarma</string>
+    <string name="why_upgrade_new_widgets">Yeni widgetler</string>
+    <string name="why_upgrade_duplicate_contact_merging">Çift kişi birleştirme iyileştirildi</string>
+    <string name="why_upgrade_font_size_customization">Yazı tipi boyutu özelleştirmeleri</string>
+    <string name="why_upgrade_private_contact_sharing">Uygulamalarımızda isteğe bağlı özel kişi paylaşımı</string>
+    <string name="why_upgrade_checklists">Kontrol listeleri</string>
+    <string name="why_upgrade_different_note_per_widget">Widget başına farklı not ve renkler</string>
+    <string name="why_upgrade_date_and_time_format">Tarih ve saat biçimi özelleştirmeleri</string>
+    <string name="why_upgrade_shortcuts">Ana ekran kısayolları</string>
+    <string name="why_upgrade_file_compression">Dosya sıkıştırma desteği</string>
+    <string name="why_upgrade_background_color_customization">Arka plan rengi özelleştirmeleri</string>
+    <string name="why_upgrade_file_importing">Dosya içe aktarma desteği</string>
     <string name="notice">Bu uygulama hayatımı kolaylaştırmak için aşağıdaki üçüncü taraf kitaplıklarını kullanır. Teşekkürler.</string>
     <string name="third_party_licences">Üçüncü taraf lisansları</string>
     <string name="kotlin_title">Kotlin (programlama dili)</string>
@@ -599,6 +676,11 @@
     <string name="filters_title">Android Fotoğraf Filtreleri (görüntü filtreleri)</string>
     <string name="gesture_views_title">Hareket görünümleri (yakınlaştırılabilir görüntüler)</string>
     <string name="indicator_fast_scroll_title">Hızlı kaydırma göstergesi (kaydırma çubuğunda harfler)</string>
+    <string name="event_bus_title">Etkinlik otobüsü (uygulama içindeki iletişim)</string>
+    <string name="audio_record_view_title">Ses kaydı görünümü (ses görselleştirme)</string>
+    <string name="sms_mms_title">SMS MMS (SMS ve MMS işleme)</string>
+    <string name="apng_title">APNG Android (animasyonlu WebP desteği)</string>
     <string name="deprecated_app">KULLANIMDAN KALDIRILDI: Uygulamanın bu sürümü artık desteklenmiyor, Pro sürümünü https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro adresinde bulabilirsiniz.</string>
     <string name="pro_app_refund">Ücretli herhangi bir uygulamayı 2 saat içinde kaldırırsanız, otomatik olarak iade edileceğini unutmayın. Daha sonra herhangi bir zamanda geri ödeme yapmak istiyorsanız, hello@simplemobiletools.com adresinden bizimle iletişime geçmeniz yeterli olacaktır. Bunu denemenin kolay yolu :)</string>
+    <string name="developer_description">Özelleştirilebilir widget\'lara sahip, reklamlar ve gereksiz izinler içermeyen bir grup basit, açık kaynaklı Android uygulaması.</string>
 </resources>
