@@ -403,6 +403,7 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="migrating">Migrando</string>
     <string name="favorites_tab">Favoritos</string>
     <string name="groups_tab">Grupos</string>
+    <string name="last_used_tab">El último usado</string>
     <string name="restore_this_file">Restaurar el fichero</string>
     <string name="restore_selected_files">Restaurar los ficheros seleccionados</string>
     <string name="restore_all_files">Restaurar todos los ficheros</string>

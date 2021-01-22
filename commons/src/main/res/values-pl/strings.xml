@@ -12,7 +12,9 @@
     <string name="no_app_found">Nie mogę znaleźć danych aplikacji</string>
     <string name="set_as">Ustaw jako</string>
     <string name="copy_to_clipboard">Kopiuj do schowka</string>
+    <string name="copy_number_to_clipboard">Skopiuj token do schowka</string>
     <string name="value_copied_to_clipboard">Wartość została skopiowana do schowka</string>
+    <string name="dial_number">Wybierz Numer</string>
     <string name="unknown">Nieznane</string>
     <string name="always">Zawsze</string>
     <string name="never">Nigdy</string>
@@ -219,6 +221,7 @@
     <string name="share">Udostępnij</string>
     <string name="share_via">Udostępnij w</string>
     <string name="select_all">Zaznacz wszystko</string>
+    <string name="select_text">Zaznacz tekst</string>
     <string name="hide">Ukryj</string>
     <string name="unhide">Odkryj</string>
     <string name="hide_folder">Ukryj folder</string>
@@ -232,6 +235,9 @@
     <string name="print">Drukuj</string>
     <string name="create_shortcut">Utwórz skrót</string>
     <string name="add_number_to_contact">Dodaj numer do kontaktu</string>
+    <string name="view_contact_details">Wyświetl szczegóły kontaktu</string>
+    <string name="call_from_sim_1">Połączenie z SIM 1</string>
+    <string name="call_from_sim_2">Połączenie z SIM 2</string>
     <string name="sort_by">Sortuj według parametru:</string>
     <string name="name">Nazwa</string>
     <string name="size">Rozmiar</string>
@@ -250,6 +256,8 @@
     <string name="middle_name">Drugie imię</string>
     <string name="surname">Nazwisko</string>
     <string name="full_name">Imię i nazwisko</string>
+    <string name="use_custom_sorting">Użyj niestandardowego sortowania</string>
+    <string name="change_order">Zmień zamówienie</string>
     <string name="proceed_with_deletion">Czy na pewno chcesz to usunąć?</string>
     <string name="deletion_confirmation">Czy na pewno chcesz usunąć %s?</string>
     <string name="move_to_recycle_bin_confirmation">Czy na pewno chcesz %s do kosza?</string>
@@ -465,6 +473,7 @@
     <string name="alarm_goes_off_in">Czas pozostały do aktywacji alarmu:\n%s</string>
     <string name="reminder_triggers_in">Czas pozostały do aktywacji przypomnienia:\n%s</string>
     <string name="alarm_warning">Upewnij się, że alarm działa poprawnie zanim zaczniesz na nim polegać. Przez ograniczenia związane m. in. z oszczędzaniem baterii coś może nie wypalić.</string>
+    <string name="reminder_warning">Upewnij się, że przypomnienia działają poprawnie przed poleganiem na nich. Sprawdź ustawienia baterii i powiadomień urządzenia, jeśli nic nie blokuje przypomnień lub zabija aplikację w tle.</string>
     <string name="notifications_disabled">Powiadomienia tej aplikacji zostały wyłączone. Przejdź do ustawień systemu, aby je z powrotem włączyć.</string>
     <string name="alarm">Budzik</string>
     <string name="snooze">Drzemka</string>
@@ -478,6 +487,7 @@
     <string name="settings">Ustawienia</string>
     <string name="purchase_simple_thank_you">Kup aplikację \'Proste podziękowanie\'</string>
     <string name="customize_colors">Dostosuj kolory aplikacji</string>
+    <string name="customize_colors_locked">Dostosuj kolory (Locked)</string>
     <string name="customize_widget_colors">Dostosuj kolory widżetu</string>
     <string name="use_english_language">Wymuś używanie przez aplikację języka angielskiego</string>
     <string name="show_hidden_items">Pokazuj ukryte elementy</string>
@@ -674,6 +684,12 @@
     <string name="faq_8_text_commons">Ponieważ twoja wersja aplikacji nie jest już aktualizowana, błędy, które masz być może nie zostaną naprawione. Nie zostaną dodane też żadne nowe funkcje. Możesz kupić wersję Pro w Google Play za niewielką sumę pieniędzy.
         Jest to jednorazowa płatność, co oznacza, że po zakupie, nigdy więcej nie będziesz musiał płacić, nawet po otrzymaniu nowego urządzenia. Jeśli nie lubisz wersji Pro, możesz ją odinstalować w ciągu kilku godzin i automatycznie odzyskać pieniądze.
         Jeśli chcesz zwrócić pieniądze w dowolnym momencie, skontaktuj się z nami pod adresem hello@simplemobiletools a my je zwrócimy.</string>
+    <string name="faq_9_title_commons">Jak mogę wybrać wiele elementów jednocześnie?</string>
+    <string name="faq_9_text_commons">Istnieje wiele sposobów, aby to zrobić. Pierwszy to uruchomienie trybu wyboru przez długie naciśnięcie jednego elementu, a następnie krótkie kliknięcie na innych, aby je wybrać. Druga droga jest podobna do wyboru przedmiotów na komputerach osobistych z myszą,
+        po prostu uruchom tryb wyboru przez długie naciśnięcie jednego elementu, następnie palcem ciągle przeciągnij go na inne przedmioty do wyboru. Trzecim sposobem na wybranie wielu elementów jest długie naciśnięcie jednego elementu, a następnie długie naciśnięcie drugiego i wszystko pomiędzy nimi zostanie wybrane. Jeśli
+        chcesz wybrać wszystkie elementy, po prostu przytrzymaj jeden element, następnie kliknij w zaznaczony licznik przedmiotów w lewym górnym rogu. To wybierze lub odznacz wszystko.</string>
+    <string name="faq_10_title_commons">Kupiłem aplikację, ale nie mogę pobrać jej na innym urządzeniu.</string>
+    <string name="faq_10_text_commons">Spróbuj wyczyścić pamięć podręczną aplikacji Google Play i zrestartować urządzenie. To jest trochę glitch Google Play, nie jest naprawdę związany z samą aplikacją.</string>
     <string name="why_upgrade">Pobierz wersję Pro!</string>
     <string name="why_upgrade_basic_version">Podstawowy</string>
     <string name="why_upgrade_pro_version">Pro</string>

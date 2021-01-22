@@ -228,6 +228,9 @@
     <string name="print">Nyomtatás</string>
     <string name="create_shortcut">Parancsikon-létrehozás</string>
     <string name="add_number_to_contact">Sorszám hozzáadása a névjegyhez</string>
+    <string name="view_contact_details">Névjegy-részletek megtekintése</string>
+    <string name="call_from_sim_1">Hívás a SIM 1-ről</string>
+    <string name="call_from_sim_2">Hívás a SIM 2-ről</string>
     <string name="sort_by">Rendezés</string>
     <string name="name">Név</string>
     <string name="size">Méret</string>
@@ -419,6 +422,7 @@
     <string name="settings">Beállítások</string>
     <string name="purchase_simple_thank_you">Simple Thank You megvásárlása</string>
     <string name="customize_colors">Színek testreszabása</string>
+    <string name="customize_colors_locked">Színek testreszabása (Zárolva)</string>
     <string name="customize_widget_colors">Kisalkalmazás színeinek testreszabása</string>
     <string name="use_english_language">Angol nyelv használata</string>
     <string name="show_hidden_items">Mutassa a rejtett elemeket</string>
