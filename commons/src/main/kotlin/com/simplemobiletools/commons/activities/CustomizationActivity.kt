@@ -23,6 +23,7 @@ class CustomizationActivity : BaseSimpleActivity() {
     private val THEME_BLACK_WHITE = 4
     private val THEME_CUSTOM = 5
     private val THEME_SHARED = 6
+    private val THEME_WHITE = 7
 
     private var curTextColor = 0
     private var curBackgroundColor = 0
@@ -127,6 +128,7 @@ class CustomizationActivity : BaseSimpleActivity() {
             put(THEME_DARK, MyTheme(R.string.dark_theme, R.color.theme_dark_text_color, R.color.theme_dark_background_color, R.color.color_primary, R.color.color_primary))
             //put(THEME_SOLARIZED, MyTheme(R.string.solarized, R.color.theme_solarized_text_color, R.color.theme_solarized_background_color, R.color.theme_solarized_primary_color))
             put(THEME_DARK_RED, MyTheme(R.string.dark_red, R.color.theme_dark_text_color, R.color.theme_dark_background_color, R.color.theme_dark_red_primary_color, R.color.md_red_700))
+            put(THEME_WHITE, MyTheme(R.string.white, android.R.color.black, android.R.color.white, android.R.color.white, R.color.color_primary))
             put(THEME_BLACK_WHITE, MyTheme(R.string.black_white, android.R.color.white, android.R.color.black, android.R.color.black, R.color.md_grey_black))
             put(THEME_CUSTOM, MyTheme(R.string.custom, 0, 0, 0, 0))
 
@@ -239,8 +241,7 @@ class CustomizationActivity : BaseSimpleActivity() {
                 if (curTextColor == getColor(value.textColorId) &&
                     curBackgroundColor == getColor(value.backgroundColorId) &&
                     curPrimaryColor == getColor(value.primaryColorId) &&
-                    curAppIconColor == getColor(value.appIconColorId) &&
-                    curNavigationBarColor == getThemeNavigationColor(key)
+                    curAppIconColor == getColor(value.appIconColorId)
                 ) {
                     themeId = key
                 }
@@ -259,7 +260,11 @@ class CustomizationActivity : BaseSimpleActivity() {
         return getString(nameId)
     }
 
-    private fun getThemeNavigationColor(themeId: Int) = if (themeId == THEME_BLACK_WHITE) Color.BLACK else baseConfig.defaultNavigationBarColor
+    private fun getThemeNavigationColor(themeId: Int) = when (themeId) {
+        THEME_BLACK_WHITE -> Color.BLACK
+        THEME_WHITE -> Color.WHITE
+        else -> baseConfig.defaultNavigationBarColor
+    }
 
     private fun promptSaveDiscard() {
         lastSavePromptTS = System.currentTimeMillis()
@@ -280,7 +285,13 @@ class CustomizationActivity : BaseSimpleActivity() {
             backgroundColor = curBackgroundColor
             primaryColor = curPrimaryColor
             appIconColor = curAppIconColor
-            navigationBarColor = curNavigationBarColor
+
+            // -1 is used as an invalid value, lets make use of it for white
+            navigationBarColor = if (curNavigationBarColor == INVALID_NAVIGATION_BAR_COLOR) {
+                -2
+            } else {
+                curNavigationBarColor
+            }
         }
 
         if (didAppIconColorChange) {
