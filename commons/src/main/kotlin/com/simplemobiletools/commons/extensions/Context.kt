@@ -40,6 +40,7 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.simplemobiletools.commons.R
 import com.simplemobiletools.commons.helpers.*
+import com.simplemobiletools.commons.helpers.MyContentProvider.Companion.COL_ACCENT_COLOR
 import com.simplemobiletools.commons.helpers.MyContentProvider.Companion.COL_APP_ICON_COLOR
 import com.simplemobiletools.commons.helpers.MyContentProvider.Companion.COL_BACKGROUND_COLOR
 import com.simplemobiletools.commons.helpers.MyContentProvider.Companion.COL_LAST_UPDATED_TS
@@ -64,7 +65,7 @@ fun Context.updateTextColors(viewGroup: ViewGroup, tmpTextColor: Int = 0, tmpAcc
     val accentColor = if (tmpAccentColor == 0) {
         when {
             isBlackAndWhiteTheme() -> Color.WHITE
-            isWhiteTheme() -> DARK_GREY
+            isWhiteTheme() -> baseConfig.accentColor
             else -> baseConfig.primaryColor
         }
     } else {
@@ -104,13 +105,13 @@ fun Context.isWhiteTheme() = baseConfig.textColor == DARK_GREY && baseConfig.pri
 
 fun Context.getAdjustedPrimaryColor() = when {
     isBlackAndWhiteTheme() -> Color.WHITE
-    isWhiteTheme() -> DARK_GREY
+    isWhiteTheme() -> baseConfig.accentColor
     else -> baseConfig.primaryColor
 }
 
 fun Context.getFABIconColor() = when {
     isBlackAndWhiteTheme() -> Color.BLACK
-    isWhiteTheme() -> Color.WHITE
+    isWhiteTheme() -> baseConfig.accentColor
     else -> baseConfig.primaryColor.getContrastColor()
 }
 
@@ -422,10 +423,11 @@ fun Context.getSharedThemeSync(cursorLoader: CursorLoader): SharedTheme? {
             val textColor = cursor.getIntValue(COL_TEXT_COLOR)
             val backgroundColor = cursor.getIntValue(COL_BACKGROUND_COLOR)
             val primaryColor = cursor.getIntValue(COL_PRIMARY_COLOR)
+            val accentColor = cursor.getIntValue(COL_ACCENT_COLOR)
             val appIconColor = cursor.getIntValue(COL_APP_ICON_COLOR)
             val navigationBarColor = cursor.getIntValueOrNull(COL_NAVIGATION_BAR_COLOR) ?: INVALID_NAVIGATION_BAR_COLOR
             val lastUpdatedTS = cursor.getIntValue(COL_LAST_UPDATED_TS)
-            return SharedTheme(textColor, backgroundColor, primaryColor, appIconColor, navigationBarColor, lastUpdatedTS)
+            return SharedTheme(textColor, backgroundColor, primaryColor, appIconColor, navigationBarColor, lastUpdatedTS, accentColor)
         }
     }
     return null
@@ -526,13 +528,17 @@ fun Context.formatSecondsToTimeString(totalSeconds: Int): String {
     return result
 }
 
-fun Context.getFormattedMinutes(minutes: Int, showBefore: Boolean = true) = getFormattedSeconds(if (minutes <= 0) minutes else minutes * 60, showBefore)
+fun Context.getFormattedMinutes(minutes: Int, showBefore: Boolean = true) = getFormattedSeconds(if (minutes == -1) minutes else minutes * 60, showBefore)
 
 fun Context.getFormattedSeconds(seconds: Int, showBefore: Boolean = true) = when (seconds) {
     -1 -> getString(R.string.no_reminder)
     0 -> getString(R.string.at_start)
     else -> {
         when {
+            seconds < 0 && seconds > -60 * 60 * 24 -> {
+                val minutes = -seconds / 60
+                getString(R.string.during_day_at).format(minutes / 60, minutes % 60)
+            }
             seconds % YEAR_SECONDS == 0 -> {
                 val base = if (showBefore) R.plurals.years_before else R.plurals.by_years
                 resources.getQuantityString(base, seconds / YEAR_SECONDS, seconds / YEAR_SECONDS)
