@@ -187,6 +187,7 @@
     <string name="dark_theme">Темнота</string>
     <string name="solarized">Сонячна</string>
     <string name="dark_red">Темно-червоний</string>
+    <string name="white">Білий</string>
     <string name="black_white">Чорно-біла</string>
     <string name="custom">Спеціальний</string>
     <string name="shared">Спільні</string>
@@ -210,6 +211,7 @@
     <string name="redo">Повторити</string>
     <string name="print">Друк</string>
     <string name="create_shortcut">Створити ярлик</string>
+    <string name="toggle_filename">Перемкнути відображення імені файлу</string>
     <string name="sort_by">Сортувати за</string>
     <string name="name">Ім\'я: </string>
     <string name="size">Розмір</string>

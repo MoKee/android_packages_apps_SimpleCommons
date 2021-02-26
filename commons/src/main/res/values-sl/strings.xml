@@ -199,6 +199,7 @@
     <string name="redo">Ponovno uveljavi</string>
     <string name="print">Natisni</string>
     <string name="create_shortcut">Ustvari bližnjico</string>
+    <string name="toggle_filename">Preklopi vidljivost imen datotek</string>
     <string name="sort_by">Razvrsti po</string>
     <string name="name">Ime</string>
     <string name="size">Velikost</string>

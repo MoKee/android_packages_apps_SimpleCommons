@@ -182,6 +182,7 @@
     <string name="dark_theme">Мрак</string>
     <string name="solarized">Соларизација</string>
     <string name="dark_red">Тамно црвена</string>
+    <string name="white">Бела</string>
     <string name="black_white">Црно &amp; бело</string>
     <string name="custom">Прилагођено</string>
     <string name="shared">Deljeno</string>
@@ -205,6 +206,7 @@
     <string name="redo">Понови</string>
     <string name="print">Штампај</string>
     <string name="create_shortcut">Направи пречицу</string>
+    <string name="toggle_filename">Укључите видљивост имена фајлова</string>
     <string name="sort_by">Сортирај по</string>
     <string name="name">Име: </string>
     <string name="size">Величина</string>

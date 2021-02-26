@@ -203,6 +203,7 @@
     <string name="dark_theme">Tume</string>
     <string name="solarized">Ülesäritus</string>
     <string name="dark_red">Tumepunane</string>
+    <string name="white">Valge</string>
     <string name="black_white">Must &amp; Valge</string>
     <string name="custom">Kohandatud</string>
     <string name="shared">Jagatud</string>
@@ -231,6 +232,7 @@
     <string name="view_contact_details">Kuva kontaktandmed</string>
     <string name="call_from_sim_1">Kõne SIM-kaardilt 1</string>
     <string name="call_from_sim_2">Kõne SIM-kaardilt 2</string>
+    <string name="toggle_filename">Lülitab sisse failinime nähtavuse</string>
     <string name="sort_by">Sorteeri</string>
     <string name="name">Nimi</string>
     <string name="size">Suurus</string>
@@ -424,6 +426,7 @@
     <string name="customize_colors">Kohanda värve</string>
     <string name="customize_colors_locked">Värvide kohandamine (lukus)</string>
     <string name="customize_widget_colors">Vidinate värvide kohandamine</string>
+    <string name="customize_notifications">Teadete kohandamine</string>
     <string name="use_english_language">Kasutage inglise keelt</string>
     <string name="show_hidden_items">Näita peidetud objekte</string>
     <string name="font_size">Kirja suurus</string>
@@ -455,6 +458,7 @@
     <string name="settings_exported_successfully">Seaded eksporditi edukalt</string>
     <string name="settings_imported_successfully">Seaded imporditi edukalt</string>
     <string name="start_name_with_surname">Algnimi perekonnanimega</string>
+    <string name="clear_cache">Tühjenda vahemälu</string>
     <string name="visibility">Nähtavus</string>
     <string name="security">Turvalisus</string>
     <string name="scrolling">Kerimine</string>

@@ -211,6 +211,7 @@
     <string name="dark_theme">Tmavý</string>
     <string name="solarized">Solarizovaný</string>
     <string name="dark_red">Tmavě červený</string>
+    <string name="white">Bílá</string>
     <string name="black_white">Černý &amp; bílý</string>
     <string name="custom">Vlastní</string>
     <string name="shared">Sdíleno</string>
@@ -239,6 +240,7 @@
     <string name="view_contact_details">Zobrazit detaily kontaktu</string>
     <string name="call_from_sim_1">Volání ze SIM 1</string>
     <string name="call_from_sim_2">Volání ze SIM 2</string>
+    <string name="toggle_filename">Přepnout viditelnost názvů souborů</string>
     <string name="sort_by">Seřadit dle</string>
     <string name="name">Názvu</string>
     <string name="size">Velikosti</string>
@@ -490,6 +492,7 @@
     <string name="customize_colors">Přizpůsobit barvy</string>
     <string name="customize_colors_locked">Přizpůsobení barev (uzamčeno)</string>
     <string name="customize_widget_colors">Přizpůsobit barvy widgetu</string>
+    <string name="customize_notifications">Přizpůsobit oznámení</string>
     <string name="use_english_language">Použít anglický jazyk</string>
     <string name="show_hidden_items">Zobrazit skryté položky</string>
     <string name="font_size">Velikost písma</string>
@@ -521,6 +524,7 @@
     <string name="settings_exported_successfully">Nastavení bylo úspěšně exportováno</string>
     <string name="settings_imported_successfully">Nastavení bylo úspěšně importováno</string>
     <string name="start_name_with_surname">Začněte jménem s příjmením</string>
+    <string name="clear_cache">Vymazat mezipaměť</string>
     <string name="visibility">Viditelnost</string>
     <string name="security">Zabezpečení</string>
     <string name="scrolling">Rolování</string>

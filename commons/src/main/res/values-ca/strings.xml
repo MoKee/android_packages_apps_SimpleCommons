@@ -186,6 +186,7 @@
     <string name="empty_and_disable_recycle_bin">Buida i desactiva la paperera de reciclatge</string>
     <string name="undo">Desfer</string>
     <string name="redo">Refer</string>
+    <string name="toggle_filename">Canviar la visibilitat del nom d\'arxiu</string>
     <string name="sort_by">Ordenar per</string>
     <string name="name">Nom</string>
     <string name="size">Mida</string>

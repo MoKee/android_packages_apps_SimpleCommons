@@ -188,6 +188,7 @@
     <string name="dark_theme">Dunkel</string>
     <string name="solarized">Solarisiert</string>
     <string name="dark_red">Dunkelrot</string>
+    <string name="white">Weiß</string>
     <string name="black_white">Schwarz-Weiß</string>
     <string name="custom">Benutzerdefiniert</string>
     <string name="shared">Geteilt</string>
@@ -212,6 +213,7 @@
     <string name="print">Drucken</string>
     <string name="create_shortcut">Verknüpfung erstellen</string>
     <string name="add_number_to_contact">Nummer zum Kontakt hinzufügen</string>
+    <string name="toggle_filename">Beschriftungen ein/aus</string>
     <string name="sort_by">Sortieren nach</string>
     <string name="name">Name: </string>
     <string name="size">Größe</string>

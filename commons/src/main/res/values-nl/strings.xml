@@ -179,6 +179,7 @@
     <string name="empty_and_disable_recycle_bin">Prullenbak leegmaken en uitschakelen</string>
     <string name="undo">Ongedaan maken</string>
     <string name="redo">Opnieuw</string>
+    <string name="toggle_filename">Bestandsnamen tonen</string>
     <string name="sort_by">Sorteren op</string>
     <string name="name">Naam</string>
     <string name="size">Grootte</string>

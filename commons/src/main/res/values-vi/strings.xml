@@ -197,6 +197,7 @@
     <string name="dark_theme">Tối</string>
     <string name="solarized">Phơi sáng</string>
     <string name="dark_red">Đỏ sẫm</string>
+    <string name="white">Trắng</string>
     <string name="black_white">Đen &amp; Trắng</string>
     <string name="custom">Tùy chỉnh</string>
     <string name="shared">Chia sẻ</string>
@@ -222,6 +223,7 @@
     <string name="print">In</string>
     <string name="create_shortcut">Tạo phím tắt</string>
     <string name="add_number_to_contact">Thêm số vào liên hệ</string>
+    <string name="toggle_filename">Toggle filename visibility</string>
     <string name="sort_by">Sắp xếp theo</string>
     <string name="name">Tên: </string>
     <string name="size">Kích thước</string>

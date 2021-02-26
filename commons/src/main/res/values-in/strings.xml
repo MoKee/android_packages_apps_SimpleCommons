@@ -63,6 +63,7 @@
     <string name="extension_cannot_be_empty">Ekstensi tak boleh kosong</string>
     <string name="source_file_doesnt_exist">File sumber %s tidak ada</string>
     <string name="prepend_filenames">Tambahkan nama file</string>
+    <string name="append_filenames">Tambahkan nama file</string>
     <string name="pattern_renaming">Pola</string>
     <string name="copy">Salin</string>
     <string name="move">Pindah</string>
@@ -168,6 +169,7 @@
     <string name="dark_theme">Gelap</string>
     <string name="solarized">Solarized</string>
     <string name="dark_red">Merah tua</string>
+    <string name="white">Putih</string>
     <string name="black_white">Black &amp; White</string>
     <string name="custom">Khusus</string>
     <string name="shared">Shared</string>
@@ -189,6 +191,7 @@
     <string name="empty_and_disable_recycle_bin">Kosongkan dan nonaktifkan Keranjang Sampah</string>
     <string name="undo">Batalkan</string>
     <string name="redo">Ulangi</string>
+    <string name="toggle_filename">Beralih visibilitas nama file</string>
     <string name="sort_by">Urut berdasarkan</string>
     <string name="name">Nama</string>
     <string name="size">Ukuran</string>

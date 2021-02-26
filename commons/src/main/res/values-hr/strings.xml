@@ -194,6 +194,7 @@
     <string name="empty_and_disable_recycle_bin">Ispraznite i onemogućite koš za smeće</string>
     <string name="undo">Poništi promjenu</string>
     <string name="redo">Ponovi promjenu</string>
+    <string name="toggle_filename">Uključi prikaz naziva datoteka</string>
     <string name="sort_by">Sortiraj po</string>
     <string name="name">Naziv</string>
     <string name="size">Veličina</string>

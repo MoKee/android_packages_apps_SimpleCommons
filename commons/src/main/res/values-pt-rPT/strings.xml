@@ -201,6 +201,7 @@
     <string name="dark_theme">Escuro</string>
     <string name="solarized">Solarizar</string>
     <string name="dark_red">Vermelho escuro</string>
+    <string name="white">Branco</string>
     <string name="black_white">Preto e branco</string>
     <string name="custom">Personalizado</string>
     <string name="shared">Partilhar</string>
@@ -225,6 +226,7 @@
     <string name="print">Imprimir</string>
     <string name="create_shortcut">Criar atalho</string>
     <string name="add_number_to_contact">Adicionar número ao contacto</string>
+    <string name="toggle_filename">Alternar visibilidade do ficheiro</string>
     <string name="sort_by">Sort by:</string>
     <string name="name">Nome</string>
     <string name="size">Tamanho</string>

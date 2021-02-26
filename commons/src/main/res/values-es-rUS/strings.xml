@@ -200,6 +200,7 @@
     <string name="dark_theme">Oscuro</string>
     <string name="solarized">Solarizado</string>
     <string name="dark_red">Rojo Oscuro</string>
+    <string name="white">Blanco</string>
     <string name="black_white">Blanco &amp; Negro</string>
     <string name="custom">Personalizado</string>
     <string name="shared">Compartido</string>
@@ -224,6 +225,7 @@
     <string name="print">Imprimir</string>
     <string name="create_shortcut">Crear acceso directo</string>
     <string name="add_number_to_contact">Añadir número al contacto</string>
+    <string name="toggle_filename">Cambiar la visibilidad del nombre de archivo</string>
     <string name="sort_by">Ordenar por</string>
     <string name="name">Nombre </string>
     <string name="size">Tamaño</string>

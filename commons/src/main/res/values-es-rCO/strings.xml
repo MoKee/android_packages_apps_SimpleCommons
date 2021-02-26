@@ -173,6 +173,7 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="dark_theme">Oscuro</string>
     <string name="solarized">Solarizar</string>
     <string name="dark_red">Rojo Oscuro</string>
+    <string name="white">Blanco</string>
     <string name="black_white">Blanco &amp; Negro</string>
     <string name="custom">Personalizado</string>
     <string name="shared">Compartido</string>
@@ -196,6 +197,7 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="redo">Rehacer</string>
     <string name="print">Imprimir</string>
     <string name="create_shortcut">Crear acceso directo</string>
+    <string name="toggle_filename">Cambiar la visibilidad del nombre de archivo</string>
     <string name="sort_by">Ordenar por</string>
     <string name="name">Nombre </string>
     <string name="size">Tamaño</string>

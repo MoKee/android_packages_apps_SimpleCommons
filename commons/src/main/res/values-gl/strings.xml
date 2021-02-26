@@ -164,6 +164,7 @@
     <string name="maximum_share_reached">No puedes compartir todo este contenido a la vez</string>
     <string name="undo">Desfacer</string>
     <string name="redo">Refacer</string>
+    <string name="toggle_filename">Mudar a visibilidade do ficheiro</string>
     <string name="sort_by">Ordenar por</string>
     <string name="name">Nombre</string>
     <string name="size">Tamaño</string>

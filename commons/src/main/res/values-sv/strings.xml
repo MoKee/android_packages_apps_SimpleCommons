@@ -185,6 +185,7 @@
     <string name="empty_and_disable_recycle_bin">Töm och inaktivera Papperskorgen</string>
     <string name="undo">Ångra</string>
     <string name="redo">Gör om</string>
+    <string name="toggle_filename">Visa/dölj filnamn</string>
     <string name="sort_by">Sortera efter</string>
     <string name="name">Namn</string>
     <string name="size">Storlek</string>

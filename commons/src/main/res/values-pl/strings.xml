@@ -210,6 +210,7 @@
     <string name="dark_theme">Ciemny</string>
     <string name="solarized">Solaryzacja</string>
     <string name="dark_red">Ciemnoczerwony</string>
+    <string name="white">Biały</string>
     <string name="black_white">Czerń i biel</string>
     <string name="custom">Własny</string>
     <string name="shared">Wspólny</string>
@@ -238,6 +239,7 @@
     <string name="view_contact_details">Wyświetl szczegóły kontaktu</string>
     <string name="call_from_sim_1">Połączenie z SIM 1</string>
     <string name="call_from_sim_2">Połączenie z SIM 2</string>
+    <string name="toggle_filename">Pokazuj / ukrywaj nazwy plików</string>
     <string name="sort_by">Sortuj według parametru:</string>
     <string name="name">Nazwa</string>
     <string name="size">Rozmiar</string>
@@ -489,6 +491,7 @@
     <string name="customize_colors">Dostosuj kolory aplikacji</string>
     <string name="customize_colors_locked">Dostosuj kolory (Locked)</string>
     <string name="customize_widget_colors">Dostosuj kolory widżetu</string>
+    <string name="customize_notifications">Ustawienia powiadomień</string>
     <string name="use_english_language">Wymuś używanie przez aplikację języka angielskiego</string>
     <string name="show_hidden_items">Pokazuj ukryte elementy</string>
     <string name="font_size">Rozmiar czcionki</string>
@@ -520,6 +523,7 @@
     <string name="settings_exported_successfully">Ustawienia zostały wyeksportowane pomyślnie</string>
     <string name="settings_imported_successfully">Ustawienia zostały zaimportowane pomyślnie</string>
     <string name="start_name_with_surname">Zacznij od nazwiska</string>
+    <string name="clear_cache">Wyczyść Cache</string>
     <string name="visibility">Widoczność</string>
     <string name="security">Bezpieczeństwo</string>
     <string name="scrolling">Przewijanie</string>

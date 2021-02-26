@@ -186,6 +186,7 @@
     <string name="empty_and_disable_recycle_bin">Άδειασμα και απενεργοποίηση του Κάδου Ανακύκλωσης</string>
     <string name="undo">Αναίρεση</string>
     <string name="redo">Επανάληψη</string>
+    <string name="toggle_filename">Αλλαγή προβολής ονόματος αρχείων</string>
     <string name="sort_by">Ταξινόμηση κατά</string>
     <string name="name">Όνομα</string>
     <string name="size">Μέγεθος</string>

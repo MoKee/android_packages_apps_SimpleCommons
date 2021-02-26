@@ -184,6 +184,7 @@
     <string name="dark_theme">Tmavá</string>
     <string name="solarized">Solarizovaná</string>
     <string name="dark_red">Tmavo červená</string>
+    <string name="white">Biela</string>
     <string name="black_white">Čiernobiela</string>
     <string name="custom">Vlastná</string>
     <string name="shared">Zdieľaná</string>
@@ -207,6 +208,7 @@
     <string name="redo">Obnoviť</string>
     <string name="print">Tlač</string>
     <string name="create_shortcut">Vytvoriť skratku</string>
+    <string name="toggle_filename">Prepnúť viditeľnosť názvov súborov</string>
     <string name="sort_by">Na zoradenie použiť</string>
     <string name="name">Názov</string>
     <string name="size">Veľkosť</string>

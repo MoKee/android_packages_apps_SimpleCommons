@@ -165,6 +165,7 @@
     <string name="maximum_share_reached">Et voi jakaa näin paljoa kerralla</string>
     <string name="undo">Kumoa</string>
     <string name="redo">Toista</string>
+    <string name="toggle_filename">Tiedostonimien näkyvyys</string>
     <string name="sort_by">Järjestä</string>
     <string name="name">Nimen perusteella</string>
     <string name="size">Koon perusteella</string>

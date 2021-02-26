@@ -182,6 +182,7 @@
     <string name="empty_and_disable_recycle_bin">Tøm og deaktiver papirkurven</string>
     <string name="undo">Fortryd</string>
     <string name="redo">Annuller fortryd</string>
+    <string name="toggle_filename">Skift filnavnets synlinghed</string>
     <string name="sort_by">Sorter efter</string>
     <string name="name">Navn</string>
     <string name="size">Størrelse</string>

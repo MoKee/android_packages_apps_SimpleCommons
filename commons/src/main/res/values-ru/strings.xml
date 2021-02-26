@@ -211,6 +211,7 @@
     <string name="dark_theme">Тёмная</string>
     <string name="solarized">Солнечная</string>
     <string name="dark_red">Тёмно-красная</string>
+    <string name="white">Белый</string>
     <string name="black_white">Чёрно-белая</string>
     <string name="custom">Своя</string>
     <string name="shared">Общая</string>
@@ -239,6 +240,7 @@
     <string name="view_contact_details">Посмотреть контактную информацию</string>
     <string name="call_from_sim_1">Звонок с SIM 1</string>
     <string name="call_from_sim_2">Звонок с SIM 2</string>
+    <string name="toggle_filename">Переключить отображение имени файла</string>
     <string name="sort_by">Сортировать по…</string>
     <string name="name">Имя</string>
     <string name="size">Размер</string>
@@ -490,6 +492,7 @@
     <string name="customize_colors">Настроить цвета</string>
     <string name="customize_colors_locked">Настроить цвета (закрытые)</string>
     <string name="customize_widget_colors">Настроить цвета виджета</string>
+    <string name="customize_notifications">Настройка уведомления</string>
     <string name="use_english_language">Использовать английский язык</string>
     <string name="show_hidden_items">Показывать скрытые файлы</string>
     <string name="font_size">Размер шрифта</string>
@@ -521,6 +524,7 @@
     <string name="settings_exported_successfully">Настройки успешно экспортированы</string>
     <string name="settings_imported_successfully">Настройки успешно импортированы</string>
     <string name="start_name_with_surname">Начните с фамилии</string>
+    <string name="clear_cache">Очистить кэш</string>
     <string name="visibility">Отображение</string>
     <string name="security">Безопасность</string>
     <string name="scrolling">Прокрутка</string>
