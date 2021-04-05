@@ -94,14 +94,18 @@ fun BaseSimpleActivity.isShowingSAFDialog(path: String): Boolean {
                 WritePermissionDialog(this, false) {
                     Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
                         putExtra("android.content.extra.SHOW_ADVANCED", true)
-                        if (resolveActivity(packageManager) == null) {
+                        try {
+                            startActivityForResult(this, OPEN_DOCUMENT_TREE)
+                            checkedDocumentPath = path
+                            return@apply
+                        } catch (e: Exception) {
                             type = "*/*"
                         }
 
-                        if (resolveActivity(packageManager) != null) {
-                            checkedDocumentPath = path
+                        try {
                             startActivityForResult(this, OPEN_DOCUMENT_TREE)
-                        } else {
+                            checkedDocumentPath = path
+                        } catch (e: Exception) {
                             toast(R.string.unknown_error_occurred)
                         }
                     }
@@ -128,14 +132,18 @@ fun BaseSimpleActivity.showOTGPermissionDialog(path: String) {
         if (!isDestroyed && !isFinishing) {
             WritePermissionDialog(this, true) {
                 Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
-                    if (resolveActivity(packageManager) == null) {
+                    try {
+                        startActivityForResult(this, OPEN_DOCUMENT_TREE_OTG)
+                        checkedDocumentPath = path
+                        return@apply
+                    } catch (e: Exception) {
                         type = "*/*"
                     }
 
-                    if (resolveActivity(packageManager) != null) {
-                        checkedDocumentPath = path
+                    try {
                         startActivityForResult(this, OPEN_DOCUMENT_TREE_OTG)
-                    } else {
+                        checkedDocumentPath = path
+                    } catch (e: Exception) {
                         toast(R.string.unknown_error_occurred)
                     }
                 }
@@ -165,11 +173,7 @@ fun Activity.launchViewIntent(id: Int) = launchViewIntent(getString(id))
 fun Activity.launchViewIntent(url: String) {
     ensureBackgroundThread {
         Intent(Intent.ACTION_VIEW, Uri.parse(url)).apply {
-            if (resolveActivity(packageManager) != null) {
-                startActivity(this)
-            } else {
-                toast(R.string.no_app_found)
-            }
+            launchActivityIntent(this)
         }
     }
 }
@@ -192,17 +196,17 @@ fun Activity.sharePathIntent(path: String, applicationId: String) {
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
 
             try {
-                if (resolveActivity(packageManager) != null) {
-                    startActivity(Intent.createChooser(this, getString(R.string.share_via)))
-                } else {
-                    toast(R.string.no_app_found)
-                }
+                startActivity(Intent.createChooser(this, getString(R.string.share_via)))
+            } catch (e: ActivityNotFoundException) {
+                toast(R.string.no_app_found)
             } catch (e: RuntimeException) {
                 if (e.cause is TransactionTooLargeException) {
                     toast(R.string.maximum_share_reached)
                 } else {
                     showErrorToast(e)
                 }
+            } catch (e: Exception) {
+                showErrorToast(e)
             }
         }
     }
@@ -232,17 +236,17 @@ fun Activity.sharePathsIntent(paths: List<String>, applicationId: String) {
                 putParcelableArrayListExtra(Intent.EXTRA_STREAM, newUris)
 
                 try {
-                    if (resolveActivity(packageManager) != null) {
-                        startActivity(Intent.createChooser(this, getString(R.string.share_via)))
-                    } else {
-                        toast(R.string.no_app_found)
-                    }
+                    startActivity(Intent.createChooser(this, getString(R.string.share_via)))
+                } catch (e: ActivityNotFoundException) {
+                    toast(R.string.no_app_found)
                 } catch (e: RuntimeException) {
                     if (e.cause is TransactionTooLargeException) {
                         toast(R.string.maximum_share_reached)
                     } else {
                         showErrorToast(e)
                     }
+                } catch (e: Exception) {
+                    showErrorToast(e)
                 }
             }
         }
@@ -257,17 +261,17 @@ fun Activity.shareTextIntent(text: String) {
             putExtra(Intent.EXTRA_TEXT, text)
 
             try {
-                if (resolveActivity(packageManager) != null) {
-                    startActivity(Intent.createChooser(this, getString(R.string.share_via)))
-                } else {
-                    toast(R.string.no_app_found)
-                }
+                startActivity(Intent.createChooser(this, getString(R.string.share_via)))
+            } catch (e: ActivityNotFoundException) {
+                toast(R.string.no_app_found)
             } catch (e: RuntimeException) {
                 if (e.cause is TransactionTooLargeException) {
                     toast(R.string.maximum_share_reached)
                 } else {
                     showErrorToast(e)
                 }
+            } catch (e: Exception) {
+                showErrorToast(e)
             }
         }
     }
@@ -282,10 +286,12 @@ fun Activity.setAsIntent(path: String, applicationId: String) {
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
             val chooser = Intent.createChooser(this, getString(R.string.set_as))
 
-            if (resolveActivity(packageManager) != null) {
+            try {
                 startActivityForResult(chooser, REQUEST_SET_AS)
-            } else {
+            } catch (e: ActivityNotFoundException) {
                 toast(R.string.no_app_found)
+            } catch (e: Exception) {
+                showErrorToast(e)
             }
         }
     }
@@ -314,15 +320,13 @@ fun Activity.openEditorIntent(path: String, forceChooser: Boolean, applicationId
             putExtra(MediaStore.EXTRA_OUTPUT, outputUri)
             putExtra(REAL_FILE_PATH, path)
 
-            if (resolveActivity(packageManager) != null) {
-                try {
-                    val chooser = Intent.createChooser(this, getString(R.string.edit_with))
-                    startActivityForResult(if (forceChooser) chooser else this, REQUEST_EDIT_IMAGE)
-                } catch (e: SecurityException) {
-                    showErrorToast(e)
-                }
-            } else {
+            try {
+                val chooser = Intent.createChooser(this, getString(R.string.edit_with))
+                startActivityForResult(if (forceChooser) chooser else this, REQUEST_EDIT_IMAGE)
+            } catch (e: ActivityNotFoundException) {
                 toast(R.string.no_app_found)
+            } catch (e: Exception) {
+                showErrorToast(e)
             }
         }
     }
@@ -348,17 +352,15 @@ fun Activity.openPathIntent(path: String, forceChooser: Boolean, applicationId: 
 
             putExtra(REAL_FILE_PATH, path)
 
-            if (resolveActivity(packageManager) != null) {
+            try {
                 val chooser = Intent.createChooser(this, getString(R.string.open_with))
-                try {
-                    startActivity(if (forceChooser) chooser else this)
-                } catch (e: NullPointerException) {
-                    showErrorToast(e)
-                }
-            } else {
+                startActivity(if (forceChooser) chooser else this)
+            } catch (e: ActivityNotFoundException) {
                 if (!tryGenericMimeType(this, mimeType, newUri)) {
                     toast(R.string.no_app_found)
                 }
+            } catch (e: Exception) {
+                showErrorToast(e)
             }
         }
     }
@@ -368,15 +370,7 @@ fun Activity.launchViewContactIntent(uri: Uri) {
     Intent().apply {
         action = ContactsContract.QuickContact.ACTION_QUICK_CONTACT
         data = uri
-        if (resolveActivity(packageManager) != null) {
-            try {
-                startActivity(this)
-            } catch (e: Exception) {
-                showErrorToast(e)
-            }
-        } else {
-            toast(R.string.no_app_found)
-        }
+        launchActivityIntent(this)
     }
 }
 
@@ -390,11 +384,7 @@ fun BaseSimpleActivity.launchCallIntent(recipient: String, handle: PhoneAccountH
                 putExtra(TelecomManager.EXTRA_PHONE_ACCOUNT_HANDLE, handle)
             }
 
-            if (resolveActivity(packageManager) != null) {
-                startActivity(this)
-            } else {
-                toast(R.string.no_app_found)
-            }
+            launchActivityIntent(this)
         }
     }
 }
@@ -402,11 +392,7 @@ fun BaseSimpleActivity.launchCallIntent(recipient: String, handle: PhoneAccountH
 fun Activity.launchSendSMSIntent(recipient: String) {
     Intent(Intent.ACTION_SENDTO).apply {
         data = Uri.fromParts("smsto", recipient, null)
-        if (resolveActivity(packageManager) != null) {
-            startActivity(this)
-        } else {
-            toast(R.string.no_app_found)
-        }
+        launchActivityIntent(this)
     }
 }
 
@@ -415,12 +401,7 @@ fun Activity.showLocationOnMap(coordinates: String) {
     val encodedQuery = Uri.encode(coordinates)
     val uriString = "$uriBegin?q=$encodedQuery&z=16"
     val intent = Intent(Intent.ACTION_VIEW, Uri.parse(uriString))
-    val packageManager = packageManager
-    if (intent.resolveActivity(packageManager) != null) {
-        startActivity(intent)
-    } else {
-        toast(R.string.no_app_found)
-    }
+    launchActivityIntent(intent)
 }
 
 fun Activity.getFinalUriFromPath(path: String, applicationId: String): Uri? {
@@ -446,10 +427,11 @@ fun Activity.tryGenericMimeType(intent: Intent, mimeType: String, uri: Uri): Boo
     }
 
     intent.setDataAndType(uri, genericMimeType)
-    return if (intent.resolveActivity(packageManager) != null) {
+
+    return try {
         startActivity(intent)
         true
-    } else {
+    } catch (e: Exception) {
         false
     }
 }
