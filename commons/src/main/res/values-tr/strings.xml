@@ -31,7 +31,7 @@
     <string name="email">E-posta</string>
     <string name="previous">Önceki</string>
     <string name="playpause">Oynat / Duraklat</string>
-    <string name="next">Sonraki</string>
+    <string name="next">İleri</string>
     <string name="number">Numara</string>
     <string name="no_contacts_found">Kişi bulunamadı</string>
     <string name="request_the_required_permissions">Gerekli izinleri isteyin</string>
@@ -180,6 +180,7 @@
     <string name="background_color">Arka plan rengi</string>
     <string name="text_color">Metin rengi</string>
     <string name="primary_color">Ana renk</string>
+    <string name="accent_color_white">Beyaz temanın vurgu rengi</string>
     <string name="foreground_color">Ön plan rengi</string>
     <string name="app_icon_color">Uygulama simgesi rengi</string>
     <string name="bottom_navigation_bar_color">Alt gezinme çubuğu rengi</string>
@@ -421,6 +422,8 @@
     <string name="your_sounds">Sesleriniz</string>
     <string name="add_new_sound">Yeni bir ses ekle</string>
     <string name="no_sound">Ses yok</string>
+    <string name="during_day_at_hh_mm">Gün boyunca ss: dd</string>
+    <string name="during_day_at">Gün boyunca %02d:%02d</string>
     <string name="settings">Ayarlar</string>
     <string name="purchase_simple_thank_you">Satın alma basit teşekkür ederim</string>
     <string name="customize_colors">Renkleri özelleştir</string>
@@ -634,6 +637,7 @@
     <string name="why_upgrade_no_ads">Reklam yok</string>
     <string name="why_upgrade_no_internet_access">İnternet erişimi yok</string>
     <string name="why_upgrade_footer">+ 100% Para iade garantisi</string>
+    <string name="why_upgrade_improved_design">Tasarım geliştirildi</string>
     <string name="why_upgrade_advanced_photo_editor">Gelişmiş fotoğraf düzenleyici</string>
     <string name="why_upgrade_heic_support">HEIC/HEIF dosya desteği</string>
     <string name="why_upgrade_batch_renaming">Gelişmiş toplu dosyayı yeniden adlandırma</string>
@@ -646,6 +650,7 @@
     <string name="why_upgrade_duplicate_contact_merging">Çift kişi birleştirme iyileştirildi</string>
     <string name="why_upgrade_font_size_customization">Yazı tipi boyutu özelleştirmeleri</string>
     <string name="why_upgrade_private_contact_sharing">Uygulamalarımızda isteğe bağlı özel kişi paylaşımı</string>
+    <string name="why_upgrade_customizable_contact_ringtones">Özelleştirilebilir iletişim zil sesleri</string>
     <string name="why_upgrade_checklists">Kontrol listeleri</string>
     <string name="why_upgrade_different_note_per_widget">Widget başına farklı not ve renkler</string>
     <string name="why_upgrade_date_and_time_format">Tarih ve saat biçimi özelleştirmeleri</string>

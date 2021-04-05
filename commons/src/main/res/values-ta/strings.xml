@@ -20,7 +20,7 @@
     <string name="download">பதிவிறக்கம்</string>
     <string name="notification">அறிவிப்பு</string>
     <string name="email">மின்னஞ்சல்</string>
-    <string name="previous">"முந்தைய"</string>
+    <string name="previous">முந்தைய</string>
     <string name="next">அடுத்து</string>
     <string name="change_view_type">காட்சி வகையை மாற்று</string>
     <string name="grid">கட்டம்</string>
@@ -264,7 +264,7 @@
     <string name="calendar_short">கேலெண்டர்</string>
     <string name="camera_short">கேமரா</string>
     <string name="clock_short">கடிகாரம்</string>
-    <string name="flashlight_short">ஒளிரும் விளக்கு</string>
+    <string name="flashlight_short">ஃபிளாஷ்லைட்</string>
     <string name="gallery_short">படத்தொகுப்பு</string>
     <string name="notes_short">குறிப்புகள்</string>
     <string name="frequently_asked_questions">அடிக்கடி கேட்கப்படும் கேள்விகள்</string>

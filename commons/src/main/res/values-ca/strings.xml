@@ -19,6 +19,7 @@
     <string name="deleting_folder">S\'està eliminant la carpeta \'%s\'</string>
     <string name="none">Cap</string>
     <string name="label">Etiqueta</string>
+    <string name="transparent">Transparent</string>
     <string name="transparent_color">Color transparent</string>
     <string name="select_a_different_color">Selecciona un color diferent</string>
     <string name="download">Descàrrega</string>
@@ -406,6 +407,7 @@
     <string name="importing_some_entries_failed">L\'impotació d\'algunes entrades ha fallat</string>
     <string name="exporting_some_entries_failed">L\'exportació d\'algunes entrades ha fallat</string>
     <string name="no_entries_for_exporting">No s\'han trobat entrades per exportar</string>
+    <string name="usb">USB</string>
     <string name="usb_detected">Sembla que teniu un dispositiu USB connectat al vostre dispositiu. Per assegurar-vos que els fitxers apareguin correctament, heu de concedir permisos addicionals.</string>
     <string name="wrong_root_selected_usb">S\'ha seleccionat la carpeta incorrecta, seleccioneu la carpeta arrel del vostre dispositiu USB</string>
     <string name="january">Gener</string>

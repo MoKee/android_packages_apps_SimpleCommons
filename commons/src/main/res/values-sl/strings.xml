@@ -27,7 +27,7 @@
     <string name="notification">Obvestilo</string>
     <string name="email">E-pošta</string>
     <string name="previous">Prejšnja</string>
-    <string name="next">Naprej</string>
+    <string name="next">Naslednja</string>
     <string name="change_view_type">Spremeni tip pogleda</string>
     <string name="grid">Mreža</string>
     <string name="list">Seznam</string>
@@ -460,7 +460,7 @@
     <string name="startup">Zagon</string>
     <string name="text">Besedilo</string>
     <string name="migrating">Migracija</string>
-    <string name="favorites_tab">Priljubljeno</string>
+    <string name="favorites_tab">Priljubljene</string>
     <string name="restore_this_file">Obnovi to datoteko</string>
     <string name="restore_selected_files">Obnovite izbrane datoteke</string>
     <string name="restore_all_files">Obnovite vse datoteke</string>

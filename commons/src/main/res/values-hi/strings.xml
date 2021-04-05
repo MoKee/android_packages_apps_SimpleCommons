@@ -7,6 +7,7 @@
     <string name="never">कभी नहीं</string>
     <string name="details">विवरण</string>
     <string name="none">कुछ नहीं</string>
+    <string name="transparent">पारदर्शी</string>
     <string name="download">डाउनलोड करें</string>
     <string name="notification">अधिसूचना</string>
     <string name="previous">पिछला</string>
@@ -41,6 +42,7 @@
     <string name="hours_raw">घंटे</string>
     <string name="alarm">अलार्म</string>
     <string name="snooze">याद दिलाएं</string>
+    <string name="dismiss">Dismiss</string>
     <string name="settings">सेटिंग</string>
     <string name="widgets">विजेट्स</string>
     <string name="visibility">दृश्यता</string>

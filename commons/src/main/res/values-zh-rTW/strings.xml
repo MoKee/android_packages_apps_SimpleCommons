@@ -31,7 +31,7 @@
     <string name="email">電子郵件</string>
     <string name="previous">上一個</string>
     <string name="playpause">播放 / 暫停</string>
-    <string name="next">下一步</string>
+    <string name="next">下一個</string>
     <string name="number">號碼</string>
     <string name="no_contacts_found">找不到聯絡人</string>
     <string name="request_the_required_permissions">要求必要的權限</string>
@@ -414,6 +414,7 @@
     <string name="settings_exported_successfully">設定還原成功</string>
     <string name="settings_imported_successfully">設定還原成功</string>
     <string name="start_name_with_surname">姓氏在前</string>
+    <string name="clear_cache">清空快取</string>
     <string name="visibility">可見度</string>
     <string name="security">安全性</string>
     <string name="scrolling">滑動</string>
@@ -425,7 +426,7 @@
     <string name="migrating">移入</string>
     <string name="default_tab_to_open">應用程式啟動時開啟的標籤頁</string>
     <string name="contacts_tab">連絡人</string>
-    <string name="favorites_tab">我的最愛</string>
+    <string name="favorites_tab">最愛</string>
     <string name="call_history_tab">通話紀錄</string>
     <string name="groups_tab">群組</string>
     <string name="last_used_tab">最後使用</string>

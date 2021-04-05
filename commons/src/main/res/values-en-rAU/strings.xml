@@ -2,18 +2,36 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
+    <string name="set_as">Set as</string>
     <string name="unknown">Unknown</string>
     <string name="never">Never</string>
+    <string name="none">None</string>
     <string name="download">Download</string>
     <string name="email">Email</string>
+    <string name="previous">Previous</string>
     <string name="next">Next</string>
+    <string name="copy">Copy</string>
     <string name="skip">Skip</string>
+    <string name="sd_card">SD Card</string>
+    <string name="duration">Duration</string>
+    <string name="exposure_time">Exposure time</string>
+    <string name="camera">Camera</string>
+    <string name="restore_defaults">Restore defaults</string>
     <string name="default_color">Default</string>
     <string name="save">Save</string>
     <string name="custom">Customise</string>
+    <string name="rename">Rename</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="seconds_raw">seconds</string>
+    <string name="minutes_raw">minutes</string>
+    <string name="hours_raw">hours</string>
+    <string name="snooze">Snooze</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="medium">Medium</string>
+    <string name="usb">USB</string>
     <string name="donate">Donate</string>
     <string name="calendar_short">Calendar</string>
+    <string name="camera_short">Camera</string>
     <string name="flashlight_short">flash</string>
 </resources>

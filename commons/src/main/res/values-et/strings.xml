@@ -180,6 +180,8 @@
     <string name="background_color">Tausta värv</string>
     <string name="text_color">Teksti värv</string>
     <string name="primary_color">Põhivärv</string>
+    <string name="accent_color_white">Valge teema aktsentvärv</string>
+    <string name="accent_color_black_and_white">Must &amp; valge teema aktsentvärv </string>
     <string name="foreground_color">Esiplaani värv</string>
     <string name="app_icon_color">Rakenduse ikooni värv</string>
     <string name="bottom_navigation_bar_color">Alumise navigeerimisriba värv</string>
@@ -421,6 +423,8 @@
     <string name="your_sounds">Teie helid</string>
     <string name="add_new_sound">Lisage uus heli</string>
     <string name="no_sound">Heli pole</string>
+    <string name="during_day_at_hh_mm">Päeval kell hh:mm</string>
+    <string name="during_day_at">Päeval kell %02d:%02d</string>
     <string name="settings">Seaded</string>
     <string name="purchase_simple_thank_you">Ostmine lihtne tänan teid</string>
     <string name="customize_colors">Kohanda värve</string>
@@ -635,6 +639,7 @@
     <string name="why_upgrade_no_ads">Reklaamivaba</string>
     <string name="why_upgrade_no_internet_access">Interneti-ühendus puudub.</string>
     <string name="why_upgrade_footer">+ 100% raha tagasi garantii</string>
+    <string name="why_upgrade_improved_design">Täiustatud disain</string>
     <string name="why_upgrade_advanced_photo_editor">Täiustatud fototöötlus</string>
     <string name="why_upgrade_heic_support">HEIC/HEIF failide tugi</string>
     <string name="why_upgrade_batch_renaming">Täpsem paket failide ümbernimetamine</string>
@@ -647,6 +652,7 @@
     <string name="why_upgrade_duplicate_contact_merging">Täiustatud duplikaatkontaktide ühendamine</string>
     <string name="why_upgrade_font_size_customization">Fondi suuruse kohandamine</string>
     <string name="why_upgrade_private_contact_sharing">Valikuline privaatsete kontaktide jagamine meie rakendustes</string>
+    <string name="why_upgrade_customizable_contact_ringtones">Kohandatavad kontakthelinad</string>
     <string name="why_upgrade_checklists">Kontrollnimekirjad</string>
     <string name="why_upgrade_different_note_per_widget">Erinevad märkused ja värvid vidina kohta</string>
     <string name="why_upgrade_date_and_time_format">Kuupäeva ja kellaaja vormingu kohandamine</string>

@@ -19,6 +19,7 @@
     <string name="deleting_folder">Sletter mappen \'%s\'</string>
     <string name="none">Ingen</string>
     <string name="download">Download-modus</string>
+    <string name="notification">Varsel</string>
     <string name="email">E-post</string>
     <string name="previous">Forrige</string>
     <string name="next">Neste</string>
@@ -380,6 +381,7 @@
     <string name="importing_some_entries_failed">Importering av noen oppføringer feilet</string>
     <string name="exporting_some_entries_failed">Eksportering av noen oppføringer feilet</string>
     <string name="no_entries_for_exporting">Ingen oppføringer for eksportering er funnet</string>
+    <string name="usb">USB</string>
     <string name="wrong_root_selected_usb">Feil mappe valgt, velg rotmappen til USB-enheten din</string>
     <string name="january">Januar</string>
     <string name="february">Februar</string>
@@ -436,6 +438,7 @@
     <string name="calendar_short">Kalender</string>
     <string name="camera_short">Kamera</string>
     <string name="clock_short">Klokke</string>
+    <string name="gallery_short">Galleri</string>
     <string name="frequently_asked_questions">Ofte stilte spørsmål</string>
     <string name="before_asking_question">Før du stiller et spørsmål, les først</string>
     <string name="why_upgrade_basic_version">Grunnleggende</string>

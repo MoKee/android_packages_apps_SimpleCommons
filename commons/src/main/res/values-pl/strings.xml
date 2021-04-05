@@ -29,9 +29,9 @@
     <string name="download">Pobierz</string>
     <string name="notification">Powiadomienia</string>
     <string name="email">E-mail</string>
-    <string name="previous">Wróć</string>
+    <string name="previous">Poprzedni</string>
     <string name="playpause">Odtwarzaj / Wstrzymaj</string>
-    <string name="next">Dalej</string>
+    <string name="next">Następny</string>
     <string name="number">Numer</string>
     <string name="no_contacts_found">Nie znaleziono kontaktów.</string>
     <string name="request_the_required_permissions">Poproś o wymagane uprawnienia</string>
@@ -187,6 +187,7 @@
     <string name="background_color">Tło</string>
     <string name="text_color">Tekst</string>
     <string name="primary_color">Belka i przełączniki</string>
+    <string name="accent_color_white">Akcent koloru białego motywu</string>
     <string name="foreground_color">Pierwszy plan</string>
     <string name="app_icon_color">Ikona aplikacji</string>
     <string name="bottom_navigation_bar_color">Kolor dolnego paska nawigacji</string>
@@ -486,6 +487,8 @@
     <string name="your_sounds">Dźwięki użytkownika</string>
     <string name="add_new_sound">Dodaj nowy dźwięk</string>
     <string name="no_sound">Brak dźwięku</string>
+    <string name="during_day_at_hh_mm">W ciągu dnia o hh:mm</string>
+    <string name="during_day_at">W ciągu dnia o %02d:%02d</string>
     <string name="settings">Ustawienia</string>
     <string name="purchase_simple_thank_you">Kup aplikację \'Proste podziękowanie\'</string>
     <string name="customize_colors">Dostosuj kolory aplikacji</string>
@@ -695,7 +698,7 @@
     <string name="faq_10_title_commons">Kupiłem aplikację, ale nie mogę pobrać jej na innym urządzeniu.</string>
     <string name="faq_10_text_commons">Spróbuj wyczyścić pamięć podręczną aplikacji Google Play i zrestartować urządzenie. To jest trochę glitch Google Play, nie jest naprawdę związany z samą aplikacją.</string>
     <string name="why_upgrade">Pobierz wersję Pro!</string>
-    <string name="why_upgrade_basic_version">Podstawowy</string>
+    <string name="why_upgrade_basic_version">Podstawowe</string>
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">Brak reklam</string>
     <string name="why_upgrade_no_internet_access">Brak dostępu do internetu</string>

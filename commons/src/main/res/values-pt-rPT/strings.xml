@@ -458,7 +458,7 @@
     <string name="migrating">Migrando</string>
     <string name="default_tab_to_open">Abrir aba ao iniciar aplicação</string>
     <string name="contacts_tab">Contactos</string>
-    <string name="favorites_tab">Marcadores</string>
+    <string name="favorites_tab">Favoritos</string>
     <string name="call_history_tab">Histórico de Chamadas</string>
     <string name="groups_tab">Grupos</string>
     <string name="last_used_tab">Usado pela última vez em</string>

@@ -5,13 +5,14 @@
     <string name="details">तपशील</string>
     <string name="none">काहीही नाही</string>
     <string name="email">ईमेल करा</string>
-    <string name="previous">"मागील"</string>
-    <string name="next">"पुढील"</string>
+    <string name="previous">मागील</string>
+    <string name="next">पुढील</string>
     <string name="skip">वगळा</string>
     <string name="path">मार्ग</string>
     <string name="duration">कालावधी</string>
     <string name="exposure_time">अनावरण वेळ</string>
     <string name="camera">कॅमेरा</string>
+    <string name="default_color">डीफॉल्ट</string>
     <string name="save">जतन करा</string>
     <string name="dark_theme">गडद</string>
     <string name="custom">सानुकूल</string>
@@ -26,6 +27,7 @@
     <string name="hours_raw">तास</string>
     <string name="widgets">विजेट</string>
     <string name="text">मजकूर</string>
+    <string name="usb">USB</string>
     <string name="calendar_short">कॅलेंडर</string>
     <string name="camera_short">कॅमेरा</string>
 </resources>

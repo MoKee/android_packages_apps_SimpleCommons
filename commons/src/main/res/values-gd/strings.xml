@@ -3,9 +3,18 @@
     <string name="unknown">Chan eil fhios</string>
     <string name="details">Mion-fhiosrachadh</string>
     <string name="none">Chan eil gin</string>
+    <string name="download">Luchdadh a-nuas</string>
+    <string name="email">Post-d</string>
     <string name="previous">Air ais</string>
+    <string name="next">Air adhart</string>
     <string name="restore_defaults">Aisig na bun-roghainnean</string>
+    <string name="default_color">Bun-roghainn</string>
     <string name="save">Sàbhail</string>
+    <string name="custom">Gnàthaichte</string>
+    <string name="rename">Thoir ainm ùr air</string>
     <string name="snooze">Dèan dùsal</string>
+    <string name="dismiss">Leig seachad</string>
+    <string name="usb">USB</string>
+    <string name="calendar_short">Mìosachan</string>
     <string name="gallery_short">Gailearaidh</string>
 </resources>

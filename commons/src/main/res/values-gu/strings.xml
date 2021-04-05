@@ -5,13 +5,14 @@
     <string name="details">વિગતો</string>
     <string name="none">કોઈ નહીં</string>
     <string name="email">ઇમેઇલ</string>
-    <string name="previous">"પાછળ"</string>
-    <string name="next">"આગામી"</string>
+    <string name="previous">પાછળ</string>
+    <string name="next">આગામી</string>
     <string name="skip">છોડી દો</string>
     <string name="path">પાથ</string>
     <string name="duration">અવધિ</string>
     <string name="exposure_time">એક્સપોઝર સમય</string>
     <string name="camera">કૅમેરો</string>
+    <string name="default_color">ડિફોલ્ટ</string>
     <string name="save">સાચવો</string>
     <string name="dark_theme">ઘાટું</string>
     <string name="custom">કસ્ટમ</string>
@@ -27,8 +28,10 @@
     <string name="minutes_raw">મિનીટ્સ</string>
     <string name="hours_raw">કલાક</string>
     <string name="snooze">સ્નૂઝ</string>
+    <string name="dismiss">Dismiss</string>
     <string name="widgets">વિજેટ્સ</string>
     <string name="text">લખાણ</string>
+    <string name="usb">USB</string>
     <string name="monday">સોમવાર</string>
     <string name="saturday">શનિવાર</string>
     <string name="sunday">રવિવાર</string>

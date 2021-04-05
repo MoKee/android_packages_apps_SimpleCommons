@@ -9,13 +9,14 @@
     <string name="none">ഒന്നുമില്ല</string>
     <string name="download">ഡൗൺലോഡ്</string>
     <string name="email">ഇമെയിൽ</string>
-    <string name="previous">"മുമ്പത്തെ"</string>
-    <string name="next">"അടുത്തത്"</string>
+    <string name="previous">മുമ്പത്തെ</string>
+    <string name="next">അടുത്തത്</string>
     <string name="skip">ഒഴിവാക്കുക</string>
     <string name="path">പാത്ത്</string>
     <string name="duration">ദൈർഘ്യം</string>
     <string name="exposure_time">എക്സ്‌പോഷർ സമയം</string>
     <string name="camera">ക്യാമറ</string>
+    <string name="default_color">സ്ഥിരമായത്</string>
     <string name="save">സംരക്ഷിക്കുക</string>
     <string name="dark_theme">ഇരുണ്ട</string>
     <string name="custom">ഇഷ്‌ടാനുസൃതം</string>
@@ -30,6 +31,7 @@
     <string name="hours_raw">മണിക്കൂർ</string>
     <string name="widgets">വിജറ്റുകൾ</string>
     <string name="text">ടെക്സ്റ്റ്</string>
+    <string name="usb">USB</string>
     <string name="donate">സംഭാവന</string>
     <string name="calendar_short">കലണ്ടർ</string>
     <string name="camera_short">ക്യാമറ</string>

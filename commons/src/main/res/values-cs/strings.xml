@@ -188,6 +188,8 @@
     <string name="background_color">Barva pozadí</string>
     <string name="text_color">Barva textu</string>
     <string name="primary_color">Hlavní barva</string>
+    <string name="accent_color_white">Barva zvýraznění bílého motivu</string>
+    <string name="accent_color_black_and_white">Barva zvýraznění černého a bílého motivu</string>
     <string name="foreground_color">Barva popředí</string>
     <string name="app_icon_color">Barva ikony aplikace</string>
     <string name="bottom_navigation_bar_color">Barva dolního navigačního panelu</string>
@@ -487,6 +489,8 @@
     <string name="your_sounds">Vaše zvuky</string>
     <string name="add_new_sound">Přidat nový zvuk</string>
     <string name="no_sound">Bez zvuku</string>
+    <string name="during_day_at_hh_mm">Během dne v hh:mm</string>
+    <string name="during_day_at">Během dne v %02d:%02d</string>
     <string name="settings">Nastavení</string>
     <string name="purchase_simple_thank_you">Koupit Simple Thank You</string>
     <string name="customize_colors">Přizpůsobit barvy</string>
@@ -703,6 +707,7 @@
     <string name="why_upgrade_no_ads">Bez reklam</string>
     <string name="why_upgrade_no_internet_access">Není připojení k Internetu</string>
     <string name="why_upgrade_footer">+ 100% záruka vrácení peněz</string>
+    <string name="why_upgrade_improved_design">Vylepšený design</string>
     <string name="why_upgrade_advanced_photo_editor">Pokročilý editor fotografií</string>
     <string name="why_upgrade_heic_support">Podpora souborů HEIC/HEIF</string>
     <string name="why_upgrade_batch_renaming">Rozšířené dávkové přejmenování souborů</string>
@@ -715,6 +720,7 @@
     <string name="why_upgrade_duplicate_contact_merging">Vylepšené sloučení duplicitních kontaktů</string>
     <string name="why_upgrade_font_size_customization">Přizpůsobení velikosti písem</string>
     <string name="why_upgrade_private_contact_sharing">Volitelné soukromé sdílení kontaktů v rámci našich aplikací</string>
+    <string name="why_upgrade_customizable_contact_ringtones">Přizpůsobitelné vyzváněcí tóny kontaktů</string>
     <string name="why_upgrade_checklists">Seznamy</string>
     <string name="why_upgrade_different_note_per_widget">Různé poznámky a barvy na widgety</string>
     <string name="why_upgrade_date_and_time_format">Přizpůsobení formátů data a času</string>

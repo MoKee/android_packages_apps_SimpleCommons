@@ -19,6 +19,7 @@
     <string name="notes">Noter</string>
     <string name="deleting_folder">Sletter mappen \'%s\'</string>
     <string name="none">Ingen</string>
+    <string name="transparent">Gennemsigtig</string>
     <string name="transparent_color">Transparent farve</string>
     <string name="select_a_different_color">Vælg en anden farve</string>
     <string name="download">Download</string>
@@ -388,6 +389,7 @@
     <string name="importing_some_entries_failed">Import mislykkedes delvist</string>
     <string name="exporting_some_entries_failed">Eksport mislykkedes delvist</string>
     <string name="no_entries_for_exporting">Der er ikke fundet indhold til eksport</string>
+    <string name="usb">USB</string>
     <string name="wrong_root_selected_usb">Den forkerte mappe er valgt, vælg rodmappen på din USB-enhed</string>
     <string name="january">Januar</string>
     <string name="february">Februar</string>
@@ -446,6 +448,7 @@
     <string name="camera_short">Kamera</string>
     <string name="clock_short">Ur</string>
     <string name="flashlight_short">Lommelygte</string>
+    <string name="gallery_short">Galleri</string>
     <string name="notes_short">Noter</string>
     <string name="frequently_asked_questions">Ofte stillede spørgsmål</string>
     <string name="before_asking_question">Inden du stiller et spørgsmål bedes du først læse</string>

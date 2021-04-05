@@ -31,6 +31,7 @@
     <string name="seconds_raw">Sekonnen</string>
     <string name="minutes_raw">Minutten</string>
     <string name="hours_raw">Stonnen</string>
+    <string name="usb">USB</string>
     <string name="calendar_short">Kalenner</string>
     <string name="camera_short">Fotoapparat</string>
 </resources>

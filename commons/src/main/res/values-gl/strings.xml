@@ -332,6 +332,7 @@
     <string name="importing_some_entries_failed">La importación de algunas entradas ha fallado</string>
     <string name="exporting_some_entries_failed">La exportación de algunas entradas ha fallado</string>
     <string name="no_entries_for_exporting">No se han encontrado entradas para exportar</string>
+    <string name="usb">USB</string>
     <string name="wrong_root_selected_usb">Carpeta incorrecta, seleccione la carpeta raíz de su dispositivo USB</string>
     <string name="january">Xaneiro</string>
     <string name="february">Febreiro</string>

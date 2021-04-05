@@ -20,6 +20,7 @@
     <string name="add_to_favorites">Добави към Любими</string>
     <string name="remove_from_favorites">Премахни от любими</string>
     <string name="search">Търсене</string>
+    <string name="copy">Копирай</string>
     <string name="folder">Папка</string>
     <string name="skip">Прескочи</string>
     <string name="sd_card">SD карта</string>
@@ -68,6 +69,7 @@
     <string name="widgets">Приспособления</string>
     <string name="text">Текст</string>
     <string name="favorites_tab">Любими</string>
+    <string name="usb">USB</string>
     <string name="monday">понеделник</string>
     <string name="saturday">събота</string>
     <string name="sunday">неделя</string>

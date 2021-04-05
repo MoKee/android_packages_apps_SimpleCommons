@@ -9,6 +9,7 @@
     <string name="details">세부정보</string>
     <string name="none">선택 안함</string>
     <string name="label">라벨</string>
+    <string name="transparent">투명</string>
     <string name="download">다운로드</string>
     <string name="notification">알림</string>
     <string name="email">이메일</string>
@@ -22,6 +23,8 @@
     <string name="add_to_favorites">즐겨찾기에 추가</string>
     <string name="remove_from_favorites">즐겨찾기에서 제거</string>
     <string name="search">검색</string>
+    <string name="no_storage_permissions">저장소 권한이 필요합니다.</string>
+    <string name="copy">복사</string>
     <string name="folder">폴더</string>
     <string name="skip">건너뛰기</string>
     <string name="sd_card">SD 카드</string>
@@ -73,6 +76,7 @@
     <string name="visibility">가시성</string>
     <string name="text">텍스트</string>
     <string name="favorites_tab">즐겨찾기</string>
+    <string name="usb">USB</string>
     <string name="monday">월요일</string>
     <string name="tuesday">화요일</string>
     <string name="wednesday">수요일</string>

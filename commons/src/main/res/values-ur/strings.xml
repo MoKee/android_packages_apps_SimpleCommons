@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="ok">ٹھیک ہے</string>
     <string name="none">کوئی نہیں</string>
     <string name="notification">پیغام</string>
     <string name="custom">حسب ضرورت</string>
+    <string name="delete">مٹائیں</string>
     <string name="remove">ہٹائیں</string>
     <string name="undo">کالعدم کریں</string>
     <string name="redo">دوبارہ کریں</string>

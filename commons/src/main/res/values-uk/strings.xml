@@ -26,9 +26,9 @@
     <string name="download">Завантажити</string>
     <string name="notification">Нагадування</string>
     <string name="email">Електронна пошта</string>
-    <string name="previous">Попереднє відео</string>
+    <string name="previous">Попередня</string>
     <string name="playpause">Відтворення / Пауза</string>
-    <string name="next">Далі</string>
+    <string name="next">Наступна</string>
     <string name="change_view_type">Змінити тип перегляду</string>
     <string name="grid">Сітка</string>
     <string name="list">Список</string>
@@ -494,7 +494,7 @@
     <string name="text">Текст</string>
     <string name="migrating">Перенесення даних</string>
     <string name="contacts_tab">Контакти</string>
-    <string name="favorites_tab">Обране</string>
+    <string name="favorites_tab">Улюблені</string>
     <string name="groups_tab">Групи</string>
     <string name="last_used_tab">Останнє використане</string>
     <string name="restore_this_file">Відновити цей файл</string>

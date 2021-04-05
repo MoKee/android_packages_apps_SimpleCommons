@@ -385,7 +385,7 @@
     <string name="saving_label">Εξοικονόμηση</string>
     <string name="startup">Εκκίνηση</string>
     <string name="text">Κείμενο</string>
-    <string name="favorites_tab">Αγαπημένα</string>
+    <string name="favorites_tab">מועדפים</string>
     <string name="restore_this_file">Επαναφορά αυτού του αρχείου</string>
     <string name="restore_selected_files">Επαναφορά επιλεγμένων αρχείων</string>
     <string name="restore_all_files">Επαναφορά όλων των αρχείων</string>
@@ -407,6 +407,7 @@
     <string name="importing_some_entries_failed">Η Εισαγωγή μερικών καταχωρήσεων απέτυχε</string>
     <string name="exporting_some_entries_failed">Η Εξαγωγή μερικών καταχωρήσεων απέτυχε</string>
     <string name="no_entries_for_exporting">Δεν βρέθηκαν καταχωρήσεις για Εξαγωγή</string>
+    <string name="usb">USB</string>
     <string name="wrong_root_selected_usb">Λάθος επιλεγμένο φάκελο, παρακαλώ επιλέξτε το ριζικό φάκελο της συσκευής USB</string>
     <string name="january">Ιανουάριος</string>
     <string name="february">Φεβρουάριος</string>

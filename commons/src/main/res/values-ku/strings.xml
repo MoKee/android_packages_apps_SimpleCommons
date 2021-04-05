@@ -26,5 +26,6 @@
     <string name="seconds_raw">چرکە</string>
     <string name="minutes_raw">خولەک</string>
     <string name="hours_raw">کاژێر</string>
+    <string name="usb">USB</string>
     <string name="camera_short">کامێرا</string>
 </resources>

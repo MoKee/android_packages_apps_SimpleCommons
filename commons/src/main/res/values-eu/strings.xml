@@ -13,6 +13,7 @@
     <string name="previous">Aurrekoa</string>
     <string name="next">Hurrengoa</string>
     <string name="search">Bilatu</string>
+    <string name="copy">Kopiatu</string>
     <string name="skip">Saltatu</string>
     <string name="sd_card">SD txartela</string>
     <string name="path">Bidea</string>
@@ -50,6 +51,7 @@
     <string name="medium">Ertaina</string>
     <string name="widgets">Widgetak</string>
     <string name="text">Testua</string>
+    <string name="usb">USB</string>
     <string name="monday">Astelehena</string>
     <string name="saturday">Larunbata</string>
     <string name="sunday">Igandea</string>

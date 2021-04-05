@@ -20,6 +20,7 @@
     <string name="none">Heçnə</string>
     <string name="label">Etiket</string>
     <string name="download">Endir</string>
+    <string name="notification">Bildiriş</string>
     <string name="email">E-poçt</string>
     <string name="previous">Əvvəlki</string>
     <string name="next">Sonrakı</string>
@@ -380,6 +381,7 @@
     <string name="importing_some_entries_failed">Bəzi girişləri daxil etmək olmur</string>
     <string name="exporting_some_entries_failed">Bəzi girişləri çıxarmaq olmur</string>
     <string name="no_entries_for_exporting">Çıxarış üçün heçbir giriş tapılmadı</string>
+    <string name="usb">USB</string>
     <string name="wrong_root_selected_usb">Yanlış qovluq seçilib, xahiş olunur USB cihazın root qovluğunu seçin</string>
     <string name="january">Yanvar</string>
     <string name="february">Fevral</string>
@@ -445,6 +447,7 @@
     <string name="update_thank_you">Xahiş olunur Sadə Təşəkkür tətbiqini ən son versiyaya yeniləyin</string>
     <string name="calendar_short">Təqvim</string>
     <string name="camera_short">Kamera</string>
+    <string name="gallery_short">Qalereya</string>
     <string name="notes_short">Qeydlər</string>
     <string name="frequently_asked_questions">Tez-tez Soruşulan Suallar</string>
     <string name="before_asking_question">Xahiş olunur sual verməmişdən qabaq aşağıdakı bölməni oxuyun</string>

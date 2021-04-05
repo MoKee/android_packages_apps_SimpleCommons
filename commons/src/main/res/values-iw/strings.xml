@@ -8,6 +8,7 @@
     <string name="never">אף פעם</string>
     <string name="details">פרטים</string>
     <string name="none">ללא</string>
+    <string name="transparent">שקוף</string>
     <string name="download">מצב הורדה</string>
     <string name="email">דוא\"ל</string>
     <string name="previous">הקודם</string>
@@ -17,6 +18,7 @@
     <string name="add_to_favorites">הוספה למועדפים</string>
     <string name="remove_from_favorites">הסרה מהמועדפים</string>
     <string name="search">חיפוש</string>
+    <string name="copy">העתק</string>
     <string name="folder">תיקייה</string>
     <string name="skip">דלג</string>
     <string name="sd_card">כרטיס זיכרון</string>
@@ -66,6 +68,7 @@
     <string name="visibility">נראות</string>
     <string name="text">טקסט</string>
     <string name="favorites_tab">מועדפים</string>
+    <string name="usb">USB</string>
     <string name="january">ינואר</string>
     <string name="february">פברואר</string>
     <string name="march">מרץ</string>

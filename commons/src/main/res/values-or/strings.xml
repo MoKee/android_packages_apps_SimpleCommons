@@ -5,20 +5,23 @@
     <string name="details">ବିବରଣୀଗୁଡିକ</string>
     <string name="none">କିଛି ନୁହେଁ</string>
     <string name="email">ଇମେଲ୍</string>
-    <string name="previous">"ପୂର୍ବବର୍ତ୍ତୀ"</string>
-    <string name="next">"ପରବର୍ତ୍ତୀ"</string>
+    <string name="previous">ପୂର୍ବବର୍ତ୍ତୀ</string>
+    <string name="next">ପରବର୍ତ୍ତୀ</string>
     <string name="skip">ସ୍କିପ୍</string>
     <string name="path">ପଥ</string>
     <string name="duration">ଅବଧି</string>
     <string name="exposure_time">ଏକ୍ସପୋଜର୍ ସମୟ</string>
     <string name="camera">କ୍ୟାମେରା</string>
+    <string name="default_color">ଡିଫଲ୍ଟ</string>
     <string name="save">ସଞ୍ଚୟ</string>
     <string name="dark_theme">ଅନ୍ଧାର</string>
+    <string name="custom">କଷ୍ଟମ୍</string>
     <string name="title">ଟାଇଟଲ୍</string>
     <string name="seconds_raw">ସେକେଣ୍ଡ</string>
     <string name="minutes_raw">ମିନିଟ୍</string>
     <string name="hours_raw">ଘଣ୍ଟା</string>
     <string name="text">ଟେକ୍ସଟ୍</string>
+    <string name="usb">USB</string>
     <string name="calendar_short">କ୍ୟାଲେଣ୍ଡର୍</string>
     <string name="camera_short">କ୍ୟାମେରା</string>
 </resources>

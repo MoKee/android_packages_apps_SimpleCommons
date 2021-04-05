@@ -27,7 +27,7 @@
     <string name="notification">الاشعارات</string>
     <string name="email">البريد الإلكتروني</string>
     <string name="previous">السابق</string>
-    <string name="next">القادم</string>
+    <string name="next">التالي</string>
     <string name="change_view_type">تغيير طريقة العرض</string>
     <string name="grid">الشبكة</string>
     <string name="list">القائمة</string>
@@ -670,7 +670,7 @@
     <string name="camera_short">الكاميرا</string>
     <string name="clock_short">الساعة</string>
     <string name="flashlight_short">ضوء الفلاش</string>
-    <string name="gallery_short">المعرض</string>
+    <string name="gallery_short">الاستوديو</string>
     <string name="notes_short">الملاحظات</string>
     <string name="sideloaded_app">            يبدو أن إصدار التطبيق الخاص بك تالف. الرجاء تحميل النسخة الأصلية <a href="%s">هنا</a>.
         </string>

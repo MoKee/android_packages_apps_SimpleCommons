@@ -5,20 +5,25 @@
     <string name="details">বিৱৰণ</string>
     <string name="none">হাল্লা</string>
     <string name="email">ইমেইল</string>
-    <string name="previous">"পূৰ্বৱৰ্তী"</string>
-    <string name="next">"পৰৱৰ্তী"</string>
+    <string name="previous">পূৰ্বৱৰ্তী</string>
+    <string name="next">পৰৱৰ্তী</string>
+    <string name="no_storage_permissions">সঞ্চয়াগাৰৰ অনুমতিৰ প্ৰয়োজন</string>
+    <string name="copy">প্ৰতিলিপি</string>
     <string name="skip">বাদ দিয়া</string>
     <string name="path">পাথ</string>
     <string name="duration">সময়সীমা</string>
     <string name="exposure_time">এক্সপ’জাৰ টাইম</string>
     <string name="camera">কেমেৰা</string>
+    <string name="default_color">ডিফল্ট</string>
     <string name="save">ছেভ কৰা</string>
     <string name="dark_theme">আন্ধাৰ</string>
+    <string name="custom">কাষ্টম</string>
     <string name="title">শিৰোনামা</string>
     <string name="seconds_raw">ছেকেণ্ড</string>
     <string name="minutes_raw">মিনিটসমূহ</string>
     <string name="hours_raw">ঘন্টাসমূহ</string>
     <string name="text">টেক্সট</string>
+    <string name="usb">USB</string>
     <string name="calendar_short">কেলেণ্ডাৰ</string>
     <string name="camera_short">কেমেৰা</string>
 </resources>

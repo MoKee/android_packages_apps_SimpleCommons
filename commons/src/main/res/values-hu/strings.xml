@@ -180,6 +180,8 @@
     <string name="background_color">Háttérszín</string>
     <string name="text_color">Szöveg színe</string>
     <string name="primary_color">Elsődleges szín</string>
+    <string name="accent_color_white">A világos téma kiemelőszíne</string>
+    <string name="accent_color_black_and_white">A Fekete-Fehér téma kiemelőszíne</string>
     <string name="foreground_color">Előtér szín</string>
     <string name="app_icon_color">Alkalmazás ikon színe</string>
     <string name="bottom_navigation_bar_color">Alsó navigációs sáv színe</string>
@@ -421,6 +423,8 @@
     <string name="your_sounds">Saját hangok</string>
     <string name="add_new_sound">Új hang hozzáadása</string>
     <string name="no_sound">Nincs hang</string>
+    <string name="during_day_at_hh_mm">Napközben hh:mm-kor</string>
+    <string name="during_day_at">Napközben %02d:%02d-kor</string>
     <string name="settings">Beállítások</string>
     <string name="purchase_simple_thank_you">Simple Thank You megvásárlása</string>
     <string name="customize_colors">Színek testreszabása</string>
@@ -635,6 +639,7 @@
     <string name="why_upgrade_no_ads">Reklámmentes</string>
     <string name="why_upgrade_no_internet_access">Nincs szükség internetre</string>
     <string name="why_upgrade_footer">100%-os pénz-visszafizetési garancia</string>
+    <string name="why_upgrade_improved_design">Tökéletesített megjelenés</string>
     <string name="why_upgrade_advanced_photo_editor">Kiemelkedő fényképszerkesztő</string>
     <string name="why_upgrade_heic_support">HEIC/HEIF fájltámogatás</string>
     <string name="why_upgrade_batch_renaming">Átalakított csoportos fájlátnevezés</string>
@@ -647,6 +652,7 @@
     <string name="why_upgrade_duplicate_contact_merging">Továbbfejlesztett névjegyegyesítés</string>
     <string name="why_upgrade_font_size_customization">Testreszabható betűméretek</string>
     <string name="why_upgrade_private_contact_sharing">Választható privát névjegymegosztás a béna alkalmazásunkat kihagyva</string>
+    <string name="why_upgrade_customizable_contact_ringtones">Névjegyhez igazítható csengőhang</string>
     <string name="why_upgrade_checklists">Ellenőrzőlista</string>
     <string name="why_upgrade_different_note_per_widget">Külöbnböző jegyzetek és színek a kisalkalmazásokhoz</string>
     <string name="why_upgrade_date_and_time_format">Testreszabható dátum- és időformátum</string>

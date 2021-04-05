@@ -24,9 +24,9 @@
     <string name="select_a_different_color">Zgjidhni një ngjyrë tjetër</string>
     <string name="download">Shkarko</string>
     <string name="notification">Njoftimet</string>
-    <string name="email">e-mail</string>
+    <string name="email">Email</string>
     <string name="previous">E mëparshmja</string>
-    <string name="next">Vazhdo</string>
+    <string name="next">Tjetra</string>
     <string name="select_photo">Zgjidh një fotografi</string>
     <string name="blocked_numbers">Numrat e bllokuar</string>
     <string name="favorites">Të preferuarat</string>

@@ -452,6 +452,7 @@
     <string name="contacts_tab">Contactos</string>
     <string name="favorites_tab">Favoritos</string>
     <string name="groups_tab">Grupos</string>
+    <string name="last_used_tab">Último usado</string>
     <string name="restore_this_file">Restaurar el fichero</string>
     <string name="restore_selected_files">Restaurar los ficheros seleccionados</string>
     <string name="restore_all_files">Restaurar todos los ficheros</string>

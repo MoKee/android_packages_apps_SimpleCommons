@@ -412,6 +412,7 @@
     <string name="importing_some_entries_failed">Kai kurių įrašų importuoti nepavyko</string>
     <string name="exporting_some_entries_failed">Kai kurių įrašų eksportuoti nepavyko</string>
     <string name="no_entries_for_exporting">Nerasta įrašų eksportavimui</string>
+    <string name="usb">USB</string>
     <string name="wrong_root_selected_usb">Pasirinktas netinkamas aplankas, pasirinkite USB įrenginio šakninį aplanką</string>
     <string name="january">Sausis</string>
     <string name="february">Vasaris</string>
@@ -464,6 +465,7 @@
     <string name="device_os">Įrenginio OS: %s</string>
     <string name="calendar_short">Kalendorius</string>
     <string name="camera_short">Fotoaparatas</string>
+    <string name="gallery_short">Galerija</string>
     <string name="notes_short">Užrašai</string>
     <string name="frequently_asked_questions">Dažniausiai užduodami klausimai</string>
     <string name="faq_1_title_commons">Kodėl aš negaliu pamatyti šios programėlės valdiklių sąraše?</string>

@@ -5,7 +5,9 @@
     <string name="never">هرگز</string>
     <string name="details">جزئیات</string>
     <string name="none">هیچ‌کدام</string>
+    <string name="transparent">شفاف</string>
     <string name="download">دانلود</string>
+    <string name="notification">اعلانات</string>
     <string name="email">ایمیل</string>
     <string name="previous">قبلی</string>
     <string name="next">بعدی</string>
@@ -17,6 +19,7 @@
     <string name="duration">مدت</string>
     <string name="exposure_time">زمان نوردهی</string>
     <string name="camera">دوربین</string>
+    <string name="default_color">پیش‌فرض</string>
     <string name="theme">تم</string>
     <string name="save">ذخیره</string>
     <string name="custom">سفارشی</string>

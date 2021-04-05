@@ -27,8 +27,10 @@
     <string name="seconds_raw">තත්පර</string>
     <string name="minutes_raw">මිනිත්තු</string>
     <string name="hours_raw">පැය</string>
+    <string name="snooze">Snooze</string>
     <string name="dismiss">ඉවත් කරන්න</string>
     <string name="widgets">විජට්</string>
+    <string name="usb">USB</string>
     <string name="camera_short">කැමරාව</string>
     <string name="flashlight_short">ක්ෂණික දීප්තියක් දෙන එළිය</string>
 </resources>

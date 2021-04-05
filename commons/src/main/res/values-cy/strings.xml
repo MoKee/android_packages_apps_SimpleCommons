@@ -2,16 +2,33 @@
 <resources>
     <string name="ok">Iawn</string>
     <string name="cancel">Canslo</string>
+    <string name="set_as">Gosod fel</string>
+    <string name="unknown">Anhysybys</string>
+    <string name="none">Dim</string>
+    <string name="download">Modd lawrlwytho</string>
+    <string name="previous">Blaenorol</string>
     <string name="next">Nesaf</string>
     <string name="search">Chwilio</string>
     <string name="skip">Neidio</string>
+    <string name="sd_card">Cerdyn SD</string>
+    <string name="duration">Hyd</string>
+    <string name="exposure_time">Amser Dinoethiad</string>
+    <string name="camera">Camera</string>
+    <string name="restore_defaults">Adfer y rhagosodiadau</string>
     <string name="dark_theme">Tywyll</string>
     <string name="custom">Addasedig</string>
     <string name="delete">Dileu</string>
+    <string name="rename">Ailenwi</string>
     <string name="name">Enw</string>
     <string name="yes">Iawn</string>
     <string name="no">Na</string>
+    <string name="seconds_raw">eiliadau</string>
+    <string name="minutes_raw">munudau</string>
+    <string name="hours_raw">oriau</string>
     <string name="snooze">Snooze</string>
+    <string name="dismiss">Wfftio</string>
     <string name="settings">Gosodiadau</string>
+    <string name="usb">USB</string>
+    <string name="camera_short">Camera</string>
     <string name="gallery_short">Oriel</string>
 </resources>

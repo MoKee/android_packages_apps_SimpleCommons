@@ -175,6 +175,7 @@
     <string name="background_color">Màu nền</string>
     <string name="text_color">Màu chữ</string>
     <string name="primary_color">Màu chính</string>
+    <string name="accent_color_white">Màu nhấn của chủ đề trắng</string>
     <string name="foreground_color">Màu tô</string>
     <string name="app_icon_color">Màu biểu tượng</string>
     <string name="bottom_navigation_bar_color">Màu thanh điều hướng</string>
@@ -223,6 +224,9 @@
     <string name="print">In</string>
     <string name="create_shortcut">Tạo phím tắt</string>
     <string name="add_number_to_contact">Thêm số vào liên hệ</string>
+    <string name="view_contact_details">Xem chi tiết liên hệ</string>
+    <string name="call_from_sim_1">Gọi từ SIM 1</string>
+    <string name="call_from_sim_2">Gọi từ SIM 2</string>
     <string name="toggle_filename">Toggle filename visibility</string>
     <string name="sort_by">Sắp xếp theo</string>
     <string name="name">Tên: </string>
@@ -383,10 +387,14 @@
     <string name="your_sounds">Âm thanh của bạn</string>
     <string name="add_new_sound">Thêm mới</string>
     <string name="no_sound">Không có âm thanh</string>
+    <string name="during_day_at_hh_mm">Trong ngày lúc hh:mm</string>
+    <string name="during_day_at">Trong ngày lúc %02d:%02d</string>
     <string name="settings">Cài đặt</string>
     <string name="purchase_simple_thank_you">Mua hàng đơn giản Cảm ơn bạn</string>
     <string name="customize_colors">Tùy chỉnh màu sắc</string>
+    <string name="customize_colors_locked">Tùy chỉnh màu sắc (Đã khóa)</string>
     <string name="customize_widget_colors">Tùy chỉnh màu widget</string>
+    <string name="customize_notifications">Tùy chỉnh thông báo</string>
     <string name="use_english_language">Sử dụng tiếng Anh</string>
     <string name="show_hidden_items">Hiện mục ẩn</string>
     <string name="font_size">Cỡ chữ</string>
@@ -418,6 +426,7 @@
     <string name="settings_exported_successfully">Cài đặt được xuất thành công</string>
     <string name="settings_imported_successfully">Cài đặt được nhập thành công</string>
     <string name="start_name_with_surname">Tên bắt đầu với họ</string>
+    <string name="clear_cache">Xóa bộ nhớ đệm</string>
     <string name="visibility">Kiểu hiển thị</string>
     <string name="security">Bảo mật</string>
     <string name="scrolling">Cuộn</string>
@@ -429,7 +438,7 @@
     <string name="migrating">Di chuyển</string>
     <string name="default_tab_to_open">Tab để mở khi bắt đầu ứng dụng</string>
     <string name="contacts_tab">Liên hệ</string>
-    <string name="favorites_tab">Yêu thích</string>
+    <string name="favorites_tab">Yêu thích</string>
     <string name="call_history_tab">Nhật ký cuộc gọi</string>
     <string name="groups_tab">Nhóm</string>
     <string name="last_used_tab">Lần sử dụng cuối cùng</string>

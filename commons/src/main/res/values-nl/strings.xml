@@ -388,6 +388,7 @@
     <string name="importing_some_entries_failed">Sommige items konden niet worden geïmporteerd</string>
     <string name="exporting_some_entries_failed">Sommige items konden niet worden geëxporteerd</string>
     <string name="no_entries_for_exporting">Er zijn geen items gevonden om te exporteren</string>
+    <string name="usb">USB</string>
     <string name="usb_detected">USB-apparaat gedetecteerd. Om de bestanden op dit apparaat te weergeven heeft de app aanvullende machtigingen nodig.</string>
     <string name="wrong_root_selected_usb">Verkeerde map geselecteerd, kies de hoofdmap van het USB-apparaat</string>
     <string name="january">Januari</string>

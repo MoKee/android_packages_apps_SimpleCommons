@@ -29,9 +29,9 @@
     <string name="download">Загрузить</string>
     <string name="notification">Уведомления</string>
     <string name="email">Почта</string>
-    <string name="previous">Предыдущее видео</string>
+    <string name="previous">Предыдущая</string>
     <string name="playpause">Воспроизвести / Пауза</string>
-    <string name="next">Следующий</string>
+    <string name="next">Следующая</string>
     <string name="number">Номер</string>
     <string name="no_contacts_found">Контакты не найдены</string>
     <string name="request_the_required_permissions">Запросить необходимые разрешения</string>

@@ -405,6 +405,7 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="migrating">Migrando</string>
     <string name="favorites_tab">Favoritos</string>
     <string name="groups_tab">Grupos</string>
+    <string name="last_used_tab">Último usado</string>
     <string name="restore_this_file">Restaurar el fichero</string>
     <string name="restore_selected_files">Restaurar los ficheros seleccionados</string>
     <string name="restore_all_files">Restaurar todos los ficheros</string>
@@ -504,7 +505,7 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="camera_short">Cámara</string>
     <string name="clock_short">Reloj</string>
     <string name="flashlight_short">Linterna</string>
-    <string name="gallery_short">Galeria</string>
+    <string name="gallery_short">Galería</string>
     <string name="notes_short">Notas</string>
     <string name="frequently_asked_questions">Preguntas frecuentes</string>
     <string name="before_asking_question">Antes de hacer una pregunta, primero lea las</string>

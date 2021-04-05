@@ -35,6 +35,7 @@
     <string name="hours_raw">ชั่วโมง</string>
     <string name="widgets">วิดเจ็ต</string>
     <string name="text">ข้อความ</string>
+    <string name="usb">USB</string>
     <string name="donate">บริจาค</string>
     <string name="calendar_short">ปฏิทิน</string>
     <string name="camera_short">กล้องถ่ายรูป</string>

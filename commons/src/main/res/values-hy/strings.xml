@@ -20,6 +20,7 @@
     <string name="duration">Տևողությունը</string>
     <string name="exposure_time">Լուսավորման ժամանակը</string>
     <string name="camera">Ֆոտոխցիկ</string>
+    <string name="default_color">Լռելյայն</string>
     <string name="save">Պահել</string>
     <string name="custom">Հատուկ</string>
     <string name="delete">Ջնջել</string>
@@ -38,12 +39,15 @@
     <string name="minutes_raw">րոպե</string>
     <string name="hours_raw">ժամ</string>
     <string name="snooze">Հետաձգել</string>
+    <string name="dismiss">Dismiss</string>
     <string name="widgets">Վիջեթներ</string>
     <string name="contacts_tab">Կոնտակտներ</string>
     <string name="monday">Երկուշաբթի</string>
     <string name="saturday">Շաբաթ</string>
     <string name="sunday">Կիրակի</string>
+    <string name="calendar_short">Օրացույց</string>
     <string name="camera_short">Ֆոտոխցիկ</string>
     <string name="contacts_short">Կոնտակտներ</string>
     <string name="flashlight_short">Լապտեր</string>
+    <string name="notes_short">Նշումներ</string>
 </resources>

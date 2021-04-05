@@ -15,6 +15,7 @@
     <string name="duration">داۋاملىشىش ۋاقتى</string>
     <string name="exposure_time">ئاشكارىلانغان ۋاقتى</string>
     <string name="camera">كامېرا</string>
+    <string name="default_color">كۆڭۈلدىكى</string>
     <string name="save">ساقلا</string>
     <string name="dark_theme">قاراڭغۇ</string>
     <string name="custom">ئىختىيارىي</string>
@@ -32,6 +33,7 @@
     <string name="hours_raw">سائەت</string>
     <string name="settings">تەڭشەش</string>
     <string name="text">تېكىست</string>
+    <string name="usb">USB</string>
     <string name="donate">ئىئانە</string>
     <string name="calendar_short">كالېندار</string>
     <string name="camera_short">كامېرا</string>

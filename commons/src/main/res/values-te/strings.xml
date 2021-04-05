@@ -7,13 +7,14 @@
     <string name="none">ఏదీ వద్దు</string>
     <string name="notification">ప్రకటన</string>
     <string name="email">ఈమెయిల్‌</string>
-    <string name="previous">"మునుపటి"</string>
-    <string name="next">"తదుపరి"</string>
+    <string name="previous">మునుపటి</string>
+    <string name="next">తదుపరి</string>
     <string name="skip">దాటవేయి</string>
     <string name="path">పథం</string>
     <string name="duration">వ్యవధి</string>
     <string name="exposure_time">బహిర్గత సమయం</string>
     <string name="camera">కెమెరా</string>
+    <string name="default_color">డిఫాల్ట్</string>
     <string name="save">సేవ్ చేయి</string>
     <string name="dark_theme">ముదురు రంగు</string>
     <string name="custom">అనుకూలం</string>
@@ -28,6 +29,7 @@
     <string name="hours_raw">గంటలు</string>
     <string name="widgets">విడ్జెట్‌లు</string>
     <string name="text">పాఠం</string>
+    <string name="usb">USB</string>
     <string name="donate">దానం</string>
     <string name="calendar_short">క్యాలెండర్</string>
     <string name="camera_short">కెమెరా</string>

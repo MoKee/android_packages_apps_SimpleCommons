@@ -31,7 +31,7 @@
     <string name="email">电子邮件</string>
     <string name="previous">上一个</string>
     <string name="playpause">播放 / 暂停</string>
-    <string name="next">下一步</string>
+    <string name="next">下一个</string>
     <string name="number">号码</string>
     <string name="no_contacts_found">未找到联系人</string>
     <string name="request_the_required_permissions">请求所需的权限</string>
@@ -176,6 +176,8 @@
     <string name="background_color">背景色</string>
     <string name="text_color">文本颜色</string>
     <string name="primary_color">主体色</string>
+    <string name="accent_color_white">白色主题的强调色</string>
+    <string name="accent_color_black_and_white">黑 &amp; 白主题的强调色</string>
     <string name="foreground_color">前景色</string>
     <string name="app_icon_color">应用图标颜色</string>
     <string name="bottom_navigation_bar_color">导航栏颜色</string>
@@ -388,6 +390,8 @@
     <string name="your_sounds">你的铃声</string>
     <string name="add_new_sound">添加新的铃声</string>
     <string name="no_sound">无铃声</string>
+    <string name="during_day_at_hh_mm">一天中的 hh:mm</string>
+    <string name="during_day_at">一天中的 %02d:%02d</string>
     <string name="settings">设置</string>
     <string name="purchase_simple_thank_you">购买 Simple Thank You</string>
     <string name="customize_colors">自定义颜色</string>
@@ -437,7 +441,7 @@
     <string name="migrating">迁移中</string>
     <string name="default_tab_to_open">应用程序启动时打开的标签页</string>
     <string name="contacts_tab">联系人</string>
-    <string name="favorites_tab">收藏</string>
+    <string name="favorites_tab">收藏夹</string>
     <string name="call_history_tab">通话记录</string>
     <string name="groups_tab">社交群组</string>
     <string name="last_used_tab">上次使用</string>
@@ -600,6 +604,7 @@
     <string name="why_upgrade_no_ads">无广告</string>
     <string name="why_upgrade_no_internet_access">无网络连接</string>
     <string name="why_upgrade_footer">+100%退款保证</string>
+    <string name="why_upgrade_improved_design">改进了设计</string>
     <string name="why_upgrade_advanced_photo_editor">高级照片编辑器</string>
     <string name="why_upgrade_heic_support">HEIC/HEIF 文件支持</string>
     <string name="why_upgrade_batch_renaming">高级重命名批量文件</string>
@@ -612,6 +617,7 @@
     <string name="why_upgrade_duplicate_contact_merging">改进重复联系人合并功能</string>
     <string name="why_upgrade_font_size_customization">自定义字体大小</string>
     <string name="why_upgrade_private_contact_sharing">可选的应用内私人联系人分享</string>
+    <string name="why_upgrade_customizable_contact_ringtones">可自定义联系人铃声</string>
     <string name="why_upgrade_checklists">清单</string>
     <string name="why_upgrade_different_note_per_widget">每个控件有不同的标记和颜色</string>
     <string name="why_upgrade_date_and_time_format">自定义日期和时间格式</string>
