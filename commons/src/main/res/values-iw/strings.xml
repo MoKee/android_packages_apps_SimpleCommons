@@ -35,6 +35,7 @@
     <string name="save">שמור</string>
     <string name="light_theme">בהיר</string>
     <string name="dark_theme">חשכה</string>
+    <string name="white">לבן</string>
     <string name="custom">מותאם אישית</string>
     <string name="delete">מחק</string>
     <string name="remove">הסר</string>
@@ -68,6 +69,7 @@
     <string name="visibility">נראות</string>
     <string name="text">טקסט</string>
     <string name="favorites_tab">מועדפים</string>
+    <string name="groups_tab">קבוצות</string>
     <string name="usb">USB</string>
     <string name="january">ינואר</string>
     <string name="february">פברואר</string>
