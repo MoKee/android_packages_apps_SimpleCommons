@@ -274,6 +274,8 @@
     <string name="call_from_sim_1">Call from SIM 1</string>
     <string name="call_from_sim_2">Call from SIM 2</string>
     <string name="toggle_filename">Toggle filename visibility</string>
+    <string name="move_to_top">Move to the top</string>
+    <string name="move_to_bottom">Move to the bottom</string>
 
     <!-- Sorting -->
     <string name="sort_by">Sort by</string>
@@ -669,6 +671,11 @@
     <string name="rate_us_prompt">Hello,\n\nit looks like you are using this app for quite a while already, and we really appreciate it.\n\nIf we can ask you a favor, please rate us on Google Play. That would really help us a lot.\n\nNo matter how you decide, you will not see this message again.\n\nThanks!</string>
     <string name="rate_our_app">Rate our app please :)</string>
     <string name="thank_you">Thank you</string>
+    <string name="widget_locked">
+        <![CDATA[
+            The widget is locked.<br>Please purchase <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> to unlock it.
+        ]]>
+    </string>
 
     <string name="app_launcher_short">App Launcher</string>
     <string name="calculator_short">Calculator</string>

@@ -26,7 +26,7 @@ import kotlinx.android.synthetic.main.dialog_purchase_thank_you.view.*
 //            .setPositiveButton(R.string.purchase) { dialog, which -> activity.launchPurchaseThankYouIntent() }
 //            .setNegativeButton(R.string.cancel, null)
 //            .create().apply {
-//                activity.setupDialogStuff(view, this)
+//                activity.setupDialogStuff(view, this, cancelOnTouchOutside = false)
 //            }
 //    }
 //}

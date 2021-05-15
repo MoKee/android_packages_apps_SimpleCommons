@@ -193,7 +193,6 @@ fun Activity.sharePathIntent(path: String, applicationId: String) {
         Intent().apply {
             action = Intent.ACTION_SEND
             putExtra(EXTRA_STREAM, newUri)
-            clipData = ClipData.newRawUri(null, newUri)
             type = getUriMimeType(path, newUri)
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
 
@@ -890,7 +889,7 @@ fun Activity.updateSharedTheme(sharedTheme: SharedTheme) {
     }
 }
 
-fun Activity.setupDialogStuff(view: View, dialog: AlertDialog, titleId: Int = 0, titleText: String = "", callback: (() -> Unit)? = null) {
+fun Activity.setupDialogStuff(view: View, dialog: AlertDialog, titleId: Int = 0, titleText: String = "", cancelOnTouchOutside: Boolean = true, callback: (() -> Unit)? = null) {
     if (isDestroyed || isFinishing) {
         return
     }
@@ -919,7 +918,7 @@ fun Activity.setupDialogStuff(view: View, dialog: AlertDialog, titleId: Int = 0,
         setView(view)
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         setCustomTitle(title)
-        setCanceledOnTouchOutside(true)
+        setCanceledOnTouchOutside(cancelOnTouchOutside)
         show()
         getButton(AlertDialog.BUTTON_POSITIVE).setTextColor(adjustedPrimaryColor)
         getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(adjustedPrimaryColor)
