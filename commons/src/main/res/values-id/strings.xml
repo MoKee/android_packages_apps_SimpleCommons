@@ -348,6 +348,9 @@
     <string name="minutes_raw">menit</string>
     <string name="hours_raw">jam</string>
     <string name="days_raw">hari</string>
+    <string name="seconds_letter">s</string>
+    <string name="minutes_letter">m</string>
+    <string name="hours_letter">h</string>
 
     <plurals name="seconds">
         <item quantity="other">%d detik</item>
@@ -511,13 +514,16 @@
     <string name="text">Teks</string>
     <string name="migrating">Memindahkan</string>
 
-    <!-- Default tabs to open -->
+    <!-- Default tab to open -->
+    <string name="manage_shown_tabs">Kelola tab yang ditampilkan</string>
     <string name="default_tab_to_open">Tab to open at app start</string>
     <string name="contacts_tab">Contacts</string>
     <string name="favorites_tab">Favorites</string>
     <string name="call_history_tab">Call History</string>
     <string name="groups_tab">Groups</string>
     <string name="last_used_tab">Last used one</string>
+    <string name="files_tab">Files</string>
+    <string name="recent_files_tab">Recent files</string>
 
     <!-- Recycle Bin -->
     <string name="restore_this_file">Pulihkan berkas ini</string>
@@ -771,11 +777,13 @@
     <!-- Notes Pro -->
     <string name="why_upgrade_checklists">Daftar periksa</string>
     <string name="why_upgrade_different_note_per_widget">Catatan dan warna yang berbeda setiap widget</string>
+    <string name="why_upgrade_note_locking">Note locking</string>
 
     <!-- File Manager Pro -->
     <string name="why_upgrade_date_and_time_format">Kustomisasi format tanggal dan waktu</string>
     <string name="why_upgrade_shortcuts">Pintasan layar beranda</string>
     <string name="why_upgrade_file_compression">Mendukung kompresi file</string>
+    <string name="why_upgrade_recents_tab">Tab with recent files</string>
 
     <!-- Draw Pro -->
     <string name="why_upgrade_background_color_customization">Kustomisasi warna latar belakang</string>
