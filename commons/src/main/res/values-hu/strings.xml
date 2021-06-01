@@ -235,6 +235,8 @@
     <string name="call_from_sim_1">Hívás a SIM 1-ről</string>
     <string name="call_from_sim_2">Hívás a SIM 2-ről</string>
     <string name="toggle_filename">Fájlnév láthatóság módosítása</string>
+    <string name="move_to_top">Legfelülre helyezés</string>
+    <string name="move_to_bottom">Legalulra helyezés</string>
     <string name="sort_by">Rendezés</string>
     <string name="name">Név</string>
     <string name="size">Méret</string>
@@ -586,6 +588,8 @@
     <string name="rate_us_prompt">Helló,\n\núgy tűnik, hogy már régóta használja ezt az alkalmazást, ezt nagyra értékeljük.\n\nHa megtenne egy szívességet és értékelné munkánkat a Google Play áruházban, az tényleg sokat segítene nekünk.\n\nNem számít, milyen döntést hoz, ez az üzenet nem fog többé megjelenni.\n\nKöszönjük!</string>
     <string name="rate_our_app">Kérjük, értékelje alkalmazásunkat :)</string>
     <string name="thank_you">Köszönjük!</string>
+    <string name="widget_locked">            A kisalkalmazás nem ingyenes.&lt;br&gt;Használatához vásárolja meg a következőt: &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt;.
+        </string>
     <string name="app_launcher_short">Alkalmazásindító-fiók</string>
     <string name="calculator_short">Számológép</string>
     <string name="calendar_short">Naptár</string>

@@ -243,6 +243,8 @@
     <string name="call_from_sim_1">Volání ze SIM 1</string>
     <string name="call_from_sim_2">Volání ze SIM 2</string>
     <string name="toggle_filename">Přepnout viditelnost názvů souborů</string>
+    <string name="move_to_top">Přesunout na začátek</string>
+    <string name="move_to_bottom">Přesunout na konec</string>
     <string name="sort_by">Seřadit dle</string>
     <string name="name">Názvu</string>
     <string name="size">Velikosti</string>
@@ -654,6 +656,8 @@
     <string name="rate_us_prompt">Ahoj,\n\nzdá se, že tuto aplikaci už nějakou dobu používáte a opravdu si toho vážíme.\n\nPokud vás můžeme požádat o laskavost, napište nám recenzi na Google Play. To by nám hodně pomohlo.\n\nBez ohledu na to, jak se rozhodnete, tuto zprávu vícekrát neuvidíte.\n\nDíky!</string>
     <string name="rate_our_app">Ohodnoťte prosím naši aplikaci :)</string>
     <string name="thank_you">Děkujeme</string>
+    <string name="widget_locked">            Widget je uzamčen.&lt;br&gt;Pro odemčení zakupte aplikaci &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt;.
+        </string>
     <string name="app_launcher_short">Spouštěč aplikací</string>
     <string name="calculator_short">Kalkulačka</string>
     <string name="calendar_short">Kalendář</string>

@@ -235,6 +235,8 @@
     <string name="call_from_sim_1">SIM 1\'den ara</string>
     <string name="call_from_sim_2">SIM 2\'den ara</string>
     <string name="toggle_filename">Dosya adı görünürlüğünü değiştir</string>
+    <string name="move_to_top">En üste git</string>
+    <string name="move_to_bottom">En alta git</string>
     <string name="sort_by">Sıralama ölçütü</string>
     <string name="name">Ad</string>
     <string name="size">Boyut</string>
@@ -586,6 +588,8 @@
     <string name="rate_us_prompt">Merhaba,\n\nbu uygulamayı uzun süredir kullanıyorsunuz gibi görünüyor ve gerçekten takdir ediyoruz.\n\nSizden bir iyilik isteyebilirsek, lütfen bizi Google Play\'de derecelendirin. Bu bize gerçekten çok yardımcı olacaktır.\n\nNasıl derecelendirdiğiniz önemli değil, bu mesajı bir daha görmeyeceksiniz.\n\nTeşekkürler!</string>
     <string name="rate_our_app">Lütfen uygulamamızı değerlendirin :)</string>
     <string name="thank_you">Teşekkürler</string>
+    <string name="widget_locked">            Widget kilitlendi.&lt;br&gt;Lütfen satın alın &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Basit Teşekkür Ederim&lt;/a&gt; kilidini açmak için.
+        </string>
     <string name="app_launcher_short">Uygulama başlatıcısı</string>
     <string name="calculator_short">Hesap makinesi</string>
     <string name="calendar_short">Takvim</string>
