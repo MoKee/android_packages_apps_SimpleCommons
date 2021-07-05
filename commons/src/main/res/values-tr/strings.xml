@@ -299,6 +299,9 @@
     <string name="minutes_raw">dakika</string>
     <string name="hours_raw">saat</string>
     <string name="days_raw">gün</string>
+    <string name="seconds_letter">sn</string>
+    <string name="minutes_letter">d</string>
+    <string name="hours_letter">s</string>
     <plurals name="seconds">
         <item quantity="one">%d saniye</item>
         <item quantity="other">%d saniye</item>
@@ -474,12 +477,15 @@
     <string name="startup">Başlangıç</string>
     <string name="text">Metin</string>
     <string name="migrating">Geçiş yapma</string>
+    <string name="manage_shown_tabs">Gösterilen sekmeleri yönet</string>
     <string name="default_tab_to_open">Uygulama başlangıcında sekme açmak için</string>
     <string name="contacts_tab">Rehber</string>
     <string name="favorites_tab">Favoriler</string>
     <string name="call_history_tab">Çağrı geçmişi</string>
     <string name="groups_tab">Gruplar</string>
     <string name="last_used_tab">Son kullanılan</string>
+    <string name="files_tab">Dosyalar</string>
+    <string name="recent_files_tab">Son kullanılan dosyalar</string>
     <string name="restore_this_file">Bu dosyayı geri yükle</string>
     <string name="restore_selected_files">Seçilen dosyaları geri yükle</string>
     <string name="restore_all_files">Tüm dosyaları geri yükle</string>
@@ -658,9 +664,11 @@
     <string name="why_upgrade_customizable_contact_ringtones">Özelleştirilebilir iletişim zil sesleri</string>
     <string name="why_upgrade_checklists">Kontrol listeleri</string>
     <string name="why_upgrade_different_note_per_widget">Widget başına farklı not ve renkler</string>
+    <string name="why_upgrade_note_locking">Not kilitleme</string>
     <string name="why_upgrade_date_and_time_format">Tarih ve saat biçimi özelleştirmeleri</string>
     <string name="why_upgrade_shortcuts">Ana ekran kısayolları</string>
     <string name="why_upgrade_file_compression">Dosya sıkıştırma desteği</string>
+    <string name="why_upgrade_recents_tab">Son dosyaların bulunduğu sekme</string>
     <string name="why_upgrade_background_color_customization">Arka plan rengi özelleştirmeleri</string>
     <string name="why_upgrade_file_importing">Dosya içe aktarma desteği</string>
     <string name="notice">Bu uygulama hayatımı kolaylaştırmak için aşağıdaki üçüncü taraf kitaplıklarını kullanır. Teşekkürler.</string>

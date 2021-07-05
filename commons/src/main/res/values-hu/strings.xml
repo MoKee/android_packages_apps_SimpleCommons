@@ -299,6 +299,9 @@
     <string name="minutes_raw">perc</string>
     <string name="hours_raw">óra</string>
     <string name="days_raw">nap</string>
+    <string name="seconds_letter">mp</string>
+    <string name="minutes_letter">p</string>
+    <string name="hours_letter">ó</string>
     <plurals name="seconds">
         <item quantity="one">%d másodperc</item>
         <item quantity="other">%d másodperc</item>
@@ -474,12 +477,15 @@
     <string name="startup">Indítás</string>
     <string name="text">Szöveg</string>
     <string name="migrating">Költöztetés</string>
+    <string name="manage_shown_tabs">A látható fülek kezelése</string>
     <string name="default_tab_to_open">A fül megnyitása az alkalmazás indításakor</string>
     <string name="contacts_tab">Névjegyek</string>
     <string name="favorites_tab">Kedvencek</string>
     <string name="call_history_tab">Híváslista</string>
     <string name="groups_tab">Csoportok</string>
     <string name="last_used_tab">A legutóbb használt</string>
+    <string name="files_tab">Fájlok</string>
+    <string name="recent_files_tab">Legutóbbi fájlok</string>
     <string name="restore_this_file">Fájl visszaállítása</string>
     <string name="restore_selected_files">Kiválasztott fájl visszaállítása</string>
     <string name="restore_all_files">Összes fájl visszaállítása</string>
@@ -659,9 +665,11 @@
     <string name="why_upgrade_customizable_contact_ringtones">Névjegyhez igazítható csengőhang</string>
     <string name="why_upgrade_checklists">Ellenőrzőlista</string>
     <string name="why_upgrade_different_note_per_widget">Külöbnböző jegyzetek és színek a kisalkalmazásokhoz</string>
+    <string name="why_upgrade_note_locking">Jegyzetzárás</string>
     <string name="why_upgrade_date_and_time_format">Testreszabható dátum- és időformátum</string>
     <string name="why_upgrade_shortcuts">Kezdőképernyő parancsikonok</string>
     <string name="why_upgrade_file_compression">Fájltömörítési támogatás</string>
+    <string name="why_upgrade_recents_tab">Fülek a legutóbbi fájlokkal</string>
     <string name="why_upgrade_background_color_customization">Testreszabható háttérszín</string>
     <string name="why_upgrade_file_importing">Fájlátviteli támogatás</string>
     <string name="notice">Ez az alkalmazás a következő harmadik fél könyvtárait használja az életem megkönnyítésére. Köszönöm.</string>

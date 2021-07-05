@@ -309,6 +309,9 @@
     <string name="minutes_raw">minuty</string>
     <string name="hours_raw">hodiny</string>
     <string name="days_raw">dny</string>
+    <string name="seconds_letter">s</string>
+    <string name="minutes_letter">m</string>
+    <string name="hours_letter">h</string>
     <plurals name="seconds">
         <item quantity="one">%d sekunda</item>
         <item quantity="few">%d sekundy</item>
@@ -540,12 +543,15 @@
     <string name="startup">Po spuštění</string>
     <string name="text">Text</string>
     <string name="migrating">Migrace</string>
+    <string name="manage_shown_tabs">Správa zobrazených karet</string>
     <string name="default_tab_to_open">Karta k otevření při spuštění aplikace</string>
     <string name="contacts_tab">Kontakty</string>
     <string name="favorites_tab">Oblíbené</string>
     <string name="call_history_tab">Historie volání</string>
     <string name="groups_tab">Skupiny</string>
     <string name="last_used_tab">Poslední použitá</string>
+    <string name="files_tab">Soubory</string>
+    <string name="recent_files_tab">Nedávné soubory</string>
     <string name="restore_this_file">Obnovit tento soubor</string>
     <string name="restore_selected_files">Obnovit vybrané soubory</string>
     <string name="restore_all_files">Obnovit všechny soubory</string>
@@ -727,9 +733,11 @@
     <string name="why_upgrade_customizable_contact_ringtones">Přizpůsobitelné vyzváněcí tóny kontaktů</string>
     <string name="why_upgrade_checklists">Seznamy</string>
     <string name="why_upgrade_different_note_per_widget">Různé poznámky a barvy na widgety</string>
+    <string name="why_upgrade_note_locking">Závěrečné poznámky</string>
     <string name="why_upgrade_date_and_time_format">Přizpůsobení formátů data a času</string>
     <string name="why_upgrade_shortcuts">Zkratky na domovské obrazovce</string>
     <string name="why_upgrade_file_compression">Podpora komprese souborů</string>
+    <string name="why_upgrade_recents_tab">Karta s nedávnými soubory</string>
     <string name="why_upgrade_background_color_customization">Přizpůsobení barev pozadí</string>
     <string name="why_upgrade_file_importing">Podpora importu souborů</string>
     <string name="notice">Tato aplikace využívá následující knihovny třetích stran. Děkuji.</string>

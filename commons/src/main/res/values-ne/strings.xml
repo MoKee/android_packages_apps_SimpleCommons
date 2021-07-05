@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="set_as">को रूपमा सेट गर्नुहोस्</string>
+    <string name="unknown">अज्ञात</string>
+    <string name="details">विवरणहरू</string>
+    <string name="none">कुनै पनि होइन</string>
+    <string name="select_photo">तस्बिर छान्नुहोस्</string>
+    <string name="search">खोज्नुहोस्</string>
+    <string name="path">बाटो</string>
+    <string name="duration">अवधि:</string>
+    <string name="exposure_time">एक्सपोजर समय</string>
+    <string name="camera">क्यामेरा</string>
+    <string name="save">बचत गर्नुहोस्</string>
+    <string name="custom">अनुकूलन</string>
+    <string name="delete">मेट्नुहोस्</string>
+    <string name="remove">हटाउनुहोस्</string>
+    <string name="share">साझेदारी गर्नुहोस्</string>
+    <string name="select_all">सबैलाई चयन गर्नुहोस्</string>
+    <string name="undo">अन्डु गर्नुहोस्</string>
+    <string name="redo">पुनःगर्नुहोस्</string>
+    <string name="size">आकार</string>
+    <string name="date_taken">मिति लिइयो</string>
+    <string name="title">शीर्षक</string>
+    <string name="yes">हो</string>
+    <string name="seconds_raw">सेकेन्ड</string>
+    <string name="minutes_raw">मिनेट</string>
+    <string name="hours_raw">घन्टा</string>
+    <string name="widgets">विजेटहरू</string>
+    <string name="camera_short">क्यामेरा</string>
+</resources>

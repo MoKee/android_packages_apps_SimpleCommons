@@ -12,7 +12,9 @@
     <string name="no_app_found">Não foi encontrada nenhuma aplicação válida</string>
     <string name="set_as">Definir como</string>
     <string name="copy_to_clipboard">Copiar para área de transferência</string>
+    <string name="copy_number_to_clipboard">Copiar o número para a área de transferência</string>
     <string name="value_copied_to_clipboard">Valor copiado para área de transferência</string>
+    <string name="dial_number">Marcar número</string>
     <string name="unknown">Desconhecido</string>
     <string name="always">Sempre</string>
     <string name="never">Nunca</string>
@@ -178,6 +180,8 @@
     <string name="background_color">Cor de fundo</string>
     <string name="text_color">Cor do texto</string>
     <string name="primary_color">Cor principal</string>
+    <string name="accent_color_white">Cor de destaque do tema Branco</string>
+    <string name="accent_color_black_and_white">Cor de destaque do tema Preto e Branco</string>
     <string name="foreground_color">Cor de primeiro plano</string>
     <string name="app_icon_color">Cor do ícone do aplicativo</string>
     <string name="bottom_navigation_bar_color">Cor da barra de navegação inferior</string>
@@ -213,6 +217,7 @@
     <string name="share">Partilhar</string>
     <string name="share_via">Partilhar através de</string>
     <string name="select_all">Selecionar tudo</string>
+    <string name="select_text">Selecionar texto</string>
     <string name="hide">Ocultar</string>
     <string name="unhide">Tornar visível</string>
     <string name="hide_folder">Pastas ocultas</string>
@@ -226,7 +231,12 @@
     <string name="print">Imprimir</string>
     <string name="create_shortcut">Criar atalho</string>
     <string name="add_number_to_contact">Adicionar número ao contacto</string>
+    <string name="view_contact_details">Ver detalhes do contacto</string>
+    <string name="call_from_sim_1">Ligar a partir do SIM 1</string>
+    <string name="call_from_sim_2">Ligar a partir do SIM 2</string>
     <string name="toggle_filename">Alternar visibilidade do ficheiro</string>
+    <string name="move_to_top">Mover para o topo</string>
+    <string name="move_to_bottom">Mover para o fundo</string>
     <string name="sort_by">Sort by:</string>
     <string name="name">Nome</string>
     <string name="size">Tamanho</string>
@@ -245,6 +255,8 @@
     <string name="middle_name">Nome do meio</string>
     <string name="surname">Apelido</string>
     <string name="full_name">Nome completo</string>
+    <string name="use_custom_sorting">Usar ordenação personalizada</string>
+    <string name="change_order">Alterar a ordem</string>
     <string name="proceed_with_deletion">Tem certeza de que deseja prosseguir com a exclusão?</string>
     <string name="deletion_confirmation">Tem a certeza que quer eliminar %s?</string>
     <string name="move_to_recycle_bin_confirmation">Confirma que pretende mover isto para a Reciclagem?</string>
@@ -287,6 +299,9 @@
     <string name="minutes_raw">minutos</string>
     <string name="hours_raw">horas</string>
     <string name="days_raw">dias</string>
+    <string name="seconds_letter">s</string>
+    <string name="minutes_letter">m</string>
+    <string name="hours_letter">h</string>
     <plurals name="seconds">
         <item quantity="one">%d segundo</item>
         <item quantity="other">%d segundos</item>
@@ -402,6 +417,7 @@
     <string name="alarm_goes_off_in">Tempo restante até o alarme disparar:\n%s</string>
     <string name="reminder_triggers_in">Tempo restante até o lembrete acionar:\n%s</string>
     <string name="alarm_warning">Certifique-se de que o alarme funciona corretamente antes de confiar nele. Ele pode se comportar mal devido a restrições do sistema relacionadas à economia de bateria.</string>
+    <string name="reminder_warning">Certifique-se de que os lembretes funcionam corretamente antes de confiar neles. Verifique a bateria e as definições de notificação do dispositivo e se não há nada a bloquear os lembretes ou a encerrar a aplicação em segundo plano.</string>
     <string name="notifications_disabled">As notificações desta aplicação estão desativadas. Por favor, ative-as nas definições do seu dispositivo.</string>
     <string name="alarm">Alarme</string>
     <string name="snooze">Suspender</string>
@@ -412,10 +428,14 @@
     <string name="your_sounds">Os seus sons</string>
     <string name="add_new_sound">Adicionar uma nova música</string>
     <string name="no_sound">Sem som</string>
+    <string name="during_day_at_hh_mm">Durante o dia às hh:mm</string>
+    <string name="during_day_at">Durante o dia às %02d:%02d</string>
     <string name="settings">Definições</string>
     <string name="purchase_simple_thank_you">Compra Simples Obrigado</string>
     <string name="customize_colors">Personalizar cores</string>
+    <string name="customize_colors_locked">Personalizar cores (Bloqueado)</string>
     <string name="customize_widget_colors">Personalizar widgets</string>
+    <string name="customize_notifications">Personalizar as notificações</string>
     <string name="use_english_language">Usar o idioma inglês</string>
     <string name="show_hidden_items">Mostrar itens ocultos</string>
     <string name="font_size">Tamanho da letra</string>
@@ -447,6 +467,7 @@
     <string name="settings_exported_successfully">Definições restauradas com sucesso</string>
     <string name="settings_imported_successfully">Definições restauradas com sucesso</string>
     <string name="start_name_with_surname">Apelido como nome inicial</string>
+    <string name="clear_cache">Limpar a cache</string>
     <string name="visibility">Visibilidade</string>
     <string name="security">Segurança</string>
     <string name="scrolling">A Deslocar</string>
@@ -456,12 +477,15 @@
     <string name="startup">Arranque</string>
     <string name="text">Texto</string>
     <string name="migrating">Migrando</string>
+    <string name="manage_shown_tabs">Gerir os separadores visíveis</string>
     <string name="default_tab_to_open">Abrir aba ao iniciar aplicação</string>
     <string name="contacts_tab">Contactos</string>
     <string name="favorites_tab">Favoritos</string>
     <string name="call_history_tab">Histórico de Chamadas</string>
     <string name="groups_tab">Grupos</string>
     <string name="last_used_tab">Usado pela última vez em</string>
+    <string name="files_tab">Ficheiros</string>
+    <string name="recent_files_tab">Ficheiros recentes</string>
     <string name="restore_this_file">Restaurar este ficheiro</string>
     <string name="restore_selected_files">Restaurar os ficheiros selecionados</string>
     <string name="restore_all_files">Restaurar todos os ficheiros</string>
@@ -570,6 +594,8 @@
     <string name="rate_us_prompt">Olá,\n\nparece que você está usando este app por um bom tempo, e nós realmente agradecemos por isso.\n\nSe pudermos lhe pedir um favor, por favor, avalie-nos no Google Play. Isso ajudar-nos-ia muito.\n\nNão importa como você decida, você não verá essa mensagem novamente.\n\nObrigado!</string>
     <string name="rate_our_app">Avalie a nossa aplicação, por favor :)</string>
     <string name="thank_you">Obrigado</string>
+    <string name="widget_locked">            O widget está bloqueado.&lt;br&gt;Por favor, compre a &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt; para o desbloquear.
+        </string>
     <string name="app_launcher_short">Launcher de aplicações</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendário</string>
@@ -610,12 +636,21 @@ Uma vez iniciada, basta repor o ícone predefinido laranja #F57C00. Poderá ter 
     <string name="faq_8_text_commons">Como a versão do seu aplicativo não é mais atualizada, os erros que você encontrou nunca serão corrigidos. Também não haverá novas funções adicionadas. Você pode comprar a versão Pro no Google Play para uma pequena soma de dinheiro.
         É uma única vez, o que significa que, uma vez comprada, nunca mais teremos de pagar mais. Nem mesmo depois de obter um novo dispositivo. Se você não vai gostar da versão Pro, é possível desinstalá-la dentro de algumas horas e automaticamente vai receber seu dinheiro.
         Se você quiser um reembolso a qualquer momento depois, basta nos contatar em hello@simplemobiletools. tome e você o conseguirá.</string>
+    <string name="faq_9_title_commons">Como posso selecionar múltiplos itens de uma vez?</string>
+    <string name="faq_9_text_commons">Há muitas formas de o fazer:
+· A primeira é iniciar o modo de seleção pressionando longamente num dos itens e depois ir tocando nos outros.
+· A segunda é semelhante à seleção com um rato de computador, ou seja, inicie o modo de seleção pressionando longamente num dos itens e, sem levantar o dedo, arraste o dedo pelos outros itens que deseja selecionar.
+· A terceira forma é pressionando longamente num dos itens e depois voltar a pressionar longamente noutro item para que todos os itens entre eles sejam selecionados.
+· Se quiser selecionar todos os itens, pressione longamente num dos itens e clique no contador de itens selecionados, no canto superior esquerdo. Isso irá selecionar ou desselecionar todos os itens.</string>
+    <string name="faq_10_title_commons">Eu comprei a aplicação mas não consigo transferi-la noutro dispositivo.</string>
+    <string name="faq_10_text_commons">Tente limpar a cache da aplicação Google Play Store e reinicie o dispositivo. É um erro da Google Play Store, não relacionado com a aplicação em si.</string>
     <string name="why_upgrade">Obtenha a versão Pro agora!</string>
     <string name="why_upgrade_basic_version">Básico</string>
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">Sem anúncios</string>
     <string name="why_upgrade_no_internet_access">Sem acesso à internet</string>
     <string name="why_upgrade_footer">+ 100% Garantia de Reembolso</string>
+    <string name="why_upgrade_improved_design">Design aprimorado</string>
     <string name="why_upgrade_advanced_photo_editor">Editor avançado de fotos</string>
     <string name="why_upgrade_heic_support">Suporte a ficheiros HEIC/HEIF</string>
     <string name="why_upgrade_batch_renaming">Renomeação avançada de ficheiros em lote</string>
@@ -628,11 +663,14 @@ Uma vez iniciada, basta repor o ícone predefinido laranja #F57C00. Poderá ter 
     <string name="why_upgrade_duplicate_contact_merging">Combinação de contactos duplicados melhorada</string>
     <string name="why_upgrade_font_size_customization">Personalização do tamanho da fonte</string>
     <string name="why_upgrade_private_contact_sharing">Partilha opcional de contacto privado por entre as nossas aplicações</string>
+    <string name="why_upgrade_customizable_contact_ringtones">Toques personalizados por contacto</string>
     <string name="why_upgrade_checklists">Listas de verificação</string>
     <string name="why_upgrade_different_note_per_widget">Notas e cores diferentes por widget</string>
+    <string name="why_upgrade_note_locking">Bloqueio de notas</string>
     <string name="why_upgrade_date_and_time_format">Personalização do formato de data e hora</string>
     <string name="why_upgrade_shortcuts">Atalhos do ecrã inicial</string>
     <string name="why_upgrade_file_compression">Suporte a compressão de ficheiros</string>
+    <string name="why_upgrade_recents_tab">Separador com arquivos recentes</string>
     <string name="why_upgrade_background_color_customization">Personalização da cor de fundo</string>
     <string name="why_upgrade_file_importing">Suporte à importação de ficheiros</string>
     <string name="notice">Esta aplicação utiliza as seguintes bibliotecas de terceiros para facilitar a minha vida. Obrigado.</string>
@@ -665,6 +703,7 @@ Uma vez iniciada, basta repor o ícone predefinido laranja #F57C00. Poderá ter 
     <string name="event_bus_title">Event Bus (comunicação dentro da aplicação)</string>
     <string name="audio_record_view_title">Visualização da gravação de áudio (visualização de áudio)</string>
     <string name="sms_mms_title">SMS SMS (tratamento de SMS e MMS)</string>
+    <string name="apng_title">APNG Android (suporte a WebP animados)</string>
     <string name="deprecated_app">OBSOLETO: Esta versão do aplicativo não é mais mantida, obtenha a versão Pro em https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Não se esqueça de que, se você desinstalar qualquer aplicativo pago em até 2 horas, você será automaticamente reembolsado. Se você quiser reembolsar a qualquer momento mais tarde, entre em contato conosco através do e-mail hello@simplemobiletools. om e você vai conseguir. Isso faz com que seja fácil experimentá-lo :)</string>
     <string name="developer_description">Um grupo de aplicações Android simples e de código aberto com widgets personalizáveis, sem anúncios ou permissões desnecessárias. </string>

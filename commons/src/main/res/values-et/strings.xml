@@ -299,6 +299,9 @@
     <string name="minutes_raw">minutit</string>
     <string name="hours_raw">tundi</string>
     <string name="days_raw">päeva</string>
+    <string name="seconds_letter">sek</string>
+    <string name="minutes_letter">m</string>
+    <string name="hours_letter">h</string>
     <plurals name="seconds">
         <item quantity="one">%d sekund</item>
         <item quantity="other">%d sekundit</item>
@@ -474,12 +477,15 @@
     <string name="startup">Käivitamine</string>
     <string name="text">Tekst</string>
     <string name="migrating">Rändamine</string>
+    <string name="manage_shown_tabs">Kuvatud vahelehtede haldamine</string>
     <string name="default_tab_to_open">Vahekaart avatakse rakenduse käivitamisel</string>
     <string name="contacts_tab">Kontaktid</string>
     <string name="favorites_tab">Lemmikud</string>
     <string name="call_history_tab">Kõnede ajalugu</string>
     <string name="groups_tab">Grupid</string>
     <string name="last_used_tab">Viimati kasutatud</string>
+    <string name="files_tab">Failid</string>
+    <string name="recent_files_tab">Hiljutised failid</string>
     <string name="restore_this_file">Taasta see fail</string>
     <string name="restore_selected_files">Taasta valitud failid</string>
     <string name="restore_all_files">Taasta kõik failid</string>
@@ -659,9 +665,11 @@
     <string name="why_upgrade_customizable_contact_ringtones">Kohandatavad kontakthelinad</string>
     <string name="why_upgrade_checklists">Kontrollnimekirjad</string>
     <string name="why_upgrade_different_note_per_widget">Erinevad märkused ja värvid vidina kohta</string>
+    <string name="why_upgrade_note_locking">Märkuse lukustamine</string>
     <string name="why_upgrade_date_and_time_format">Kuupäeva ja kellaaja vormingu kohandamine</string>
     <string name="why_upgrade_shortcuts">Avakuva viited</string>
     <string name="why_upgrade_file_compression">Failide tihendamise tugi</string>
+    <string name="why_upgrade_recents_tab">Vahekaart viimaste failidega</string>
     <string name="why_upgrade_background_color_customization">Taustavärvi kohandamine</string>
     <string name="why_upgrade_file_importing">Failide importimise tugi</string>
     <string name="notice">See rakendus kasutab järgmisi kolmanda osapoole teeke, et teha oma elu lihtsamaks. Aitäh.</string>
