@@ -887,7 +887,7 @@ val Context.shortcutManager: ShortcutManager get() = getSystemService(ShortcutMa
 
 val Context.portrait get() = resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT
 val Context.navigationBarRight: Boolean get() = usableScreenSize.x < realScreenSize.x && usableScreenSize.x > usableScreenSize.y
-val Context.navigationBarBottom: Boolean get() = usableScreenSize.y < realScreenSize.y && usableScreenSize.y > usableScreenSize.x
+val Context.navigationBarBottom: Boolean get() = usableScreenSize.y < realScreenSize.y
 val Context.navigationBarHeight: Int get() = if (navigationBarBottom && navigationBarSize.y != usableScreenSize.y) navigationBarSize.y else 0
 val Context.navigationBarWidth: Int get() = if (navigationBarRight) navigationBarSize.x else 0
 
