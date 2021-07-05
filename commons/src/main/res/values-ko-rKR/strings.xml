@@ -1,6 +1,7 @@
 <resources>
     <string name="ok">확인</string>
     <string name="cancel">취소</string>
+    <string name="later">나중</string>
     <string name="save_as">다른 이름으로 저장</string>
     <string name="file_saved">파일저장 성공</string>
     <string name="invalid_file_format">잘못된 파일 형식</string>
@@ -773,6 +774,7 @@
     <string name="why_upgrade_font_size_customization">글꼴 크기 설정 가능 </string>
     <string name="why_upgrade_private_contact_sharing">사용자 선택 시, 비공개로 연락처 공유할 수 있음</string>
     <string name="why_upgrade_customizable_contact_ringtones">Customizable contact ringtones</string>
+    <string name="why_upgrade_contact_filtering">Contact filtering</string>
 
     <!-- Notes Pro -->
     <string name="why_upgrade_checklists">체크리스트</string>
@@ -788,6 +790,7 @@
     <!-- Draw Pro -->
     <string name="why_upgrade_background_color_customization">바탕화면 설정 가능</string>
     <string name="why_upgrade_file_importing">파일 가져오기 지원</string>
+    <string name="why_upgrade_zooming">Zooming</string>
 
     <!-- License -->
     <string name="notice">이 앱은 삶을 간편하게 만들어주는 다음의 서드파티 라이브버리를 사용합니다. 감사합니다.</string>

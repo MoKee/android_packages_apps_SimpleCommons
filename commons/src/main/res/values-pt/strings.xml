@@ -1,6 +1,7 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Cancelar</string>
+    <string name="later">Mais tarde</string>
     <string name="save_as">Guardar como</string>
     <string name="file_saved">Ficheiro guardado com sucesso</string>
     <string name="invalid_file_format">Formato de ficheiro inválido</string>
@@ -555,7 +556,7 @@
     <string name="groups_tab">Grupos</string>
     <string name="last_used_tab">Último utilizado</string>
     <string name="files_tab">Files</string>
-    <string name="recent_files_tab">Recent files</string>
+    <string name="recent_files_tab">Arquivos recentes</string>
 
     <!-- Recycle Bin -->
     <string name="restore_this_file">Restaurar este ficheiro</string>
@@ -689,7 +690,7 @@
     <string name="rate_us_prompt">Olá,\n\nparece que está a utilizar esta aplicação há algum tempo, o que nos deixa satisfeitos.\n\nGostaríamos de lhe pedir o favor de nos avaliar na Google Play. Isso iria ajudar-nos bastante.\n\nIndependentemente da sua escolha, esta mensagem não será mostrada novamente.\n\nObrigado!</string>
     <string name="rate_our_app">Avalie a nossa aplicação :)</string>
     <string name="thank_you">Obrigado</string>
-    <string name="widget_locked_pro">The widget is locked.\nPlease upgrade to the Pro version to unlock it.</string>
+    <string name="widget_locked_pro">O widget está bloqueado.\nAtualize para a versão Pro para desbloqueá-lo.</string>
     <string name="widget_locked">
         <![CDATA[
             The widget is locked.<br>Please purchase <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> to unlock it.
@@ -805,6 +806,7 @@
     <string name="why_upgrade_font_size_customization">Personalização do tipo de letra</string>
     <string name="why_upgrade_private_contact_sharing">Partilha opcional de contactos entre as aplicações Simple</string>
     <string name="why_upgrade_customizable_contact_ringtones">Possibilidade de personalizar toques por contacto</string>
+    <string name="why_upgrade_contact_filtering">Filtragem de contatos</string>
 
     <!-- Notes Pro -->
     <string name="why_upgrade_checklists">Listas</string>
@@ -815,11 +817,12 @@
     <string name="why_upgrade_date_and_time_format">Personalização do formato de data e de hora</string>
     <string name="why_upgrade_shortcuts">Atalhos no ecrã principal</string>
     <string name="why_upgrade_file_compression">Suporte para compressão de arquivos</string>
-    <string name="why_upgrade_recents_tab">Tab with recent files</string>
+    <string name="why_upgrade_recents_tab">Guia com arquivos recentes</string>
 
     <!-- Draw Pro -->
     <string name="why_upgrade_background_color_customization">Personalização da cor de fundo</string>
     <string name="why_upgrade_file_importing">Suporte a importação de ficheiros</string>
+    <string name="why_upgrade_zooming">Ampliando</string>
 
     <!-- License -->
     <string name="notice">Esta aplicação usa as seguintes bibliotecas de terceiros para facilitar a minha vida. Obrigado.</string>
