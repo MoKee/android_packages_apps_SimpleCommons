@@ -230,8 +230,7 @@ class SimpleContactsHelper(val context: Context) {
                     return cursor.getStringValue(PhoneLookup.DISPLAY_NAME)
                 }
             }
-        } catch (e: Exception) {
-            context.showErrorToast(e)
+        } catch (ignored: Exception) {
         }
 
         return number
@@ -254,8 +253,7 @@ class SimpleContactsHelper(val context: Context) {
                     return cursor.getStringValue(PhoneLookup.PHOTO_URI) ?: ""
                 }
             }
-        } catch (e: Exception) {
-            context.showErrorToast(e)
+        } catch (ignored: Exception) {
         }
 
         return ""
