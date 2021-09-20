@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">အိုကေ</string>
     <string name="cancel">မလုပ်တော့</string>
+    <string name="nothing">Nothing</string>
     <string name="unknown">မသိ</string>
     <string name="never">ဘယ်တော့မှ</string>
     <string name="none">တစ်ခုမှမဟုတ်ပါ</string>

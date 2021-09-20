@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">確定</string>
     <string name="cancel">取消</string>
+    <string name="nothing">無</string>
     <string name="save_as">儲存</string>
     <string name="file_saved">成功儲存檔案</string>
     <string name="invalid_file_format">無效的檔案格式</string>
@@ -151,7 +152,6 @@
     <string name="internal">內部儲存空間</string>
     <string name="sd_card">SD卡</string>
     <string name="root">根目錄</string>
-    <string name="wrong_root_selected">選擇了錯誤的資料夾，請選擇SD卡的根目錄</string>
     <string name="sd_card_usb_same">SD 卡和 USB 裝置的路徑不能相同</string>
     <string name="app_on_sd_card">你似乎將應用程式安裝在SD卡，那會造成應用程式小工具無法使用。你甚至不會在可用的小工具列表中見到它們。
         那是個系統限制，所以如果你想要使用小工具，你必須把應用程式移動回內部儲存空間。</string>
@@ -209,6 +209,7 @@
     <string name="share">分享</string>
     <string name="share_via">分享方式</string>
     <string name="select_all">全選</string>
+    <string name="select_text">選擇文字</string>
     <string name="hide">隱藏</string>
     <string name="unhide">取消隱藏</string>
     <string name="hide_folder">隱藏資料夾</string>
@@ -222,7 +223,10 @@
     <string name="print">列印</string>
     <string name="create_shortcut">建立捷徑</string>
     <string name="add_number_to_contact">新增號碼到聯絡人</string>
+    <string name="view_contact_details">檢視聯絡人詳細資料</string>
     <string name="toggle_filename">顯示檔案名稱</string>
+    <string name="move_to_top">移動到頂端</string>
+    <string name="move_to_bottom">移動到底部</string>
     <string name="sort_by">排序</string>
     <string name="name">名稱</string>
     <string name="size">大小</string>
@@ -247,6 +251,7 @@
     <string name="are_you_sure_delete">你確定要刪除這個項目嗎?</string>
     <string name="are_you_sure_recycle_bin">你確定要把這個項目移到回收桶嗎?</string>
     <string name="do_not_ask_again">這情況不再詢問</string>
+    <string name="do_not_show_again">不再顯示</string>
     <string name="yes">是</string>
     <string name="no">否</string>
     <string name="maybe">不確定</string>
@@ -379,10 +384,13 @@
     <string name="your_sounds">你的音效</string>
     <string name="add_new_sound">添加新的音效</string>
     <string name="no_sound">無音效</string>
+    <string name="during_day_at_hh_mm">一天中的 hh:mm</string>
+    <string name="during_day_at">一天中的 %02d:%02d</string>
     <string name="settings">設定</string>
     <string name="purchase_simple_thank_you">購買Simple Thank You</string>
     <string name="customize_colors">自訂顏色</string>
     <string name="customize_widget_colors">自訂小工具顏色</string>
+    <string name="customize_notifications">自定義通知</string>
     <string name="use_english_language">強制使用英語</string>
     <string name="show_hidden_items">顯示隱藏的項目</string>
     <string name="font_size">字體大小</string>
@@ -456,7 +464,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">似乎有 USB 裝置接上了您的裝置。為確保檔案正確顯示，必須授予額外的權限。</string>
     <string name="confirm_usb_storage_access_text">請在下個畫面選擇 USB 裝置的上層目錄，以授予存取權限</string>
-    <string name="wrong_root_selected_usb">選擇到錯誤資料夾，請選擇你 USB 裝置的根目錄</string>
     <string name="january">一月</string>
     <string name="february">二月</string>
     <string name="march">三月</string>

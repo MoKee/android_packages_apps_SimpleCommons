@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Avbryt</string>
+    <string name="nothing">Ingenting</string>
     <string name="save_as">Spara som</string>
     <string name="file_saved">Filen har sparats</string>
     <string name="invalid_file_format">Ogiltigt filformat</string>
@@ -125,7 +126,6 @@
     <string name="internal">Internt</string>
     <string name="sd_card">SD-kort</string>
     <string name="root">Rot</string>
-    <string name="wrong_root_selected">Du har valt fel mapp, välj rotmappen på ditt SD-kort</string>
     <string name="sd_card_usb_same">SD-kortets och USB-enhetens sökvägar kan inte vara samma</string>
     <string name="properties">Egenskaper</string>
     <string name="path">Sökväg</string>
@@ -203,6 +203,7 @@
     <string name="are_you_sure_delete">Är du säker på att du vill ta bort det här objektet?</string>
     <string name="are_you_sure_recycle_bin">Är du säker på att du vill flytta det här objektet till Papperskorgen?</string>
     <string name="do_not_ask_again">Fråga inte igen i denna session</string>
+    <string name="do_not_show_again">Visa inte igen</string>
     <string name="yes">Ja</string>
     <string name="no">Nej</string>
     <plurals name="delete_warning">
@@ -403,7 +404,6 @@
     <string name="exporting_some_entries_failed">Exporten av vissa poster misslyckades</string>
     <string name="no_entries_for_exporting">Inga poster hittades för export</string>
     <string name="usb">USB</string>
-    <string name="wrong_root_selected_usb">Du har valt fel mapp, välj rotmappen på din USB-enhet</string>
     <string name="january">Januari</string>
     <string name="february">Februari</string>
     <string name="march">Mars</string>

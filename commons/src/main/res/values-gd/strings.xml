@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="nothing">Na dèan dad</string>
     <string name="unknown">Chan eil fhios</string>
     <string name="details">Mion-fhiosrachadh</string>
     <string name="none">Chan eil gin</string>
@@ -12,6 +13,7 @@
     <string name="save">Sàbhail</string>
     <string name="custom">Gnàthaichte</string>
     <string name="rename">Thoir ainm ùr air</string>
+    <string name="do_not_show_again">Na seall seo a-rithist</string>
     <string name="snooze">Dèan dùsal</string>
     <string name="dismiss">Leig seachad</string>
     <string name="usb">USB</string>

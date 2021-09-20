@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">ACEPTAR</string>
     <string name="cancel">Cancelar</string>
+    <string name="nothing">Nada</string>
     <string name="save_as">Guardar como</string>
     <string name="file_saved">Archivo guardado con éxito</string>
     <string name="invalid_file_format">Formato de archivo no válido</string>
@@ -110,7 +111,6 @@
     <string name="internal">Almacenamiento interno</string>
     <string name="sd_card">Tarjeta SD</string>
     <string name="root">Raíz /</string>
-    <string name="wrong_root_selected">Se seleccionó la carpeta incorrecta, seleccione la carpeta raíz de su tarjeta SD</string>
     <string name="sd_card_usb_same">La targeta SD i el dispositivo USB no pueden ser los mismos</string>
     <string name="properties">Propiedades</string>
     <string name="path">Ubicación</string>
@@ -178,6 +178,7 @@
     <string name="use_for_this_folder">Sólo para esta carpeta</string>
     <string name="proceed_with_deletion">¿Está seguro de querer continuar con la eliminación?</string>
     <string name="do_not_ask_again">Non preguntar de novo en esta sesión</string>
+    <string name="do_not_show_again">Non amosar máis</string>
     <string name="yes">Sí</string>
     <string name="no">Non</string>
     <string name="enter_pin">Introduzca PIN</string>
@@ -333,7 +334,6 @@
     <string name="exporting_some_entries_failed">La exportación de algunas entradas ha fallado</string>
     <string name="no_entries_for_exporting">No se han encontrado entradas para exportar</string>
     <string name="usb">USB</string>
-    <string name="wrong_root_selected_usb">Carpeta incorrecta, seleccione la carpeta raíz de su dispositivo USB</string>
     <string name="january">Xaneiro</string>
     <string name="february">Febreiro</string>
     <string name="march">Marzo</string>

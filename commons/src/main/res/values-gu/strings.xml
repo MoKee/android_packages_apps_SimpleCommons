@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="nothing">Nothing</string>
     <string name="set_as">તરીકે સેટ કરો</string>
     <string name="unknown">અજાણ્યો</string>
     <string name="details">વિગતો</string>

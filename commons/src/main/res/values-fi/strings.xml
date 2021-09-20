@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Peruuta</string>
+    <string name="nothing">Ei mitään</string>
     <string name="save_as">Tallenna nimellä</string>
     <string name="file_saved">Tallennettu</string>
     <string name="invalid_file_format">Virheellinen tiedostomuoto</string>
@@ -108,7 +109,6 @@
     <string name="select_storage">Valitse tallennustila</string>
     <string name="internal">Sisäinen</string>
     <string name="sd_card">Muistikortti</string>
-    <string name="wrong_root_selected">Väärä kansio valittu, valitse muistikortin root-kansio</string>
     <string name="sd_card_usb_same">Muistikortin ja USB-laitteen polut eivät voi olla samat</string>
     <string name="properties">Ominaisuudet</string>
     <string name="path">Polku</string>
@@ -178,6 +178,7 @@
     <string name="use_for_this_folder">Käytä vain tässä kansiossa</string>
     <string name="proceed_with_deletion">Haluatko varmasti poistaa pysyvästi?</string>
     <string name="do_not_ask_again">Älä kysy uudestaan tällä istunnolla</string>
+    <string name="do_not_show_again">Älä näytä uudelleen</string>
     <string name="yes">Poista</string>
     <string name="no">Peruuta</string>
     <string name="enter_pin">Syötä PIN</string>
@@ -347,7 +348,6 @@
     <string name="exporting_some_entries_failed">Joidenkin kohteiden vienti epäonnistui</string>
     <string name="no_entries_for_exporting">Vientikohteita ei löydetty</string>
     <string name="usb">USB</string>
-    <string name="wrong_root_selected_usb">Väärä kansio valittu, valitse USB-laitteen root-kansio</string>
     <string name="january">Tammikuu</string>
     <string name="february">Helmikuu</string>
     <string name="march">Maaliskuu</string>

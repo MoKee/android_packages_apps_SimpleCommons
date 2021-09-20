@@ -2,6 +2,8 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Tühista</string>
+    <string name="nothing">Mitte midagi</string>
+    <string name="later">Hiljem</string>
     <string name="save_as">Salvesta kui</string>
     <string name="file_saved">Faip edukalt salvestatud</string>
     <string name="invalid_file_format">Sobimatu failivorming</string>
@@ -155,7 +157,6 @@
     <string name="internal">Sisemine</string>
     <string name="sd_card">SD kaart</string>
     <string name="root">Pealeht</string>
-    <string name="wrong_root_selected">Valitud on vale kaust, valige oma SD-kaardi juurkataloog</string>
     <string name="sd_card_usb_same">SD-kaardi ja USB-seadme teed ei saa olla samad</string>
     <string name="app_on_sd_card">Tundub, et teil on rakendus installitud SD-kaardile, mis muudab rakenduse vidinad kättesaamatuks. Te ei näe neid isegi olemasolevate vidinate loendis.
         See on süsteemi piirang, nii et kui soovite vidinaid kasutada, peate rakenduse sisemällu liigutama.</string>
@@ -263,6 +264,7 @@
     <string name="are_you_sure_delete">Soovid tõesti selle kirje kustutada?</string>
     <string name="are_you_sure_recycle_bin">Kas olete kindel, et soovite selle elemendi prügikasti teisaldada?</string>
     <string name="do_not_ask_again">Ära küsi selles seansis uuesti</string>
+    <string name="do_not_show_again">Ära rohkem näita</string>
     <string name="yes">Jah</string>
     <string name="no">Ei</string>
     <string name="maybe">Võib olla</string>
@@ -513,7 +515,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Tundub, et teie seadmega on ühendatud USB-seade. Et veenduda, et selle failid ilmuvad õigesti, peate andma täiendavaid õigusi.</string>
     <string name="confirm_usb_storage_access_text">Salvestamisõiguse andmiseks valige järgmisel ekraanil USB-seadme juurkataloog</string>
-    <string name="wrong_root_selected_usb">Valitud vale kaust, valige USB-seadme juurkataloog</string>
     <string name="january">Jaanuar</string>
     <string name="february">Veebruar</string>
     <string name="march">Märts</string>
@@ -594,6 +595,7 @@
     <string name="rate_us_prompt">Tere,\n\n tundub, et kasutate seda rakendust juba mõnda aega ja me hindame seda tõesti.\n\nKui saame teid paluda, siis hinnake meid Google Plays. See aitaks meid tõesti palju.\n\nÜkskõik kuidas otsustate, ei näe te seda sõnumit uuesti.\n\nTäname!</string>
     <string name="rate_our_app">Hinda meie rakendust palun :)</string>
     <string name="thank_you">Aitäh</string>
+    <string name="widget_locked_pro">Vidin on lukus.\nSelle avamiseks minge üle Pro versioonile.</string>
     <string name="widget_locked">            Vidin on lukus.&lt;br&gt;Palun ostke &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Lihtne aitöh&lt;/a&gt;selle avamiseks.
         </string>
     <string name="app_launcher_short">Rakenduste käivitaja</string>
@@ -663,6 +665,7 @@
     <string name="why_upgrade_font_size_customization">Fondi suuruse kohandamine</string>
     <string name="why_upgrade_private_contact_sharing">Valikuline privaatsete kontaktide jagamine meie rakendustes</string>
     <string name="why_upgrade_customizable_contact_ringtones">Kohandatavad kontakthelinad</string>
+    <string name="why_upgrade_contact_filtering">Kontaktide filtreerimine</string>
     <string name="why_upgrade_checklists">Kontrollnimekirjad</string>
     <string name="why_upgrade_different_note_per_widget">Erinevad märkused ja värvid vidina kohta</string>
     <string name="why_upgrade_note_locking">Märkuse lukustamine</string>
@@ -672,6 +675,7 @@
     <string name="why_upgrade_recents_tab">Vahekaart viimaste failidega</string>
     <string name="why_upgrade_background_color_customization">Taustavärvi kohandamine</string>
     <string name="why_upgrade_file_importing">Failide importimise tugi</string>
+    <string name="why_upgrade_zooming">Suumimine</string>
     <string name="notice">See rakendus kasutab järgmisi kolmanda osapoole teeke, et teha oma elu lihtsamaks. Aitäh.</string>
     <string name="third_party_licences">Kolmandate isikute litsentsid</string>
     <string name="kotlin_title">Kotlin (programmeerimiskeel)</string>

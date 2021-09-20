@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">ОК</string>
     <string name="cancel">Отмена</string>
+    <string name="nothing">Ничего</string>
     <string name="save_as">Сохранить как</string>
     <string name="file_saved">Файл сохранён</string>
     <string name="invalid_file_format">Недопустимый формат файла</string>
@@ -163,7 +164,6 @@
     <string name="internal">Внутренняя память</string>
     <string name="sd_card">SD-карта</string>
     <string name="root">Корневая папка</string>
-    <string name="wrong_root_selected">Папка выбрана неверно, пожалуйста, выберите SD-карту</string>
     <string name="sd_card_usb_same">Пути к SD-карте и USB-устройству не могут быть одинаковыми</string>
     <string name="app_on_sd_card">Похоже, что приложение у вас установлено на SD-карту, а это делает виджеты приложений недоступными. Вы даже не увидите их в списке доступных виджетов.
         Это системное ограничение, поэтому, если вы хотите использовать виджеты, вам нужно переместить приложение обратно во внутреннюю память.</string>
@@ -267,6 +267,7 @@
     <string name="are_you_sure_delete">Вы действительно хотите удалить этот объект?</string>
     <string name="are_you_sure_recycle_bin">Вы действительно хотите переместить этот объект в корзину?</string>
     <string name="do_not_ask_again">Не спрашивать снова (до следующего запуска)</string>
+    <string name="do_not_show_again">Не показывать снова</string>
     <string name="yes">Да</string>
     <string name="no">Нет</string>
     <string name="maybe">Возможно</string>
@@ -569,7 +570,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Похоже, к вашему устройству подключено устройство USB. Чтобы убедиться, что файлы на нём отображаются правильно, вам нужно предоставить дополнительные разрешения.</string>
     <string name="confirm_usb_storage_access_text">Please choose the top folder of the USB device on the next screen, to grant access</string>
-    <string name="wrong_root_selected_usb">Выбрана неправильная папка. Выберите корневую папку вашего USB-устройства.</string>
     <string name="january">Январь</string>
     <string name="february">Февраль</string>
     <string name="march">Март</string>

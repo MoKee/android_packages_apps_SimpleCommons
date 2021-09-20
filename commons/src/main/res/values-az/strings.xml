@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">Oldu</string>
     <string name="cancel">Ləğv Et</string>
+    <string name="nothing">Heç biri</string>
     <string name="save_as">Saxla</string>
     <string name="file_saved">Fayl uğurla saxlandı</string>
     <string name="invalid_file_format">Keçərsiz fayl formatı</string>
@@ -113,7 +114,6 @@
     <string name="select_storage">Yaddaş seç</string>
     <string name="internal">Daxili</string>
     <string name="sd_card">SD Kart</string>
-    <string name="wrong_root_selected">Seçilən qovluq yanlışdır, xahiş olunur SD kartın root qovluğunu seçin</string>
     <string name="sd_card_usb_same">SD kart və USB cihaz yolu eyni ola bilməz</string>
     <string name="app_on_sd_card">Görünür tətbiqi SD karta yükləmisiniz, bu widgetlərin işləməsinin qarşısını alır. Siz widgetləri əlçatan widgetlər siyahısında belə görə bilməyəcəksiniz.
         Bu sistem məhdudiyyətidir, əgər vidjetlərin işləməsini istəyirsinizsə, tətbiqi daxili yaddaşa köçürməlisiniz.</string>
@@ -382,7 +382,6 @@
     <string name="exporting_some_entries_failed">Bəzi girişləri çıxarmaq olmur</string>
     <string name="no_entries_for_exporting">Çıxarış üçün heçbir giriş tapılmadı</string>
     <string name="usb">USB</string>
-    <string name="wrong_root_selected_usb">Yanlış qovluq seçilib, xahiş olunur USB cihazın root qovluğunu seçin</string>
     <string name="january">Yanvar</string>
     <string name="february">Fevral</string>
     <string name="march">Mart</string>

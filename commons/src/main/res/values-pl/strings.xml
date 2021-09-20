@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Anuluj</string>
+    <string name="nothing">Nic nie rób</string>
     <string name="save_as">Zapisz jako</string>
     <string name="file_saved">Plik został zapisany</string>
     <string name="invalid_file_format">Nieprawidłowy format pliku</string>
@@ -163,7 +164,6 @@
     <string name="internal">Wewnętrzna</string>
     <string name="sd_card">Karta pamięci</string>
     <string name="root">Folder główny</string>
-    <string name="wrong_root_selected">Wybrano nieprawidłowy folder. Wybierz główny folder karty pamięci.</string>
     <string name="sd_card_usb_same">Ścieżka do karty pamięci i urządzenia USB nie może być taka sama</string>
     <string name="app_on_sd_card">Wygląda na to, że aplikacja jest zainstalowana na karcie pamięci. Przez to widżety aplikacji są niedostępne.\nJest to ograniczenie systemu. Jeśli chcesz używać widżetów, musisz przenieść ją do pamięci wewnętrznej.</string>
     <string name="properties">Właściwości</string>
@@ -267,6 +267,7 @@
     <string name="are_you_sure_delete">Czy na pewno chcesz usunąć ten element?</string>
     <string name="are_you_sure_recycle_bin">Czy na pewno chcesz przenieść ten element do kosza?</string>
     <string name="do_not_ask_again">Nie pytaj więcej w tej sesji</string>
+    <string name="do_not_show_again">Nie pokazuj ponownie</string>
     <string name="yes">Tak</string>
     <string name="no">Nie</string>
     <string name="maybe">Może</string>
@@ -571,7 +572,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Wygląda na to, że do twojego urządzenia jest podłączone urządzenie USB. Aby upewnić się, że pliki są wyświetlane poprawnie, musisz udzielić dodatkowych uprawnień.</string>
     <string name="confirm_usb_storage_access_text">Wybierz folder główny urządzenia USB na następnym ekranie, aby uzyskać do niego dostęp</string>
-    <string name="wrong_root_selected_usb">Wybrany został niewłaściwy folder. Wybierz główny folder urządzenia USB.</string>
     <string name="january">Styczeń</string>
     <string name="february">Luty</string>
     <string name="march">Marzec</string>

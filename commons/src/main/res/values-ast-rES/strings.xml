@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">Aceutar</string>
     <string name="cancel">Encaboxar</string>
+    <string name="nothing">Nada</string>
     <string name="set_as">Afitar como</string>
     <string name="never">Enxamás</string>
     <string name="details">Detalles</string>
@@ -29,6 +30,7 @@
     <string name="share">Compartir</string>
     <string name="share_via">Compartir per</string>
     <string name="name">Nome:</string>
+    <string name="do_not_show_again">Nun amosar de nueves</string>
     <string name="yes">Sí</string>
     <string name="no">Non</string>
     <string name="seconds_raw">segundos</string>

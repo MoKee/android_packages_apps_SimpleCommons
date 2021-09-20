@@ -2,6 +2,8 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Huỷ</string>
+    <string name="nothing">Không có</string>
+    <string name="later">Sau</string>
     <string name="save_as">Lưu dưới dạng</string>
     <string name="file_saved">Đã lưu tập tin thành công</string>
     <string name="invalid_file_format">Định dạng tập tin không hợp lệ</string>
@@ -151,7 +153,6 @@
     <string name="internal">Nội bộ</string>
     <string name="sd_card">Thẻ SD</string>
     <string name="root">Gốc</string>
-    <string name="wrong_root_selected">Đã chọn sai thư mục, vui lòng chọn thư mục gốc của thẻ SD</string>
     <string name="sd_card_usb_same">Đường dẫn thẻ SD và thiết bị USB không thể giống nhau</string>
     <string name="app_on_sd_card">Bạn dường như đã cài đặt ứng dụng trên thẻ SD, điều đó làm cho các tiện ích ứng dụng không khả dụng. Bạn thậm chí sẽ không nhìn thấy chúng trong danh sách các vật dụng có sẵn.         Đây là một giới hạn hệ thống, vì vậy nếu bạn muốn sử dụng các widget, bạn phải di chuyển ứng dụng trở lại bộ nhớ trong</string>
     <string name="properties">Thuộc tính</string>
@@ -176,6 +177,7 @@
     <string name="text_color">Màu chữ</string>
     <string name="primary_color">Màu chính</string>
     <string name="accent_color_white">Màu nhấn của chủ đề trắng</string>
+    <string name="accent_color_black_and_white">Màu nhấn của chủ đề Đen &amp; Trắng</string>
     <string name="foreground_color">Màu tô</string>
     <string name="app_icon_color">Màu biểu tượng</string>
     <string name="bottom_navigation_bar_color">Màu thanh điều hướng</string>
@@ -228,6 +230,8 @@
     <string name="call_from_sim_1">Gọi từ SIM 1</string>
     <string name="call_from_sim_2">Gọi từ SIM 2</string>
     <string name="toggle_filename">Toggle filename visibility</string>
+    <string name="move_to_top">Di chuyển lên đầu</string>
+    <string name="move_to_bottom">Di chuyển xuống cuối</string>
     <string name="sort_by">Sắp xếp theo</string>
     <string name="name">Tên: </string>
     <string name="size">Kích thước</string>
@@ -254,6 +258,7 @@
     <string name="are_you_sure_delete">Bạn có chắc chắn muốn xóa mục này?</string>
     <string name="are_you_sure_recycle_bin">Bạn có chắc chắn muốn chuyển mục này vào Thùng rác không?</string>
     <string name="do_not_ask_again">Không hỏi lại nội dung này</string>
+    <string name="do_not_show_again">Không hiện lại</string>
     <string name="yes">Có</string>
     <string name="no">Không</string>
     <string name="maybe">Có thể</string>
@@ -289,6 +294,9 @@
     <string name="minutes_raw">phút</string>
     <string name="hours_raw">giờ</string>
     <string name="days_raw">ngày</string>
+    <string name="seconds_letter">giây</string>
+    <string name="minutes_letter">phút</string>
+    <string name="hours_letter"> giờ</string>
     <plurals name="seconds">
         <item quantity="other">%d giây</item>
     </plurals>
@@ -436,12 +444,15 @@
     <string name="startup">Khởi động</string>
     <string name="text">Văn bản</string>
     <string name="migrating">Di chuyển</string>
+    <string name="manage_shown_tabs">Quản lý các tab được hiển thị</string>
     <string name="default_tab_to_open">Tab để mở khi bắt đầu ứng dụng</string>
     <string name="contacts_tab">Liên hệ</string>
     <string name="favorites_tab">Yêu thích</string>
     <string name="call_history_tab">Nhật ký cuộc gọi</string>
     <string name="groups_tab">Nhóm</string>
     <string name="last_used_tab">Lần sử dụng cuối cùng</string>
+    <string name="files_tab">Tập tin</string>
+    <string name="recent_files_tab">Các tệp gần đây</string>
     <string name="restore_this_file">Phục hồi tệp này</string>
     <string name="restore_selected_files">Khôi phục các tập tin đã chọn</string>
     <string name="restore_all_files">Khôi phục tất cả các tệp</string>
@@ -468,7 +479,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Bạn dường như có một thiết bị USB được gắn vào thiết bị của bạn. Để đảm bảo các tệp của nó xuất hiện đúng cách, bạn cần cấp quyền bổ sung.</string>
     <string name="confirm_usb_storage_access_text">Vui lòng chọn thư mục trên cùng của thiết bị USB trên màn hình tiếp theo để cấp quyền truy cập</string>
-    <string name="wrong_root_selected_usb">Đã chọn sai thư mục, vui lòng chọn thư mục gốc của thiết bị USB của bạn</string>
     <string name="january">Tháng 1</string>
     <string name="february">Tháng 2</string>
     <string name="march">Tháng 3</string>
@@ -549,6 +559,9 @@
     <string name="rate_us_prompt">Xin chào,\n\ncó vẻ như bạn đang sử dụng ứng dụng này khá lâu và chúng tôi thực sự đánh giá cao nó.\n\nNếu chúng tôi có thể yêu cầu bạn một ưu tiên, vui lòng đánh giá chúng tôi trên Google Play. Điều đó thực sự sẽ giúp chúng tôi rất nhiều.\n\nBất kể bạn quyết định như thế nào, bạn sẽ không thấy thông báo này nữa.\n\nCảm ơn!</string>
     <string name="rate_our_app">Hãy đánh giá ứng dụng của chúng tôi :)</string>
     <string name="thank_you">Cảm ơn</string>
+    <string name="widget_locked_pro">Tiện ích bị khóa.\nVui lòng nâng cấp lên phiên bản Pro để mở khóa.</string>
+    <string name="widget_locked">            Tiện ích bị khoá.&lt;br&gt;Hãy mua &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt; để mở khóa nó.
+        </string>
     <string name="app_launcher_short">Trình khởi chạy ứng dụng</string>
     <string name="calculator_short">Máy tính</string>
     <string name="calendar_short">Lịch</string>
@@ -600,6 +613,7 @@
     <string name="why_upgrade_no_ads">Không quảng cáo</string>
     <string name="why_upgrade_no_internet_access">Không quyền truy cập mạng</string>
     <string name="why_upgrade_footer">Đảm bảo hoàn tiền 100%</string>
+    <string name="why_upgrade_improved_design">Thiết kế được cải tiến</string>
     <string name="why_upgrade_advanced_photo_editor">Trình chỉnh sửa ảnh nâng cao</string>
     <string name="why_upgrade_heic_support">Hỗ trợ tệp HEIC/HEIF</string>
     <string name="why_upgrade_batch_renaming">Đổi tên tệp hàng loạt nâng cao</string>
@@ -612,13 +626,18 @@
     <string name="why_upgrade_duplicate_contact_merging">Cải thiện hợp nhất liên hệ trùng lặp</string>
     <string name="why_upgrade_font_size_customization">Tùy chỉnh kích thước phông chữ</string>
     <string name="why_upgrade_private_contact_sharing">Chia sẻ liên hệ riêng tư tùy chọn trong ứng dụng của chúng tôi</string>
+    <string name="why_upgrade_customizable_contact_ringtones">Nhạc chuông liên lạc có thể tùy chỉnh</string>
+    <string name="why_upgrade_contact_filtering">Lọc liên hệ</string>
     <string name="why_upgrade_checklists">Danh sách kiểm tra</string>
     <string name="why_upgrade_different_note_per_widget">Ghi chú và màu sắc khác nhau cho mỗi widget</string>
+    <string name="why_upgrade_note_locking">Ghi chú khóa</string>
     <string name="why_upgrade_date_and_time_format">Tùy chỉnh định dạng ngày và giờ</string>
     <string name="why_upgrade_shortcuts">Lối tắt màn hình chính</string>
     <string name="why_upgrade_file_compression">Hỗ trợ nén tệp</string>
+    <string name="why_upgrade_recents_tab">Tab với các tệp gần đây</string>
     <string name="why_upgrade_background_color_customization">Tùy chỉnh màu nền</string>
     <string name="why_upgrade_file_importing">Hỗ trợ nhập tệp</string>
+    <string name="why_upgrade_zooming">Phóng to/thu nhỏ</string>
     <string name="notice">Ứng dụng này sử dụng các thư viện bên thứ ba sau đây để làm cho cuộc sống của tôi dễ dàng hơn. Cảm ơn bạn.</string>
     <string name="third_party_licences">Giấy phép bên thứ ba</string>
     <string name="kotlin_title">Kotlin (ngôn ngữ lập trình)</string>

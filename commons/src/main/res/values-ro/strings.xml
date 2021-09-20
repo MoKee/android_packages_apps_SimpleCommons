@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Anulează</string>
+    <string name="nothing">Nimic</string>
     <string name="edit_with">Editați cu</string>
     <string name="set_as">Setaţi ca</string>
     <string name="unknown">Necunoscut</string>
@@ -72,6 +73,7 @@
     <string name="extension">Extensie</string>
     <string name="ascending">crescător</string>
     <string name="descending">descrescător</string>
+    <string name="do_not_show_again">Nu mai afişa</string>
     <string name="yes">Da</string>
     <string name="no">Nu</string>
     <string name="today">Azi</string>

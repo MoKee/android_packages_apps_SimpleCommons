@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Kanselahin</string>
+    <string name="nothing">Nothing</string>
     <string name="set_as">Itakda bilang</string>
     <string name="unknown">Hindi tiyak</string>
     <string name="never">Hindi kailanman</string>
@@ -42,6 +43,7 @@
     <string name="size">Laki</string>
     <string name="date_taken">Petsa kung kailan kinuha</string>
     <string name="title">Pamagat</string>
+    <string name="do_not_show_again">Huwag ipakitang muli</string>
     <string name="yes">Oo</string>
     <string name="no">Hindi</string>
     <string name="today">Ngayon</string>

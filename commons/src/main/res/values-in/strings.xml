@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">Oke</string>
     <string name="cancel">Batal</string>
+    <string name="nothing">Tidak ada</string>
     <string name="save_as">Simpan sebagai</string>
     <string name="file_saved">Berkas berhasil disimpan</string>
     <string name="invalid_file_format">Format file tidak valid</string>
@@ -124,7 +125,6 @@
     <string name="internal">Internal</string>
     <string name="sd_card">Kartu SD</string>
     <string name="root">Akar</string>
-    <string name="wrong_root_selected">Folder yang salah dipilih, silakan pilih folder root dari kartu SD Anda</string>
     <string name="sd_card_usb_same">Jalur kartu SD dan perangkat USB tidak boleh sama</string>
     <string name="app_on_sd_card">Sepertinya aplikasi telah dipasang di kartu SD, yang membuat widget aplikasi tidak tersedia. Anda bahkan tidak akan melihat mereka di daftar widget yang tersedia.
         Ini adalah batasan sistem, jadi jika Anda ingin menggunakan widget, Anda harus memindahkan aplikasi kembali ke penyimpanan internal.</string>
@@ -211,6 +211,7 @@
     <string name="are_you_sure_delete">Apakah anda yakin ingin menghapus item ini?</string>
     <string name="are_you_sure_recycle_bin">Apakah anda yakin untuk memindah item ini ke Tempat Sampah?</string>
     <string name="do_not_ask_again">Jangan tanya lagi</string>
+    <string name="do_not_show_again">Jangan tampilkan lagi</string>
     <string name="yes">Ya</string>
     <string name="no">Tidak</string>
     <plurals name="delete_warning">
@@ -391,7 +392,6 @@
     <string name="no_entries_for_exporting">Tidak ada entri untuk ekspor yang ditemukan</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Tampaknya Anda memiliki perangkat USB yang terpasang pada perangkat Anda. Untuk memastikan file-nya muncul dengan benar, Anda perlu memberikan izin tambahan.</string>
-    <string name="wrong_root_selected_usb">Folder salah dipilih, silakan pilih folder root perangkat USB Anda</string>
     <string name="january">Januari</string>
     <string name="february">Februari</string>
     <string name="march">Maret</string>

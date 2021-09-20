@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="nothing">Nothing</string>
     <string name="unknown">Unknown</string>
     <string name="never">Never</string>
     <string name="none">কোনো কিছুই নয়</string>

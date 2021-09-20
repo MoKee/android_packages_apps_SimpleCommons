@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Avbryt</string>
+    <string name="nothing">Ingenting</string>
     <string name="save_as">Lagre som</string>
     <string name="file_saved">Fil vellykket lagret</string>
     <string name="invalid_file_format">Ugyldig filformat</string>
@@ -106,7 +107,6 @@
     <string name="internal">Intern</string>
     <string name="sd_card">SD-kort</string>
     <string name="root">Rot</string>
-    <string name="wrong_root_selected">Feil mappe er valgt, velg rotmappen til SD-kortet</string>
     <string name="sd_card_usb_same">Bane for SD-kort og USB-enhet kan ikke være den samme</string>
     <string name="properties">Egenskaper</string>
     <string name="path">Bane</string>
@@ -382,7 +382,6 @@
     <string name="exporting_some_entries_failed">Eksportering av noen oppføringer feilet</string>
     <string name="no_entries_for_exporting">Ingen oppføringer for eksportering er funnet</string>
     <string name="usb">USB</string>
-    <string name="wrong_root_selected_usb">Feil mappe valgt, velg rotmappen til USB-enheten din</string>
     <string name="january">Januar</string>
     <string name="february">Februar</string>
     <string name="march">Mars</string>

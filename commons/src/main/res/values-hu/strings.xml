@@ -2,6 +2,8 @@
 <resources>
     <string name="ok">Rendben</string>
     <string name="cancel">Mégsem</string>
+    <string name="nothing">Semmi</string>
+    <string name="later">Később</string>
     <string name="save_as">Mentés másként</string>
     <string name="file_saved">A fájl sikeresen elmentve</string>
     <string name="invalid_file_format">Érvénytelen fájlformátum</string>
@@ -155,7 +157,6 @@
     <string name="internal">Belső</string>
     <string name="sd_card">SD kártya</string>
     <string name="root">Gyökérkönyvtár</string>
-    <string name="wrong_root_selected">Rossz mappát választott ki, válassza ki az SD kártya gyökérmappáját</string>
     <string name="sd_card_usb_same">Az SD kártya és az USB eszköz elérési útvonala nem lehet azonos</string>
     <string name="app_on_sd_card">Úgy tűnik, hogy az alkalmazás az SD-kártyára van telepítve, ami miatt az alkalmazásikonok nem érhetők el. Nem láthatja őket a rendelkezésre álló kisalkalmazások listáján.
         Ez egy rendszerkorlátozás, ezért ha még szeretné használni ezeket, vissza kell helyeznie az alkalmazást a belső tárhelyre.</string>
@@ -263,6 +264,7 @@
     <string name="are_you_sure_delete">Biztos törölni akarja ezt az elemet?</string>
     <string name="are_you_sure_recycle_bin">Biztos át akarja helyezni ezt az elemet a Lomtárba?</string>
     <string name="do_not_ask_again">Ne mutassa újra ebben a menetben</string>
+    <string name="do_not_show_again">Ne mutassa újra</string>
     <string name="yes">Igen</string>
     <string name="no">Nem</string>
     <string name="maybe">Talán</string>
@@ -513,7 +515,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Úgy tűnik, a készülékhez egy USB eszköz van csatlakoztatva. További engedélyeket kell megadnia, hogy a fájlok megfelelően jelenjenek meg.</string>
     <string name="confirm_usb_storage_access_text">Kérjük, válassza ki az USB-eszköz gyökérmappáját a következő képernyőn, hogy hozzáférést biztosítson</string>
-    <string name="wrong_root_selected_usb">Rossz mappát választott ki, válassza ki az USB eszköz gyökérmappáját</string>
     <string name="january">Január</string>
     <string name="february">Február</string>
     <string name="march">Március</string>
@@ -594,6 +595,7 @@
     <string name="rate_us_prompt">Helló,\n\núgy tűnik, hogy már régóta használja ezt az alkalmazást, ezt nagyra értékeljük.\n\nHa megtenne egy szívességet és értékelné munkánkat a Google Play áruházban, az tényleg sokat segítene nekünk.\n\nNem számít, milyen döntést hoz, ez az üzenet nem fog többé megjelenni.\n\nKöszönjük!</string>
     <string name="rate_our_app">Kérjük, értékelje alkalmazásunkat :)</string>
     <string name="thank_you">Köszönjük!</string>
+    <string name="widget_locked_pro">A kisalkalmazás zárolt.\nFeloldásához kérjük frissítsen a Pro verzióra.</string>
     <string name="widget_locked">            A kisalkalmazás nem ingyenes.&lt;br&gt;Használatához vásárolja meg a következőt: &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt;.
         </string>
     <string name="app_launcher_short">Alkalmazásindító-fiók</string>
@@ -663,6 +665,7 @@
     <string name="why_upgrade_font_size_customization">Testreszabható betűméretek</string>
     <string name="why_upgrade_private_contact_sharing">Választható privát névjegymegosztás a béna alkalmazásunkat kihagyva</string>
     <string name="why_upgrade_customizable_contact_ringtones">Névjegyhez igazítható csengőhang</string>
+    <string name="why_upgrade_contact_filtering">Névjegyszűrés</string>
     <string name="why_upgrade_checklists">Ellenőrzőlista</string>
     <string name="why_upgrade_different_note_per_widget">Külöbnböző jegyzetek és színek a kisalkalmazásokhoz</string>
     <string name="why_upgrade_note_locking">Jegyzetzárás</string>
@@ -672,6 +675,7 @@
     <string name="why_upgrade_recents_tab">Fülek a legutóbbi fájlokkal</string>
     <string name="why_upgrade_background_color_customization">Testreszabható háttérszín</string>
     <string name="why_upgrade_file_importing">Fájlátviteli támogatás</string>
+    <string name="why_upgrade_zooming">Zoomolás</string>
     <string name="notice">Ez az alkalmazás a következő harmadik fél könyvtárait használja az életem megkönnyítésére. Köszönöm.</string>
     <string name="third_party_licences">Harmadik fél licencek</string>
     <string name="kotlin_title">Kotlin (programnyelv)</string>

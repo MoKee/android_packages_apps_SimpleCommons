@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Cancelar</string>
+    <string name="nothing">Não fazer nada</string>
     <string name="save_as">Salvar como</string>
     <string name="file_saved">Arquivo salvo com sucesso</string>
     <string name="invalid_file_format">Formato de arquivo inválido</string>
@@ -153,7 +154,6 @@
     <string name="internal">Interno</string>
     <string name="sd_card">Cartão SD</string>
     <string name="root">Raiz</string>
-    <string name="wrong_root_selected">Pasta inválida, por favor selecione a raiz do cartão SD</string>
     <string name="sd_card_usb_same">Pastas do cartão SD e do dispositivo USB não podem ser iguais</string>
     <string name="app_on_sd_card">Você parece ter o aplicativo instalado em um cartão SD, o que torna os widgets do aplicativo indisponíveis. Você nem vai vê-los na lista de widgets disponíveis.
          É uma limitação do sistema, portanto, se você quiser usar os widgets, precisará mover o aplicativo de volta para o armazenamento interno.</string>
@@ -250,6 +250,7 @@
     <string name="are_you_sure_delete">Você tem certeza que quer excluir este item?</string>
     <string name="are_you_sure_recycle_bin">Tem certeza que deseja mover este item para a lixeira?</string>
     <string name="do_not_ask_again">Não perguntar novamente por enquanto</string>
+    <string name="do_not_show_again">Não mostrar novamente</string>
     <string name="yes">Sim</string>
     <string name="no">Não</string>
     <string name="maybe">Talvez</string>
@@ -487,7 +488,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Você parece ter um dispositivo USB anexado ao seu dispositivo. Para garantir que seus arquivos apareçam corretamente, conceda permissões adicionais.</string>
     <string name="confirm_usb_storage_access_text">Por favor, escolha a pasta raiz do dispositivo USB na próxima tela, para conceder acesso</string>
-    <string name="wrong_root_selected_usb">Pasta errada selecionada, selecione a pasta raiz do seu dispositivo USB</string>
     <string name="january">janeiro</string>
     <string name="february">fevereiro</string>
     <string name="march">março</string>

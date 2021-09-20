@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">ΟΚ</string>
     <string name="cancel">Ακύρωση</string>
+    <string name="nothing">Καμία</string>
     <string name="save_as">Αποθήκευση ως</string>
     <string name="file_saved">Αποθηκεύθηκε επιτυχώς</string>
     <string name="invalid_file_format">Μη έγκυρη μορφή αρχείου</string>
@@ -125,7 +126,6 @@
     <string name="select_storage">Επιλέξτε αποθήκευση</string>
     <string name="internal">Εσωτερική</string>
     <string name="sd_card">Κάρτα SD</string>
-    <string name="wrong_root_selected">Επιλέξατε λάθος φάκελο, επιλέξτε τον ριζικό φάκελο της SD card</string>
     <string name="sd_card_usb_same">SD card και USB οι διαδρομές συσκευών δεν μπορούν να είναι οι ίδιες</string>
     <string name="app_on_sd_card">Φαίνεται ότι έχετε εγκαταστήσει την εφαρμογή σε μια κάρτα SD, πράγμα που καθιστά τα γραφικά στοιχεία εφαρμογών μη διαθέσιμα. Δεν θα τα δείτε ακόμη και στη λίστα των διαθέσιμων γραφικών στοιχείων.
         Είναι ένας περιορισμός του συστήματος, οπότε αν θέλετε να χρησιμοποιήσετε τα γραφικά στοιχεία, θα πρέπει να μετακινήσετε την εφαρμογή πίσω στον εσωτερικό αποθηκευτικό χώρο.</string>
@@ -206,6 +206,7 @@
     <string name="are_you_sure_delete">Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το στοιχείο?</string>
     <string name="are_you_sure_recycle_bin">Είστε βέβαιοι ότι θέλετε να μετακινήσετε αυτό το στοιχείο στον κάδο ανακύκλωσης?</string>
     <string name="do_not_ask_again">Μην ξαναρωτήσετε σε αυτήν την περίοδο</string>
+    <string name="do_not_show_again">Να μην εμφανιστεί ξανά</string>
     <string name="yes">Ναί</string>
     <string name="no">Όχι</string>
     <plurals name="delete_warning">
@@ -408,7 +409,6 @@
     <string name="exporting_some_entries_failed">Η Εξαγωγή μερικών καταχωρήσεων απέτυχε</string>
     <string name="no_entries_for_exporting">Δεν βρέθηκαν καταχωρήσεις για Εξαγωγή</string>
     <string name="usb">USB</string>
-    <string name="wrong_root_selected_usb">Λάθος επιλεγμένο φάκελο, παρακαλώ επιλέξτε το ριζικό φάκελο της συσκευής USB</string>
     <string name="january">Ιανουάριος</string>
     <string name="february">Φεβρουάριος</string>
     <string name="march">Μάρτιος</string>

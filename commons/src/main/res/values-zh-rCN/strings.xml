@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">确认</string>
     <string name="cancel">取消</string>
+    <string name="nothing">无</string>
     <string name="save_as">保存</string>
     <string name="file_saved">文件保存成功</string>
     <string name="invalid_file_format">无效文件格式</string>
@@ -151,7 +152,6 @@
     <string name="internal">内部存储器</string>
     <string name="sd_card">SD 卡</string>
     <string name="root">根目录</string>
-    <string name="wrong_root_selected">目录选择错误，请选择 SD 卡</string>
     <string name="sd_card_usb_same">SD 卡和 USB 设备路径不能相同</string>
     <string name="app_on_sd_card">您似乎已将应用程序安装在 SD 卡上，这使得应用的小部件不可用。你将无法在小部件列表里看到它们。
         这是一个系统限制，所以如果你想要使用这些小部件，你必须将应用移回内部存储器。</string>
@@ -257,6 +257,7 @@
     <string name="are_you_sure_delete">你确定要删除此项目吗？</string>
     <string name="are_you_sure_recycle_bin">你确定要移动此项目到回收站吗？</string>
     <string name="do_not_ask_again">不再提醒</string>
+    <string name="do_not_show_again">不再显示</string>
     <string name="yes">是</string>
     <string name="no">否</string>
     <string name="maybe">可能</string>
@@ -471,7 +472,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">检测到有 USB 设备连接到您的设备。您需要授予额外的权限以确保文件能够正确显示。</string>
     <string name="confirm_usb_storage_access_text">请在下一界面选择 USB 设备的根文件夹以授予访问权限</string>
-    <string name="wrong_root_selected_usb">选择错误，请正确选择 USB 设备的根文件夹</string>
     <string name="january">一月</string>
     <string name="february">二月</string>
     <string name="march">三月</string>

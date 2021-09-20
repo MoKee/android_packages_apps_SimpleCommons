@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">ОК</string>
     <string name="cancel">Скасувати</string>
+    <string name="nothing">Nothing</string>
     <string name="save_as">Зберегти як</string>
     <string name="file_saved">Файл успішно збережений</string>
     <string name="invalid_file_format">Неприпустимий формат файлу</string>
@@ -140,7 +141,6 @@
     <string name="internal">Внутрішня пам\'ять</string>
     <string name="sd_card">SD-карта</string>
     <string name="root">Коренева папка</string>
-    <string name="wrong_root_selected">Папка обрана невірно, будь ласка, виберіть SD-карту</string>
     <string name="sd_card_usb_same">Шляхи до SD-карти та USB-пристрою не можуть бути однаковими</string>
     <string name="app_on_sd_card">Схоже, що додаток у вас встановлено на SD-карту, а це робить віджети додатків недоступними. Ви навіть не побачите їх у списку доступних віджетів.
         Це системне обмеження, тому, якщо Ви хочете використовувати віджети, вам потрібно перемістити додаток назад у внутрішню пам\'ять.</string>
@@ -232,6 +232,7 @@
     <string name="are_you_sure_delete">Ви впевнені, що бажаєте видалити цей елемент?</string>
     <string name="are_you_sure_recycle_bin">Чи дійсно Ви хочете перемістити цей елемент у Кошик?</string>
     <string name="do_not_ask_again">Не питати знову (до наступного запуску)</string>
+    <string name="do_not_show_again">Не показувати знову</string>
     <string name="yes">Так</string>
     <string name="no">Ні</string>
     <string name="maybe">Можливо</string>
@@ -526,7 +527,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Схоже, до вашого пристрою підключено пристрій USB. Щоб переконатися, що файли на ньому відображаються правильно, вам потрібно надати додаткові дозволи.</string>
     <string name="confirm_usb_storage_access_text">Будь ласка, виберіть верхню папку USB-пристрої на наступному екрані, щоб надати доступ</string>
-    <string name="wrong_root_selected_usb">Обрана неправильна папка. Виберіть кореневу папку вашого USB-пристрою.</string>
     <string name="january">Січень</string>
     <string name="february">Лютий</string>
     <string name="march">Березень</string>

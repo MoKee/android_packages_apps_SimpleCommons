@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">\"D\'acord\"</string>
     <string name="cancel">Cancel·lar</string>
+    <string name="nothing">Res</string>
     <string name="save_as">Desar com</string>
     <string name="file_saved">Arxiu desat amb éxit</string>
     <string name="invalid_file_format">Format d\'arxiu no vàlid</string>
@@ -125,7 +126,6 @@
     <string name="internal">Emmagatzematge intern</string>
     <string name="sd_card">Targeta SD</string>
     <string name="root">Arrel /</string>
-    <string name="wrong_root_selected">Has seleccionat la carpeta incorrecta. Selecciona la carpeta arrel de la targeta SD</string>
     <string name="sd_card_usb_same">La targeta SD i el dispositiu USB no poden ser el mateix</string>
     <string name="app_on_sd_card">Sembla que l\'aplicació està instal·lada a una targeta SD, cosa que fa que els widgets de l\'aplicació no estiguin disponibles. No els veuràs ni a la llista de widgets disponibles.
         És una limitació del sistema, de manera que si voleu utilitzar els widgets, heu de tornar a moure l\'aplicació a l\'emmagatzematge intern.</string>
@@ -207,6 +207,7 @@
     <string name="are_you_sure_delete">Segur que voleu eliminar aquest element?</string>
     <string name="are_you_sure_recycle_bin">Segur que voleu moure aquest element a la paperera?</string>
     <string name="do_not_ask_again">No tornar a preguntar en aquesta sessió</string>
+    <string name="do_not_show_again">No ho tornis a mostrar</string>
     <string name="yes">Si</string>
     <string name="no">No</string>
     <plurals name="delete_warning">
@@ -409,7 +410,6 @@
     <string name="no_entries_for_exporting">No s\'han trobat entrades per exportar</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Sembla que teniu un dispositiu USB connectat al vostre dispositiu. Per assegurar-vos que els fitxers apareguin correctament, heu de concedir permisos addicionals.</string>
-    <string name="wrong_root_selected_usb">S\'ha seleccionat la carpeta incorrecta, seleccioneu la carpeta arrel del vostre dispositiu USB</string>
     <string name="january">Gener</string>
     <string name="february">Febrer</string>
     <string name="march">Març</string>

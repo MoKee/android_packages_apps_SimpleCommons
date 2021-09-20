@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">ОК</string>
     <string name="cancel">Скасаваць</string>
+    <string name="nothing">Нічога</string>
     <string name="set_as">Усталяваць як</string>
     <string name="unknown">Невядома</string>
     <string name="never">Ніколі</string>
@@ -45,6 +46,7 @@
     <string name="size">Памер</string>
     <string name="date_taken">Дата здымкі</string>
     <string name="title">Назва</string>
+    <string name="do_not_show_again">Не паказваць зноў</string>
     <string name="yes">Так</string>
     <string name="no">Не</string>
     <string name="today">Сёння</string>

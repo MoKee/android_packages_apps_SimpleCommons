@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">確定</string>
     <string name="cancel">取消</string>
+    <string name="nothing">無</string>
     <string name="save_as">儲存</string>
     <string name="file_saved">成功儲存檔案</string>
     <string name="invalid_file_format">無效的檔案格式</string>
@@ -130,7 +131,6 @@
     <string name="internal">內部儲存空間</string>
     <string name="sd_card">SD 卡</string>
     <string name="root">根目錄</string>
-    <string name="wrong_root_selected">選擇了錯誤的資料夾，請選擇SD卡的根目錄</string>
     <string name="sd_card_usb_same">SD卡和USB裝置的路徑不能相同</string>
     <string name="app_on_sd_card">你似乎將應用程式安裝在SD卡，那會造成應用程式小工具無法使用。你甚至不會在可用的小工具列表中見到它們。
         那是個系統限制，所以如果你想要使用小工具，你必須把應用程式移動回內部儲存空間。</string>
@@ -221,6 +221,7 @@
     <string name="are_you_sure_delete">你確定要刪除這個項目嗎?</string>
     <string name="are_you_sure_recycle_bin">你確定要把這個項目移到回收桶嗎?</string>
     <string name="do_not_ask_again">這情況不再詢問</string>
+    <string name="do_not_show_again">不再顯示</string>
     <string name="yes">是</string>
     <string name="no">不</string>
     <string name="maybe">不確定</string>
@@ -425,7 +426,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">似乎有USB裝置接上了你的裝置。為確保檔案正確顯示，你必須授予額外的權限。</string>
     <string name="confirm_usb_storage_access_text">請在下個畫面選擇 USB 裝置的上層目錄，以授予存取權限</string>
-    <string name="wrong_root_selected_usb">選擇到錯誤資料夾，請選擇你USB裝置的根目錄</string>
     <string name="january">一月</string>
     <string name="february">二月</string>
     <string name="march">三月</string>

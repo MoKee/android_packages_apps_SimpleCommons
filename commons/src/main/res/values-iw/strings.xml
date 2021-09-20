@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">אישור</string>
     <string name="cancel">ביטול</string>
+    <string name="nothing">שום דבר</string>
     <string name="set_as">הגדר בתור</string>
     <string name="unknown">לא ידוע</string>
     <string name="always">תמיד</string>
@@ -51,6 +52,7 @@
     <string name="title">כותרת</string>
     <string name="ascending">סדר עולה</string>
     <string name="descending">סדר יורד</string>
+    <string name="do_not_show_again">אל תציג שוב</string>
     <string name="yes">כן</string>
     <string name="no">לא</string>
     <string name="today">היום</string>

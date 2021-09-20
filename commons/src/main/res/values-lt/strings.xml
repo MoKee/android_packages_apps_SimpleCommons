@@ -119,7 +119,6 @@
     <string name="internal">Vidinė</string>
     <string name="sd_card">SD kortelė</string>
     <string name="root">Pagrindinė</string>
-    <string name="wrong_root_selected">Pasirinktas neteisingas aplankas, pasirinkite pagrindinį SD kortelės aplanką</string>
     <string name="sd_card_usb_same">SD kortelė ir USB įrenginio keliai negali būti tokie patys</string>
     <string name="properties">Savybės</string>
     <string name="path">Kelias</string>
@@ -413,7 +412,6 @@
     <string name="exporting_some_entries_failed">Kai kurių įrašų eksportuoti nepavyko</string>
     <string name="no_entries_for_exporting">Nerasta įrašų eksportavimui</string>
     <string name="usb">USB</string>
-    <string name="wrong_root_selected_usb">Pasirinktas netinkamas aplankas, pasirinkite USB įrenginio šakninį aplanką</string>
     <string name="january">Sausis</string>
     <string name="february">Vasaris</string>
     <string name="march">Kovas</string>

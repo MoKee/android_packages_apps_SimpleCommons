@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">はい</string>
     <string name="cancel">キャンセル</string>
+    <string name="nothing">なし</string>
     <string name="save_as">名前を付けて保存</string>
     <string name="file_saved">ファイルを正常に保存しました</string>
     <string name="invalid_file_format">使用できないファイル形式</string>
@@ -123,7 +124,6 @@
     <string name="internal">内部</string>
     <string name="sd_card">SDカード</string>
     <string name="root">ルート</string>
-    <string name="wrong_root_selected">フォルダの選択が正しくありません。SDカードを選択してください</string>
     <string name="sd_card_usb_same">SDカードとUSBデバイスのパスを同じにすることはできません</string>
     <string name="app_on_sd_card">SDカードにアプリをインストールしているため、アプリのウィジェットが利用できません。
 また、一覧にも表示されません。
@@ -210,6 +210,7 @@
     <string name="are_you_sure_delete">このアイテムを削除してもよろしいですか？</string>
     <string name="are_you_sure_recycle_bin">個のアイテムをゴミ箱に移動してもよろしいですか？</string>
     <string name="do_not_ask_again">このセッションでは再度たずねない</string>
+    <string name="do_not_show_again">次回から表示しない</string>
     <string name="yes">はい</string>
     <string name="no">いいえ</string>
     <plurals name="delete_warning">
@@ -387,7 +388,6 @@
     <string name="no_entries_for_exporting">エクスポートするエントリが見つかりませんでした</string>
     <string name="usb">USB</string>
     <string name="usb_detected">USBデバイスが端末に接続されているようです。ファイルが正しく表示されるようにするには、追加の権限を付与する必要があります。</string>
-    <string name="wrong_root_selected_usb">フォルダの選択が正しくありません。USBデバイスのルートを選択してください</string>
     <string name="january">1月</string>
     <string name="february">2月</string>
     <string name="march">3月</string>

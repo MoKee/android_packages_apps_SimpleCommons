@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Annuler</string>
+    <string name="nothing">Rien</string>
     <string name="save_as">Enregistrer sous</string>
     <string name="file_saved">Fichier sauvegardé avec succès</string>
     <string name="invalid_file_format">Format de fichier invalide</string>
@@ -154,7 +155,6 @@
     <string name="internal">Interne</string>
     <string name="sd_card">Carte SD</string>
     <string name="root">Racine</string>
-    <string name="wrong_root_selected">Mauvais dossier sélectionné, veuillez sélectionner le dossier racine de votre carte SD</string>
     <string name="sd_card_usb_same">Les chemins de la carte SD et du stockage USB ne peuvent être similaires</string>
     <string name="app_on_sd_card">L\'application semble installée sur une carte SD, ce qui empêche l\'utilisation des widgets de l\'applications. Ils n\'apparaîtront même pas dans la liste des widgets disponibles.
         C\'est une limitation système. Si vous voulez utiliser le widget, vous devez déplacer l\'application vers la mémoire interne.</string>
@@ -254,6 +254,7 @@
     <string name="are_you_sure_delete">Êtes-vous sûr(-e) de vouloir supprimer cet élément?</string>
     <string name="are_you_sure_recycle_bin">Êtes-vous sûr(-e) de vouloir déplacer cet élément dans la corbeille ?</string>
     <string name="do_not_ask_again">Ne pas redemander pour cette session</string>
+    <string name="do_not_show_again">Ne plus montrer</string>
     <string name="yes">Oui</string>
     <string name="no">Non</string>
     <string name="maybe">Peut-être</string>
@@ -492,7 +493,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Vous semblez avoir un périphérique USB connecté à votre périphérique. Pour s’assurer que ses dossiers s’affichent correctement, vous devez accorder des autorisations supplémentaires.</string>
     <string name="confirm_usb_storage_access_text">Veuillez choisir le dossier supérieur du périphérique USB sur l\'écran suivant, pour autoriser l\'accès</string>
-    <string name="wrong_root_selected_usb">Mauvais répertoire sélectionné. Veuillez sélectionner le répertoire racine du périphérique USB.</string>
     <string name="january">Janvier</string>
     <string name="february">Février</string>
     <string name="march">Mars</string>

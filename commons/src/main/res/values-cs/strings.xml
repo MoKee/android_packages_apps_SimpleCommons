@@ -2,6 +2,8 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Zrušit</string>
+    <string name="nothing">Nic</string>
+    <string name="later">Později</string>
     <string name="save_as">Uložit jako</string>
     <string name="file_saved">Soubor byl úspěšně uložen</string>
     <string name="invalid_file_format">Neplatný formát souboru</string>
@@ -163,7 +165,6 @@
     <string name="internal">Interní</string>
     <string name="sd_card">SD karta</string>
     <string name="root">Root</string>
-    <string name="wrong_root_selected">Vybrána neplatná složka, vyberte prosím root složku vaší SD karty</string>
     <string name="sd_card_usb_same">Cesta k SD kartě a USB zařízení nesmí být stejná</string>
     <string name="app_on_sd_card">Zdá se, že máte aplikaci nainstalovanou na SD kartě, což způsobí nedostupnost widgetů. Ani je neuvidíte na seznamu dostupných widgetů.
          Jde o systémové omezení, čili pokud chcete widgety používat, musíte přesunout aplikaci zpět na interní úložiště.</string>
@@ -271,6 +272,7 @@
     <string name="are_you_sure_delete">Jste si jisti, že chcete odstranit tuto položku?</string>
     <string name="are_you_sure_recycle_bin">Jste si jisti, že chcete vyhodit tuto položku do koše?</string>
     <string name="do_not_ask_again">Neptat se znovu v této relaci</string>
+    <string name="do_not_show_again">Znovu nezobrazovat</string>
     <string name="yes">Ano</string>
     <string name="no">Ne</string>
     <string name="maybe">Možná</string>
@@ -581,7 +583,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Zdá se, že máte k zařízení připojeno zařízení USB. Chcete-li se ujistit, zda se soubory zobrazují správně, musíte udělit další oprávnění.</string>
     <string name="confirm_usb_storage_access_text">Na následující obrazovce zvolte kořenovou složku USB zařízení pro povolení oprávnění</string>
-    <string name="wrong_root_selected_usb">Vybrána neplatná složka, vyberte root složku vašeho USB zařízení</string>
     <string name="january">Leden</string>
     <string name="february">Únor</string>
     <string name="march">Březen</string>
@@ -662,6 +663,7 @@
     <string name="rate_us_prompt">Ahoj,\n\nzdá se, že tuto aplikaci už nějakou dobu používáte a opravdu si toho vážíme.\n\nPokud vás můžeme požádat o laskavost, napište nám recenzi na Google Play. To by nám hodně pomohlo.\n\nBez ohledu na to, jak se rozhodnete, tuto zprávu vícekrát neuvidíte.\n\nDíky!</string>
     <string name="rate_our_app">Ohodnoťte prosím naši aplikaci :)</string>
     <string name="thank_you">Děkujeme</string>
+    <string name="widget_locked_pro">Widget je uzamčen.\nPro odemčení aktualizujte na verzi Pro.</string>
     <string name="widget_locked">            Widget je uzamčen.&lt;br&gt;Pro odemčení zakupte aplikaci &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt;.
         </string>
     <string name="app_launcher_short">Spouštěč aplikací</string>
@@ -731,6 +733,7 @@
     <string name="why_upgrade_font_size_customization">Přizpůsobení velikosti písem</string>
     <string name="why_upgrade_private_contact_sharing">Volitelné soukromé sdílení kontaktů v rámci našich aplikací</string>
     <string name="why_upgrade_customizable_contact_ringtones">Přizpůsobitelné vyzváněcí tóny kontaktů</string>
+    <string name="why_upgrade_contact_filtering">Filtrování kontaktů</string>
     <string name="why_upgrade_checklists">Seznamy</string>
     <string name="why_upgrade_different_note_per_widget">Různé poznámky a barvy na widgety</string>
     <string name="why_upgrade_note_locking">Závěrečné poznámky</string>
@@ -740,6 +743,7 @@
     <string name="why_upgrade_recents_tab">Karta s nedávnými soubory</string>
     <string name="why_upgrade_background_color_customization">Přizpůsobení barev pozadí</string>
     <string name="why_upgrade_file_importing">Podpora importu souborů</string>
+    <string name="why_upgrade_zooming">Přiblížení</string>
     <string name="notice">Tato aplikace využívá následující knihovny třetích stran. Děkuji.</string>
     <string name="third_party_licences">Licence třetích stran</string>
     <string name="kotlin_title">Kotlin (programovací jazyk)</string>

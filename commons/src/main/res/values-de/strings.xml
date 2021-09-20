@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">Ok</string>
     <string name="cancel">Abbrechen</string>
+    <string name="nothing">Keine Aktion</string>
     <string name="save_as">Speichern unter</string>
     <string name="file_saved">Datei erfolgreich gespeichert</string>
     <string name="invalid_file_format">Ungültiges Dateiformat</string>
@@ -142,7 +143,6 @@
     <string name="internal">Intern</string>
     <string name="sd_card">SD-Karte</string>
     <string name="root">Hauptverzeichnis</string>
-    <string name="wrong_root_selected">Falscher Ordner ausgewählt, bitte Hauptverzeichnis der SD-Karte auswählen</string>
     <string name="sd_card_usb_same">SDCard- und USB-Gerätepfad dürfen nicht identisch sein</string>
     <string name="app_on_sd_card">Die App wurde anscheinend auf der SD-Karte installiert, daher sind die Widgets nicht verfügbar. Sie werden auch in der Liste der Widgets nicht angezeigt.
         Dies ist systemseitig so beschränkt. Für die Verwendung der Widgets muss die App wieder im internen Speicher installiert werden.</string>
@@ -238,6 +238,7 @@
     <string name="are_you_sure_delete">Soll dieses Element wirklich gelöscht werden?</string>
     <string name="are_you_sure_recycle_bin">Soll dieses Element wirklich in den Papierkorb verschoben werden?</string>
     <string name="do_not_ask_again">Nicht erneut fragen (in dieser Sitzung)</string>
+    <string name="do_not_show_again">Nicht wieder anzeigen</string>
     <string name="yes">Ja</string>
     <string name="no">Nein</string>
     <string name="maybe">Vielleicht</string>
@@ -475,7 +476,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Es scheint, Du hast ein USB-Gerät an Dein Gerät angeschlossen. Du musst zusätzliche Berechtigungen gewähren, um die Dateien anzuzeigen.</string>
     <string name="confirm_usb_storage_access_text">Bitte den Basis-Ordner des USB-Geräts auf der folgenden Seite wählen, um Zugriff zu gewähren</string>
-    <string name="wrong_root_selected_usb">Falscher Ordner gewählt, bitte den Basis- (Root-) Ordner des USB-Geräts wählen</string>
     <string name="january">Januar</string>
     <string name="february">Februar</string>
     <string name="march">März</string>

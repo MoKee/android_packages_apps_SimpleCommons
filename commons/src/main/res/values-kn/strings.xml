@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">ಸರಿ</string>
     <string name="cancel">ರದ್ದು</string>
+    <string name="nothing">Nothing</string>
     <string name="save_as">ಅಂತೆ ಉಳಿಸಿ</string>
     <string name="file_saved">ಕಡತವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ</string>
     <string name="invalid_file_format">ಅಸಿಂಧುವಾದ ಕಡತದ ಮಾದರಿ</string>
@@ -114,7 +115,6 @@
     <string name="internal">ಆಂತರಿಕ</string>
     <string name="sd_card">SD ಕಾರ್ಡ್</string>
     <string name="root">ಮೂಲ</string>
-    <string name="wrong_root_selected">ತಪ್ಪು ಕಡತಕೋಶ ಆಯ್ಕೆಯಾಗಿದೆ, ದಯವಿಟ್ಟು SD ಕಾರ್ಡ್‌ ನ ಮೂಲ ಕಡತಕೋಶವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
     <string name="sd_card_usb_same">SD ಕಾರ್ಡ್‌ ಮತ್ತು USB ಸಾಧನಗಳ ಪಥಗಳು ಒಂದೇಯಾಗಿರಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
     <string name="properties">ಗುಣಗಳು</string>
     <string name="path">ಪಥ</string>

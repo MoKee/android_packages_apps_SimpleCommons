@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">Окей</string>
     <string name="cancel">Отказ</string>
+    <string name="nothing">Нищо</string>
     <string name="set_as">Задаване като</string>
     <string name="unknown">Неизвестно</string>
     <string name="always">Винаги</string>
@@ -53,6 +54,7 @@
     <string name="date_taken">Дата на заснемане</string>
     <string name="title">Заглавие</string>
     <string name="extension">Разширение</string>
+    <string name="do_not_show_again">Не показвай отново</string>
     <string name="yes">Да</string>
     <string name="no">Не</string>
     <string name="today">днес</string>

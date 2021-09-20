@@ -2,6 +2,8 @@
 <resources>
     <string name="ok">Tamam</string>
     <string name="cancel">İptal</string>
+    <string name="nothing">Hiçbiri</string>
+    <string name="later">Sonra</string>
     <string name="save_as">Farklı kaydet</string>
     <string name="file_saved">Dosya başarıyla kaydedildi</string>
     <string name="invalid_file_format">Geçersiz dosya biçimi</string>
@@ -155,7 +157,6 @@
     <string name="internal">Dahili</string>
     <string name="sd_card">SD Kart</string>
     <string name="root">Root</string>
-    <string name="wrong_root_selected">Yanlış klasör seçildi, lütfen SD kartınızın kök klasörünü seçin</string>
     <string name="sd_card_usb_same">SD kart ve USB cihaz yolları aynı olamaz</string>
     <string name="app_on_sd_card">Uygulama widget\'lerini kullanılamaz hale getiren SD karta yüklemiş görünüyorsunuz. Onları mevcut widget\'ler listesinde bile görmeyeceksiniz.
         Bu bir sistem sınırlamasıdır, bu nedenle widget\'leri kullanmak istiyorsanız, uygulamayı dahili depolama birimine geri taşımanız gerekir.</string>
@@ -263,6 +264,7 @@
     <string name="are_you_sure_delete">Bu öğeyi silmek istediğinizden emin misiniz?</string>
     <string name="are_you_sure_recycle_bin">Bu öğeyi Geri Dönüşüm Kutusu\'na taşımak istediğinizden emin misiniz?</string>
     <string name="do_not_ask_again">Bu oturumda tekrar sorma</string>
+    <string name="do_not_show_again">Tekrar gösterme</string>
     <string name="yes">Evet</string>
     <string name="no">Hayır</string>
     <string name="maybe">Belki</string>
@@ -513,7 +515,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Cihazınıza takılı bir USB var gibi görünüyor. Dosyalarının düzgün görüntülendiğinden emin olmak için ek izinler vermeniz gerekir.</string>
     <string name="confirm_usb_storage_access_text">Erişim vermek için lütfen bir sonraki ekranda USB cihazının üst klasörünü seçin</string>
-    <string name="wrong_root_selected_usb">Yanlış klasör seçildi, lütfen USB cihazınızın root klasörünü seçin</string>
     <string name="january">Ocak</string>
     <string name="february">Şubat</string>
     <string name="march">Mart</string>
@@ -594,6 +595,7 @@
     <string name="rate_us_prompt">Merhaba,\n\nbu uygulamayı uzun süredir kullanıyorsunuz gibi görünüyor ve gerçekten takdir ediyoruz.\n\nSizden bir iyilik isteyebilirsek, lütfen bizi Google Play\'de derecelendirin. Bu bize gerçekten çok yardımcı olacaktır.\n\nNasıl derecelendirdiğiniz önemli değil, bu mesajı bir daha görmeyeceksiniz.\n\nTeşekkürler!</string>
     <string name="rate_our_app">Lütfen uygulamamızı değerlendirin :)</string>
     <string name="thank_you">Teşekkürler</string>
+    <string name="widget_locked_pro">Widget kilitli.\nKilidi açmak için lütfen Pro sürümüne yükseltin.</string>
     <string name="widget_locked">            Widget kilitlendi.&lt;br&gt;Lütfen satın alın &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Basit Teşekkür Ederim&lt;/a&gt; kilidini açmak için.
         </string>
     <string name="app_launcher_short">Uygulama başlatıcısı</string>
@@ -662,6 +664,7 @@
     <string name="why_upgrade_font_size_customization">Yazı tipi boyutu özelleştirmeleri</string>
     <string name="why_upgrade_private_contact_sharing">Uygulamalarımızda isteğe bağlı özel kişi paylaşımı</string>
     <string name="why_upgrade_customizable_contact_ringtones">Özelleştirilebilir iletişim zil sesleri</string>
+    <string name="why_upgrade_contact_filtering">Kişi filtreleme</string>
     <string name="why_upgrade_checklists">Kontrol listeleri</string>
     <string name="why_upgrade_different_note_per_widget">Widget başına farklı not ve renkler</string>
     <string name="why_upgrade_note_locking">Not kilitleme</string>
@@ -671,6 +674,7 @@
     <string name="why_upgrade_recents_tab">Son dosyaların bulunduğu sekme</string>
     <string name="why_upgrade_background_color_customization">Arka plan rengi özelleştirmeleri</string>
     <string name="why_upgrade_file_importing">Dosya içe aktarma desteği</string>
+    <string name="why_upgrade_zooming">Yakınlaştırma</string>
     <string name="notice">Bu uygulama hayatımı kolaylaştırmak için aşağıdaki üçüncü taraf kitaplıklarını kullanır. Teşekkürler.</string>
     <string name="third_party_licences">Üçüncü taraf lisansları</string>
     <string name="kotlin_title">Kotlin (programlama dili)</string>

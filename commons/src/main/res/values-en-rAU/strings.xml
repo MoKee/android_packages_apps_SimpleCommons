@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
+    <string name="nothing">Nothing</string>
     <string name="set_as">Set as</string>
     <string name="unknown">Unknown</string>
     <string name="never">Never</string>

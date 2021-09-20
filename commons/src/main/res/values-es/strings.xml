@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">Aceptar</string>
     <string name="cancel">Cancelar</string>
+    <string name="nothing">Nada</string>
     <string name="save_as">Guardar como</string>
     <string name="file_saved">Archivo guardado con éxito</string>
     <string name="invalid_file_format">Formato de archivo no válido</string>
@@ -126,7 +127,6 @@
     <string name="internal">Almacenamiento interno</string>
     <string name="sd_card">Tarjeta SD</string>
     <string name="root">Raíz /</string>
-    <string name="wrong_root_selected">Se seleccionó la carpeta incorrecta, seleccione la carpeta raíz de su tarjeta SD</string>
     <string name="sd_card_usb_same">La targeta SD i el dispositivo USB no pueden ser los mismos</string>
     <string name="app_on_sd_card">Parece que tienes la aplicación instalada en una tarjeta SD, lo que hace que los widgets de la aplicación no estén disponibles. Ni siquiera los verás en la lista de widgets disponibles.
         Es una limitación del sistema, por lo que si deseas usar los widgets, debes volver a colocar la aplicación en el almacenamiento interno.</string>
@@ -217,6 +217,7 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="are_you_sure_delete">¿Seguro que quieres eliminar este elemento?</string>
     <string name="are_you_sure_recycle_bin">¿Seguro que quieres enviar este elemento a la papelera?</string>
     <string name="do_not_ask_again">No volver a preguntar en esta sesión</string>
+    <string name="do_not_show_again">No mostrar de nuevo</string>
     <string name="yes">Sí</string>
     <string name="no">no</string>
     <string name="maybe">Quizás</string>
@@ -430,7 +431,6 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="no_entries_for_exporting">No se han encontrado entradas para exportar</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Parece que tienes un dispositivo USB conectado a tu dispositivo. Para asegurarse de que sus archivos aparezcan correctamente, debe otorgar permisos adicionales.</string>
-    <string name="wrong_root_selected_usb">Carpeta incorrecta, seleccione la carpeta raíz de su dispositivo USB</string>
     <string name="january">Enero</string>
     <string name="february">Febrero</string>
     <string name="march">Marzo</string>

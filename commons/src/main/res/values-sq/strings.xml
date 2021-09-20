@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">Në rregull</string>
     <string name="cancel">Anullo</string>
+    <string name="nothing">Nothing</string>
     <string name="save_as">Ruaji si</string>
     <string name="file_saved">U ruajt me sukses</string>
     <string name="invalid_file_format">Formati i skaderit i pavlefshëm</string>
@@ -119,7 +120,6 @@
     <string name="internal">I brendshëm</string>
     <string name="sd_card">Në kartën SD</string>
     <string name="root">Rrënja</string>
-    <string name="wrong_root_selected">Dosje e gabuar e zgjedhur, ju lutemi zgjidhni dosjen rrënjësore të kartës suaj SD</string>
     <string name="sd_card_usb_same">Shtigjet e kartës SD dhe pajisjes USB nuk mund të jenë të njëjta</string>
     <string name="app_on_sd_card">Duket se keni të instaluar aplikacionin në një kartë SD, gjë që i bën widgetet e aplikacioneve të padisponueshme.  Ju as nuk do t\'i shihni në listën e miniaplikacioneve të disponueshme.  Shtë një kufizim i sistemit, kështu që nëse dëshironi të përdorni widget-et, duhet ta zhvendosni aplikacionin përsëri në hapësirën e brendshme.</string>
     <string name="properties">Karakteristikat</string>
@@ -188,6 +188,7 @@
     <string name="title">Titulli</string>
     <string name="filename">Emri i skedarit</string>
     <string name="proceed_with_deletion">Jeni i sigurt që doni të vazhdoni me fshirjen?</string>
+    <string name="do_not_show_again">Mos e shfaq përsëri</string>
     <string name="yes">Po</string>
     <string name="no">Jo</string>
     <string name="today">Sot</string>

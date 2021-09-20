@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">ОК</string>
     <string name="cancel">Поништи</string>
+    <string name="nothing">Ништа</string>
     <string name="save_as">Сачувај као</string>
     <string name="file_saved">Фајл успешно сачуван</string>
     <string name="invalid_file_format">Погрешан формат датотеке</string>
@@ -135,7 +136,6 @@
     <string name="internal">Интерно</string>
     <string name="sd_card">SD Картица</string>
     <string name="root">Рут</string>
-    <string name="wrong_root_selected">Изабран је погрешан фолдер, изаберите РООТ фолдер ваше СД картице</string>
     <string name="sd_card_usb_same">СД картица и USB уређај путање не могу да буду исте</string>
     <string name="app_on_sd_card">Чини се да вам је апликација инсталирана на СД картици, што виџете апликације чини недоступним. Нећете их видети ни на листи доступних виџета.
 То је услед ограничење система, па ако желите да користите виџете, морате да вратите апликацију на унутрашњу меморију уређаја.</string>
@@ -227,6 +227,7 @@
     <string name="are_you_sure_delete">Да ли сте сигурни да желите да избришете ово?</string>
     <string name="are_you_sure_recycle_bin">Да ли сте сигурни да желите да преместите овај унос у Корпу за отпатке?</string>
     <string name="do_not_ask_again">Не питај поново у овој сесији</string>
+    <string name="do_not_show_again">Не приказуј поново</string>
     <string name="yes">Да</string>
     <string name="no">Не</string>
     <string name="maybe">Можда</string>
@@ -490,7 +491,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Чини се да сте на уређај прикључили USB уређај. Да бисте били сигурни да се његове датотеке исправно појављују, морате дати додатне дозволе.</string>
     <string name="confirm_usb_storage_access_text">Изаберите ROOT фолдер на USB уређају да би дозволили приступ</string>
-    <string name="wrong_root_selected_usb">Изабран је погрешан фолдер, изаберите РООТ фолдер вашег USB уређаја</string>
     <string name="january">Јануар</string>
     <string name="february">Februar</string>
     <string name="march">Март</string>

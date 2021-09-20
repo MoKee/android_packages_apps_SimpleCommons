@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">Լավ</string>
     <string name="cancel">Չեղարկել</string>
+    <string name="nothing">Nothing</string>
     <string name="save_as">Պահել ինչպես</string>
     <string name="set_as">Սահմանել որպես</string>
     <string name="unknown">Անհայտ</string>

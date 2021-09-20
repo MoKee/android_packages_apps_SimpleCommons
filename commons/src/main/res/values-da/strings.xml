@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Annuller</string>
+    <string name="nothing">Nothing</string>
     <string name="save_as">Gem som</string>
     <string name="file_saved">Fil gemt</string>
     <string name="invalid_file_format">Ugyldigt filformat</string>
@@ -123,7 +124,6 @@
     <string name="internal">Intern</string>
     <string name="sd_card">SD-kort</string>
     <string name="root">Rod</string>
-    <string name="wrong_root_selected">Forkert mappe valgt, vælg rodmappen på SD-kortet</string>
     <string name="sd_card_usb_same">Stierne til SD-kortet og USB-enheden kan ikke være ens</string>
     <string name="app_on_sd_card">Det ser ud til at du har appen installeret på et SD-kort. Det gør at appens widget ikke er tilgængelig og ikke kan ses på listen med widgets.
         Dette skyldes en begrænsning i systemet, så hvis du vil bruge appens widgets må du flytte appen tilbage til det interne lager.</string>
@@ -390,7 +390,6 @@
     <string name="exporting_some_entries_failed">Eksport mislykkedes delvist</string>
     <string name="no_entries_for_exporting">Der er ikke fundet indhold til eksport</string>
     <string name="usb">USB</string>
-    <string name="wrong_root_selected_usb">Den forkerte mappe er valgt, vælg rodmappen på din USB-enhed</string>
     <string name="january">Januar</string>
     <string name="february">Februar</string>
     <string name="march">Marts</string>

@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">U redu</string>
     <string name="cancel">Poništi</string>
+    <string name="nothing">Ništa</string>
     <string name="save_as">Spremi kao</string>
     <string name="file_saved">Datoteka uspješno spremljena</string>
     <string name="invalid_file_format">Nevažeći format datoteke</string>
@@ -129,7 +130,6 @@
     <string name="internal">Unutranji prostor za pohranu</string>
     <string name="sd_card">SD kartica</string>
     <string name="root">Korijenski</string>
-    <string name="wrong_root_selected">Odabrana je pogrešana mapa, molimo odaberite root mapu Vaše SD kartice</string>
     <string name="sd_card_usb_same">SD kartice i USB putevi uređaja ne mogu biti isti</string>
     <string name="app_on_sd_card">Čini se da je aplikacija instalirana na SD karticu, što čini widgete aplikacije nedostupnim. Nećete ih čak ni vidjeti na popisu dostupnih widgeta.
         To je ograničenje sustava, pa ako želite upotrebljavati widgete, morate vratiti aplikaciju na unutarnju pohranu..</string>
@@ -214,6 +214,7 @@
     <string name="are_you_sure_delete">Jeste li sigurni da želite izbrisati ovu stavku?</string>
     <string name="are_you_sure_recycle_bin">Jeste li sigurni da želite premjestiti ovu stavku u koš za smeće?</string>
     <string name="do_not_ask_again">Ne pitaj me više u ovoj sesiji</string>
+    <string name="do_not_show_again">Ne prikazuj ponovno</string>
     <string name="yes">Da</string>
     <string name="no">Ne</string>
     <plurals name="delete_warning">
@@ -445,7 +446,6 @@
     <string name="no_entries_for_exporting">Nije pronađen nijedan unos za izvoz</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Čini se da je na vaš uređaj priključen USB uređaj. Da biste bili sigurni da se njegove datoteke ispravno pojavljuju, morate dati dodatna dopuštenja.</string>
-    <string name="wrong_root_selected_usb">Odabrana mapa je pogrešna, odaberite root mapu svog USB uređaja</string>
     <string name="january">Siječanj</string>
     <string name="february">Veljača</string>
     <string name="march">Ožujak</string>

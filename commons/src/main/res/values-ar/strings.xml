@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">تم</string>
     <string name="cancel">إلغاء</string>
+    <string name="nothing">لا شيء</string>
     <string name="save_as">حفظ كـ</string>
     <string name="file_saved">تم حفظ الملف بنجاح</string>
     <string name="invalid_file_format">تنسيق ملف غير صالح</string>
@@ -144,7 +145,6 @@
     <string name="internal">الداخلية</string>
     <string name="sd_card">بطاقة SD</string>
     <string name="root">الجذر</string>
-    <string name="wrong_root_selected">تم اختيار مجلد خاطئ ، يرجى تحديد المجلد الجذر لجهاز OTG الخاص بك</string>
     <string name="sd_card_usb_same">لا يمكن أن تكون مسارات بطاقة SD وجهاز USB هي نفسها</string>
     <string name="app_on_sd_card">يبدو أنك تمتلك التطبيق مثبتًا على بطاقة SD ، مما يجعل أدوات التطبيق غير متاحة. حتى أنك لن تراهم في قائمة الأدوات المتاحة.
         إنه قيد على النظام ، لذا إذا كنت تريد استخدام الأدوات ، يجب عليك إعادة تشغيل التطبيق على وحدة التخزين الداخلية.</string>
@@ -236,6 +236,7 @@
     <string name="are_you_sure_delete">هل أنت متأكد أنك تريد حذف هذه العنصر؟</string>
     <string name="are_you_sure_recycle_bin">Are you sure you want to move this item in the Recycle Bin?</string>
     <string name="do_not_ask_again">لا تسأل مرة أخرى في هذه الجلسة</string>
+    <string name="do_not_show_again">لا تظهر مرة أخرى</string>
     <string name="yes">نعم</string>
     <string name="no">لا</string>
     <string name="maybe">ربما</string>
@@ -589,7 +590,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">يبدو أنك لديك جهاز OTG ملحق بجهازك. للتأكد من ظهور الملفات به بشكل صحيح، تحتاج إلى منح أذونات إضافية.</string>
     <string name="confirm_usb_storage_access_text">الرجاء اختيار المجلد الجذر لجهاز USB على الشاشة التالية، لمنح حق الوصول</string>
-    <string name="wrong_root_selected_usb">تم اختيار مجلد خاطئ ، يرجى تحديد المجلد الجذر لجهاز OTG الخاص بك</string>
     <string name="january">كانون الثاني</string>
     <string name="february">شباط</string>
     <string name="march">آذار</string>

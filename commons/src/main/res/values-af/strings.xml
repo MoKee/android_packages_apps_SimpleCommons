@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="cancel">Kanselleer</string>
+    <string name="nothing">Nothing</string>
     <string name="set_as">Stel as</string>
     <string name="unknown">Onbekend</string>
     <string name="never">Nooit</string>

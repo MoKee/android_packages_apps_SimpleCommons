@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="nothing">Nothing</string>
     <string name="none">Engin</string>
     <string name="custom">Sérsniðinn</string>
     <string name="remove">Fjarlægja</string>

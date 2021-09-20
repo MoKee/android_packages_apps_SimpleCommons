@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">Iawn</string>
     <string name="cancel">Canslo</string>
+    <string name="nothing">Dim byd</string>
     <string name="set_as">Gosod fel</string>
     <string name="unknown">Anhysybys</string>
     <string name="none">Dim</string>

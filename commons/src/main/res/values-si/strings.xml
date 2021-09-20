@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="nothing">Nothing</string>
     <string name="set_as">ලෙස සකසන්න</string>
     <string name="unknown">නොදනී</string>
     <string name="details">විස්තර</string>

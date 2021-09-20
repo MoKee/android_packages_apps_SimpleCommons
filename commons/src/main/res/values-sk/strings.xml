@@ -2,6 +2,8 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Zrušiť</string>
+    <string name="nothing">Nič</string>
+    <string name="later">Neskôr</string>
     <string name="save_as">Uložiť ako</string>
     <string name="file_saved">Súbor bol úspešne uložený</string>
     <string name="invalid_file_format">Neplatný formát súboru</string>
@@ -163,7 +165,6 @@
     <string name="internal">Interné</string>
     <string name="sd_card">SD karta</string>
     <string name="root">Koreňový priečinok</string>
-    <string name="wrong_root_selected">Bol zvolený nesprávny koreňový priečinok, prosím zvoľte SD kartu</string>
     <string name="sd_card_usb_same">Cesta k SD karte a USB zariadeniu nesmie byť rovnaká</string>
     <string name="app_on_sd_card">Vyzerá to tak, že máte aplikáciu nainštalovanú na SD karte, čo spôsobí nedostupnosť widgetov. Ani ich neuvidíte na zozname dostupných widgetov.
         Ide o systémové obmedzenie, čiže ak chcete widgety používať, musíte presunúť aplikáciu späť na internú pamäť.</string>
@@ -243,6 +244,8 @@
     <string name="call_from_sim_1">Volanie zo SIM 1</string>
     <string name="call_from_sim_2">Volanie zo SIM 2</string>
     <string name="toggle_filename">Prepnúť viditeľnosť názvov súborov</string>
+    <string name="move_to_top">Presunúť na začiatok</string>
+    <string name="move_to_bottom">Presunúť na koniec</string>
     <string name="sort_by">Na zoradenie použiť</string>
     <string name="name">Názov</string>
     <string name="size">Veľkosť</string>
@@ -269,6 +272,7 @@
     <string name="are_you_sure_delete">Ste si istý, že chcete vymazať túto položku?</string>
     <string name="are_you_sure_recycle_bin">Ste si istý, že chcete vyhodiť túto položku do odpadkového koša?</string>
     <string name="do_not_ask_again">Nepýtať sa už v tomto spustení</string>
+    <string name="do_not_show_again">Už nezobrazovať</string>
     <string name="yes">Áno</string>
     <string name="no">Nie</string>
     <string name="maybe">Možno</string>
@@ -307,6 +311,9 @@
     <string name="minutes_raw">minúty</string>
     <string name="hours_raw">hodiny</string>
     <string name="days_raw">dni</string>
+    <string name="seconds_letter">s</string>
+    <string name="minutes_letter">m</string>
+    <string name="hours_letter">h</string>
     <plurals name="seconds">
         <item quantity="one">%d sekunda</item>
         <item quantity="few">%d sekundy</item>
@@ -538,12 +545,15 @@
     <string name="startup">Po spustení</string>
     <string name="text">Text</string>
     <string name="migrating">Migrácia</string>
+    <string name="manage_shown_tabs">Správa zobrazených kariet</string>
     <string name="default_tab_to_open">Karta na otvorenie pri spustení aplikácie</string>
     <string name="contacts_tab">Kontakty</string>
     <string name="favorites_tab">Obľúbené</string>
     <string name="call_history_tab">História hovorov</string>
     <string name="groups_tab">Skupiny</string>
     <string name="last_used_tab">Naposledy použité</string>
+    <string name="files_tab">Súbory</string>
+    <string name="recent_files_tab">Nedávne súbory</string>
     <string name="restore_this_file">Obnoviť tento súbor</string>
     <string name="restore_selected_files">Obnoviť vybrané súbory</string>
     <string name="restore_all_files">Obnoviť všetky súbory</string>
@@ -573,7 +583,6 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Vyzerá to tak, že máte k zariadeniu pripoené USB zariadenie. Pre správne zobrazovanie sa jeho súborov sú potrebné ďalšie oprávnenia.</string>
     <string name="confirm_usb_storage_access_text">Na nasledujúcej obrazovke vyberte koreňovú zložku USB zariadenia pre povolenie oprávnenia</string>
-    <string name="wrong_root_selected_usb">Bol zvolený nesprávny koreňový priečinok, prosím zvoľte USB zariadenie</string>
     <string name="january">Január</string>
     <string name="february">Február</string>
     <string name="march">Marec</string>
@@ -654,6 +663,9 @@
     <string name="rate_us_prompt">Ahoj,\n\nzdá sa, že túto aplikáciu už nejakú dobu používate a naozaj si to vážime.\n\nAk vás môžeme požiadať o láskavosť, napíšte nám recenziu na Google Play. To by nám veľmi pomohlo.\n\nBez ohľadu na to, ako sa rozhodnete, túto správu viackrát neuvidíte.\n\nVďaka!</string>
     <string name="rate_our_app">Ohodnoťte prosím našu aplikáciu :)</string>
     <string name="thank_you">Ďakujeme</string>
+    <string name="widget_locked_pro">Widget je uzamknutý.\nPre odomknutie aktualizujte na verziu Pro.</string>
+    <string name="widget_locked">            Widget je uzamknutý.&lt;br&gt;Pre odemkutie si zakúpte aplikáciu &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt;.
+        </string>
     <string name="app_launcher_short">Spúšťač aplikácií</string>
     <string name="calculator_short">Kalkulačka</string>
     <string name="calendar_short">Kalendár</string>
@@ -721,13 +733,17 @@
     <string name="why_upgrade_font_size_customization">Prispôsobenie veľkosti písiem</string>
     <string name="why_upgrade_private_contact_sharing">Voliteľné súkromné zdieľanie kontaktov v rámci našich aplikácií</string>
     <string name="why_upgrade_customizable_contact_ringtones">Prispôsobiteľné vyzváňacie tóny kontaktov</string>
+    <string name="why_upgrade_contact_filtering">filtrovanie kontaktov</string>
     <string name="why_upgrade_checklists">Zoznamy</string>
     <string name="why_upgrade_different_note_per_widget">Rôzne poznámky a farby na widgety</string>
+    <string name="why_upgrade_note_locking">záverečné poznámky</string>
     <string name="why_upgrade_date_and_time_format">Prispôsobenie formátov dátumu a času</string>
     <string name="why_upgrade_shortcuts">Zástupcovia na Domovskej obrazovke</string>
     <string name="why_upgrade_file_compression">Podpora kompresie súborov</string>
+    <string name="why_upgrade_recents_tab">Karta s nedávnymi súbormi</string>
     <string name="why_upgrade_background_color_customization">Prispôsobenie farieb pozadia</string>
     <string name="why_upgrade_file_importing">Podpora importu súborov</string>
+    <string name="why_upgrade_zooming">priblíženie</string>
     <string name="notice">Táto aplikácia používa na uľahčenie práce nasledovné knižnice tretích strán. Ďakujeme.</string>
     <string name="third_party_licences">Knižnice tretích strán</string>
     <string name="kotlin_title">Kotlin (programovací jazyk)</string>
