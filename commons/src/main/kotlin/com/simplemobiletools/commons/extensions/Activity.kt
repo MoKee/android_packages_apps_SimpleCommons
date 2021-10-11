@@ -553,6 +553,16 @@ fun BaseSimpleActivity.deleteFilesBg(files: List<FileDirItem>, allowDeleteFolder
         return
     }
 
+    if (isRPlus()) {
+        val fileUris = getFileUrisFromFileDirItems(files)
+        deleteSDK30Uris(fileUris) { success ->
+            runOnUiThread {
+                callback?.invoke(success)
+            }
+        }
+        return
+    }
+
     var wasSuccess = false
     handleSAFDialog(files[0].path) {
         if (!it) {
@@ -582,6 +592,16 @@ fun BaseSimpleActivity.deleteFile(fileDirItem: FileDirItem, allowDeleteFolder: B
 }
 
 fun BaseSimpleActivity.deleteFileBg(fileDirItem: FileDirItem, allowDeleteFolder: Boolean = false, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
+    if (isRPlus()) {
+        val fileUris = getFileUrisFromFileDirItems(arrayListOf(fileDirItem))
+        deleteSDK30Uris(fileUris) { success ->
+            runOnUiThread {
+                callback?.invoke(success)
+            }
+        }
+        return
+    }
+
     val path = fileDirItem.path
     val file = File(path)
     if (file.absolutePath.startsWith(internalStoragePath) && !file.canWrite()) {
@@ -701,6 +721,9 @@ fun BaseSimpleActivity.renameFile(oldPath: String, newPath: String, callback: ((
                 }
             }
         }
+    } else if (isRPlus()) {
+        val success = File(oldPath).renameTo(File(newPath))
+        callback?.invoke(success)
     } else {
         val oldFile = File(oldPath)
         val newFile = File(newPath)
