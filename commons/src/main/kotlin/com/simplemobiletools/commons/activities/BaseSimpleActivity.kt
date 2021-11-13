@@ -134,7 +134,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun updateStatusbarColor(color: Int) {
-        window.statusBarColor = color.darkenColor()
+        window.statusBarColor = color
 
         if (isMarshmallowPlus()) {
             if (color.getContrastColor() == 0xFF333333.toInt()) {
@@ -193,7 +193,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             }
         }
 
-        val drawableId = if (useCrossAsBack) R.drawable.ic_cross_vector else R.drawable.ic_arrow_left_vector
+        val drawableId = if (useCrossAsBack) R.drawable.ic_cross_original_vector else R.drawable.ic_arrow_left_original_vector
         val icon = resources.getColoredDrawableWithColor(drawableId, color)
         supportActionBar?.setHomeAsUpIndicator(icon)
     }
