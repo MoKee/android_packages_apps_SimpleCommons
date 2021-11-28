@@ -30,6 +30,7 @@
     <string name="select_a_different_color">Válasszon egy másik színt</string>
     <string name="download">Letöltés</string>
     <string name="notification">Értesítés</string>
+    <string name="notifications">Értesítések</string>
     <string name="email">E-mail</string>
     <string name="previous">Előző</string>
     <string name="playpause">Lejátszás / Megállítás</string>
@@ -39,6 +40,7 @@
     <string name="request_the_required_permissions">A szükséges engedélyek kérése</string>
     <string name="no_access_to_contacts">Az alkalmazás nem tudta elérni a névjegyeket</string>
     <string name="insert_text_here">Ide írjon szöveget</string>
+    <string name="call_person">%s hívása</string>
     <string name="change_view_type">Nézet típus változtatása</string>
     <string name="grid">Rács</string>
     <string name="list">Lista</string>
@@ -52,6 +54,8 @@
     <string name="block_number">Számtiltás</string>
     <string name="block_numbers">Több szám tiltása</string>
     <string name="blocked_numbers">Letiltott számok</string>
+    <string name="export_blocked_numbers">Letiltott számok exportálása</string>
+    <string name="import_blocked_numbers">Letiltott számok importálása</string>
     <string name="must_make_default_dialer">Ezt a Tárcsázót kell használnia alapértelmezettként, hogy a tiltott számok valóban tiltásra kerüljenek.</string>
     <string name="set_as_default">Beállítás alapértelmezettként</string>
     <string name="block_confirmation">Biztos, hogy letiltja a következőt: \"%s\"?</string>
@@ -157,6 +161,7 @@
     <string name="internal">Belső</string>
     <string name="sd_card">SD kártya</string>
     <string name="root">Gyökérkönyvtár</string>
+    <string name="wrong_root_selected">Rossz mappát választott ki, válassza ki az SD kártya főkönyvtárát</string>
     <string name="sd_card_usb_same">Az SD kártya és az USB eszköz elérési útvonala nem lehet azonos</string>
     <string name="app_on_sd_card">Úgy tűnik, hogy az alkalmazás az SD-kártyára van telepítve, ami miatt az alkalmazásikonok nem érhetők el. Nem láthatja őket a rendelkezésre álló kisalkalmazások listáján.
         Ez egy rendszerkorlátozás, ezért ha még szeretné használni ezeket, vissza kell helyeznie az alkalmazást a belső tárhelyre.</string>
@@ -204,6 +209,7 @@
     <string name="shared_theme_note">Vegye figyelembe, hogy annak ellenére, hogy a Pro alkalmazásverziót használja, technikai okokból továbbra is szüksége van a Simple Thank You-ra.  Ez gondoskodik a színszinkronizálásról.</string>
     <string name="light_theme">Világos</string>
     <string name="dark_theme">Sötét</string>
+    <string name="auto_theme">Automatikus</string>
     <string name="solarized">Kiégetett</string>
     <string name="dark_red">Sötét és piros</string>
     <string name="white">Fehér</string>
@@ -242,6 +248,7 @@
     <string name="name">Név</string>
     <string name="size">Méret</string>
     <string name="last_modified">Utolsó módosítás</string>
+    <string name="date_created">Létrehozási dátum</string>
     <string name="date_taken">Dátum</string>
     <string name="title">Cím</string>
     <string name="filename">Fájlnév</string>
@@ -281,9 +288,12 @@
     <string name="insert_pattern">Minta beillesztése</string>
     <string name="wrong_pattern">Hibás minta</string>
     <string name="repeat_pattern">Minta ismétlése</string>
+    <string name="biometrics">Biometrikus</string>
     <string name="fingerprint">Ujjlenyomat</string>
     <string name="add_fingerprint">Ujjlenyomat hozzáadása</string>
     <string name="place_finger">Helyezze az ujját az ujjlenyomat érzékelőre</string>
+    <string name="open_biometric_dialog">A biometrikus azonosítás dialógusainak megnyitása</string>
+    <string name="authenticate">Hitelesítés</string>
     <string name="authentication_failed">Sikertelen hitelesítés</string>
     <string name="authentication_blocked">A hitelesítés blokkolva, próbálkozzon újra egy kicsit később</string>
     <string name="no_fingerprints_registered">Nincsenek regisztrált ujjlenyomatok, kérjük, adjon hozzá néhányat a készülék Beállításaiban</string>
@@ -434,6 +444,7 @@
     <string name="during_day_at">Napközben %02d:%02d-kor</string>
     <string name="settings">Beállítások</string>
     <string name="purchase_simple_thank_you">Simple Thank You megvásárlása</string>
+    <string name="general_settings">Általános</string>
     <string name="customize_colors">Színek testreszabása</string>
     <string name="customize_colors_locked">Színek testreszabása (Zárolva)</string>
     <string name="customize_widget_colors">Kisalkalmazás színeinek testreszabása</string>
@@ -470,6 +481,7 @@
     <string name="settings_imported_successfully">A Beállítás-importálás sikeresen lezajlott</string>
     <string name="start_name_with_surname">A családnévvel kezdődjön a név</string>
     <string name="clear_cache">A gyorsítótár törlése</string>
+    <string name="show_call_confirmation_dialog">Hívás előtt meg kell erősítenie a hívási szándékát</string>
     <string name="visibility">Láthatóság</string>
     <string name="security">Biztonság</string>
     <string name="scrolling">Görgetés</string>
@@ -479,6 +491,7 @@
     <string name="startup">Indítás</string>
     <string name="text">Szöveg</string>
     <string name="migrating">Költöztetés</string>
+    <string name="thumbnails">Miniatűrök</string>
     <string name="manage_shown_tabs">A látható fülek kezelése</string>
     <string name="default_tab_to_open">A fül megnyitása az alkalmazás indításakor</string>
     <string name="contacts_tab">Névjegyek</string>
@@ -515,6 +528,7 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Úgy tűnik, a készülékhez egy USB eszköz van csatlakoztatva. További engedélyeket kell megadnia, hogy a fájlok megfelelően jelenjenek meg.</string>
     <string name="confirm_usb_storage_access_text">Kérjük, válassza ki az USB-eszköz gyökérmappáját a következő képernyőn, hogy hozzáférést biztosítson</string>
+    <string name="wrong_root_selected_usb">Rossz mappát választott ki, válassza ki az USB eszköz főkönyvtárát</string>
     <string name="january">Január</string>
     <string name="february">Február</string>
     <string name="march">Március</string>
@@ -570,18 +584,14 @@
     <string name="website_label">A forráskódok megtekintéséhez</string>
     <string name="email_label">Küldje el visszajelzését vagy javaslatait</string>
     <string name="upgrade_to_pro">Frissítés Pro verzióra</string>
-    <string name="more_apps_underlined"><u>További alkalmazások</u></string>
-    <string name="more_apps_from_us_underlined"><u>További alkalmazásaink</u></string>
-    <string name="third_party_licences_underlined"><u>Harmadik fél licencek</u></string>
-    <string name="invite_friends_underlined"><u>Barátok meghívása</u></string>
     <string name="share_text">Gyere el %1$s - %2$s</string>
     <string name="invite_via">Hívja meg</string>
-    <string name="rate_us_underlined"><u>Értékeljen minket</u></string>
     <string name="rate">Értékelés</string>
     <string name="donate">Támogatás</string>
     <string name="donate_underlined"><u>Támogatás</u></string>
     <string name="follow_us">Kövessen minket</string>
     <string name="copyright">%1$s verzió\nSzerzői jogok: © Simple Mobile Tools %2$d</string>
+    <string name="other">Egyéb</string>
     <string name="additional_info">Kiegészítő információ</string>
     <string name="app_version">Alkalmazás verzió: %s</string>
     <string name="device_os">Eszköz OS: %s</string>
@@ -596,8 +606,6 @@
     <string name="rate_our_app">Kérjük, értékelje alkalmazásunkat :)</string>
     <string name="thank_you">Köszönjük!</string>
     <string name="widget_locked_pro">A kisalkalmazás zárolt.\nFeloldásához kérjük frissítsen a Pro verzióra.</string>
-    <string name="widget_locked">            A kisalkalmazás nem ingyenes.&lt;br&gt;Használatához vásárolja meg a következőt: &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt;.
-        </string>
     <string name="app_launcher_short">Alkalmazásindító-fiók</string>
     <string name="calculator_short">Számológép</string>
     <string name="calendar_short">Naptár</string>
@@ -614,7 +622,7 @@
     <string name="sms_messenger_short">SMS-küldő</string>
     <string name="thank_you_short">Thank You</string>
     <string name="voice_recorder_short">Hangrögzítő</string>
-    <string name="sideloaded_app">            Úgy tűnik, az alkalmazás verziója nem megfelelő. Kérjük, töltsön le egy eredeti verziót <a href="%s">innen</a>.
+    <string name="sideloaded_app">            Úgy tűnik, az alkalmazás verziója nem megfelelő. Kérjük, töltsön le egy eredeti verziót &lt;a href="%s"&gt;innen&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Gyakran Ismételt Kérdések</string>
     <string name="before_asking_question">Mielőtt feltenné egy kérdést, először olvassa el ezt:</string>
@@ -622,8 +630,6 @@
     <string name="faq_1_text_commons">Valószínűleg azért, mert áthelyezte az alkalmazást egy SD kártyára. Ez Android rendszerkorlátozás, amely ebben az esetben elrejti az adott 
         alkalmazások ikonját. Az egyetlen megoldás az alkalmazás visszahelyezése a belső tárhelyre az készülék beállításaiban.</string>
     <string name="faq_2_title_commons">Szeretném támogatni, de nem tudok pénzt adni. Van még valami, amit tehetek?</string>
-    <string name="faq_2_text_commons">Természetesen. Megoszthatja az alkalmazásokról szóló információkat vagy visszajelzéseket és értékeléseket adhat. Segítséget is nyújthat azzal is, hogy az alkalmazásokat egy új nyelvre fordítja, vagy csak frissíti a meglévő fordításokat.
-        Az útmutatót megtalálhatja a https://github.com/SimpleMobileTools/General-Discussion címen, vagy csak írjon egy üzenetet a hello@simplemobiletools.com, ha segítségre van szüksége.</string>
     <string name="faq_3_title_commons">Tévedésből töröltem néhány fájlt, hogyan tudom visszaszerezni?</string>
     <string name="faq_3_text_commons">Sajnos nem lehet. A fájlok azonnal törlődnek a megerősítő párbeszédablak után, ott nincs elérhető Lomtár.</string>
     <string name="faq_4_title_commons">Nem tetszenek a kisalkalmazások színei, meg tudom változtatni őket?</string>
@@ -645,6 +651,9 @@
         Ha az összes elemet ki akarja jelölni, csak hosszan nyomja meg az egyik elemet, majd kattintson a bal felső sarokban lévő kiválasztott elem számlálójára. Ez kijelöli vagy leválasztja az összeset.</string>
     <string name="faq_10_title_commons">Megvettem már az alkalmazást, de nem tudom letölteni másik készülékre.</string>
     <string name="faq_10_text_commons">Próbálja meg törölni a Google Áruház gyorsítótárát majd újraindítani a telefont. Ez egy Google Áruház hiba, nem függ az alkalmazástól.</string>
+    <string name="contributors">Közreműködők</string>
+    <string name="translation">Fordítás</string>
+    <string name="translation_czech">Csehország</string>
     <string name="why_upgrade">Szerezze meg most a Pro verziót!</string>
     <string name="why_upgrade_basic_version">Alap</string>
     <string name="why_upgrade_pro_version">Pro</string>

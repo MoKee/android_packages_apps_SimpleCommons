@@ -566,7 +566,7 @@
     <string name="flashlight_short">Svetilka</string>
     <string name="gallery_short">Galerija</string>
     <string name="notes_short">Zapiski</string>
-    <string name="sideloaded_app">            Kot kaže je vaša različica aplikacije poškodovana. Prenesite izvirno različico &lt;a href=\"%s\"&gt;tukaj&lt;/a&gt;.
+    <string name="sideloaded_app">            Kot kaže je vaša različica aplikacije poškodovana. Prenesite izvirno različico &amp;lt;a href="%s"&amp;gt;tukaj&amp;lt;/a&amp;gt;.
         </string>
     <string name="frequently_asked_questions">Pogosta vprašanja</string>
     <string name="before_asking_question">Preden postavite vprašanje, preberite</string>

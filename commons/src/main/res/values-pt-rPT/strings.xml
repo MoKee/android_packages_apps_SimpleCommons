@@ -594,8 +594,6 @@
     <string name="rate_us_prompt">Olá,\n\nparece que você está usando este app por um bom tempo, e nós realmente agradecemos por isso.\n\nSe pudermos lhe pedir um favor, por favor, avalie-nos no Google Play. Isso ajudar-nos-ia muito.\n\nNão importa como você decida, você não verá essa mensagem novamente.\n\nObrigado!</string>
     <string name="rate_our_app">Avalie a nossa aplicação, por favor :)</string>
     <string name="thank_you">Obrigado</string>
-    <string name="widget_locked">            O widget está bloqueado.&lt;br&gt;Por favor, compre a &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt; para o desbloquear.
-        </string>
     <string name="app_launcher_short">Launcher de aplicações</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendário</string>
@@ -612,7 +610,7 @@
     <string name="sms_messenger_short">Mensageiro SMS</string>
     <string name="thank_you_short">Obrigado</string>
     <string name="voice_recorder_short">Gravador de Voz</string>
-    <string name="sideloaded_app">            Parece que a versão da aplicação está corrompida. Por favor, transfira a versão original &lt;a href="%s"&gt;aqui&lt;/a&gt;.
+    <string name="sideloaded_app">            Parece que a versão da aplicação está corrompida. Por favor, transfira a versão original &amp;lt;a href="%s"&amp;gt;aqui&amp;lt;/a&amp;gt;.
         </string>
     <string name="frequently_asked_questions">Perguntas Frequentes</string>
     <string name="before_asking_question">Antes de fazer uma pergunta, leia primeiro a</string>

@@ -673,7 +673,7 @@
     <string name="flashlight_short">ضوء الفلاش</string>
     <string name="gallery_short">الاستوديو</string>
     <string name="notes_short">الملاحظات</string>
-    <string name="sideloaded_app">            يبدو أن إصدار التطبيق الخاص بك تالف. الرجاء تحميل النسخة الأصلية <a href="%s">هنا</a>.
+    <string name="sideloaded_app">            يبدو أن إصدار التطبيق الخاص بك تالف. الرجاء تحميل النسخة الأصلية &lt;a href="%s"&gt;هنا&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">الأسئلة المتداولة</string>
     <string name="before_asking_question">قبل أن تسأل سؤالاً، يرجى أولاً قراءة</string>

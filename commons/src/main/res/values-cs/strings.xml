@@ -694,7 +694,7 @@
     <string name="sms_messenger_short">SMS messenger</string>
     <string name="thank_you_short">Ďekujeme</string>
     <string name="voice_recorder_short">Hlasový záznamník</string>
-    <string name="sideloaded_app">            Zdá se, že verze aplikace je poškozena. Stáhněte si prosím původní verzi &lt;a href="%s"&gt;zde&lt;/a&gt;.
+    <string name="sideloaded_app">            Zdá se, že verze aplikace je poškozena. Stáhněte si prosím původní verzi &amp;lt;a href="%s"&amp;gt;zde&amp;lt;/a&amp;gt;.
         </string>
     <string name="frequently_asked_questions">Často kladené otázky</string>
     <string name="before_asking_question">Před položením otázky, prosím nejprve čtěte</string>

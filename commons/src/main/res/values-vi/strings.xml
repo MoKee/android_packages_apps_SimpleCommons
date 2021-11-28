@@ -560,8 +560,6 @@
     <string name="rate_our_app">Hãy đánh giá ứng dụng của chúng tôi :)</string>
     <string name="thank_you">Cảm ơn</string>
     <string name="widget_locked_pro">Tiện ích bị khóa.\nVui lòng nâng cấp lên phiên bản Pro để mở khóa.</string>
-    <string name="widget_locked">            Tiện ích bị khoá.&lt;br&gt;Hãy mua &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt; để mở khóa nó.
-        </string>
     <string name="app_launcher_short">Trình khởi chạy ứng dụng</string>
     <string name="calculator_short">Máy tính</string>
     <string name="calendar_short">Lịch</string>
@@ -578,7 +576,7 @@
     <string name="sms_messenger_short">Máy nhắn tin</string>
     <string name="thank_you_short">Cảm ơn bạn</string>
     <string name="voice_recorder_short">Trình ghi âm</string>
-    <string name="sideloaded_app">             Có vẻ như phiên bản ứng dụng của bạn bị hỏng. Vui lòng tải xuống phiên bản gốc &lt;a href="%s"&gt;tại đây&lt;/a&gt;.
+    <string name="sideloaded_app">             Có vẻ như phiên bản ứng dụng của bạn bị hỏng. Vui lòng tải xuống phiên bản gốc &amp;lt;a href="%s"&amp;gt;tại đây&amp;lt;/a&amp;gt;.
          </string>
     <string name="frequently_asked_questions">Câu hỏi thường gặp</string>
     <string name="before_asking_question">Trước khi bạn đặt câu hỏi, trước tiên hãy đọc</string>

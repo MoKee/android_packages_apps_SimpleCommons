@@ -568,7 +568,7 @@
     <string name="flashlight_short">Linterna</string>
     <string name="gallery_short">Galeria</string>
     <string name="notes_short">Notas</string>
-    <string name="sideloaded_app">            Parece que la versión de tu aplicación está dañada. Por favor, descarga la versión original &lt;a href="%s"&gt;aquí&lt;/a&gt;.
+    <string name="sideloaded_app">            Parece que la versión de tu aplicación está dañada. Por favor, descarga la versión original &amp;lt;a href="%s"&amp;gt;aquí&amp;lt;/a&amp;gt;.
         </string>
     <string name="frequently_asked_questions">Preguntas frecuentes</string>
     <string name="before_asking_question">Antes de hacer una pregunta, primero lea las</string>

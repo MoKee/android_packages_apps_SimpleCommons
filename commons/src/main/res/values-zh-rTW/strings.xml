@@ -564,7 +564,7 @@
     <string name="sms_messenger_short">簡訊</string>
     <string name="thank_you_short">謝謝你</string>
     <string name="voice_recorder_short">錄音機</string>
-    <string name="sideloaded_app">            應用版本似乎已損壞。請下載<a href="%s">此处</a>.的原始版本
+    <string name="sideloaded_app">            應用版本似乎已損壞。請下載&lt;a href="%s"&gt;此处&lt;/a&gt;.的原始版本
         </string>
     <string name="frequently_asked_questions">常見問題</string>
     <string name="before_asking_question">在你發問之前，請先閱讀</string>

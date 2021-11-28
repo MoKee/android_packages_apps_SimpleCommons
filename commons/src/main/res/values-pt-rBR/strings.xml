@@ -584,7 +584,7 @@
     <string name="sms_messenger_short">Mensageiro SMS</string>
     <string name="thank_you_short">Obrigado</string>
     <string name="voice_recorder_short">Gravador de Voz</string>
-    <string name="sideloaded_app">            Parece que sua versão do aplicativo está corrompida. Por favor, baixe a versão original &lt;a href=\"%s\"&gt;aqui&lt;/a&gt;.
+    <string name="sideloaded_app">            Parece que sua versão do aplicativo está corrompida. Por favor, baixe a versão original &amp;lt;a href="%s"&amp;gt;aqui&amp;lt;/a&amp;gt;.
         </string>
     <string name="frequently_asked_questions">Perguntas frequentes</string>
     <string name="before_asking_question">Antes de fazer uma pergunta, leia primeiro a</string>

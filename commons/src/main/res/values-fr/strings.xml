@@ -589,7 +589,7 @@
     <string name="sms_messenger_short">SMS Messenger</string>
     <string name="thank_you_short">Merci</string>
     <string name="voice_recorder_short">Enregistreur vocal</string>
-    <string name="sideloaded_app">            La version de l\'application semble être corrompue. Téléchargez la version originale de <a href="%s">ici </a>.
+    <string name="sideloaded_app">            La version de l'application semble être corrompue. Téléchargez la version originale de &lt;a href="%s"&gt;ici &lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Foire aux questions (FAQ)</string>
     <string name="before_asking_question">Avant de poser une question, consultez d\'abord la</string>

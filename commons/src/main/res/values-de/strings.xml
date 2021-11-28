@@ -567,7 +567,7 @@
     <string name="gallery_short">Galerie</string>
     <string name="notes_short">Notizen</string>
     <string name="thank_you_short">Vielen Dank</string>
-    <string name="sideloaded_app">            Es sieht so aus, als ob Ihre App-Version beschädigt ist. Bitte laden Sie die Originalversion &lt;a href=\"%s\"&gt;hier herunter&lt;/a&gt;.
+    <string name="sideloaded_app">            Es sieht so aus, als ob Ihre App-Version beschädigt ist. Bitte laden Sie die Originalversion &amp;lt;a href="%s"&amp;gt;hier herunter&amp;lt;/a&amp;gt;.
         </string>
     <string name="frequently_asked_questions">Häufig gestellte Fragen</string>
     <string name="before_asking_question">Bevor du eine Frage stellst, bitte lies diese Seite:</string>

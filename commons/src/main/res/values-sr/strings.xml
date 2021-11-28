@@ -570,7 +570,7 @@
     <string name="flashlight_short">Батеријска лампа</string>
     <string name="gallery_short">Галерија</string>
     <string name="notes_short">Напомене</string>
-    <string name="sideloaded_app">          Изгледа да је ваша апликација оштећена. Преузмите оригиналну верзију са  &lt;a href=\"%s\"&gt;here&lt;/a&gt;.
+    <string name="sideloaded_app">          Изгледа да је ваша апликација оштећена. Преузмите оригиналну верзију са  &amp;lt;a href="%s"&amp;gt;here&amp;lt;/a&amp;gt;.
         </string>
     <string name="frequently_asked_questions">Чеcто Поcтављана Питања</string>
     <string name="before_asking_question">Прије него питате нешто прочитајте</string>

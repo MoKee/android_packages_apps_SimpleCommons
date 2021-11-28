@@ -608,7 +608,7 @@
     <string name="rate_our_app">Hinda meie rakendust palun :)</string>
     <string name="thank_you">Aitäh</string>
     <string name="widget_locked_pro">Vidin on lukus.\nSelle avamiseks minge üle Pro versioonile.</string>
-    <string name="widget_locked">            Vidin on lukus.&lt;br&gt;Palun ostke &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Lihtne aitöh&lt;/a&gt;selle avamiseks.
+    <string name="widget_locked">            Vidin on lukus.&lt;br&gt;Palun ostke &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Lihtne aitäh&lt;/a&gt; selle avamiseks.
         </string>
     <string name="app_launcher_short">Rakenduste käivitaja</string>
     <string name="calculator_short">Kalkulaator</string>
@@ -626,7 +626,7 @@
     <string name="sms_messenger_short">SMS Messenger</string>
     <string name="thank_you_short">Aitäh</string>
     <string name="voice_recorder_short">Helisalvesti</string>
-    <string name="sideloaded_app">            Tundub, et teie rakenduse versioon on rikutud. Palun laadige alla originaalversioon &lt;a href=\"%s\"&gt;siia&lt;/a&gt;.
+    <string name="sideloaded_app">            Tundub, et teie rakenduse versioon on rikutud. Palun laadige alla originaalversioon &amp;lt;a href="%s"&amp;gt;siia&amp;lt;/a&amp;gt;.
         </string>
     <string name="frequently_asked_questions">Korduma Kippuvad Küsimused</string>
     <string name="before_asking_question">Enne küsimuse esitamist lugege palun esmalt</string>

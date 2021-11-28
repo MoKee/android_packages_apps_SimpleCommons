@@ -615,7 +615,7 @@
     <string name="flashlight_short">Ліхтарик</string>
     <string name="gallery_short">Галерея</string>
     <string name="notes_short">Нотатки</string>
-    <string name="sideloaded_app">            Схоже, ви встановили невірну версію програми. Будь ласка, скачайте оригінальну версію &lt;a href="%s"&gt;here&lt;/a&gt;.
+    <string name="sideloaded_app">            Схоже, ви встановили невірну версію програми. Будь ласка, скачайте оригінальну версію &amp;lt;a href="%s"&amp;gt;here&amp;lt;/a&amp;gt;.
         </string>
     <string name="frequently_asked_questions">Часті запитання</string>
     <string name="before_asking_question">Перед тим як задати питання, будь ласка, спочатку прочитайте</string>
