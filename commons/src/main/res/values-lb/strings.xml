@@ -17,6 +17,7 @@
     <string name="default_color">Standard</string>
     <string name="save">Späicheren</string>
     <string name="dark_theme">Däischter</string>
+    <string name="auto_theme">Automatesch</string>
     <string name="custom">Personaliséiert</string>
     <string name="delete">Läschen</string>
     <string name="share">Deelen</string>
@@ -32,6 +33,7 @@
     <string name="minutes_raw">Minutten</string>
     <string name="hours_raw">Stonnen</string>
     <string name="usb">USB</string>
+    <string name="other">Aner</string>
     <string name="calendar_short">Kalenner</string>
     <string name="camera_short">Fotoapparat</string>
 </resources>

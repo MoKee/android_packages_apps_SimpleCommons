@@ -157,6 +157,7 @@
          Pasi të lëshohet, thjesht vendosni përsëri ikonën e paracaktuar portokalli #F57C00.  Ju mund të duhet të riinstaloni aplikacionin në rastin më të keq.</string>
     <string name="share_colors_success">Ngjyrat u azhurnuan me sukses.  Një Temë e re e quajtur \'Shared\' është shtuar, ju lutemi përdorni atë për azhurnimin e të gjitha ngjyrave të aplikacioneve në të ardhmen.</string>
     <string name="light_theme">Dritat</string>
+    <string name="auto_theme">Automatik</string>
     <string name="solarized">I solarizuar</string>
     <string name="dark_red">E kuqe e errët</string>
     <string name="black_white">E Zezë dhe e Bardhë</string>
@@ -210,6 +211,7 @@
     <string name="no_sound">Nuk ka tingull</string>
     <string name="settings">Parametrat</string>
     <string name="purchase_simple_thank_you">Blerje thjeshtë faleminderit</string>
+    <string name="general_settings">Të përgjithshme</string>
     <string name="customize_colors">Rregullo ngjyrat</string>
     <string name="customize_widget_colors">Rregullo ngjyrat e widget-it</string>
     <string name="use_english_language">Përdorni gjuhën angleze</string>
@@ -237,11 +239,15 @@
     <string name="monday">E hënë</string>
     <string name="saturday">E shtunë</string>
     <string name="sunday">E diel</string>
+    <string name="other">Tjetër</string>
     <string name="calendar_short">Kalendari</string>
     <string name="camera_short">Kamera</string>
     <string name="clock_short">Ora</string>
     <string name="flashlight_short">Elektriku i dorës</string>
     <string name="gallery_short">Galeria</string>
     <string name="notes_short">Shënime</string>
+    <string name="contributors">Kontribuesit</string>
+    <string name="translation">Përkthimet</string>
+    <string name="translation_czech">Çeki</string>
     <string name="why_upgrade_basic_version">Bazik</string>
 </resources>

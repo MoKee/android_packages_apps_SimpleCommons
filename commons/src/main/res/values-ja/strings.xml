@@ -26,6 +26,7 @@
     <string name="select_a_different_color">別の色を選択する</string>
     <string name="download">ダウンロード</string>
     <string name="notification">通知</string>
+    <string name="notifications">通知</string>
     <string name="email">メール</string>
     <string name="previous">前へ</string>
     <string name="next">次へ</string>
@@ -167,6 +168,7 @@
     <string name="share_colors_success">色の更新に成功しました。「共有」と呼ばれる新しいテーマが追加されました。今後すべてのアプリの色を更新するために使用してください。</string>
     <string name="light_theme">ライト</string>
     <string name="dark_theme">ダーク</string>
+    <string name="auto_theme">オート</string>
     <string name="solarized">ｿﾗﾘｾﾞｰｼｮﾝ</string>
     <string name="dark_red">ダークレッド</string>
     <string name="black_white">モノクロ</string>
@@ -331,6 +333,7 @@
     <string name="no_sound">サウンドなし</string>
     <string name="settings">設定</string>
     <string name="purchase_simple_thank_you">寄付で感謝を伝える</string>
+    <string name="general_settings">全般</string>
     <string name="customize_colors">表示色のカスタマイズ</string>
     <string name="customize_widget_colors">ウィジェットの色をカスタマイズ</string>
     <string name="use_english_language">英語で表示する</string>
@@ -365,6 +368,7 @@
     <string name="saving_label">保存中</string>
     <string name="startup">スタートアップ</string>
     <string name="text">テキスト</string>
+    <string name="thumbnails">サムネイル設定</string>
     <string name="favorites_tab">お気に入り</string>
     <string name="restore_this_file">このファイルを復元</string>
     <string name="restore_selected_files">選択したファイルを復元</string>
@@ -439,16 +443,13 @@
     <string name="website_label">ソースコードはこちら</string>
     <string name="email_label">ご意見やご提案をお送りください</string>
     <string name="upgrade_to_pro">Pro へのアップグレード</string>
-    <string name="more_apps_underlined"><u>他のアプリ</u></string>
-    <string name="third_party_licences_underlined"><u>サードパーティー ライセンス</u></string>
-    <string name="invite_friends_underlined"><u>友達を招待</u></string>
     <string name="share_text">%2$s で %1$s を確認してください</string>
     <string name="invite_via">招待</string>
-    <string name="rate_us_underlined"><u>Playストアで評価してください</u></string>
     <string name="rate">評価</string>
     <string name="donate">寄付</string>
     <string name="donate_underlined"><u>寄付</u></string>
     <string name="follow_us">フォローしてください</string>
+    <string name="other">その他</string>
     <string name="additional_info">追加情報</string>
     <string name="app_version">アプリバージョン: %s</string>
     <string name="device_os">デバイスOS: %s</string>
@@ -462,6 +463,9 @@
     <string name="notes_short">メモ</string>
     <string name="frequently_asked_questions">よくある質問（FAQ）</string>
     <string name="faq_5_title_commons">削除されたファイルを何とか復元できますか?</string>
+    <string name="contributors">貢献者</string>
+    <string name="translation">翻訳</string>
+    <string name="translation_czech">チェコ語</string>
     <string name="why_upgrade_basic_version">基本</string>
     <string name="notice">このアプリは、私の暮らしにゆとりを持たせるために、次のサードパーティのライブラリーを使用しています。ありがとうございます。</string>
     <string name="third_party_licences">サードパーティー ライセンス</string>

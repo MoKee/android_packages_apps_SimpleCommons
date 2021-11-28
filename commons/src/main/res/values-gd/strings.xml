@@ -17,6 +17,7 @@
     <string name="snooze">Dèan dùsal</string>
     <string name="dismiss">Leig seachad</string>
     <string name="usb">USB</string>
+    <string name="other">Eile</string>
     <string name="calendar_short">Mìosachan</string>
     <string name="gallery_short">Gailearaidh</string>
 </resources>

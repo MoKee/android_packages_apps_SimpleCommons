@@ -26,6 +26,7 @@
     <string name="select_a_different_color">Kies een andere kleur</string>
     <string name="download">Download</string>
     <string name="notification">Melding</string>
+    <string name="notifications">Notificaties</string>
     <string name="email">E-mail</string>
     <string name="previous">Vorige</string>
     <string name="next">Volgende</string>
@@ -156,6 +157,7 @@
     <string name="share_colors_success">Kleuren gewijzigd. Gebruik het nieuwe thema \'Gedeeld\' om de kleuren voor al onze apps aan te passen.</string>
     <string name="light_theme">Licht</string>
     <string name="dark_theme">Donker</string>
+    <string name="auto_theme">Automatisch</string>
     <string name="solarized">Overbelicht</string>
     <string name="dark_red">Donkerrood</string>
     <string name="black_white">Zwart &amp; Wit</string>
@@ -334,6 +336,7 @@
     <string name="no_sound">Geen geluid</string>
     <string name="settings">Instellingen</string>
     <string name="purchase_simple_thank_you">Simple Thank You kopen</string>
+    <string name="general_settings">Algemeen</string>
     <string name="customize_colors">Kleuren aanpassen</string>
     <string name="customize_widget_colors">Kleuren voor widget aanpassen</string>
     <string name="show_hidden_items">Verborgen items tonen</string>
@@ -367,6 +370,7 @@
     <string name="saving_label">Opslaan</string>
     <string name="startup">Opstarten</string>
     <string name="text">Tekst</string>
+    <string name="thumbnails">Miniatuurvoorbeelden</string>
     <string name="favorites_tab">Favorieten</string>
     <string name="restore_this_file">Bestand herstellen</string>
     <string name="restore_selected_files">Selectie herstellen</string>
@@ -439,16 +443,13 @@
     <string name="website_label">Bezoek voor de broncode</string>
     <string name="email_label">Stuur reacties of suggesties naar</string>
     <string name="upgrade_to_pro">Upgraden naar Pro-versie</string>
-    <string name="more_apps_underlined"><u>Meer apps</u></string>
-    <string name="third_party_licences_underlined"><u>Licenties van derden</u></string>
-    <string name="invite_friends_underlined"><u>Vrienden uitnodigen</u></string>
     <string name="share_text">Hé, bekijk %1$s eens op %2$s</string>
     <string name="invite_via">Uitnodigen via</string>
-    <string name="rate_us_underlined"><u>Beoordeel ons</u></string>
     <string name="rate">Beoordelen</string>
     <string name="donate">Doneren</string>
     <string name="donate_underlined"><u>Doneren</u></string>
     <string name="follow_us">Volg ons</string>
+    <string name="other">Anders</string>
     <string name="additional_info">Extra informatie</string>
     <string name="app_version">Versie: %s</string>
     <string name="device_os">Besturingssysteem: %s</string>
@@ -466,13 +467,12 @@
     <string name="faq_1_title_commons">Waarom zie ik de widget van deze app niet in de lijst met widgets?</string>
     <string name="faq_1_text_commons">Waarschijnlijk is de app verplaatst naar de SD-kaart. Android verbergt widgets van apps die zich bevinden op de SD-kaart. De enige oplossing is het verplaatsen van de app naar de Interne Opslag via de instellingen van Android.</string>
     <string name="faq_2_title_commons">Ik wil een bijdrage leveren, maar ik kan geen geld doneren. Kan ik iets anders doen?</string>
-    <string name="faq_2_text_commons">Maar natuurlijk! Vertel anderen over deze apps of geef feedback en positieve beoordelingen. Ook het vertalen van de apps in een nieuwe taal of het bijwerken van bestaande vertalingen wordt gewaardeerd.
-        Een handleiding is te vinden op https://github.com/SimpleMobileTools/General-Discussion , of stuur me een bericht via hello@simplemobiletools.com voor hulp.</string>
     <string name="faq_3_title_commons">Ik heb per ongeluk bestanden verwijderd, hoe kan ik deze herstellen?</string>
     <string name="faq_3_text_commons">Dat gaat helaas niet lukken. Bestanden worden direct na bevestiging verwijderd; er is geen prullenbak.</string>
     <string name="faq_4_title_commons">Ik vind de kleuren van de widgets niet mooi, kan ik ze veranderen?</string>
     <string name="faq_4_text_commons">Bij het plaatsen van een widget op het startscherm zal er een instellingenvenster verschijnen. Onderaan staan gekleurde vlakken, waarmee nieuwe kleuren kunnen worden gekozen. De schuif is voor de transparantie.</string>
     <string name="faq_5_title_commons">Kan ik verwijderde bestanden herstellen?</string>
+    <string name="contributors">Bijdragers</string>
     <string name="why_upgrade_basic_version">Basis</string>
     <string name="notice">Deze app maakt gebruik van de volgende libraries om het mij wat gemakkelijker te maken. Dank hiervoor.</string>
     <string name="third_party_licences">Licenties van derden</string>

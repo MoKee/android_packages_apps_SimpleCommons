@@ -29,6 +29,7 @@
     <string name="select_a_different_color">选择一个不同的颜色</string>
     <string name="download">下载</string>
     <string name="notification">通知</string>
+    <string name="notifications">通知</string>
     <string name="email">电子邮件</string>
     <string name="previous">上一个</string>
     <string name="playpause">播放 / 暂停</string>
@@ -199,6 +200,7 @@
     <string name="shared_theme_note">请注意，即使您使用的是专业版应用程序，出于技术原因，您仍然需要Simple Thank You应用。它负责颜色同步。</string>
     <string name="light_theme">浅色主题</string>
     <string name="dark_theme">深色主题</string>
+    <string name="auto_theme">自动</string>
     <string name="solarized">过度曝光</string>
     <string name="dark_red">深红</string>
     <string name="white">白色</string>
@@ -395,6 +397,7 @@
     <string name="during_day_at">一天中的 %02d:%02d</string>
     <string name="settings">设置</string>
     <string name="purchase_simple_thank_you">购买 Simple Thank You</string>
+    <string name="general_settings">常规</string>
     <string name="customize_colors">自定义颜色</string>
     <string name="customize_colors_locked">自定义颜色 (锁定)</string>
     <string name="customize_widget_colors">自定义小部件颜色</string>
@@ -440,6 +443,7 @@
     <string name="startup">启动</string>
     <string name="text">文本</string>
     <string name="migrating">迁移中</string>
+    <string name="thumbnails">缩略图</string>
     <string name="default_tab_to_open">应用程序启动时打开的标签页</string>
     <string name="contacts_tab">联系人</string>
     <string name="favorites_tab">收藏夹</string>
@@ -527,18 +531,14 @@
     <string name="website_label">应用源码</string>
     <string name="email_label">发送反馈</string>
     <string name="upgrade_to_pro">升级到专业版</string>
-    <string name="more_apps_underlined"><u>更多应用</u></string>
-    <string name="more_apps_from_us_underlined"><u>我们的更多应用程序</u></string>
-    <string name="third_party_licences_underlined"><u>开放源代码</u></string>
-    <string name="invite_friends_underlined"><u>分享给好友</u></string>
     <string name="share_text">请前往 %2$s 看看我们的 %1$s 吧！</string>
     <string name="invite_via">分享到</string>
-    <string name="rate_us_underlined"><u>为我们打分</u></string>
     <string name="rate">评分</string>
     <string name="donate">捐赠</string>
     <string name="donate_underlined"><u>捐赠</u></string>
     <string name="follow_us">关注我们</string>
     <string name="copyright">v %1$s Copyright © Simple Mobile Tools %2$d</string>
+    <string name="other">其他</string>
     <string name="additional_info">额外信息</string>
     <string name="app_version">应用版本：%s</string>
     <string name="device_os">设备系统：%s</string>
@@ -575,7 +575,6 @@
     <string name="faq_1_title_commons">为什么我在应用小部件列表里没有找到这个应用的小部件？</string>
     <string name="faq_1_text_commons">这很可能是因为你将应用程序移动到了SD卡。由于 Android 系统的限制，在这种情况下会隐藏应用程序的小部件。 唯一的解决方法是在系统设置中将应用程序移回内部存储。</string>
     <string name="faq_2_title_commons">我想支持你，但我不能捐赠金钱。 还有什么是我能够做的吗？</string>
-    <string name="faq_2_text_commons">当然有。你可以帮我宣传这个应用，或给个五星好评。你还可以为我的应用翻译新的语言来帮助你，或者是更新一些现有的翻译。你可以在 https://github.com/SimpleMobileTools/General-Discussion 找到该指南，如果你需要帮助，也可以发邮件 hello@simplemobiletools.com 给我。</string>
     <string name="faq_3_title_commons">我该怎么恢复误删的文件？</string>
     <string name="faq_3_text_commons">不幸的是，你无法恢复。在确认对话框后文件将被立即删除，你并没有回收站用。</string>
     <string name="faq_4_title_commons">我不喜欢小部件的颜色，我可以修改吗？</string>
@@ -598,6 +597,9 @@
         想选择所有项目，只需长按一个项目，接着单击左上角的选定项目的计数器。这将选择或取消选择所有的项目。</string>
     <string name="faq_10_title_commons">我已经购买了这个应用，但我不能在另一台设备上下载它。</string>
     <string name="faq_10_text_commons">尝试清理您的应用缓存并重启设备。这是 Google Play 的功能，与应用本身并没有关系。</string>
+    <string name="contributors">贡献者</string>
+    <string name="translation">语言翻译</string>
+    <string name="translation_czech">捷克</string>
     <string name="why_upgrade">升级专业版</string>
     <string name="why_upgrade_basic_version">基本</string>
     <string name="why_upgrade_pro_version">专业版</string>

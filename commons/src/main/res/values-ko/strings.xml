@@ -13,6 +13,7 @@
     <string name="transparent">투명</string>
     <string name="download">다운로드</string>
     <string name="notification">알림</string>
+    <string name="notifications">알림</string>
     <string name="email">이메일</string>
     <string name="previous">이전</string>
     <string name="next">다음</string>
@@ -43,6 +44,8 @@
     <string name="discard">취소</string>
     <string name="light_theme">밝은 테마</string>
     <string name="dark_theme">어두움</string>
+    <string name="auto_theme">자동</string>
+    <string name="white">흰색</string>
     <string name="custom">맞춤</string>
     <string name="delete">삭제</string>
     <string name="remove">삭제</string>
@@ -72,6 +75,7 @@
     <string name="snooze">알람 일시 정지</string>
     <string name="dismiss">다시 묻지 않기</string>
     <string name="settings">설정</string>
+    <string name="general_settings">기본</string>
     <string name="small">작게</string>
     <string name="medium">중간</string>
     <string name="widgets">위젯</string>
@@ -92,11 +96,14 @@
     <string name="about">소개</string>
     <string name="rate">별점</string>
     <string name="donate">기부</string>
+    <string name="other">기타</string>
     <string name="purchase">구매하기</string>
     <string name="calendar_short">일정</string>
     <string name="camera_short">카메라</string>
     <string name="clock_short">시계</string>
     <string name="flashlight_short">손전등</string>
     <string name="gallery_short">갤러리</string>
+    <string name="contributors">기여자</string>
+    <string name="translation_czech">체코</string>
     <string name="why_upgrade_basic_version">기본</string>
 </resources>

@@ -26,6 +26,7 @@
     <string name="select_a_different_color">Välj en annan färg</string>
     <string name="download">Hämta</string>
     <string name="notification">Notifikation</string>
+    <string name="notifications">Aviseringar</string>
     <string name="email">E-post</string>
     <string name="previous">Föregående</string>
     <string name="next">Nästa</string>
@@ -162,6 +163,7 @@
     <string name="share_colors_success">Färgerna har uppdaterats. Ett nytt Tema som heter \'Delat\' har lagts till, använd det för att uppdatera alla apparnas färger i framtiden.</string>
     <string name="light_theme">Ljust</string>
     <string name="dark_theme">Mörkt</string>
+    <string name="auto_theme">Auto</string>
     <string name="solarized">Solariserat</string>
     <string name="dark_red">Mörkrött</string>
     <string name="black_white">Svartvitt</string>
@@ -349,6 +351,7 @@
     <string name="no_sound">Inget ljud</string>
     <string name="settings">Inställningar</string>
     <string name="purchase_simple_thank_you">Köp Simple Thank You</string>
+    <string name="general_settings">Allmänt</string>
     <string name="customize_colors">Anpassa färger</string>
     <string name="customize_widget_colors">Anpassa widgetens färger</string>
     <string name="use_english_language">Använd engelska</string>
@@ -382,6 +385,7 @@
     <string name="saving_label">Sparande</string>
     <string name="startup">Start</string>
     <string name="text">Text</string>
+    <string name="thumbnails">Miniatyrer</string>
     <string name="favorites_tab">Favoriter</string>
     <string name="restore_this_file">Återställ filen</string>
     <string name="restore_selected_files">Återställ valda filer</string>
@@ -444,15 +448,12 @@
     <string name="about">Om</string>
     <string name="website_label">Du hittar källkoden på</string>
     <string name="email_label">Skicka dina synpunkter och förslag till</string>
-    <string name="more_apps_underlined"><u>Fler appar</u></string>
-    <string name="third_party_licences_underlined"><u>Tredjepartslicenser</u></string>
-    <string name="invite_friends_underlined"><u>Bjud in vänner</u></string>
     <string name="share_text">Hej, läs om %1$s på %2$s</string>
     <string name="invite_via">Bjud in via</string>
-    <string name="rate_us_underlined"><u>Betygsätt oss</u></string>
     <string name="donate">Donera</string>
     <string name="donate_underlined"><u>Donera</u></string>
     <string name="follow_us">Följ oss</string>
+    <string name="other">Annan</string>
     <string name="additional_info">Ytterligare info</string>
     <string name="app_version">Appversion: %s</string>
     <string name="device_os">Enhetens operativsystem: %s</string>

@@ -26,6 +26,7 @@
     <string name="select_a_different_color">Вибрати інший колір</string>
     <string name="download">Завантажити</string>
     <string name="notification">Нагадування</string>
+    <string name="notifications">Сповіщення</string>
     <string name="email">Електронна пошта</string>
     <string name="previous">Попередня</string>
     <string name="playpause">Відтворення / Пауза</string>
@@ -185,6 +186,7 @@
     <string name="share_colors_success">Кольори оновлені. Додана нова тема з назвою \"Загальна\", надалі використовуйте її для оновлення кольорів всіх додатків.</string>
     <string name="light_theme">Світла</string>
     <string name="dark_theme">Темнота</string>
+    <string name="auto_theme">Авто</string>
     <string name="solarized">Сонячна</string>
     <string name="dark_red">Темно-червоний</string>
     <string name="white">Білий</string>
@@ -453,6 +455,7 @@
     <string name="no_sound">Без звуку</string>
     <string name="settings">Налаштування</string>
     <string name="purchase_simple_thank_you">Придбайте Simple Thank You</string>
+    <string name="general_settings">Загальні</string>
     <string name="customize_colors">Налаштувати кольори</string>
     <string name="customize_widget_colors">Змінити кольори віджетів</string>
     <string name="use_english_language">Використовувати англійську мову</string>
@@ -494,6 +497,7 @@
     <string name="startup">Запуск</string>
     <string name="text">Текст</string>
     <string name="migrating">Перенесення даних</string>
+    <string name="thumbnails">Ескізи</string>
     <string name="contacts_tab">Контакти</string>
     <string name="favorites_tab">Улюблені</string>
     <string name="groups_tab">Групи</string>
@@ -582,18 +586,14 @@
     <string name="website_label">Вихідний код можна знайти за адресою</string>
     <string name="email_label">Відправити відгуки або пропозиції</string>
     <string name="upgrade_to_pro">Оновити до версії Pro</string>
-    <string name="more_apps_underlined"><u>Більше додатків</u></string>
-    <string name="more_apps_from_us_underlined"><u>Більше додатків від нас</u></string>
-    <string name="third_party_licences_underlined"><u>Сторонні ліцензії</u></string>
-    <string name="invite_friends_underlined"><u>Запросити друзів</u></string>
     <string name="share_text">Гей! Спробуй %1$s за посиланням %2$s</string>
     <string name="invite_via">Запросити через</string>
-    <string name="rate_us_underlined"><u>Оцінити нас в Google Play</u></string>
     <string name="rate">Оцінити</string>
     <string name="donate">Пожертвувати</string>
     <string name="donate_underlined"><u>Пожертвувати</u></string>
     <string name="follow_us">Слідкуйте за нами</string>
     <string name="copyright">v %1$s\nАвторське право © Simple Mobile Tools %2$d</string>
+    <string name="other">Інший</string>
     <string name="additional_info">Додаткова інформація</string>
     <string name="app_version">Версія програми: %s</string>
     <string name="device_os">Пристрій ОС: %s</string>
@@ -623,8 +623,6 @@
     <string name="faq_1_text_commons">Це, швидше за все, тому, що ви перенесли додаток на SD-карту. Існує обмеження системи Android, яке приховує віджети програми
         в цьому випадку. Єдине рішення-перемістити додаток назад у внутрішнє сховище через налаштування вашого пристрою.</string>
     <string name="faq_2_title_commons">Я хочу підтримати вас, але не можу пожертвувати гроші. Чи є щось інше, що я можу зробити?</string>
-    <string name="faq_2_text_commons">Так, звичайно. Ви можете поширювати інформацію про додатки або давати хороші відгуки та оцінки. Також ви можете допомогти, перекладаючи додатки на нову мову або просто оновлюючи існуючі переклади.
-        Керівництво можна знайти за адресою https://github.com/SimpleMobileTools/General-Discussion або просто написати мені коротке повідомлення на hello@simplemobiletools.com, якщо вам потрібна допомога.</string>
     <string name="faq_3_title_commons">Я видалив деякі файли помилково, як я можу їх відновити?</string>
     <string name="faq_3_text_commons">На жаль, Ви не зможете відновити файли. Файли видаляються відразу після діалогу підтвердження, функції на кшталт \"кошика\" не передбачено.</string>
     <string name="faq_4_title_commons">Мені не подобаються кольори віджетів, чи можу я їх змінити?</string>
@@ -640,6 +638,9 @@
     <string name="faq_8_text_commons">Оскільки версія вашої програми більше не оновлюється, помилки, які Ви виявили, ніколи не будуть виправлені. Крім того, нові функції не будуть додані. Ви можете купити Pro версію на Google Play за невелику суму грошей.
         Це одноразовий платіж, що означає, що після покупки вам ніколи не доведеться платити знову. Навіть після отримання нового пристрою. Якщо вам не подобається Версія Pro, Ви можете просто видалити її протягом декількох годин, і Ви автоматично отримаєте ваші гроші назад.
         Якщо Ви хочете повернути гроші пізніше, просто зв\'яжіться з нами за адресою hello@simplemobiletools. і ви його отримаєте.</string>
+    <string name="contributors">Учасники проекту</string>
+    <string name="translation">Переклад</string>
+    <string name="translation_czech">Чехія</string>
     <string name="why_upgrade_basic_version">Базовий</string>
     <string name="notice">Ця програма використовує наступні бібліотеки сторонніх розробників, щоб полегшити мою працю. Дякую.</string>
     <string name="third_party_licences">Ліцензії третіх сторін</string>

@@ -17,6 +17,7 @@
     <string name="default_color">డిఫాల్ట్</string>
     <string name="save">సేవ్ చేయి</string>
     <string name="dark_theme">ముదురు రంగు</string>
+    <string name="auto_theme">ఆటో</string>
     <string name="custom">అనుకూలం</string>
     <string name="remove">తీసివేయి</string>
     <string name="undo">చర్య రద్దు చేయి</string>
@@ -31,6 +32,7 @@
     <string name="text">పాఠం</string>
     <string name="usb">USB</string>
     <string name="donate">దానం</string>
+    <string name="other">ఇతరం</string>
     <string name="calendar_short">క్యాలెండర్</string>
     <string name="camera_short">కెమెరా</string>
     <string name="flashlight_short">ఫ్లాష్లైట్</string>

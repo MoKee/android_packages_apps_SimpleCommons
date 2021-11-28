@@ -16,6 +16,7 @@
     <string name="default_color">ડિફોલ્ટ</string>
     <string name="save">સાચવો</string>
     <string name="dark_theme">ઘાટું</string>
+    <string name="auto_theme">સ્વતઃ</string>
     <string name="custom">કસ્ટમ</string>
     <string name="remove">દૂર કરો</string>
     <string name="undo">પૂર્વવત્ કરો</string>
@@ -36,6 +37,7 @@
     <string name="monday">સોમવાર</string>
     <string name="saturday">શનિવાર</string>
     <string name="sunday">રવિવાર</string>
+    <string name="other">અન્ય</string>
     <string name="calendar_short">કૅલેન્ડર</string>
     <string name="camera_short">કૅમેરો</string>
 </resources>

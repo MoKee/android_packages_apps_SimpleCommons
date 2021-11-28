@@ -123,6 +123,7 @@
     <string name="undo_changes">மாற்றங்களை செயல்தவிர்</string>
     <string name="light_theme">வெளிச்சம்</string>
     <string name="dark_theme">அடர்</string>
+    <string name="auto_theme">தானியங்கு</string>
     <string name="dark_red">கருஞ்சிவப்பு</string>
     <string name="black_white">கருப்பு &amp; வெள்ளை</string>
     <string name="custom">தனிப்பயன்</string>
@@ -182,6 +183,7 @@
     <string name="no_sound">சத்தம் இல்லை</string>
     <string name="settings">அமைப்புகள்</string>
     <string name="purchase_simple_thank_you">எளிய நன்றியை வாங்கு</string>
+    <string name="general_settings">பொதுவானவை</string>
     <string name="customize_colors">வண்ணங்களைத் தனிமையாக்கு</string>
     <string name="use_english_language">ஆங்கில மொழியைப் பயன்படுத்து</string>
     <string name="show_hidden_items">மறைக்கப்பட்ட உருப்படிகளைக் காண்பி</string>
@@ -194,6 +196,7 @@
     <string name="saving_label">சேமித்தல்</string>
     <string name="startup">தொடக்கம்</string>
     <string name="text">உரை</string>
+    <string name="thumbnails">சிறுபடங்கள்</string>
     <string name="favorites_tab">பிடித்தவை</string>
     <string name="restore_this_file">இந்தக் கோப்பை மீட்டெடு</string>
     <string name="restore_selected_files">தேர்வுசெய்யப்பட்ட கோப்புகளை மீட்டெடு</string>
@@ -251,13 +254,12 @@
     <string name="about">பற்றி</string>
     <string name="email_label">இற்கு உங்கள் பின்னூட்டம் மற்றும் பரிந்துரைகளை அனுப்பு</string>
     <string name="upgrade_to_pro">Proக்கு மேம்படுத்து</string>
-    <string name="more_apps_underlined"><u>மேலும் செயலிகள்</u></string>
-    <string name="third_party_licences_underlined"><u>மூன்றாம் தரப்பு உரிமங்கள்</u></string>
     <string name="share_text">ஏய், %1$s ஐ %2$s இல் வந்து பாரு</string>
     <string name="rate">மதிப்பிடுக</string>
     <string name="donate">நன்கொடை</string>
     <string name="follow_us">எங்களைப் பின்பற்று</string>
     <string name="copyright">v %1$s\nபதிப்புரிமை © Simple Mobile Tools %2$d</string>
+    <string name="other">பிற</string>
     <string name="additional_info">கூடுதல் தகவல்கள்</string>
     <string name="app_version">பயன்பாட்டுப் பதிப்பு: %s</string>
     <string name="device_os">சாதன OS: %s</string>
@@ -270,6 +272,9 @@
     <string name="gallery_short">படத்தொகுப்பு</string>
     <string name="notes_short">குறிப்புகள்</string>
     <string name="frequently_asked_questions">அடிக்கடி கேட்கப்படும் கேள்விகள்</string>
+    <string name="contributors">பங்களிப்பாளர்கள்</string>
+    <string name="translation">மொழிபெயர்ப்பு</string>
+    <string name="translation_czech">செக்</string>
     <string name="why_upgrade_basic_version">அடிப்படை</string>
     <string name="third_party_licences">மூன்றாம் தரப்பு உரிமங்கள்</string>
     <string name="kotlin_title">Koltin (நிரலாக்க மொழி)</string>

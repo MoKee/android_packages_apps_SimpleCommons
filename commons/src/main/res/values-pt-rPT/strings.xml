@@ -29,6 +29,7 @@
     <string name="select_a_different_color">Selecionar uma cor diferente</string>
     <string name="download">Transferência</string>
     <string name="notification">Notificação</string>
+    <string name="notifications">Notificações</string>
     <string name="email">E-mail</string>
     <string name="previous">Anterior</string>
     <string name="playpause">Reproduzir / Pausar</string>
@@ -203,6 +204,7 @@
     <string name="shared_theme_note">Tenha em atenção que apesar de estar a utilizar a versão Pro da aplicação, continua a necessitar da versão Simples por razões técnicas. Esta corrige a sincronização de cor. </string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
+    <string name="auto_theme">Automático</string>
     <string name="solarized">Solarizar</string>
     <string name="dark_red">Vermelho escuro</string>
     <string name="white">Branco</string>
@@ -433,6 +435,7 @@
     <string name="during_day_at">Durante o dia às %02d:%02d</string>
     <string name="settings">Definições</string>
     <string name="purchase_simple_thank_you">Compra Simples Obrigado</string>
+    <string name="general_settings">Gerais</string>
     <string name="customize_colors">Personalizar cores</string>
     <string name="customize_colors_locked">Personalizar cores (Bloqueado)</string>
     <string name="customize_widget_colors">Personalizar widgets</string>
@@ -478,6 +481,7 @@
     <string name="startup">Arranque</string>
     <string name="text">Texto</string>
     <string name="migrating">Migrando</string>
+    <string name="thumbnails">Miniaturas</string>
     <string name="manage_shown_tabs">Gerir os separadores visíveis</string>
     <string name="default_tab_to_open">Abrir aba ao iniciar aplicação</string>
     <string name="contacts_tab">Contactos</string>
@@ -569,18 +573,14 @@
     <string name="website_label">Para os códigos de origem visite</string>
     <string name="email_label">Deixe aqui o seu feedback ou sugestão...</string>
     <string name="upgrade_to_pro">Obter versão Pro</string>
-    <string name="more_apps_underlined"><u>Mais aplicações</u></string>
-    <string name="more_apps_from_us_underlined"><u>Mais aplicações nossas</u></string>
-    <string name="third_party_licences_underlined">Licenças de terceiros</string>
-    <string name="invite_friends_underlined"><u>Convidar amigos</u></string>
     <string name="share_text">Ei! Dê uma olhada em %1$s em %2$s</string>
     <string name="invite_via">Convidar via %@</string>
-    <string name="rate_us_underlined"><u>Avalie-nos</u></string>
     <string name="rate">Avaliar</string>
     <string name="donate">Doar</string>
     <string name="donate_underlined"><u>Doar</u></string>
     <string name="follow_us">Siga-nos</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="other">Outro</string>
     <string name="additional_info">Informação adicional</string>
     <string name="app_version">Versão da aplicação: %s</string>
     <string name="device_os">Sistema operacional: %s</string>
@@ -619,8 +619,6 @@
     <string name="faq_1_title_commons">Por que é que não vejo os widgets desta aplicação na lista de widgets?</string>
     <string name="faq_1_text_commons">É muito provável que tenha movido a aplicação para um cartão SD. Existe uma limitação do sistema Android que oculta os widgets das aplicações nesse caso. A única solução é mover a aplicação de volta para o Armazenamento Interno através das definições do seu dispositivo.</string>
     <string name="faq_2_title_commons">Eu quero te apoiar, mas não posso doar dinheiro. Há algo mais que eu possa fazer?</string>
-    <string name="faq_2_text_commons">Sim, claro. Pode espalhar a palavra sobre as aplicações ou fazer bons comentários e avaliações. Também pode ajudar traduzindo as aplicações para um novo idioma, ou apenas ao atualizar algumas traduções existentes.
-Pode encontrar o guia em https://github.com/SimpleMobileTools/General-Discussion ou envie-me uma mensagem para hello@simplemobiletools.com se precisar de ajuda.</string>
     <string name="faq_3_title_commons">Eu apaguei alguns arquivos por engano, como posso recuperá-los?</string>
     <string name="faq_3_text_commons">Infelizmente, você não pode. Os arquivos são apagados instantaneamente após a caixa de diálogo de confirmação, não há lixeira disponível.</string>
     <string name="faq_4_title_commons">Eu não gosto das cores do widget, posso mudá-las?</string>
@@ -644,6 +642,9 @@ Uma vez iniciada, basta repor o ícone predefinido laranja #F57C00. Poderá ter 
 · Se quiser selecionar todos os itens, pressione longamente num dos itens e clique no contador de itens selecionados, no canto superior esquerdo. Isso irá selecionar ou desselecionar todos os itens.</string>
     <string name="faq_10_title_commons">Eu comprei a aplicação mas não consigo transferi-la noutro dispositivo.</string>
     <string name="faq_10_text_commons">Tente limpar a cache da aplicação Google Play Store e reinicie o dispositivo. É um erro da Google Play Store, não relacionado com a aplicação em si.</string>
+    <string name="contributors">Colaboradores</string>
+    <string name="translation">Tradução</string>
+    <string name="translation_czech">Tcheco</string>
     <string name="why_upgrade">Obtenha a versão Pro agora!</string>
     <string name="why_upgrade_basic_version">Básico</string>
     <string name="why_upgrade_pro_version">Pro</string>

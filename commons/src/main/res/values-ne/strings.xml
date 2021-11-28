@@ -11,6 +11,7 @@
     <string name="exposure_time">एक्सपोजर समय</string>
     <string name="camera">क्यामेरा</string>
     <string name="save">बचत गर्नुहोस्</string>
+    <string name="auto_theme">स्वतः</string>
     <string name="custom">अनुकूलन</string>
     <string name="delete">मेट्नुहोस्</string>
     <string name="remove">हटाउनुहोस्</string>

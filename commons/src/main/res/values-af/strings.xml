@@ -22,6 +22,7 @@
     <string name="default_color">Verstek</string>
     <string name="save">Stoor</string>
     <string name="dark_theme">Donker</string>
+    <string name="auto_theme">Outo</string>
     <string name="custom">Gepasmaakte</string>
     <string name="delete">Vee uit</string>
     <string name="remove">Verwyder</string>
@@ -46,6 +47,7 @@
     <string name="snooze">Sluimer</string>
     <string name="dismiss">Verwyder</string>
     <string name="settings">Instellings</string>
+    <string name="general_settings">Algemeen</string>
     <string name="small">Klein</string>
     <string name="medium">Gemiddeld</string>
     <string name="widgets">Legstukke</string>
@@ -54,9 +56,11 @@
     <string name="monday">Maandag</string>
     <string name="saturday">Saterdag</string>
     <string name="sunday">Sondag</string>
+    <string name="other">Ander</string>
     <string name="calendar_short">Kalender</string>
     <string name="camera_short">Kamera</string>
     <string name="clock_short">Horlosie</string>
     <string name="flashlight_short">Flitslig</string>
+    <string name="contributors">Bydraers</string>
     <string name="why_upgrade_basic_version">Basies</string>
 </resources>

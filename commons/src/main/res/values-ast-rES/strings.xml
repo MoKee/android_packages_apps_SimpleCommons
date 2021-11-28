@@ -24,6 +24,7 @@
     <string name="theme">Tema</string>
     <string name="save">Guardar</string>
     <string name="discard">Escartar</string>
+    <string name="auto_theme">Auto</string>
     <string name="custom">Custom</string>
     <string name="delete">Desaniciar</string>
     <string name="rename">Renomar</string>
@@ -39,6 +40,7 @@
     <string name="snooze">Posponer</string>
     <string name="dismiss">Escartar</string>
     <string name="settings">Axustes</string>
+    <string name="general_settings">Xeneral</string>
     <string name="medium">Media</string>
     <string name="text">Testu</string>
     <string name="usb">USB</string>
@@ -46,4 +48,5 @@
     <string name="camera_short">Cámara</string>
     <string name="clock_short">Reló</string>
     <string name="gallery_short">Galería</string>
+    <string name="contributors">Collaboradores</string>
 </resources>

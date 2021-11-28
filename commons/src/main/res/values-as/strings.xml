@@ -17,6 +17,7 @@
     <string name="default_color">ডিফল্ট</string>
     <string name="save">ছেভ কৰা</string>
     <string name="dark_theme">আন্ধাৰ</string>
+    <string name="auto_theme">স্বয়ং</string>
     <string name="custom">কাষ্টম</string>
     <string name="title">শিৰোনামা</string>
     <string name="seconds_raw">ছেকেণ্ড</string>
@@ -24,6 +25,7 @@
     <string name="hours_raw">ঘন্টাসমূহ</string>
     <string name="text">টেক্সট</string>
     <string name="usb">USB</string>
+    <string name="other">অন্যান্য</string>
     <string name="calendar_short">কেলেণ্ডাৰ</string>
     <string name="camera_short">কেমেৰা</string>
 </resources>

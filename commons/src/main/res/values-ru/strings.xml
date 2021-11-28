@@ -29,6 +29,7 @@
     <string name="select_a_different_color">Выберите другой цвет</string>
     <string name="download">Загрузить</string>
     <string name="notification">Уведомления</string>
+    <string name="notifications">Уведомления</string>
     <string name="email">Почта</string>
     <string name="previous">Предыдущая</string>
     <string name="playpause">Воспроизвести / Пауза</string>
@@ -209,6 +210,7 @@
     <string name="shared_theme_note">Обратите внимание, что даже несмотря на то, что вы используете версию Pro, вам все равно нужна простая благодарность по техническим причинам. Это необходимо для синхронизации цветов.</string>
     <string name="light_theme">Светлая</string>
     <string name="dark_theme">Тёмная</string>
+    <string name="auto_theme">Авто</string>
     <string name="solarized">Солнечная</string>
     <string name="dark_red">Тёмно-красная</string>
     <string name="white">Белый</string>
@@ -490,6 +492,7 @@
     <string name="no_sound">Без звука</string>
     <string name="settings">Настройки</string>
     <string name="purchase_simple_thank_you">Купить Simple Thank You</string>
+    <string name="general_settings">Общие</string>
     <string name="customize_colors">Настроить цвета</string>
     <string name="customize_colors_locked">Настроить цвета (закрытые)</string>
     <string name="customize_widget_colors">Настроить цвета виджета</string>
@@ -535,6 +538,7 @@
     <string name="startup">Запуск</string>
     <string name="text">Текст</string>
     <string name="migrating">Перенос данных</string>
+    <string name="thumbnails">Миниатюры</string>
     <string name="default_tab_to_open">Вкладка для открытия при запуске приложения</string>
     <string name="contacts_tab">Контакты</string>
     <string name="favorites_tab">Избранное</string>
@@ -625,18 +629,14 @@
     <string name="website_label">Исходный код можно найти по адресу</string>
     <string name="email_label">Отправить отзывы или предложения</string>
     <string name="upgrade_to_pro">Обновить до версии Pro</string>
-    <string name="more_apps_underlined"><u>Больше приложений</u></string>
-    <string name="more_apps_from_us_underlined">&lt;u&gt;Больше приложений от нас&lt;u&gt;</string>
-    <string name="third_party_licences_underlined"><u>Лицензии третьих сторон</u></string>
-    <string name="invite_friends_underlined"><u>Пригласить друзей</u></string>
     <string name="share_text">Эй! Попробуй %1$s по ссылке %2$s</string>
     <string name="invite_via">Пригласить с помощью</string>
-    <string name="rate_us_underlined"><u>Оценить нас в Google Play</u></string>
     <string name="rate">Оценка</string>
     <string name="donate">Поддержать разработчика</string>
     <string name="donate_underlined"><u>Поддержать разработчика</u></string>
     <string name="follow_us">Подписаться на нас</string>
     <string name="copyright">v %1$s\nАвторские права © Simple Mobile Tools %2$d</string>
+    <string name="other">Другие</string>
     <string name="additional_info">Дополнительная информация</string>
     <string name="app_version">Версия приложения: %s</string>
     <string name="device_os">ОС устройства: %s</string>
@@ -674,8 +674,6 @@
     <string name="faq_1_text_commons">Это, скорее всего, потому, что вы перенесли приложение на SD-карту. Существует ограничение системы Android, которое скрывает виджеты приложения
         в этом случае. Единственное решение — переместить приложение обратно во внутреннее хранилище через настройки вашего устройства.</string>
     <string name="faq_2_title_commons">Я хочу поддержать вас, но не могу пожертвовать деньги. Есть ли что-нибудь ещё, что я могу сделать?</string>
-    <string name="faq_2_text_commons">Да, конечно. Вы можете распространять информацию о приложениях или давать хорошие отзывы и оценки. Также вы можете помочь, переводя приложения на новый язык или просто обновляя существующие переводы.
-        Руководство можно найти по адресу https://github.com/SimpleMobileTools/General-Discussion или просто написать мне короткое сообщение на hello@simplemobiletools.com, если вам нужна помощь.</string>
     <string name="faq_3_title_commons">Я по ошибке удалил некоторые файлы, как их восстановить?</string>
     <string name="faq_3_text_commons">К сожалению, вы не сможете восстановить файлы. Файлы удаляются сразу после диалога подтверждения, функции вроде \"корзины\" не предусмотрено.</string>
     <string name="faq_4_title_commons">Мне не нравятся цвета виджета, я могу их изменить?</string>
@@ -697,6 +695,9 @@
         хотите выбрать все элементы, просто нажмите на один элемент, затем нажмите в выбранном левом верхнем углу. Это выберет или удалит все что угодно.</string>
     <string name="faq_10_title_commons">Я купил приложение, но я не могу скачать его на другом устройстве.</string>
     <string name="faq_10_text_commons">Попробуйте очистить кэш приложений Google Play и перезапустить устройство. Это какой-то сбой Google Play, который не связан с самим приложением.</string>
+    <string name="contributors">Участники проекта</string>
+    <string name="translation">Перевод</string>
+    <string name="translation_czech">Чехия</string>
     <string name="why_upgrade">Получите версию Pro прямо сейчас!</string>
     <string name="why_upgrade_basic_version">Базовый</string>
     <string name="why_upgrade_pro_version">Pro</string>

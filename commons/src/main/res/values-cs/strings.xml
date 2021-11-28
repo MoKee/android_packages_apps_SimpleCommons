@@ -30,6 +30,7 @@
     <string name="select_a_different_color">Zvolte jinou barvu</string>
     <string name="download">Stáhnout</string>
     <string name="notification">Oznámení</string>
+    <string name="notifications">Oznámení</string>
     <string name="email">E-mail</string>
     <string name="previous">Předchozí</string>
     <string name="playpause">Přehrát/Pozastavit</string>
@@ -39,6 +40,7 @@
     <string name="request_the_required_permissions">Vyžádat požadovaná oprávnění</string>
     <string name="no_access_to_contacts">Aplikace nemohla získat přístup k vašim kontaktům</string>
     <string name="insert_text_here">Zde vložte text</string>
+    <string name="call_person">Volat %s</string>
     <string name="change_view_type">Změnit typ zobrazení</string>
     <string name="grid">Mřížka</string>
     <string name="list">Seznam</string>
@@ -52,6 +54,8 @@
     <string name="block_number">Blokovat číslo</string>
     <string name="block_numbers">Blokovat čísla</string>
     <string name="blocked_numbers">Blokovaná čísla</string>
+    <string name="export_blocked_numbers">Exportovat blokovaná čísla</string>
+    <string name="import_blocked_numbers">Importovat blokovaná čísla</string>
     <string name="must_make_default_dialer">Aby bylo možné blokovat čísla, musíte tuto aplikaci nastavit jako výchozí aplikaci pro volání.</string>
     <string name="set_as_default">Nastavit jako výchozí</string>
     <string name="block_confirmation">Opravdu chcete zablokovat \"%s\"?</string>
@@ -88,6 +92,8 @@
     <string name="pattern_renaming">Vzor</string>
     <string name="string_to_add">Řetězec k přidání</string>
     <string name="rename_date_time_pattern">%Y - rok\n%M - měsíc\n%D - den\n%h - hodina\n%m - minuta\n%s - sekunda\n%i - číslo se zvyšuje od 1</string>
+    <string name="filename_without_txt">Název souboru (bez .txt)</string>
+    <string name="filename_without_json">Název souboru (bez .json)</string>
     <string name="copy">Kopírovat</string>
     <string name="move">Přesunout</string>
     <string name="copy_move">Kopírovat / Přesunout</string>
@@ -165,6 +171,7 @@
     <string name="internal">Interní</string>
     <string name="sd_card">SD karta</string>
     <string name="root">Root</string>
+    <string name="wrong_root_selected">Vybrána neplatná složka, vyberte prosím hlavní složku vaší SD karty</string>
     <string name="sd_card_usb_same">Cesta k SD kartě a USB zařízení nesmí být stejná</string>
     <string name="app_on_sd_card">Zdá se, že máte aplikaci nainstalovanou na SD kartě, což způsobí nedostupnost widgetů. Ani je neuvidíte na seznamu dostupných widgetů.
          Jde o systémové omezení, čili pokud chcete widgety používat, musíte přesunout aplikaci zpět na interní úložiště.</string>
@@ -212,6 +219,7 @@
     <string name="shared_theme_note">Upozorňujeme, že přestože používáte verzi aplikace Pro, z technických důvodů stále potřebujete aplikaci Simple Thanks. Postará se o synchronizaci barev.</string>
     <string name="light_theme">Světlý</string>
     <string name="dark_theme">Tmavý</string>
+    <string name="auto_theme">Automaticky</string>
     <string name="solarized">Solarizovaný</string>
     <string name="dark_red">Tmavě červený</string>
     <string name="white">Bílá</string>
@@ -250,6 +258,7 @@
     <string name="name">Názvu</string>
     <string name="size">Velikosti</string>
     <string name="last_modified">Poslední úpravy</string>
+    <string name="date_created">Datum vytvoření</string>
     <string name="date_taken">Data pořízení</string>
     <string name="title">Názvu</string>
     <string name="filename">Názvu souboru</string>
@@ -291,9 +300,12 @@
     <string name="insert_pattern">Zadejte vzor</string>
     <string name="wrong_pattern">Nesprávný vzor</string>
     <string name="repeat_pattern">Zopakujte vzor</string>
+    <string name="biometrics">Biometrie</string>
     <string name="fingerprint">Otisk prstu</string>
     <string name="add_fingerprint">Přidat otisk prstu</string>
     <string name="place_finger">Přiložte prst na snímač otisků prstů</string>
+    <string name="open_biometric_dialog">Otevřít dialogové okno pro ověření biometrického ID</string>
+    <string name="authenticate">Ověřit</string>
     <string name="authentication_failed">Ověřování selhalo</string>
     <string name="authentication_blocked">Ověřování je zablokováno, prosím zkuste to za chvíli</string>
     <string name="no_fingerprints_registered">Nemáte zaregistrovány žádné otisky prstů, prosím přidejte nějaké v Nastavení zařízení</string>
@@ -500,6 +512,7 @@
     <string name="during_day_at">Během dne v %02d:%02d</string>
     <string name="settings">Nastavení</string>
     <string name="purchase_simple_thank_you">Koupit Simple Thank You</string>
+    <string name="general_settings">Obecné</string>
     <string name="customize_colors">Přizpůsobit barvy</string>
     <string name="customize_colors_locked">Přizpůsobení barev (uzamčeno)</string>
     <string name="customize_widget_colors">Přizpůsobit barvy widgetu</string>
@@ -536,6 +549,7 @@
     <string name="settings_imported_successfully">Nastavení bylo úspěšně importováno</string>
     <string name="start_name_with_surname">Začněte jménem s příjmením</string>
     <string name="clear_cache">Vymazat mezipaměť</string>
+    <string name="show_call_confirmation_dialog">Zobrazit dialogové okno pro potvrzení hovoru před jeho zahájením</string>
     <string name="visibility">Viditelnost</string>
     <string name="security">Zabezpečení</string>
     <string name="scrolling">Rolování</string>
@@ -545,6 +559,7 @@
     <string name="startup">Po spuštění</string>
     <string name="text">Text</string>
     <string name="migrating">Migrace</string>
+    <string name="thumbnails">Náhledy</string>
     <string name="manage_shown_tabs">Správa zobrazených karet</string>
     <string name="default_tab_to_open">Karta k otevření při spuštění aplikace</string>
     <string name="contacts_tab">Kontakty</string>
@@ -583,6 +598,7 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Zdá se, že máte k zařízení připojeno zařízení USB. Chcete-li se ujistit, zda se soubory zobrazují správně, musíte udělit další oprávnění.</string>
     <string name="confirm_usb_storage_access_text">Na následující obrazovce zvolte kořenovou složku USB zařízení pro povolení oprávnění</string>
+    <string name="wrong_root_selected_usb">Vybrána neplatná složka, vyberte hlavní složku vašeho USB zařízení</string>
     <string name="january">Leden</string>
     <string name="february">Únor</string>
     <string name="march">Březen</string>
@@ -638,18 +654,14 @@
     <string name="website_label">Pro zdrojové kódy navštivte</string>
     <string name="email_label">Zpětnou vazbu či návrhy posílejte na</string>
     <string name="upgrade_to_pro">Upgradovat na Pro</string>
-    <string name="more_apps_underlined"><u>Více aplikací</u></string>
-    <string name="more_apps_from_us_underlined"><u>Další aplikace od nás</u></string>
-    <string name="third_party_licences_underlined"><u>Licence třetích stran</u></string>
-    <string name="invite_friends_underlined"><u>Pozvat přátele</u></string>
     <string name="share_text">Ahoj, vyzkoušej %1$s na %2$s</string>
     <string name="invite_via">Pozvat pomocí</string>
-    <string name="rate_us_underlined"><u>Ohodnotit</u></string>
     <string name="rate">Ohodnotit</string>
     <string name="donate">Přispět</string>
     <string name="donate_underlined"><u>Přispět</u></string>
     <string name="follow_us">Sledujte nás</string>
     <string name="copyright">v %1$s\nAutorská práva © Simple Mobile Tools %2$d</string>
+    <string name="other">Ostatní</string>
     <string name="additional_info">Další informace</string>
     <string name="app_version">Verze aplikace: %s</string>
     <string name="device_os">OS zařízení: %s</string>
@@ -690,8 +702,6 @@
     <string name="faq_1_text_commons">Je to pravděpodobně způsobeno tím, že jste aplikaci přesunuli na SD kartu. Jde o systémové omezení, které v tomto případě skryje widget aplikace.
         Jediným řešením je přesunutí aplikace zpět na interní úložiště přes nastavení zařízení.</string>
     <string name="faq_2_title_commons">Chci vás podpořit, ale nemohu finančně. Jakým jiným způsobem mohu pomoci?</string>
-    <string name="faq_2_text_commons">Ano, samozřejmě. Můžete např. šířit aplikace mezi známými, nebo nám poslat užitečnou odezvu a hodnocení. Můžete pomoci i přeložením aplikací do nových jazyků, nebo upravit existující překlady.
-        Návod najdete na https://github.com/SimpleMobileTools/General-Discussion , nebo mi v případě potřeby pošlete email na hello@simplemobiletools.com.</string>
     <string name="faq_3_title_commons">Omylem jsem smazal některé soubory, jak je můžu obnovit?</string>
     <string name="faq_3_text_commons">Bohužel, nemůžete. Soubory jsou okamžitě smazány po potvrzovacím okně, není k dispozici žádný koš.</string>
     <string name="faq_4_title_commons">Nelíbí se mi barvy widgetů, lze je změnit?</string>
@@ -713,6 +723,9 @@
         chcete vybrat všechny položky, stačí dlouze stisknout jednu položku a poté kliknout na počítadlo vybraných položek v levém horním rohu. Tím se vybere nebo zruší výběr všeho.</string>
     <string name="faq_10_title_commons">Zakoupil jsem aplikaci, ale nemůžu ji stáhnout na jiném zařízení.</string>
     <string name="faq_10_text_commons">Zkuste vymazat mezipaměť aplikace Obchod Play a restartovat zařízení. Je to nějaká chyba Obchodu Play, která ve skutečnosti nesouvisí se samotnou aplikací.</string>
+    <string name="contributors">Přispěvatelé</string>
+    <string name="translation">Překlady</string>
+    <string name="translation_czech">Česko</string>
     <string name="why_upgrade">Získejte nyní Pro verzi!</string>
     <string name="why_upgrade_basic_version">Základní</string>
     <string name="why_upgrade_pro_version">Pro</string>

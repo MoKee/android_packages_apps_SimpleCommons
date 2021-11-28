@@ -3,6 +3,7 @@
     <string name="ok">確定</string>
     <string name="cancel">取消</string>
     <string name="nothing">無</string>
+    <string name="later">稍後</string>
     <string name="save_as">儲存</string>
     <string name="file_saved">成功儲存檔案</string>
     <string name="invalid_file_format">無效的檔案格式</string>
@@ -29,6 +30,7 @@
     <string name="select_a_different_color">選擇其他顏色</string>
     <string name="download">下載</string>
     <string name="notification">通知</string>
+    <string name="notifications">通知</string>
     <string name="email">電子郵件</string>
     <string name="previous">上一個</string>
     <string name="playpause">播放 / 暫停</string>
@@ -38,6 +40,7 @@
     <string name="request_the_required_permissions">要求必要的權限</string>
     <string name="no_access_to_contacts">該應用程式無法存取您的聯繫人</string>
     <string name="insert_text_here">在此輸入文字</string>
+    <string name="call_person">打電話給 %s</string>
     <string name="change_view_type">改變瀏覽類型</string>
     <string name="grid">格狀</string>
     <string name="list">清單</string>
@@ -51,6 +54,8 @@
     <string name="block_number">黑名單</string>
     <string name="block_numbers">黑名單</string>
     <string name="blocked_numbers">已封鎖的號碼</string>
+    <string name="export_blocked_numbers">匯出封鎖號碼</string>
+    <string name="import_blocked_numbers">匯入封鎖號碼</string>
     <string name="must_make_default_dialer">你必須將此應用程式的設為預設撥號應用程式，以利用封鎖的號碼。</string>
     <string name="set_as_default">設定成預設</string>
     <string name="block_confirmation">您確定要封鎖「%s」？</string>
@@ -195,6 +200,7 @@
     <string name="share_colors_success">顏色更新成功。新增了一個名為 \'Shared\' 的新主題，以後請使用那個來更新全部應用程式顏色。</string>
     <string name="light_theme">明亮主題</string>
     <string name="dark_theme">灰暗主題</string>
+    <string name="auto_theme">自動</string>
     <string name="solarized">過度曝光</string>
     <string name="dark_red">深紅主題</string>
     <string name="white">白色</string>
@@ -388,6 +394,7 @@
     <string name="during_day_at">一天中的 %02d:%02d</string>
     <string name="settings">設定</string>
     <string name="purchase_simple_thank_you">購買Simple Thank You</string>
+    <string name="general_settings">一般</string>
     <string name="customize_colors">自訂顏色</string>
     <string name="customize_widget_colors">自訂小工具顏色</string>
     <string name="customize_notifications">自定義通知</string>
@@ -432,6 +439,7 @@
     <string name="startup">啟動</string>
     <string name="text">文字</string>
     <string name="migrating">移入</string>
+    <string name="thumbnails">縮圖</string>
     <string name="default_tab_to_open">應用程式啟動時開啟的標籤頁</string>
     <string name="contacts_tab">連絡人</string>
     <string name="favorites_tab">最愛</string>
@@ -519,18 +527,14 @@
     <string name="website_label">觀看原始碼</string>
     <string name="email_label">傳送您的反饋或建議</string>
     <string name="upgrade_to_pro">升級至專業版</string>
-    <string name="more_apps_underlined"><u>更多應用程式</u></string>
-    <string name="more_apps_from_us_underlined"><u>更多我們的應用程式</u></string>
-    <string name="third_party_licences_underlined"><u>第三方授權</u></string>
-    <string name="invite_friends_underlined"><u>邀請朋友</u></string>
     <string name="share_text">嘿，來試試看「%1$s」吧！ %2$s</string>
     <string name="invite_via">邀請</string>
-    <string name="rate_us_underlined"><u>評分我們</u></string>
     <string name="rate">評價</string>
     <string name="donate">捐贈</string>
     <string name="donate_underlined"><u>捐贈</u></string>
     <string name="follow_us">追蹤我們</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="other">其他</string>
     <string name="additional_info">進階資訊</string>
     <string name="app_version">應用程式版本: %s</string>
     <string name="device_os">裝置系統: %s</string>
@@ -568,8 +572,6 @@
     <string name="faq_1_text_commons">這很可能是因為你把應用程式移動到SD卡。那樣的話，有個隱藏特定程式小工具的Android系統限制存在。
 	    只有一個解決方法，就是經由你的裝置設定，把應用程式移動回內部儲存空間。</string>
     <string name="faq_2_title_commons">我想要支持您，但我無法捐款。還有什麼我能做的嗎?</string>
-    <string name="faq_2_text_commons">當然好囉。你可以推廣關於這應用程式，或是給予好的反饋和評分。你也可以幫忙把這應用程式翻譯成新的語言，或者只更新一些現有的翻譯。
-	    你可以在 https://github.com/SimpleMobileTools/General-Discussion 找到教學，或者若你需要幫忙，只要發個訊息到 hello@simplemobiletools.com。</string>
     <string name="faq_3_title_commons">我誤刪了一些檔案，如何復原?</string>
     <string name="faq_3_text_commons">不幸地，沒有辦法。檔案經確認後就立即刪除了，沒有垃圾筒可用。</string>
     <string name="faq_4_title_commons">我不喜歡小工具的顏色，我能更改嗎?</string>
@@ -584,6 +586,9 @@
     <string name="faq_8_text_commons">由於您的應用程式版本不再更新，您可能發現的 bug 將永遠無法修復。也不會增加新的功能。你可以用一小筆錢在 Google Play 上購買專業版。
         這是一次性付款，也就是說，一旦你購買專業版，就能夠永遠使用，即使買了新裝置。如果你不喜歡專業版，你可以在幾個小時內解除安裝，它自動退款。
         如果您以後需要退款，請通過 hello@simplemobiletools.com 聯繫我們，我們會為您提供服務。</string>
+    <string name="contributors">貢獻者</string>
+    <string name="translation">翻譯</string>
+    <string name="translation_czech">捷克</string>
     <string name="why_upgrade">升級專業版</string>
     <string name="why_upgrade_basic_version">基本</string>
     <string name="why_upgrade_pro_version">專業版</string>

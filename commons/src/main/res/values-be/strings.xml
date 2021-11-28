@@ -33,6 +33,7 @@
     <string name="discard">Адхіліць</string>
     <string name="light_theme">Светлая</string>
     <string name="dark_theme">Цемра</string>
+    <string name="auto_theme">Аўтаматычна</string>
     <string name="custom">Карыстальніцкія</string>
     <string name="delete">Выдаліць</string>
     <string name="remove">Выдаліць</string>
@@ -58,6 +59,7 @@
     <string name="snooze">Адкласці</string>
     <string name="dismiss">Адхіліць</string>
     <string name="settings">Налады</string>
+    <string name="general_settings">Агульнае</string>
     <string name="small">Маленькі</string>
     <string name="medium">Сярэдні</string>
     <string name="large">Вялікі</string>
@@ -79,10 +81,13 @@
     <string name="about">Аб праграме</string>
     <string name="rate">Адзнака</string>
     <string name="donate">Ахвяраваць</string>
+    <string name="other">Iншае</string>
     <string name="calendar_short">Каляндар</string>
     <string name="camera_short">Камера</string>
     <string name="clock_short">Гадзіннік</string>
     <string name="flashlight_short">Успышка</string>
     <string name="gallery_short">Галерэя</string>
+    <string name="contributors">Аўтары</string>
+    <string name="translation_czech">Чэхія</string>
     <string name="why_upgrade_basic_version">Асноўны</string>
 </resources>

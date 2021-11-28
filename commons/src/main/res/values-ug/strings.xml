@@ -18,6 +18,7 @@
     <string name="default_color">كۆڭۈلدىكى</string>
     <string name="save">ساقلا</string>
     <string name="dark_theme">قاراڭغۇ</string>
+    <string name="auto_theme">ئاپتوماتىك</string>
     <string name="custom">ئىختىيارىي</string>
     <string name="delete">ئۆچۈر</string>
     <string name="share">ھەمبەھىر</string>
@@ -35,6 +36,7 @@
     <string name="text">تېكىست</string>
     <string name="usb">USB</string>
     <string name="donate">ئىئانە</string>
+    <string name="other">باشقا</string>
     <string name="calendar_short">كالېندار</string>
     <string name="camera_short">كامېرا</string>
 </resources>

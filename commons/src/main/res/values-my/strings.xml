@@ -24,5 +24,6 @@
     <string name="saturday">စနေနေ့</string>
     <string name="sunday">တနင်္ဂနွေနေ့</string>
     <string name="donate">လှူဒါန်းရန်</string>
+    <string name="other">အခြား</string>
     <string name="calendar_short">ပြက္ခဒိန်</string>
 </resources>

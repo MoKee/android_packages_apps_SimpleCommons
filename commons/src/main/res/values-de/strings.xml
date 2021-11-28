@@ -27,6 +27,7 @@
     <string name="select_a_different_color">Wähle eine andere Farbe aus</string>
     <string name="download">Download-Modus</string>
     <string name="notification">Benachrichtigung</string>
+    <string name="notifications">Benachrichtigungen</string>
     <string name="email">E-Mail</string>
     <string name="previous">Zurück</string>
     <string name="playpause">Wiedergabe / Pause</string>
@@ -186,6 +187,7 @@
     <string name="share_colors_success">Farben erfolgreich aktualisiert. Ein neues Thema \'Shared\' wurde hinzugefügt, bitte verwende dieses um für alle Apps die Farben zu ändern.</string>
     <string name="light_theme">Hell</string>
     <string name="dark_theme">Dunkel</string>
+    <string name="auto_theme">Automatisch</string>
     <string name="solarized">Solarisiert</string>
     <string name="dark_red">Dunkelrot</string>
     <string name="white">Weiß</string>
@@ -402,6 +404,7 @@
     <string name="no_sound">Stumm</string>
     <string name="settings">Einstellungen</string>
     <string name="purchase_simple_thank_you">\"Simple Thank You\" App kaufen</string>
+    <string name="general_settings">Allgemein</string>
     <string name="customize_colors">Farben anpassen</string>
     <string name="customize_widget_colors">Widget Farben anpassen</string>
     <string name="use_english_language">App in Englisch verwenden</string>
@@ -444,6 +447,7 @@
     <string name="startup">Beim Starten</string>
     <string name="text">Text</string>
     <string name="migrating">Umziehen</string>
+    <string name="thumbnails">Thumbnails</string>
     <string name="contacts_tab">Kontakte</string>
     <string name="favorites_tab">Favoriten</string>
     <string name="call_history_tab">Anrufliste</string>
@@ -531,18 +535,14 @@
     <string name="website_label">Weitere schlichte Apps und Quellcode siehe</string>
     <string name="email_label">Vorschläge und Feedback bitte senden an</string>
     <string name="upgrade_to_pro">Upgrade auf Pro</string>
-    <string name="more_apps_underlined"><u>Weitere Apps</u></string>
-    <string name="more_apps_from_us_underlined"><u>Mehr Apps von uns</u></string>
-    <string name="third_party_licences_underlined"><u>Drittanbieterlizenzen</u></string>
-    <string name="invite_friends_underlined"><u>Freunde einladen</u></string>
     <string name="share_text">Hey, wirf mal einen Blick auf %1$s: %2$s</string>
     <string name="invite_via">Einladen via</string>
-    <string name="rate_us_underlined"><u>Bewerte uns im Play Store</u></string>
     <string name="rate">Bewerten</string>
     <string name="donate">Spenden</string>
     <string name="donate_underlined"><u>Spenden</u></string>
     <string name="follow_us">Folge uns</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="other">Anderes</string>
     <string name="additional_info">Zusätzliche Infos</string>
     <string name="app_version">App-Version: %s</string>
     <string name="device_os">Betriebssystem: %s</string>
@@ -574,8 +574,6 @@
     <string name="faq_1_title_commons">Weshalb sehe ich das Widget dieser App nicht in der Liste der Widgets?</string>
     <string name="faq_1_text_commons">Wahrscheinlich, weil du die App auf die Speicherkarte verschoben hast. In diesem Fall werden durch eine Einschränkung von Android die Widgets dieser App ausgeblendet. Die einzige Lösung ist die App über die Geräteeinstellungen wieder in den internen Speicher zu verschieben.</string>
     <string name="faq_2_title_commons">Ich will dich unterstützen, aber es ist mir nicht möglich Geld zu spenden. Gibt es eine andere Möglichkeit?</string>
-    <string name="faq_2_text_commons">Ja, sicherlich. Du kannst die Apps weiterempfehlen oder gute Rückmeldung und Bewertungen geben. Du kannst ebenso helfen, indem du die Apps in neue Sprachen übersetzt oder vorhandene Übersetzungen aktualisierst.
-        Die Anleitung dazu findest du unter https://github.com/SimpleMobileTools/General-Discussion oder sende mir eine Nachricht an hello@simplemobiletools.com, falls du Hilfe benötigst.</string>
     <string name="faq_3_title_commons">Ich habe versehentlich einige Dateien gelöscht. Wie kann ich diese wiederherstellen?</string>
     <string name="faq_3_text_commons">Unglücklicherweise gar nicht. Dateien werden sofort nach dem Bestätigungsdialog gelöscht, sprich ein Papierkorb ist nicht vorhanden.</string>
     <string name="faq_4_title_commons">Ich mag die Farben des Widgets nicht. Kann ich sie wechseln?</string>
@@ -590,6 +588,9 @@
     <string name="faq_8_text_commons">Da Ihre App-Version nicht mehr aktualisiert wird, werden die Fehler, die Sie vielleicht entdeckt haben, nie behoben. Es werden auch keine neuen Funktionen hinzugefügt. Sie können die Pro-Version bei Google Play gegen eine kleine Summe kaufen.
         Es ist eine einmalige Zahlung, das heißt, wenn Sie es kaufen, müssen Sie nie wieder bezahlen. Nicht einmal nach dem Erhalten eines neuen Geräts. Wenn Ihnen die Pro-Version nicht gefällt, können Sie sie innerhalb weniger Stunden deinstallieren und Sie erhalten automatisch Ihr Geld zurück.
         Wenn Sie später eine Erstattung wünschen, kontaktieren Sie uns einfach unter hello@simplemobiletools.com.</string>
+    <string name="contributors">Mitwirkende</string>
+    <string name="translation">Übersetzung</string>
+    <string name="translation_czech">Tschechien</string>
     <string name="why_upgrade_basic_version">Einfach</string>
     <string name="notice">Diese App nutzt die folgenden Drittanbieterbibliotheken, die mein Leben einfacher machen. Danke!</string>
     <string name="third_party_licences">Drittanbieterlizenzen</string>

@@ -20,9 +20,11 @@
     <string name="no">Не</string>
     <string name="alarm">Аларм</string>
     <string name="settings">Поставки</string>
+    <string name="general_settings">Општо</string>
     <string name="small">Мал</string>
     <string name="widgets">Додатоци</string>
     <string name="text">Текст</string>
     <string name="clock_short">Часовник</string>
+    <string name="contributors">Соработници</string>
     <string name="why_upgrade_basic_version">Основно</string>
 </resources>

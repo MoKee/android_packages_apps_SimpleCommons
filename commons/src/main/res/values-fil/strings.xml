@@ -31,6 +31,7 @@
     <string name="discard">Alisin</string>
     <string name="light_theme">Liwanag</string>
     <string name="dark_theme">Madalim</string>
+    <string name="auto_theme">Ang Auto</string>
     <string name="custom">Custom</string>
     <string name="delete">Burahin</string>
     <string name="remove">Tanggalin</string>
@@ -56,6 +57,7 @@
     <string name="snooze">I-Snooze</string>
     <string name="dismiss">I-dismiss</string>
     <string name="settings">Mga setting</string>
+    <string name="general_settings">Pangkalahatan</string>
     <string name="small">Maliit</string>
     <string name="medium">Ang katamtaman</string>
     <string name="widgets">Mga Widget</string>
@@ -71,10 +73,12 @@
     <string name="sunday_letter">S</string>
     <string name="about">Tungkol</string>
     <string name="donate">Mag-donate</string>
+    <string name="other">Iba pa</string>
     <string name="calendar_short">Kalendaryo</string>
     <string name="camera_short">Kamera</string>
     <string name="clock_short">Orasan</string>
     <string name="flashlight_short">Ilaw</string>
     <string name="gallery_short">App_pangalan_mk</string>
+    <string name="contributors">Mga kontribyutor</string>
     <string name="why_upgrade_basic_version">Pangunahing</string>
 </resources>

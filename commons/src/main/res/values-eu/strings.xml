@@ -25,6 +25,7 @@
     <string name="default_color">Lehenetsia</string>
     <string name="save">Gorde</string>
     <string name="dark_theme">Iluna</string>
+    <string name="auto_theme">Automatikoa</string>
     <string name="custom">Pertsonalizatua</string>
     <string name="delete">Ezabatu</string>
     <string name="remove">Kendu</string>
@@ -49,6 +50,7 @@
     <string name="snooze">Atzeratu</string>
     <string name="dismiss">Baztertu</string>
     <string name="settings">Ezarpenak</string>
+    <string name="general_settings">Orokorra</string>
     <string name="small">Txikia</string>
     <string name="medium">Ertaina</string>
     <string name="widgets">Widgetak</string>
@@ -57,10 +59,12 @@
     <string name="monday">Astelehena</string>
     <string name="saturday">Larunbata</string>
     <string name="sunday">Igandea</string>
+    <string name="other">Beste bat</string>
     <string name="calendar_short">Egutegia</string>
     <string name="camera_short">Kamera</string>
     <string name="clock_short">Erlojua</string>
     <string name="flashlight_short">Flasha</string>
     <string name="gallery_short">Galeria</string>
+    <string name="contributors">Parte-hartzaileak</string>
     <string name="why_upgrade_basic_version">Oinarrizkoa</string>
 </resources>

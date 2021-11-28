@@ -14,6 +14,7 @@
     <string name="transparent">Transparent</string>
     <string name="download">Descarcă</string>
     <string name="notification">Notificare</string>
+    <string name="notifications">Notificări</string>
     <string name="email">Email</string>
     <string name="previous">Anterior</string>
     <string name="next">Următoarea</string>
@@ -57,6 +58,7 @@
     <string name="discard">Renunță</string>
     <string name="light_theme">Luminoasă</string>
     <string name="dark_theme">Întunecat</string>
+    <string name="auto_theme">Auto</string>
     <string name="custom">Personalizat</string>
     <string name="delete">Ștergeţi</string>
     <string name="remove">Eliminați</string>
@@ -85,6 +87,7 @@
     <string name="snooze">Amână</string>
     <string name="dismiss">Renunţaţi</string>
     <string name="settings">Setări</string>
+    <string name="general_settings">General</string>
     <string name="small">Mic</string>
     <string name="medium">Medie</string>
     <string name="widgets">Widgeturi</string>
@@ -106,11 +109,13 @@
     <string name="about">Despre</string>
     <string name="rate">Evaluaţi</string>
     <string name="donate">Doneaza</string>
+    <string name="other">Altele</string>
     <string name="purchase">Cumpărare</string>
     <string name="calendar_short">Calendar</string>
     <string name="camera_short">Cameră foto</string>
     <string name="clock_short">Ceas</string>
     <string name="flashlight_short">Lanternă</string>
     <string name="gallery_short">Galerie</string>
+    <string name="contributors">Contribuitori</string>
     <string name="why_upgrade_basic_version">De bază</string>
 </resources>

@@ -24,6 +24,7 @@
     <string name="transparent">Läpinäkyvä</string>
     <string name="download">Lataa</string>
     <string name="notification">Ilmoitus</string>
+    <string name="notifications">Ilmoitukset</string>
     <string name="email">Sähköposti</string>
     <string name="previous">Edellinen</string>
     <string name="next">Seuraava</string>
@@ -144,6 +145,7 @@
     <string name="share_colors_success">Värit päivitetty. Uusi teema nimeltä \'Jaettu\' käytä sitä jatkossa muokataksesi värejä kaikissa sovelluksissa.</string>
     <string name="light_theme">Vaalea</string>
     <string name="dark_theme">Tumma</string>
+    <string name="auto_theme">Automaattinen</string>
     <string name="dark_red">Tumman punainen</string>
     <string name="black_white">Musta &amp; Valkoinen</string>
     <string name="custom">Oma</string>
@@ -312,6 +314,7 @@
     <string name="no_reminder">Ei muistutusta</string>
     <string name="at_start">Alussa</string>
     <string name="settings">Asetukset</string>
+    <string name="general_settings">Yleinen</string>
     <string name="customize_colors">Muokkaa sovelluksen värejä</string>
     <string name="use_english_language">Käytä Englannin kieltä</string>
     <string name="show_hidden_items">Näytä piilotetut tiedostot</string>
@@ -337,6 +340,7 @@
     <string name="scrolling">Vierittäminen</string>
     <string name="file_operations">Tiedostot</string>
     <string name="text">Teksti</string>
+    <string name="thumbnails">Esikatselukuvat</string>
     <string name="favorites_tab">Suosikit</string>
     <string name="importing">Tuodaan</string>
     <string name="exporting">Viedään</string>
@@ -380,16 +384,13 @@
     <string name="about">Tietoa</string>
     <string name="website_label">Lähdekoodin löydät täältä</string>
     <string name="email_label">Lähetä palautteesi ja ehdotuksia osoitteeseen</string>
-    <string name="more_apps_underlined"><u>Lisää sovelluksia</u></string>
-    <string name="third_party_licences_underlined"><u>Kolmansien osapuolien lisenssit</u></string>
-    <string name="invite_friends_underlined"><u>Kutsu ystäviä</u></string>
     <string name="share_text">Hei, tutustu %1$s täällä %2$s</string>
     <string name="invite_via">Kutsu sovelluksella</string>
-    <string name="rate_us_underlined"><u>Arvostele</u></string>
     <string name="rate">Arvostele</string>
     <string name="donate">Lahjoita</string>
     <string name="donate_underlined"><u>Lahjoita</u></string>
     <string name="follow_us">Seuraa</string>
+    <string name="other">Muu</string>
     <string name="additional_info">Lisätietoa</string>
     <string name="app_version">Sovelluksen versio: %s</string>
     <string name="device_os">Laitteen käyttöjärjestelmä: %s</string>
@@ -404,12 +405,11 @@
     <string name="faq_1_title_commons">Miksi en näe tämän sovelluksen widgettiä widget-valikossa?</string>
     <string name="faq_1_text_commons">Todennäköisesti asensit sovelluksen ulkoiselle muistikortille. Tässä tapauksessa ainoa vaihtoehto on uudelleenasentaa sovellus laitteen sisäiseen tallennustilaan.</string>
     <string name="faq_2_title_commons">Haluan tukea sinua, mutta minulla ei ole varaa lahjoittaa. Voinko auttaa jotenkin muuten?</string>
-    <string name="faq_2_text_commons">Tottakai. Voit kertoa ystävillesi sovelluksista ja antaa hyviä arvosteluja ja palautetta. Voit myös auttaa kääntämällä sovelluksen uudelle kielelle tai korjata käännösvirheitä.
-        Ohjeet löydät täältä https://github.com/SimpleMobileTools/General-Discussion , tai lähettämällä viestiä osoitteeseen hello@simplemobiletools.com jos Sinulla on kysyttävää.</string>
     <string name="faq_3_title_commons">Poistin tiedostoja vahingossa, miten palautan ne?</string>
     <string name="faq_3_text_commons">Valitettavasti se ei ole mahdollista. Tiedostot poistetaan aina pysyvästi.</string>
     <string name="faq_4_title_commons">En pidä widgetin väreistä, voinko vaihtaa ne?</string>
     <string name="faq_4_text_commons">Kyllä. Kun luot widgetin aloitusnäytölle aukeaa widgetin määritysikkuna. Paina värillisiä neliöitä valitaksesi uudet värit. Vierityspalkista voit myös säätää läpinäkyvyyttä.</string>
+    <string name="contributors">Kehittäjät</string>
     <string name="why_upgrade_basic_version">Perus</string>
     <string name="notice">Tämä sovellus käyttää kolmannen osapuolen lisenssejä tehdäkseni elämästäni helpompaa. Kiitos.</string>
     <string name="third_party_licences">Kolmansien osapuolien lisenssit</string>

@@ -30,6 +30,7 @@
     <string name="select_a_different_color">Farklı bir renk seç</string>
     <string name="download">İndirme</string>
     <string name="notification">Bildirim</string>
+    <string name="notifications">Bildirimler</string>
     <string name="email">E-posta</string>
     <string name="previous">Önceki</string>
     <string name="playpause">Oynat / Duraklat</string>
@@ -39,6 +40,7 @@
     <string name="request_the_required_permissions">Gerekli izinleri isteyin</string>
     <string name="no_access_to_contacts">Uygulama kişilerinize erişemedi</string>
     <string name="insert_text_here">Buraya metin ekleyin</string>
+    <string name="call_person">Ara %s</string>
     <string name="change_view_type">Önizleme türünü değiştir</string>
     <string name="grid">Izgara</string>
     <string name="list">Liste</string>
@@ -52,6 +54,8 @@
     <string name="block_number">Numarayı engelle</string>
     <string name="block_numbers">Numaraları engelle</string>
     <string name="blocked_numbers">Engellenen numaralar</string>
+    <string name="export_blocked_numbers">Engellenen numaraları dışa aktar</string>
+    <string name="import_blocked_numbers">Engellenen numaraları içe aktar</string>
     <string name="must_make_default_dialer">Engellenen numaraları kullanmak için bu uygulamayı varsayılan çevirici uygulaması yapmanız gerekir.</string>
     <string name="set_as_default">Varsayılan olarak ayarla</string>
     <string name="block_confirmation">\"%s\" engellemek istediğinizden emin misiniz?</string>
@@ -88,6 +92,8 @@
     <string name="pattern_renaming">Desen</string>
     <string name="string_to_add">Eklenecek dize</string>
     <string name="rename_date_time_pattern">%Y - Yıl \n%M - Ay \n%D - Gün \n%h - Saat \n%m - Dakika \n%s - saniye \n%i - 1den daha fazla sayı</string>
+    <string name="filename_without_txt">Dosya adı (.txt olmadan)</string>
+    <string name="filename_without_json">Dosya adı (.json olmadan)</string>
     <string name="copy">Kopyala</string>
     <string name="move">Taşı</string>
     <string name="copy_move">Kopyala / Taşı</string>
@@ -157,6 +163,7 @@
     <string name="internal">Dahili</string>
     <string name="sd_card">SD Kart</string>
     <string name="root">Root</string>
+    <string name="wrong_root_selected">Yanlış klasör seçildi, lütfen SD kartınızın ana klasörünü seçin</string>
     <string name="sd_card_usb_same">SD kart ve USB cihaz yolları aynı olamaz</string>
     <string name="app_on_sd_card">Uygulama widget\'lerini kullanılamaz hale getiren SD karta yüklemiş görünüyorsunuz. Onları mevcut widget\'ler listesinde bile görmeyeceksiniz.
         Bu bir sistem sınırlamasıdır, bu nedenle widget\'leri kullanmak istiyorsanız, uygulamayı dahili depolama birimine geri taşımanız gerekir.</string>
@@ -204,6 +211,7 @@
     <string name="shared_theme_note">Pro uygulama sürümünü kullanıyor olsanız bile, teknik nedenlerden dolayı yine de Basit Teşekkürler\'e ihtiyacınız olduğunu unutmayın. Renk senkronizasyonu ile ilgilenir.</string>
     <string name="light_theme">Aydınlık</string>
     <string name="dark_theme">Karanlık</string>
+    <string name="auto_theme">Oto</string>
     <string name="solarized">Soluk</string>
     <string name="dark_red">Koyu kırmızı</string>
     <string name="white">Beyaz</string>
@@ -242,6 +250,7 @@
     <string name="name">Ad</string>
     <string name="size">Boyut</string>
     <string name="last_modified">Son değiştirilme</string>
+    <string name="date_created">Oluşturulma tarihi</string>
     <string name="date_taken">Alınan tarih</string>
     <string name="title">Başlık</string>
     <string name="filename">Dosya adı</string>
@@ -281,9 +290,12 @@
     <string name="insert_pattern">Desen ekle</string>
     <string name="wrong_pattern">Yanlış desen</string>
     <string name="repeat_pattern">Deseni tekrarla</string>
+    <string name="biometrics">Biyometrik</string>
     <string name="fingerprint">Parmak izi</string>
     <string name="add_fingerprint">Parmak izi ekle</string>
     <string name="place_finger">Lütfen parmağınızı parmak izi sensörüne yerleştirin</string>
+    <string name="open_biometric_dialog">Biyometrik kimlik doğrulama iletişim kutusunu aç</string>
+    <string name="authenticate">Kimlik doğrulama</string>
     <string name="authentication_failed">Kimlik doğrulama başarısız</string>
     <string name="authentication_blocked">Kimlik doğrulama engellendi, lütfen birazdan tekrar deneyin</string>
     <string name="no_fingerprints_registered">Parmak iziniz kayıtlı değil, lütfen cihazınızın Ayarlar bölümünden ekleyin</string>
@@ -434,6 +446,7 @@
     <string name="during_day_at">Gün boyunca %02d:%02d</string>
     <string name="settings">Ayarlar</string>
     <string name="purchase_simple_thank_you">Satın alma basit teşekkür ederim</string>
+    <string name="general_settings">Genel</string>
     <string name="customize_colors">Renkleri özelleştir</string>
     <string name="customize_colors_locked">Renkleri özelleştirin (Kilitli)</string>
     <string name="customize_widget_colors">Widget renklerini özelleştir</string>
@@ -470,6 +483,7 @@
     <string name="settings_imported_successfully">Ayarlar başarıyla içe aktarıldı</string>
     <string name="start_name_with_surname">Adı soyadı ile başlayın</string>
     <string name="clear_cache">Önbelleği temizle</string>
+    <string name="show_call_confirmation_dialog">Bir arama başlatmadan önce bir arama onayı iletişim kutusu göster</string>
     <string name="visibility">Görünürlük</string>
     <string name="security">Güvenlik</string>
     <string name="scrolling">Kaydırma</string>
@@ -479,6 +493,7 @@
     <string name="startup">Başlangıç</string>
     <string name="text">Metin</string>
     <string name="migrating">Geçiş yapma</string>
+    <string name="thumbnails">Önizleme resimleri</string>
     <string name="manage_shown_tabs">Gösterilen sekmeleri yönet</string>
     <string name="default_tab_to_open">Uygulama başlangıcında sekme açmak için</string>
     <string name="contacts_tab">Rehber</string>
@@ -515,6 +530,7 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Cihazınıza takılı bir USB var gibi görünüyor. Dosyalarının düzgün görüntülendiğinden emin olmak için ek izinler vermeniz gerekir.</string>
     <string name="confirm_usb_storage_access_text">Erişim vermek için lütfen bir sonraki ekranda USB cihazının üst klasörünü seçin</string>
+    <string name="wrong_root_selected_usb">Yanlış klasör seçildi, lütfen USB cihazınızın ana klasörünü seçin</string>
     <string name="january">Ocak</string>
     <string name="february">Şubat</string>
     <string name="march">Mart</string>
@@ -570,18 +586,14 @@
     <string name="website_label">Kaynak kodları için ziyaret edin</string>
     <string name="email_label">Görüşlerinizi veya önerilerinizi buraya gönderin</string>
     <string name="upgrade_to_pro">Pro sürümüne yükselt</string>
-    <string name="more_apps_underlined"><u>Daha fazla uygulama</u></string>
-    <string name="more_apps_from_us_underlined"><u>Bizden daha fazla uygulama</u></string>
-    <string name="third_party_licences_underlined"><u>Üçüncü taraf lisansları</u></string>
-    <string name="invite_friends_underlined"><u>Arkadaşlarınızı davet edin</u></string>
     <string name="share_text">Selam, %1$s adlı harika bir uygulama buldum. %2$s adresinden indir</string>
     <string name="invite_via">Şununla davet et</string>
-    <string name="rate_us_underlined"><u>Bizi değerlendirin</u></string>
     <string name="rate">Oyla</string>
     <string name="donate">Bağış yapın</string>
     <string name="donate_underlined"><u>Bağış yapın</u></string>
     <string name="follow_us">Bizi takip edin</string>
     <string name="copyright">v %1$s\nTelif hakkı © Simple Mobile Tools %2$d</string>
+    <string name="other">Diğer</string>
     <string name="additional_info">Ek bilgiler</string>
     <string name="app_version">Uygulama sürümü: %s</string>
     <string name="device_os">Cihaz İS: %s</string>
@@ -621,8 +633,6 @@
     <string name="faq_1_title_commons">Uygulamanın widget\'ını widget\'lar listesinde neden göremiyorum?</string>
     <string name="faq_1_text_commons">Büyük olasılıkla uygulamayı SD karta taşıdığınız içindir. Bu durumda verilen uygulama widget\'larını gizleyen bir Android sistem sınırlaması var. Tek çözüm, cihaz ayarlarınızı kullanarak uygulamayı Dahili Depolama birimine geri taşımaktır.</string>
     <string name="faq_2_title_commons">Seni desteklemek istiyorum ama para bağışlayamıyorum. Yapabileceğim başka bir şey var mı?</string>
-    <string name="faq_2_text_commons">Evet, tabi ki. Uygulamalar hakkında tanıtım yapabilir veya iyi geribildirim ve derecelendirmeler verebilirsiniz.
-        Kılavuzu https://github.com/SimpleMobileTools/General-Discussion adresinde bulabilir, veya yardıma ihtiyacınız varsa bana hello@simplemobiletools.com adresinden bir mesaj gönderebilirsiniz.</string>
     <string name="faq_3_title_commons">Bazı dosyaları yanlışlıkla sildim, onları nasıl kurtarabilirim?</string>
     <string name="faq_3_text_commons">Ne yazık ki, yapamazsınız. Onay penceresinden sonra dosyalar anında silinir, kullanılabilir çöp kutusu yoktur.</string>
     <string name="faq_4_title_commons">Widget renklerini beğenmedim, değiştirebilir miyim?</string>
@@ -644,6 +654,9 @@
          tüm öğeleri seçmek istiyorsanız, sadece bir öğeye uzun basın, ardından sol üst köşedeki seçili öğe sayacına tıklayın. Bu, her şeyi seçecek veya seçimini kaldıracaktır.</string>
     <string name="faq_10_title_commons">Uygulamayı satın aldım ancak başka bir cihaza indiremiyorum.</string>
     <string name="faq_10_text_commons">Google Play uygulama önbelleğinizi temizlemeyi ve cihazınızı yeniden başlatmayı deneyin. Bu, uygulamanın kendisiyle gerçekten ilgili olmayan bazı Google Play aksaklıklarıdır.</string>
+    <string name="contributors">Katkıda bulunanlar</string>
+    <string name="translation">Çeviri</string>
+    <string name="translation_czech">Çekçe</string>
     <string name="why_upgrade">Pro sürümünü şimdi edinin!</string>
     <string name="why_upgrade_basic_version">Temel</string>
     <string name="why_upgrade_pro_version">Pro</string>

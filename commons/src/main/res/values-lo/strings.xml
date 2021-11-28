@@ -18,6 +18,7 @@
     <string name="camera">ກ້ອງ</string>
     <string name="default_color">ຄ່າເລີ່ມຕົ້ນ</string>
     <string name="save">ບັນທຶກ</string>
+    <string name="auto_theme">ອັດຕະໂນມັດ</string>
     <string name="custom">ກຳນົດເອງ</string>
     <string name="delete">ລຶບ</string>
     <string name="remove">ເອົາ​ອອກ</string>
@@ -36,6 +37,7 @@
     <string name="widgets">ວິດເຈັດ</string>
     <string name="about">ກ່ຽວກັບ</string>
     <string name="donate">ບໍລິຈາກ</string>
+    <string name="other">ອື່ນໆ</string>
     <string name="calendar_short">ປະຕິທິນ</string>
     <string name="camera_short">ກ້ອງ</string>
 </resources>

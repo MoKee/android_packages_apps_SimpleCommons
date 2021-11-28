@@ -23,6 +23,7 @@
     <string name="camera">Ֆոտոխցիկ</string>
     <string name="default_color">Լռելյայն</string>
     <string name="save">Պահել</string>
+    <string name="auto_theme">Ինքնուրույն</string>
     <string name="custom">Հատուկ</string>
     <string name="delete">Ջնջել</string>
     <string name="remove">Հեռացնել</string>
@@ -46,6 +47,7 @@
     <string name="monday">Երկուշաբթի</string>
     <string name="saturday">Շաբաթ</string>
     <string name="sunday">Կիրակի</string>
+    <string name="other">Այլ</string>
     <string name="calendar_short">Օրացույց</string>
     <string name="camera_short">Ֆոտոխցիկ</string>
     <string name="contacts_short">Կոնտակտներ</string>

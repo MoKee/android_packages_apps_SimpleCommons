@@ -11,6 +11,7 @@
     <string name="none">ללא</string>
     <string name="transparent">שקוף</string>
     <string name="download">מצב הורדה</string>
+    <string name="notifications">התראות</string>
     <string name="email">דוא\"ל</string>
     <string name="previous">הקודם</string>
     <string name="next">הבא</string>
@@ -36,6 +37,7 @@
     <string name="save">שמור</string>
     <string name="light_theme">בהיר</string>
     <string name="dark_theme">חשכה</string>
+    <string name="auto_theme">אוטומטי</string>
     <string name="white">לבן</string>
     <string name="custom">מותאם אישית</string>
     <string name="delete">מחק</string>
@@ -65,6 +67,7 @@
     <string name="dismiss">בטל</string>
     <string name="at_start">בהתחלה</string>
     <string name="settings">הגדרות</string>
+    <string name="general_settings">כללי</string>
     <string name="small">קטן</string>
     <string name="medium">בינוני</string>
     <string name="widgets">ווידג\'טים</string>
@@ -98,9 +101,12 @@
     <string name="about">אודות</string>
     <string name="rate">דרג</string>
     <string name="donate">תרום</string>
+    <string name="other">אחר</string>
     <string name="purchase">קנה</string>
     <string name="calendar_short">לוח שנה</string>
     <string name="camera_short">מצלמה</string>
     <string name="clock_short">שעון</string>
+    <string name="contributors">תורמים</string>
+    <string name="translation_czech">צ\'כיה</string>
     <string name="why_upgrade_basic_version">בסיסי</string>
 </resources>

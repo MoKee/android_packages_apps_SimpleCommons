@@ -15,6 +15,7 @@
     <string name="default_color">डीफॉल्ट</string>
     <string name="save">जतन करा</string>
     <string name="dark_theme">गडद</string>
+    <string name="auto_theme">ऑटो</string>
     <string name="custom">सानुकूल</string>
     <string name="remove">काढा</string>
     <string name="undo">पूर्ववत करा</string>
@@ -28,6 +29,7 @@
     <string name="widgets">विजेट</string>
     <string name="text">मजकूर</string>
     <string name="usb">USB</string>
+    <string name="other">अन्य</string>
     <string name="calendar_short">कॅलेंडर</string>
     <string name="camera_short">कॅमेरा</string>
 </resources>

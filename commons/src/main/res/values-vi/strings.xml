@@ -30,6 +30,7 @@
     <string name="select_a_different_color">Chọn một màu sác khác</string>
     <string name="download">Tải xuống</string>
     <string name="notification">Thông báo</string>
+    <string name="notifications">Thông báo</string>
     <string name="email">Thư điện tử</string>
     <string name="previous">Trước</string>
     <string name="playpause">Phát/Dừng</string>
@@ -198,6 +199,7 @@
     <string name="shared_theme_note">Lưu ý rằng mặc dù bạn đang sử dụng phiên bản ứng dụng Pro, bạn vẫn cần Cảm ơn đơn giản vì lý do kỹ thuật. Nó quan tâm đến sự đồng bộ hóa màu sắc.</string>
     <string name="light_theme">Sáng</string>
     <string name="dark_theme">Tối</string>
+    <string name="auto_theme">Tự động</string>
     <string name="solarized">Phơi sáng</string>
     <string name="dark_red">Đỏ sẫm</string>
     <string name="white">Trắng</string>
@@ -399,6 +401,7 @@
     <string name="during_day_at">Trong ngày lúc %02d:%02d</string>
     <string name="settings">Cài đặt</string>
     <string name="purchase_simple_thank_you">Mua hàng đơn giản Cảm ơn bạn</string>
+    <string name="general_settings">Chung</string>
     <string name="customize_colors">Tùy chỉnh màu sắc</string>
     <string name="customize_colors_locked">Tùy chỉnh màu sắc (Đã khóa)</string>
     <string name="customize_widget_colors">Tùy chỉnh màu widget</string>
@@ -444,6 +447,7 @@
     <string name="startup">Khởi động</string>
     <string name="text">Văn bản</string>
     <string name="migrating">Di chuyển</string>
+    <string name="thumbnails">Thumbnails</string>
     <string name="manage_shown_tabs">Quản lý các tab được hiển thị</string>
     <string name="default_tab_to_open">Tab để mở khi bắt đầu ứng dụng</string>
     <string name="contacts_tab">Liên hệ</string>
@@ -534,18 +538,14 @@
     <string name="website_label">Đối với các mã nguồn truy cập</string>
     <string name="email_label">Gửi phản hồi hoặc đề xuất của bạn tới</string>
     <string name="upgrade_to_pro">Nâng cấp lên Pro</string>
-    <string name="more_apps_underlined"><u>Thêm ứng dụng</u></string>
-    <string name="more_apps_from_us_underlined"><u>Thêm ứng dụng từ chúng tôi</u></string>
-    <string name="third_party_licences_underlined"><u>Giấy phép bên thứ ba</u></string>
-    <string name="invite_friends_underlined"><u>Mời bạn bè</u></string>
     <string name="share_text">Xin chào, hãy kiểm tra %1$s với %2$s</string>
     <string name="invite_via">Mời qua</string>
-    <string name="rate_us_underlined"><u>Đánh giá chúng tôi</u></string>
     <string name="rate">Đánh giá</string>
     <string name="donate">Ủng hộ</string>
     <string name="donate_underlined">&lt;U&gt;Đóng góp&lt;/u&gt;</string>
     <string name="follow_us">Theo dõi chúng tôi</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="other">Khác</string>
     <string name="additional_info">Thông tin bổ sung</string>
     <string name="app_version">Phiên bản ứng dụng: %s</string>
     <string name="device_os">Hệ điều hành thiết bị: %s</string>
@@ -586,8 +586,6 @@
     <string name="faq_1_text_commons">Rất có thể là do bạn đã di chuyển ứng dụng trên thẻ SD. Có một giới hạn hệ thống Android ẩn các widget ứng dụng đã cho
          trong trường hợp đó. Giải pháp duy nhất là chuyển ứng dụng trở lại Bộ nhớ trong thông qua cài đặt thiết bị của bạn.</string>
     <string name="faq_2_title_commons">Tôi muốn hỗ trợ bạn, nhưng tôi không thể quyên góp tiền. Tôi có thể làm gì khác không?</string>
-    <string name="faq_2_text_commons">Phải, tất nhiên. Bạn có thể truyền bá về các ứng dụng hoặc đưa ra phản hồi và xếp hạng tốt. Bạn cũng có thể giúp đỡ bằng cách dịch các ứng dụng bằng ngôn ngữ mới hoặc chỉ cập nhật một số bản dịch hiện có.
-         Bạn có thể tìm thấy hướng dẫn tại https://github.com/SimpleMobileTools/General-Discussion hoặc chỉ cần gửi tin nhắn cho tôi tại hello@simplemobiletools.com nếu bạn cần trợ giúp.</string>
     <string name="faq_3_title_commons">Tôi đã xóa một số tệp do nhầm lẫn, làm cách nào để khôi phục chúng?</string>
     <string name="faq_3_text_commons">Đáng buồn thay, bạn không thể. Các tập tin sẽ bị xóa ngay lập tức sau hộp thoại xác nhận, không có thùng rác nào.</string>
     <string name="faq_4_title_commons">Tôi không thích màu của widget, tôi có thể thay đổi chúng không?</string>
@@ -607,6 +605,9 @@
     <string name="faq_9_text_commons">Có nhiều cách để làm điều đó. Cách đầu tiên là bắt đầu chế độ lựa chọn bằng cách nhấn và giữ một mục, sau đó nhấp nhanh vào các mục khác để chọn chúng. Cách thứ hai tương tự như chọn các mục trên PC bằng chuột, chỉ cần bắt đầu chế độ chọn bằng cách nhấn và giữ một mục, sau đó vẫn kéo ngón tay của bạn xuống trên các mục khác để chọn. Cách thứ ba để chọn nhiều mục là nhấn và giữ một mục, sau đó nhấn và giữ một mục khác và mọi thứ ở giữa sẽ được chọn. Nếu bạn muốn chọn tất cả các mục, chỉ cần nhấn và giữ một mục, sau đó nhấp vào quầy mục đã chọn ở góc trên cùng bên trái. Điều đó sẽ chọn hoặc bỏ chọn tất cả mọi thứ.</string>
     <string name="faq_10_title_commons">Tôi đã mua ứng dụng, nhưng tôi không thể tải xuống ứng dụng trên thiết bị khác.</string>
     <string name="faq_10_text_commons">Thử xóa bộ nhớ cache của ứng dụng Google Play và khởi động lại thiết bị của bạn. Đó là một số trục trặc của Google Play, không thực sự liên quan đến chính ứng dụng.</string>
+    <string name="contributors">Những người đóng góp</string>
+    <string name="translation">Dịch thuật</string>
+    <string name="translation_czech">Cộng Hòa Séc</string>
     <string name="why_upgrade">Tải xuống phiên bản Pro ngay bây giờ!</string>
     <string name="why_upgrade_basic_version">Cơ bản</string>
     <string name="why_upgrade_pro_version">Pro</string>

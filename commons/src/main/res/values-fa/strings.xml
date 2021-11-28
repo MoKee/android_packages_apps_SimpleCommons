@@ -8,6 +8,7 @@
     <string name="transparent">شفاف</string>
     <string name="download">دانلود</string>
     <string name="notification">اعلانات</string>
+    <string name="notifications">اعلانات</string>
     <string name="email">ایمیل</string>
     <string name="previous">قبلی</string>
     <string name="next">بعدی</string>
@@ -22,6 +23,7 @@
     <string name="default_color">پیش‌فرض</string>
     <string name="theme">تم</string>
     <string name="save">ذخیره</string>
+    <string name="auto_theme">خودکار</string>
     <string name="custom">سفارشی</string>
     <string name="delete">حذف</string>
     <string name="remove">برداشتن</string>
@@ -39,9 +41,12 @@
     <string name="minutes_raw">دقیقه</string>
     <string name="hours_raw">ساعت</string>
     <string name="settings">تنظیمات</string>
+    <string name="general_settings">کلی</string>
     <string name="widgets">ابزارک‌ها</string>
     <string name="usb">یواس‌بی</string>
+    <string name="other">غیره</string>
     <string name="calendar_short">تقویم</string>
     <string name="camera_short">دوربین</string>
     <string name="flashlight_short">چراغ‌قوه</string>
+    <string name="contributors">شرکاء</string>
 </resources>

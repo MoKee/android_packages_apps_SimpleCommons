@@ -29,6 +29,7 @@
     <string name="select_a_different_color">Wybierz inny kolor</string>
     <string name="download">Pobierz</string>
     <string name="notification">Powiadomienia</string>
+    <string name="notifications">Powiadomienia</string>
     <string name="email">E-mail</string>
     <string name="previous">Poprzedni</string>
     <string name="playpause">Odtwarzaj / Wstrzymaj</string>
@@ -209,6 +210,7 @@
     <string name="shared_theme_note">Pamiętaj, że mimo iż używasz wersji Pro, nadal potrzebujesz Prostej Dziękujemy ze względów technicznych. Zajmuje się synchronizacją kolorów.</string>
     <string name="light_theme">Jasny</string>
     <string name="dark_theme">Ciemny</string>
+    <string name="auto_theme">Automatycznie</string>
     <string name="solarized">Solaryzacja</string>
     <string name="dark_red">Ciemnoczerwony</string>
     <string name="white">Biały</string>
@@ -492,6 +494,7 @@
     <string name="during_day_at">W ciągu dnia o %02d:%02d</string>
     <string name="settings">Ustawienia</string>
     <string name="purchase_simple_thank_you">Kup aplikację \'Proste podziękowanie\'</string>
+    <string name="general_settings">Ogólne</string>
     <string name="customize_colors">Dostosuj kolory aplikacji</string>
     <string name="customize_colors_locked">Dostosuj kolory (Locked)</string>
     <string name="customize_widget_colors">Dostosuj kolory widżetu</string>
@@ -537,6 +540,7 @@
     <string name="startup">Uruchamianie</string>
     <string name="text">Tekst</string>
     <string name="migrating">Migrowanie</string>
+    <string name="thumbnails">Miniatury</string>
     <string name="default_tab_to_open">Zakładka do otwarcia przy starcie aplikacji</string>
     <string name="contacts_tab">Kontakty</string>
     <string name="favorites_tab">Ulubione</string>
@@ -627,18 +631,14 @@
     <string name="website_label">Nasza strona internetowa:</string>
     <string name="email_label">Napisz do nas, przyślij nam swoje uwagi:</string>
     <string name="upgrade_to_pro">Zaktualizuj do wersji Pro</string>
-    <string name="more_apps_underlined"><u>Więcej naszych aplikacji</u></string>
-    <string name="more_apps_from_us_underlined"><u>Więcej aplikacji od nas</u></string>
-    <string name="third_party_licences_underlined"><u>Licencje innych firm</u></string>
-    <string name="invite_friends_underlined"><u>Zaproponuj aplikację znajomym</u></string>
     <string name="share_text">Hej! Sprawdź aplikację %1$s (%2$s).</string>
     <string name="invite_via">Wybierz sposób:</string>
-    <string name="rate_us_underlined"><u>Oceń aplikację</u></string>
     <string name="rate">Oceń</string>
     <string name="donate">Przekaż datek</string>
     <string name="donate_underlined"><u>Przekaż datek</u></string>
     <string name="follow_us">Śledź nas</string>
     <string name="copyright">Wersja %1$s\n© Simple Mobile Tools %2$d</string>
+    <string name="other">Inny</string>
     <string name="additional_info">Dodatkowe informacje</string>
     <string name="app_version">Wersja aplikacji: %s</string>
     <string name="device_os">System: %s</string>
@@ -675,7 +675,6 @@
     <string name="faq_1_title_commons">Dlaczego nigdzie nie widzę widżetu aplikacji?</string>
     <string name="faq_1_text_commons">Zapewne dlatego, że aplikacja została zainstalowana na karcie pamięci. Jedynym rozwiązaniem problemu jest przeniesienie aplikacji do pamięci wewnętrznej. Jest to ograniczenie systemu.</string>
     <string name="faq_2_title_commons">Chcę was wesprzeć, ale jestem bez grosza przy duszy. Mogę jakoś to zrobić inaczej?</string>
-    <string name="faq_2_text_commons">Oczywiście. Możesz powiedzieć światu o naszych aplikacjach, podzielić się opinią i oceną w Sklepie Google Play, lub też wspomóc tłumaczenie aplikacji na nowe języki (bądź poprawić już istniejące tłumaczenia). Instrukcję znajdziesz pod adresem https://github.com/SimpleMobileTools/General-Discussion . Możesz też napisać do nas na adres hello@simplemobiletools.com , jeśli potrzebujesz pomocy.</string>
     <string name="faq_3_title_commons">Usunąłem(-am) jakieś pliki przez przypadek. Mogę je jakoś odzyskać?</string>
     <string name="faq_3_text_commons">Pliki są usuwane zaraz po kliknięciu w oknie potwierdzającym. System Android nie ma wbudowanego kosza.</string>
     <string name="faq_4_title_commons">Nie za bardzo podobają mi się domyślne kolory widżetów. Mogę je jakoś zmienić?</string>
@@ -697,6 +696,9 @@
         chcesz wybrać wszystkie elementy, po prostu przytrzymaj jeden element, następnie kliknij w zaznaczony licznik przedmiotów w lewym górnym rogu. To wybierze lub odznacz wszystko.</string>
     <string name="faq_10_title_commons">Kupiłem aplikację, ale nie mogę pobrać jej na innym urządzeniu.</string>
     <string name="faq_10_text_commons">Spróbuj wyczyścić pamięć podręczną aplikacji Google Play i zrestartować urządzenie. To jest trochę glitch Google Play, nie jest naprawdę związany z samą aplikacją.</string>
+    <string name="contributors">Twórcy</string>
+    <string name="translation">Tłumaczenie</string>
+    <string name="translation_czech">Czechy</string>
     <string name="why_upgrade">Pobierz wersję Pro!</string>
     <string name="why_upgrade_basic_version">Podstawowe</string>
     <string name="why_upgrade_pro_version">Pro</string>

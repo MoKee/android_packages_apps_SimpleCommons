@@ -20,6 +20,7 @@
     <string name="restore_defaults">Restore defaults</string>
     <string name="default_color">Default</string>
     <string name="save">Save</string>
+    <string name="auto_theme">Auto</string>
     <string name="custom">Customise</string>
     <string name="rename">Rename</string>
     <string name="yes">Yes</string>
@@ -32,6 +33,7 @@
     <string name="medium">Medium</string>
     <string name="usb">USB</string>
     <string name="donate">Donate</string>
+    <string name="other">Other</string>
     <string name="calendar_short">Calendar</string>
     <string name="camera_short">Camera</string>
     <string name="flashlight_short">flash</string>

@@ -25,6 +25,7 @@
     <string name="select_a_different_color">Vælg en anden farve</string>
     <string name="download">Download</string>
     <string name="notification">Underretning</string>
+    <string name="notifications">Notifikationer</string>
     <string name="email">E-mail</string>
     <string name="previous">Forrige</string>
     <string name="next">Næste</string>
@@ -161,6 +162,7 @@
     <string name="share_colors_success">Farverne er ændret. Et nyt udseende kaldet \"Tilpasset\" er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
     <string name="light_theme">Lys</string>
     <string name="dark_theme">Mørk</string>
+    <string name="auto_theme">Auto</string>
     <string name="dark_red">Mørkerød</string>
     <string name="black_white">Sort &amp; hvid</string>
     <string name="custom">Tilpasset</string>
@@ -343,6 +345,7 @@
     <string name="no_sound">Ingen lyd</string>
     <string name="settings">Indstillinger</string>
     <string name="purchase_simple_thank_you">Køb Simple Thank You</string>
+    <string name="general_settings">Generelt</string>
     <string name="customize_colors">Rediger farver</string>
     <string name="customize_widget_colors">Rediger widget-farver</string>
     <string name="show_hidden_items">Vis skjulte elementer</string>
@@ -372,6 +375,7 @@
     <string name="file_operations">Filoperationer</string>
     <string name="recycle_bin">Papirkurv</string>
     <string name="text">Tekst</string>
+    <string name="thumbnails">Thumbnails</string>
     <string name="favorites_tab">Bogmærker</string>
     <string name="empty_recycle_bin_confirmation">Er du sikker på at du vil tømme papirkurven? Filerne vil ikke kunne genskabes.</string>
     <string name="recycle_bin_empty">Papirkurven er tom</string>
@@ -430,15 +434,12 @@
     <string name="about">Om</string>
     <string name="website_label">For at se kildekoden besøg</string>
     <string name="email_label">Send feedback og forslag til</string>
-    <string name="more_apps_underlined"><u>Flere apps</u></string>
-    <string name="third_party_licences_underlined"><u>3.-parts licencer</u></string>
-    <string name="invite_friends_underlined"><u>Inviter venner</u></string>
     <string name="share_text">Hej, se %1$s på %2$s</string>
     <string name="invite_via">Inviter via</string>
-    <string name="rate_us_underlined"><u>Vurder os</u></string>
     <string name="donate">Donér</string>
     <string name="donate_underlined"><u>Donér</u></string>
     <string name="follow_us">Følg os</string>
+    <string name="other">Andre</string>
     <string name="additional_info">Yderligere info</string>
     <string name="purchase">Køb</string>
     <string name="update_thank_you">Opdater venligst Simple Thank You til den seneste version</string>
@@ -454,13 +455,12 @@
     <string name="faq_1_title_commons">Hvorfor kan jeg ikke se denne app\'s widget på listen med widgets?</string>
     <string name="faq_1_text_commons">Det er sikkert fordi du har flyttet appen til et SD-kort. Der er en begrænsning i Androidsystemet der i så fald skjuler appens widget. Eneste løsning er at flytte appen tilbage til det interne lager via indstillingerne på din enhed.</string>
     <string name="faq_2_title_commons">Jeg vil gerne støtte dig, men jeg kan ikke donere penge. Er der andet jeg kan gøre?</string>
-    <string name="faq_2_text_commons">Ja, selvfølgelig. Du kan fortælle andre om appsene eller give god feedback og gode vurderinger. Du kan også hjælpe med at oversætte til et nyt sprog, eller med at opdatere en eksisterende oversættelse.
-        Du kan finde en guide på siden https://github.com/SimpleMobileTools/General-Discussion, eller send mig en besked på hello@simplemobiletools.com hvis du har brug for hjælp.</string>
     <string name="faq_3_title_commons">Jeg fik slettet nogle filer ved en fejl, hvordan kan jeg gendanne dem?</string>
     <string name="faq_3_text_commons">Det kan du desværre ikke. Filer er væk så snart sletningen er bekræftet, og der er ingen papirkurv.</string>
     <string name="faq_4_title_commons">Jeg bryder mig ikke om farverne på widget\'en, kan jeg ændre dem?</string>
     <string name="faq_4_text_commons">Jep. Når du føjer en widget til din skærm kommer muligheden for at konfigurere den frem. I nederste venstre hjørne finder du farvede kvadrater, klik på dem og vælg en ny farve. Du kan justere alfa med skyderen.</string>
     <string name="faq_5_title_commons">Kan jeg gendanne slettede filer?</string>
+    <string name="contributors">Bidragydere</string>
     <string name="why_upgrade_basic_version">Grundlæggende</string>
     <string name="notice">Denne app bruger følgende 3.-parts biblioteker der gør at mit liv bliver lidt enklere. Tak.</string>
     <string name="third_party_licences">3.-parts licencer</string>

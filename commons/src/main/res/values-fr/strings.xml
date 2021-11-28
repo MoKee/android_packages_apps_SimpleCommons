@@ -29,6 +29,7 @@
     <string name="select_a_different_color">Sélectionnez une couleur différente</string>
     <string name="download">Télécharger</string>
     <string name="notification">Notification</string>
+    <string name="notifications">Notifications</string>
     <string name="email">E-mail</string>
     <string name="previous">Précédent</string>
     <string name="playpause">Lire/pause</string>
@@ -199,6 +200,7 @@
     <string name="share_colors_success">Couleurs actualisées. Un nouveau thème nommé \"Partagé\" a été ajouté. Veuillez utiliser ce thème pour actualiser les couleurs de toutes les applications à partir de maintenant.</string>
     <string name="light_theme">Clair</string>
     <string name="dark_theme">Sombre</string>
+    <string name="auto_theme">Auto</string>
     <string name="solarized">Solarisé</string>
     <string name="dark_red">Noir et Rouge</string>
     <string name="white">Blanc</string>
@@ -418,6 +420,7 @@
     <string name="no_sound">Aucune sonnerie</string>
     <string name="settings">Paramètres</string>
     <string name="purchase_simple_thank_you">Acheter Simple Thank You</string>
+    <string name="general_settings">Général</string>
     <string name="customize_colors">Modifier les couleurs</string>
     <string name="customize_widget_colors">Modifier les couleurs du widget</string>
     <string name="use_english_language">Utiliser la langue anglaise</string>
@@ -460,6 +463,7 @@
     <string name="startup">Démarrage en cours…</string>
     <string name="text">Texte</string>
     <string name="migrating">Migration</string>
+    <string name="thumbnails">Miniatures</string>
     <string name="default_tab_to_open">Onglet à ouvrir au démarrage de l\'application</string>
     <string name="contacts_tab">Contacts</string>
     <string name="favorites_tab">Favoris</string>
@@ -548,18 +552,14 @@
     <string name="website_label">Pour le code source, consultez</string>
     <string name="email_label">Envoyez vos commentaires ou suggestions à</string>
     <string name="upgrade_to_pro">Passer à la version Pro</string>
-    <string name="more_apps_underlined"><u>Plus d\'applications</u></string>
-    <string name="more_apps_from_us_underlined"><u>Nos autres applications</u></string>
-    <string name="third_party_licences_underlined"><u>Licences tierces</u></string>
-    <string name="invite_friends_underlined"><u>Inviter des amis</u></string>
     <string name="share_text">Salut, viens voir %1$s à %2$s</string>
     <string name="invite_via">Inviter via</string>
-    <string name="rate_us_underlined"><u>Nous évaluer</u></string>
     <string name="rate">Évaluer</string>
     <string name="donate">Effectuer un don</string>
     <string name="donate_underlined"><u>Effectuer un don</u></string>
     <string name="follow_us">Suivez-nous</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile outils %2$d</string>
+    <string name="other">Autre</string>
     <string name="additional_info">Info supplémentaire</string>
     <string name="app_version">Version de l\'application : %s</string>
     <string name="device_os">Système d\'exploitation de l\'appareil : %s</string>
@@ -596,8 +596,6 @@
     <string name="faq_1_title_commons">Pourquoi ne vois-je pas les widgets de cette application dans la liste des widgets ?</string>
     <string name="faq_1_text_commons">Probablement parce que l\'application a été déplacée sur la carte SD. Android a une limitation qui fait qu\'il n\'affiche pas les widgets de cette application dans ce cas. La seule solution consiste à déplacer l\'application vers le stockage interne depuis les paramètres système.</string>
     <string name="faq_2_title_commons">Je voudrais vous apporter mon soutien, mais je ne peux pas vous donner de l\'argent. Y a-t-il autre chose que je puisse faire ?</string>
-    <string name="faq_2_text_commons">Oui, bien sûr. Vous pouvez recommander cette application et/ou mettre une bonne évaluation. Vous pouvez aussi nous aider en traduisant les applications dans une nouvelle langue, ou en actualisant les traductions existantes.
-        Vous pouvez trouver le guide à l\'adresse https://github.com/SimpleMobileTools/General-Discussion , ou simplement m\'envoyer un courriel à hello@simplemobiletools.com si vous avez besoin d\'aide.</string>
     <string name="faq_3_title_commons">J\'ai effacé des fichiers par erreurs. Comment les récupérer ?</string>
     <string name="faq_3_text_commons">C\'est malheureusement impossible, car les fichiers sont supprimés instantanément après le dialogue de confirmation et il n\'y a pas de corbeille.</string>
     <string name="faq_4_title_commons">Je n\'aime pas les couleurs du widget. Puis-je les changer ?</string>
@@ -615,6 +613,9 @@
         Si vous souhaitez un remboursement à tout moment plus tard, contactez-nous à hello@simplemobiletools.com et vous l\'obtiendrez.</string>
     <string name="faq_9_title_commons">Comment puis-je sélectionner plusieurs items à la fois?</string>
     <string name="faq_10_title_commons">J\'ai acheter l\'appli, mais je ne peux pas la télécharger sur un autre appareil.</string>
+    <string name="contributors">Contributeurs</string>
+    <string name="translation">Traduction</string>
+    <string name="translation_czech">Czech</string>
     <string name="why_upgrade">Obtenez la version Pro dès maintenant!</string>
     <string name="why_upgrade_basic_version">Basique</string>
     <string name="why_upgrade_pro_version">Pro</string>

@@ -26,6 +26,7 @@
     <string name="select_a_different_color">Одабери другу боју</string>
     <string name="download">Преузимање</string>
     <string name="notification">Обавештења</string>
+    <string name="notifications">Обавештења</string>
     <string name="email">Е-пошта</string>
     <string name="previous">Претходно</string>
     <string name="next">Следеће</string>
@@ -180,6 +181,7 @@
     <string name="share_colors_success">Боје су успешно ажуриране. Додана је нова тема под називом \'Shared\', користите је за ажурирање свих боја апликација у будућности.</string>
     <string name="light_theme">Светло</string>
     <string name="dark_theme">Мрак</string>
+    <string name="auto_theme">Аутоматски</string>
     <string name="solarized">Соларизација</string>
     <string name="dark_red">Тамно црвена</string>
     <string name="white">Бела</string>
@@ -419,6 +421,7 @@
     <string name="no_sound">Нечујно</string>
     <string name="settings">Подешавања</string>
     <string name="purchase_simple_thank_you">Једноставна куповина, Хвала Вам</string>
+    <string name="general_settings">Опште</string>
     <string name="customize_colors">Прилагодите Боје</string>
     <string name="customize_widget_colors">Прилагодите боје виџета</string>
     <string name="use_english_language">Користите енглески језик</string>
@@ -460,6 +463,7 @@
     <string name="startup">Покретање</string>
     <string name="text">Текст</string>
     <string name="migrating">Миграција</string>
+    <string name="thumbnails">Умањени прикази ( сличице)</string>
     <string name="favorites_tab">Омиљено</string>
     <string name="groups_tab">Групе</string>
     <string name="last_used_tab">Задње корршћено</string>
@@ -544,17 +548,14 @@
     <string name="website_label">За приступ изворном коду посетите</string>
     <string name="email_label">Пошаљите ваше мишљење и предлоге на</string>
     <string name="upgrade_to_pro">Надогради на Pro верзију</string>
-    <string name="more_apps_underlined"><u>Још апликација</u></string>
-    <string name="third_party_licences_underlined"><u>Лиценце других произвођача</u></string>
-    <string name="invite_friends_underlined"><u>Позови пријатеље</u></string>
     <string name="share_text">Поздрав, погледај %1$s на %2$s</string>
     <string name="invite_via">Позови преко</string>
-    <string name="rate_us_underlined"><u>Оцени нас</u></string>
     <string name="rate">Оцените</string>
     <string name="donate">Донирајте</string>
     <string name="donate_underlined"><u>Донирај</u></string>
     <string name="follow_us">Пратите нас</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="other">Друго</string>
     <string name="additional_info">Додатне информације</string>
     <string name="app_version">Верзија апликације %s</string>
     <string name="device_os">Оперативни систем уређаја %s</string>
@@ -577,7 +578,6 @@
     <string name="faq_1_text_commons">То је највјероватније зато што сте апликацију премјестили на додатну СД картицу. Постоји ограничење Андроид система које скрива  видгете који су на спољној СД картици. Решење је враћање програма у меморију телефона.
       .</string>
     <string name="faq_2_title_commons">Желим да вам помогнем али немам новца. Да ли има још нека могућност?</string>
-    <string name="faq_2_text_commons">Да наравно. Можете препоручити апликацију или дати позитивне повратне информације и оцене. Такође можете помоћи превођењем апликација на нови језик или само ажурирањем неких постојећих превода.</string>
     <string name="faq_3_title_commons">Случајно сам обрисао неке датотеке како да их повратим?</string>
     <string name="faq_3_text_commons">Нажалост то је немогуће. За сада нема могућности за то.</string>
     <string name="faq_4_title_commons">Несвиђају ми се боје виџета, да ли их могу променити?</string>
@@ -588,6 +588,9 @@
     <string name="faq_6_text_commons">То је узроковано тиме што ваш покретач не подржава промене икона. Покушајте да покренете апликацију преко Google Play-а или неког виџета, ако је доступан. Када покренете  вратите задану наранџасту икону # Ф57Ц00. Можда ћете морати  у најгорем случају. да поново инсталирате апликацију.</string>
     <string name="faq_7_title_commons">Новац је одузет са мог банковног рачуна, али не могу преузети апликацију. Шта могу да урадим?</string>
     <string name="faq_7_text_commons">Google плаћања у потпуности управља сам Google, повремено долази да застоја. Једноставно очистите кеш апликације Google Play -а и поново покрените уређај, а затим покушајте да програм преузмете поново.</string>
+    <string name="contributors">Сарадници</string>
+    <string name="translation">Превод</string>
+    <string name="translation_czech">Чешки</string>
     <string name="why_upgrade_basic_version">Основни</string>
     <string name="notice">Ова апликација користи и библиотеке неких других произвођача да ми олакша живот. Хвала вам.</string>
     <string name="third_party_licences"><u>Лиценце других произвођача</u></string>

@@ -30,6 +30,7 @@
     <string name="select_a_different_color">Seleziona un colore diverso</string>
     <string name="download">Download</string>
     <string name="notification">Notifiche</string>
+    <string name="notifications">Notifiche</string>
     <string name="email">Email</string>
     <string name="previous">Precedente</string>
     <string name="playpause">Riproduci / Pausa</string>
@@ -39,6 +40,7 @@
     <string name="request_the_required_permissions">Richiedi le autorizzazioni necessarie</string>
     <string name="no_access_to_contacts">L\'app non ha potuto accedere ai tuoi contatti</string>
     <string name="insert_text_here">Inserisci testo qui</string>
+    <string name="call_person">Chiama %s</string>
     <string name="change_view_type">Cambia modalità visualizzazione</string>
     <string name="grid">Griglia</string>
     <string name="list">Elenco</string>
@@ -52,6 +54,8 @@
     <string name="block_number">Blocca numero</string>
     <string name="block_numbers">Blocca numeri</string>
     <string name="blocked_numbers">Numeri bloccati</string>
+    <string name="export_blocked_numbers">Esporta numeri bloccati</string>
+    <string name="import_blocked_numbers">Importa numeri bloccati</string>
     <string name="must_make_default_dialer">Devi rendere quest\'app l\'app di composizione predefinita per usare i numeri bloccati.</string>
     <string name="set_as_default">Imposta come predefinita</string>
     <string name="block_confirmation">Sei sicuro di voler bloccare \"%s\"?</string>
@@ -88,6 +92,8 @@
     <string name="pattern_renaming">Sequenza</string>
     <string name="string_to_add">Stringa da aggiungere</string>
     <string name="rename_date_time_pattern">%Y - anno\n%M - mese\n%D - giorno\n%h - ora\n%m - minuto\n%s - secondo\n%i - numero a partire da 1</string>
+    <string name="filename_without_txt">Nome del file (senza .txt)</string>
+    <string name="filename_without_json">Nome del file (senza .json)</string>
     <string name="copy">Copia</string>
     <string name="move">Sposta</string>
     <string name="copy_move">Copia / Sposta</string>
@@ -157,6 +163,7 @@
     <string name="internal">Interna</string>
     <string name="sd_card">Scheda SD</string>
     <string name="root">Root</string>
+    <string name="wrong_root_selected">Cartella errata selezionata, sei pregato di selezionare la cartella principale della tua scheda SD</string>
     <string name="sd_card_usb_same">I percorsi della scheda SD e del dispositivo USB non possono essere uguali</string>
     <string name="app_on_sd_card">Sembra che l\'app sia installata nella scheda SD, ciò impedisce la disponibilità dei widget dell\'app. Non li vedrai neppure nell\'elenco dei widget disponibili.
         Se è una limitazione di sistema, quindi se vuoi usare i widget, devi spostare l\'app nella memoria interna.</string>
@@ -203,6 +210,7 @@
     <string name="shared_theme_note">Nota che sebbene tu stia usando la versione Pro dell\'app, necessiti ancora di un Semplice Grazie per motivi tecnici. Si prende cura della sincronizzazione del colore.</string>
     <string name="light_theme">Chiaro</string>
     <string name="dark_theme">Scuro</string>
+    <string name="auto_theme">Automatico</string>
     <string name="solarized">Solarizzato</string>
     <string name="dark_red">Rosso scuro</string>
     <string name="white">Bianco</string>
@@ -241,6 +249,7 @@
     <string name="name">Nome</string>
     <string name="size">Dimensione</string>
     <string name="last_modified">Ultima modifica</string>
+    <string name="date_created">Data di creazione</string>
     <string name="date_taken">Data acquisizione</string>
     <string name="title">Titolo</string>
     <string name="filename">Nome file</string>
@@ -280,9 +289,12 @@
     <string name="insert_pattern">Inserisci una sequenza</string>
     <string name="wrong_pattern">Sequenza errata</string>
     <string name="repeat_pattern">Ripeti la sequenza</string>
+    <string name="biometrics">Biometrici</string>
     <string name="fingerprint">Impronta</string>
     <string name="add_fingerprint">Aggiungi un\'impronta</string>
     <string name="place_finger">Appoggia il dito sul sensore di impronte digitali</string>
+    <string name="open_biometric_dialog">Apri la finestra di verifica dell\'ID biometrico</string>
+    <string name="authenticate">Autentica</string>
     <string name="authentication_failed">Autenticazione fallita</string>
     <string name="authentication_blocked">Autenticazione bloccata, riprova fra qualche momento</string>
     <string name="no_fingerprints_registered">Non hai impronte registrate, aggiungine alcune nelle impostazioni del tuo dispositivo</string>
@@ -433,6 +445,7 @@
     <string name="during_day_at">Durante il giorno alle %02d:%02d</string>
     <string name="settings">Impostazioni</string>
     <string name="purchase_simple_thank_you">Acquista Simple Thank You</string>
+    <string name="general_settings">Generali</string>
     <string name="customize_colors">Personalizza i colori</string>
     <string name="customize_colors_locked">Personalizza colori (Bloccato)</string>
     <string name="customize_widget_colors">Personalizza i colori del widget</string>
@@ -469,6 +482,7 @@
     <string name="settings_imported_successfully">Impostazioni importate con sucesso</string>
     <string name="start_name_with_surname">Inizia nome con il cognome</string>
     <string name="clear_cache">Cancella la cache</string>
+    <string name="show_call_confirmation_dialog">Mostra una finestra di conferma della chiamata prima di iniziarla</string>
     <string name="visibility">Visibilità</string>
     <string name="security">Sicurezza</string>
     <string name="scrolling">Scorrimento</string>
@@ -478,6 +492,7 @@
     <string name="startup">Avvio</string>
     <string name="text">Testo</string>
     <string name="migrating">Trasferimento</string>
+    <string name="thumbnails">Miniature</string>
     <string name="manage_shown_tabs">Gestisci le schede mostrate</string>
     <string name="default_tab_to_open">Scheda da aprire all\'avvio dell\'app</string>
     <string name="contacts_tab">Contatti</string>
@@ -514,6 +529,7 @@
     <string name="usb">USB</string>
     <string name="usb_detected">È collegato un dispositivo USB al dispositivo. Per assicurarsi che i file appaiano correttamente, è necessario accettare permessi aggiuntivi.</string>
     <string name="confirm_usb_storage_access_text">Si prega di scegliere la cartella superiore del dispositivo USB nella schermata successiva, per concedere l\'accesso</string>
+    <string name="wrong_root_selected_usb">Cartella selezionata errata, sei pregato di selezionare la cartella principale del tuo dispositivo USB</string>
     <string name="january">Gennaio</string>
     <string name="february">Febbraio</string>
     <string name="march">Marzo</string>
@@ -569,18 +585,14 @@
     <string name="website_label">Altre semplici app e codici sorgenti in</string>
     <string name="email_label">Invia la tua opinione o i tuoi suggerimenti a</string>
     <string name="upgrade_to_pro">Aggiorna alla versione Pro</string>
-    <string name="more_apps_underlined"><u>Altre app</u></string>
-    <string name="more_apps_from_us_underlined"><u>Altre nostre app</u></string>
-    <string name="third_party_licences_underlined"><u>Licenze di terze parti</u></string>
-    <string name="invite_friends_underlined"><u>Invita un amico</u></string>
     <string name="share_text">Ciao, controlla %1$s su %2$s</string>
     <string name="invite_via">Invita con</string>
-    <string name="rate_us_underlined"><u>Dacci un voto sul Play Store</u></string>
     <string name="rate">Vota</string>
     <string name="donate">Dona</string>
     <string name="donate_underlined"><u>Dona</u></string>
     <string name="follow_us">Seguici</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="other">Altro</string>
     <string name="additional_info">Informazioni aggiuntive</string>
     <string name="app_version">Versione app: %s</string>
     <string name="device_os">OS dispositivo: %s</string>
@@ -621,8 +633,6 @@
     <string name="faq_1_text_commons">Probabilmente perchè hai spostato l\'app nella scheda SD. C\'è una limitazione di sistema di Android che nasconde i widget in questione
         in quel caso. L\'unica soluzione è spostare l\'app nell\'archiviazione interna usando le impostazioni di sistema.</string>
     <string name="faq_2_title_commons">Vorrei darti supporto, ma non posso donare del denaro. Posso fare dell\'altro?</string>
-    <string name="faq_2_text_commons">Sì, certo. Puoi spargere la voce riguardo le app o dare feedback e voti positivi. Puoi anche aiutare a tradurre le app in una nuova lingua, o aggiornare le traduzioni esistenti.
-        Puoi trovare la guida su https://github.com/SimpleMobileTools/General-Discussion , o scrivimi un messaggio a hello@simplemobiletools.com se ti serve aiuto.</string>
     <string name="faq_3_title_commons">Ho eliminato dei file per errore, come posso recuperarli?</string>
     <string name="faq_3_text_commons">Purtroppo non puoi. I file vengono eliminati subito dopo la richiesta di conferma, non c\'è nessun cestino disponibile.</string>
     <string name="faq_4_title_commons">Non mi piacciono i colori del widget, posso cambiarli?</string>
@@ -641,6 +651,9 @@
     <string name="faq_9_text_commons">Ci sono diversi modi per farlo. Il primo è avviare la modalità di selezione tenendo premuta una voce, poi cliccando brevemente sulle altre per selezionarle. Il secondo è simile alla selezione delle voci sui PC con un mouse, basta avviare la modalità di selezione tenendo premuta una voce, poi con il dito che sta premendo trascinarlo per le altre voci per la selezione. Il terzo metodo di selezione di più voci è la pressione prolungata di una voce e poi la pressione prolungata di un\'altra e tutto ciò che c\'è tra le due viene selezionato. Se desideri selezionare tutte le voci, basta tener premuto un elemento e poi cliccare il contatore delle voci selezionate nell\'angolo in alto a sinistra. Questo selezionerà o deselezionerà tutto.</string>
     <string name="faq_10_title_commons">Ho acquistato l\'app, ma non posso scaricarla su un altro dispositivo.</string>
     <string name="faq_10_text_commons">Prova a cancellare la cache dell\'app di Google Play e riavviare il tuo dispositivo; è un glitch di Google Play, non è realmente collegato all\'app stessa.</string>
+    <string name="contributors">Collaboratori</string>
+    <string name="translation">Traduzione</string>
+    <string name="translation_czech">Repubblica Ceca</string>
     <string name="why_upgrade">Ottieni ora la versione Pro!</string>
     <string name="why_upgrade_basic_version">Base</string>
     <string name="why_upgrade_pro_version">Pro</string>

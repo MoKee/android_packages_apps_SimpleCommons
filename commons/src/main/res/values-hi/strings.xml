@@ -11,6 +11,7 @@
     <string name="transparent">पारदर्शी</string>
     <string name="download">डाउनलोड करें</string>
     <string name="notification">अधिसूचना</string>
+    <string name="notifications">सूचनाएँ/नोटिफिकेशन</string>
     <string name="previous">पिछला</string>
     <string name="next">अगला</string>
     <string name="select_photo">फ़ोटो को चुनें</string>
@@ -24,6 +25,7 @@
     <string name="theme">थीम</string>
     <string name="save">सहेजें</string>
     <string name="light_theme">हल्का</string>
+    <string name="auto_theme">स्वत:</string>
     <string name="custom">कस्टम</string>
     <string name="delete">हटाएं</string>
     <string name="remove">हटाएं</string>

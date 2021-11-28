@@ -14,6 +14,7 @@
     <string name="transparent_color">Liv treuzwelus</string>
     <string name="download">Pellgargañ</string>
     <string name="notification">Rebuzadur</string>
+    <string name="notifications">Rebuzadurioù</string>
     <string name="email">Postel</string>
     <string name="next">War-raok</string>
     <string name="list">Roll</string>
@@ -50,6 +51,7 @@
     <string name="save">Enrollañ</string>
     <string name="light_theme">Sklaer</string>
     <string name="dark_theme">Teñval</string>
+    <string name="auto_theme">Emgefreek</string>
     <string name="dark_red">Ruz teñval</string>
     <string name="white">Gwenn</string>
     <string name="black_white">Du &amp; Gwenn</string>
@@ -159,6 +161,7 @@
     <string name="security">Diogelroez</string>
     <string name="scrolling">Dibunañ</string>
     <string name="text">Skrid</string>
+    <string name="thumbnails">Melvennoù</string>
     <string name="contacts_tab">Darempredoù</string>
     <string name="groups_tab">Strolladoù</string>
     <string name="importing">Oc\'h enporzhiañ…</string>
@@ -185,6 +188,7 @@
     <string name="sunday">Disul</string>
     <string name="more_info">Muioc\'h a ditouroù</string>
     <string name="about">A-zivout</string>
+    <string name="other">All</string>
     <string name="additional_info">Titouroù ouzhpenn</string>
     <string name="device_os">Reizhad korvoiñ an trevnad: %s</string>
     <string name="purchase">Prenañ</string>
@@ -195,4 +199,6 @@
     <string name="flashlight_short">Lampig-cʼhodell</string>
     <string name="notes_short">Notennoù</string>
     <string name="thank_you_short">Trugarez</string>
+    <string name="contributors">Perzhidi</string>
+    <string name="translation">Troidigezh</string>
 </resources>

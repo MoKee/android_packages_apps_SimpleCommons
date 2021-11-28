@@ -154,6 +154,7 @@
     <string name="share_colors_success">Spalvos atnaujintos sėkmingai. Nauja tema pavdinimu \'Bendra\' buvo įtraukta, prašome naudoti tai ateityje visų programėlių spalvų atnaujinimui.</string>
     <string name="light_theme">Šviesi</string>
     <string name="dark_theme">Tamsi</string>
+    <string name="auto_theme">Automobiliai</string>
     <string name="solarized">Soliarizuota</string>
     <string name="dark_red">Tamsiai raudona</string>
     <string name="black_white">Juoda ir balta</string>
@@ -401,6 +402,7 @@
     <string name="scrolling">Slinkimas</string>
     <string name="file_operations">Bylų operacijos</string>
     <string name="recycle_bin">Šiukšlinė</string>
+    <string name="thumbnails">Miniatiūros</string>
     <string name="favorites_tab">Mėgiamiausieji</string>
     <string name="importing">Importuojama…</string>
     <string name="exporting">Eksportuojama…</string>
@@ -448,16 +450,13 @@
     <string name="about">Apie</string>
     <string name="website_label">Pirminį kodą rasite</string>
     <string name="email_label">Siųskite atsiliepimus ar pasiūlymus adresu</string>
-    <string name="more_apps_underlined"><u>Daugiau programėlių</u></string>
-    <string name="third_party_licences_underlined"><u>Trečiųjų šalių licensijos</u></string>
-    <string name="invite_friends_underlined"><u>Pakviesti draugus</u></string>
     <string name="share_text">Sveikas, pažiūrėk %1$s %2$s</string>
     <string name="invite_via">Pakviesti per</string>
-    <string name="rate_us_underlined"><u>Įvertinti mus</u></string>
     <string name="donate">Paaukoti</string>
     <string name="donate_underlined"><u>Paaukoti</u></string>
     <string name="follow_us">Sekti mus</string>
     <string name="copyright">v %1$s\nVisos teisės saugomos© Paprasti mobilūs įrankiai %2$d</string>
+    <string name="other">Kita</string>
     <string name="additional_info">Papildoma informacija</string>
     <string name="app_version">Programėlės versija: %s</string>
     <string name="device_os">Įrenginio OS: %s</string>
@@ -469,7 +468,6 @@
     <string name="faq_1_title_commons">Kodėl aš negaliu pamatyti šios programėlės valdiklių sąraše?</string>
     <string name="faq_1_text_commons">Labiausiai tikėtina, kad perkėlėte programėlę į SD kortelę. Yra \"Android\" sistemos apribojimas, kuris slepia nurodytos programėlės valdiklį tuo atveju. Vienintelis sprendimas yra perkelti programėlę į vidinę atmintinę per įrenginio nustatymus.</string>
     <string name="faq_2_title_commons">Aš noriu jus paremti, bet aš negaliu paaukoti pinigų. Ar yra kažkas, ką galiu padaryti?</string>
-    <string name="faq_2_text_commons">Taip, žinoma. Galite skleisti žodį apie programėles arba pateikti gerus atsiliepimus ir įvertinimus. Taip pat galite padėti verčiant programėles nauja kalba arba tiesiog atnaujinkite keletą esamų vertimų.Vadovą galite rasti adresu https://github.com/SimpleMobileTools/General-Discussion, arba tiesiog rašykite man žinutę hello@simplemobiletools.com, jei jums reikia pagalbos.</string>
     <string name="faq_3_title_commons">Aš per klaidą ištryniau keletą bylų, kaip jas atkurti?</string>
     <string name="faq_3_text_commons">Deja, jūs negalite. Bylos iš karto ištrinamos po patvirtinimo dialogo, nėra šiukšliadėžės.</string>
     <string name="faq_4_title_commons">Aš nemėgstu valdiklio spalvų, galiu jas pakeisti?</string>

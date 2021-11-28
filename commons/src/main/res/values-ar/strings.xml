@@ -26,6 +26,7 @@
     <string name="select_a_different_color">تحديد لون مختلف</string>
     <string name="download">تنزيل</string>
     <string name="notification">الاشعارات</string>
+    <string name="notifications">الإشعارات</string>
     <string name="email">البريد الإلكتروني</string>
     <string name="previous">السابق</string>
     <string name="next">التالي</string>
@@ -189,6 +190,7 @@
     <string name="share_colors_success">تم تحديث الألوان بنجاح. تمت إضافة سمة جديدة تسمى \"Shared\" ، يرجى استخدام ذلك لتحديث كل ألوان التطبيقات في المستقبل.</string>
     <string name="light_theme">فاتح</string>
     <string name="dark_theme">داكن</string>
+    <string name="auto_theme">تلقائي</string>
     <string name="solarized">تفتيح</string>
     <string name="dark_red">أحمر داكن</string>
     <string name="white">أبيض</string>
@@ -515,6 +517,7 @@
     <string name="no_sound">لا يوجد صوت</string>
     <string name="settings">الإعدادات</string>
     <string name="purchase_simple_thank_you">شراء بسيط شكرا لك</string>
+    <string name="general_settings">عام</string>
     <string name="customize_colors">تخصيص الألوان</string>
     <string name="customize_widget_colors">تخصيص ألوان أداة الشاشة</string>
     <string name="use_english_language">استخدام اللغة الإنجليزية</string>
@@ -556,6 +559,7 @@
     <string name="startup">بدء التشغيل</string>
     <string name="text">نص</string>
     <string name="migrating">الإنتقال</string>
+    <string name="thumbnails">المصغرات</string>
     <string name="favorites_tab">المفضلة</string>
     <string name="groups_tab">المجموعات</string>
     <string name="last_used_tab">اخر واحد مستخدم</string>
@@ -645,17 +649,14 @@
     <string name="website_label">للحصول على رموز المصدر زيارة</string>
     <string name="email_label">أرسل تعليقات أو اقتراحات إلى</string>
     <string name="upgrade_to_pro">الترقية إلى الإصدار المحترف</string>
-    <string name="more_apps_underlined"><u>تطبيقات أكثر</u></string>
-    <string name="third_party_licences_underlined"><u>تراخيص الطرف الثالث</u></string>
-    <string name="invite_friends_underlined"><u>دعوة الأصدقاء</u></string>
     <string name="share_text">مرحبًا ، تحقق من %1$s في%2$s</string>
     <string name="invite_via">دعوة عبر</string>
-    <string name="rate_us_underlined"><u>قيّمنا</u></string>
     <string name="rate">تقييم</string>
     <string name="donate">تبرع</string>
     <string name="donate_underlined"><u>التبرع</u></string>
     <string name="follow_us">تابعونا</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="other">غير ذلك</string>
     <string name="additional_info">معلومات إضافية</string>
     <string name="app_version">إصدار التطبيق: %s</string>
     <string name="device_os">نظام تشغيل الجهاز: %s</string>
@@ -680,8 +681,6 @@
     <string name="faq_1_text_commons">على الأرجح لأنك نقلت التطبيق على بطاقة SD. هناك قيود على نظام Android تعمل على إخفاء أدوات التطبيق المحددة
         في هذه الحالة. الحل الوحيد هو إعادة التطبيق إلى التخزين الداخلي عبر إعدادات جهازك.</string>
     <string name="faq_2_title_commons">أريد أن أدعمك ، لكن لا يمكنني التبرع بالمال. هل هناك شي اخر أستطيع عمله؟</string>
-    <string name="faq_2_text_commons">نعم بالطبع. يمكنك نشر كلمة حول التطبيقات أو إعطاء ردود فعل وتقييمات جيدة. يمكنك أيضًا المساعدة عن طريق ترجمة التطبيقات بلغة جديدة ، أو مجرد تحديث بعض الترجمات الحالية.
-        يمكنك العثور على الدليل على https://github.com/SimpleMobileTools/General-Discussion ، أو فقط أرسل لي رسالة على hello@simplemobiletools.com إذا كنت بحاجة إلى مساعدة.</string>
     <string name="faq_3_title_commons">لقد حذفت بعض الملفات عن طريق الخطأ ، فكيف يمكنني استعادتها؟</string>
     <string name="faq_3_text_commons">للأسف ، لا يمكنك ذلك. يتم حذف الملفات فوراً بعد مربع حوار التأكيد ، ولا يتوفر سلة مهملات.</string>
     <string name="faq_4_title_commons">لا أحب ألوان الأدوات ، هل يمكنني تغييرها؟</string>
@@ -695,6 +694,9 @@
     <string name="faq_7_text_commons">تتم معالجة المدفوعات بالكامل بواسطة Google ، حيث تتعطل نظامها من وقت لآخر. كل ما عليك هو مسح ذاكرة التخزين المؤقت للتطبيق في Google Play وإعادة تشغيل جهازك ، ثم أعد محاولة تنزيله.</string>
     <string name="faq_8_title_commons">لماذا يجب علي الترقية للحساب المدفوع؟</string>
     <string name="faq_8_text_commons">نظرًا لأن إصدار التطبيق الخاص بك لم يعد محدثًا ، فلن يتم إصلاح الأخطاء التي رصدتها.  لن يكون هناك أيضا وظائف جديدة المضافة.  يمكنك شراء الإصدار Pro على Google Play مقابل مبلغ صغير من المال.  إنه دفعة لمرة واحدة ، مما يعني أنه بمجرد شرائها ، لن تضطر إلى الدفع مرة أخرى.  ليس حتى بعد الحصول على جهاز جديد.  إذا كنت لا ترغب في إصدار Pro ، فيمكنك إلغاء تثبيته في غضون ساعات قليلة وستحصل على أموالك تلقائيًا.  إذا كنت تريد استرداد الأموال في أي وقت لاحق ، فما عليك سوى الاتصال بنا على hello@simplemobiletools.com وستحصل عليه.</string>
+    <string name="contributors">المساهمين</string>
+    <string name="translation">الترجمة</string>
+    <string name="translation_czech">التشيك</string>
     <string name="why_upgrade_basic_version">أساسي</string>
     <string name="notice">يستخدم هذا التطبيق مكتبات الطرف الثالث التالية لجعل حياتي أسهل. شكرا لكم.</string>
     <string name="third_party_licences">تراخيص الطرف الثالث</string>

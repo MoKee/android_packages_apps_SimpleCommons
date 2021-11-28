@@ -143,6 +143,7 @@
     <string name="share_colors_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Shared\', Por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Oscuro</string>
+    <string name="auto_theme">Auto</string>
     <string name="dark_red">Rojo Oscuro</string>
     <string name="black_white">Blanco &amp; Negro</string>
     <string name="custom">Personalizado</string>
@@ -306,6 +307,7 @@
     <string name="no_reminder">Sin recordatorio</string>
     <string name="at_start">Ao inicio</string>
     <string name="settings">Ajustes</string>
+    <string name="general_settings">Xeral</string>
     <string name="customize_colors">Cambiar colores</string>
     <string name="use_english_language">Usar el idioma Inglés</string>
     <string name="show_hidden_items">Mostrar elementos ocultos</string>
@@ -324,6 +326,7 @@
     <string name="scrolling">Desplazamiento</string>
     <string name="file_operations">Operaciones de ficheros</string>
     <string name="text">Texto</string>
+    <string name="thumbnails">Iconas</string>
     <string name="importing">Importando…</string>
     <string name="exporting">Exportando…</string>
     <string name="importing_successful">Importación correcta</string>
@@ -368,15 +371,12 @@
     <string name="about">Acerca de</string>
     <string name="website_label">Más aplicaciones sencillas y código fuente en</string>
     <string name="email_label">Envía tus comentarios o sugerencias a</string>
-    <string name="more_apps_underlined"><u>Más aplicaciones</u></string>
-    <string name="third_party_licences_underlined"><u>Licencias de terceros</u></string>
-    <string name="invite_friends_underlined"><u>Invitar a amigos</u></string>
     <string name="share_text">Hola, ven y mira %1$s en %2$s</string>
     <string name="invite_via">Invitar con</string>
-    <string name="rate_us_underlined"><u>Vótanos en Play Store</u></string>
     <string name="donate">Donar</string>
     <string name="donate_underlined"><u>Donar</u></string>
     <string name="follow_us">Síguenos</string>
+    <string name="other">Outro</string>
     <string name="additional_info">Información adicional</string>
     <string name="purchase">Comprar</string>
     <string name="calendar_short">Calendario</string>
@@ -389,12 +389,11 @@
     <string name="faq_1_text_commons">Lo más probable es que haya movido la aplicación en una tarjeta SD. Hay una limitación del sistema Android que oculta los widgets de la aplicación dada
         en ese caso. La única solución es volver a colocar la aplicación en el almacenamiento interno a través de la configuración de su dispositivo.</string>
     <string name="faq_2_title_commons">Quiero apoyarte, pero no puedo donar dinero. ¿Hay algo mas que pueda hacer?</string>
-    <string name="faq_2_text_commons">Sí, por supuesto. Puede correr la voz sobre las aplicaciones o dar buenos comentarios y valoraciones. También puede ayudar traduciendo las aplicaciones en un nuevo idioma o simplemente actualizar algunas traducciones existentes.
-        Puede encontrar la guía en https://github.com/SimpleMobileTools/General-Discussion, o simplemente envíeme un mensaje a hello@simplemobiletools.com si necesita ayuda.</string>
     <string name="faq_3_title_commons">Borré algunos archivos por error, ¿cómo puedo recuperarlos?</string>
     <string name="faq_3_text_commons">Tristemente, no puedes. Los archivos se eliminan instantáneamente después del diálogo de confirmación, no hay papelera disponible.</string>
     <string name="faq_4_title_commons">No me gustan los colores del widget, ¿puedo cambiarlos?</string>
     <string name="faq_4_text_commons">Sí, al arrastrar un widget en la pantalla de inicio aparece una pantalla de configuración de widgets. Verá cuadrados de colores en la esquina inferior izquierda, solo presione para elegir un nuevo color. Puede usar el control deslizante para ajustar el alfa también.</string>
+    <string name="contributors">Colaboradores</string>
     <string name="why_upgrade_basic_version">Básico</string>
     <string name="notice">Esta aplicación usa las siguientes bibliotecas de terceros que hacen mi vida más fácil. Gracias.</string>
     <string name="third_party_licences">Licencias de terceros</string>

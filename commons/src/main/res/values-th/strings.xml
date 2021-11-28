@@ -19,6 +19,7 @@
     <string name="default_color">ค่าเริ่มต้น</string>
     <string name="save">บันทึก</string>
     <string name="dark_theme">มืด</string>
+    <string name="auto_theme">ออโต้</string>
     <string name="custom">กำหนดเอง</string>
     <string name="delete">ลบ</string>
     <string name="remove">นำออก</string>
@@ -37,6 +38,7 @@
     <string name="text">ข้อความ</string>
     <string name="usb">USB</string>
     <string name="donate">บริจาค</string>
+    <string name="other">อื่น ๆ</string>
     <string name="calendar_short">ปฏิทิน</string>
     <string name="camera_short">กล้องถ่ายรูป</string>
 </resources>

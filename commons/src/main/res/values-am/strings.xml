@@ -12,6 +12,7 @@
     <string name="exposure_time">የብርሃነ መጠን ጊዜ</string>
     <string name="camera">ካሜራ</string>
     <string name="save">አስቀምጥ</string>
+    <string name="auto_theme">ራስ ሰር</string>
     <string name="custom">ብጁ</string>
     <string name="delete">ሰርዝ</string>
     <string name="remove">አስወግድ</string>

@@ -30,6 +30,7 @@
     <string name="select_a_different_color">Zvoliť inú farbu</string>
     <string name="download">Stiahnuť</string>
     <string name="notification">Upozornenie</string>
+    <string name="notifications">Upozornenia</string>
     <string name="email">E-mail</string>
     <string name="previous">Predchádzajúce</string>
     <string name="playpause">Prehrať / Pozastaviť</string>
@@ -212,6 +213,7 @@
     <string name="shared_theme_note">Upozorňujeme, že hoci používate verziu aplikácie Pro, z technických dôvodov stále potrebujete aplikáciu Simple Thanks. Postará sa o synchronizáciu farieb.</string>
     <string name="light_theme">Svetlá</string>
     <string name="dark_theme">Tmavá</string>
+    <string name="auto_theme">Automaticky</string>
     <string name="solarized">Solarizovaná</string>
     <string name="dark_red">Tmavo červená</string>
     <string name="white">Biela</string>
@@ -500,6 +502,7 @@
     <string name="during_day_at">počas dňa v %02d:%02d</string>
     <string name="settings">Nastavenia</string>
     <string name="purchase_simple_thank_you">Kúpiť Jednoduché Ďakujem</string>
+    <string name="general_settings">Všeobecné</string>
     <string name="customize_colors">Upraviť farby</string>
     <string name="customize_colors_locked">Prispôsobenie farieb (zamknuté)</string>
     <string name="customize_widget_colors">Upraviť farby widgetov</string>
@@ -545,6 +548,7 @@
     <string name="startup">Po spustení</string>
     <string name="text">Text</string>
     <string name="migrating">Migrácia</string>
+    <string name="thumbnails">Náhľady</string>
     <string name="manage_shown_tabs">Správa zobrazených kariet</string>
     <string name="default_tab_to_open">Karta na otvorenie pri spustení aplikácie</string>
     <string name="contacts_tab">Kontakty</string>
@@ -638,18 +642,14 @@
     <string name="website_label">Pre zdrojové kódy navštívte</string>
     <string name="email_label">Odozvu a návrhy posielajte na</string>
     <string name="upgrade_to_pro">Stiahnuť Pro verziu</string>
-    <string name="more_apps_underlined"><u>Viac aplikácií</u></string>
-    <string name="more_apps_from_us_underlined"><u>Ďalšie aplikácie od nás</u></string>
-    <string name="third_party_licences_underlined"><u>Licencie tretích strán</u></string>
-    <string name="invite_friends_underlined"><u>Pozvať priateľov</u></string>
     <string name="share_text">Čauko, skús %1$s na %2$s</string>
     <string name="invite_via">Pozvať cez</string>
-    <string name="rate_us_underlined"><u>Ohodnotiť aplikáciu</u></string>
     <string name="rate">Ohodnotiť</string>
     <string name="donate">Podporiť</string>
     <string name="donate_underlined"><u>Podporiť</u></string>
     <string name="follow_us">Sledujte nás</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="other">Iný</string>
     <string name="additional_info">Dodatočné informácie</string>
     <string name="app_version">Verzia aplikácie: %s</string>
     <string name="device_os">Operačný systém zariadenia: %s</string>
@@ -690,8 +690,6 @@
     <string name="faq_1_text_commons">Je to pravdepodobne spôsobené tým, že ste apku presunuli na SD kartu. Ide o systémové obmedzenie, ktoré v tomto prípade skryje widget apky.
         Jediným riešením je presunutie apky späť na internú pamäť cez nastavnenia zariadenia.</string>
     <string name="faq_2_title_commons">Chcem vás podporiť, ale neviem poslať peniaze. Viem pre vás urobiť aj niečo iné?</string>
-    <string name="faq_2_text_commons">Áno, samozrejme. Môžete napr. šíriť apky medzi známymi, alebo nám poslať užitočnú odozvu a hodnotenia. Viete pomôcť aj preložením apiek do nových jazykov, alebo upraviť existujúce preklady.
-        Návod nájdete na https://github.com/SimpleMobileTools/General-Discussion , alebo mi v prípade potreby pošlite email na hello@simplemobiletools.com.</string>
     <string name="faq_3_title_commons">Náhodou som vymazal niektoré súbory, viem ich obnoviť?</string>
     <string name="faq_3_text_commons">Žiaľ, nie. Súbory sú mazané okamžite po potvrdení, nie je dostupný žiadny smetný kôš.</string>
     <string name="faq_4_title_commons">Nepáčia sa mi farby widgetu, viem ich zmeniť?</string>
@@ -713,6 +711,9 @@
         chcete vybrať všetky položky, stačí dlhé stlačenie jednu položku a potom kliknúť na počítadlo vybraných položiek v ľavom hornom rohu. Tým sa vyberie alebo zruší výber všetkého.</string>
     <string name="faq_10_title_commons">Zakúpil som aplikáciu, ale nemôžem ju stiahnuť na inom zariadení.</string>
     <string name="faq_10_text_commons">Skúste vymazať vyrovnávaciu pamäť aplikácie Obchod Play a reštartovať zariadenie. Je to nejaká chyba Obchodu Play, ktorá v skutočnosti nesúvisí so samotnou aplikáciou.</string>
+    <string name="contributors">Prispievatelia</string>
+    <string name="translation">Preklad</string>
+    <string name="translation_czech">Česko</string>
     <string name="why_upgrade">Získajte verziu Pro teraz!</string>
     <string name="why_upgrade_basic_version">Základné</string>
     <string name="why_upgrade_pro_version">Pro</string>

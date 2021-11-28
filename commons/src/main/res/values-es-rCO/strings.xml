@@ -26,6 +26,7 @@
     <string name="select_a_different_color">Seleccionar un color diferente</string>
     <string name="download">Descargar</string>
     <string name="notification">Notificaciones</string>
+    <string name="notifications">Notificaciones</string>
     <string name="email">Correo electrónico</string>
     <string name="previous">Anterior</string>
     <string name="next">Siguiente</string>
@@ -171,6 +172,7 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="share_colors_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Shared\', Por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Oscuro</string>
+    <string name="auto_theme">Automático</string>
     <string name="solarized">Solarizar</string>
     <string name="dark_red">Rojo Oscuro</string>
     <string name="white">Blanco</string>
@@ -367,6 +369,7 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="no_sound">Sin sonido</string>
     <string name="settings">Ajustes</string>
     <string name="purchase_simple_thank_you">Compra Simple Thank You</string>
+    <string name="general_settings">General</string>
     <string name="customize_colors">Cambiar colores</string>
     <string name="customize_widget_colors">Personaliza los colores del widget</string>
     <string name="use_english_language">Usar el idioma Inglés</string>
@@ -404,6 +407,7 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="startup">Puesta en marcha</string>
     <string name="text">Texto</string>
     <string name="migrating">Migrando</string>
+    <string name="thumbnails">Miniaturas</string>
     <string name="favorites_tab">Favoritos</string>
     <string name="groups_tab">Grupos</string>
     <string name="last_used_tab">Último usado</string>
@@ -484,17 +488,14 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="website_label">Más aplicaciones sencillas y código fuente en</string>
     <string name="email_label">Envía tus comentarios o sugerencias a</string>
     <string name="upgrade_to_pro">Actualizar a Pro</string>
-    <string name="more_apps_underlined"><u>Más aplicaciones</u></string>
-    <string name="third_party_licences_underlined"><u>Licencias de terceros</u></string>
-    <string name="invite_friends_underlined"><u>Invitar a amigos</u></string>
     <string name="share_text">Hola, ven y mira %1$s en %2$s</string>
     <string name="invite_via">Invitar con</string>
-    <string name="rate_us_underlined"><u>Vótanos en Play Store</u></string>
     <string name="rate">Puntuar</string>
     <string name="donate">Donar</string>
     <string name="donate_underlined"><u>Donar</u></string>
     <string name="follow_us">Síguenos</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="other">Otro</string>
     <string name="additional_info">Información adicional</string>
     <string name="app_version">Versión de la aplicación: %s</string>
     <string name="device_os">SO del dispositivo: %s</string>
@@ -513,8 +514,6 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="faq_1_text_commons">Lo más probable es que haya movido la aplicación en una tarjeta SD. Hay una limitación del sistema Android que oculta los widgets de la aplicación dada
         en ese caso. La única solución es volver a colocar la aplicación en el almacenamiento interno a través de la configuración de su dispositivo.</string>
     <string name="faq_2_title_commons">Quiero apoyarte, pero no puedo donar dinero. ¿Hay algo mas que pueda hacer?</string>
-    <string name="faq_2_text_commons">Sí, por supuesto. Puede correr la voz sobre las aplicaciones o dar buenos comentarios y valoraciones. También puede ayudar traduciendo las aplicaciones en un nuevo idioma o simplemente actualizar algunas traducciones existentes.
-        Puede encontrar la guía en https://github.com/SimpleMobileTools/General-Discussion, o simplemente envíeme un mensaje a hello@simplemobiletools.com si necesita ayuda.</string>
     <string name="faq_3_title_commons">Borré algunos archivos por error, ¿cómo puedo recuperarlos?</string>
     <string name="faq_3_text_commons">Tristemente, no puedes. Los archivos se eliminan instantáneamente después del diálogo de confirmación, no hay papelera disponible.</string>
     <string name="faq_4_title_commons">No me gustan los colores del widget, ¿puedo cambiarlos?</string>
@@ -524,6 +523,9 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="faq_6_text_commons">Esto, está causada por tu lanzador, que no soporta customozicacion de iconos. Intenta lanzar la aplicación desde Google Play o algún widget si hay disponibles.
 
 Una vez lanzado, solo ajusta de nuevo la icono naranja por defecto #F57C00. Es posible que en el peor de los casos tengas que reinstalar la aplicación.</string>
+    <string name="contributors">Colaboradores</string>
+    <string name="translation">Traducción</string>
+    <string name="translation_czech">Checo</string>
     <string name="why_upgrade_basic_version">Básico</string>
     <string name="notice">Esta aplicación usa las siguientes bibliotecas de terceros que hacen mi vida más fácil. Gracias.</string>
     <string name="third_party_licences">Licencias de terceros</string>

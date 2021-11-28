@@ -15,6 +15,7 @@
     <string name="default_color">ଡିଫଲ୍ଟ</string>
     <string name="save">ସଞ୍ଚୟ</string>
     <string name="dark_theme">ଅନ୍ଧାର</string>
+    <string name="auto_theme">ସ୍ଵତଃ</string>
     <string name="custom">କଷ୍ଟମ୍</string>
     <string name="title">ଟାଇଟଲ୍</string>
     <string name="seconds_raw">ସେକେଣ୍ଡ</string>
@@ -22,6 +23,7 @@
     <string name="hours_raw">ଘଣ୍ଟା</string>
     <string name="text">ଟେକ୍ସଟ୍</string>
     <string name="usb">USB</string>
+    <string name="other">ଅନ୍ୟାନ୍ୟ</string>
     <string name="calendar_short">କ୍ୟାଲେଣ୍ଡର୍</string>
     <string name="camera_short">କ୍ୟାମେରା</string>
 </resources>

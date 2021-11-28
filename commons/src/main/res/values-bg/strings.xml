@@ -39,6 +39,7 @@
     <string name="discard">Отхвърли</string>
     <string name="light_theme">Светло</string>
     <string name="dark_theme">Тъмен</string>
+    <string name="auto_theme">Автоматично</string>
     <string name="custom">Персонализирано</string>
     <string name="delete">Изтриване</string>
     <string name="remove">Премахване</string>
@@ -66,6 +67,7 @@
     <string name="snooze">Отлагане</string>
     <string name="dismiss">Отхвърли</string>
     <string name="settings">Настройки</string>
+    <string name="general_settings">Общи</string>
     <string name="small">Малък</string>
     <string name="medium">Средно</string>
     <string name="widgets">Приспособления</string>
@@ -81,10 +83,12 @@
     <string name="about">Относно</string>
     <string name="rate">Оцени</string>
     <string name="donate">Дарение</string>
+    <string name="other">Други</string>
     <string name="calendar_short">Календар</string>
     <string name="camera_short">Камера</string>
     <string name="clock_short">Часовник</string>
     <string name="flashlight_short">Фенерче</string>
     <string name="gallery_short">Галерия</string>
+    <string name="contributors">Разработчици</string>
     <string name="why_upgrade_basic_version">Основни</string>
 </resources>

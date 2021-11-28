@@ -150,6 +150,7 @@
     <string name="apply_to_all_apps">ಎಲ್ಲ ಸರಳ ತಂತ್ರಾಂಶಗಳಿಗೆ ಬಣ್ಣಗಳನ್ನು ಸಲ್ಲಿಸಿ</string>
     <string name="light_theme">ತಿಳಿ ಬಣ್ಣ</string>
     <string name="dark_theme">ಗಾಢ ಹಿನ್ನೆಲೆ</string>
+    <string name="auto_theme">ಸ್ವಯಂ</string>
     <string name="solarized">ಸೂರ್ಯಕಿರಣ ಪ್ರತಿಪಾದಿತ</string>
     <string name="dark_red">ದಟ್ಟ ಕೆಂಪು</string>
     <string name="black_white">ಕಪ್ಪು &amp; ಬಿಳುಪು</string>
@@ -199,11 +200,13 @@
     <string name="snooze">ಲಘು ನಿದ್ದೆ</string>
     <string name="dismiss">ವಜಾ ಮಾಡು</string>
     <string name="settings">ಸಂಯೋಜನೆಗಳು</string>
+    <string name="general_settings">ಸಾಮಾನ್ಯ</string>
     <string name="small">ಚಿಕ್ಕ</string>
     <string name="medium">ಮಧ್ಯಮ</string>
     <string name="widgets">ವಿಜೆಟ್‌ಗಳು</string>
     <string name="visibility">ಗೋಚರಿಕೆ</string>
     <string name="text">ಪಠ್ಯ</string>
+    <string name="thumbnails">ಚಿಕ್ಕಚಿತ್ರಗಳು</string>
     <string name="favorites_tab">ಮೆಚ್ಚಿನ</string>
     <string name="groups_tab">ಗುಂಪುಗಳು</string>
     <string name="usb">ಯುಎಸ್‍ಬಿ</string>
@@ -220,11 +223,15 @@
     <string name="about">ಕುರಿತು</string>
     <string name="rate">ದರ</string>
     <string name="donate">ಕಾಣಿಕೆ</string>
+    <string name="other">ಇತರೆ</string>
     <string name="calendar_short">ಕ್ಯಾಲೆಂಡರ್</string>
     <string name="camera_short">ಕ್ಯಾಮರಾ</string>
     <string name="clock_short">ಗಡಿಯಾರ</string>
     <string name="flashlight_short">ಮಿಂಚುಬೆಳಕು</string>
     <string name="gallery_short">ಗ್ಯಾಲರಿ</string>
     <string name="notes_short">ಟಿಪ್ಪಣಿಗಳು</string>
+    <string name="contributors">ಕೊಡುಗೆದಾರರು</string>
+    <string name="translation">ಅನುವಾದ</string>
+    <string name="translation_czech">ಜ಼ೆಕ್</string>
     <string name="why_upgrade_basic_version">ಸಾಮಾನ್ಯ</string>
 </resources>

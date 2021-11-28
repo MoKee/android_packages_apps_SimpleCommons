@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="none">Эч нерсе жок</string>
+    <string name="auto_theme">Авто</string>
     <string name="custom">Өздүк</string>
     <string name="remove">Алып салуу</string>
     <string name="undo">Кайтаруу</string>

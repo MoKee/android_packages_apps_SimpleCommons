@@ -30,6 +30,7 @@
     <string name="select_a_different_color">Valige teine värv</string>
     <string name="download">Allalaadimine</string>
     <string name="notification">Teade</string>
+    <string name="notifications">Teavitused</string>
     <string name="email">E-mail</string>
     <string name="previous">Eelmine</string>
     <string name="playpause">Mängi/Paus</string>
@@ -39,6 +40,7 @@
     <string name="request_the_required_permissions">Taotlege vajalikke õigusi</string>
     <string name="no_access_to_contacts">Rakendus ei pääsenud teie kontaktidele ligi</string>
     <string name="insert_text_here">Sisestage tekst siia</string>
+    <string name="call_person">Helista %s</string>
     <string name="change_view_type">Muuda vaatetüüpi</string>
     <string name="grid">Ruudustik</string>
     <string name="list">Loend</string>
@@ -52,6 +54,8 @@
     <string name="block_number">Blokeeri number</string>
     <string name="block_numbers">Blokeer numbrid</string>
     <string name="blocked_numbers">Blokeeritud numbrid</string>
+    <string name="export_blocked_numbers">Blokeeritud numbrite eksportimine</string>
+    <string name="import_blocked_numbers">Blokeeritud numbrite importimine</string>
     <string name="must_make_default_dialer">Blokeeritud numbrite kasutamiseks peate selle rakenduse muutma vaikimisi valijarakenduseks.</string>
     <string name="set_as_default">Määra vaikimisi</string>
     <string name="block_confirmation">Olete kindel, et soovite \"%s\" blokeerida?</string>
@@ -88,6 +92,8 @@
     <string name="pattern_renaming">Muster</string>
     <string name="string_to_add">Rida lisada</string>
     <string name="rename_date_time_pattern">%Y - aasta\n%M - kuu\n%D - päev\n%h - tund\n%m - minut\n%s - sekund\n%i - arvu suurenemis aste 1</string>
+    <string name="filename_without_txt">Failinimi (ilma .txt)</string>
+    <string name="filename_without_json">Failinimi (ilma .json)</string>
     <string name="copy">Kopeeri</string>
     <string name="move">Teisalda</string>
     <string name="copy_move">Kopeeri / Teisalda</string>
@@ -157,6 +163,7 @@
     <string name="internal">Sisemine</string>
     <string name="sd_card">SD kaart</string>
     <string name="root">Pealeht</string>
+    <string name="wrong_root_selected">Valitud on vale kaust, valige SD -kaardi põhikaust</string>
     <string name="sd_card_usb_same">SD-kaardi ja USB-seadme teed ei saa olla samad</string>
     <string name="app_on_sd_card">Tundub, et teil on rakendus installitud SD-kaardile, mis muudab rakenduse vidinad kättesaamatuks. Te ei näe neid isegi olemasolevate vidinate loendis.
         See on süsteemi piirang, nii et kui soovite vidinaid kasutada, peate rakenduse sisemällu liigutama.</string>
@@ -204,6 +211,7 @@
     <string name="shared_theme_note">Pange tähele, et isegi kui kasutate rakenduse Pro versiooni, vajate tehnilistel põhjustel siiski lihtsat tänu. See hoolitseb värvide sünkroonimise eest.</string>
     <string name="light_theme">Hele</string>
     <string name="dark_theme">Tume</string>
+    <string name="auto_theme">Autom.</string>
     <string name="solarized">Ülesäritus</string>
     <string name="dark_red">Tumepunane</string>
     <string name="white">Valge</string>
@@ -242,6 +250,7 @@
     <string name="name">Nimi</string>
     <string name="size">Suurus</string>
     <string name="last_modified">Viimati muudetud</string>
+    <string name="date_created">Loomise kuupäev</string>
     <string name="date_taken">Jäädvustamiskuupäev</string>
     <string name="title">Pealkiri</string>
     <string name="filename">Faili nimi</string>
@@ -281,9 +290,12 @@
     <string name="insert_pattern">Sisestage muster</string>
     <string name="wrong_pattern">Vale muster</string>
     <string name="repeat_pattern">Korrake mustrit</string>
+    <string name="biometrics">Biomeetriaga</string>
     <string name="fingerprint">Sõrmejälg</string>
     <string name="add_fingerprint">Sõrmejälje lisamine</string>
     <string name="place_finger">Palun asetage sõrme sõrmejäljelugejale</string>
+    <string name="open_biometric_dialog">Avage biomeetrilise ID kinnitamise dialoog</string>
+    <string name="authenticate">Autentimine</string>
     <string name="authentication_failed">Autentimine nurjus</string>
     <string name="authentication_blocked">Autentimine on blokeeritud, proovige hetke pärasta uuesti</string>
     <string name="no_fingerprints_registered">Teil pole sõrmejälgi registreeritud, lisage mõned oma seadme seadistustesse</string>
@@ -434,6 +446,7 @@
     <string name="during_day_at">Päeval kell %02d:%02d</string>
     <string name="settings">Seaded</string>
     <string name="purchase_simple_thank_you">Ostmine lihtne tänan teid</string>
+    <string name="general_settings">Üldine</string>
     <string name="customize_colors">Kohanda värve</string>
     <string name="customize_colors_locked">Värvide kohandamine (lukus)</string>
     <string name="customize_widget_colors">Vidinate värvide kohandamine</string>
@@ -470,6 +483,7 @@
     <string name="settings_imported_successfully">Seaded imporditi edukalt</string>
     <string name="start_name_with_surname">Algnimi perekonnanimega</string>
     <string name="clear_cache">Tühjenda vahemälu</string>
+    <string name="show_call_confirmation_dialog">Enne kõne alustamist näidake kõne kinnitamise dialoogi</string>
     <string name="visibility">Nähtavus</string>
     <string name="security">Turvalisus</string>
     <string name="scrolling">Kerimine</string>
@@ -479,6 +493,7 @@
     <string name="startup">Käivitamine</string>
     <string name="text">Tekst</string>
     <string name="migrating">Rändamine</string>
+    <string name="thumbnails">Pisipildid</string>
     <string name="manage_shown_tabs">Kuvatud vahelehtede haldamine</string>
     <string name="default_tab_to_open">Vahekaart avatakse rakenduse käivitamisel</string>
     <string name="contacts_tab">Kontaktid</string>
@@ -515,6 +530,7 @@
     <string name="usb">USB</string>
     <string name="usb_detected">Tundub, et teie seadmega on ühendatud USB-seade. Et veenduda, et selle failid ilmuvad õigesti, peate andma täiendavaid õigusi.</string>
     <string name="confirm_usb_storage_access_text">Salvestamisõiguse andmiseks valige järgmisel ekraanil USB-seadme juurkataloog</string>
+    <string name="wrong_root_selected_usb">Valitud on vale kaust, valige USB -seadme põhikaust</string>
     <string name="january">Jaanuar</string>
     <string name="february">Veebruar</string>
     <string name="march">Märts</string>
@@ -570,18 +586,14 @@
     <string name="website_label">Lähtekoodide jaoks külastage</string>
     <string name="email_label">Saada oma tagasiside või soovitused</string>
     <string name="upgrade_to_pro">Uuenda Pro-le</string>
-    <string name="more_apps_underlined"><u>Rohkem rakendusi</u></string>
-    <string name="more_apps_from_us_underlined"><u>Veel meilt rakendusi</u></string>
-    <string name="third_party_licences_underlined"><u>Kolmandate isikute litsentsid</u></string>
-    <string name="invite_friends_underlined"><u>Kutsu sõpru</u></string>
     <string name="share_text">Hei, tule välja %1$s juures %2$s</string>
     <string name="invite_via">Kutsu läbi</string>
-    <string name="rate_us_underlined"><u>Hinda meid</u></string>
     <string name="rate">Hinda</string>
     <string name="donate">Toeta</string>
     <string name="donate_underlined"><u>Toeta</u></string>
     <string name="follow_us">Jälgi meid</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="other">Muud</string>
     <string name="additional_info">Lisa info</string>
     <string name="app_version">Rakenduse versioon: %s</string>
     <string name="device_os">Seadme OS: %s</string>
@@ -622,8 +634,6 @@
     <string name="faq_1_text_commons">See on kõige tõenäolisem sellepärast, et kasutasite rakendust SD-kaardil. On olemas Android-süsteemi piirang, mis peidab antud rakenduste vidinaid.
         Ainus lahendus on see, et rakendus viiakse seadme sisemällu seadme seadete kaudu tagasi.</string>
     <string name="faq_2_title_commons">Ma tahan sind toetada, kuid ma ei saa raha annetada. Kas ma saan midagi muud teha?</string>
-    <string name="faq_2_text_commons">Jah, muidugi. Saate levitada kiidusõnu rakenduste kohta või anda tagasisidet ja hinnanguid. Samuti saate aidata rakenduste tõlkimisel uude keelde või värskendada mõningaid olemasolevaid tõlkeid.
-        Juhendi leiate aadressilt https://github.com/SimpleMobileTools/General-Discussion või võtke minuga ühendust aadressil hello@simplemobiletools.com, kui vajate abi.</string>
     <string name="faq_3_title_commons">Ma kustutasin mõned failid ekslikult, kuidas ma neid taastada saan?</string>
     <string name="faq_3_text_commons">Kahjuks ei saa. Failid kustutatakse kohe pärast kinnitusdialoogi, prügikasti pole saadaval.</string>
     <string name="faq_4_title_commons">Mulle ei meeldi vidina värvid, kas ma saan neid muuta?</string>
@@ -645,6 +655,9 @@
         soovid valida kõik üksused, vajuta lihtsalt pikka aega ühte üksust ja seejärel klõpsa vasakus ülanurgas valitud üksuste loenduri juures. See valib kõik valikud või tühistab nende valiku.</string>
     <string name="faq_10_title_commons">Olen rakenduse ostnud, kuid ma ei saa seda teisest seadmest alla laadida.</string>
     <string name="faq_10_text_commons">Tühjendage oma Google Play rakenduse vahemälu ja taaskäivitage seade. See on mõni Google Play tõrge, mis pole tegelikult seotud rakenduse endaga.</string>
+    <string name="contributors">Toetajad</string>
+    <string name="translation">Tõlge</string>
+    <string name="translation_czech">Tšehhi</string>
     <string name="why_upgrade">Hankige kohe Pro versioon!</string>
     <string name="why_upgrade_basic_version">Põhiline</string>
     <string name="why_upgrade_pro_version">Pro</string>

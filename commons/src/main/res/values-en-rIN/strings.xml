@@ -19,6 +19,7 @@
     <string name="camera">Camera</string>
     <string name="restore_defaults">Restore defaults</string>
     <string name="default_color">Default</string>
+    <string name="auto_theme">Auto</string>
     <string name="custom">Customise</string>
     <string name="rename">Rename</string>
     <string name="seconds_raw">seconds</string>
@@ -29,6 +30,7 @@
     <string name="medium">Medium</string>
     <string name="usb">USB</string>
     <string name="donate">Donate</string>
+    <string name="other">Other</string>
     <string name="calendar_short">Calendar</string>
     <string name="camera_short">Camera</string>
 </resources>

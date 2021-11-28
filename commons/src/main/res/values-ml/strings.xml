@@ -19,6 +19,7 @@
     <string name="default_color">സ്ഥിരമായത്</string>
     <string name="save">സംരക്ഷിക്കുക</string>
     <string name="dark_theme">ഇരുണ്ട</string>
+    <string name="auto_theme">ഓട്ടോ</string>
     <string name="custom">ഇഷ്‌ടാനുസൃതം</string>
     <string name="remove">നീക്കംചെയ്യുക</string>
     <string name="undo">പഴയപടിയാക്കുക</string>
@@ -33,6 +34,7 @@
     <string name="text">ടെക്സ്റ്റ്</string>
     <string name="usb">USB</string>
     <string name="donate">സംഭാവന</string>
+    <string name="other">മറ്റുള്ളവ</string>
     <string name="calendar_short">കലണ്ടർ</string>
     <string name="camera_short">ക്യാമറ</string>
 </resources>
