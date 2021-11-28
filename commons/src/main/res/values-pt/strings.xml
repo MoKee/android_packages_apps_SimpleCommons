@@ -29,6 +29,7 @@
     <string name="select_a_different_color">Selecione uma cor diferente</string>
     <string name="download">Descarregar</string>
     <string name="notification">Notificação</string>
+    <string name="notifications">Notifications</string>
     <string name="email">E-mail</string>
     <string name="previous">Anterior</string>
     <string name="playpause">Reproduzir/Pausa</string>
@@ -164,6 +165,7 @@
     <string name="confirm_storage_access_title">Confirmação de acesso ao armazenamento externo</string>
     <string name="confirm_storage_access_text">Por favor escolha a pasta raiz do cartão SD no próximo ecrã para conceder acesso de escrita</string>
     <string name="confirm_storage_access_text_sd">Se não conseguir ver o cartão SD, tente isto</string>
+    <string name="confirm_storage_access_android_text">Please allow the app accessing the selected storage on the next screen by pressing \'Use this folder\' at the bottom.</string>
     <string name="confirm_selection">Confirmar seleção</string>
 
     <plurals name="items">
@@ -563,6 +565,10 @@
     <string name="startup">Arranque</string>
     <string name="text">Texto</string>
     <string name="migrating">Migração</string>
+    <string name="quality">Quality</string>
+    <string name="main_screen">Main screen</string>
+    <string name="thumbnails">Thumbnails</string>
+    <string name="list_view">List view</string>
 
     <!-- Default tab to open -->
     <string name="manage_shown_tabs">Gerir separadores a mostrar</string>

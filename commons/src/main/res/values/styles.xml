@@ -99,6 +99,17 @@
         <item name="android:background">@drawable/button_background_rounded</item>
     </style>
 
+    <style name="StrokeButtonStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textFontWeight">600</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:paddingStart">@dimen/bigger_margin</item>
+        <item name="android:paddingEnd">@dimen/bigger_margin</item>
+        <item name="android:paddingTop">@dimen/activity_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_margin</item>
+        <item name="android:background">@drawable/button_background_stroke</item>
+    </style>
+
     <style name="Base.Widget.AppCompat.ActionMode" parent="">
         <item name="background">@drawable/actionmenu_background</item>
         <item name="backgroundSplit">?attr/actionModeSplitBackground</item>
@@ -142,17 +153,14 @@
         <item name="android:paddingStart">@dimen/medium_margin</item>
     </style>
 
-    <style name="SettingsLeftLabelStyle">
-        <item name="android:layout_centerVertical">true</item>
+    <style name="SettingsTextLabelStyle">
+        <item name="android:textSize">@dimen/normal_text_size</item>
     </style>
 
-    <style name="SettingsRightTextualValueStyle">
-        <item name="android:layout_alignParentEnd">true</item>
-        <item name="android:maxLines">3</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:paddingEnd">@dimen/small_margin</item>
-        <item name="android:paddingStart">@dimen/activity_margin</item>
-        <item name="android:gravity">end</item>
+    <style name="SettingsTextValueStyle">
+        <item name="android:alpha">0.6</item>
+        <item name="android:textFontWeight">300</item>
+        <item name="android:textSize">@dimen/normal_text_size</item>
     </style>
 
     <style name="SettingsHolderCheckboxStyle">
@@ -164,8 +172,13 @@
 
     <style name="SettingsHolderTextViewStyle">
         <item name="android:paddingStart">@dimen/activity_margin</item>
-        <item name="android:paddingTop">@dimen/bigger_margin</item>
+        <item name="android:paddingTop">@dimen/activity_margin</item>
         <item name="android:paddingEnd">@dimen/activity_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_margin</item>
+    </style>
+
+    <style name="SettingsHolderTextViewOneLinerStyle" parent="@style/SettingsHolderTextViewStyle">
+        <item name="android:paddingTop">@dimen/bigger_margin</item>
         <item name="android:paddingBottom">@dimen/bigger_margin</item>
     </style>
 

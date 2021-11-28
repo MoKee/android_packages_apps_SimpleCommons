@@ -67,6 +67,7 @@ class CopyMoveTask(
             if (file.size == 0L) {
                 file.size = file.getProperSize(activity, copyHidden)
             }
+
             val newPath = "$mDestinationPath/${file.name}"
             val fileExists = activity.getDoesFilePathExist(newPath)
             if (getConflictResolution(conflictResolutions, newPath) != CONFLICT_SKIP || !fileExists) {
@@ -189,6 +190,21 @@ class CopyMoveTask(
                 copy(oldFileDirItem, newFileDirItem)
             }
             mTransferredFiles.add(source)
+        } else if (activity.isRestrictedSAFOnlyRoot(source.path)) {
+            activity.getAndroidSAFFileItems(source.path, true) { files ->
+                for (child in files) {
+                    val newPath = "$destinationPath/${child.name}"
+                    if (activity.getDoesFilePathExist(newPath)) {
+                        continue
+                    }
+
+                    val oldPath = "${source.path}/${child.name}"
+                    val oldFileDirItem = FileDirItem(oldPath, child.name, child.isDirectory, 0, child.size)
+                    val newFileDirItem = FileDirItem(newPath, child.name, child.isDirectory)
+                    copy(oldFileDirItem, newFileDirItem)
+                }
+                mTransferredFiles.add(source)
+            }
         } else {
             val children = File(source.path).list()
             for (child in children) {
@@ -227,6 +243,7 @@ class CopyMoveTask(
             if (!mDocuments.containsKey(directory) && activity.needsStupidWritePermissions(destination.path)) {
                 mDocuments[directory] = activity.getDocumentFile(directory)
             }
+
             out = activity.getFileOutputStreamSync(destination.path, source.path.getMimeType(), mDocuments[directory])
             inputStream = activity.getFileInputStreamSync(source.path)!!
 
