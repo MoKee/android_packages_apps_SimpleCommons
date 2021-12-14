@@ -34,7 +34,13 @@ class FingerprintTab(context: Context, attrs: AttributeSet) : RelativeLayout(con
         }
     }
 
-    override fun initTab(requiredHash: String, listener: HashListener, scrollView: MyScrollView, biometricPromptHost: AuthPromptHost) {
+    override fun initTab(
+        requiredHash: String,
+        listener: HashListener,
+        scrollView: MyScrollView,
+        biometricPromptHost: AuthPromptHost,
+        showBiometricAuthentication: Boolean
+    ) {
         hashListener = listener
     }
 
