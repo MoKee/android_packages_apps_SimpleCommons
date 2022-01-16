@@ -48,4 +48,7 @@
     <dimen name="big_text_size">18sp</dimen>
     <dimen name="actionbar_text_size">20sp</dimen>
     <dimen name="extra_big_text_size">22sp</dimen>
+
+    <dimen name="cab_popup_menu_min_width">168dp</dimen>
+    <dimen name="cab_item_min_width">85dp</dimen>
 </resources>
