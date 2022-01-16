@@ -109,9 +109,11 @@
     <string name="copy_failed">Faile ei saanud kopeerida</string>
     <string name="copying">Kopeerimine…</string>
     <string name="copying_success">Failid edukalt kopeeritud</string>
+    <string name="copying_success_one">Fail edukalt kopeeritud</string>
     <string name="copy_move_failed">Ilmnes viga</string>
     <string name="moving">Liikumine…</string>
     <string name="moving_success">Failid on edukalt liigutatud</string>
+    <string name="moving_success_one">Fail on edukalt liigutatud</string>
     <string name="moving_success_partial">Mõnda faili ei saanud teisaldada</string>
     <string name="copying_success_partial">Mõnda faili ei saanud kopeerida</string>
     <string name="no_files_selected">Ühtegi vara pole valitud</string>
@@ -142,6 +144,7 @@
     <string name="confirm_storage_access_title">Kinnitage välise salvestamise juurdepääs</string>
     <string name="confirm_storage_access_text">Salvestamisõiguse andmiseks valige järgmisel ekraanil SD-kaardi juurkataloog</string>
     <string name="confirm_storage_access_text_sd">Kui SD-kaarti ei näe, proovige seda</string>
+    <string name="confirm_storage_access_android_text">Lubage rakendusel järgmisel ekraanil valitud salvestusruumi juurde pääseda, vajutades allosas nuppu „Kasuta seda kausta”.</string>
     <string name="confirm_selection">Kinnitage valik</string>
     <plurals name="items">
         <item quantity="one">%d üksus</item>
@@ -447,6 +450,7 @@
     <string name="settings">Seaded</string>
     <string name="purchase_simple_thank_you">Ostmine lihtne tänan teid</string>
     <string name="general_settings">Üldine</string>
+    <string name="color_customization">Värvi kohandamine</string>
     <string name="customize_colors">Kohanda värve</string>
     <string name="customize_colors_locked">Värvide kohandamine (lukus)</string>
     <string name="customize_widget_colors">Vidinate värvide kohandamine</string>
@@ -493,7 +497,10 @@
     <string name="startup">Käivitamine</string>
     <string name="text">Tekst</string>
     <string name="migrating">Rändamine</string>
+    <string name="quality">Kvaliteet</string>
+    <string name="main_screen">Põhiekraan</string>
     <string name="thumbnails">Pisipildid</string>
+    <string name="list_view">Loendivaade</string>
     <string name="manage_shown_tabs">Kuvatud vahelehtede haldamine</string>
     <string name="default_tab_to_open">Vahekaart avatakse rakenduse käivitamisel</string>
     <string name="contacts_tab">Kontaktid</string>
@@ -586,14 +593,24 @@
     <string name="website_label">Lähtekoodide jaoks külastage</string>
     <string name="email_label">Saada oma tagasiside või soovitused</string>
     <string name="upgrade_to_pro">Uuenda Pro-le</string>
+    <string name="more_apps">Veel rakendusi</string>
+    <string name="more_apps_from_us">Veel meilt rakendusi</string>
+    <string name="invite_friends">Kutsu sõpru</string>
     <string name="share_text">Hei, tule välja %1$s juures %2$s</string>
     <string name="invite_via">Kutsu läbi</string>
+    <string name="rate_us">Hinda meid</string>
     <string name="rate">Hinda</string>
     <string name="donate">Toeta</string>
     <string name="donate_underlined"><u>Toeta</u></string>
     <string name="follow_us">Jälgi meid</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="support">Toeta</string>
+    <string name="help_us">Aita meid</string>
+    <string name="social">Sotsiaalne</string>
     <string name="other">Muud</string>
+    <string name="version_placeholder">Versioon %s</string>
+    <string name="hello">Tere :)</string>
+    <string name="about_footer">Valmistatud ❤️ Slovakkias</string>
     <string name="additional_info">Lisa info</string>
     <string name="app_version">Rakenduse versioon: %s</string>
     <string name="device_os">Seadme OS: %s</string>
@@ -608,7 +625,7 @@
     <string name="rate_our_app">Hinda meie rakendust palun :)</string>
     <string name="thank_you">Aitäh</string>
     <string name="widget_locked_pro">Vidin on lukus.\nSelle avamiseks minge üle Pro versioonile.</string>
-    <string name="widget_locked">            Vidin on lukus.&lt;br&gt;Palun ostke &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Lihtne aitäh&lt;/a&gt; selle avamiseks.
+    <string name="widget_locked">            Vidin on lukus.&lt;br&gt;Palun ostke &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Lihtne aitöh&lt;/a&gt;selle avamiseks.
         </string>
     <string name="app_launcher_short">Rakenduste käivitaja</string>
     <string name="calculator_short">Kalkulaator</string>
@@ -626,7 +643,7 @@
     <string name="sms_messenger_short">SMS Messenger</string>
     <string name="thank_you_short">Aitäh</string>
     <string name="voice_recorder_short">Helisalvesti</string>
-    <string name="sideloaded_app">            Tundub, et teie rakenduse versioon on rikutud. Palun laadige alla originaalversioon &amp;lt;a href="%s"&amp;gt;siia&amp;lt;/a&amp;gt;.
+    <string name="sideloaded_app">            Tundub, et teie rakenduse versioon on rikutud. Palun laadige alla originaalversioon &lt;a href=\"%s\"&gt;siia&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Korduma Kippuvad Küsimused</string>
     <string name="before_asking_question">Enne küsimuse esitamist lugege palun esmalt</string>
@@ -657,7 +674,51 @@
     <string name="faq_10_text_commons">Tühjendage oma Google Play rakenduse vahemälu ja taaskäivitage seade. See on mõni Google Play tõrge, mis pole tegelikult seotud rakenduse endaga.</string>
     <string name="contributors">Toetajad</string>
     <string name="translation">Tõlge</string>
+    <string name="development">Arendus</string>
+    <string name="other_help">Muu abi</string>
+    <string name="translation_arabic">Araabia</string>
+    <string name="translation_azerbaijani">Aserbaidžaani</string>
+    <string name="translation_bengali">Bengaali</string>
+    <string name="translation_breton">Bretooni</string>
+    <string name="translation_catalan">Katalaani</string>
     <string name="translation_czech">Tšehhi</string>
+    <string name="translation_welsh">Kõmri</string>
+    <string name="translation_danish">Taani</string>
+    <string name="translation_german">Saksa</string>
+    <string name="translation_greek">Kreeka</string>
+    <string name="translation_spanish">Hispaania</string>
+    <string name="translation_basque">Baski</string>
+    <string name="translation_persian">Pärsia</string>
+    <string name="translation_finnish">Soome</string>
+    <string name="translation_french">Prantsuse</string>
+    <string name="translation_galician">Galeegi</string>
+    <string name="translation_hindi">Hindi</string>
+    <string name="translation_croatian">Horvaatia</string>
+    <string name="translation_hungarian">Ungari</string>
+    <string name="translation_indonesian">Indoneesia</string>
+    <string name="translation_italian">Itaalia</string>
+    <string name="translation_hebrew">Heebrea</string>
+    <string name="translation_japanese">Jaapani</string>
+    <string name="translation_korean">Korea</string>
+    <string name="translation_lithuanian">Leedu</string>
+    <string name="translation_nepali">Nepaali</string>
+    <string name="translation_norwegian">Norra</string>
+    <string name="translation_dutch">Hollandi</string>
+    <string name="translation_polish">Poola</string>
+    <string name="translation_portuguese">Portugali</string>
+    <string name="translation_romanian">Rumeenia</string>
+    <string name="translation_russian">Vene</string>
+    <string name="translation_slovak">Slovaki</string>
+    <string name="translation_slovenian">Sloveenia</string>
+    <string name="translation_serbian">Serbia</string>
+    <string name="translation_swedish">Rootsi</string>
+    <string name="translation_tamil">Tamili</string>
+    <string name="translation_turkish">Türgi</string>
+    <string name="translation_ukrainian">Ukraina</string>
+    <string name="translation_vietnamese">Vietnami</string>
+    <string name="translation_chinese_hk">Hiina (Hong Kong)</string>
+    <string name="translation_chinese_cn">Hiina (lihtsustatud)</string>
+    <string name="translation_chinese_tw">Hiina (traditsiooniline)</string>
     <string name="why_upgrade">Hankige kohe Pro versioon!</string>
     <string name="why_upgrade_basic_version">Põhiline</string>
     <string name="why_upgrade_pro_version">Pro</string>

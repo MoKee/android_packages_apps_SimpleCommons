@@ -664,6 +664,8 @@
     <string name="rate_our_app">Ohodnoťte prosím našu aplikáciu :)</string>
     <string name="thank_you">Ďakujeme</string>
     <string name="widget_locked_pro">Widget je uzamknutý.\nPre odomknutie aktualizujte na verziu Pro.</string>
+    <string name="widget_locked">            Widget je uzamknutý.&lt;br&gt;Pre odemkutie si zakúpte aplikáciu &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt;.
+        </string>
     <string name="app_launcher_short">Spúšťač aplikácií</string>
     <string name="calculator_short">Kalkulačka</string>
     <string name="calendar_short">Kalendár</string>
@@ -680,7 +682,7 @@
     <string name="sms_messenger_short">SMS messenger</string>
     <string name="thank_you_short">Vďaka</string>
     <string name="voice_recorder_short">Hlasový záznamník</string>
-    <string name="sideloaded_app">            Zdá sa, že verzia aplikácie je poškodená. Stiahnite si prosím pôvodnú verziu &amp;lt;a href="%s"&amp;gt;zde&amp;lt;/a&amp;gt;.
+    <string name="sideloaded_app">            Zdá sa, že verzia aplikácie je poškodená. Stiahnite si prosím pôvodnú verziu &lt;a href="%s"&gt;zde&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Často kladené otázky</string>
     <string name="before_asking_question">Predtým, ako sa niečo opýtate si prosíme preštudujte</string>

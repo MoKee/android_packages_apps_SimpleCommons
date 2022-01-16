@@ -625,7 +625,7 @@
     <string name="sms_messenger_short">SMS Messenger</string>
     <string name="thank_you_short">Thank You</string>
     <string name="voice_recorder_short">Registratore Vocale</string>
-    <string name="sideloaded_app">            La versione dell'app sembra essere corrotta. Si prega di scaricare&lt;a href="%s"&gt;qui&lt;/a&gt;.Versione originale
+    <string name="sideloaded_app">            La versione dell\'app sembra essere corrotta. Si prega di scaricare<a href="%s">qui</a>.Versione originale
         </string>
     <string name="frequently_asked_questions">Domande frequenti</string>
     <string name="before_asking_question">Prima di porre una domanda, per favore leggi le</string>

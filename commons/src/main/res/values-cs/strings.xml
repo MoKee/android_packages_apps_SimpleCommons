@@ -41,6 +41,16 @@
     <string name="no_access_to_contacts">Aplikace nemohla získat přístup k vašim kontaktům</string>
     <string name="insert_text_here">Zde vložte text</string>
     <string name="call_person">Volat %s</string>
+    <string name="zero">Nula</string>
+    <string name="one">Jedna</string>
+    <string name="two">Dvě</string>
+    <string name="three">Tři</string>
+    <string name="four">Čtyři</string>
+    <string name="five">Pět</string>
+    <string name="six">Šest</string>
+    <string name="seven">Sedm</string>
+    <string name="eight">Osm</string>
+    <string name="nine">Devět</string>
     <string name="change_view_type">Změnit typ zobrazení</string>
     <string name="grid">Mřížka</string>
     <string name="list">Seznam</string>
@@ -109,9 +119,11 @@
     <string name="copy_failed">Nelze zkopírovat soubory</string>
     <string name="copying">Kopírování…</string>
     <string name="copying_success">Soubory byly úspěšně zkopírovány</string>
+    <string name="copying_success_one">Soubor byl úspěšně zkopírován</string>
     <string name="copy_move_failed">Vyskytla se chyba</string>
     <string name="moving">Přesouvání…</string>
     <string name="moving_success">Soubory byly úspěšně přesunuty</string>
+    <string name="moving_success_one">Soubor byl úspěšně přesunut</string>
     <string name="moving_success_partial">Některé soubory nemohly být přesunuty</string>
     <string name="copying_success_partial">Některé soubory nemohly být zkopírovány</string>
     <string name="no_files_selected">Nebyly vybrány žádné soubory</string>
@@ -142,6 +154,7 @@
     <string name="confirm_storage_access_title">Potvrďte přístup k externímu úložišti</string>
     <string name="confirm_storage_access_text">Na následující obrazovce prosím zvolte kořenovou složku SD karty pro povolení oprávnění k zápisu</string>
     <string name="confirm_storage_access_text_sd">Pokud nevidíte SD kartu, vyzkoušejte následující</string>
+    <string name="confirm_storage_access_android_text">Na další obrazovce povolte aplikaci přístup k vybranému úložišti stisknutím tlačítka \"Použít tuto složku\" v dolní části.</string>
     <string name="confirm_selection">Potvrďte výběr</string>
     <plurals name="items">
         <item quantity="one">%d položka</item>
@@ -513,6 +526,7 @@
     <string name="settings">Nastavení</string>
     <string name="purchase_simple_thank_you">Koupit Simple Thank You</string>
     <string name="general_settings">Obecné</string>
+    <string name="color_customization">Vlastní nastavení barev</string>
     <string name="customize_colors">Přizpůsobit barvy</string>
     <string name="customize_colors_locked">Přizpůsobení barev (uzamčeno)</string>
     <string name="customize_widget_colors">Přizpůsobit barvy widgetu</string>
@@ -559,7 +573,10 @@
     <string name="startup">Po spuštění</string>
     <string name="text">Text</string>
     <string name="migrating">Migrace</string>
+    <string name="quality">Kvalita</string>
+    <string name="main_screen">Hlavní obrazovka</string>
     <string name="thumbnails">Náhledy</string>
+    <string name="list_view">Zobrazení seznamu</string>
     <string name="manage_shown_tabs">Správa zobrazených karet</string>
     <string name="default_tab_to_open">Karta k otevření při spuštění aplikace</string>
     <string name="contacts_tab">Kontakty</string>
@@ -654,14 +671,24 @@
     <string name="website_label">Pro zdrojové kódy navštivte</string>
     <string name="email_label">Zpětnou vazbu či návrhy posílejte na</string>
     <string name="upgrade_to_pro">Upgradovat na Pro</string>
+    <string name="more_apps">Další aplikace</string>
+    <string name="more_apps_from_us">Další aplikace od nás</string>
+    <string name="invite_friends">Pozvat přátele</string>
     <string name="share_text">Ahoj, vyzkoušej %1$s na %2$s</string>
     <string name="invite_via">Pozvat pomocí</string>
+    <string name="rate_us">Ohodnoťte nás</string>
     <string name="rate">Ohodnotit</string>
     <string name="donate">Přispět</string>
     <string name="donate_underlined"><u>Přispět</u></string>
     <string name="follow_us">Sledujte nás</string>
     <string name="copyright">v %1$s\nAutorská práva © Simple Mobile Tools %2$d</string>
+    <string name="support">Podpora</string>
+    <string name="help_us">Pomozte nám</string>
+    <string name="social">Sociální sítě</string>
     <string name="other">Ostatní</string>
+    <string name="version_placeholder">Verze %s</string>
+    <string name="hello">Ahoj :)</string>
+    <string name="about_footer">Vytvořeno s ❤️ na Slovensku</string>
     <string name="additional_info">Další informace</string>
     <string name="app_version">Verze aplikace: %s</string>
     <string name="device_os">OS zařízení: %s</string>
@@ -694,7 +721,7 @@
     <string name="sms_messenger_short">SMS messenger</string>
     <string name="thank_you_short">Ďekujeme</string>
     <string name="voice_recorder_short">Hlasový záznamník</string>
-    <string name="sideloaded_app">            Zdá se, že verze aplikace je poškozena. Stáhněte si prosím původní verzi &amp;lt;a href="%s"&amp;gt;zde&amp;lt;/a&amp;gt;.
+    <string name="sideloaded_app">            Zdá se, že verze aplikace je poškozena. Stáhněte si prosím původní verzi &lt;a href="%s"&gt;zde&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Často kladené otázky</string>
     <string name="before_asking_question">Před položením otázky, prosím nejprve čtěte</string>
@@ -702,6 +729,9 @@
     <string name="faq_1_text_commons">Je to pravděpodobně způsobeno tím, že jste aplikaci přesunuli na SD kartu. Jde o systémové omezení, které v tomto případě skryje widget aplikace.
         Jediným řešením je přesunutí aplikace zpět na interní úložiště přes nastavení zařízení.</string>
     <string name="faq_2_title_commons">Chci vás podpořit, ale nemohu finančně. Jakým jiným způsobem mohu pomoci?</string>
+    <string name="faq_2_text_commons">            Ano, samozřejmě. Můžete o aplikacích šířit informace nebo poskytovat dobré hodnocení a zpětnou vazbu. Můžete také pomoci tím, že aplikace přeložíte do nového jazyka nebo jen aktualizujete některé stávající překlady.
+            Průvodce překladem najdete na adrese &lt;a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file"&gt;this website&lt;/a&gt;, nebo nás kontaktujte na &lt;a href="mailto:hello@simplemobiletools.com"&gt;hello@simplemobiletools.com&lt;/a&gt; pokud máte nějaké dotazy.
+        </string>
     <string name="faq_3_title_commons">Omylem jsem smazal některé soubory, jak je můžu obnovit?</string>
     <string name="faq_3_text_commons">Bohužel, nemůžete. Soubory jsou okamžitě smazány po potvrzovacím okně, není k dispozici žádný koš.</string>
     <string name="faq_4_title_commons">Nelíbí se mi barvy widgetů, lze je změnit?</string>
@@ -725,7 +755,55 @@
     <string name="faq_10_text_commons">Zkuste vymazat mezipaměť aplikace Obchod Play a restartovat zařízení. Je to nějaká chyba Obchodu Play, která ve skutečnosti nesouvisí se samotnou aplikací.</string>
     <string name="contributors">Přispěvatelé</string>
     <string name="translation">Překlady</string>
+    <string name="development">Vývoj</string>
+    <string name="other_help">Další nápověda</string>
+    <string name="contributors_label">            Tento seznam obsahuje všechny, kteří výrazně pomohli jakékoli aplikaci ze sady Simple Mobile Tools, nejen této. Překlady zajišťují dobrovolníci,
+            dejte nám vědět, pokud chcete také pomoci. Průvodce překladem najdete na adrese &lt;a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file"&gt;this website&lt;/a&gt;, nebo nás kontaktujte na &lt;a href="mailto:hello@simplemobiletools.com"&gt;hello@simplemobiletools.com&lt;/a&gt; pokud máte nějaké dotazy.
+            Děkujeme všem přispěvatelům a dalším podporovatelům!
+        </string>
+    <string name="translation_arabic">Arabština</string>
+    <string name="translation_azerbaijani">Ázerbájdžánština</string>
+    <string name="translation_bengali">Bengálština</string>
+    <string name="translation_breton">Bretonština</string>
+    <string name="translation_catalan">Katalánština</string>
     <string name="translation_czech">Česko</string>
+    <string name="translation_welsh">Velština</string>
+    <string name="translation_danish">Dánština</string>
+    <string name="translation_german">Němčina</string>
+    <string name="translation_greek">Řečtina</string>
+    <string name="translation_spanish">Španělština</string>
+    <string name="translation_basque">Baskičtina</string>
+    <string name="translation_persian">Perština</string>
+    <string name="translation_finnish">Finština</string>
+    <string name="translation_french">Francouzština</string>
+    <string name="translation_galician">Galicijština</string>
+    <string name="translation_hindi">Hindština</string>
+    <string name="translation_croatian">Chorvatština</string>
+    <string name="translation_hungarian">Maďarština</string>
+    <string name="translation_indonesian">Indonéština</string>
+    <string name="translation_italian">Italština</string>
+    <string name="translation_hebrew">Hebrejština</string>
+    <string name="translation_japanese">Japonština</string>
+    <string name="translation_korean">Korejština</string>
+    <string name="translation_lithuanian">Litevština</string>
+    <string name="translation_nepali">Nepálština</string>
+    <string name="translation_norwegian">Norština</string>
+    <string name="translation_dutch">Holandština</string>
+    <string name="translation_polish">Polština</string>
+    <string name="translation_portuguese">Portugalština</string>
+    <string name="translation_romanian">Rumunština</string>
+    <string name="translation_russian">Ruština</string>
+    <string name="translation_slovak">Slovenština</string>
+    <string name="translation_slovenian">Slovinština</string>
+    <string name="translation_serbian">Srbština</string>
+    <string name="translation_swedish">Švédština</string>
+    <string name="translation_tamil">Tamilština</string>
+    <string name="translation_turkish">Turečtina</string>
+    <string name="translation_ukrainian">Ukrajinština</string>
+    <string name="translation_vietnamese">Vietnamština</string>
+    <string name="translation_chinese_hk">Čínština (Hongkong)</string>
+    <string name="translation_chinese_cn">Čínština (zjednodušená)</string>
+    <string name="translation_chinese_tw">Čínština (tradiční)</string>
     <string name="why_upgrade">Získejte nyní Pro verzi!</string>
     <string name="why_upgrade_basic_version">Základní</string>
     <string name="why_upgrade_pro_version">Pro</string>

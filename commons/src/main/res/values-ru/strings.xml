@@ -666,7 +666,7 @@
     <string name="sms_messenger_short">SMS-сообщения</string>
     <string name="thank_you_short">Спасибо!</string>
     <string name="voice_recorder_short">Диктофон</string>
-    <string name="sideloaded_app">            Похоже, вы установили неверную версию приложения. Пожалуйста, скачайте оригинальную версию &lt;a href="%s"&gt;здесь&lt;/a&gt;.
+    <string name="sideloaded_app">            Похоже, вы установили неверную версию приложения. Пожалуйста, скачайте оригинальную версию <a href="%s">здесь</a>.
         </string>
     <string name="frequently_asked_questions">Часто задаваемые вопросы</string>
     <string name="before_asking_question">Перед тем как задать вопрос, пожалуйста, сначала прочитайте</string>

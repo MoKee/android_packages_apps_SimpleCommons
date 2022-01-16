@@ -668,7 +668,7 @@
     <string name="sms_messenger_short">Komunikator SMS</string>
     <string name="thank_you_short">Dziękujemy</string>
     <string name="voice_recorder_short">Nagrywanie głosu</string>
-    <string name="sideloaded_app">           Wygląda na to, że ta wersja aplikacji jest uszkodzona. Proszę pobierz jej oryginalną wersję &amp;lt;a href="%s"&amp;gt;tutaj&amp;lt;/a&amp;gt;.
+    <string name="sideloaded_app">           Wygląda na to, że ta wersja aplikacji jest uszkodzona. Proszę pobierz jej oryginalną wersję &lt;a href=\"%s\"&gt;tutaj&lt;/a&gt;.
         </string>
     <string name="frequently_asked_questions">Często zadawane pytania (FAQ)</string>
     <string name="before_asking_question">Zanim zadasz pytanie, przeczytaj najpierw</string>

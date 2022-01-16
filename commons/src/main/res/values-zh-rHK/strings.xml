@@ -511,7 +511,7 @@
     <string name="flashlight_short">手電筒</string>
     <string name="gallery_short">圖片庫</string>
     <string name="notes_short">筆記</string>
-    <string name="sideloaded_app">            應用版本似乎已損壞。請下載&lt;a href="%s"&gt;此处&lt;/a&gt;.的原始版本
+    <string name="sideloaded_app">            應用版本似乎已損壞。請下載<a href="%s">此处</a>.的原始版本
         </string>
     <string name="frequently_asked_questions">常見問題</string>
     <string name="before_asking_question">在你發問之前，請先閱讀</string>

@@ -3,6 +3,7 @@
     <string name="ok">确认</string>
     <string name="cancel">取消</string>
     <string name="nothing">无</string>
+    <string name="later">稍后</string>
     <string name="save_as">保存</string>
     <string name="file_saved">文件保存成功</string>
     <string name="invalid_file_format">无效文件格式</string>
@@ -39,6 +40,17 @@
     <string name="request_the_required_permissions">请求所需的权限</string>
     <string name="no_access_to_contacts">该应用无法获取您的联系人</string>
     <string name="insert_text_here">在此处插入文本</string>
+    <string name="call_person">呼叫 %s</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
     <string name="change_view_type">更改视图类型</string>
     <string name="grid">网格</string>
     <string name="list">列表</string>
@@ -52,6 +64,8 @@
     <string name="block_number">屏蔽号码</string>
     <string name="block_numbers">屏蔽号码</string>
     <string name="blocked_numbers">已屏蔽的号码</string>
+    <string name="export_blocked_numbers">导出屏蔽的号码</string>
+    <string name="import_blocked_numbers">导入屏蔽的号码</string>
     <string name="must_make_default_dialer">您必须将该应用设置为默认拨号程序才能使用屏蔽号码功能。</string>
     <string name="set_as_default">设为默认</string>
     <string name="block_confirmation">您确定要屏蔽“%s“吗？</string>
@@ -88,6 +102,8 @@
     <string name="pattern_renaming">图案</string>
     <string name="string_to_add">要添加的字符串</string>
     <string name="rename_date_time_pattern">%Y - 年\n%M - 月\n- 月%D - 日\n%h - 小时\n%m - 分钟\n%s - 秒\n%i - 数字从 1 增加</string>
+    <string name="filename_without_txt">文件名 (不含 .txt)</string>
+    <string name="filename_without_json">文件名 (不含 .json)</string>
     <string name="copy">复制</string>
     <string name="move">移动</string>
     <string name="copy_move">复制／移动</string>
@@ -103,9 +119,11 @@
     <string name="copy_failed">无法复制文件</string>
     <string name="copying">正在复制…</string>
     <string name="copying_success">复制成功</string>
+    <string name="copying_success_one">文件复制成功</string>
     <string name="copy_move_failed">操作失败</string>
     <string name="moving">正在移动…</string>
     <string name="moving_success">文件移动成功</string>
+    <string name="moving_success_one">文件移动成功</string>
     <string name="moving_success_partial">无法移动相同文件</string>
     <string name="copying_success_partial">无法复制相同文件</string>
     <string name="no_files_selected">未选择文件</string>
@@ -136,6 +154,7 @@
     <string name="confirm_storage_access_title">确认外部存储器访问权限</string>
     <string name="confirm_storage_access_text">请选择 SD 卡根目录并授予写权限</string>
     <string name="confirm_storage_access_text_sd">如果您未找到 SD 卡目录，请尝试</string>
+    <string name="confirm_storage_access_android_text">请允许应用访问下一屏上选定的存储，点击底部的“使用此文件夹”。</string>
     <string name="confirm_selection">确认选择</string>
     <plurals name="items">
         <item quantity="other">%d 个项目</item>
@@ -153,6 +172,7 @@
     <string name="internal">内部存储器</string>
     <string name="sd_card">SD 卡</string>
     <string name="root">根目录</string>
+    <string name="wrong_root_selected">文件夹选择错误，请正确选择 SD卡的根目录</string>
     <string name="sd_card_usb_same">SD 卡和 USB 设备路径不能相同</string>
     <string name="app_on_sd_card">您似乎已将应用程序安装在 SD 卡上，这使得应用的小部件不可用。你将无法在小部件列表里看到它们。
         这是一个系统限制，所以如果你想要使用这些小部件，你必须将应用移回内部存储器。</string>
@@ -233,10 +253,13 @@
     <string name="call_from_sim_1"> SIM 1 的来电</string>
     <string name="call_from_sim_2"> SIM 2 的来电</string>
     <string name="toggle_filename">显示文件名</string>
+    <string name="move_to_top">移至顶部</string>
+    <string name="move_to_bottom">移至底部</string>
     <string name="sort_by">排序方式</string>
     <string name="name">名称</string>
     <string name="size">大小</string>
     <string name="last_modified">修改日期</string>
+    <string name="date_created">创建日期</string>
     <string name="date_taken">拍摄日期</string>
     <string name="title">标题</string>
     <string name="filename">文件名</string>
@@ -275,9 +298,11 @@
     <string name="insert_pattern">绘制图案</string>
     <string name="wrong_pattern">图案错误</string>
     <string name="repeat_pattern">重复图案</string>
+    <string name="biometrics">生物识别</string>
     <string name="fingerprint">指纹</string>
     <string name="add_fingerprint">添加指纹</string>
     <string name="place_finger">请将手指放在指纹传感器上</string>
+    <string name="open_biometric_dialog">打开生物识别ID 验证对话框</string>
     <string name="authentication_failed">验证失败</string>
     <string name="authentication_blocked">验证已被阻止，请稍后再试</string>
     <string name="no_fingerprints_registered">您还没有注册指纹，请先给你的设备添加一些指纹</string>
@@ -295,6 +320,9 @@
     <string name="minutes_raw">分钟</string>
     <string name="hours_raw">小时</string>
     <string name="days_raw">天</string>
+    <string name="seconds_letter">秒</string>
+    <string name="minutes_letter">分</string>
+    <string name="hours_letter">小时</string>
     <plurals name="seconds">
         <item quantity="other">%d 秒</item>
     </plurals>
@@ -398,6 +426,7 @@
     <string name="settings">设置</string>
     <string name="purchase_simple_thank_you">购买 Simple Thank You</string>
     <string name="general_settings">常规</string>
+    <string name="color_customization">自定义颜色</string>
     <string name="customize_colors">自定义颜色</string>
     <string name="customize_colors_locked">自定义颜色 (锁定)</string>
     <string name="customize_widget_colors">自定义小部件颜色</string>
@@ -434,6 +463,7 @@
     <string name="settings_imported_successfully">设置导入成功</string>
     <string name="start_name_with_surname">姓在前</string>
     <string name="clear_cache">清除缓存</string>
+    <string name="show_call_confirmation_dialog">开始通话前显示通话确认对话框</string>
     <string name="visibility">可见度</string>
     <string name="security">安全</string>
     <string name="scrolling">滚动</string>
@@ -443,13 +473,19 @@
     <string name="startup">启动</string>
     <string name="text">文本</string>
     <string name="migrating">迁移中</string>
+    <string name="quality">品质</string>
+    <string name="main_screen">主屏幕</string>
     <string name="thumbnails">缩略图</string>
+    <string name="list_view">列表视图</string>
+    <string name="manage_shown_tabs">管理显示的选项卡</string>
     <string name="default_tab_to_open">应用程序启动时打开的标签页</string>
     <string name="contacts_tab">联系人</string>
     <string name="favorites_tab">收藏夹</string>
     <string name="call_history_tab">通话记录</string>
     <string name="groups_tab">社交群组</string>
     <string name="last_used_tab">上次使用</string>
+    <string name="files_tab">文件</string>
+    <string name="recent_files_tab">最近的文件</string>
     <string name="restore_this_file">恢复此文件</string>
     <string name="restore_selected_files">恢复选中的文件</string>
     <string name="restore_all_files">恢复所有文件</string>
@@ -476,6 +512,7 @@
     <string name="usb">USB</string>
     <string name="usb_detected">检测到有 USB 设备连接到您的设备。您需要授予额外的权限以确保文件能够正确显示。</string>
     <string name="confirm_usb_storage_access_text">请在下一界面选择 USB 设备的根文件夹以授予访问权限</string>
+    <string name="wrong_root_selected_usb">文件夹选择错误，请正确选择 USB 设备的根文件夹</string>
     <string name="january">一月</string>
     <string name="february">二月</string>
     <string name="march">三月</string>
@@ -531,14 +568,22 @@
     <string name="website_label">应用源码</string>
     <string name="email_label">发送反馈</string>
     <string name="upgrade_to_pro">升级到专业版</string>
+    <string name="more_apps">更多应用</string>
+    <string name="more_apps_from_us">来自我们的更多应用</string>
+    <string name="invite_friends">邀请朋友</string>
     <string name="share_text">请前往 %2$s 看看我们的 %1$s 吧！</string>
     <string name="invite_via">分享到</string>
+    <string name="rate_us">给我们评分</string>
     <string name="rate">评分</string>
     <string name="donate">捐赠</string>
     <string name="donate_underlined"><u>捐赠</u></string>
     <string name="follow_us">关注我们</string>
     <string name="copyright">v %1$s Copyright © Simple Mobile Tools %2$d</string>
+    <string name="support">支持</string>
+    <string name="help_us">帮助我们</string>
     <string name="other">其他</string>
+    <string name="version_placeholder">版本 %s</string>
+    <string name="hello">您好 :)</string>
     <string name="additional_info">额外信息</string>
     <string name="app_version">应用版本：%s</string>
     <string name="device_os">设备系统：%s</string>
@@ -552,6 +597,9 @@
     <string name="rate_us_prompt">您好，\n\n看起来您已经使用这款应用有一段时间了，我们对此表示非常感谢。\n\n如果可以的话，请您在 Google Play 上帮我们对该应用进行评分。这将给予我们很大的帮助。\n\n无论您作何决定，都将不会再看到本条消息。\n\n谢谢！</string>
     <string name="rate_our_app">请给我们的应用评分 :)</string>
     <string name="thank_you">谢谢</string>
+    <string name="widget_locked_pro">小部件已锁定。\n请升级到专业版以解锁它。</string>
+    <string name="widget_locked">            小部件已锁定。&lt;br&gt;请购买 &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt; 以解锁它。
+        </string>
     <string name="app_launcher_short">应用启动器</string>
     <string name="calculator_short">计算器</string>
     <string name="calendar_short">日历</string>
@@ -568,13 +616,15 @@
     <string name="sms_messenger_short">短信</string>
     <string name="thank_you_short">谢谢</string>
     <string name="voice_recorder_short">语音录音机</string>
-    <string name="sideloaded_app">            应用版本似乎已损坏。 请下载&lt;a href="%s"&gt;此处&lt;/a&gt;.的原始版本
+    <string name="sideloaded_app">            应用版本似乎已损坏。 请下载<a href="%s">此处</a>.的原始版本
         </string>
     <string name="frequently_asked_questions">常见问题</string>
     <string name="before_asking_question">在提问之前，请先阅读</string>
     <string name="faq_1_title_commons">为什么我在应用小部件列表里没有找到这个应用的小部件？</string>
     <string name="faq_1_text_commons">这很可能是因为你将应用程序移动到了SD卡。由于 Android 系统的限制，在这种情况下会隐藏应用程序的小部件。 唯一的解决方法是在系统设置中将应用程序移回内部存储。</string>
     <string name="faq_2_title_commons">我想支持你，但我不能捐赠金钱。 还有什么是我能够做的吗？</string>
+    <string name="faq_2_text_commons">          当然。你可以帮我宣传这个应用，或给个五星好评。你还可以为我的应用翻译新的语言，或者是更新现有的翻译。你可以在 &lt;a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file"&gt;这个网站&lt;/a&gt; 找到翻译相关的说明；如果你需要帮助，也可以发邮件到 &lt;a href="mailto:hello@simplemobiletools.com"&gt;hello@simplemobiletools.com&lt;/a&gt;  咨询我任何问题。
+        </string>
     <string name="faq_3_title_commons">我该怎么恢复误删的文件？</string>
     <string name="faq_3_text_commons">不幸的是，你无法恢复。在确认对话框后文件将被立即删除，你并没有回收站用。</string>
     <string name="faq_4_title_commons">我不喜欢小部件的颜色，我可以修改吗？</string>
@@ -599,7 +649,55 @@
     <string name="faq_10_text_commons">尝试清理您的应用缓存并重启设备。这是 Google Play 的功能，与应用本身并没有关系。</string>
     <string name="contributors">贡献者</string>
     <string name="translation">语言翻译</string>
+    <string name="development">开发</string>
+    <string name="other_help">其他帮助</string>
+    <string name="contributors_label">         此列表包含对 Simple Mobile Tools 套件中的任何应用有过显著帮助的所有人，而不仅仅是这个应用。 翻译由志愿者处理，
+         如果您也想提供帮助，请告诉我们。 翻译指南在 &lt;a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file"&gt;这个网站&lt;/a&gt;，或只联系我们 &lt;a href="mailto:hello@simplemobiletools.com"&gt;hello@simplemobiletools. om&lt;/a&gt; 处理您的问题。
+            感谢所有贡献者和其他支持者！
+        </string>
+    <string name="translation_arabic">阿拉伯语</string>
+    <string name="translation_azerbaijani">阿塞拜疆语</string>
+    <string name="translation_bengali">孟加拉语</string>
+    <string name="translation_breton">布列塔尼语</string>
+    <string name="translation_catalan">加泰罗尼亚语</string>
     <string name="translation_czech">捷克</string>
+    <string name="translation_welsh">威尔士语</string>
+    <string name="translation_danish">丹麦语</string>
+    <string name="translation_german">德语</string>
+    <string name="translation_greek">希腊语</string>
+    <string name="translation_spanish">西班牙语</string>
+    <string name="translation_basque">巴斯克语</string>
+    <string name="translation_persian">波斯语</string>
+    <string name="translation_finnish">芬兰语</string>
+    <string name="translation_french">法语</string>
+    <string name="translation_galician">加利西亚语</string>
+    <string name="translation_hindi">印地语</string>
+    <string name="translation_croatian">克罗地亚语</string>
+    <string name="translation_hungarian">匈牙利语</string>
+    <string name="translation_indonesian">印尼语</string>
+    <string name="translation_italian">意大利语</string>
+    <string name="translation_hebrew">希伯来语</string>
+    <string name="translation_japanese">日语</string>
+    <string name="translation_korean">韩语</string>
+    <string name="translation_lithuanian">立陶宛语</string>
+    <string name="translation_nepali">尼泊尔语</string>
+    <string name="translation_norwegian">挪威语</string>
+    <string name="translation_dutch">荷兰语</string>
+    <string name="translation_polish">波兰语</string>
+    <string name="translation_portuguese">葡萄牙语</string>
+    <string name="translation_romanian">罗马尼亚语</string>
+    <string name="translation_russian">俄语</string>
+    <string name="translation_slovak">斯洛伐克语</string>
+    <string name="translation_slovenian">斯洛文尼亚语</string>
+    <string name="translation_serbian">塞尔维亚语</string>
+    <string name="translation_swedish">瑞典语</string>
+    <string name="translation_tamil">泰米尔语</string>
+    <string name="translation_turkish">土耳其语</string>
+    <string name="translation_ukrainian">乌克兰语</string>
+    <string name="translation_vietnamese">越南语</string>
+    <string name="translation_chinese_hk">中文（香港）</string>
+    <string name="translation_chinese_cn">中文 (简体)</string>
+    <string name="translation_chinese_tw">中文（繁体）</string>
     <string name="why_upgrade">升级专业版</string>
     <string name="why_upgrade_basic_version">基本</string>
     <string name="why_upgrade_pro_version">专业版</string>
@@ -620,13 +718,16 @@
     <string name="why_upgrade_font_size_customization">自定义字体大小</string>
     <string name="why_upgrade_private_contact_sharing">可选的应用内私人联系人分享</string>
     <string name="why_upgrade_customizable_contact_ringtones">可自定义联系人铃声</string>
+    <string name="why_upgrade_contact_filtering">联系人筛选</string>
     <string name="why_upgrade_checklists">清单</string>
     <string name="why_upgrade_different_note_per_widget">每个控件有不同的标记和颜色</string>
     <string name="why_upgrade_date_and_time_format">自定义日期和时间格式</string>
     <string name="why_upgrade_shortcuts">主屏幕快捷方式</string>
     <string name="why_upgrade_file_compression">支持压缩文件</string>
+    <string name="why_upgrade_recents_tab">带有最近文件的标签</string>
     <string name="why_upgrade_background_color_customization">自定义背景颜色</string>
     <string name="why_upgrade_file_importing">支持文件导入</string>
+    <string name="why_upgrade_zooming">缩放</string>
     <string name="notice">此应用使用了以下三方库。谢谢。</string>
     <string name="third_party_licences">开放源代码</string>
     <string name="kotlin_title">Kotlin (编程语言)</string>

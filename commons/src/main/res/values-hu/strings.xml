@@ -41,6 +41,16 @@
     <string name="no_access_to_contacts">Az alkalmazás nem tudta elérni a névjegyeket</string>
     <string name="insert_text_here">Ide írjon szöveget</string>
     <string name="call_person">%s hívása</string>
+    <string name="zero">Nulla</string>
+    <string name="one">Egy</string>
+    <string name="two">Kettő</string>
+    <string name="three">Három</string>
+    <string name="four">Négy</string>
+    <string name="five">Öt</string>
+    <string name="six">Hat</string>
+    <string name="seven">Hét</string>
+    <string name="eight">Nyolc</string>
+    <string name="nine">Kilenc</string>
     <string name="change_view_type">Nézet típus változtatása</string>
     <string name="grid">Rács</string>
     <string name="list">Lista</string>
@@ -92,6 +102,8 @@
     <string name="pattern_renaming">Feloldóminta</string>
     <string name="string_to_add">Hozzáadandó karakterlánc</string>
     <string name="rename_date_time_pattern">%Y - év\n%M - hónap\n%D - nap\n%h - óra\n%m - perc\n%s - másodperc\n%i - 1-től növekvő szám</string>
+    <string name="filename_without_txt">Fájlnév ( .txt nélkül )</string>
+    <string name="filename_without_json">Fájlnév ( .json nélkül )</string>
     <string name="copy">Másolás</string>
     <string name="move">Áthelyezés</string>
     <string name="copy_move">Másolás / Áthelyezés</string>
@@ -107,9 +119,11 @@
     <string name="copy_failed">Nem lehet másolni a fájlt</string>
     <string name="copying">Másolás…</string>
     <string name="copying_success">A fájl sikeresen átmásolva</string>
+    <string name="copying_success_one">A fájl sikeresen átmásolva</string>
     <string name="copy_move_failed">Hiba történt</string>
     <string name="moving">Áthelyezés…</string>
     <string name="moving_success">A fájl áthelyezése sikerült</string>
+    <string name="moving_success_one">A fájl sikeresen áthelyezve</string>
     <string name="moving_success_partial">Egyes fájlokat nem lehet áthelyezni</string>
     <string name="copying_success_partial">Egyes fájlokat nem lehet másolni</string>
     <string name="no_files_selected">Nincs fájl kiválasztva</string>
@@ -140,6 +154,7 @@
     <string name="confirm_storage_access_title">Külső tárolóelérés megerősítése</string>
     <string name="confirm_storage_access_text">Az írási engedély garantálásához, kérjük, a következő képernyőn válassza az SD-kártya gyökérkönyvtárát</string>
     <string name="confirm_storage_access_text_sd">Ha nem látja az SD-kártyát, próbálja meg a következőt</string>
+    <string name="confirm_storage_access_android_text">Engedélyezze a következő képernyőn alul a „Mappa használata” gomb megnyomásával, hogy az alkalmazás hozzáférjen a kiválasztott tárhelyhez.</string>
     <string name="confirm_selection">Kiválasztás megerősítése</string>
     <plurals name="items">
         <item quantity="one">%d elem</item>
@@ -445,6 +460,7 @@
     <string name="settings">Beállítások</string>
     <string name="purchase_simple_thank_you">Simple Thank You megvásárlása</string>
     <string name="general_settings">Általános</string>
+    <string name="color_customization">Szín-testreszabás</string>
     <string name="customize_colors">Színek testreszabása</string>
     <string name="customize_colors_locked">Színek testreszabása (Zárolva)</string>
     <string name="customize_widget_colors">Kisalkalmazás színeinek testreszabása</string>
@@ -491,7 +507,10 @@
     <string name="startup">Indítás</string>
     <string name="text">Szöveg</string>
     <string name="migrating">Költöztetés</string>
+    <string name="quality">Minőség</string>
+    <string name="main_screen">Főképernyő</string>
     <string name="thumbnails">Miniatűrök</string>
+    <string name="list_view">Listanézet</string>
     <string name="manage_shown_tabs">A látható fülek kezelése</string>
     <string name="default_tab_to_open">A fül megnyitása az alkalmazás indításakor</string>
     <string name="contacts_tab">Névjegyek</string>
@@ -584,14 +603,24 @@
     <string name="website_label">A forráskódok megtekintéséhez</string>
     <string name="email_label">Küldje el visszajelzését vagy javaslatait</string>
     <string name="upgrade_to_pro">Frissítés Pro verzióra</string>
+    <string name="more_apps">További alkalmazások</string>
+    <string name="more_apps_from_us">További alkalmazásaink</string>
+    <string name="invite_friends">Barátok meghívása</string>
     <string name="share_text">Gyere el %1$s - %2$s</string>
     <string name="invite_via">Hívja meg</string>
+    <string name="rate_us">Értékeljen minket</string>
     <string name="rate">Értékelés</string>
     <string name="donate">Támogatás</string>
     <string name="donate_underlined"><u>Támogatás</u></string>
     <string name="follow_us">Kövessen minket</string>
     <string name="copyright">%1$s verzió\nSzerzői jogok: © Simple Mobile Tools %2$d</string>
+    <string name="support">Támogatás</string>
+    <string name="help_us">Segítsen nekünk</string>
+    <string name="social">Közösség</string>
     <string name="other">Egyéb</string>
+    <string name="version_placeholder">%s verzió</string>
+    <string name="hello">Szióka :)</string>
+    <string name="about_footer">❤️-ből készült Szlovákiában</string>
     <string name="additional_info">Kiegészítő információ</string>
     <string name="app_version">Alkalmazás verzió: %s</string>
     <string name="device_os">Eszköz OS: %s</string>
@@ -606,6 +635,8 @@
     <string name="rate_our_app">Kérjük, értékelje alkalmazásunkat :)</string>
     <string name="thank_you">Köszönjük!</string>
     <string name="widget_locked_pro">A kisalkalmazás zárolt.\nFeloldásához kérjük frissítsen a Pro verzióra.</string>
+    <string name="widget_locked">            A kisalkalmazás nem ingyenes.&lt;br&gt;Használatához vásárolja meg a következőt: &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt;.
+        </string>
     <string name="app_launcher_short">Alkalmazásindító-fiók</string>
     <string name="calculator_short">Számológép</string>
     <string name="calendar_short">Naptár</string>
@@ -622,7 +653,7 @@
     <string name="sms_messenger_short">SMS-küldő</string>
     <string name="thank_you_short">Thank You</string>
     <string name="voice_recorder_short">Hangrögzítő</string>
-    <string name="sideloaded_app">            Úgy tűnik, az alkalmazás verziója nem megfelelő. Kérjük, töltsön le egy eredeti verziót &lt;a href="%s"&gt;innen&lt;/a&gt;.
+    <string name="sideloaded_app">            Úgy tűnik, az alkalmazás verziója nem megfelelő. Kérjük, töltsön le egy eredeti verziót <a href="%s">innen</a>.
         </string>
     <string name="frequently_asked_questions">Gyakran Ismételt Kérdések</string>
     <string name="before_asking_question">Mielőtt feltenné egy kérdést, először olvassa el ezt:</string>
@@ -630,6 +661,9 @@
     <string name="faq_1_text_commons">Valószínűleg azért, mert áthelyezte az alkalmazást egy SD kártyára. Ez Android rendszerkorlátozás, amely ebben az esetben elrejti az adott 
         alkalmazások ikonját. Az egyetlen megoldás az alkalmazás visszahelyezése a belső tárhelyre az készülék beállításaiban.</string>
     <string name="faq_2_title_commons">Szeretném támogatni, de nem tudok pénzt adni. Van még valami, amit tehetek?</string>
+    <string name="faq_2_text_commons">            Természetesen. Megoszthat alkalmazásinformációkat vagy visszajelzéseket és értékeléseket adhat. Segítséget is nyújthat azzal is, hogy az alkalmazásokat egy új nyelvre fordítja, vagy frissíti a meglévő fordításokat.
+            Az útmutatót megtalálhatja a &lt;a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file"&gt;weboldalon&lt;/a&gt;, vagy csak írjon egy üzenetet a &lt;a href="mailto:hello@simplemobiletools.com"&gt;hello@simplemobiletools.com&lt;/a&gt; címre, ha segítségre van szüksége.
+        </string>
     <string name="faq_3_title_commons">Tévedésből töröltem néhány fájlt, hogyan tudom visszaszerezni?</string>
     <string name="faq_3_text_commons">Sajnos nem lehet. A fájlok azonnal törlődnek a megerősítő párbeszédablak után, ott nincs elérhető Lomtár.</string>
     <string name="faq_4_title_commons">Nem tetszenek a kisalkalmazások színei, meg tudom változtatni őket?</string>
@@ -653,7 +687,55 @@
     <string name="faq_10_text_commons">Próbálja meg törölni a Google Áruház gyorsítótárát majd újraindítani a telefont. Ez egy Google Áruház hiba, nem függ az alkalmazástól.</string>
     <string name="contributors">Közreműködők</string>
     <string name="translation">Fordítás</string>
+    <string name="development">Fejlesztés</string>
+    <string name="other_help">Egyéb segítség</string>
+    <string name="contributors_label">            Ez a lista mindenkit tartalmaz, aki érdemben segítette a Simple Mobile Tools programcsomag bármely alkalmazását, nem csak ezt. A fordításokat önkéntesek végzik,
+            jelentkezzen, ha Ön is segíteni kíván. Itt a fordítási segédlet &lt;a href="https://github.com/SimpleMobileTools/General-Discussion#how-can-i-suggest-an-edit-to-a-file"&gt;ezen a weboldalon&lt;/a&gt;, vagy írjon nekünk a &lt;a href="mailto:hello@simplemobiletools.com"&gt;hello@simplemobiletools.com&lt;/a&gt; címen, ha kérdése van.
+            Köszönet minden közreműködőnek és támogatónak!
+        </string>
+    <string name="translation_arabic">Arab</string>
+    <string name="translation_azerbaijani">Azerbajdzsáni</string>
+    <string name="translation_bengali">Bengáli</string>
+    <string name="translation_breton">Breton</string>
+    <string name="translation_catalan">Katalán</string>
     <string name="translation_czech">Csehország</string>
+    <string name="translation_welsh">Walesi</string>
+    <string name="translation_danish">Dán</string>
+    <string name="translation_german">Német</string>
+    <string name="translation_greek">Görög</string>
+    <string name="translation_spanish">Spanyol</string>
+    <string name="translation_basque">Baszk</string>
+    <string name="translation_persian">Perzsa</string>
+    <string name="translation_finnish">Finn</string>
+    <string name="translation_french">Francia</string>
+    <string name="translation_galician">Galíciai</string>
+    <string name="translation_hindi">Hindi</string>
+    <string name="translation_croatian">Horvát</string>
+    <string name="translation_hungarian">Magyar</string>
+    <string name="translation_indonesian">Indonéz</string>
+    <string name="translation_italian">Olasz</string>
+    <string name="translation_hebrew">Héber</string>
+    <string name="translation_japanese">Japán</string>
+    <string name="translation_korean">Koreai</string>
+    <string name="translation_lithuanian">Litván</string>
+    <string name="translation_nepali">Nepáli</string>
+    <string name="translation_norwegian">Norvég</string>
+    <string name="translation_dutch">Holland</string>
+    <string name="translation_polish">Lengyel</string>
+    <string name="translation_portuguese">Portugál</string>
+    <string name="translation_romanian">Román</string>
+    <string name="translation_russian">Orosz</string>
+    <string name="translation_slovak">Szlovák</string>
+    <string name="translation_slovenian">Szlovén</string>
+    <string name="translation_serbian">Szerb</string>
+    <string name="translation_swedish">Svéd</string>
+    <string name="translation_tamil">Tamil</string>
+    <string name="translation_turkish">Török</string>
+    <string name="translation_ukrainian">Ukrán</string>
+    <string name="translation_vietnamese">Vietnami</string>
+    <string name="translation_chinese_hk">Kínai (Hong Kong)</string>
+    <string name="translation_chinese_cn">Kínai (egyszerűsített)</string>
+    <string name="translation_chinese_tw">Kínai (hagyományos)</string>
     <string name="why_upgrade">Szerezze meg most a Pro verziót!</string>
     <string name="why_upgrade_basic_version">Alap</string>
     <string name="why_upgrade_pro_version">Pro</string>

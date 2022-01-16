@@ -109,9 +109,11 @@
     <string name="copy_failed">Dosyalar kopyalanamadı</string>
     <string name="copying">Kopyalanıyor…</string>
     <string name="copying_success">Dosyalar başarıyla kopyalandı</string>
+    <string name="copying_success_one">Dosya başarıyla kopyalandı</string>
     <string name="copy_move_failed">Bir hata oluştu</string>
     <string name="moving">Taşınıyor…</string>
     <string name="moving_success">Dosyalar başarıyla taşındı</string>
+    <string name="moving_success_one">Dosya başarıyla taşındı</string>
     <string name="moving_success_partial">Bazı dosyalar taşınamadı</string>
     <string name="copying_success_partial">Bazı dosyalar kopyalanamadı</string>
     <string name="no_files_selected">Hiçbir dosya seçilmedi</string>
@@ -142,6 +144,7 @@
     <string name="confirm_storage_access_title">Harici depolama erişimini onayla</string>
     <string name="confirm_storage_access_text">Yazma erişimi vermek için lütfen bir sonraki ekranda SD kartın üst klasörünü seçin</string>
     <string name="confirm_storage_access_text_sd">SD kartı görmüyorsanız, bunu deneyin</string>
+    <string name="confirm_storage_access_android_text">Lütfen alttaki \'Bu klasörü kullan\' seçeneğine basarak uygulamanın seçilen depolama alanına erişmesine izin verin.</string>
     <string name="confirm_selection">Seçimi onayla</string>
     <plurals name="items">
         <item quantity="one">%d öğe</item>
@@ -447,6 +450,7 @@
     <string name="settings">Ayarlar</string>
     <string name="purchase_simple_thank_you">Satın alma basit teşekkür ederim</string>
     <string name="general_settings">Genel</string>
+    <string name="color_customization">Renk özelleştirmeleri</string>
     <string name="customize_colors">Renkleri özelleştir</string>
     <string name="customize_colors_locked">Renkleri özelleştirin (Kilitli)</string>
     <string name="customize_widget_colors">Widget renklerini özelleştir</string>
@@ -493,7 +497,10 @@
     <string name="startup">Başlangıç</string>
     <string name="text">Metin</string>
     <string name="migrating">Geçiş yapma</string>
+    <string name="quality">Kalite</string>
+    <string name="main_screen">Ana ekran</string>
     <string name="thumbnails">Önizleme resimleri</string>
+    <string name="list_view">Liste görünümü</string>
     <string name="manage_shown_tabs">Gösterilen sekmeleri yönet</string>
     <string name="default_tab_to_open">Uygulama başlangıcında sekme açmak için</string>
     <string name="contacts_tab">Rehber</string>
@@ -586,14 +593,24 @@
     <string name="website_label">Kaynak kodları için ziyaret edin</string>
     <string name="email_label">Görüşlerinizi veya önerilerinizi buraya gönderin</string>
     <string name="upgrade_to_pro">Pro sürümüne yükselt</string>
+    <string name="more_apps">Daha fazla uygulama</string>
+    <string name="more_apps_from_us">Bizden daha fazla uygulama</string>
+    <string name="invite_friends">Arkadaşlarını davet et</string>
     <string name="share_text">Selam, %1$s adlı harika bir uygulama buldum. %2$s adresinden indir</string>
     <string name="invite_via">Şununla davet et</string>
+    <string name="rate_us">Bizi değerlendirin</string>
     <string name="rate">Oyla</string>
     <string name="donate">Bağış yapın</string>
     <string name="donate_underlined"><u>Bağış yapın</u></string>
     <string name="follow_us">Bizi takip edin</string>
     <string name="copyright">v %1$s\nTelif hakkı © Simple Mobile Tools %2$d</string>
+    <string name="support">Destek</string>
+    <string name="help_us">Bize yardımda bulun</string>
+    <string name="social">Sosyal</string>
     <string name="other">Diğer</string>
+    <string name="version_placeholder">Sürüm %s</string>
+    <string name="hello">Merhaba :)</string>
+    <string name="about_footer">Slovakya\'da ❤️ ile yapılmıştır</string>
     <string name="additional_info">Ek bilgiler</string>
     <string name="app_version">Uygulama sürümü: %s</string>
     <string name="device_os">Cihaz İS: %s</string>
@@ -608,6 +625,8 @@
     <string name="rate_our_app">Lütfen uygulamamızı değerlendirin :)</string>
     <string name="thank_you">Teşekkürler</string>
     <string name="widget_locked_pro">Widget kilitli.\nKilidi açmak için lütfen Pro sürümüne yükseltin.</string>
+    <string name="widget_locked">            Widget kilitlendi.&lt;br&gt;Lütfen satın alın &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Basit Teşekkür Ederim&lt;/a&gt; kilidini açmak için.
+        </string>
     <string name="app_launcher_short">Uygulama başlatıcısı</string>
     <string name="calculator_short">Hesap makinesi</string>
     <string name="calendar_short">Takvim</string>
@@ -624,7 +643,7 @@
     <string name="sms_messenger_short">SMS messenger</string>
     <string name="thank_you_short">Teşekkürler</string>
     <string name="voice_recorder_short">Ses kaydedici</string>
-    <string name="sideloaded_app">            Uygulama sürümünüz bozuk görünüyor.  Lütfen orijinal sürümü indirin &lt;a href="%s"&gt;here&lt;/a&gt;.
+    <string name="sideloaded_app">            Uygulama sürümünüz bozuk görünüyor.  Lütfen orijinal sürümü indirin <a href="%s">here</a>.
         </string>
     <string name="frequently_asked_questions">Sık sorulan sorular</string>
     <string name="before_asking_question">Bir soru sormadan önce, lütfen şurayı okuyun</string>
@@ -654,7 +673,51 @@
     <string name="faq_10_text_commons">Google Play uygulama önbelleğinizi temizlemeyi ve cihazınızı yeniden başlatmayı deneyin. Bu, uygulamanın kendisiyle gerçekten ilgili olmayan bazı Google Play aksaklıklarıdır.</string>
     <string name="contributors">Katkıda bulunanlar</string>
     <string name="translation">Çeviri</string>
+    <string name="development">Geliştirici</string>
+    <string name="other_help">Diğer yardım</string>
+    <string name="translation_arabic">Arapça</string>
+    <string name="translation_azerbaijani">Azerbaycanca</string>
+    <string name="translation_bengali">Bengalce</string>
+    <string name="translation_breton">Bretonca</string>
+    <string name="translation_catalan">Katalanca</string>
     <string name="translation_czech">Çekçe</string>
+    <string name="translation_welsh">Galce</string>
+    <string name="translation_danish">Danimarkaca</string>
+    <string name="translation_german">Almanca</string>
+    <string name="translation_greek">Yunanca</string>
+    <string name="translation_spanish">İspanyolca</string>
+    <string name="translation_basque">Baskça</string>
+    <string name="translation_persian">Farsça</string>
+    <string name="translation_finnish">Fince</string>
+    <string name="translation_french">Fransızca</string>
+    <string name="translation_galician">Galiçyaca</string>
+    <string name="translation_hindi">Hintçe</string>
+    <string name="translation_croatian">Hırvatça</string>
+    <string name="translation_hungarian">Macarca</string>
+    <string name="translation_indonesian">Endonezyaca</string>
+    <string name="translation_italian">İtalyanca</string>
+    <string name="translation_hebrew">İbranice</string>
+    <string name="translation_japanese">Japonca</string>
+    <string name="translation_korean">Korece</string>
+    <string name="translation_lithuanian">Litvanyaca</string>
+    <string name="translation_nepali">Nepalce</string>
+    <string name="translation_norwegian">Norveçce</string>
+    <string name="translation_dutch">Felemenkçe</string>
+    <string name="translation_polish">Polonyaca</string>
+    <string name="translation_portuguese">Portekizce</string>
+    <string name="translation_romanian">Romence</string>
+    <string name="translation_russian">Rusça</string>
+    <string name="translation_slovak">Slovakça</string>
+    <string name="translation_slovenian">Slovence</string>
+    <string name="translation_serbian">Sırpça</string>
+    <string name="translation_swedish">İsveççe</string>
+    <string name="translation_tamil">Tamilce</string>
+    <string name="translation_turkish">Türkçe</string>
+    <string name="translation_ukrainian">Ukraynaca</string>
+    <string name="translation_vietnamese">Vietnamca</string>
+    <string name="translation_chinese_hk">Çince (Hong Kong)</string>
+    <string name="translation_chinese_cn">Çince (Basitleştirilmiş)</string>
+    <string name="translation_chinese_tw">Çince (Geleneksel)</string>
     <string name="why_upgrade">Pro sürümünü şimdi edinin!</string>
     <string name="why_upgrade_basic_version">Temel</string>
     <string name="why_upgrade_pro_version">Pro</string>
