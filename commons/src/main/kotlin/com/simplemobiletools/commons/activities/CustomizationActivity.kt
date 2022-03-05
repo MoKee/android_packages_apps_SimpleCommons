@@ -72,7 +72,8 @@ class CustomizationActivity : BaseSimpleActivity() {
 
                     runOnUiThread {
                         setupThemes()
-                        apply_to_all_holder.beVisibleIf(storedSharedTheme == null && curSelectedThemeId != THEME_AUTO)
+                        val hideGoogleRelations = resources.getBoolean(R.bool.hide_google_relations)
+                        apply_to_all_holder.beVisibleIf(storedSharedTheme == null && curSelectedThemeId != THEME_AUTO && !hideGoogleRelations)
                     }
                 } catch (e: Exception) {
                     toast(R.string.update_thank_you)
@@ -86,6 +87,10 @@ class CustomizationActivity : BaseSimpleActivity() {
 
         updateTextColors(customization_holder)
         originalAppIconColor = baseConfig.appIconColor
+
+        if (resources.getBoolean(R.bool.hide_google_relations)) {
+            apply_to_all_holder.beGone()
+        }
     }
 
     override fun onResume() {
@@ -199,7 +204,8 @@ class CustomizationActivity : BaseSimpleActivity() {
                 toast(R.string.changing_color_description)
             }
 
-            apply_to_all_holder.beVisibleIf(curSelectedThemeId != THEME_AUTO && curSelectedThemeId != THEME_SHARED)
+            val hideGoogleRelations = resources.getBoolean(R.bool.hide_google_relations)
+            apply_to_all_holder.beVisibleIf(curSelectedThemeId != THEME_AUTO && curSelectedThemeId != THEME_SHARED && !hideGoogleRelations)
         }
     }
 
@@ -461,7 +467,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         if (newColor == baseConfig.primaryColor) {
             apply_to_all.setBackgroundResource(R.drawable.button_background_rounded)
         } else {
-            val applyBackground = resources.getDrawable(R.drawable.button_background_rounded) as RippleDrawable
+            val applyBackground = resources.getDrawable(R.drawable.button_background_rounded, theme) as RippleDrawable
             (applyBackground as LayerDrawable).findDrawableByLayerId(R.id.button_background_holder).applyColorFilter(newColor)
             apply_to_all.background = applyBackground
         }

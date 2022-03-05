@@ -25,6 +25,20 @@
                 android:paddingEnd="@dimen/small_margin"
                 android:paddingBottom="@dimen/small_margin" />
 
+            <com.simplemobiletools.commons.views.MyTextView
+                android:id="@+id/filepicker_placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/filepicker_breadcrumbs"
+                android:layout_centerHorizontal="true"
+                android:alpha="0.8"
+                android:gravity="center"
+                android:paddingStart="@dimen/activity_margin"
+                android:paddingEnd="@dimen/activity_margin"
+                android:text="@string/loading"
+                android:textSize="@dimen/bigger_text_size"
+                android:textStyle="italic" />
+
             <com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller
                 android:id="@+id/filepicker_fastscroller"
                 android:layout_width="match_parent"
@@ -40,17 +54,6 @@
                     app:layoutManager="com.simplemobiletools.commons.views.MyLinearLayoutManager" />
 
             </com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller>
-
-            <!--<com.simplemobiletools.commons.views.FastScroller
-                android:id="@+id/filepicker_fastscroller"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_alignParentEnd="true"
-                android:paddingStart="@dimen/normal_margin">
-
-                <include layout="@layout/fastscroller_handle_vertical" />
-
-            </com.simplemobiletools.commons.views.FastScroller>-->
         </RelativeLayout>
 
         <RelativeLayout
@@ -85,13 +88,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_marginEnd="@dimen/activity_margin"
         android:orientation="vertical">
 
         <com.simplemobiletools.commons.views.MyFloatingActionButton
             android:id="@+id/filepicker_fab_show_favorites"
             android:layout_width="@dimen/fab_size"
             android:layout_height="@dimen/fab_size"
+            android:layout_marginEnd="@dimen/activity_margin"
             android:layout_marginBottom="@dimen/activity_margin"
             android:src="@drawable/ic_star_vector" />
 
@@ -99,6 +102,7 @@
             android:id="@+id/filepicker_fab_show_hidden"
             android:layout_width="@dimen/fab_size"
             android:layout_height="@dimen/fab_size"
+            android:layout_marginEnd="@dimen/activity_margin"
             android:layout_marginBottom="@dimen/activity_margin"
             android:src="@drawable/ic_unhide_vector" />
     </LinearLayout>

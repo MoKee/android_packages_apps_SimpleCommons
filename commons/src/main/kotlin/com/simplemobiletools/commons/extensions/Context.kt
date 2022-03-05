@@ -22,6 +22,8 @@ import android.os.Handler
 import android.os.Looper
 import android.provider.BaseColumns
 import android.provider.BlockedNumberContract.BlockedNumbers
+import android.provider.ContactsContract.CommonDataKinds.BaseTypes
+import android.provider.ContactsContract.CommonDataKinds.Phone
 import android.provider.DocumentsContract
 import android.provider.MediaStore.*
 import android.provider.OpenableColumns
@@ -477,7 +479,7 @@ fun Context.getMyContactsCursor(favoritesOnly: Boolean, withPhoneNumbersOnly: Bo
     val getFavoritesOnly = if (favoritesOnly) "1" else "0"
     val getWithPhoneNumbersOnly = if (withPhoneNumbersOnly) "1" else "0"
     val args = arrayOf(getFavoritesOnly, getWithPhoneNumbersOnly)
-    CursorLoader(this, MyContactsContentProvider.CONTACTS_CONTENT_URI, null, null, args, null)
+    CursorLoader(this, MyContactsContentProvider.CONTACTS_CONTENT_URI, null, null, args, null).loadInBackground()
 } catch (e: Exception) {
     null
 }
@@ -1054,5 +1056,25 @@ fun Context.isNumberBlocked(number: String, blockedNumbers: ArrayList<BlockedNum
 fun Context.copyToClipboard(text: String) {
     val clip = ClipData.newPlainText(getString(R.string.simple_commons), text)
     (getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager).setPrimaryClip(clip)
-    toast(R.string.value_copied_to_clipboard)
+    val toastText = String.format(getString(R.string.value_copied_to_clipboard_show), text)
+    toast(toastText)
+}
+
+fun Context.getPhoneNumberTypeText(type: Int, label: String): String {
+    return if (type == BaseTypes.TYPE_CUSTOM) {
+        label
+    } else {
+        getString(
+            when (type) {
+                Phone.TYPE_MOBILE -> R.string.mobile
+                Phone.TYPE_HOME -> R.string.home
+                Phone.TYPE_WORK -> R.string.work
+                Phone.TYPE_MAIN -> R.string.main_number
+                Phone.TYPE_FAX_WORK -> R.string.work_fax
+                Phone.TYPE_FAX_HOME -> R.string.home_fax
+                Phone.TYPE_PAGER -> R.string.pager
+                else -> R.string.other
+            }
+        )
+    }
 }

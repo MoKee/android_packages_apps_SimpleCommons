@@ -63,7 +63,7 @@ class FilePickerDialog(
 
         mDialogView.filepicker_breadcrumbs.apply {
             listener = this@FilePickerDialog
-            updateFontSize(activity.getTextSize())
+            updateFontSize(activity.getTextSize(), false)
         }
 
         tryUpdateItems()
@@ -101,6 +101,7 @@ class FilePickerDialog(
             (layoutParams as CoordinatorLayout.LayoutParams).bottomMargin = secondaryFabBottomMargin
         }
 
+        mDialogView.filepicker_placeholder.setTextColor(activity.baseConfig.textColor)
         mDialogView.filepicker_fastscroller.updateColors(activity.getAdjustedPrimaryColor())
         mDialogView.filepicker_fab_show_hidden.apply {
             beVisibleIf(!showHidden && canAddShowHiddenButton)
@@ -149,6 +150,7 @@ class FilePickerDialog(
         ensureBackgroundThread {
             getItems(currPath) {
                 activity.runOnUiThread {
+                    mDialogView.filepicker_placeholder.beGone()
                     updateItems(it as ArrayList<FileDirItem>)
                 }
             }

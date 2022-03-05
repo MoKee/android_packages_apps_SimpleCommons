@@ -1,5 +1,6 @@
 package com.simplemobiletools.commons.extensions
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.TimePickerDialog
 import android.content.*
@@ -8,6 +9,8 @@ import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
 import android.media.RingtoneManager
 import android.net.Uri
+import android.os.Handler
+import android.os.Looper
 import android.os.TransactionTooLargeException
 import android.provider.ContactsContract
 import android.provider.DocumentsContract
@@ -30,6 +33,7 @@ import androidx.fragment.app.FragmentActivity
 import com.simplemobiletools.commons.R
 import com.simplemobiletools.commons.activities.BaseSimpleActivity
 import com.simplemobiletools.commons.dialogs.*
+import com.simplemobiletools.commons.dialogs.WritePermissionDialog.Mode
 import com.simplemobiletools.commons.helpers.*
 import com.simplemobiletools.commons.models.*
 import com.simplemobiletools.commons.views.MyTextView
@@ -102,7 +106,7 @@ fun BaseSimpleActivity.isShowingSAFDialog(path: String): Boolean {
     return if ((!isRPlus() && isPathOnSD(path) && !isSDCardSetAsDefaultStorage() && (baseConfig.sdTreeUri.isEmpty() || !hasProperStoredTreeUri(false)))) {
         runOnUiThread {
             if (!isDestroyed && !isFinishing) {
-                WritePermissionDialog(this, false) {
+                WritePermissionDialog(this, Mode.SD_CARD) {
                     Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
                         putExtra("android.content.extra.SHOW_ADVANCED", true)
                         try {
@@ -115,6 +119,39 @@ fun BaseSimpleActivity.isShowingSAFDialog(path: String): Boolean {
 
                         try {
                             startActivityForResult(this, OPEN_DOCUMENT_TREE_SD)
+                            checkedDocumentPath = path
+                        } catch (e: Exception) {
+                            toast(R.string.unknown_error_occurred)
+                        }
+                    }
+                }
+            }
+        }
+        true
+    } else {
+        false
+    }
+}
+
+@SuppressLint("InlinedApi")
+fun BaseSimpleActivity.isShowingSAFDialogForDeleteSdk30(path: String): Boolean {
+    return if (isAccessibleWithSAFSdk30(path) && !hasProperStoredFirstParentUri(path)) {
+        runOnUiThread {
+            if (!isDestroyed && !isFinishing) {
+                WritePermissionDialog(this, Mode.SDK_30) {
+                    Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
+                        putExtra("android.content.extra.SHOW_ADVANCED", true)
+                        putExtra(DocumentsContract.EXTRA_INITIAL_URI, createDocumentUriFromFirstParentTree(path))
+                        try {
+                            startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_DELETE_SDK_30)
+                            checkedDocumentPath = path
+                            return@apply
+                        } catch (e: Exception) {
+                            type = "*/*"
+                        }
+
+                        try {
+                            startActivityForResult(this, OPEN_DOCUMENT_TREE_FOR_DELETE_SDK_30)
                             checkedDocumentPath = path
                         } catch (e: Exception) {
                             toast(R.string.unknown_error_occurred)
@@ -175,7 +212,7 @@ fun BaseSimpleActivity.isShowingOTGDialog(path: String): Boolean {
 fun BaseSimpleActivity.showOTGPermissionDialog(path: String) {
     runOnUiThread {
         if (!isDestroyed && !isFinishing) {
-            WritePermissionDialog(this, true) {
+            WritePermissionDialog(this, Mode.OTG) {
                 Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
                     try {
                         startActivityForResult(this, OPEN_DOCUMENT_TREE_OTG)
@@ -558,16 +595,20 @@ fun BaseSimpleActivity.deleteFolderBg(fileDirItem: FileDirItem, deleteMediaOnly:
 
         val files = filesArr.toMutableList().filter { !deleteMediaOnly || it.isMediaFile() }
         for (file in files) {
-            deleteFileBg(file.toFileDirItem(applicationContext), false) { }
+            deleteFileBg(file.toFileDirItem(applicationContext), allowDeleteFolder = false, isDeletingMultipleFiles = false) { }
         }
 
         if (folder.listFiles()?.isEmpty() == true) {
-            deleteFileBg(fileDirItem, true) { }
+            deleteFileBg(fileDirItem, allowDeleteFolder = true, isDeletingMultipleFiles = false) { }
         }
     }
     runOnUiThread {
         callback?.invoke(true)
     }
+}
+
+fun BaseSimpleActivity.deleteFile(file: FileDirItem, allowDeleteFolder: Boolean = false, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
+    deleteFiles(arrayListOf(file), allowDeleteFolder, callback)
 }
 
 fun BaseSimpleActivity.deleteFiles(files: List<FileDirItem>, allowDeleteFolder: Boolean = false, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
@@ -585,31 +626,38 @@ fun BaseSimpleActivity.deleteFilesBg(files: List<FileDirItem>, allowDeleteFolder
     }
 
     var wasSuccess = false
-    handleSAFDialog(files[0].path) {
+    val firstFile = files.first()
+    handleSAFDialog(firstFile.path) {
         if (!it) {
             return@handleSAFDialog
         }
 
-        val failedFileDirItems = ArrayList<FileDirItem>()
-        files.forEachIndexed { index, file ->
-            deleteFileBg(file, allowDeleteFolder) {
-                if (it) {
-                    wasSuccess = true
-                } else {
-                    failedFileDirItems.add(file)
-                }
+        handleSAFDeleteSdk30Dialog(firstFile.path) {
+            if (!it) {
+                return@handleSAFDeleteSdk30Dialog
+            }
 
-                if (index == files.size - 1) {
-                    if (isRPlus() && failedFileDirItems.isNotEmpty()) {
-                        val fileUris = getFileUrisFromFileDirItems(failedFileDirItems).second
-                        deleteSDK30Uris(fileUris) { success ->
-                            runOnUiThread {
-                                callback?.invoke(success)
-                            }
-                        }
+            val failedFileDirItems = ArrayList<FileDirItem>()
+            files.forEachIndexed { index, file ->
+                deleteFileBg(file, allowDeleteFolder, true) {
+                    if (it) {
+                        wasSuccess = true
                     } else {
-                        runOnUiThread {
-                            callback?.invoke(wasSuccess)
+                        failedFileDirItems.add(file)
+                    }
+
+                    if (index == files.lastIndex) {
+                        if (isRPlus() && failedFileDirItems.isNotEmpty()) {
+                            val fileUris = getFileUrisFromFileDirItems(failedFileDirItems).second
+                            deleteSDK30Uris(fileUris) { success ->
+                                runOnUiThread {
+                                    callback?.invoke(success)
+                                }
+                            }
+                        } else {
+                            runOnUiThread {
+                                callback?.invoke(wasSuccess)
+                            }
                         }
                     }
                 }
@@ -618,13 +666,23 @@ fun BaseSimpleActivity.deleteFilesBg(files: List<FileDirItem>, allowDeleteFolder
     }
 }
 
-fun BaseSimpleActivity.deleteFile(fileDirItem: FileDirItem, allowDeleteFolder: Boolean = false, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
+fun BaseSimpleActivity.deleteFile(
+    fileDirItem: FileDirItem,
+    allowDeleteFolder: Boolean = false,
+    isDeletingMultipleFiles: Boolean,
+    callback: ((wasSuccess: Boolean) -> Unit)? = null
+) {
     ensureBackgroundThread {
-        deleteFileBg(fileDirItem, allowDeleteFolder, callback)
+        deleteFileBg(fileDirItem, allowDeleteFolder, isDeletingMultipleFiles, callback)
     }
 }
 
-fun BaseSimpleActivity.deleteFileBg(fileDirItem: FileDirItem, allowDeleteFolder: Boolean = false, callback: ((wasSuccess: Boolean) -> Unit)? = null) {
+fun BaseSimpleActivity.deleteFileBg(
+    fileDirItem: FileDirItem,
+    allowDeleteFolder: Boolean = false,
+    isDeletingMultipleFiles: Boolean,
+    callback: ((wasSuccess: Boolean) -> Unit)? = null,
+) {
     val path = fileDirItem.path
     if (isRestrictedSAFOnlyRoot(path)) {
         deleteAndroidSAFDirectory(path, allowDeleteFolder, callback)
@@ -662,13 +720,21 @@ fun BaseSimpleActivity.deleteFileBg(fileDirItem: FileDirItem, allowDeleteFolder:
                             trySAFFileDelete(fileDirItem, allowDeleteFolder, callback)
                         }
                     }
-                } else if (isRPlus()) {
+                } else if (isAccessibleWithSAFSdk30(path)) {
+                    handleSAFDeleteSdk30Dialog(path) {
+                        if (it) {
+                            deleteDocumentWithSAFSdk30(fileDirItem, allowDeleteFolder, callback)
+                        }
+                    }
+                } else if (isRPlus() && !isDeletingMultipleFiles) {
                     val fileUris = getFileUrisFromFileDirItems(arrayListOf(fileDirItem)).second
                     deleteSDK30Uris(fileUris) { success ->
                         runOnUiThread {
                             callback?.invoke(success)
                         }
                     }
+                } else {
+                    callback?.invoke(false)
                 }
             }
         }
@@ -827,6 +893,7 @@ fun BaseSimpleActivity.renameFile(
                     runOnUiThread {
                         callback?.invoke(true, false)
                     }
+                    deleteFromMediaStore(oldPath)
                     scanPathRecursively(newPath)
                 }
             } else {
@@ -835,6 +902,7 @@ fun BaseSimpleActivity.renameFile(
                 }
                 updateInMediaStore(oldPath, newPath)
                 scanPathsRecursively(arrayListOf(newPath)) {
+                    deleteFromMediaStore(oldPath)
                     runOnUiThread {
                         callback?.invoke(true, false)
                     }
@@ -863,6 +931,16 @@ fun Activity.createTempFile(file: File): File? {
 }
 
 fun Activity.hideKeyboard() {
+    if (isOnMainThread()) {
+        hideKeyboardSync()
+    } else {
+        Handler(Looper.getMainLooper()).post {
+            hideKeyboardSync()
+        }
+    }
+}
+
+fun Activity.hideKeyboardSync() {
     val inputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
     inputMethodManager.hideSoftInputFromWindow((currentFocus ?: View(this)).windowToken, 0)
     window!!.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN)

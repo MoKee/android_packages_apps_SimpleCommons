@@ -10,11 +10,13 @@
     <string name="an_error_occurred">An error occurred: %s</string>
     <string name="open_with">Open with</string>
     <string name="edit_with">Edit with</string>
+    <string name="edit">Edit</string>
     <string name="no_app_found">No valid app found</string>
     <string name="set_as">Set as</string>
     <string name="copy_to_clipboard">Copy to clipboard</string>
     <string name="copy_number_to_clipboard">Copy number to clipboard</string>
     <string name="value_copied_to_clipboard">Value copied to clipboard</string>
+    <string name="value_copied_to_clipboard_show">Value copied to clipboard:\n%s</string>
     <string name="dial_number">Dial number</string>
     <string name="unknown">Unknown</string>
     <string name="always">Always</string>
@@ -38,6 +40,7 @@
     <string name="no_contacts_found">No contacts found</string>
     <string name="request_the_required_permissions">Request the required permissions</string>
     <string name="no_access_to_contacts">The app could not access your contacts</string>
+    <string name="no_phone_call_permission">App does not have the permission to initiate phone calls, please grant it in the device settings</string>
     <string name="insert_text_here">Insert text here</string>
     <string name="call_person">Call %s</string>
     <string name="zero">Zero</string>
@@ -50,10 +53,24 @@
     <string name="seven">Seven</string>
     <string name="eight">Eight</string>
     <string name="nine">Nine</string>
+    <string name="value_cannot_be_empty">Value cannot be empty</string>
+
+    <!-- Emails -->
+    <string name="home">Home</string>
+    <string name="work">Work</string>
+
+    <!-- Phone numbers -->
+    <string name="mobile">Mobile</string>
+    <string name="main_number">Main</string>
+    <string name="work_fax">Work Fax</string>
+    <string name="home_fax">Home Fax</string>
+    <string name="pager">Pager</string>
+    <string name="no_phone_number_found">No phone number has been found</string>
 
     <!-- View types -->
     <string name="change_view_type">Change view type</string>
     <string name="grid">Grid</string>
+    <string name="uneven_grid">Uneven Grid</string>
     <string name="list">List</string>
     <string name="increase_column_count">Increase column count</string>
     <string name="reduce_column_count">Reduce column count</string>
@@ -117,6 +134,7 @@
     <string name="rename_date_time_pattern">%Y - year\n%M - month\n%D - day\n%h - hour\n%m - minute\n%s - second\n%i - number increasing from 1</string>
     <string name="filename_without_txt">Filename (without .txt)</string>
     <string name="filename_without_json">Filename (without .json)</string>
+    <string name="cannot_hide_files">Starting from Android 11 you cannot hide files and folders like that anymore</string>
 
     <!-- Copy / Move -->
     <string name="copy">Copy</string>
@@ -173,10 +191,12 @@
     <string name="select_folder">Select a folder</string>
     <string name="select_file">Select a file</string>
     <string name="confirm_storage_access_title">Confirm external storage access</string>
+    <string name="confirm_folder_access_title">Confirm folder access</string>
     <string name="confirm_storage_access_text">Please choose the top folder of the SD card on the next screen, to grant write access</string>
     <string name="confirm_storage_access_text_sd">If you don\'t see the SD card, try this</string>
     <string name="confirm_storage_access_android_text">Please allow the app accessing the selected storage on the next screen by pressing \'Use this folder\' at the bottom.</string>
     <string name="confirm_selection">Confirm selection</string>
+    <string name="loading">Loading…</string>
 
     <plurals name="items">
         <item quantity="one">%d item</item>
@@ -209,6 +229,7 @@
     <string name="sd_card_usb_same">SD card and USB device paths cannot be the same</string>
     <string name="app_on_sd_card">You seem to have the app installed on an SD card, that makes the app widgets unavailable. You won\'t even see them on the list of available widgets.
         It is a system limitation, so if you want to use the widgets, you have to move the app back on the internal storage.</string>
+    <string name="wrong_folder_selected">Wrong folder selected, please select path \'%s\'</string>
 
     <!-- File properties -->
     <string name="properties">Properties</string>
@@ -298,6 +319,11 @@
     <string name="toggle_filename">Toggle filename visibility</string>
     <string name="move_to_top">Move to the top</string>
     <string name="move_to_bottom">Move to the bottom</string>
+    <string name="pin_item">Pin item</string>
+    <string name="unpin_item">Unpin item</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="send_email">Send email</string>
+    <string name="call">Call</string>
 
     <!-- Sorting -->
     <string name="sort_by">Sort by</string>
@@ -500,6 +526,7 @@
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Time remaining till the alarm goes off:\n%s</string>
     <string name="reminder_triggers_in">Time remaining till the reminder triggers:\n%s</string>
+    <string name="time_remaining">Time remaining:\n%s</string>
     <string name="alarm_warning">Please make sure the alarm works properly before relying on it. It could misbehave due to system restrictions related to battery saving.</string>
     <string name="reminder_warning">Please make sure the reminders work properly before relying on them. Check your device battery and notification settings, if there is nothing blocking the reminders, or killing the app in the background.</string>
     <string name="notifications_disabled">Notifications of this application are disabled. Please go in your device settings for enabling them.</string>
@@ -527,6 +554,7 @@
     <string name="customize_widget_colors">Customize widget colors</string>
     <string name="customize_notifications">Customize notifications</string>
     <string name="use_english_language">Use English language</string>
+    <string name="language">Language</string>
     <string name="show_hidden_items">Show hidden items</string>
     <string name="font_size">Font size</string>
     <string name="small">Small</string>
@@ -613,6 +641,7 @@
     <string name="importing_some_entries_failed">Importing some entries failed</string>
     <string name="exporting_some_entries_failed">Exporting some entries failed</string>
     <string name="no_entries_for_importing">No entries for importing have been found</string>
+    <string name="no_new_entries_for_importing">No new entries for importing have been found</string>
     <string name="no_entries_for_exporting">No entries for exporting have been found</string>
 
     <!-- OTG devices -->
@@ -683,6 +712,7 @@
 
     <!-- About -->
     <string name="about">About</string>
+    <string name="website">Website</string>
     <string name="website_label">For the source codes visit</string>
     <string name="email_label">Send your feedback or suggestions to</string>
     <string name="upgrade_to_pro">Upgrade to Pro</string>
@@ -804,6 +834,7 @@
     <string name="translation_czech">Czech</string>
     <string name="translation_welsh">Welsh</string>
     <string name="translation_danish">Danish</string>
+    <string name="translation_english">English</string>
     <string name="translation_german">German</string>
     <string name="translation_greek">Greek</string>
     <string name="translation_spanish">Spanish</string>

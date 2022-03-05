@@ -11,11 +11,13 @@
     <string name="an_error_occurred">En feil oppstod: %s</string>
     <string name="open_with">Åpne med</string>
     <string name="edit_with">Rediger med</string>
+    <string name="edit">Edit</string>
     <string name="no_app_found">Ingen gyldig app funnet</string>
     <string name="set_as">Sett som</string>
     <string name="copy_to_clipboard">Kopier til utklippstavle</string>
     <string name="copy_number_to_clipboard">Copy number to clipboard</string>
     <string name="value_copied_to_clipboard">Verdi kopiert til utklippstavle</string>
+    <string name="value_copied_to_clipboard_show">Verdi kopiert til utklippstavle:\n%s</string>
     <string name="dial_number">Dial number</string>
     <string name="unknown">Ukjent</string>
     <string name="always">Alltid</string>
@@ -39,6 +41,7 @@
     <string name="no_contacts_found">No contacts found</string>
     <string name="request_the_required_permissions">Request the required permissions</string>
     <string name="no_access_to_contacts">The app could not access your contacts</string>
+    <string name="no_phone_call_permission">App does not have the permission to initiate phone calls, please grant it in the device settings</string>
     <string name="insert_text_here">Insert text here</string>
     <string name="call_person">Call %s</string>
     <string name="zero">Zero</string>
@@ -51,9 +54,21 @@
     <string name="seven">Seven</string>
     <string name="eight">Eight</string>
     <string name="nine">Nine</string>
+    <string name="value_cannot_be_empty">Value cannot be empty</string>
+    <!-- Emails -->
+    <string name="home">Privat</string>
+    <string name="work">Arbeid</string>
+    <!-- Phone numbers -->
+    <string name="mobile">Mobil</string>
+    <string name="main_number">Hovednummer</string>
+    <string name="work_fax">Arbeidsfaks</string>
+    <string name="home_fax">Hjemmefaks</string>
+    <string name="pager">Personsøker</string>
+    <string name="no_phone_number_found">Fant ikke noe telefonnummer</string>
     <!-- View types -->
     <string name="change_view_type">Endre visningstype</string>
     <string name="grid">Rutenett</string>
+    <string name="uneven_grid">Uneven Grid</string>
     <string name="list">Liste</string>
     <string name="increase_column_count">Øk antall kolonner</string>
     <string name="reduce_column_count">Reduser antall kolonner</string>
@@ -111,6 +126,7 @@
     <string name="rename_date_time_pattern">%Y - year\n%M - month\n%D - day\n%h - hour\n%m - minute\n%s - second\n%i - number increasing from 1</string>
     <string name="filename_without_txt">Filename (without .txt)</string>
     <string name="filename_without_json">Filename (without .json)</string>
+    <string name="cannot_hide_files">Starting from Android 11 you cannot hide files and folders like that anymore</string>
     <!-- Copy / Move -->
     <string name="copy">Kopier</string>
     <string name="move">Flytt</string>
@@ -163,10 +179,12 @@
     <string name="select_folder">Velg en mappe</string>
     <string name="select_file">Velg en fil</string>
     <string name="confirm_storage_access_title">Bekreft ekstern lagringstilgang</string>
+    <string name="confirm_folder_access_title">Confirm folder access</string>
     <string name="confirm_storage_access_text">Velg rotmappen til SD-kortet på den neste skjermen for å gi skrivetilgang</string>
     <string name="confirm_storage_access_text_sd">Hvis du ikke ser SD-kortet, prøv dette</string>
     <string name="confirm_storage_access_android_text">Please allow the app accessing the selected storage on the next screen by pressing \'Use this folder\' at the bottom.</string>
     <string name="confirm_selection">Bekreft valg</string>
+    <string name="loading">Loading…</string>
     <plurals name="items">
         <item quantity="one">%d element</item>
         <item quantity="other">%d elementer</item>
@@ -194,6 +212,7 @@
     <string name="sd_card_usb_same">Bane for SD-kort og USB-enhet kan ikke være den samme</string>
     <string name="app_on_sd_card">You seem to have the app installed on an SD card, that makes the app widgets unavailable. You won\'t even see them on the list of available widgets.
         It is a system limitation, so if you want to use the widgets, you have to move the app back on the internal storage.</string>
+    <string name="wrong_folder_selected">Wrong folder selected, please select path \'%s\'</string>
     <!-- File properties -->
     <string name="properties">Egenskaper</string>
     <string name="path">Bane</string>
@@ -276,13 +295,18 @@
     <string name="redo">Annuler angre</string>
     <string name="print">Skriv ut</string>
     <string name="create_shortcut">Opprett snarvei</string>
-    <string name="add_number_to_contact">Legg til nummer for kontakt</string>
-    <string name="view_contact_details">View contact details</string>
+    <string name="add_number_to_contact">Legg til nummer i kontakt</string>
+    <string name="view_contact_details">Vis kontaktdetaljer</string>
     <string name="call_from_sim_1">Call from SIM 1</string>
     <string name="call_from_sim_2">Call from SIM 2</string>
     <string name="toggle_filename">Vis/skjul filnavn</string>
     <string name="move_to_top">Flytt til toppen</string>
     <string name="move_to_bottom">Flytt til bunnen</string>
+    <string name="pin_item">Pin item</string>
+    <string name="unpin_item">Unpin item</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="send_email">Send email</string>
+    <string name="call">Call</string>
     <!-- Sorting -->
     <string name="sort_by">Sorter etter</string>
     <string name="name">Navn</string>
@@ -477,6 +501,7 @@
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
     <string name="alarm_goes_off_in">Tid igjen til alarmen går:\n%s</string>
     <string name="reminder_triggers_in">Tid som gjenstår til påminnelsen utløser:\n%s</string>
+    <string name="time_remaining">Time remaining:\n%s</string>
     <string name="alarm_warning">Sørg for at alarmen fungerer ordentlig før du stoler på den. Den kan fungere dårlig på grunn av systembegrensninger relatert til batterisparing.</string>
     <string name="reminder_warning">Sørg for at påminnelsene fungerer riktig før du stoler på dem. De kan fungere dårlig på grunn av systembegrensninger relatert til batterisparing.</string>
     <string name="notifications_disabled">Notifications of this application are disabled. Please go in your device settings for enabling them.</string>
@@ -502,6 +527,7 @@
     <string name="customize_widget_colors">Tilpass modulfarger</string>
     <string name="customize_notifications">Tilpass varsler</string>
     <string name="use_english_language">Bruk engelsk språk</string>
+    <string name="language">Language</string>
     <string name="show_hidden_items">Vis skjulte elementer</string>
     <string name="font_size">Skriftstørrelse</string>
     <string name="small">Liten</string>
@@ -583,6 +609,7 @@
     <string name="importing_some_entries_failed">Importering av noen oppføringer feilet</string>
     <string name="exporting_some_entries_failed">Eksportering av noen oppføringer feilet</string>
     <string name="no_entries_for_importing">Ingen oppføringer for importering er funnet</string>
+    <string name="no_new_entries_for_importing">No new entries for importing have been found</string>
     <string name="no_entries_for_exporting">Ingen oppføringer for eksportering er funnet</string>
     <!-- OTG devices -->
     <string name="usb">USB</string>
@@ -645,6 +672,7 @@
     <string name="upgrade_calendar">You have to migrate locally stored events manually via exporting in an .ics file, then importing. You can find both export/import buttons at the main screen menu.</string>
     <!-- About -->
     <string name="about">Om</string>
+    <string name="website">Website</string>
     <string name="website_label">For kildekoden besøk</string>
     <string name="email_label">Send tilbakemelding eller forslag til</string>
     <string name="upgrade_to_pro">Upgrade to Pro</string>
@@ -797,6 +825,7 @@
     <string name="translation_czech">Czech</string>
     <string name="translation_welsh">Welsh</string>
     <string name="translation_danish">Danish</string>
+    <string name="translation_english">English</string>
     <string name="translation_german">German</string>
     <string name="translation_greek">Greek</string>
     <string name="translation_spanish">Spanish</string>

@@ -261,7 +261,7 @@ class CopyMoveTask(
 
             if (source.size == copiedSize && activity.getDoesFilePathExist(destination.path)) {
                 mTransferredFiles.add(source)
-                if (copyOnly && destination.path.isAudioFast()) {
+                if (copyOnly) {
                     activity.rescanPath(destination.path) {
                         if (activity.baseConfig.keepLastModified) {
                             copyOldLastModified(source.path, destination.path)
@@ -276,7 +276,7 @@ class CopyMoveTask(
                 if (!copyOnly) {
                     inputStream.close()
                     out?.close()
-                    activity.deleteFileBg(source)
+                    activity.deleteFileBg(source, isDeletingMultipleFiles = false)
                     activity.deleteFromMediaStore(source.path)
                 }
             }
