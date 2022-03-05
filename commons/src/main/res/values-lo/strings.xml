@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="edit">ແກ້ໄຂ</string>
     <string name="set_as">ຕັ້ງເປັນ</string>
     <string name="unknown">ບໍ່ຮູ້ຈັກ</string>
     <string name="never">ບໍ່ເຄີຍ</string>
@@ -9,6 +10,8 @@
     <string name="email">ອີເມວ</string>
     <string name="previous">ກ່ອນໜ້າ</string>
     <string name="next">ຕໍ່ໄປ</string>
+    <string name="home">ບ້ານ</string>
+    <string name="work">ບ່ອນເຮັດວຽກ</string>
     <string name="select_photo">ເລືອກຮູບ</string>
     <string name="search">ຊອກຫາ</string>
     <string name="sd_card">SD Card</string>

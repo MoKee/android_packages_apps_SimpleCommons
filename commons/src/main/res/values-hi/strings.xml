@@ -3,6 +3,7 @@
     <string name="ok">ठीक है</string>
     <string name="cancel">रद्द करें</string>
     <string name="nothing">Nothing</string>
+    <string name="edit">संपादित करें</string>
     <string name="set_as">इस रूप में सेट करें</string>
     <string name="unknown">अज्ञात</string>
     <string name="never">कभी नहीं</string>
@@ -18,6 +19,7 @@
     <string name="search">खोज</string>
     <string name="folder">फ़ोल्डर</string>
     <string name="skip">छोड़ें</string>
+    <string name="loading">लोड हो रहा है…</string>
     <string name="path">पथ</string>
     <string name="duration">अवधि</string>
     <string name="exposure_time">एक्सपोज़र समय</string>
@@ -33,6 +35,7 @@
     <string name="select_all">सभी को चुनें</string>
     <string name="undo">वापस लाएं</string>
     <string name="redo">फिर से करें</string>
+    <string name="send_sms">एसएमएस भेजें</string>
     <string name="name">नाम</string>
     <string name="size">आकार</string>
     <string name="date_taken">फ़ोटो लेने का दिनांक</string>

@@ -11,6 +11,7 @@
     <string name="an_error_occurred">Bir hata oluştu: %s</string>
     <string name="open_with">Birlikte aç</string>
     <string name="edit_with">İle düzenle</string>
+    <string name="edit">Düzenle</string>
     <string name="no_app_found">Geçerli bir uygulama bulunamadı</string>
     <string name="set_as">Ayarla</string>
     <string name="copy_to_clipboard">Panoya kopyala</string>
@@ -41,6 +42,18 @@
     <string name="no_access_to_contacts">Uygulama kişilerinize erişemedi</string>
     <string name="insert_text_here">Buraya metin ekleyin</string>
     <string name="call_person">Ara %s</string>
+    <string name="zero">Sıfır</string>
+    <string name="one">Bir</string>
+    <string name="two">İki</string>
+    <string name="three">Üç</string>
+    <string name="four">Dört</string>
+    <string name="five">Beş</string>
+    <string name="six">Altı</string>
+    <string name="seven">Yedi</string>
+    <string name="eight">Sekiz</string>
+    <string name="nine">Dokuz</string>
+    <string name="home">Ev</string>
+    <string name="work">İş</string>
     <string name="change_view_type">Önizleme türünü değiştir</string>
     <string name="grid">Izgara</string>
     <string name="list">Liste</string>
@@ -146,6 +159,7 @@
     <string name="confirm_storage_access_text_sd">SD kartı görmüyorsanız, bunu deneyin</string>
     <string name="confirm_storage_access_android_text">Lütfen alttaki \'Bu klasörü kullan\' seçeneğine basarak uygulamanın seçilen depolama alanına erişmesine izin verin.</string>
     <string name="confirm_selection">Seçimi onayla</string>
+    <string name="loading">Yükleniyor…</string>
     <plurals name="items">
         <item quantity="one">%d öğe</item>
         <item quantity="other">%d öğe</item>
@@ -249,6 +263,8 @@
     <string name="toggle_filename">Dosya adı görünürlüğünü değiştir</string>
     <string name="move_to_top">En üste git</string>
     <string name="move_to_bottom">En alta git</string>
+    <string name="send_sms">SMS gönder</string>
+    <string name="call">Arama</string>
     <string name="sort_by">Sıralama ölçütü</string>
     <string name="name">Ad</string>
     <string name="size">Boyut</string>
@@ -456,6 +472,7 @@
     <string name="customize_widget_colors">Widget renklerini özelleştir</string>
     <string name="customize_notifications">Bildirimleri özelleştir</string>
     <string name="use_english_language">İngilizce dilini kullan</string>
+    <string name="language">Dil</string>
     <string name="show_hidden_items">Gizli öğeleri göster</string>
     <string name="font_size">Yazı tipi boyutu</string>
     <string name="small">Küçük</string>
@@ -590,6 +607,7 @@
     <string name="upgrade">Yükselt</string>
     <string name="upgrade_calendar">Yerel olarak saklanan olayları bir .ics dosyasına dışa aktarıp el ile içe aktarmanız gerekir. Ana ekran menüsünde hem dışa aktarma hemde içe aktarma tuşlarını bulabilirsiniz.</string>
     <string name="about">Hakkında</string>
+    <string name="website">Web sitesi</string>
     <string name="website_label">Kaynak kodları için ziyaret edin</string>
     <string name="email_label">Görüşlerinizi veya önerilerinizi buraya gönderin</string>
     <string name="upgrade_to_pro">Pro sürümüne yükselt</string>
@@ -638,6 +656,7 @@
     <string name="file_manager_short">Dosya yöneticisi</string>
     <string name="flashlight_short">El feneri</string>
     <string name="gallery_short">Galeri</string>
+    <string name="keyboard_short">Klavye</string>
     <string name="music_player_short">Müzik oynatıcı</string>
     <string name="notes_short">Notlar</string>
     <string name="sms_messenger_short">SMS messenger</string>

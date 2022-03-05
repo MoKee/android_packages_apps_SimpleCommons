@@ -10,6 +10,7 @@
     <string name="an_error_occurred">Fout opgetreden: %s</string>
     <string name="open_with">Openen met</string>
     <string name="edit_with">Bewerken met</string>
+    <string name="edit">Bewerken</string>
     <string name="no_app_found">Geen app gevonden om dit bestand mee te openen</string>
     <string name="set_as">Instellen als</string>
     <string name="value_copied_to_clipboard">Gekopieerd naar klembord</string>
@@ -30,6 +31,8 @@
     <string name="email">E-mail</string>
     <string name="previous">Vorige</string>
     <string name="next">Volgende</string>
+    <string name="home">Thuis</string>
+    <string name="work">Werk</string>
     <string name="change_view_type">Weergave</string>
     <string name="grid">Raster</string>
     <string name="list">Lijst</string>
@@ -111,6 +114,7 @@
     <string name="confirm_storage_access_title">Toegang tot externe opslag bevestigen</string>
     <string name="confirm_storage_access_text_sd">Probeer het volgende indien de SD-kaart niet in de lijst staat</string>
     <string name="confirm_selection">Keuze bevestigen</string>
+    <string name="loading">Laden…</string>
     <plurals name="deleting_items">
         <item quantity="one">%d item verwijderen</item>
         <item quantity="other">%d items verwijderen</item>
@@ -182,6 +186,8 @@
     <string name="undo">Ongedaan maken</string>
     <string name="redo">Opnieuw</string>
     <string name="toggle_filename">Bestandsnamen tonen</string>
+    <string name="send_sms">Sms/mms verzenden</string>
+    <string name="call">Oproep</string>
     <string name="sort_by">Sorteren op</string>
     <string name="name">Naam</string>
     <string name="size">Grootte</string>
@@ -339,6 +345,7 @@
     <string name="general_settings">Algemeen</string>
     <string name="customize_colors">Kleuren aanpassen</string>
     <string name="customize_widget_colors">Kleuren voor widget aanpassen</string>
+    <string name="language">Taal</string>
     <string name="show_hidden_items">Verborgen items tonen</string>
     <string name="font_size">Lettergrootte</string>
     <string name="small">Klein</string>
@@ -372,6 +379,7 @@
     <string name="text">Tekst</string>
     <string name="thumbnails">Miniatuurvoorbeelden</string>
     <string name="favorites_tab">Favorieten</string>
+    <string name="groups_tab">Groepen</string>
     <string name="restore_this_file">Bestand herstellen</string>
     <string name="restore_selected_files">Selectie herstellen</string>
     <string name="restore_all_files">Alles herstellen</string>

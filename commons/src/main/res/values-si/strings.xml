@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="nothing">Nothing</string>
+    <string name="edit">සංස්කරණය කරන්න</string>
     <string name="set_as">ලෙස සකසන්න</string>
     <string name="unknown">නොදනී</string>
     <string name="details">විස්තර</string>
@@ -22,6 +23,7 @@
     <string name="select_all">සියල්ල තෝරන්න</string>
     <string name="undo">අස් කරන්න</string>
     <string name="redo">නැවත කරන්න</string>
+    <string name="send_sms">SMS යැවීම</string>
     <string name="size">ප්‍රමාණය</string>
     <string name="date_taken">ලබාගත් දවස</string>
     <string name="title">පටබැඳිනාමය</string>

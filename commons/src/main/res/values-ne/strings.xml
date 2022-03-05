@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="edit">सम्पादन गर्नुहोस्</string>
     <string name="set_as">को रूपमा सेट गर्नुहोस्</string>
     <string name="unknown">अज्ञात</string>
     <string name="details">विवरणहरू</string>

@@ -3,6 +3,7 @@
     <string name="ok">Окей</string>
     <string name="cancel">Отказ</string>
     <string name="nothing">Нищо</string>
+    <string name="edit">Редактиране</string>
     <string name="set_as">Задаване като</string>
     <string name="unknown">Неизвестно</string>
     <string name="always">Винаги</string>
@@ -15,6 +16,8 @@
     <string name="email">Имейл</string>
     <string name="previous">Предишна</string>
     <string name="next">Следваща</string>
+    <string name="home">Вкъщи</string>
+    <string name="work">Работа</string>
     <string name="list">Списък</string>
     <string name="select_photo">Избиране на снимка</string>
     <string name="favorites">Любими</string>
@@ -24,6 +27,7 @@
     <string name="copy">Копирай</string>
     <string name="folder">Папка</string>
     <string name="skip">Прескочи</string>
+    <string name="loading">Зареждане…</string>
     <string name="sd_card">SD карта</string>
     <string name="path">Път</string>
     <string name="duration">Времетраене</string>
@@ -49,6 +53,8 @@
     <string name="select_all">Избиране на всички</string>
     <string name="undo">Отмяна</string>
     <string name="redo">Възстановяване</string>
+    <string name="send_sms">Изпрати SMS</string>
+    <string name="call">Обаждане</string>
     <string name="name">Име</string>
     <string name="size">Размер</string>
     <string name="last_modified">Последно променен</string>
@@ -68,6 +74,7 @@
     <string name="dismiss">Отхвърли</string>
     <string name="settings">Настройки</string>
     <string name="general_settings">Общи</string>
+    <string name="language">Език</string>
     <string name="small">Малък</string>
     <string name="medium">Средно</string>
     <string name="widgets">Приспособления</string>
@@ -81,6 +88,7 @@
     <string name="saturday_letter">Ю</string>
     <string name="sunday_letter">Ю</string>
     <string name="about">Относно</string>
+    <string name="website">Уебсайт</string>
     <string name="rate">Оцени</string>
     <string name="donate">Дарение</string>
     <string name="other">Други</string>

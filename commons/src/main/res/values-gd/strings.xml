@@ -8,11 +8,14 @@
     <string name="email">Post-d</string>
     <string name="previous">Air ais</string>
     <string name="next">Air adhart</string>
+    <string name="home">Dachaigh</string>
+    <string name="work">Obair</string>
     <string name="restore_defaults">Aisig na bun-roghainnean</string>
     <string name="default_color">Bun-roghainn</string>
     <string name="save">Sàbhail</string>
     <string name="custom">Gnàthaichte</string>
     <string name="rename">Thoir ainm ùr air</string>
+    <string name="send_sms">SMS a chur</string>
     <string name="do_not_show_again">Na seall seo a-rithist</string>
     <string name="snooze">Dèan dùsal</string>
     <string name="dismiss">Leig seachad</string>

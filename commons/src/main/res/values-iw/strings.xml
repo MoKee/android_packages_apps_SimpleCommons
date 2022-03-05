@@ -3,6 +3,7 @@
     <string name="ok">אישור</string>
     <string name="cancel">ביטול</string>
     <string name="nothing">שום דבר</string>
+    <string name="edit">ערוך</string>
     <string name="set_as">הגדר בתור</string>
     <string name="unknown">לא ידוע</string>
     <string name="always">תמיד</string>
@@ -15,6 +16,8 @@
     <string name="email">דוא\"ל</string>
     <string name="previous">הקודם</string>
     <string name="next">הבא</string>
+    <string name="home">בית</string>
+    <string name="work">עבודה</string>
     <string name="select_photo">בחר תמונה</string>
     <string name="favorites">מועדפים</string>
     <string name="add_to_favorites">הוספה למועדפים</string>
@@ -23,6 +26,7 @@
     <string name="copy">העתק</string>
     <string name="folder">תיקייה</string>
     <string name="skip">דלג</string>
+    <string name="loading">טוען…</string>
     <string name="sd_card">כרטיס זיכרון</string>
     <string name="path">נתיב</string>
     <string name="duration">משך</string>
@@ -48,6 +52,8 @@
     <string name="select_all">בחר הכול</string>
     <string name="undo">בטל</string>
     <string name="redo">בצע מחדש</string>
+    <string name="send_sms">‏שלח SMS</string>
+    <string name="call">שיחה</string>
     <string name="name">שם</string>
     <string name="size">גודל</string>
     <string name="date_taken">תאריך הצילום</string>
@@ -68,6 +74,7 @@
     <string name="at_start">בהתחלה</string>
     <string name="settings">הגדרות</string>
     <string name="general_settings">כללי</string>
+    <string name="language">שפה</string>
     <string name="small">קטן</string>
     <string name="medium">בינוני</string>
     <string name="widgets">ווידג\'טים</string>
@@ -99,6 +106,7 @@
     <string name="saturday_letter">ש\'</string>
     <string name="sunday_letter">א\'</string>
     <string name="about">אודות</string>
+    <string name="website">אתר</string>
     <string name="rate">דרג</string>
     <string name="donate">תרום</string>
     <string name="other">אחר</string>

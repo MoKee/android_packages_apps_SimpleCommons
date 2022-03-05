@@ -7,6 +7,7 @@
     <string name="file_saved">கோப்பு வெற்றிகரமாகச் சேமிக்கப்பட்டது</string>
     <string name="invalid_file_format">செல்லாத கோப்பு வடிவமைப்பு</string>
     <string name="open_with">இதனுடன் திற</string>
+    <string name="edit">திருத்தம்</string>
     <string name="no_app_found">எந்த செல்லும் பயன்பாடுகளும் கிடைக்கவில்லை</string>
     <string name="set_as">இதுவாக அமை</string>
     <string name="value_copied_to_clipboard">மதிப்பு நகலகத்திற்கு நகலெடுக்கப்பட்டது</string>
@@ -23,6 +24,8 @@
     <string name="email">மின்னஞ்சல்</string>
     <string name="previous">முந்தைய</string>
     <string name="next">அடுத்து</string>
+    <string name="home">முகப்பு</string>
+    <string name="work">அலுவலகம்</string>
     <string name="change_view_type">காட்சி வகையை மாற்று</string>
     <string name="grid">கட்டம்</string>
     <string name="list">பட்டியல்</string>
@@ -140,6 +143,8 @@
     <string name="unhide_folder">கோப்புறையை மறைநீக்கு</string>
     <string name="undo">செயல்தவிர்</string>
     <string name="redo">மீண்டும்செய்</string>
+    <string name="send_sms">SMS அனுப்பு</string>
+    <string name="call">அழை</string>
     <string name="sort_by">வரிசைப்படுத்து</string>
     <string name="name">பெயர்</string>
     <string name="size">அளவு</string>
@@ -186,6 +191,7 @@
     <string name="general_settings">பொதுவானவை</string>
     <string name="customize_colors">வண்ணங்களைத் தனிமையாக்கு</string>
     <string name="use_english_language">ஆங்கில மொழியைப் பயன்படுத்து</string>
+    <string name="language">மொழி</string>
     <string name="show_hidden_items">மறைக்கப்பட்ட உருப்படிகளைக் காண்பி</string>
     <string name="font_size">எழுத்துரு அளவு</string>
     <string name="small">சிறியது</string>
@@ -252,6 +258,7 @@
     <string name="more_info">மேலும் விவரங்கள்</string>
     <string name="upgrade">மேம்படுத்து</string>
     <string name="about">பற்றி</string>
+    <string name="website">வலைத்தளம்</string>
     <string name="email_label">இற்கு உங்கள் பின்னூட்டம் மற்றும் பரிந்துரைகளை அனுப்பு</string>
     <string name="upgrade_to_pro">Proக்கு மேம்படுத்து</string>
     <string name="share_text">ஏய், %1$s ஐ %2$s இல் வந்து பாரு</string>

@@ -10,6 +10,7 @@
     <string name="an_error_occurred">Wystąpił błąd: %s</string>
     <string name="open_with">Otwórz w</string>
     <string name="edit_with">Edytuj w:</string>
+    <string name="edit">Edytuj</string>
     <string name="no_app_found">Nie mogę znaleźć danych aplikacji</string>
     <string name="set_as">Ustaw jako</string>
     <string name="copy_to_clipboard">Kopiuj do schowka</string>
@@ -39,6 +40,8 @@
     <string name="request_the_required_permissions">Poproś o wymagane uprawnienia</string>
     <string name="no_access_to_contacts">Aplikacja nie mogła uzyskać dostępu do Twoich kontaktów</string>
     <string name="insert_text_here">Wpisz tekst tutaj</string>
+    <string name="home">Dom</string>
+    <string name="work">Praca</string>
     <string name="change_view_type">Zmień typ widoku</string>
     <string name="grid">Siatka</string>
     <string name="list">Lista</string>
@@ -137,6 +140,7 @@
     <string name="confirm_storage_access_text">Wybierz folder główny urządzenia USB na następnym ekranie, aby uzyskać do niego dostęp</string>
     <string name="confirm_storage_access_text_sd">Jeśli nie widzisz karty pamięci, spróbuj tego:</string>
     <string name="confirm_selection">Potwierdź wybór</string>
+    <string name="loading">Ładowanie…</string>
     <plurals name="items">
         <item quantity="one">%d pozycja</item>
         <item quantity="few">%d pozycje</item>
@@ -243,6 +247,8 @@
     <string name="call_from_sim_1">Połączenie z SIM 1</string>
     <string name="call_from_sim_2">Połączenie z SIM 2</string>
     <string name="toggle_filename">Pokazuj / ukrywaj nazwy plików</string>
+    <string name="send_sms">Wysyłanie SMS-ów</string>
+    <string name="call">Połączenia</string>
     <string name="sort_by">Sortuj według parametru:</string>
     <string name="name">Nazwa</string>
     <string name="size">Rozmiar</string>
@@ -500,6 +506,7 @@
     <string name="customize_widget_colors">Dostosuj kolory widżetu</string>
     <string name="customize_notifications">Ustawienia powiadomień</string>
     <string name="use_english_language">Wymuś używanie przez aplikację języka angielskiego</string>
+    <string name="language">Język</string>
     <string name="show_hidden_items">Pokazuj ukryte elementy</string>
     <string name="font_size">Rozmiar czcionki</string>
     <string name="small">Mała</string>
@@ -628,6 +635,7 @@
     <string name="upgrade">Aktualizuj</string>
     <string name="upgrade_calendar">Musisz migrować lokalnie przechowywane zdarzenia ręcznie, eksportując je w pliku .ics, a następnie importując. Możesz znaleźć oba przyciski eksportu / importu w głównym menu ekranowym.</string>
     <string name="about">O aplikacji</string>
+    <string name="website">Strona internetowa</string>
     <string name="website_label">Nasza strona internetowa:</string>
     <string name="email_label">Napisz do nas, przyślij nam swoje uwagi:</string>
     <string name="upgrade_to_pro">Zaktualizuj do wersji Pro</string>

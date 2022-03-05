@@ -9,6 +9,7 @@
     <string name="an_error_occurred">Klaida: %s</string>
     <string name="open_with">Atidaryti su</string>
     <string name="edit_with">Redaguoti su</string>
+    <string name="edit">Redaguoti</string>
     <string name="no_app_found">Nerasta tinkamos programėlės</string>
     <string name="set_as">Nustatyti kaip</string>
     <string name="value_copied_to_clipboard">Reikšmė nukopijuota į iškarpinė</string>
@@ -23,6 +24,8 @@
     <string name="email">El. paštas</string>
     <string name="previous">Ankstesnis</string>
     <string name="next">Kitas</string>
+    <string name="home">Namai</string>
+    <string name="work">Darbas</string>
     <string name="change_view_type">Keisti peržiūros tipą</string>
     <string name="grid">Tinklelis</string>
     <string name="list">Sąrašas</string>
@@ -103,6 +106,7 @@
     <string name="confirm_storage_access_title">Pasirinkti išorinės talpyklos prieigą</string>
     <string name="confirm_storage_access_text_sd">Jei nematote SD kortelės, pabandykite tai</string>
     <string name="confirm_selection">Patvirtinti pasirinkimą</string>
+    <string name="loading">Kraunama…</string>
     <plurals name="items">
         <item quantity="one">%d elementas</item>
         <item quantity="few">%d elementai</item>
@@ -178,6 +182,7 @@
     <string name="undo">Anuliuoti</string>
     <string name="redo">Grąžinti</string>
     <string name="toggle_filename">Perjungti bylos pavadinimo matomumą</string>
+    <string name="send_sms">Siųsti SMS </string>
     <string name="sort_by">Rūšiuoti pagal</string>
     <string name="name">Vardą</string>
     <string name="size">Dydį</string>

@@ -10,6 +10,7 @@
     <string name="an_error_occurred">Дошло је до грешке %s</string>
     <string name="open_with">Отвори помоћу</string>
     <string name="edit_with">Уреди помоћу</string>
+    <string name="edit">Уреди</string>
     <string name="no_app_found">Није пронађена прикладна апликација</string>
     <string name="set_as">Постави као</string>
     <string name="value_copied_to_clipboard">Путања копирана у клипборд</string>
@@ -30,6 +31,8 @@
     <string name="email">Е-пошта</string>
     <string name="previous">Претходно</string>
     <string name="next">Следеће</string>
+    <string name="home">Кућа</string>
+    <string name="work">Посао</string>
     <string name="change_view_type">Промени врсту приказа</string>
     <string name="grid">Мрежа</string>
     <string name="list">Листа</string>
@@ -118,6 +121,7 @@
     <string name="confirm_storage_access_text">Изаберите ROOT фолдер на СД картици да би дозволили приступ</string>
     <string name="confirm_storage_access_text_sd">Не нађем СД картицу покушај поново</string>
     <string name="confirm_selection">Потврди избор</string>
+    <string name="loading">Учитавање…</string>
     <plurals name="items">
         <item quantity="one">%d ставка</item>
         <item quantity="few">%d ставки</item>
@@ -209,6 +213,8 @@
     <string name="print">Штампај</string>
     <string name="create_shortcut">Направи пречицу</string>
     <string name="toggle_filename">Укључите видљивост имена фајлова</string>
+    <string name="send_sms">Слање SMS порука</string>
+    <string name="call">Позив</string>
     <string name="sort_by">Сортирај по</string>
     <string name="name">Име: </string>
     <string name="size">Величина</string>
@@ -425,6 +431,7 @@
     <string name="customize_colors">Прилагодите Боје</string>
     <string name="customize_widget_colors">Прилагодите боје виџета</string>
     <string name="use_english_language">Користите енглески језик</string>
+    <string name="language">Језик</string>
     <string name="show_hidden_items">Прикажи скривене фајлове</string>
     <string name="font_size">Величина фонта</string>
     <string name="small">Мали</string>
@@ -545,6 +552,7 @@
     <string name="upgrade">Надоградња</string>
     <string name="upgrade_calendar">Пренос локално снимљених догађаја се ради експортовањем у .ics датотеку и онда увоз истога. Оба дугмета су на главноме екрану.</string>
     <string name="about">О програму</string>
+    <string name="website">Веб страница</string>
     <string name="website_label">За приступ изворном коду посетите</string>
     <string name="email_label">Пошаљите ваше мишљење и предлоге на</string>
     <string name="upgrade_to_pro">Надогради на Pro верзију</string>

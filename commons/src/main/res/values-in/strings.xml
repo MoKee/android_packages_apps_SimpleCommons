@@ -10,6 +10,7 @@
     <string name="an_error_occurred">Terjadi kesalahan: %s</string>
     <string name="open_with">Buka dengan</string>
     <string name="edit_with">Sunting dengan</string>
+    <string name="edit">Ubah</string>
     <string name="no_app_found">Tidak ditemukan aplikasi yang valid</string>
     <string name="set_as">Setel sebagai</string>
     <string name="value_copied_to_clipboard">Nilai disalin ke papan klip</string>
@@ -30,6 +31,8 @@
     <string name="email">Surel</string>
     <string name="previous">Sebelumnya</string>
     <string name="next">Berikutnya</string>
+    <string name="home">Beranda</string>
+    <string name="work">Kerja</string>
     <string name="change_view_type">Ubah jenis tampilan</string>
     <string name="grid">Kotak</string>
     <string name="list">Daftar</string>
@@ -113,6 +116,7 @@
     <string name="confirm_storage_access_title">Konfirmasikan akses penyimpanan eksternal</string>
     <string name="confirm_storage_access_text_sd">Jika Anda tidak melihat kartu SD, coba ini</string>
     <string name="confirm_selection">Mengkonfirmasi pilihan</string>
+    <string name="loading">Memuat…</string>
     <plurals name="items">
         <item quantity="other">%d berkas</item>
     </plurals>
@@ -194,6 +198,8 @@
     <string name="undo">Batalkan</string>
     <string name="redo">Ulangi</string>
     <string name="toggle_filename">Beralih visibilitas nama file</string>
+    <string name="send_sms">Kirim SMS</string>
+    <string name="call">Panggil</string>
     <string name="sort_by">Urut berdasarkan</string>
     <string name="name">Nama</string>
     <string name="size">Ukuran</string>
@@ -338,6 +344,7 @@
     <string name="customize_colors">Sesuaikan Warna</string>
     <string name="customize_widget_colors">Sesuaikan warna widget</string>
     <string name="use_english_language">Gunakan bahasa Inggris</string>
+    <string name="language">Bahasa</string>
     <string name="show_hidden_items">Tampilkan berkas yang tersembunyi</string>
     <string name="font_size">Ukuran Huruf</string>
     <string name="small">Kecil</string>
@@ -446,6 +453,7 @@
     <string name="upgrade">Tingkatkan</string>
     <string name="upgrade_calendar">Anda harus memigrasikan acara yang disimpan secara lokal secara manual melalui mengekspor dalam file .ics, lalu mengimpor. Anda dapat menemukan kedua tombol ekspor / impor di menu layar utama.</string>
     <string name="about">Tentang</string>
+    <string name="website">Situs</string>
     <string name="website_label">Untuk kode sumber, kunjungi</string>
     <string name="email_label">Kirim umpan balik atau saran Anda ke</string>
     <string name="upgrade_to_pro">Tingkatkan ke Pro</string>

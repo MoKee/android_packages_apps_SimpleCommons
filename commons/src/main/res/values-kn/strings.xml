@@ -10,6 +10,7 @@
     <string name="an_error_occurred">ದೋಷ ಸಂಭವಿಸಿದೆ:%s</string>
     <string name="open_with">ಇದರೊಂದಿಗೆ ತೆರೆಯಿರಿ</string>
     <string name="edit_with">ಇದರೊಂದಿಗೆ ಸಂಪಾದಿಸು</string>
+    <string name="edit">ಪರಿಷ್ಕರಿಸಿ</string>
     <string name="no_app_found">ಯಾವುದೇ ಮಾನ್ಯವಿರುವ ಕಿರುತಂತ್ರಾಂಶ ಕಂಡುಬಂದಿಲ್ಲ</string>
     <string name="set_as">ಹೀಗೆ ಹೊಂದಿಸಿ</string>
     <string name="value_copied_to_clipboard">ಮೌಲ್ಯವು ಕ್ಲಿಪ್ ಬೋರ್ಡ್ ಗೆ ನಕಲಿಸಲ್ಪಟ್ಟಿದೆ</string>
@@ -29,6 +30,8 @@
     <string name="email">ಇಮೇಲ್</string>
     <string name="previous">ಹಿಂದಿನ</string>
     <string name="next">ಮುಂದಿನ</string>
+    <string name="home">ಮನೆ</string>
+    <string name="work">ಉದ್ಯೋಗ</string>
     <string name="change_view_type">ನೋಟದ ರೀತಿ ಬದಲಾಯಿಸು</string>
     <string name="grid">ಚೌಕಾಕಾರದ ಕ್ರಮ</string>
     <string name="list">ಪಟ್ಟಿ ಕ್ರಮ</string>
@@ -111,6 +114,7 @@
     <string name="confirm_storage_access_title">ಬಾಹ್ಯ ಸಂಗ್ರಹಣಾ ಅನುಮತಿಯನ್ನು ಖಚಿತಪಡಿಸು</string>
     <string name="confirm_storage_access_text_sd">ಒಂದು ವೇಳೇ ನೀವು SD ಕಾರ್ಡ್‌ ಅನ್ನು ಕಾಣದಿದ್ದಲ್ಲಿ ಇದನ್ನು ಪ್ರಯತ್ನಿಸಿ</string>
     <string name="confirm_selection">ಆಯ್ಕೆಯನ್ನು ಖಚಿತಪಡಿಸಿ</string>
+    <string name="loading">ಲೋಡ್‌ ಆಗುತ್ತಿದೆ…</string>
     <string name="select_storage">ಸಂಗ್ರಹಣೆಯನ್ನು ಆರಿಸಿ</string>
     <string name="internal">ಆಂತರಿಕ</string>
     <string name="sd_card">SD ಕಾರ್ಡ್</string>
@@ -176,6 +180,8 @@
     <string name="print">ಮುದ್ರಿಸಿ</string>
     <string name="create_shortcut">ಕಿರುದಾರಿ ರಚಿಸಿ</string>
     <string name="toggle_filename">ಕಡತಹೆಸರು ಗೋಚರಿಕೆಯನ್ನು ಟಾಗಲ್ ಮಾಡಿ</string>
+    <string name="send_sms">ಎಸ್ಎಂಎಸ್ ಕಳುಹಿಸು</string>
+    <string name="call">ಕರೆ</string>
     <string name="sort_by">ಈ ಪ್ರಕಾರ ವಿಂಗಡಿಸಿ</string>
     <string name="name">ಹೆಸರು</string>
     <string name="size">ಗಾತ್ರ</string>
@@ -201,6 +207,7 @@
     <string name="dismiss">ವಜಾ ಮಾಡು</string>
     <string name="settings">ಸಂಯೋಜನೆಗಳು</string>
     <string name="general_settings">ಸಾಮಾನ್ಯ</string>
+    <string name="language">ಭಾಷೆ</string>
     <string name="small">ಚಿಕ್ಕ</string>
     <string name="medium">ಮಧ್ಯಮ</string>
     <string name="widgets">ವಿಜೆಟ್‌ಗಳು</string>
@@ -221,6 +228,7 @@
     <string name="saturday_letter">ದಕ್ಷಿಣ</string>
     <string name="sunday_letter">ದಕ್ಷಿಣ</string>
     <string name="about">ಕುರಿತು</string>
+    <string name="website">ಜಾಲತಾಣ</string>
     <string name="rate">ದರ</string>
     <string name="donate">ಕಾಣಿಕೆ</string>
     <string name="other">ಇತರೆ</string>

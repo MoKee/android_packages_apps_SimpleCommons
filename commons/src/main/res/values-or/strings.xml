@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="edit">ସମ୍ପାଦନ</string>
     <string name="set_as">ଏହି ଭାବେ ସେଟ୍ କରନ୍ତୁ</string>
     <string name="unknown">ଅଜ୍ଞାତ</string>
     <string name="details">ବିବରଣୀଗୁଡିକ</string>
@@ -7,6 +8,8 @@
     <string name="email">ଇମେଲ୍</string>
     <string name="previous">ପୂର୍ବବର୍ତ୍ତୀ</string>
     <string name="next">ପରବର୍ତ୍ତୀ</string>
+    <string name="home">ହୋମ୍</string>
+    <string name="work">କାର୍ଯ୍ୟ</string>
     <string name="skip">ସ୍କିପ୍</string>
     <string name="path">ପଥ</string>
     <string name="duration">ଅବଧି</string>
@@ -17,6 +20,7 @@
     <string name="dark_theme">ଅନ୍ଧାର</string>
     <string name="auto_theme">ସ୍ଵତଃ</string>
     <string name="custom">କଷ୍ଟମ୍</string>
+    <string name="send_sms">SMS ପଠାନ୍ତୁ</string>
     <string name="title">ଟାଇଟଲ୍</string>
     <string name="seconds_raw">ସେକେଣ୍ଡ</string>
     <string name="minutes_raw">ମିନିଟ୍</string>

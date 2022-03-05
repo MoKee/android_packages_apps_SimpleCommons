@@ -9,6 +9,7 @@
     <string name="out_of_memory_error">Yaddaş doludur xətası</string>
     <string name="an_error_occurred">Xəta baş verdi: %s</string>
     <string name="open_with">Bununla aç</string>
+    <string name="edit">Dəyiş</string>
     <string name="no_app_found">Etibarlı tətbiq tapılmadı</string>
     <string name="set_as">Təyin et</string>
     <string name="value_copied_to_clipboard">Miqdar panelə kopyalandı</string>
@@ -25,6 +26,8 @@
     <string name="email">E-poçt</string>
     <string name="previous">Əvvəlki</string>
     <string name="next">Sonrakı</string>
+    <string name="home">Ev</string>
+    <string name="work">İş</string>
     <string name="select_photo">Foto seçin</string>
     <string name="favorites">Sevimlilər</string>
     <string name="add_favorites">Sevimlilər əlavə et</string>
@@ -175,6 +178,7 @@
     <string name="empty_and_disable_recycle_bin">Zibil qutusunu boşalt və qapat</string>
     <string name="undo">Geri al</string>
     <string name="redo">Təkrar et</string>
+    <string name="send_sms">SMS göndər</string>
     <string name="sort_by">Sırala</string>
     <string name="name">Ad</string>
     <string name="size">Ölçü</string>

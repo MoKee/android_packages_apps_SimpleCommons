@@ -11,6 +11,7 @@
     <string name="an_error_occurred">Hiba történt: %s</string>
     <string name="open_with">Megnyitás ezzel</string>
     <string name="edit_with">Szerkesztés ezzel</string>
+    <string name="edit">Szerkeztés</string>
     <string name="no_app_found">Nem található érvényes alkalmazás</string>
     <string name="set_as">Beállítás ennek</string>
     <string name="copy_to_clipboard">Másolás vágólapra</string>
@@ -51,6 +52,8 @@
     <string name="seven">Hét</string>
     <string name="eight">Nyolc</string>
     <string name="nine">Kilenc</string>
+    <string name="home">Otthon</string>
+    <string name="work">Munka</string>
     <string name="change_view_type">Nézet típus változtatása</string>
     <string name="grid">Rács</string>
     <string name="list">Lista</string>
@@ -156,6 +159,7 @@
     <string name="confirm_storage_access_text_sd">Ha nem látja az SD-kártyát, próbálja meg a következőt</string>
     <string name="confirm_storage_access_android_text">Engedélyezze a következő képernyőn alul a „Mappa használata” gomb megnyomásával, hogy az alkalmazás hozzáférjen a kiválasztott tárhelyhez.</string>
     <string name="confirm_selection">Kiválasztás megerősítése</string>
+    <string name="loading">Betöltés…</string>
     <plurals name="items">
         <item quantity="one">%d elem</item>
         <item quantity="other">%d elem</item>
@@ -259,6 +263,8 @@
     <string name="toggle_filename">Fájlnév láthatóság módosítása</string>
     <string name="move_to_top">Legfelülre helyezés</string>
     <string name="move_to_bottom">Legalulra helyezés</string>
+    <string name="send_sms">SMS küldése</string>
+    <string name="call">Hívás</string>
     <string name="sort_by">Rendezés</string>
     <string name="name">Név</string>
     <string name="size">Méret</string>
@@ -466,6 +472,7 @@
     <string name="customize_widget_colors">Kisalkalmazás színeinek testreszabása</string>
     <string name="customize_notifications">Értesítések testreszabása</string>
     <string name="use_english_language">Angol nyelv használata</string>
+    <string name="language">Nyelv</string>
     <string name="show_hidden_items">Mutassa a rejtett elemeket</string>
     <string name="font_size">Betűméret</string>
     <string name="small">Kicsi</string>
@@ -600,6 +607,7 @@
     <string name="upgrade">Frissítés</string>
     <string name="upgrade_calendar">A helyiben tárolt eseményeket kézzel kell átvinni egy .ics fájl exportálásával, majd importálással. Az export / import gomb megtalálható a főmenüben.</string>
     <string name="about">Névjegy</string>
+    <string name="website">Weboldal</string>
     <string name="website_label">A forráskódok megtekintéséhez</string>
     <string name="email_label">Küldje el visszajelzését vagy javaslatait</string>
     <string name="upgrade_to_pro">Frissítés Pro verzióra</string>
@@ -648,6 +656,7 @@
     <string name="file_manager_short">Fájlkezelő</string>
     <string name="flashlight_short">Zseblámpa</string>
     <string name="gallery_short">Galéria</string>
+    <string name="keyboard_short">Billentyűzet</string>
     <string name="music_player_short">Zenelejátszó</string>
     <string name="notes_short">Jegyzetek</string>
     <string name="sms_messenger_short">SMS-küldő</string>

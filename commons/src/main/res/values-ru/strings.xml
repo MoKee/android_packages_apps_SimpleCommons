@@ -10,6 +10,7 @@
     <string name="an_error_occurred">Произошла ошибка: %s</string>
     <string name="open_with">Открыть в…</string>
     <string name="edit_with">Редактировать в…</string>
+    <string name="edit">Изменить</string>
     <string name="no_app_found">Приложение не найдено</string>
     <string name="set_as">Установить как…</string>
     <string name="copy_to_clipboard">Копировать в буфер</string>
@@ -39,6 +40,8 @@
     <string name="request_the_required_permissions">Запросить необходимые разрешения</string>
     <string name="no_access_to_contacts">Приложение не может получить доступ к вашим контактам</string>
     <string name="insert_text_here">Введите текст</string>
+    <string name="home">Дом</string>
+    <string name="work">Работа</string>
     <string name="change_view_type">Режим отображения</string>
     <string name="grid">Сетка</string>
     <string name="list">Список</string>
@@ -137,6 +140,7 @@
     <string name="confirm_storage_access_text">Please choose the top folder of the SD card on the next screen, to grant write access</string>
     <string name="confirm_storage_access_text_sd">Если вы не видите SD-карту, попробуйте это</string>
     <string name="confirm_selection">Подтвердить выделение</string>
+    <string name="loading">Загрузка…</string>
     <plurals name="items">
         <item quantity="one">%d объект</item>
         <item quantity="few">%d объекта</item>
@@ -243,6 +247,8 @@
     <string name="call_from_sim_1">Звонок с SIM 1</string>
     <string name="call_from_sim_2">Звонок с SIM 2</string>
     <string name="toggle_filename">Переключить отображение имени файла</string>
+    <string name="send_sms">Отправка SMS</string>
+    <string name="call">Вызов</string>
     <string name="sort_by">Сортировать по…</string>
     <string name="name">Имя</string>
     <string name="size">Размер</string>
@@ -498,6 +504,7 @@
     <string name="customize_widget_colors">Настроить цвета виджета</string>
     <string name="customize_notifications">Настройка уведомления</string>
     <string name="use_english_language">Использовать английский язык</string>
+    <string name="language">Язык</string>
     <string name="show_hidden_items">Показывать скрытые файлы</string>
     <string name="font_size">Размер шрифта</string>
     <string name="small">Мелкий</string>
@@ -626,6 +633,7 @@
     <string name="upgrade">Обновить</string>
     <string name="upgrade_calendar">Вы должны перенести локально сохраненные события вручную путем экспорта в файл .ics, и последующего его импорта. Кнопки экспорта/импорта можно найти в главном меню.</string>
     <string name="about">О приложении</string>
+    <string name="website">Веб-сайт</string>
     <string name="website_label">Исходный код можно найти по адресу</string>
     <string name="email_label">Отправить отзывы или предложения</string>
     <string name="upgrade_to_pro">Обновить до версии Pro</string>

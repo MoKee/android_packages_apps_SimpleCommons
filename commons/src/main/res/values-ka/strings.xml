@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="nothing">Nothing</string>
+    <string name="edit">რედაქტირება</string>
     <string name="set_as">დააყენე როგორც</string>
     <string name="unknown">უცნობი</string>
     <string name="details">დეტალები</string>

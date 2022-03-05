@@ -9,6 +9,7 @@
     <string name="out_of_memory_error">Gabim! ska memorie te mjaftueshme.</string>
     <string name="an_error_occurred">Ndodhi një gabim: %s</string>
     <string name="open_with">Hap me</string>
+    <string name="edit">Redakto</string>
     <string name="no_app_found">Nuk u gjet asnjë aplikacion i vlefshëm</string>
     <string name="set_as">Cakto si</string>
     <string name="value_copied_to_clipboard">Vlera u kopjua në kujtesën e fragmenteve.</string>
@@ -28,6 +29,8 @@
     <string name="email">Email</string>
     <string name="previous">E mëparshmja</string>
     <string name="next">Tjetra</string>
+    <string name="home">Në shtëpi</string>
+    <string name="work">Në punë</string>
     <string name="select_photo">Zgjidh një fotografi</string>
     <string name="blocked_numbers">Numrat e bllokuar</string>
     <string name="favorites">Të preferuarat</string>
@@ -181,6 +184,8 @@
     <string name="empty_and_disable_recycle_bin">Zbrazni dhe çaktivizoni koshin e riciklimit</string>
     <string name="undo">Zhbëj</string>
     <string name="redo">Ribëj</string>
+    <string name="send_sms">Dërgo SMS</string>
+    <string name="call">Thirrjet</string>
     <string name="sort_by">Rendit sipas</string>
     <string name="name">Emri</string>
     <string name="size">Madhësia</string>
@@ -215,6 +220,7 @@
     <string name="customize_colors">Rregullo ngjyrat</string>
     <string name="customize_widget_colors">Rregullo ngjyrat e widget-it</string>
     <string name="use_english_language">Përdorni gjuhën angleze</string>
+    <string name="language">Gjuha</string>
     <string name="show_hidden_items">Shfaq artikujt të fshehur</string>
     <string name="font_size">Madhësia e gërmave</string>
     <string name="small">I vogël</string>

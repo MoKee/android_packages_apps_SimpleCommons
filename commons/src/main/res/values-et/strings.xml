@@ -11,6 +11,7 @@
     <string name="an_error_occurred">Ilmnes tõrge: %s</string>
     <string name="open_with">Ava rakendusega</string>
     <string name="edit_with">Muutmine</string>
+    <string name="edit">Muuda</string>
     <string name="no_app_found">Kehtivat rakendust ei leitud</string>
     <string name="set_as">Seadista kui</string>
     <string name="copy_to_clipboard">Kopeeri lõikelauale</string>
@@ -41,6 +42,8 @@
     <string name="no_access_to_contacts">Rakendus ei pääsenud teie kontaktidele ligi</string>
     <string name="insert_text_here">Sisestage tekst siia</string>
     <string name="call_person">Helista %s</string>
+    <string name="home">Kodu</string>
+    <string name="work">Töö</string>
     <string name="change_view_type">Muuda vaatetüüpi</string>
     <string name="grid">Ruudustik</string>
     <string name="list">Loend</string>
@@ -146,6 +149,7 @@
     <string name="confirm_storage_access_text_sd">Kui SD-kaarti ei näe, proovige seda</string>
     <string name="confirm_storage_access_android_text">Lubage rakendusel järgmisel ekraanil valitud salvestusruumi juurde pääseda, vajutades allosas nuppu „Kasuta seda kausta”.</string>
     <string name="confirm_selection">Kinnitage valik</string>
+    <string name="loading">Laadimine…</string>
     <plurals name="items">
         <item quantity="one">%d üksus</item>
         <item quantity="other">%d üksust</item>
@@ -249,6 +253,8 @@
     <string name="toggle_filename">Lülitab sisse failinime nähtavuse</string>
     <string name="move_to_top">Tagasi algusesse</string>
     <string name="move_to_bottom">Nihuta viimaseks</string>
+    <string name="send_sms">Saada SMS</string>
+    <string name="call">Helista</string>
     <string name="sort_by">Sorteeri</string>
     <string name="name">Nimi</string>
     <string name="size">Suurus</string>
@@ -456,6 +462,7 @@
     <string name="customize_widget_colors">Vidinate värvide kohandamine</string>
     <string name="customize_notifications">Teadete kohandamine</string>
     <string name="use_english_language">Kasutage inglise keelt</string>
+    <string name="language">Keel</string>
     <string name="show_hidden_items">Näita peidetud objekte</string>
     <string name="font_size">Kirja suurus</string>
     <string name="small">Väike</string>
@@ -590,6 +597,7 @@
     <string name="upgrade">Uuenda</string>
     <string name="upgrade_calendar">Peate kohapeal salvestatud sündmused käsitsi läbi viima .ics-failis ja seejärel importima. Nii ekspordi / impordi nupud leiate peaekraanimenüüst.</string>
     <string name="about">Teave</string>
+    <string name="website">Veebisait</string>
     <string name="website_label">Lähtekoodide jaoks külastage</string>
     <string name="email_label">Saada oma tagasiside või soovitused</string>
     <string name="upgrade_to_pro">Uuenda Pro-le</string>

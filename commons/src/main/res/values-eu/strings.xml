@@ -3,6 +3,7 @@
     <string name="ok">Ados</string>
     <string name="cancel">Utzi</string>
     <string name="nothing">Ezer ez</string>
+    <string name="edit">Editatu</string>
     <string name="set_as">Ezarri honela:</string>
     <string name="unknown">Ezezaguna</string>
     <string name="never">Inoiz ez</string>
@@ -13,6 +14,8 @@
     <string name="email">E-posta</string>
     <string name="previous">Aurrekoa</string>
     <string name="next">Hurrengoa</string>
+    <string name="home">Etxean</string>
+    <string name="work">Lanean</string>
     <string name="search">Bilatu</string>
     <string name="copy">Kopiatu</string>
     <string name="skip">Saltatu</string>
@@ -34,6 +37,8 @@
     <string name="share_via">Partekatu honen bidez</string>
     <string name="undo">Desegin</string>
     <string name="redo">Berregin</string>
+    <string name="send_sms">SMSak bidali</string>
+    <string name="call">Deia</string>
     <string name="name">Izena</string>
     <string name="size">Tamaina</string>
     <string name="date_taken">Ateratako data</string>
@@ -51,6 +56,7 @@
     <string name="dismiss">Baztertu</string>
     <string name="settings">Ezarpenak</string>
     <string name="general_settings">Orokorra</string>
+    <string name="language">Hizkuntza</string>
     <string name="small">Txikia</string>
     <string name="medium">Ertaina</string>
     <string name="widgets">Widgetak</string>

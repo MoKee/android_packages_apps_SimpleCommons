@@ -10,6 +10,7 @@
     <string name="an_error_occurred">Сталася помилка: %s</string>
     <string name="open_with">Відкрити у</string>
     <string name="edit_with">Редагувати за допомогою</string>
+    <string name="edit">Редагувати</string>
     <string name="no_app_found">Додаток не знайдено</string>
     <string name="set_as">Встан. як</string>
     <string name="value_copied_to_clipboard">Значення скопійовано до буферу обміну</string>
@@ -31,6 +32,8 @@
     <string name="previous">Попередня</string>
     <string name="playpause">Відтворення / Пауза</string>
     <string name="next">Наступна</string>
+    <string name="home">Дім</string>
+    <string name="work">Робота</string>
     <string name="change_view_type">Змінити тип перегляду</string>
     <string name="grid">Сітка</string>
     <string name="list">Список</string>
@@ -120,6 +123,7 @@
     <string name="confirm_storage_access_text">Будь ласка, виберіть верхню папку USB-пристрої на наступному екрані, щоб надати доступ</string>
     <string name="confirm_storage_access_text_sd">Якщо Ви не бачите SD-карту, спробуйте це</string>
     <string name="confirm_selection">Підтвердіть вибір</string>
+    <string name="loading">Завантаження...</string>
     <plurals name="items">
         <item quantity="one">%d об\'єкт</item>
         <item quantity="few">%d об\'єкта</item>
@@ -214,6 +218,8 @@
     <string name="print">Друк</string>
     <string name="create_shortcut">Створити ярлик</string>
     <string name="toggle_filename">Перемкнути відображення імені файлу</string>
+    <string name="send_sms">Надсилання SMS</string>
+    <string name="call">Виклик</string>
     <string name="sort_by">Сортувати за</string>
     <string name="name">Ім\'я: </string>
     <string name="size">Розмір</string>
@@ -459,6 +465,7 @@
     <string name="customize_colors">Налаштувати кольори</string>
     <string name="customize_widget_colors">Змінити кольори віджетів</string>
     <string name="use_english_language">Використовувати англійську мову</string>
+    <string name="language">Мова</string>
     <string name="show_hidden_items">Показувати приховані елементи</string>
     <string name="font_size">Розмір шрифту</string>
     <string name="small">Малий</string>
@@ -583,6 +590,7 @@
     <string name="upgrade">Оновити</string>
     <string name="upgrade_calendar">Ви повинні перенести локально збережені події вручну шляхом експорту в файл .ics, і подальшого його імпорту. Кнопки експорту / імпорту можна знайти в головному меню.</string>
     <string name="about">Про додаток</string>
+    <string name="website">Веб-сайт</string>
     <string name="website_label">Вихідний код можна знайти за адресою</string>
     <string name="email_label">Відправити відгуки або пропозиції</string>
     <string name="upgrade_to_pro">Оновити до версії Pro</string>

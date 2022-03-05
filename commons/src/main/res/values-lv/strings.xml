@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="edit">Rediģēt</string>
     <string name="set_as">Iestatīt kā:</string>
     <string name="unknown">Nezināms</string>
     <string name="details">Detalizēta informācija</string>
@@ -23,6 +24,7 @@
     <string name="select_all">Atlasīt visu</string>
     <string name="undo">Atsaukt</string>
     <string name="redo">Atcelt atsaukšanu</string>
+    <string name="send_sms">Sūtīt īsziņu</string>
     <string name="size">Izmēri</string>
     <string name="date_taken">Uzņemšanas datums</string>
     <string name="title">Virsraksts</string>

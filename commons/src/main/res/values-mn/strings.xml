@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="edit">Засах</string>
     <string name="set_as">Тохируулах</string>
     <string name="unknown">Тодорхойгүй</string>
     <string name="details">Дэлгэрэнгүй</string>

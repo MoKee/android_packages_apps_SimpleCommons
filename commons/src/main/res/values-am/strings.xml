@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="nothing">Nothing</string>
+    <string name="edit">አርትዕ</string>
     <string name="set_as">እንደ</string>
     <string name="unknown">ያልታወቀ</string>
     <string name="details">ዝርዝሮች</string>

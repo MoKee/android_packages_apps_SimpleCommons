@@ -10,6 +10,7 @@
     <string name="an_error_occurred">Tapahtui virhe: %s</string>
     <string name="open_with">Avaa sovelluksessa</string>
     <string name="edit_with">Muokkaa sovelluksella</string>
+    <string name="edit">Muokkaa</string>
     <string name="no_app_found">Sovelluksia ei löydetty</string>
     <string name="set_as">Aseta</string>
     <string name="copy_to_clipboard">Kopioi leikepöydälle</string>
@@ -28,6 +29,8 @@
     <string name="email">Sähköposti</string>
     <string name="previous">Edellinen</string>
     <string name="next">Seuraava</string>
+    <string name="home">Koti</string>
+    <string name="work">Työ</string>
     <string name="change_view_type">Vaihda näkymää</string>
     <string name="grid">Ruudukko</string>
     <string name="list">Lista</string>
@@ -107,6 +110,7 @@
     <string name="confirm_storage_access_title">Vahvista pääsy ulkoiseen tallennustilaan</string>
     <string name="confirm_storage_access_text_sd">Jos et näe muistikorttia, kokeile tätä</string>
     <string name="confirm_selection">Vahvista valinta</string>
+    <string name="loading">Ladataan…</string>
     <string name="select_storage">Valitse tallennustila</string>
     <string name="internal">Sisäinen</string>
     <string name="sd_card">Muistikortti</string>
@@ -168,6 +172,8 @@
     <string name="undo">Kumoa</string>
     <string name="redo">Toista</string>
     <string name="toggle_filename">Tiedostonimien näkyvyys</string>
+    <string name="send_sms">Lähetä tekstiviestejä</string>
+    <string name="call">Puhelu</string>
     <string name="sort_by">Järjestä</string>
     <string name="name">Nimen perusteella</string>
     <string name="size">Koon perusteella</string>
@@ -317,6 +323,7 @@
     <string name="general_settings">Yleinen</string>
     <string name="customize_colors">Muokkaa sovelluksen värejä</string>
     <string name="use_english_language">Käytä Englannin kieltä</string>
+    <string name="language">Kieli</string>
     <string name="show_hidden_items">Näytä piilotetut tiedostot</string>
     <string name="font_size">Fonttikoko</string>
     <string name="small">Pieni</string>
@@ -382,6 +389,7 @@
     <string name="friday_short">Per</string>
     <string name="saturday_short">Lau</string>
     <string name="about">Tietoa</string>
+    <string name="website">Verkkosivu</string>
     <string name="website_label">Lähdekoodin löydät täältä</string>
     <string name="email_label">Lähetä palautteesi ja ehdotuksia osoitteeseen</string>
     <string name="share_text">Hei, tutustu %1$s täällä %2$s</string>

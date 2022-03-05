@@ -10,6 +10,7 @@
     <string name="an_error_occurred">Un error ocurrió: %s</string>
     <string name="open_with">Abrir con</string>
     <string name="edit_with">Editar con</string>
+    <string name="edit">Editar</string>
     <string name="no_app_found">No se encontró una aplicación válida</string>
     <string name="set_as">Establecer como</string>
     <string name="value_copied_to_clipboard">Valor copiado en el portapapeles</string>
@@ -23,6 +24,8 @@
     <string name="email">Correo electrónico</string>
     <string name="previous">Anterior</string>
     <string name="next">Seguinte</string>
+    <string name="home">Inicio</string>
+    <string name="work">Traballo</string>
     <string name="change_view_type">Cambiar o tipo de vista</string>
     <string name="grid">Grella</string>
     <string name="list">Lista</string>
@@ -166,6 +169,8 @@
     <string name="undo">Desfacer</string>
     <string name="redo">Refacer</string>
     <string name="toggle_filename">Mudar a visibilidade do ficheiro</string>
+    <string name="send_sms">Enviar SMS</string>
+    <string name="call">Chamada</string>
     <string name="sort_by">Ordenar por</string>
     <string name="name">Nombre</string>
     <string name="size">Tamaño</string>
@@ -310,6 +315,7 @@
     <string name="general_settings">Xeral</string>
     <string name="customize_colors">Cambiar colores</string>
     <string name="use_english_language">Usar el idioma Inglés</string>
+    <string name="language">Linguaxe</string>
     <string name="show_hidden_items">Mostrar elementos ocultos</string>
     <string name="font_size">Tamaño de fuente</string>
     <string name="small">Pequeña</string>

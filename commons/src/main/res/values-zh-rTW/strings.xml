@@ -11,6 +11,7 @@
     <string name="an_error_occurred">發生錯誤: %s</string>
     <string name="open_with">以其他應用程式開啟</string>
     <string name="edit_with">用其他程式編輯</string>
+    <string name="edit">編輯</string>
     <string name="no_app_found">找不到應用程式</string>
     <string name="set_as">設為</string>
     <string name="copy_to_clipboard">複製到剪貼簿</string>
@@ -41,6 +42,8 @@
     <string name="no_access_to_contacts">該應用程式無法存取您的聯繫人</string>
     <string name="insert_text_here">在此輸入文字</string>
     <string name="call_person">打電話給 %s</string>
+    <string name="home">住家</string>
+    <string name="work">工作</string>
     <string name="change_view_type">改變瀏覽類型</string>
     <string name="grid">格狀</string>
     <string name="list">清單</string>
@@ -141,6 +144,7 @@
     <string name="confirm_storage_access_text">請在下個畫面選擇 SD 卡的上層目錄，以授予存取權限</string>
     <string name="confirm_storage_access_text_sd">如果看不到SD卡，試試這個</string>
     <string name="confirm_selection">確認選擇</string>
+    <string name="loading">正在載入…</string>
     <plurals name="items">
         <item quantity="other">%d個項目</item>
     </plurals>
@@ -233,6 +237,8 @@
     <string name="toggle_filename">顯示檔案名稱</string>
     <string name="move_to_top">移動到頂端</string>
     <string name="move_to_bottom">移動到底部</string>
+    <string name="send_sms">傳送簡訊</string>
+    <string name="call">通話</string>
     <string name="sort_by">排序</string>
     <string name="name">名稱</string>
     <string name="size">大小</string>
@@ -399,6 +405,7 @@
     <string name="customize_widget_colors">自訂小工具顏色</string>
     <string name="customize_notifications">自定義通知</string>
     <string name="use_english_language">強制使用英語</string>
+    <string name="language">語言</string>
     <string name="show_hidden_items">顯示隱藏的項目</string>
     <string name="font_size">字體大小</string>
     <string name="small">小</string>
@@ -525,6 +532,7 @@
     <string name="upgrade">升級</string>
     <string name="upgrade_calendar">您必須手動搬移儲存在本機端的活動，透過匯出 .ics 檔案再接著匯入。您可以在主畫面選單中，找到 匯出/匯入 兩個按鈕。</string>
     <string name="about">關於</string>
+    <string name="website">網站</string>
     <string name="website_label">觀看原始碼</string>
     <string name="email_label">傳送您的反饋或建議</string>
     <string name="upgrade_to_pro">升級至專業版</string>

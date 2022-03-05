@@ -10,6 +10,7 @@
     <string name="an_error_occurred">Prišlo je do napake: %s</string>
     <string name="open_with">Odpri z</string>
     <string name="edit_with">Uredi z</string>
+    <string name="edit">Uredi</string>
     <string name="no_app_found">Ni veljavne aplikacije</string>
     <string name="set_as">Nastavi kot</string>
     <string name="value_copied_to_clipboard">Vrednost kopirana v odložišče</string>
@@ -29,6 +30,8 @@
     <string name="email">E-pošta</string>
     <string name="previous">Prejšnja</string>
     <string name="next">Naslednja</string>
+    <string name="home">Doma</string>
+    <string name="work">Služba</string>
     <string name="change_view_type">Spremeni tip pogleda</string>
     <string name="grid">Mreža</string>
     <string name="list">Seznam</string>
@@ -111,6 +114,7 @@
     <string name="confirm_storage_access_title">Potrdi dostop do zunanje shrambe</string>
     <string name="confirm_storage_access_text_sd">Če ne vidite kartice SD, poskusite to</string>
     <string name="confirm_selection">Potrdi izbor</string>
+    <string name="loading">Nalaganje…</string>
     <plurals name="items">
         <item quantity="one">%d element</item>
         <item quantity="two">%d elementa</item>
@@ -201,6 +205,8 @@
     <string name="print">Natisni</string>
     <string name="create_shortcut">Ustvari bližnjico</string>
     <string name="toggle_filename">Preklopi vidljivost imen datotek</string>
+    <string name="send_sms">Pošiljanje SMS-ov</string>
+    <string name="call">Klic</string>
     <string name="sort_by">Razvrsti po</string>
     <string name="name">Ime</string>
     <string name="size">Velikost</string>
@@ -426,6 +432,7 @@
     <string name="customize_colors">Prilagodite barve</string>
     <string name="customize_widget_colors">Prilagodite barve pripomočka</string>
     <string name="use_english_language">Uporabljaj angleški jezik</string>
+    <string name="language">Jezik</string>
     <string name="show_hidden_items">Prikaži skrite elemente</string>
     <string name="font_size">Velikost pisave</string>
     <string name="small">Majhna</string>
@@ -543,6 +550,7 @@
     <string name="upgrade">Nadgradi</string>
     <string name="upgrade_calendar">Lokalno shranjene dogodke morate preseliti ročno prek izvoza v datoteko .ics, nato pa jih uvozite. Oba gumba za izvoz / uvoz najdete v meniju glavnega zaslona.</string>
     <string name="about">O aplikaciji</string>
+    <string name="website">Spletna stran</string>
     <string name="website_label">Za izvorno kodo obiščite</string>
     <string name="email_label">Svoje predloge in povratne informacije pošljite na </string>
     <string name="upgrade_to_pro">Nadgradi na Pro</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="edit">Änneren</string>
     <string name="set_as">Setzen als</string>
     <string name="unknown">Onbekannt</string>
     <string name="details">Detailer</string>
@@ -7,6 +8,8 @@
     <string name="email">E-Mail</string>
     <string name="previous">Zréck</string>
     <string name="next">Weider</string>
+    <string name="home">Doheem</string>
+    <string name="work">Aarbecht</string>
     <string name="select_photo">Foto auswielen</string>
     <string name="search">Sichen</string>
     <string name="skip">Iwwersprangen</string>
@@ -24,6 +27,7 @@
     <string name="select_all">All auswielen</string>
     <string name="undo">Réckgängeg maachen</string>
     <string name="redo">Widderhuelen</string>
+    <string name="send_sms">SMS schécken</string>
     <string name="size">Gréisst</string>
     <string name="date_taken">Ophueldatum</string>
     <string name="title">Titel</string>

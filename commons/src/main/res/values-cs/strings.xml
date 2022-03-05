@@ -11,6 +11,7 @@
     <string name="an_error_occurred">Vyskytla se chyba: %s</string>
     <string name="open_with">Otevřít pomocí</string>
     <string name="edit_with">Upravit pomocí</string>
+    <string name="edit">Editace</string>
     <string name="no_app_found">Nebyla nalezena žádná vhodná aplikace</string>
     <string name="set_as">Nastavit jako</string>
     <string name="copy_to_clipboard">Zkopírovat do schránky</string>
@@ -51,6 +52,8 @@
     <string name="seven">Sedm</string>
     <string name="eight">Osm</string>
     <string name="nine">Devět</string>
+    <string name="home">Doma</string>
+    <string name="work">Práce</string>
     <string name="change_view_type">Změnit typ zobrazení</string>
     <string name="grid">Mřížka</string>
     <string name="list">Seznam</string>
@@ -156,6 +159,7 @@
     <string name="confirm_storage_access_text_sd">Pokud nevidíte SD kartu, vyzkoušejte následující</string>
     <string name="confirm_storage_access_android_text">Na další obrazovce povolte aplikaci přístup k vybranému úložišti stisknutím tlačítka \"Použít tuto složku\" v dolní části.</string>
     <string name="confirm_selection">Potvrďte výběr</string>
+    <string name="loading">Načítání…</string>
     <plurals name="items">
         <item quantity="one">%d položka</item>
         <item quantity="few">%d položky</item>
@@ -267,6 +271,8 @@
     <string name="toggle_filename">Přepnout viditelnost názvů souborů</string>
     <string name="move_to_top">Přesunout na začátek</string>
     <string name="move_to_bottom">Přesunout na konec</string>
+    <string name="send_sms">Odeslání SMS</string>
+    <string name="call">Volání</string>
     <string name="sort_by">Seřadit dle</string>
     <string name="name">Názvu</string>
     <string name="size">Velikosti</string>
@@ -532,6 +538,7 @@
     <string name="customize_widget_colors">Přizpůsobit barvy widgetu</string>
     <string name="customize_notifications">Přizpůsobit oznámení</string>
     <string name="use_english_language">Použít anglický jazyk</string>
+    <string name="language">Jazyk</string>
     <string name="show_hidden_items">Zobrazit skryté položky</string>
     <string name="font_size">Velikost písma</string>
     <string name="small">Malé</string>
@@ -668,6 +675,7 @@
     <string name="upgrade">Upgradovat</string>
     <string name="upgrade_calendar">Musíte migrovat lokálně uložené události ručně prostřednictvím exportu do souboru .ics a následně importovat. V nabídce hlavní obrazovky naleznete tlačítka export/import.</string>
     <string name="about">O aplikaci</string>
+    <string name="website">Webová stránka</string>
     <string name="website_label">Pro zdrojové kódy navštivte</string>
     <string name="email_label">Zpětnou vazbu či návrhy posílejte na</string>
     <string name="upgrade_to_pro">Upgradovat na Pro</string>
@@ -716,6 +724,7 @@
     <string name="file_manager_short">Správce souborů</string>
     <string name="flashlight_short">Svítilna</string>
     <string name="gallery_short">Galerie</string>
+    <string name="keyboard_short">Klávesnice</string>
     <string name="music_player_short">Přehrávač hudby</string>
     <string name="notes_short">Poznámky</string>
     <string name="sms_messenger_short">SMS messenger</string>

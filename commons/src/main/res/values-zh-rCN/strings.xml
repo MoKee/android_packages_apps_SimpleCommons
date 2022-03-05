@@ -11,6 +11,7 @@
     <string name="an_error_occurred">啊哦，出错啦： %s</string>
     <string name="open_with">打开方式</string>
     <string name="edit_with">编辑方式</string>
+    <string name="edit">编辑</string>
     <string name="no_app_found">未找到可用应用</string>
     <string name="set_as">设置为</string>
     <string name="copy_to_clipboard">复制到剪贴板</string>
@@ -51,6 +52,8 @@
     <string name="seven">7</string>
     <string name="eight">8</string>
     <string name="nine">9</string>
+    <string name="home">住宅</string>
+    <string name="work">工作</string>
     <string name="change_view_type">更改视图类型</string>
     <string name="grid">网格</string>
     <string name="list">列表</string>
@@ -156,6 +159,7 @@
     <string name="confirm_storage_access_text_sd">如果您未找到 SD 卡目录，请尝试</string>
     <string name="confirm_storage_access_android_text">请允许应用访问下一屏上选定的存储，点击底部的“使用此文件夹”。</string>
     <string name="confirm_selection">确认选择</string>
+    <string name="loading">正在加载</string>
     <plurals name="items">
         <item quantity="other">%d 个项目</item>
     </plurals>
@@ -255,6 +259,8 @@
     <string name="toggle_filename">显示文件名</string>
     <string name="move_to_top">移至顶部</string>
     <string name="move_to_bottom">移至底部</string>
+    <string name="send_sms">发送短信</string>
+    <string name="call">拨打</string>
     <string name="sort_by">排序方式</string>
     <string name="name">名称</string>
     <string name="size">大小</string>
@@ -432,6 +438,7 @@
     <string name="customize_widget_colors">自定义小部件颜色</string>
     <string name="customize_notifications">自定义通知</string>
     <string name="use_english_language">强制使用英语语言</string>
+    <string name="language">语言</string>
     <string name="show_hidden_items">显示隐藏的项目</string>
     <string name="font_size">字体大小</string>
     <string name="small">小</string>
@@ -565,6 +572,7 @@
     <string name="upgrade">升级</string>
     <string name="upgrade_calendar">您必须通过导出/导入.ics文件来自行转移本地存储的事件。您可以在主界面菜单中找到导出/导入选项。</string>
     <string name="about">关于</string>
+    <string name="website">网站</string>
     <string name="website_label">应用源码</string>
     <string name="email_label">发送反馈</string>
     <string name="upgrade_to_pro">升级到专业版</string>

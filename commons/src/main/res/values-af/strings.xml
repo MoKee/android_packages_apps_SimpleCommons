@@ -2,6 +2,7 @@
 <resources>
     <string name="cancel">Kanselleer</string>
     <string name="nothing">Nothing</string>
+    <string name="edit">Redigeer</string>
     <string name="set_as">Stel as</string>
     <string name="unknown">Onbekend</string>
     <string name="never">Nooit</string>
@@ -11,6 +12,8 @@
     <string name="email">Epos</string>
     <string name="previous">Vorige</string>
     <string name="next">Volgende</string>
+    <string name="home">Tuis</string>
+    <string name="work">Werk</string>
     <string name="select_photo">Kies foto</string>
     <string name="search">Soek</string>
     <string name="skip">Slaan oor</string>
@@ -32,6 +35,8 @@
     <string name="select_all">Kies almal</string>
     <string name="undo">Ontdoen</string>
     <string name="redo">Herdoen</string>
+    <string name="send_sms">Stuur SMS/MMS</string>
+    <string name="call">Oproep</string>
     <string name="name">Naam</string>
     <string name="size">Grootte</string>
     <string name="date_taken">Datum geneem</string>
@@ -48,6 +53,7 @@
     <string name="dismiss">Verwyder</string>
     <string name="settings">Instellings</string>
     <string name="general_settings">Algemeen</string>
+    <string name="language">Taal</string>
     <string name="small">Klein</string>
     <string name="medium">Gemiddeld</string>
     <string name="widgets">Legstukke</string>

@@ -10,6 +10,7 @@
     <string name="an_error_occurred">Παρουσιάστηκε σφάλμα: %s</string>
     <string name="open_with">Άνοιγμα με</string>
     <string name="edit_with">Επεξεργασία με</string>
+    <string name="edit">Επεξεργασία</string>
     <string name="no_app_found">Δεν βρέθηκε έγκυρη εφαρμογή</string>
     <string name="set_as">Ορισμός ως</string>
     <string name="value_copied_to_clipboard">Η τιμή αντιγράφηκε στο πρόχειρο</string>
@@ -30,6 +31,8 @@
     <string name="email">Ηλεκτρονικό ταχυδρομείο</string>
     <string name="previous">Προηγούμενο</string>
     <string name="next">Επόμενο</string>
+    <string name="home">Σπίτι</string>
+    <string name="work">Εργασία</string>
     <string name="change_view_type">Αλλαγή τύπου εμφάνισης</string>
     <string name="grid">Πλέγμα</string>
     <string name="list">Λίστα</string>
@@ -112,6 +115,7 @@
     <string name="confirm_storage_access_title">Επιβεβαιώστε την πρόσβαση στην εξωτερική αποθήκευση</string>
     <string name="confirm_storage_access_text_sd">Εάν δεν βλέπετε την κάρτα SD, δοκιμάστε αυτό</string>
     <string name="confirm_selection">Επιβεβαιώστε την επιλογή</string>
+    <string name="loading">Φόρτωση…</string>
     <plurals name="items">
         <item quantity="one">%d στοιχείο</item>
         <item quantity="other">%d στοιχεία</item>
@@ -189,6 +193,8 @@
     <string name="undo">Αναίρεση</string>
     <string name="redo">Επανάληψη</string>
     <string name="toggle_filename">Αλλαγή προβολής ονόματος αρχείων</string>
+    <string name="send_sms">Αποστολή SMS</string>
+    <string name="call">Κλήση</string>
     <string name="sort_by">Ταξινόμηση κατά</string>
     <string name="name">Όνομα</string>
     <string name="size">Μέγεθος</string>
@@ -358,6 +364,7 @@
     <string name="customize_colors">Προσαρμογή χρωμάτων</string>
     <string name="customize_widget_colors">Προσαρμογή χρωμάτων widget</string>
     <string name="use_english_language">Χρήση γλώσσας English</string>
+    <string name="language">Γλώσσα</string>
     <string name="show_hidden_items">Εμφάνιση κρυφών στοιχείων</string>
     <string name="font_size">Μέγεθος κειμένου</string>
     <string name="small">Μικρό</string>
@@ -462,6 +469,7 @@
     <string name="more_info">Περισσότερα</string>
     <string name="upgrade">Αναβάθμιση</string>
     <string name="about">Σχετικά</string>
+    <string name="website">אתר</string>
     <string name="website_label">Για τον κώδικα επισκεφθείτε</string>
     <string name="email_label">Στείλτε τα σχόλιά σας ή τις προτάσεις σας</string>
     <string name="upgrade_to_pro">Αναβάθμιση στην Pro</string>

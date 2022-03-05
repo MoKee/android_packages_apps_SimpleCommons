@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="edit">সম্পাদনা</string>
     <string name="set_as">হিচাপে ছেট কৰক</string>
     <string name="unknown">অজ্ঞাত</string>
     <string name="details">বিৱৰণ</string>
@@ -7,6 +8,8 @@
     <string name="email">ইমেইল</string>
     <string name="previous">পূৰ্বৱৰ্তী</string>
     <string name="next">পৰৱৰ্তী</string>
+    <string name="home">হোম</string>
+    <string name="work">কৰ্ম</string>
     <string name="no_storage_permissions">সঞ্চয়াগাৰৰ অনুমতিৰ প্ৰয়োজন</string>
     <string name="copy">প্ৰতিলিপি</string>
     <string name="skip">বাদ দিয়া</string>
@@ -19,6 +22,7 @@
     <string name="dark_theme">আন্ধাৰ</string>
     <string name="auto_theme">স্বয়ং</string>
     <string name="custom">কাষ্টম</string>
+    <string name="send_sms">SMS প্ৰেৰণ কৰক</string>
     <string name="title">শিৰোনামা</string>
     <string name="seconds_raw">ছেকেণ্ড</string>
     <string name="minutes_raw">মিনিটসমূহ</string>

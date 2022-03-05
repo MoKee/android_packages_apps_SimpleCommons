@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="edit">تەھرىرلەش</string>
     <string name="set_as">تەڭشىكى</string>
     <string name="unknown">نامەلۇم</string>
     <string name="never">ھەرگىز</string>
@@ -8,6 +9,8 @@
     <string name="email">ئېلخەت</string>
     <string name="previous">ئالدىنقى</string>
     <string name="next">كېيىنكى</string>
+    <string name="home">باش ئېكران</string>
+    <string name="work">ئىش</string>
     <string name="select_photo">سۈرەت تاللاڭ</string>
     <string name="search">ئىزدە</string>
     <string name="skip">ئاتلاش</string>
@@ -25,6 +28,7 @@
     <string name="select_all">ھەممىنى تاللا</string>
     <string name="undo">يېنىۋال</string>
     <string name="redo">قايتىلا</string>
+    <string name="send_sms">قىسقا ئۇچۇر يوللا</string>
     <string name="size">چوڭلۇقى</string>
     <string name="date_taken">تارتىلغان چېسلا</string>
     <string name="title">ماۋزۇ</string>

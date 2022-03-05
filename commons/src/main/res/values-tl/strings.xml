@@ -3,6 +3,7 @@
     <string name="ok">OK</string>
     <string name="cancel">Kanselahin</string>
     <string name="nothing">Nothing</string>
+    <string name="edit">I-edit</string>
     <string name="set_as">Itakda bilang</string>
     <string name="unknown">Hindi tiyak</string>
     <string name="never">Hindi kailanman</string>
@@ -13,12 +14,15 @@
     <string name="email">Email</string>
     <string name="previous">Nakaraan</string>
     <string name="next">Susunod</string>
+    <string name="home">Tahanan</string>
+    <string name="work">Gawain</string>
     <string name="select_photo">Pumili ng larawan</string>
     <string name="favorites">Mga paborito</string>
     <string name="add_to_favorites">Idagdag sa mga paborito</string>
     <string name="search">Hanapin</string>
     <string name="folder">Folder</string>
     <string name="skip">Laktawan</string>
+    <string name="loading">Nagloload…</string>
     <string name="path">Daanan</string>
     <string name="duration">Tagal</string>
     <string name="exposure_time">Tagal exposure</string>
@@ -40,6 +44,8 @@
     <string name="select_all">Piliin lahat</string>
     <string name="undo">I-undo</string>
     <string name="redo">I-redo</string>
+    <string name="send_sms">Magpadala ng SMS</string>
+    <string name="call">Tawagan</string>
     <string name="name">Pangalan</string>
     <string name="size">Laki</string>
     <string name="date_taken">Petsa kung kailan kinuha</string>
@@ -56,6 +62,7 @@
     <string name="dismiss">Alisin</string>
     <string name="settings">Mga setting</string>
     <string name="general_settings">Pangkalahatan</string>
+    <string name="language">Wika</string>
     <string name="medium">Ang kaayusan</string>
     <string name="widgets">Mga Widget</string>
     <string name="visibility">Nakikita</string>

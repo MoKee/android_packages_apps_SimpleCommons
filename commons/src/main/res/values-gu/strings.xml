@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="nothing">Nothing</string>
+    <string name="edit">સંપાદિત કરો</string>
     <string name="set_as">તરીકે સેટ કરો</string>
     <string name="unknown">અજાણ્યો</string>
     <string name="details">વિગતો</string>
@@ -8,6 +9,8 @@
     <string name="email">ઇમેઇલ</string>
     <string name="previous">પાછળ</string>
     <string name="next">આગામી</string>
+    <string name="home">ઘર</string>
+    <string name="work">કાર્યાલય</string>
     <string name="skip">છોડી દો</string>
     <string name="path">પાથ</string>
     <string name="duration">અવધિ</string>
@@ -21,6 +24,7 @@
     <string name="remove">દૂર કરો</string>
     <string name="undo">પૂર્વવત્ કરો</string>
     <string name="redo">ફરી કરો</string>
+    <string name="send_sms">SMS મોકલો</string>
     <string name="size">કદ</string>
     <string name="date_taken">લેવાયાની તારીખ</string>
     <string name="title">શીર્ષક</string>

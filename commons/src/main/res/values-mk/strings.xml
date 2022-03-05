@@ -13,6 +13,7 @@
     <string name="rename">Реименувај</string>
     <string name="undo">Врати</string>
     <string name="redo">Повтори</string>
+    <string name="call">Повик</string>
     <string name="name">Име</string>
     <string name="size">Големина</string>
     <string name="date_taken">Направени на датум</string>

@@ -11,6 +11,7 @@
     <string name="an_error_occurred">Đã xảy ra lỗi: %s</string>
     <string name="open_with">Mở bằng</string>
     <string name="edit_with">Chỉnh sửa với</string>
+    <string name="edit">Chỉnh sửa</string>
     <string name="no_app_found">Không có ứng dụng hợp lệ</string>
     <string name="set_as">Đặt làm</string>
     <string name="copy_to_clipboard">Sao chép vào khay nhớ tạm</string>
@@ -40,6 +41,8 @@
     <string name="request_the_required_permissions">Xin cấp quyền yêu cầu</string>
     <string name="no_access_to_contacts">Ứng dụng không thể truy cập danh bạ của bạn</string>
     <string name="insert_text_here">Chèn văn bản ở đây</string>
+    <string name="home">Ở nhà</string>
+    <string name="work">Văn phòng</string>
     <string name="change_view_type">Change view type</string>
     <string name="grid">Lưới</string>
     <string name="list">List</string>
@@ -138,6 +141,7 @@
     <string name="confirm_storage_access_text">Vui lòng chọn thư mục trên cùng của thẻ SD trên màn hình tiếp theo, để cấp quyền truy cập ghi</string>
     <string name="confirm_storage_access_text_sd">Nếu không có thẻ SD, hãy thử cái này</string>
     <string name="confirm_selection">Xác nhận lựa chọn</string>
+    <string name="loading">Đang tải…</string>
     <plurals name="items">
         <item quantity="other">%d mục [one] [other]</item>
     </plurals>
@@ -234,6 +238,8 @@
     <string name="toggle_filename">Toggle filename visibility</string>
     <string name="move_to_top">Di chuyển lên đầu</string>
     <string name="move_to_bottom">Di chuyển xuống cuối</string>
+    <string name="send_sms">Gửi tin nhắn SMS</string>
+    <string name="call">Gọi</string>
     <string name="sort_by">Sắp xếp theo</string>
     <string name="name">Tên: </string>
     <string name="size">Kích thước</string>
@@ -407,6 +413,7 @@
     <string name="customize_widget_colors">Tùy chỉnh màu widget</string>
     <string name="customize_notifications">Tùy chỉnh thông báo</string>
     <string name="use_english_language">Sử dụng tiếng Anh</string>
+    <string name="language">Ngôn ngữ</string>
     <string name="show_hidden_items">Hiện mục ẩn</string>
     <string name="font_size">Cỡ chữ</string>
     <string name="small">Nhỏ</string>
@@ -535,6 +542,7 @@
     <string name="upgrade">Nâng cấp</string>
     <string name="upgrade_calendar">Bạn phải di chuyển thủ công các sự kiện được lưu trữ cục bộ thông qua xuất trong tệp .ics, sau đó nhập. Bạn có thể tìm thấy cả hai nút xuất/nhập ở menu màn hình chính.</string>
     <string name="about">Thông tin</string>
+    <string name="website">Trang web</string>
     <string name="website_label">Đối với các mã nguồn truy cập</string>
     <string name="email_label">Gửi phản hồi hoặc đề xuất của bạn tới</string>
     <string name="upgrade_to_pro">Nâng cấp lên Pro</string>

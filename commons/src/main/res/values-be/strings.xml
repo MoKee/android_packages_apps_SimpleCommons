@@ -3,6 +3,7 @@
     <string name="ok">ОК</string>
     <string name="cancel">Скасаваць</string>
     <string name="nothing">Нічога</string>
+    <string name="edit">Рэдагаваць</string>
     <string name="set_as">Усталяваць як</string>
     <string name="unknown">Невядома</string>
     <string name="never">Ніколі</string>
@@ -14,12 +15,15 @@
     <string name="email">Электронная пошта</string>
     <string name="previous">Папярэдні трэк</string>
     <string name="next">Далей</string>
+    <string name="home">На Галоўную старонку</string>
+    <string name="work">Праца</string>
     <string name="select_photo">Выбраць фота</string>
     <string name="favorites">Абранае</string>
     <string name="add_to_favorites">Дадаць у абранае</string>
     <string name="search">Пошук</string>
     <string name="folder">Тэчка</string>
     <string name="skip">Прапусціць</string>
+    <string name="loading">Загрузка…</string>
     <string name="sd_card">SD-картка</string>
     <string name="path">Шлях</string>
     <string name="duration">Працягласць</string>
@@ -43,6 +47,8 @@
     <string name="select_all">Выбраць усё</string>
     <string name="undo">Адмяніць</string>
     <string name="redo">Паўтарыць</string>
+    <string name="send_sms">Адпраўка SMS</string>
+    <string name="call">Выклік</string>
     <string name="name">Імя</string>
     <string name="size">Памер</string>
     <string name="date_taken">Дата здымкі</string>
@@ -60,6 +66,7 @@
     <string name="dismiss">Адхіліць</string>
     <string name="settings">Налады</string>
     <string name="general_settings">Агульнае</string>
+    <string name="language">Мова</string>
     <string name="small">Маленькі</string>
     <string name="medium">Сярэдні</string>
     <string name="large">Вялікі</string>
@@ -79,6 +86,7 @@
     <string name="saturday_letter">Пд</string>
     <string name="sunday_letter">Пд</string>
     <string name="about">Аб праграме</string>
+    <string name="website">Сайт</string>
     <string name="rate">Адзнака</string>
     <string name="donate">Ахвяраваць</string>
     <string name="other">Iншае</string>

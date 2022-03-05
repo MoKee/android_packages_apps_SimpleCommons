@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="ok">ٹھیک ہے</string>
+    <string name="edit">ترمیم کریں</string>
     <string name="none">کوئی نہیں</string>
     <string name="notification">پیغام</string>
     <string name="auto_theme">خودکار</string>

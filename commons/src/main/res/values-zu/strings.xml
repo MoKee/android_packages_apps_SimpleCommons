@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="edit">Hlela</string>
     <string name="set_as">Hlela njenge</string>
     <string name="unknown">Akwaziwa</string>
     <string name="details">Imininingwane</string>

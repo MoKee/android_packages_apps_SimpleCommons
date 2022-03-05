@@ -3,6 +3,7 @@
     <string name="ok">Aceutar</string>
     <string name="cancel">Encaboxar</string>
     <string name="nothing">Nada</string>
+    <string name="edit">Editar</string>
     <string name="set_as">Afitar como</string>
     <string name="never">Enxamás</string>
     <string name="details">Detalles</string>
@@ -11,10 +12,13 @@
     <string name="email">Corréu</string>
     <string name="previous">Anterior</string>
     <string name="next">Siguiente</string>
+    <string name="home">Home</string>
+    <string name="work">Trabayu</string>
     <string name="search">Guetar</string>
     <string name="copy">Copiar</string>
     <string name="folder">Carpeta</string>
     <string name="skip">Saltar</string>
+    <string name="loading">Cargando…</string>
     <string name="sd_card">Tarxeta SD</string>
     <string name="duration">Duración</string>
     <string name="exposure_time">Tiempu d\'esposición</string>
@@ -30,6 +34,8 @@
     <string name="rename">Renomar</string>
     <string name="share">Compartir</string>
     <string name="share_via">Compartir per</string>
+    <string name="send_sms">Unviar SMS</string>
+    <string name="call">Llamada</string>
     <string name="name">Nome:</string>
     <string name="do_not_show_again">Nun amosar de nueves</string>
     <string name="yes">Sí</string>
@@ -41,6 +47,7 @@
     <string name="dismiss">Escartar</string>
     <string name="settings">Axustes</string>
     <string name="general_settings">Xeneral</string>
+    <string name="language">Llingua</string>
     <string name="medium">Media</string>
     <string name="text">Testu</string>
     <string name="usb">USB</string>

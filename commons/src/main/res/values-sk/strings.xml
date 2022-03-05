@@ -11,6 +11,7 @@
     <string name="an_error_occurred">Došlo k chybe: %s</string>
     <string name="open_with">Otvoriť pomocou</string>
     <string name="edit_with">Upraviť s</string>
+    <string name="edit">Upraviť</string>
     <string name="no_app_found">Nenašla sa žiadna vhodná aplikácia</string>
     <string name="set_as">Nastaviť ako</string>
     <string name="copy_to_clipboard">kopírovať do schránky</string>
@@ -40,6 +41,8 @@
     <string name="request_the_required_permissions">Vyžiadať požadované povolenia</string>
     <string name="no_access_to_contacts">Aplikácia nemohla získať prístup k vašim kontaktom</string>
     <string name="insert_text_here">Tu zadajte text</string>
+    <string name="home">Domov</string>
+    <string name="work">Práca</string>
     <string name="change_view_type">Zmeniť typ zobrazenia</string>
     <string name="grid">Mriežka</string>
     <string name="list">Zoznam</string>
@@ -138,6 +141,7 @@
     <string name="confirm_storage_access_text">Pre poskytnutie práva na zápis prosím zvoľte na nasledujúcej obrazovke základný priečǐnok SD karty</string>
     <string name="confirm_storage_access_text_sd">Ak nevidíte SD kartu, skúste toto</string>
     <string name="confirm_selection">Potvrdiť výber</string>
+    <string name="loading">Načítavanie…</string>
     <plurals name="items">
         <item quantity="one">%d položka</item>
         <item quantity="few">%d položky</item>
@@ -248,6 +252,8 @@
     <string name="toggle_filename">Prepnúť viditeľnosť názvov súborov</string>
     <string name="move_to_top">Presunúť na začiatok</string>
     <string name="move_to_bottom">Presunúť na koniec</string>
+    <string name="send_sms">Odoslať SMS</string>
+    <string name="call">Volanie</string>
     <string name="sort_by">Na zoradenie použiť</string>
     <string name="name">Názov</string>
     <string name="size">Veľkosť</string>
@@ -508,6 +514,7 @@
     <string name="customize_widget_colors">Upraviť farby widgetov</string>
     <string name="customize_notifications">Prispôsobiť upozornenia</string>
     <string name="use_english_language">Použiť angličtinu</string>
+    <string name="language">Jazyk</string>
     <string name="show_hidden_items">Zobraziť skryté položky</string>
     <string name="font_size">Veľkosť písma</string>
     <string name="small">Malé</string>
@@ -639,6 +646,7 @@
     <string name="upgrade">Stiahnuť</string>
     <string name="upgrade_calendar">Lokálne uložené udalosti musíte exportovať manuálne do .ics súboru, následne importovať. Tlačidlá pre exportovanie/importovanie nájdete v menu hlavnej obrazovky.</string>
     <string name="about">O aplikácií</string>
+    <string name="website">Webové stránky</string>
     <string name="website_label">Pre zdrojové kódy navštívte</string>
     <string name="email_label">Odozvu a návrhy posielajte na</string>
     <string name="upgrade_to_pro">Stiahnuť Pro verziu</string>

@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">OK</string>
     <string name="cancel">Batal</string>
+    <string name="edit">Ubah</string>
     <string name="set_as">Tetapkan sebagai</string>
     <string name="unknown">Tidak diketahui</string>
     <string name="never">Tidak pernah</string>
@@ -11,6 +12,8 @@
     <string name="email">E-mel</string>
     <string name="previous">Sebelumnya</string>
     <string name="next">Selepas</string>
+    <string name="home">Rumah</string>
+    <string name="work">Tempat Kerja</string>
     <string name="select_photo">Pilih foto</string>
     <string name="favorites">Kegemaran</string>
     <string name="add_to_favorites">Tambahkan ke dalam kegemaran</string>
@@ -30,6 +33,7 @@
     <string name="select_all">Pilih semua</string>
     <string name="undo">Buat asal</string>
     <string name="redo">Buat semula</string>
+    <string name="call">Panggil</string>
     <string name="size">Saiz</string>
     <string name="date_taken">Tarikh diambil</string>
     <string name="title">Tajuk</string>

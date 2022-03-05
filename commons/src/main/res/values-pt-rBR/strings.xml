@@ -10,6 +10,7 @@
     <string name="an_error_occurred">Ocorreu um erro: %s</string>
     <string name="open_with">Abrir com</string>
     <string name="edit_with">Editar com</string>
+    <string name="edit">Editar</string>
     <string name="no_app_found">Nenhum aplicativo encontrado</string>
     <string name="set_as">Definir como</string>
     <string name="copy_to_clipboard">Copiar para área de transferência</string>
@@ -37,6 +38,8 @@
     <string name="request_the_required_permissions">Solicite as permissões necessárias</string>
     <string name="no_access_to_contacts">O aplicativo não pôde acessar seus contatos</string>
     <string name="insert_text_here">Inserir texto aqui</string>
+    <string name="home">Casa</string>
+    <string name="work">Trabalho</string>
     <string name="change_view_type">Alterar modo de visualização</string>
     <string name="grid">Grade</string>
     <string name="list">Lista</string>
@@ -135,6 +138,7 @@
     <string name="confirm_storage_access_text">Por favor escolha a pasta raiz do cartão SD no próximo passo para conceder acesso de escrita</string>
     <string name="confirm_storage_access_text_sd">Se você não encontrar o cartão SD, tente isto</string>
     <string name="confirm_selection">Confirmar seleção</string>
+    <string name="loading">Carregando…</string>
     <plurals name="items">
         <item quantity="one">%d item</item>
         <item quantity="other">%d itens</item>
@@ -228,6 +232,8 @@
     <string name="create_shortcut">Criar atalho</string>
     <string name="add_number_to_contact">Adicionar número ao contato</string>
     <string name="toggle_filename">Mostrar/ocultar nome do arquivo</string>
+    <string name="send_sms">Enviar SMS</string>
+    <string name="call">Chamada</string>
     <string name="sort_by">Ordenar por</string>
     <string name="name">Nome</string>
     <string name="size">Tamanho</string>
@@ -419,6 +425,7 @@
     <string name="customize_colors">Personalizar cores</string>
     <string name="customize_widget_colors">Personalizar cores do widget</string>
     <string name="use_english_language">Usar o idioma inglês</string>
+    <string name="language">Idioma</string>
     <string name="show_hidden_items">Mostrar itens ocultos</string>
     <string name="font_size">Tamanho do texto</string>
     <string name="small">Pequeno</string>
@@ -544,6 +551,7 @@
     <string name="upgrade">Atualizar</string>
     <string name="upgrade_calendar">Você precisa migrar eventos armazenados localmente manualmente através da exportação em um arquivo .ics, e então importar. Você pode encontrar os botões de exportação/importação no menu principal da tela.</string>
     <string name="about">Sobre</string>
+    <string name="website">Site</string>
     <string name="website_label">Mais aplicativos Simple e código-fonte em</string>
     <string name="email_label">Envie os seus comentários ou sugestões para</string>
     <string name="upgrade_to_pro">Atualizar para PRO</string>

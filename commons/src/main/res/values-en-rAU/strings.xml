@@ -3,6 +3,7 @@
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
     <string name="nothing">Nothing</string>
+    <string name="edit">Edit</string>
     <string name="set_as">Set as</string>
     <string name="unknown">Unknown</string>
     <string name="never">Never</string>
@@ -11,6 +12,8 @@
     <string name="email">Email</string>
     <string name="previous">Previous</string>
     <string name="next">Next</string>
+    <string name="home">Home</string>
+    <string name="work">Work</string>
     <string name="copy">Copy</string>
     <string name="skip">Skip</string>
     <string name="sd_card">SD Card</string>
@@ -23,6 +26,7 @@
     <string name="auto_theme">Auto</string>
     <string name="custom">Customise</string>
     <string name="rename">Rename</string>
+    <string name="send_sms">Send SMS</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="seconds_raw">seconds</string>
@@ -30,6 +34,7 @@
     <string name="hours_raw">hours</string>
     <string name="snooze">Snooze</string>
     <string name="dismiss">Dismiss</string>
+    <string name="language">Language</string>
     <string name="medium">Medium</string>
     <string name="usb">USB</string>
     <string name="donate">Donate</string>

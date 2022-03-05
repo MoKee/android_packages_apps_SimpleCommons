@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="edit">संपादित करा</string>
     <string name="set_as">हे म्हणून सेट करा</string>
     <string name="unknown">अज्ञात</string>
     <string name="details">तपशील</string>
@@ -7,6 +8,8 @@
     <string name="email">ईमेल करा</string>
     <string name="previous">मागील</string>
     <string name="next">पुढील</string>
+    <string name="home">मुखपृष्ठ</string>
+    <string name="work">कार्य</string>
     <string name="skip">वगळा</string>
     <string name="path">मार्ग</string>
     <string name="duration">कालावधी</string>
@@ -20,6 +23,7 @@
     <string name="remove">काढा</string>
     <string name="undo">पूर्ववत करा</string>
     <string name="redo">पुन्हा करा</string>
+    <string name="send_sms">SMS पाठवा</string>
     <string name="size">आकार</string>
     <string name="date_taken">तारीख घेतली</string>
     <string name="title">शीर्षक</string>

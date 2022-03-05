@@ -4,6 +4,7 @@
     <string name="cancel">Չեղարկել</string>
     <string name="nothing">Nothing</string>
     <string name="save_as">Պահել ինչպես</string>
+    <string name="edit">Խմբագրել</string>
     <string name="set_as">Սահմանել որպես</string>
     <string name="unknown">Անհայտ</string>
     <string name="always">Միշտ</string>
@@ -14,6 +15,7 @@
     <string name="label">Պիտակ</string>
     <string name="notification">Ծանուցում</string>
     <string name="email">Էլ. փոստ.</string>
+    <string name="home">Հիմնական</string>
     <string name="select_photo">Ընտրել լուսանկար</string>
     <string name="search">Որոնել</string>
     <string name="filter">Ֆիլտր</string>

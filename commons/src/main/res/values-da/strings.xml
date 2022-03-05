@@ -10,6 +10,7 @@
     <string name="an_error_occurred">Der opstod en fejl: %s</string>
     <string name="open_with">Åbn med</string>
     <string name="edit_with">Rediger med</string>
+    <string name="edit">Redigér</string>
     <string name="no_app_found">Der blev ikke fundet en gyldig app</string>
     <string name="set_as">Anvend som</string>
     <string name="value_copied_to_clipboard">Værdi kopieret til udklipsholder</string>
@@ -29,6 +30,8 @@
     <string name="email">E-mail</string>
     <string name="previous">Forrige</string>
     <string name="next">Næste</string>
+    <string name="home">Hjem</string>
+    <string name="work">Arbejde</string>
     <string name="change_view_type">Skift visning</string>
     <string name="grid">Gitter</string>
     <string name="list">Liste</string>
@@ -109,6 +112,7 @@
     <string name="confirm_storage_access_title">Bekræft adgang til eksternt lager</string>
     <string name="confirm_storage_access_text_sd">Hvis ikke du kan se SD-kortet kan du prøve dette</string>
     <string name="confirm_selection">Bekræft valg</string>
+    <string name="loading">Indlæser...</string>
     <plurals name="items">
         <item quantity="one">%d element</item>
         <item quantity="other">%d elementer</item>
@@ -186,6 +190,8 @@
     <string name="undo">Fortryd</string>
     <string name="redo">Annuller fortryd</string>
     <string name="toggle_filename">Skift filnavnets synlinghed</string>
+    <string name="send_sms">Send SMS/MMS</string>
+    <string name="call">Opkald</string>
     <string name="sort_by">Sorter efter</string>
     <string name="name">Navn</string>
     <string name="size">Størrelse</string>
@@ -348,6 +354,7 @@
     <string name="general_settings">Generelt</string>
     <string name="customize_colors">Rediger farver</string>
     <string name="customize_widget_colors">Rediger widget-farver</string>
+    <string name="language">Sprog</string>
     <string name="show_hidden_items">Vis skjulte elementer</string>
     <string name="font_size">Skriftstørrelse</string>
     <string name="small">Lille</string>

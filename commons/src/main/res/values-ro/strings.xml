@@ -4,6 +4,7 @@
     <string name="cancel">Anulează</string>
     <string name="nothing">Nimic</string>
     <string name="edit_with">Editați cu</string>
+    <string name="edit">Editează / Editare</string>
     <string name="set_as">Setaţi ca</string>
     <string name="unknown">Necunoscut</string>
     <string name="always">Mereu</string>
@@ -18,6 +19,8 @@
     <string name="email">Email</string>
     <string name="previous">Anterior</string>
     <string name="next">Următoarea</string>
+    <string name="home">Acasă</string>
+    <string name="work">Serviciu</string>
     <string name="grid">Grilă</string>
     <string name="list">Listă</string>
     <string name="select_photo">Selectaţi fotografie</string>
@@ -42,6 +45,7 @@
     <string name="select_folder">Selectează dosar</string>
     <string name="select_file">Selectează un fișier</string>
     <string name="confirm_selection">Confirmați selecția</string>
+    <string name="loading">Se încarcă…</string>
     <string name="sd_card">Card SD</string>
     <string name="path">Cale</string>
     <string name="duration">Durată</string>
@@ -68,6 +72,8 @@
     <string name="select_all">Selectaţi-le pe toate</string>
     <string name="undo">Anulați</string>
     <string name="redo">Repetaţi</string>
+    <string name="send_sms">Trimite SMS</string>
+    <string name="call">Apel</string>
     <string name="name">Nume: </string>
     <string name="size">Dimensiune</string>
     <string name="date_taken">Data realizării</string>
@@ -88,6 +94,7 @@
     <string name="dismiss">Renunţaţi</string>
     <string name="settings">Setări</string>
     <string name="general_settings">General</string>
+    <string name="language">Limba</string>
     <string name="small">Mic</string>
     <string name="medium">Medie</string>
     <string name="widgets">Widgeturi</string>
@@ -107,6 +114,7 @@
     <string name="saturday_letter">S</string>
     <string name="sunday_letter">S</string>
     <string name="about">Despre</string>
+    <string name="website">Site web</string>
     <string name="rate">Evaluaţi</string>
     <string name="donate">Doneaza</string>
     <string name="other">Altele</string>

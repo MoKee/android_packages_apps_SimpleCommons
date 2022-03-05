@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">ശരി</string>
     <string name="cancel">റദ്ദാക്കുക</string>
+    <string name="edit">തിരുത്തുക</string>
     <string name="set_as">ഇതായി സജ്ജീകരിക്കുക</string>
     <string name="unknown">ലഭ്യമല്ല</string>
     <string name="never">ഇതുവരെയില്ല</string>
@@ -11,6 +12,8 @@
     <string name="email">ഇമെയിൽ</string>
     <string name="previous">മുമ്പത്തെ</string>
     <string name="next">അടുത്തത്</string>
+    <string name="home">ഹോം</string>
+    <string name="work">ഔദ്യോഗികവിലാസം</string>
     <string name="skip">ഒഴിവാക്കുക</string>
     <string name="path">പാത്ത്</string>
     <string name="duration">ദൈർഘ്യം</string>
@@ -24,6 +27,7 @@
     <string name="remove">നീക്കംചെയ്യുക</string>
     <string name="undo">പഴയപടിയാക്കുക</string>
     <string name="redo">വീണ്ടും ചെയ്യുക</string>
+    <string name="send_sms">SMS അയയ്ക്കുക</string>
     <string name="size">വലുപ്പം</string>
     <string name="date_taken">എടുത്ത തീയതി</string>
     <string name="title">തലക്കെട്ട്</string>

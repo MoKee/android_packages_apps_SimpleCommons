@@ -10,6 +10,7 @@
     <string name="an_error_occurred">حدث خطأ ما: %s</string>
     <string name="open_with">فتح باستخدام</string>
     <string name="edit_with">تعديل باستخدام</string>
+    <string name="edit">تعديل</string>
     <string name="no_app_found">لم يتم العثور على تطبيق صالح</string>
     <string name="set_as">تعيين كـ</string>
     <string name="value_copied_to_clipboard">تم نسخ القيمة إلى الحافظة</string>
@@ -30,6 +31,8 @@
     <string name="email">البريد الإلكتروني</string>
     <string name="previous">السابق</string>
     <string name="next">التالي</string>
+    <string name="home">المنزل</string>
+    <string name="work">العمل</string>
     <string name="change_view_type">تغيير طريقة العرض</string>
     <string name="grid">الشبكة</string>
     <string name="list">القائمة</string>
@@ -118,6 +121,7 @@
     <string name="confirm_storage_access_text">الرجاء اختيار المجلد الجذر لجهاز SD على الشاشة التالية، لمنح حق الوصول</string>
     <string name="confirm_storage_access_text_sd">إذا كنت لا ترى بطاقة SD، جرب هذا</string>
     <string name="confirm_selection">تأكيد الاختيار</string>
+    <string name="loading">جاري التحميل…</string>
     <plurals name="items">
         <item quantity="zero">العناصر %d</item>
         <item quantity="one">عنصر %d</item>
@@ -218,6 +222,8 @@
     <string name="print">طباعة</string>
     <string name="create_shortcut">إنشاء اختصار</string>
     <string name="toggle_filename">تبديل رؤية اسم الملف</string>
+    <string name="send_sms">إرسال الرسالة النصية القصيرة</string>
+    <string name="call">اتّصل</string>
     <string name="sort_by">الفرز حسب</string>
     <string name="name">الإسم:</string>
     <string name="size">الحجم</string>
@@ -521,6 +527,7 @@
     <string name="customize_colors">تخصيص الألوان</string>
     <string name="customize_widget_colors">تخصيص ألوان أداة الشاشة</string>
     <string name="use_english_language">استخدام اللغة الإنجليزية</string>
+    <string name="language">اللغة</string>
     <string name="show_hidden_items">إظهار العناصر المخفية</string>
     <string name="font_size">حجم الخط</string>
     <string name="small">صغير</string>
@@ -646,6 +653,7 @@
     <string name="upgrade">ترقية</string>
     <string name="upgrade_calendar">يجب عليك ترحيل الأحداث المخزنة محليًا يدويًا عبر التصدير في ملف .ics ، ثم الاستيراد. يمكنك العثور على أزرار التصدير/الاستيراد في قائمة الشاشة الرئيسية.</string>
     <string name="about">حول</string>
+    <string name="website">الموقع</string>
     <string name="website_label">للحصول على رموز المصدر زيارة</string>
     <string name="email_label">أرسل تعليقات أو اقتراحات إلى</string>
     <string name="upgrade_to_pro">الترقية إلى الإصدار المحترف</string>

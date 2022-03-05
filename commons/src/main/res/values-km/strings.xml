@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="edit">កែ</string>
     <string name="set_as">កំណត់​ជា</string>
     <string name="unknown">មិន​ស្គាល់</string>
     <string name="details">សេចក្ដី​លម្អិត</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="edit">ویرایش</string>
     <string name="set_as">تنظیم به‌عنوان</string>
     <string name="unknown">ناشناس</string>
     <string name="never">هرگز</string>
@@ -12,10 +13,13 @@
     <string name="email">ایمیل</string>
     <string name="previous">قبلی</string>
     <string name="next">بعدی</string>
+    <string name="home">خانه</string>
+    <string name="work">کار</string>
     <string name="select_photo">انتخاب عکس</string>
     <string name="search">جستجو</string>
     <string name="folder">پوشه</string>
     <string name="skip">رد شدن</string>
+    <string name="loading">در حال بارگذاری…</string>
     <string name="path">مسیر</string>
     <string name="duration">مدت</string>
     <string name="exposure_time">زمان نوردهی</string>
@@ -32,6 +36,7 @@
     <string name="select_all">انتخاب همه</string>
     <string name="undo">واگرد</string>
     <string name="redo">انجام مجدد</string>
+    <string name="send_sms">ارسال پیامک</string>
     <string name="name">نام:</string>
     <string name="size">اندازه</string>
     <string name="date_taken">تاریخ عکس‌برداری</string>

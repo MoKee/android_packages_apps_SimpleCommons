@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="nothing">Nothing</string>
+    <string name="edit">Edit</string>
     <string name="unknown">Unknown</string>
     <string name="never">Never</string>
     <string name="none">কোনো কিছুই নয়</string>
@@ -12,6 +13,7 @@
     <string name="remove">সরান</string>
     <string name="undo">পূর্বাবস্থায় ফিরুন</string>
     <string name="redo">পুনরায় করুন</string>
+    <string name="send_sms">এসএমএস প্রেরণ</string>
     <string name="size">আকার</string>
     <string name="date_taken">তোলার তারিখ</string>
     <string name="yes">হ্যাঁ</string>

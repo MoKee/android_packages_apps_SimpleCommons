@@ -10,6 +10,7 @@
     <string name="an_error_occurred">Ett fel har uppstått: %s</string>
     <string name="open_with">Öppna med</string>
     <string name="edit_with">Redigera med</string>
+    <string name="edit">Redigera</string>
     <string name="no_app_found">Ingen giltig app hittades</string>
     <string name="set_as">Använd som</string>
     <string name="value_copied_to_clipboard">Värdet har kopierats till Urklipp</string>
@@ -30,6 +31,8 @@
     <string name="email">E-post</string>
     <string name="previous">Föregående</string>
     <string name="next">Nästa</string>
+    <string name="home">Hemma</string>
+    <string name="work">Jobb</string>
     <string name="change_view_type">Ändra vy</string>
     <string name="grid">Rutnät</string>
     <string name="list">Lista</string>
@@ -111,6 +114,7 @@
     <string name="confirm_storage_access_title">Bekräfta åtkomst till extern lagring</string>
     <string name="confirm_storage_access_text_sd">Om du inte ser SD-kortet, prova detta</string>
     <string name="confirm_selection">Bekräfta val</string>
+    <string name="loading">Laddar…</string>
     <plurals name="items">
         <item quantity="one">%d objekt</item>
         <item quantity="other">%d objekt</item>
@@ -188,6 +192,8 @@
     <string name="undo">Ångra</string>
     <string name="redo">Gör om</string>
     <string name="toggle_filename">Visa/dölj filnamn</string>
+    <string name="send_sms">Skicka SMS</string>
+    <string name="call">Ring</string>
     <string name="sort_by">Sortera efter</string>
     <string name="name">Namn</string>
     <string name="size">Storlek</string>
@@ -355,6 +361,7 @@
     <string name="customize_colors">Anpassa färger</string>
     <string name="customize_widget_colors">Anpassa widgetens färger</string>
     <string name="use_english_language">Använd engelska</string>
+    <string name="language">Språk</string>
     <string name="show_hidden_items">Visa dolda objekt</string>
     <string name="font_size">Teckenstorlek</string>
     <string name="small">Liten</string>
@@ -446,6 +453,7 @@
     <string name="saturday_short">Lör</string>
     <string name="sunday_short">Sön</string>
     <string name="about">Om</string>
+    <string name="website">Webbplats</string>
     <string name="website_label">Du hittar källkoden på</string>
     <string name="email_label">Skicka dina synpunkter och förslag till</string>
     <string name="share_text">Hej, läs om %1$s på %2$s</string>

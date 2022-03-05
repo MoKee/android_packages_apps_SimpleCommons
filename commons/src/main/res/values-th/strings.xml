@@ -2,6 +2,7 @@
 <resources>
     <string name="ok">ตกลง</string>
     <string name="cancel">ยกเลิก</string>
+    <string name="edit">แก้ไข</string>
     <string name="set_as">ตั้งค่าเป็น</string>
     <string name="unknown">ไม่รู้จัก</string>
     <string name="details">รายละเอียด</string>
@@ -9,6 +10,8 @@
     <string name="email">อีเมล</string>
     <string name="previous">ก่อนหน้า</string>
     <string name="next">ถัดไป</string>
+    <string name="home">บ้าน</string>
+    <string name="work">งาน</string>
     <string name="select_photo">เลือกรูปภาพ</string>
     <string name="search">ค้นหา</string>
     <string name="skip">ข้าม</string>
@@ -27,6 +30,8 @@
     <string name="select_all">เลือกทั้งหมด</string>
     <string name="undo">เลิกทำ</string>
     <string name="redo">ทำซ้ำ</string>
+    <string name="send_sms">ส่งข้อความ SMS</string>
+    <string name="call">โทรออก</string>
     <string name="size">ขนาด</string>
     <string name="date_taken">วันที่ถ่าย</string>
     <string name="title">ชื่อเรื่อง</string>

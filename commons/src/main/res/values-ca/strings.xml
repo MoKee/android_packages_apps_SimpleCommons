@@ -10,6 +10,7 @@
     <string name="an_error_occurred">Ha ocorregut un error: %s</string>
     <string name="open_with">Obrir amb</string>
     <string name="edit_with">Editar amb</string>
+    <string name="edit">Edita</string>
     <string name="no_app_found">No s\'ha trobat una aplicació vàlida</string>
     <string name="set_as">Establir com</string>
     <string name="value_copied_to_clipboard">Valor copiat al portaretalls</string>
@@ -29,6 +30,8 @@
     <string name="email">Correu electrònic</string>
     <string name="previous">Anterior</string>
     <string name="next">Següent</string>
+    <string name="home">Casa</string>
+    <string name="work">Feina</string>
     <string name="change_view_type">Canviar el tipus de vista</string>
     <string name="grid">Reixeta</string>
     <string name="list">Llista</string>
@@ -111,6 +114,7 @@
     <string name="confirm_storage_access_title">Permet l’accés a l’emmagatzematge extern</string>
     <string name="confirm_storage_access_text_sd">Si no veus la targeta SD, prova això</string>
     <string name="confirm_selection">Confirmar Selecció</string>
+    <string name="loading">S\'està carregant…</string>
     <plurals name="items">
         <item quantity="one">%d element</item>
         <item quantity="other">%d elements</item>
@@ -190,6 +194,8 @@
     <string name="undo">Desfer</string>
     <string name="redo">Refer</string>
     <string name="toggle_filename">Canviar la visibilitat del nom d\'arxiu</string>
+    <string name="send_sms">Enviar SMS</string>
+    <string name="call">Trucada</string>
     <string name="sort_by">Ordenar per</string>
     <string name="name">Nom</string>
     <string name="size">Mida</string>
@@ -358,6 +364,7 @@
     <string name="customize_colors">Canviar colors</string>
     <string name="customize_widget_colors">Personalitza els colors de widgets</string>
     <string name="use_english_language">Usar l’idioma Anglès</string>
+    <string name="language">Idioma</string>
     <string name="show_hidden_items">Mostra elements ocults</string>
     <string name="font_size">Mida de la font</string>
     <string name="small">Petita</string>

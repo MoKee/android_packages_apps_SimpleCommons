@@ -9,6 +9,7 @@
     <string name="download">Modd lawrlwytho</string>
     <string name="previous">Blaenorol</string>
     <string name="next">Nesaf</string>
+    <string name="work">Gwaith</string>
     <string name="search">Chwilio</string>
     <string name="skip">Neidio</string>
     <string name="sd_card">Cerdyn SD</string>
@@ -21,6 +22,8 @@
     <string name="custom">Addasedig</string>
     <string name="delete">Dileu</string>
     <string name="rename">Ailenwi</string>
+    <string name="send_sms">Anfon SMS</string>
+    <string name="call">Galw</string>
     <string name="name">Enw</string>
     <string name="yes">Iawn</string>
     <string name="no">Na</string>
@@ -30,6 +33,7 @@
     <string name="snooze">Snooze</string>
     <string name="dismiss">Wfftio</string>
     <string name="settings">Gosodiadau</string>
+    <string name="language">Iaith</string>
     <string name="usb">USB</string>
     <string name="camera_short">Camera</string>
     <string name="gallery_short">Oriel</string>
