@@ -37,17 +37,31 @@ fun String.getBasePath(context: Context): String {
     }
 }
 
-fun String.getFirstParentDirName(context: Context): String {
+fun String.isBasePath(context: Context): Boolean {
+    return getBasePath(context) == this
+}
+
+fun String.getFirstParentDirName(context: Context): String? {
     val basePath = getBasePath(context)
-    val pathWithoutBasePath = substring(basePath.length + 1)
-    return pathWithoutBasePath.substringBefore("/")
+    val startIndex = basePath.length + 1
+    return if (length > startIndex) {
+        val pathWithoutBasePath = substring(startIndex)
+        pathWithoutBasePath.substringBefore("/")
+    } else {
+        null
+    }
 }
 
 fun String.getFirstParentPath(context: Context): String {
     val basePath = getBasePath(context)
-    val pathWithoutBasePath = substring(basePath.length + 1)
-    val firstParentPath = pathWithoutBasePath.substringBefore("/")
-    return "$basePath/$firstParentPath"
+    val startIndex = basePath.length + 1
+    return if (length > startIndex) {
+        val pathWithoutBasePath = substring(basePath.length + 1)
+        val firstParentPath = pathWithoutBasePath.substringBefore("/")
+        "$basePath/$firstParentPath"
+    } else {
+        basePath
+    }
 }
 
 fun String.isAValidFilename(): Boolean {
@@ -88,6 +102,8 @@ fun String.isRawFast() = rawExtensions.any { endsWith(it, true) }
 fun String.isImageSlow() = isImageFast() || getMimeType().startsWith("image") || startsWith(MediaStore.Images.Media.EXTERNAL_CONTENT_URI.toString())
 fun String.isVideoSlow() = isVideoFast() || getMimeType().startsWith("video") || startsWith(MediaStore.Video.Media.EXTERNAL_CONTENT_URI.toString())
 fun String.isAudioSlow() = isAudioFast() || getMimeType().startsWith("audio") || startsWith(MediaStore.Audio.Media.EXTERNAL_CONTENT_URI.toString())
+
+fun String.canModifyEXIF() = extensionsSupportingEXIF.any { endsWith(it, true) }
 
 fun String.getCompressionFormat() = when (getFilenameExtension().toLowerCase()) {
     "png" -> Bitmap.CompressFormat.PNG

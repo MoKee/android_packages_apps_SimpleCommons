@@ -183,6 +183,8 @@
     <string name="confirm_storage_access_text">Silakan pilih folder root dari kartu SD pada layar berikutnya, untuk memberi akses penyimpanan</string>
     <string name="confirm_storage_access_text_sd">Jika Anda tidak melihat kartu SD, cobalah ini</string>
     <string name="confirm_storage_access_android_text">Please allow the app accessing the selected storage on the next screen by pressing \'Use this folder\' at the bottom.</string>
+    <string name="confirm_storage_access_android_text_specific">Please allow accessing \'&lt;b&gt;%s&lt;/b&gt;\' on the next screen by pressing \'&lt;b&gt;Use this folder&lt;/b&gt;\' at the bottom.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Please press \'&lt;b&gt;Save&lt;/b&gt;\' at the bottom of the next screen to create the new folder.</string>
     <string name="confirm_selection">Konfirmasi pilihan</string>
     <string name="loading">Loading…</string>
     <plurals name="items">
@@ -229,6 +231,9 @@
     <string name="song_title">Judul lagu</string>
     <string name="gps_coordinates">Koordinat GPS</string>
     <string name="altitude">Ketinggian</string>
+    <string name="remove_exif">Remove EXIF</string>
+    <string name="remove_exif_confirmation">Are you sure you want to remove EXIF values like GPS coordinates, camera model etc?</string>
+    <string name="exif_removed">EXIF values removed successfully</string>
     <!-- Color customization -->
     <string name="background_color">Warna latar belakang</string>
     <string name="text_color">Warna teks</string>

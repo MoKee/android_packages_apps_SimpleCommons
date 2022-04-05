@@ -13,6 +13,7 @@ import java.util.HashMap
 import java.util.LinkedHashMap
 
 const val EXTERNAL_STORAGE_PROVIDER_AUTHORITY = "com.android.externalstorage.documents"
+const val EXTRA_SHOW_ADVANCED = "android.content.extra.SHOW_ADVANCED"
 
 const val APP_NAME = "app_name"
 const val APP_LICENSES = "app_licenses"
@@ -198,11 +199,12 @@ const val LICENSE_APNG = 268435456
 const val OPEN_DOCUMENT_TREE_FOR_ANDROID_DATA_OR_OBB = 1000
 const val OPEN_DOCUMENT_TREE_OTG = 1001
 const val OPEN_DOCUMENT_TREE_SD = 1002
-const val OPEN_DOCUMENT_TREE_FOR_DELETE_SDK_30 = 1003
+const val OPEN_DOCUMENT_TREE_FOR_SDK_30 = 1003
 const val REQUEST_SET_AS = 1004
 const val REQUEST_EDIT_IMAGE = 1005
 const val SELECT_EXPORT_SETTINGS_FILE_INTENT = 1006
 const val REQUEST_CODE_SET_DEFAULT_DIALER = 1007
+const val CREATE_DOCUMENT_SDK_30 = 1008
 
 // sorting
 const val SORT_ORDER = "sort_order"
@@ -301,6 +303,8 @@ val photoExtensions: Array<String> get() = arrayOf(".jpg", ".png", ".jpeg", ".bm
 val videoExtensions: Array<String> get() = arrayOf(".mp4", ".mkv", ".webm", ".avi", ".3gp", ".mov", ".m4v", ".3gpp")
 val audioExtensions: Array<String> get() = arrayOf(".mp3", ".wav", ".wma", ".ogg", ".m4a", ".opus", ".flac", ".aac")
 val rawExtensions: Array<String> get() = arrayOf(".dng", ".orf", ".nef", ".arw", ".rw2", ".cr2", ".cr3")
+
+val extensionsSupportingEXIF: Array<String> get() = arrayOf(".jpg", ".jpeg", ".png", ".webp", ".dng")
 
 const val DATE_FORMAT_ONE = "dd.MM.yyyy"
 const val DATE_FORMAT_TWO = "dd/MM/yyyy"

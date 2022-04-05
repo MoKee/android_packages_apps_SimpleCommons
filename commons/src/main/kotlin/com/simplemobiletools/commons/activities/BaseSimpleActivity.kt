@@ -60,7 +60,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     companion object {
         var funAfterSAFPermission: ((success: Boolean) -> Unit)? = null
-        var funAfterDelete30File: ((success: Boolean) -> Unit)? = null
+        var funAfterSdk30Action: ((success: Boolean) -> Unit)? = null
         var funAfterUpdate30File: ((success: Boolean) -> Unit)? = null
         var funRecoverableSecurity: ((success: Boolean) -> Unit)? = null
     }
@@ -182,7 +182,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
     }
 
-    fun updateMenuItemColors(menu: Menu?, useCrossAsBack: Boolean = false, baseColor: Int = baseConfig.primaryColor) {
+    fun updateMenuItemColors(menu: Menu?, useCrossAsBack: Boolean = false, baseColor: Int = baseConfig.primaryColor, updateHomeAsUpColor: Boolean = true) {
         if (menu == null) {
             return
         }
@@ -195,9 +195,11 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             }
         }
 
-        val drawableId = if (useCrossAsBack) R.drawable.ic_cross_vector else R.drawable.ic_arrow_left_vector
-        val icon = resources.getColoredDrawableWithColor(drawableId, color)
-        supportActionBar?.setHomeAsUpIndicator(icon)
+        if (updateHomeAsUpColor) {
+            val drawableId = if (useCrossAsBack) R.drawable.ic_cross_vector else R.drawable.ic_arrow_left_vector
+            val icon = resources.getColoredDrawableWithColor(drawableId, color)
+            supportActionBar?.setHomeAsUpIndicator(icon)
+        }
     }
 
     private fun getCurrentAppIconColorIndex(): Int {
@@ -223,8 +225,27 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
 
         val sdOtgPattern = Pattern.compile(SD_OTG_SHORT)
+        if (requestCode == CREATE_DOCUMENT_SDK_30) {
+            if (resultCode == Activity.RESULT_OK && resultData != null && resultData.data != null) {
 
-        if (requestCode == OPEN_DOCUMENT_TREE_FOR_DELETE_SDK_30) {
+                val treeUri = resultData.data
+                val checkedUri = buildDocumentUriSdk30(checkedDocumentPath)
+
+                if (treeUri != checkedUri) {
+                    toast(getString(R.string.wrong_folder_selected, checkedDocumentPath))
+                    return
+                }
+
+                val takeFlags = Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_GRANT_WRITE_URI_PERMISSION
+                applicationContext.contentResolver.takePersistableUriPermission(treeUri, takeFlags)
+                val funAfter = funAfterSdk30Action
+                funAfterSdk30Action = null
+                funAfter?.invoke(true)
+            } else {
+                funAfterSdk30Action?.invoke(false)
+            }
+
+        } else if (requestCode == OPEN_DOCUMENT_TREE_FOR_SDK_30) {
             if (resultCode == Activity.RESULT_OK && resultData != null && resultData.data != null) {
 
                 val treeUri = resultData.data
@@ -237,10 +258,11 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
                 val takeFlags = Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_GRANT_WRITE_URI_PERMISSION
                 applicationContext.contentResolver.takePersistableUriPermission(treeUri, takeFlags)
-                funAfterDelete30File?.invoke(true)
-                funAfterDelete30File = null
+                val funAfter = funAfterSdk30Action
+                funAfterSdk30Action = null
+                funAfter?.invoke(true)
             } else {
-                funAfterDelete30File?.invoke(false)
+                funAfterSdk30Action?.invoke(false)
             }
 
         } else if (requestCode == OPEN_DOCUMENT_TREE_FOR_ANDROID_DATA_OR_OBB) {
@@ -323,7 +345,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             val outputStream = contentResolver.openOutputStream(resultData.data!!)
             exportSettingsTo(outputStream, configItemsToExport)
         } else if (requestCode == DELETE_FILE_SDK_30_HANDLER) {
-            funAfterDelete30File?.invoke(resultCode == Activity.RESULT_OK)
+            funAfterSdk30Action?.invoke(resultCode == Activity.RESULT_OK)
         } else if (requestCode == RECOVERABLE_SECURITY_HANDLER) {
             funRecoverableSecurity?.invoke(resultCode == Activity.RESULT_OK)
             funRecoverableSecurity = null
@@ -404,12 +426,25 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
     }
 
-    fun handleSAFDeleteSdk30Dialog(path: String, callback: (success: Boolean) -> Unit): Boolean {
+    fun handleSAFDialogSdk30(path: String, callback: (success: Boolean) -> Unit): Boolean {
         return if (!packageName.startsWith("com.simplemobiletools")) {
             callback(true)
             false
-        } else if (isShowingSAFDialogForDeleteSdk30(path)) {
-            funAfterDelete30File = callback
+        } else if (isShowingSAFDialogSdk30(path)) {
+            funAfterSdk30Action = callback
+            true
+        } else {
+            callback(true)
+            false
+        }
+    }
+
+    fun handleSAFCreateDocumentDialogSdk30(path: String, callback: (success: Boolean) -> Unit): Boolean {
+        return if (!packageName.startsWith("com.simplemobiletools")) {
+            callback(true)
+            false
+        } else if (isShowingSAFCreateDocumentDialogSdk30(path)) {
+            funAfterSdk30Action = callback
             true
         } else {
             callback(true)
@@ -437,7 +472,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
 
         funAfterSAFPermission = callback
-        WritePermissionDialog(this, Mode.OTG) {
+        WritePermissionDialog(this, Mode.Otg) {
             Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
                 try {
                     startActivityForResult(this, OPEN_DOCUMENT_TREE_OTG)
@@ -458,7 +493,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     @SuppressLint("NewApi")
     fun deleteSDK30Uris(uris: List<Uri>, callback: (success: Boolean) -> Unit) {
         if (isRPlus()) {
-            funAfterDelete30File = callback
+            funAfterSdk30Action = callback
             try {
                 val deleteRequest = MediaStore.createDeleteRequest(contentResolver, uris).intentSender
                 startIntentSenderForResult(deleteRequest, DELETE_FILE_SDK_30_HANDLER, null, 0, 0, 0)
@@ -521,59 +556,67 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
                 return@handleSAFDialog
             }
 
-            copyMoveCallback = callback
-            var fileCountToCopy = fileDirItems.size
-            if (isCopyOperation) {
-                startCopyMove(fileDirItems, destination, isCopyOperation, copyPhotoVideoOnly, copyHidden)
-            } else {
-                if (isPathOnOTG(source) || isPathOnOTG(destination) || isPathOnSD(source) || isPathOnSD(destination) || isRestrictedSAFOnlyRoot(source) || isRestrictedSAFOnlyRoot(
-                        destination
-                    ) || fileDirItems.first().isDirectory
-                ) {
-                    handleSAFDialog(source) {
-                        if (it) {
-                            startCopyMove(fileDirItems, destination, isCopyOperation, copyPhotoVideoOnly, copyHidden)
-                        }
-                    }
+            handleSAFDialogSdk30(destination) {
+                if (!it) {
+                    copyMoveListener.copyFailed()
+                    return@handleSAFDialogSdk30
+                }
+
+                copyMoveCallback = callback
+                var fileCountToCopy = fileDirItems.size
+                if (isCopyOperation) {
+                    startCopyMove(fileDirItems, destination, isCopyOperation, copyPhotoVideoOnly, copyHidden)
                 } else {
-                    try {
-                        checkConflicts(fileDirItems, destination, 0, LinkedHashMap()) {
-                            toast(R.string.moving)
-                            ensureBackgroundThread {
-                                val updatedPaths = ArrayList<String>(fileDirItems.size)
-                                val destinationFolder = File(destination)
-                                for (oldFileDirItem in fileDirItems) {
-                                    var newFile = File(destinationFolder, oldFileDirItem.name)
-                                    if (newFile.exists()) {
-                                        when {
-                                            getConflictResolution(it, newFile.absolutePath) == CONFLICT_SKIP -> fileCountToCopy--
-                                            getConflictResolution(it, newFile.absolutePath) == CONFLICT_KEEP_BOTH -> newFile = getAlternativeFile(newFile)
-                                            else ->
-                                                // this file is guaranteed to be on the internal storage, so just delete it this way
-                                                newFile.delete()
+                    if (isPathOnOTG(source) || isPathOnOTG(destination) || isPathOnSD(source) || isPathOnSD(destination) ||
+                        isRestrictedSAFOnlyRoot(source) || isRestrictedSAFOnlyRoot(destination) ||
+                        isAccessibleWithSAFSdk30(source) || isAccessibleWithSAFSdk30(destination) ||
+                        fileDirItems.first().isDirectory
+                    ) {
+                        handleSAFDialog(source) {
+                            if (it) {
+                                startCopyMove(fileDirItems, destination, isCopyOperation, copyPhotoVideoOnly, copyHidden)
+                            }
+                        }
+                    } else {
+                        try {
+                            checkConflicts(fileDirItems, destination, 0, LinkedHashMap()) {
+                                toast(R.string.moving)
+                                ensureBackgroundThread {
+                                    val updatedPaths = ArrayList<String>(fileDirItems.size)
+                                    val destinationFolder = File(destination)
+                                    for (oldFileDirItem in fileDirItems) {
+                                        var newFile = File(destinationFolder, oldFileDirItem.name)
+                                        if (newFile.exists()) {
+                                            when {
+                                                getConflictResolution(it, newFile.absolutePath) == CONFLICT_SKIP -> fileCountToCopy--
+                                                getConflictResolution(it, newFile.absolutePath) == CONFLICT_KEEP_BOTH -> newFile = getAlternativeFile(newFile)
+                                                else ->
+                                                    // this file is guaranteed to be on the internal storage, so just delete it this way
+                                                    newFile.delete()
+                                            }
+                                        }
+
+                                        if (!newFile.exists() && File(oldFileDirItem.path).renameTo(newFile)) {
+                                            if (!baseConfig.keepLastModified) {
+                                                newFile.setLastModified(System.currentTimeMillis())
+                                            }
+                                            updatedPaths.add(newFile.absolutePath)
+                                            deleteFromMediaStore(oldFileDirItem.path)
                                         }
                                     }
 
-                                    if (!newFile.exists() && File(oldFileDirItem.path).renameTo(newFile)) {
-                                        if (!baseConfig.keepLastModified) {
-                                            newFile.setLastModified(System.currentTimeMillis())
+                                    runOnUiThread {
+                                        if (updatedPaths.isEmpty()) {
+                                            copyMoveListener.copySucceeded(false, fileCountToCopy == 0, destination, false)
+                                        } else {
+                                            copyMoveListener.copySucceeded(false, fileCountToCopy <= updatedPaths.size, destination, updatedPaths.size == 1)
                                         }
-                                        updatedPaths.add(newFile.absolutePath)
-                                        deleteFromMediaStore(oldFileDirItem.path)
-                                    }
-                                }
-
-                                runOnUiThread {
-                                    if (updatedPaths.isEmpty()) {
-                                        copyMoveListener.copySucceeded(false, fileCountToCopy == 0, destination, false)
-                                    } else {
-                                        copyMoveListener.copySucceeded(false, fileCountToCopy <= updatedPaths.size, destination, updatedPaths.size == 1)
                                     }
                                 }
                             }
+                        } catch (e: Exception) {
+                            showErrorToast(e)
                         }
-                    } catch (e: Exception) {
-                        showErrorToast(e)
                     }
                 }
             }
