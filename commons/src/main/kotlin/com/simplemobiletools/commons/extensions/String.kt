@@ -41,23 +41,33 @@ fun String.isBasePath(context: Context): Boolean {
     return getBasePath(context) == this
 }
 
-fun String.getFirstParentDirName(context: Context): String? {
+fun String.getFirstParentDirName(context: Context, level: Int): String? {
     val basePath = getBasePath(context)
     val startIndex = basePath.length + 1
     return if (length > startIndex) {
         val pathWithoutBasePath = substring(startIndex)
-        pathWithoutBasePath.substringBefore("/")
+        val pathSegments = pathWithoutBasePath.split("/")
+        if (level < pathSegments.size) {
+            pathSegments.slice(0..level).joinToString("/")
+        } else {
+            null
+        }
     } else {
         null
     }
 }
 
-fun String.getFirstParentPath(context: Context): String {
+fun String.getFirstParentPath(context: Context, level: Int): String {
     val basePath = getBasePath(context)
     val startIndex = basePath.length + 1
     return if (length > startIndex) {
         val pathWithoutBasePath = substring(basePath.length + 1)
-        val firstParentPath = pathWithoutBasePath.substringBefore("/")
+        val pathSegments = pathWithoutBasePath.split("/")
+        val firstParentPath = if (level < pathSegments.size) {
+            pathSegments.slice(0..level).joinToString("/")
+        } else {
+            pathWithoutBasePath
+        }
         "$basePath/$firstParentPath"
     } else {
         basePath
@@ -262,14 +272,14 @@ fun String.getNameLetter() = normalizeString().toCharArray().getOrNull(0)?.toStr
 
 fun String.normalizePhoneNumber() = PhoneNumberUtils.normalizeNumber(this)
 
-fun String.highlightTextFromNumbers(textToHighlight: String, adjustedPrimaryColor: Int): SpannableString {
+fun String.highlightTextFromNumbers(textToHighlight: String, primaryColor: Int): SpannableString {
     val spannableString = SpannableString(this)
     val digits = PhoneNumberUtils.convertKeypadLettersToDigits(this)
     if (digits.contains(textToHighlight)) {
         val startIndex = digits.indexOf(textToHighlight, 0, true)
         val endIndex = Math.min(startIndex + textToHighlight.length, length)
         try {
-            spannableString.setSpan(ForegroundColorSpan(adjustedPrimaryColor), startIndex, endIndex, Spannable.SPAN_EXCLUSIVE_INCLUSIVE)
+            spannableString.setSpan(ForegroundColorSpan(primaryColor), startIndex, endIndex, Spannable.SPAN_EXCLUSIVE_INCLUSIVE)
         } catch (ignored: IndexOutOfBoundsException) {
         }
     }

@@ -41,7 +41,6 @@ import com.simplemobiletools.commons.models.FAQItem
 import com.simplemobiletools.commons.models.FileDirItem
 import java.io.File
 import java.io.OutputStream
-import java.util.*
 import java.util.regex.Pattern
 
 abstract class BaseSimpleActivity : AppCompatActivity() {
@@ -89,13 +88,26 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         super.onResume()
         if (useDynamicTheme) {
             setTheme(getThemeId(showTransparentTop = showTransparentTop))
-            updateBackgroundColor()
+
+            val backgroundColor = if (baseConfig.isUsingSystemTheme) {
+                resources.getColor(R.color.you_background_color, theme)
+            } else {
+                baseConfig.backgroundColor
+            }
+
+            updateBackgroundColor(backgroundColor)
         }
 
         if (showTransparentTop) {
             window.statusBarColor = Color.TRANSPARENT
         } else {
-            updateActionbarColor()
+            val color = if (baseConfig.isUsingSystemTheme) {
+                resources.getColor(R.color.you_status_bar_color)
+            } else {
+                getProperPrimaryColor()
+            }
+
+            updateActionbarColor(color)
         }
 
         updateRecentsAppIcon()
@@ -128,13 +140,6 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         window.decorView.setBackgroundColor(color)
     }
 
-    fun updateActionbarColor(color: Int = baseConfig.primaryColor) {
-        supportActionBar?.setBackgroundDrawable(ColorDrawable(color))
-        updateActionBarTitle(supportActionBar?.title.toString(), color)
-        updateStatusbarColor(color)
-        setTaskDescription(ActivityManager.TaskDescription(null, null, color))
-    }
-
     fun updateStatusbarColor(color: Int) {
         window.statusBarColor = color
 
@@ -145,6 +150,13 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
                 window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.removeBit(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR)
             }
         }
+    }
+
+    fun updateActionbarColor(color: Int = getProperPrimaryColor()) {
+        updateActionBarTitle(supportActionBar?.title.toString(), color)
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(color))
+        updateStatusbarColor(color)
+        setTaskDescription(ActivityManager.TaskDescription(null, null, color))
     }
 
     fun updateNavigationBarColor(color: Int = baseConfig.navigationBarColor) {
@@ -182,12 +194,23 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
     }
 
-    fun updateMenuItemColors(menu: Menu?, useCrossAsBack: Boolean = false, baseColor: Int = baseConfig.primaryColor, updateHomeAsUpColor: Boolean = true) {
+    fun updateMenuItemColors(
+        menu: Menu?, useCrossAsBack: Boolean = false, baseColor: Int = getProperPrimaryColor(), updateHomeAsUpColor: Boolean = true,
+        isContextualMenu: Boolean = false, forceWhiteIcons: Boolean = false
+    ) {
         if (menu == null) {
             return
         }
 
-        val color = baseColor.getContrastColor()
+        var color = baseColor.getContrastColor()
+        if (baseConfig.isUsingSystemTheme && !isContextualMenu) {
+            color = getProperTextColor()
+        }
+
+        if (forceWhiteIcons) {
+            color = Color.WHITE
+        }
+
         for (i in 0 until menu.size()) {
             try {
                 menu.getItem(i)?.icon?.setTint(color)
@@ -195,7 +218,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             }
         }
 
-        if (updateHomeAsUpColor) {
+        if (updateHomeAsUpColor && !isContextualMenu) {
             val drawableId = if (useCrossAsBack) R.drawable.ic_cross_vector else R.drawable.ic_arrow_left_vector
             val icon = resources.getColoredDrawableWithColor(drawableId, color)
             supportActionBar?.setHomeAsUpIndicator(icon)
@@ -247,12 +270,13 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
         } else if (requestCode == OPEN_DOCUMENT_TREE_FOR_SDK_30) {
             if (resultCode == Activity.RESULT_OK && resultData != null && resultData.data != null) {
-
                 val treeUri = resultData.data
                 val checkedUri = createFirstParentTreeUri(checkedDocumentPath)
 
                 if (treeUri != checkedUri) {
-                    toast(getString(R.string.wrong_folder_selected, checkedDocumentPath.getFirstParentPath(this)))
+                    val level = getFirstParentLevel(checkedDocumentPath)
+                    val firstParentPath = checkedDocumentPath.getFirstParentPath(this, level)
+                    toast(getString(R.string.wrong_folder_selected, humanizePath(firstParentPath)))
                     return
                 }
 

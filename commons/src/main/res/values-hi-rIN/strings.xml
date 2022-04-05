@@ -162,6 +162,7 @@
     <string name="could_not_create_file">Could not create file %s</string>
     <string name="no_new_items">No new items have been found</string>
     <string name="no_space">The destination does not have enough space available.\nRequired %1$s, available %2$s</string>
+    <string name="system_service_disabled">System service for selecting files and folders is unavailable</string>
 
     <!-- Create new -->
     <string name="create_new">Create new</string>
@@ -183,6 +184,7 @@
     <string name="skip">Skip</string>
     <string name="append">Append with \'_1\'</string>
     <string name="apply_to_all">Apply to all</string>
+    <string name="system_folder_restriction">The system does not allow the operation in this folder, please pick another one</string>
 
     <!-- File picker -->
     <string name="select_folder">Select a folder</string>
@@ -288,12 +290,14 @@
     <string name="light_theme">Light</string>
     <string name="dark_theme">Dark</string>
     <string name="auto_theme">Auto</string>
+    <string name="auto_light_dark_theme">Auto light / dark</string>
     <string name="solarized">Solarized</string>
     <string name="dark_red">Dark red</string>
     <string name="white">White</string>
     <string name="black_white">Black &amp; White</string>
     <string name="custom">Custom</string>
     <string name="shared">Shared</string>
+    <string name="system_default">System default</string>
 
     <!-- What's new -->
     <string name="whats_new">What\'s new</string>

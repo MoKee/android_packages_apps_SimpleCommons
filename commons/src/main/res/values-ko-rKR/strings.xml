@@ -164,6 +164,7 @@
     <string name="could_not_create_file">%s 파일 생성에 실패함</string>
     <string name="no_new_items">새 항목을 찾을 수 없음</string>
     <string name="no_space">대상 경로의 공간이 부족합니다.\n필요 공간: %1$s, 사용 가능: %2$s</string>
+    <string name="system_service_disabled">System service for selecting files and folders is unavailable</string>
 
     <!-- Create new -->
     <string name="create_new">새로 만들기</string>
@@ -185,6 +186,7 @@
     <string name="skip">건너뛰기</string>
     <string name="append">\'_1\' 문자열을 추가하기</string>
     <string name="apply_to_all">모든 충돌에 적용</string>
+    <string name="system_folder_restriction">The system does not allow the operation in this folder, please pick another one</string>
 
     <!-- File picker -->
     <string name="select_folder">폴더 선택</string>
@@ -285,12 +287,14 @@
     <string name="light_theme">Light</string>
     <string name="dark_theme">Dark</string>
     <string name="auto_theme">Auto</string>
+    <string name="auto_light_dark_theme">Auto light / dark</string>
     <string name="solarized">Solarized</string>
     <string name="dark_red">Dark red</string>
     <string name="white">White</string>
     <string name="black_white">Black &amp; White</string>
     <string name="custom">사용자 정의</string>
     <string name="shared">공유</string>
+    <string name="system_default">System default</string>
 
     <!-- What's new -->
     <string name="whats_new">새로운 기능</string>

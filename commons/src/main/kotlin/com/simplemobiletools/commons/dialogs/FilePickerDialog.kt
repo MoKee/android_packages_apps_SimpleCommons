@@ -16,7 +16,6 @@ import com.simplemobiletools.commons.models.FileDirItem
 import com.simplemobiletools.commons.views.Breadcrumbs
 import kotlinx.android.synthetic.main.dialog_filepicker.view.*
 import java.io.File
-import java.util.*
 
 /**
  * The only filepicker constructor with a couple optional parameters
@@ -64,6 +63,7 @@ class FilePickerDialog(
         mDialogView.filepicker_breadcrumbs.apply {
             listener = this@FilePickerDialog
             updateFontSize(activity.getTextSize(), false)
+            isShownInDialog = true
         }
 
         tryUpdateItems()
@@ -74,7 +74,7 @@ class FilePickerDialog(
             .setOnKeyListener { dialogInterface, i, keyEvent ->
                 if (keyEvent.action == KeyEvent.ACTION_UP && i == KeyEvent.KEYCODE_BACK) {
                     val breadcrumbs = mDialogView.filepicker_breadcrumbs
-                    if (breadcrumbs.itemsCount > 1) {
+                    if (breadcrumbs.getItemCount() > 1) {
                         breadcrumbs.removeBreadcrumb()
                         currPath = breadcrumbs.getLastItem().path.trimEnd('/')
                         tryUpdateItems()
@@ -101,8 +101,8 @@ class FilePickerDialog(
             (layoutParams as CoordinatorLayout.LayoutParams).bottomMargin = secondaryFabBottomMargin
         }
 
-        mDialogView.filepicker_placeholder.setTextColor(activity.baseConfig.textColor)
-        mDialogView.filepicker_fastscroller.updateColors(activity.getAdjustedPrimaryColor())
+        mDialogView.filepicker_placeholder.setTextColor(activity.getProperTextColor())
+        mDialogView.filepicker_fastscroller.updateColors(activity.getProperPrimaryColor())
         mDialogView.filepicker_fab_show_hidden.apply {
             beVisibleIf(!showHidden && canAddShowHiddenButton)
             setOnClickListener {
@@ -295,7 +295,7 @@ class FilePickerDialog(
         mDialogView.apply {
             filepicker_favorites_holder.beVisible()
             filepicker_files_holder.beGone()
-            val drawable = activity.resources.getColoredDrawableWithColor(R.drawable.ic_folder_vector, activity.getAdjustedPrimaryColor().getContrastColor())
+            val drawable = activity.resources.getColoredDrawableWithColor(R.drawable.ic_folder_vector, activity.getProperPrimaryColor().getContrastColor())
             filepicker_fab_show_favorites.setImageDrawable(drawable)
         }
     }
@@ -304,7 +304,7 @@ class FilePickerDialog(
         mDialogView.apply {
             filepicker_favorites_holder.beGone()
             filepicker_files_holder.beVisible()
-            val drawable = activity.resources.getColoredDrawableWithColor(R.drawable.ic_star_vector, activity.getAdjustedPrimaryColor().getContrastColor())
+            val drawable = activity.resources.getColoredDrawableWithColor(R.drawable.ic_star_vector, activity.getProperPrimaryColor().getContrastColor())
             filepicker_fab_show_favorites.setImageDrawable(drawable)
         }
     }

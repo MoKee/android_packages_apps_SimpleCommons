@@ -10,10 +10,7 @@ import com.andrognito.patternlockview.PatternLockView
 import com.andrognito.patternlockview.listener.PatternLockViewListener
 import com.andrognito.patternlockview.utils.PatternLockUtils
 import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.extensions.baseConfig
-import com.simplemobiletools.commons.extensions.getAdjustedPrimaryColor
-import com.simplemobiletools.commons.extensions.toast
-import com.simplemobiletools.commons.extensions.updateTextColors
+import com.simplemobiletools.commons.extensions.*
 import com.simplemobiletools.commons.helpers.PROTECTION_PATTERN
 import com.simplemobiletools.commons.interfaces.HashListener
 import com.simplemobiletools.commons.interfaces.SecurityTab
@@ -27,7 +24,7 @@ class PatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(context
 
     override fun onFinishInflate() {
         super.onFinishInflate()
-        val textColor = context.baseConfig.textColor
+        val textColor = context.getProperTextColor()
         context.updateTextColors(pattern_lock_holder)
 
         pattern_lock_view.setOnTouchListener { v, event ->
@@ -38,7 +35,7 @@ class PatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(context
             false
         }
 
-        pattern_lock_view.correctStateColor = context.getAdjustedPrimaryColor()
+        pattern_lock_view.correctStateColor = context.getProperPrimaryColor()
         pattern_lock_view.normalStateColor = textColor
         pattern_lock_view.addPatternLockListener(object : PatternLockViewListener {
             override fun onComplete(pattern: MutableList<PatternLockView.Dot>?) {

@@ -156,6 +156,7 @@
     <string name="could_not_create_file">Não foi possível criar o ficheiro %s</string>
     <string name="no_new_items">Não foram encontrados novos itens</string>
     <string name="no_space">Não existe espaço livre suficiente no destino.\nPrecisa de %1$s e apenas existem %2$s</string>
+    <string name="system_service_disabled">System service for selecting files and folders is unavailable</string>
     <!-- Create new -->
     <string name="create_new">Criar</string>
     <string name="folder">Pasta</string>
@@ -175,6 +176,7 @@
     <string name="skip">Ignorar</string>
     <string name="append">Anexar \'_1\'</string>
     <string name="apply_to_all">Aplicar a todos</string>
+    <string name="system_folder_restriction">The system does not allow the operation in this folder, please pick another one</string>
     <!-- File picker -->
     <string name="select_folder">Selecionar pasta</string>
     <string name="select_file">Selecionar ficheiro</string>
@@ -270,12 +272,14 @@
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
     <string name="auto_theme">Auto</string>
+    <string name="auto_light_dark_theme">Auto light / dark</string>
     <string name="solarized">Solar</string>
     <string name="dark_red">Vermelho escuro</string>
     <string name="white">Branco</string>
     <string name="black_white">Preto e branco</string>
     <string name="custom">Personalizado</string>
     <string name="shared">Partilhado</string>
+    <string name="system_default">System default</string>
     <!-- What's new -->
     <string name="whats_new">Novidades</string>
     <string name="whats_new_disclaimer">* apenas são listadas as alterações mais significativas. Contudo, existem sempre mais revisões do que as aqui referidas</string>

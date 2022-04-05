@@ -112,6 +112,7 @@ const val WAS_USE_ENGLISH_TOGGLED = "was_use_english_toggled"
 const val WAS_SHARED_THEME_EVER_ACTIVATED = "was_shared_theme_ever_activated"
 const val IS_USING_SHARED_THEME = "is_using_shared_theme"
 const val IS_USING_AUTO_THEME = "is_using_auto_theme"
+const val IS_USING_SYSTEM_THEME = "is_using_system_theme"
 const val SHOULD_USE_SHARED_THEME = "should_use_shared_theme"
 const val WAS_SHARED_THEME_FORCED = "was_shared_theme_forced"
 const val WAS_CUSTOM_THEME_SWITCH_DESCRIPTION_SHOWN = "was_custom_theme_switch_description_shown"
@@ -379,20 +380,30 @@ fun ensureBackgroundThread(callback: () -> Unit) {
 
 @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.M)
 fun isMarshmallowPlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.M
+
 @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.N)
 fun isNougatPlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.N
+
 @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.N_MR1)
 fun isNougatMR1Plus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.N_MR1
+
 @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.O)
 fun isOreoPlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.O
+
 @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.O_MR1)
 fun isOreoMr1Plus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1
+
 @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.P)
 fun isPiePlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.P
+
 @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.Q)
 fun isQPlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q
+
 @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.R)
 fun isRPlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.R
+
+@ChecksSdkIntAtLeast(api = Build.VERSION_CODES.S)
+fun isSPlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
 
 fun getDateFormats() = arrayListOf(
     "--MM-dd",

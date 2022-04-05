@@ -4,6 +4,7 @@ import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.LayerDrawable
 import android.graphics.drawable.RippleDrawable
+import android.os.Build
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -14,8 +15,8 @@ import com.simplemobiletools.commons.helpers.*
 import com.simplemobiletools.commons.models.MyTheme
 import com.simplemobiletools.commons.models.RadioItem
 import com.simplemobiletools.commons.models.SharedTheme
+import com.simplemobiletools.commons.views.MyTextView
 import kotlinx.android.synthetic.main.activity_customization.*
-import java.util.*
 
 class CustomizationActivity : BaseSimpleActivity() {
     private val THEME_LIGHT = 0
@@ -27,6 +28,7 @@ class CustomizationActivity : BaseSimpleActivity() {
     private val THEME_SHARED = 6
     private val THEME_WHITE = 7
     private val THEME_AUTO = 8
+    private val THEME_SYSTEM = 9    // Material You
 
     private var curTextColor = 0
     private var curBackgroundColor = 0
@@ -57,7 +59,6 @@ class CustomizationActivity : BaseSimpleActivity() {
         }
 
         initColorVariables()
-        setupColorsPickers()
 
         if (isThankYouInstalled()) {
             val cursorLoader = getMyContentProviderCursorLoader()
@@ -73,7 +74,7 @@ class CustomizationActivity : BaseSimpleActivity() {
                     runOnUiThread {
                         setupThemes()
                         val hideGoogleRelations = resources.getBoolean(R.bool.hide_google_relations)
-                        apply_to_all_holder.beVisibleIf(storedSharedTheme == null && curSelectedThemeId != THEME_AUTO && !hideGoogleRelations)
+                        apply_to_all_holder.beVisibleIf(storedSharedTheme == null && curSelectedThemeId != THEME_AUTO && curSelectedThemeId != THEME_SYSTEM && !hideGoogleRelations)
                     }
                 } catch (e: Exception) {
                     toast(R.string.update_thank_you)
@@ -85,7 +86,13 @@ class CustomizationActivity : BaseSimpleActivity() {
             baseConfig.isUsingSharedTheme = false
         }
 
-        updateTextColors(customization_holder)
+        val textColor = if (baseConfig.isUsingSystemTheme) {
+            getProperTextColor()
+        } else {
+            baseConfig.textColor
+        }
+
+        updateLabelColors(textColor)
         originalAppIconColor = baseConfig.appIconColor
 
         if (resources.getBoolean(R.bool.hide_google_relations)) {
@@ -95,10 +102,13 @@ class CustomizationActivity : BaseSimpleActivity() {
 
     override fun onResume() {
         super.onResume()
-        updateBackgroundColor(curBackgroundColor)
-        updateActionbarColor(curPrimaryColor)
-        updateNavigationBarColor(curNavigationBarColor)
-        setTheme(getThemeId(curPrimaryColor))
+        setTheme(getThemeId(getCurrentPrimaryColor()))
+
+        if (!baseConfig.isUsingSystemTheme) {
+            updateBackgroundColor(getCurrentBackgroundColor())
+            updateActionbarColor(getCurrentStatusBarColor())
+            updateNavigationBarColor(curNavigationBarColor)
+        }
 
         curPrimaryLineColorPicker?.getSpecificColor()?.apply {
             updateActionbarColor(this)
@@ -109,7 +119,7 @@ class CustomizationActivity : BaseSimpleActivity() {
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_customization, menu)
         menu.findItem(R.id.save).isVisible = hasUnsavedChanges
-        updateMenuItemColors(menu, true, curPrimaryColor)
+        updateMenuItemColors(menu, true, getCurrentStatusBarColor())
         this.menu = menu
         return true
     }
@@ -132,6 +142,10 @@ class CustomizationActivity : BaseSimpleActivity() {
 
     private fun setupThemes() {
         predefinedThemes.apply {
+            if (isSPlus() && applicationInfo.compileSdkVersion >= Build.VERSION_CODES.S) {
+                put(THEME_SYSTEM, getSystemThemeColors())
+            }
+
             put(THEME_AUTO, getAutoThemeColors())
             put(
                 THEME_LIGHT,
@@ -147,7 +161,6 @@ class CustomizationActivity : BaseSimpleActivity() {
                 THEME_DARK,
                 MyTheme(R.string.dark_theme, R.color.theme_dark_text_color, R.color.theme_dark_background_color, R.color.color_primary, R.color.color_primary)
             )
-            //put(THEME_SOLARIZED, MyTheme(R.string.solarized, R.color.theme_solarized_text_color, R.color.theme_solarized_background_color, R.color.theme_solarized_primary_color))
             put(
                 THEME_DARK_RED,
                 MyTheme(
@@ -167,12 +180,13 @@ class CustomizationActivity : BaseSimpleActivity() {
             }
         }
         setupThemePicker()
+        setupColorsPickers()
     }
 
     private fun setupThemePicker() {
         curSelectedThemeId = getCurrentThemeId()
-        updateAutoThemeFields()
         customization_theme.text = getThemeText()
+        updateAutoThemeFields()
         handleAccentColorLayout()
         customization_theme_holder.setOnClickListener {
             if (baseConfig.wasAppIconCustomizationWarningShown) {
@@ -183,6 +197,10 @@ class CustomizationActivity : BaseSimpleActivity() {
                     themePickerClicked()
                 }
             }
+        }
+
+        if (customization_theme.value == getString(R.string.system_default)) {
+            apply_to_all_holder.beGone()
         }
     }
 
@@ -199,13 +217,14 @@ class CustomizationActivity : BaseSimpleActivity() {
 //            }
 
             updateColorTheme(it as Int, true)
-            if (it != THEME_CUSTOM && it != THEME_SHARED && it != THEME_AUTO && !baseConfig.wasCustomThemeSwitchDescriptionShown) {
+            if (it != THEME_CUSTOM && it != THEME_SHARED && it != THEME_AUTO && it != THEME_SYSTEM && !baseConfig.wasCustomThemeSwitchDescriptionShown) {
                 baseConfig.wasCustomThemeSwitchDescriptionShown = true
                 toast(R.string.changing_color_description)
             }
 
             val hideGoogleRelations = resources.getBoolean(R.bool.hide_google_relations)
-            apply_to_all_holder.beVisibleIf(curSelectedThemeId != THEME_AUTO && curSelectedThemeId != THEME_SHARED && !hideGoogleRelations)
+            apply_to_all_holder.beVisibleIf(curSelectedThemeId != THEME_AUTO && curSelectedThemeId != THEME_SYSTEM && curSelectedThemeId != THEME_SHARED && !hideGoogleRelations)
+            updateMenuItemColors(menu, true, getCurrentStatusBarColor())
         }
     }
 
@@ -252,27 +271,27 @@ class CustomizationActivity : BaseSimpleActivity() {
                 curTextColor = getColor(theme.textColorId)
                 curBackgroundColor = getColor(theme.backgroundColorId)
 
-                if (curSelectedThemeId != THEME_AUTO) {
+                if (curSelectedThemeId != THEME_AUTO && curSelectedThemeId != THEME_SYSTEM) {
                     curPrimaryColor = getColor(theme.primaryColorId)
                     curAccentColor = getColor(R.color.color_primary)
                     curAppIconColor = getColor(theme.appIconColorId)
                 }
 
                 curNavigationBarColor = getThemeNavigationColor(curSelectedThemeId)
-                setTheme(getThemeId(curPrimaryColor))
+                setTheme(getThemeId(getCurrentPrimaryColor()))
                 colorChanged()
-                updateMenuItemColors(menu, true, curPrimaryColor)
+                updateMenuItemColors(menu, true, getCurrentStatusBarColor())
             }
         }
 
         hasUnsavedChanges = true
         invalidateOptionsMenu()
-        updateTextColors(customization_holder, curTextColor)
-        updateBackgroundColor(curBackgroundColor)
-        updateActionbarColor(curPrimaryColor)
+        updateLabelColors(getCurrentTextColor())
+        updateBackgroundColor(getCurrentBackgroundColor())
+        updateActionbarColor(getCurrentStatusBarColor())
         updateNavigationBarColor(curNavigationBarColor)
         updateAutoThemeFields()
-        updateApplyToAllColors(curPrimaryColor)
+        updateApplyToAllColors(getCurrentPrimaryColor())
         handleAccentColorLayout()
     }
 
@@ -280,19 +299,32 @@ class CustomizationActivity : BaseSimpleActivity() {
         val isUsingSystemDarkTheme = isUsingSystemDarkTheme()
         val textColor = if (isUsingSystemDarkTheme) R.color.theme_dark_text_color else R.color.theme_light_text_color
         val backgroundColor = if (isUsingSystemDarkTheme) R.color.theme_dark_background_color else R.color.theme_light_background_color
-        return MyTheme(R.string.auto_theme, textColor, backgroundColor, R.color.color_primary, R.color.color_primary)
+        return MyTheme(R.string.auto_light_dark_theme, textColor, backgroundColor, R.color.color_primary, R.color.color_primary)
+    }
+
+    // doesn't really matter what colors we use here, everything will be taken from the system. Use the default dark theme values here.
+    private fun getSystemThemeColors(): MyTheme {
+        return MyTheme(
+            R.string.system_default,
+            R.color.theme_dark_text_color,
+            R.color.theme_dark_background_color,
+            R.color.color_primary,
+            R.color.color_primary
+        )
     }
 
     private fun getCurrentThemeId(): Int {
         if (baseConfig.isUsingSharedTheme) {
             return THEME_SHARED
+        } else if ((baseConfig.isUsingSystemTheme && !hasUnsavedChanges) || curSelectedThemeId == THEME_SYSTEM) {
+            return THEME_SYSTEM
         } else if (baseConfig.isUsingAutoTheme || curSelectedThemeId == THEME_AUTO) {
             return THEME_AUTO
         }
 
         var themeId = THEME_CUSTOM
         resources.apply {
-            for ((key, value) in predefinedThemes.filter { it.key != THEME_CUSTOM && it.key != THEME_SHARED && it.key != THEME_AUTO }) {
+            for ((key, value) in predefinedThemes.filter { it.key != THEME_CUSTOM && it.key != THEME_SHARED && it.key != THEME_AUTO && it.key != THEME_SYSTEM }) {
                 if (curTextColor == getColor(value.textColorId) &&
                     curBackgroundColor == getColor(value.backgroundColorId) &&
                     curPrimaryColor == getColor(value.primaryColorId) &&
@@ -328,8 +360,10 @@ class CustomizationActivity : BaseSimpleActivity() {
 
     private fun updateAutoThemeFields() {
         arrayOf(customization_text_color_holder, customization_background_color_holder, customization_navigation_bar_color_holder).forEach {
-            it.beVisibleIf(curSelectedThemeId != THEME_AUTO)
+            it.beVisibleIf(curSelectedThemeId != THEME_AUTO && curSelectedThemeId != THEME_SYSTEM)
         }
+
+        customization_primary_color_holder.beVisibleIf(curSelectedThemeId != THEME_SYSTEM)
     }
 
     private fun promptSaveDiscard() {
@@ -377,6 +411,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         baseConfig.isUsingSharedTheme = curSelectedThemeId == THEME_SHARED
         baseConfig.shouldUseSharedTheme = curSelectedThemeId == THEME_SHARED
         baseConfig.isUsingAutoTheme = curSelectedThemeId == THEME_AUTO
+        baseConfig.isUsingSystemTheme = curSelectedThemeId == THEME_SYSTEM
 
         hasUnsavedChanges = false
         if (finishAfterSave) {
@@ -395,7 +430,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         updateActionbarColor()
         updateNavigationBarColor()
         invalidateOptionsMenu()
-        updateTextColors(customization_holder)
+        updateLabelColors(getCurrentTextColor())
     }
 
     private fun initColorVariables() {
@@ -408,13 +443,16 @@ class CustomizationActivity : BaseSimpleActivity() {
     }
 
     private fun setupColorsPickers() {
-        customization_text_color.setFillWithStroke(curTextColor, curBackgroundColor)
-        customization_primary_color.setFillWithStroke(curPrimaryColor, curBackgroundColor)
-        customization_accent_color.setFillWithStroke(curAccentColor, curBackgroundColor)
-        customization_background_color.setFillWithStroke(curBackgroundColor, curBackgroundColor)
-        customization_app_icon_color.setFillWithStroke(curAppIconColor, curBackgroundColor)
-        customization_navigation_bar_color.setFillWithStroke(curNavigationBarColor, curBackgroundColor)
-        apply_to_all.setTextColor(curPrimaryColor.getContrastColor())
+        val textColor = getCurrentTextColor()
+        val backgroundColor = getCurrentBackgroundColor()
+        val primaryColor = getCurrentPrimaryColor()
+        customization_text_color.setFillWithStroke(textColor, backgroundColor)
+        customization_primary_color.setFillWithStroke(primaryColor, backgroundColor)
+        customization_accent_color.setFillWithStroke(curAccentColor, backgroundColor)
+        customization_background_color.setFillWithStroke(backgroundColor, backgroundColor)
+        customization_app_icon_color.setFillWithStroke(curAppIconColor, backgroundColor)
+        customization_navigation_bar_color.setFillWithStroke(curNavigationBarColor, backgroundColor)
+        apply_to_all.setTextColor(primaryColor.getContrastColor())
 
         customization_text_color_holder.setOnClickListener { pickTextColor() }
         customization_background_color_holder.setOnClickListener { pickBackgroundColor() }
@@ -449,7 +487,7 @@ class CustomizationActivity : BaseSimpleActivity() {
 
     private fun setCurrentTextColor(color: Int) {
         curTextColor = color
-        updateTextColors(customization_holder, color)
+        updateLabelColors(color)
     }
 
     private fun setCurrentBackgroundColor(color: Int) {
@@ -464,7 +502,7 @@ class CustomizationActivity : BaseSimpleActivity() {
     }
 
     private fun updateApplyToAllColors(newColor: Int) {
-        if (newColor == baseConfig.primaryColor) {
+        if (newColor == baseConfig.primaryColor && !baseConfig.isUsingSystemTheme) {
             apply_to_all.setBackgroundResource(R.drawable.button_background_rounded)
         } else {
             val applyBackground = resources.getDrawable(R.drawable.button_background_rounded, theme) as RippleDrawable
@@ -547,6 +585,10 @@ class CustomizationActivity : BaseSimpleActivity() {
                 if (hasColorChanged(curAccentColor, color)) {
                     curAccentColor = color
                     colorChanged()
+
+                    if (isCurrentWhiteTheme() || isCurrentBlackAndWhiteTheme()) {
+                        updateActionbarColor(getCurrentStatusBarColor())
+                    }
                 }
             }
         }
@@ -599,5 +641,50 @@ class CustomizationActivity : BaseSimpleActivity() {
 //        } else {
 //            PurchaseThankYouDialog(this)
 //        }
+    }
+
+    private fun updateLabelColors(textColor: Int) {
+        arrayListOf<MyTextView>(
+            customization_theme_label,
+            customization_theme,
+            customization_text_color_label,
+            customization_background_color_label,
+            customization_primary_color_label,
+            customization_accent_color_label,
+            customization_app_icon_color_label,
+            customization_navigation_bar_color_label
+        ).forEach {
+            it.setTextColor(textColor)
+        }
+
+        val primaryColor = getCurrentPrimaryColor()
+        apply_to_all.setTextColor(primaryColor.getContrastColor())
+        updateApplyToAllColors(primaryColor)
+    }
+
+    private fun getCurrentTextColor() = if (customization_theme.value == getString(R.string.system_default)) {
+        resources.getColor(R.color.you_neutral_text_color)
+    } else {
+        curTextColor
+    }
+
+    private fun getCurrentBackgroundColor() = if (customization_theme.value == getString(R.string.system_default)) {
+        resources.getColor(R.color.you_background_color)
+    } else {
+        curBackgroundColor
+    }
+
+    private fun getCurrentPrimaryColor() = if (customization_theme.value == getString(R.string.system_default)) {
+        resources.getColor(R.color.you_primary_color)
+    } else {
+        curPrimaryColor
+    }
+
+    private fun getCurrentStatusBarColor() = if (customization_theme.value == getString(R.string.system_default)) {
+        resources.getColor(R.color.you_status_bar_color)
+    } else if (isCurrentBlackAndWhiteTheme() || isCurrentWhiteTheme()) {
+        curAccentColor
+    } else {
+        curPrimaryColor
     }
 }

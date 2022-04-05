@@ -1,24 +1,19 @@
 package com.simplemobiletools.commons.adapters
 
-import android.view.Menu
-import android.view.MenuItem
-import android.view.View
-import android.view.ViewGroup
+import android.graphics.Color
+import android.view.*
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.ActionBar
-import androidx.appcompat.view.ActionMode
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.simplemobiletools.commons.R
 import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.commons.extensions.baseConfig
-import com.simplemobiletools.commons.extensions.getAdjustedPrimaryColor
-import com.simplemobiletools.commons.extensions.getContrastColor
+import com.simplemobiletools.commons.extensions.*
 import com.simplemobiletools.commons.interfaces.MyActionModeCallback
 import com.simplemobiletools.commons.views.MyRecyclerView
-import java.util.*
 
 abstract class MyRecyclerViewListAdapter<T>(
     val activity: BaseSimpleActivity,
@@ -30,11 +25,11 @@ abstract class MyRecyclerViewListAdapter<T>(
     protected val baseConfig = activity.baseConfig
     protected val resources = activity.resources!!
     protected val layoutInflater = activity.layoutInflater
-    protected var primaryColor = baseConfig.primaryColor
-    protected var adjustedPrimaryColor = activity.getAdjustedPrimaryColor()
-    protected var contrastColor = adjustedPrimaryColor.getContrastColor()
-    protected var textColor = baseConfig.textColor
-    protected var backgroundColor = baseConfig.backgroundColor
+    protected var textColor = activity.getProperTextColor()
+    protected var backgroundColor = activity.getProperBackgroundColor()
+    protected var rawPrimaryColor = baseConfig.primaryColor
+    protected var properPrimaryColor = activity.getProperPrimaryColor()
+    protected var contrastColor = properPrimaryColor.getContrastColor()
     protected var actModeCallback: MyActionModeCallback
     protected var selectedKeys = LinkedHashSet<Int>()
     protected var positionOffset = 0
@@ -87,8 +82,24 @@ abstract class MyRecyclerViewListAdapter<T>(
                         selectAll()
                     }
                 }
+
                 activity.menuInflater.inflate(getActionMenuId(), menu)
+                val bgColor = if (baseConfig.isUsingSystemTheme) {
+                    resources.getColor(R.color.you_contextual_status_bar_color, activity.theme)
+                } else {
+                    Color.BLACK
+                }
+
+                actBarTextView!!.setTextColor(bgColor.getContrastColor())
+                activity.updateMenuItemColors(menu, baseColor = bgColor, updateHomeAsUpColor = true, isContextualMenu = true)
                 onActionModeCreated()
+
+                if (baseConfig.isUsingSystemTheme) {
+                    actBarTextView?.onGlobalLayout {
+                        val backArrow = activity.findViewById<ImageView>(R.id.action_mode_close_button)
+                        backArrow?.applyColorFilter(bgColor.getContrastColor())
+                    }
+                }
                 return true
             }
 
@@ -281,9 +292,9 @@ abstract class MyRecyclerViewListAdapter<T>(
     }
 
     fun updatePrimaryColor(primaryColor: Int) {
-        this.primaryColor = primaryColor
-        adjustedPrimaryColor = activity.getAdjustedPrimaryColor()
-        contrastColor = adjustedPrimaryColor.getContrastColor()
+        this.rawPrimaryColor = primaryColor
+        properPrimaryColor = activity.getProperPrimaryColor()
+        contrastColor = properPrimaryColor.getContrastColor()
     }
 
     fun updateBackgroundColor(backgroundColor: Int) {
@@ -335,7 +346,7 @@ abstract class MyRecyclerViewListAdapter<T>(
         private fun viewLongClicked() {
             val currentPosition = adapterPosition - positionOffset
             if (!actModeCallback.isSelectable) {
-                activity.startSupportActionMode(actModeCallback)
+                activity.startActionMode(actModeCallback)
             }
 
             toggleItemSelection(true, currentPosition, true)

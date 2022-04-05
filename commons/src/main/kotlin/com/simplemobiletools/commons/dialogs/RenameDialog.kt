@@ -11,7 +11,6 @@ import com.simplemobiletools.commons.helpers.RENAME_PATTERN
 import com.simplemobiletools.commons.helpers.RENAME_SIMPLE
 import com.simplemobiletools.commons.views.MyViewPager
 import kotlinx.android.synthetic.main.dialog_rename.view.*
-import java.util.*
 
 class RenameDialog(val activity: BaseSimpleActivity, val paths: ArrayList<String>, val useMediaFileExtension: Boolean, val callback: () -> Unit) {
     var dialog: AlertDialog? = null
@@ -29,9 +28,9 @@ class RenameDialog(val activity: BaseSimpleActivity, val paths: ArrayList<String
             }
             viewPager.currentItem = activity.baseConfig.lastRenameUsed
 
-            val textColor = context.baseConfig.textColor
+            val textColor = context.getProperTextColor()
             dialog_tab_layout.setTabTextColors(textColor, textColor)
-            dialog_tab_layout.setSelectedTabIndicatorColor(context.getAdjustedPrimaryColor())
+            dialog_tab_layout.setSelectedTabIndicatorColor(context.getProperPrimaryColor())
 
             dialog_tab_layout.onTabSelectionChanged(tabSelectedAction = {
                 viewPager.currentItem = when {

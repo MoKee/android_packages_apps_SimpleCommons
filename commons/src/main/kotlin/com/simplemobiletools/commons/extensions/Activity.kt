@@ -18,7 +18,10 @@ import android.provider.MediaStore
 import android.telecom.PhoneAccountHandle
 import android.telecom.TelecomManager
 import android.text.Html
-import android.view.*
+import android.view.View
+import android.view.ViewGroup
+import android.view.Window
+import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import android.widget.TextView
@@ -43,14 +46,25 @@ import java.io.FileNotFoundException
 import java.io.FileOutputStream
 import java.io.OutputStream
 import java.util.*
-import kotlin.collections.HashMap
 
 fun AppCompatActivity.updateActionBarTitle(text: String, color: Int = baseConfig.primaryColor) {
-    supportActionBar?.title = Html.fromHtml("<font color='${color.getContrastColor().toHex()}'>$text</font>")
+    val colorToUse = if (baseConfig.isUsingSystemTheme) {
+        getProperTextColor()
+    } else {
+        color.getContrastColor()
+    }
+
+    supportActionBar?.title = Html.fromHtml("<font color='${colorToUse.toHex()}'>$text</font>")
 }
 
 fun AppCompatActivity.updateActionBarSubtitle(text: String) {
-    supportActionBar?.subtitle = Html.fromHtml("<font color='${baseConfig.primaryColor.getContrastColor().toHex()}'>$text</font>")
+    val colorToUse = if (baseConfig.isUsingSystemTheme) {
+        getProperTextColor()
+    } else {
+        baseConfig.primaryColor.getContrastColor()
+    }
+
+    supportActionBar?.subtitle = Html.fromHtml("<font color='${colorToUse.toHex()}'>$text</font>")
 }
 
 fun Activity.appLaunched(appId: String) {
@@ -138,7 +152,8 @@ fun BaseSimpleActivity.isShowingSAFDialogSdk30(path: String): Boolean {
     return if (isAccessibleWithSAFSdk30(path) && !hasProperStoredFirstParentUri(path)) {
         runOnUiThread {
             if (!isDestroyed && !isFinishing) {
-                WritePermissionDialog(this, Mode.OpenDocumentTreeSDK30(path.getFirstParentPath(this))) {
+                val level = getFirstParentLevel(path)
+                WritePermissionDialog(this, Mode.OpenDocumentTreeSDK30(path.getFirstParentPath(this, level))) {
                     Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
                         putExtra(EXTRA_SHOW_ADVANCED, true)
                         putExtra(DocumentsContract.EXTRA_INITIAL_URI, createFirstParentTreeUriUsingRootTree(path))
@@ -1183,7 +1198,7 @@ private fun createCasualFileOutputStream(activity: BaseSimpleActivity, targetFil
     }
 }
 
-fun FragmentActivity.performSecurityCheck(
+fun Activity.performSecurityCheck(
     protectionType: Int,
     requiredHash: String,
     successCallback: ((String, Int) -> Unit)? = null,
@@ -1207,14 +1222,14 @@ fun FragmentActivity.performSecurityCheck(
     }
 }
 
-fun FragmentActivity.showBiometricPrompt(
+fun Activity.showBiometricPrompt(
     successCallback: ((String, Int) -> Unit)? = null,
     failureCallback: (() -> Unit)? = null
 ) {
     Class2BiometricAuthPrompt.Builder(getText(R.string.authenticate), getText(R.string.cancel))
         .build()
         .startAuthentication(
-            AuthPromptHost(this),
+            AuthPromptHost(this as FragmentActivity),
             object : AuthPromptCallback() {
                 override fun onAuthenticationSucceeded(activity: FragmentActivity?, result: BiometricPrompt.AuthenticationResult) {
                     successCallback?.invoke("", PROTECTION_FINGERPRINT)
@@ -1236,7 +1251,7 @@ fun FragmentActivity.showBiometricPrompt(
         )
 }
 
-fun FragmentActivity.handleHiddenFolderPasswordProtection(callback: () -> Unit) {
+fun Activity.handleHiddenFolderPasswordProtection(callback: () -> Unit) {
     if (baseConfig.isHiddenPasswordProtectionOn) {
         SecurityDialog(this, baseConfig.hiddenPasswordHash, baseConfig.hiddenProtectionType) { _, _, success ->
             if (success) {
@@ -1248,7 +1263,7 @@ fun FragmentActivity.handleHiddenFolderPasswordProtection(callback: () -> Unit) 
     }
 }
 
-fun FragmentActivity.handleAppPasswordProtection(callback: (success: Boolean) -> Unit) {
+fun Activity.handleAppPasswordProtection(callback: (success: Boolean) -> Unit) {
     if (baseConfig.isAppPasswordProtectionOn) {
         SecurityDialog(this, baseConfig.appPasswordHash, baseConfig.appProtectionType) { _, _, success ->
             callback(success)
@@ -1258,7 +1273,7 @@ fun FragmentActivity.handleAppPasswordProtection(callback: (success: Boolean) ->
     }
 }
 
-fun FragmentActivity.handleDeletePasswordProtection(callback: () -> Unit) {
+fun Activity.handleDeletePasswordProtection(callback: () -> Unit) {
     if (baseConfig.isDeletePasswordProtectionOn) {
         SecurityDialog(this, baseConfig.deletePasswordHash, baseConfig.deleteProtectionType) { _, _, success ->
             if (success) {
@@ -1270,7 +1285,7 @@ fun FragmentActivity.handleDeletePasswordProtection(callback: () -> Unit) {
     }
 }
 
-fun FragmentActivity.handleLockedFolderOpening(path: String, callback: (success: Boolean) -> Unit) {
+fun Activity.handleLockedFolderOpening(path: String, callback: (success: Boolean) -> Unit) {
     if (baseConfig.isFolderProtected(path)) {
         SecurityDialog(this, baseConfig.getFolderProtectionHash(path), baseConfig.getFolderProtectionType(path)) { _, _, success ->
             callback(success)
@@ -1323,11 +1338,13 @@ fun Activity.setupDialogStuff(
         return
     }
 
-    val adjustedPrimaryColor = getAdjustedPrimaryColor()
-    if (view is ViewGroup)
+    val textColor = getProperTextColor()
+    val backgroundColor = getProperBackgroundColor()
+    val primaryColor = getProperPrimaryColor()
+    if (view is ViewGroup) {
         updateTextColors(view)
-    else if (view is MyTextView) {
-        view.setColors(baseConfig.textColor, adjustedPrimaryColor, baseConfig.backgroundColor)
+    } else if (view is MyTextView) {
+        view.setColors(textColor, primaryColor, backgroundColor)
     }
 
     var title: TextView? = null
@@ -1339,15 +1356,15 @@ fun Activity.setupDialogStuff(
             } else {
                 setText(titleId)
             }
-            setTextColor(baseConfig.textColor)
+            setTextColor(textColor)
         }
     }
 
     // if we use the same primary and background color, use the text color for dialog confirmation buttons
-    val dialogButtonColor = if (adjustedPrimaryColor == baseConfig.backgroundColor) {
-        baseConfig.textColor
+    val dialogButtonColor = if (primaryColor == baseConfig.backgroundColor) {
+        textColor
     } else {
-        adjustedPrimaryColor
+        primaryColor
     }
 
     dialog.apply {
@@ -1360,10 +1377,10 @@ fun Activity.setupDialogStuff(
         getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(dialogButtonColor)
         getButton(AlertDialog.BUTTON_NEUTRAL).setTextColor(dialogButtonColor)
 
-        val bgDrawable = if (isBlackAndWhiteTheme()) {
-            resources.getDrawable(R.drawable.black_dialog_background, theme)
-        } else {
-            resources.getColoredDrawableWithColor(R.drawable.dialog_bg, baseConfig.backgroundColor)
+        val bgDrawable = when {
+            isBlackAndWhiteTheme() -> resources.getDrawable(R.drawable.black_dialog_background, theme)
+            baseConfig.isUsingSystemTheme -> resources.getDrawable(R.drawable.dialog_you_background, theme)
+            else -> resources.getColoredDrawableWithColor(R.drawable.dialog_bg, baseConfig.backgroundColor)
         }
 
         window?.setBackgroundDrawable(bgDrawable)
@@ -1477,7 +1494,7 @@ fun BaseSimpleActivity.getAlarmSounds(type: Int, callback: (ArrayList<AlarmSound
     }
 }
 
-fun AppCompatActivity.checkAppSideloading(): Boolean {
+fun Activity.checkAppSideloading(): Boolean {
     val isSideloaded = when (baseConfig.appSideloadingStatus) {
         SIDELOADING_TRUE -> true
         SIDELOADING_FALSE -> false
@@ -1492,7 +1509,7 @@ fun AppCompatActivity.checkAppSideloading(): Boolean {
     return isSideloaded
 }
 
-fun AppCompatActivity.isAppSideloaded(): Boolean {
+fun Activity.isAppSideloaded(): Boolean {
     return try {
         getDrawable(R.drawable.ic_camera_vector)
         false
@@ -1501,7 +1518,7 @@ fun AppCompatActivity.isAppSideloaded(): Boolean {
     }
 }
 
-fun AppCompatActivity.showSideloadingDialog() {
+fun Activity.showSideloadingDialog() {
     AppSideloadedDialog(this) {
         finish()
     }

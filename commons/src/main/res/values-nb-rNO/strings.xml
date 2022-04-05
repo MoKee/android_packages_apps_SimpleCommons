@@ -156,6 +156,7 @@
     <string name="could_not_create_file">Kunne ikke opprette filen %s</string>
     <string name="no_new_items">Ingen nye elementer er funnet</string>
     <string name="no_space">Det er ikke nok plass tilgjengelig.\nKreves %1$s, tilgjengelig %2$s</string>
+    <string name="system_service_disabled">System service for selecting files and folders is unavailable</string>
     <!-- Create new -->
     <string name="create_new">Opprett ny</string>
     <string name="folder">Mappe</string>
@@ -175,6 +176,7 @@
     <string name="skip">Hopp over</string>
     <string name="append">Tilføy \'_1\'</string>
     <string name="apply_to_all">Bruk på alle konflikter</string>
+    <string name="system_folder_restriction">The system does not allow the operation in this folder, please pick another one</string>
     <!-- File picker -->
     <string name="select_folder">Velg en mappe</string>
     <string name="select_file">Velg en fil</string>
@@ -271,12 +273,14 @@
     <string name="light_theme">Lyst</string>
     <string name="dark_theme">Mørkt</string>
     <string name="auto_theme">Automatisk</string>
+    <string name="auto_light_dark_theme">Auto light / dark</string>
     <string name="solarized">Solarisert</string>
     <string name="dark_red">Mørkerødt</string>
     <string name="white">Hvitt</string>
     <string name="black_white">Svart &amp; hvitt</string>
     <string name="custom">Tilpasset</string>
     <string name="shared">Delt</string>
+    <string name="system_default">System default</string>
     <!-- What's new -->
     <string name="whats_new">Hva er nytt</string>
     <string name="whats_new_disclaimer">* bare de større oppdateringene er oppført her, det er alltid noen mindre forbedringer også</string>

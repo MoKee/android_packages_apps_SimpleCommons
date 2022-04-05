@@ -1,5 +1,6 @@
 package com.simplemobiletools.commons.dialogs
 
+import android.app.Activity
 import android.view.LayoutInflater
 import androidx.appcompat.app.AlertDialog
 import androidx.biometric.auth.AuthPromptHost
@@ -16,7 +17,7 @@ import com.simplemobiletools.commons.views.MyDialogViewPager
 import kotlinx.android.synthetic.main.dialog_security.view.*
 
 class SecurityDialog(
-    private val activity: FragmentActivity,
+    private val activity: Activity,
     private val requiredHash: String,
     private val showTabIndex: Int,
     private val callback: (hash: String, type: Int, success: Boolean) -> Unit
@@ -35,7 +36,7 @@ class SecurityDialog(
                 requiredHash = requiredHash,
                 hashListener = this@SecurityDialog,
                 scrollView = dialog_scrollview,
-                biometricPromptHost = AuthPromptHost(activity),
+                biometricPromptHost = AuthPromptHost(activity as FragmentActivity),
                 showBiometricIdTab = shouldShowBiometricIdTab(),
                 showBiometricAuthentication = showTabIndex == PROTECTION_FINGERPRINT && activity.isTargetSdkVersion30Plus()
             )
@@ -49,7 +50,7 @@ class SecurityDialog(
             }
 
             if (showTabIndex == SHOW_ALL_TABS) {
-                val textColor = context.baseConfig.textColor
+                val textColor = context.getProperTextColor()
 
                 if (shouldShowBiometricIdTab()) {
                     val tabTitle = if (context.isTargetSdkVersion30Plus()) R.string.biometrics else R.string.fingerprint
@@ -57,7 +58,7 @@ class SecurityDialog(
                 }
 
                 dialog_tab_layout.setTabTextColors(textColor, textColor)
-                dialog_tab_layout.setSelectedTabIndicatorColor(context.getAdjustedPrimaryColor())
+                dialog_tab_layout.setSelectedTabIndicatorColor(context.getProperPrimaryColor())
                 dialog_tab_layout.onTabSelectionChanged(tabSelectedAction = {
                     viewPager.currentItem = when {
                         it.text.toString().equals(resources.getString(R.string.pattern), true) -> PROTECTION_PATTERN
