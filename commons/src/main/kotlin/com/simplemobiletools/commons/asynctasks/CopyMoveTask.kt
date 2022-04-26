@@ -22,7 +22,6 @@ import java.io.File
 import java.io.InputStream
 import java.io.OutputStream
 import java.lang.ref.WeakReference
-import java.util.*
 
 class CopyMoveTask(
     val activity: BaseSimpleActivity, val copyOnly: Boolean, val copyMediaOnly: Boolean, val conflictResolutions: LinkedHashMap<String, Int>,
@@ -278,13 +277,27 @@ class CopyMoveTask(
                 if (copyOnly) {
                     activity.rescanPath(destination.path) {
                         if (activity.baseConfig.keepLastModified) {
-                            copyOldLastModified(source.path, destination.path)
-                            File(destination.path).setLastModified(File(source.path).lastModified())
+                            if (activity.canManageMedia()) {
+                                val fileUris = activity.getFileUrisFromFileDirItems(arrayListOf(destination)).second
+                                activity.updateSDK30Uris(fileUris) {
+                                    updateLastModifiedValues(source, destination)
+                                    activity.rescanPath(destination.path)
+                                }
+                            } else {
+                                updateLastModifiedValues(source, destination)
+                            }
                         }
                     }
                 } else if (activity.baseConfig.keepLastModified) {
-                    copyOldLastModified(source.path, destination.path)
-                    File(destination.path).setLastModified(File(source.path).lastModified())
+                    if (activity.canManageMedia()) {
+                        val fileUris = activity.getFileUrisFromFileDirItems(arrayListOf(destination)).second
+                        activity.updateSDK30Uris(fileUris) {
+                            updateLastModifiedValues(source, destination)
+                            activity.rescanPath(destination.path)
+                        }
+                    } else {
+                        updateLastModifiedValues(source, destination)
+                    }
                 }
 
                 if (!copyOnly) {
@@ -302,11 +315,17 @@ class CopyMoveTask(
         }
     }
 
+    private fun updateLastModifiedValues(source: FileDirItem, destination: FileDirItem) {
+        copyOldLastModified(source.path, destination.path)
+        File(destination.path).setLastModified(File(source.path).lastModified())
+    }
+
     private fun copyOldLastModified(sourcePath: String, destinationPath: String) {
         val projection = arrayOf(
             MediaStore.Images.Media.DATE_TAKEN,
             MediaStore.Images.Media.DATE_MODIFIED
         )
+
         val uri = MediaStore.Files.getContentUri("external")
         val selection = "${MediaStore.MediaColumns.DATA} = ?"
         var selectionArgs = arrayOf(sourcePath)

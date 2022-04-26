@@ -4,6 +4,7 @@ import android.content.Context
 import android.net.Uri
 import android.os.Environment
 import android.provider.DocumentsContract
+import android.provider.MediaStore
 import androidx.documentfile.provider.DocumentFile
 import com.simplemobiletools.commons.helpers.EXTERNAL_STORAGE_PROVIDER_AUTHORITY
 import com.simplemobiletools.commons.helpers.isRPlus
@@ -13,11 +14,7 @@ import java.io.File
 
 private const val DOWNLOAD_DIR = "Download"
 private const val ANDROID_DIR = "Android"
-private val DIRS_INACCESSIBLE_WITH_SAF_SDK_30 = if (isSPlus()) {
-    listOf(DOWNLOAD_DIR, ANDROID_DIR)
-} else {
-    listOf(DOWNLOAD_DIR)
-}
+private val DIRS_INACCESSIBLE_WITH_SAF_SDK_30 = listOf(DOWNLOAD_DIR, ANDROID_DIR)
 
 fun Context.hasProperStoredFirstParentUri(path: String): Boolean {
     val firstParentUri = createFirstParentTreeUri(path)
@@ -30,19 +27,18 @@ fun Context.isAccessibleWithSAFSdk30(path: String): Boolean {
     }
 
     val level = getFirstParentLevel(path)
-    val firstParentDir =  path.getFirstParentDirName(this, level)
-    val firstParentPath =  path.getFirstParentPath(this, level)
+    val firstParentDir = path.getFirstParentDirName(this, level)
+    val firstParentPath = path.getFirstParentPath(this, level)
 
     val isValidName = firstParentDir != null
     val isDirectory = File(firstParentPath).isDirectory
     val isAnAccessibleDirectory = DIRS_INACCESSIBLE_WITH_SAF_SDK_30.all { !firstParentDir.equals(it, true) }
-    return isValidName && isDirectory && isAnAccessibleDirectory
+    return isRPlus() && isValidName && isDirectory && isAnAccessibleDirectory
 }
 
 fun Context.getFirstParentLevel(path: String): Int {
     return when {
-        isSPlus() && (isInAndroidDir(path) || isInSubFolderInDownloadDir(path)) -> 1
-        isRPlus() && isInSubFolderInDownloadDir(path) -> 1
+        isRPlus() && (isInAndroidDir(path) || isInSubFolderInDownloadDir(path)) -> 1
         else -> 0
     }
 }
@@ -53,13 +49,13 @@ fun Context.isRestrictedWithSAFSdk30(path: String): Boolean {
     }
 
     val level = getFirstParentLevel(path)
-    val firstParentDir =  path.getFirstParentDirName(this, level)
-    val firstParentPath =  path.getFirstParentPath(this, level)
+    val firstParentDir = path.getFirstParentDirName(this, level)
+    val firstParentPath = path.getFirstParentPath(this, level)
 
     val isInvalidName = firstParentDir == null
     val isDirectory = File(firstParentPath).isDirectory
     val isARestrictedDirectory = DIRS_INACCESSIBLE_WITH_SAF_SDK_30.any { firstParentDir.equals(it, true) }
-    return isInvalidName || (isDirectory && isARestrictedDirectory)
+    return isRPlus() && isInvalidName || (isDirectory && isARestrictedDirectory)
 }
 
 fun Context.isInDownloadDir(path: String): Boolean {
@@ -99,6 +95,11 @@ fun isNotExternalStorageManager(): Boolean {
 
 fun isExternalStorageManager(): Boolean {
     return isRPlus() && Environment.isExternalStorageManager()
+}
+
+// is the app a Media Management App on Android 12+?
+fun Context.canManageMedia(): Boolean {
+    return isSPlus() && MediaStore.canManageMedia(this)
 }
 
 fun Context.createFirstParentTreeUriUsingRootTree(fullPath: String): Uri {
@@ -204,7 +205,6 @@ fun Context.getDocumentSdk30(path: String): DocumentFile? {
         null
     }
 }
-
 
 fun Context.deleteDocumentWithSAFSdk30(fileDirItem: FileDirItem, allowDeleteFolder: Boolean, callback: ((wasSuccess: Boolean) -> Unit)?) {
     try {

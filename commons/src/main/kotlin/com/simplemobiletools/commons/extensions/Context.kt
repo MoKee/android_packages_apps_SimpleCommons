@@ -83,7 +83,7 @@ private fun doToast(context: Context, message: String, length: Int) {
 }
 
 fun Context.showErrorToast(msg: String, length: Int = Toast.LENGTH_LONG) {
-    toast(String.format(getString(R.string.an_error_occurred), msg), length)
+    toast(String.format(getString(R.string.error), msg), length)
 }
 
 fun Context.showErrorToast(exception: Exception, length: Int = Toast.LENGTH_LONG) {
@@ -224,6 +224,7 @@ fun Context.getPermissionString(id: Int) = when (id) {
     PERMISSION_READ_SMS -> Manifest.permission.READ_SMS
     PERMISSION_SEND_SMS -> Manifest.permission.SEND_SMS
     PERMISSION_READ_PHONE_STATE -> Manifest.permission.READ_PHONE_STATE
+    PERMISSION_MEDIA_LOCATION -> if (isQPlus()) Manifest.permission.ACCESS_MEDIA_LOCATION else ""
     else -> ""
 }
 

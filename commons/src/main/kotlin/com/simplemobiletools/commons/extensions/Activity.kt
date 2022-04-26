@@ -466,7 +466,10 @@ fun Activity.openEditorIntent(path: String, forceChooser: Boolean, applicationId
                 }
             }
 
-            putExtra(MediaStore.EXTRA_OUTPUT, outputUri)
+            if (!isRPlus()) {
+                putExtra(MediaStore.EXTRA_OUTPUT, outputUri)
+            }
+
             putExtra(REAL_FILE_PATH, path)
 
             try {
