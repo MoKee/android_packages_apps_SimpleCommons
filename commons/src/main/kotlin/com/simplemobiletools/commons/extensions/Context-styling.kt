@@ -31,6 +31,11 @@ fun Context.getProperPrimaryColor() = when {
     else -> baseConfig.primaryColor
 }
 
+fun Context.getProperStatusBarColor() = when {
+    baseConfig.isUsingSystemTheme -> resources.getColor(R.color.you_primary_color, theme)
+    else -> baseConfig.primaryColor
+}
+
 fun Context.updateTextColors(viewGroup: ViewGroup) {
     val textColor = when {
         baseConfig.isUsingSystemTheme -> getProperTextColor()
@@ -77,7 +82,21 @@ fun Context.isWhiteTheme() = baseConfig.textColor == DARK_GREY && baseConfig.pri
 
 fun Context.isUsingSystemDarkTheme() = resources.configuration.uiMode and Configuration.UI_MODE_NIGHT_YES != 0
 
-fun Context.getDialogTheme() = if (baseConfig.backgroundColor.getContrastColor() == Color.WHITE) R.style.MyDialogTheme_Dark else R.style.MyDialogTheme
+fun Context.getTimePickerDialogTheme() = when {
+    baseConfig.isUsingSystemTheme -> if (isUsingSystemDarkTheme()) {
+        R.style.MyTimePickerMaterialTheme_Dark
+    } else {
+        R.style.MyDateTimePickerMaterialTheme
+    }
+    baseConfig.backgroundColor.getContrastColor() == Color.WHITE -> R.style.MyDialogTheme_Dark
+    else -> R.style.MyDialogTheme
+}
+
+fun Context.getDatePickerDialogTheme() = when {
+    baseConfig.isUsingSystemTheme -> R.style.MyDateTimePickerMaterialTheme
+    baseConfig.backgroundColor.getContrastColor() == Color.WHITE -> R.style.MyDialogTheme_Dark
+    else -> R.style.MyDialogTheme
+}
 
 fun Context.getSharedTheme(callback: (sharedTheme: SharedTheme?) -> Unit) {
     if (!isThankYouInstalled()) {

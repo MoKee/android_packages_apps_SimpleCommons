@@ -8,6 +8,7 @@
     <string name="invalid_file_format">Invalid file format</string>
     <string name="out_of_memory_error">Out of memory error</string>
     <string name="an_error_occurred">An error occurred: %s</string>
+    <string name="error">Error: %s</string>
     <string name="open_with">Open with</string>
     <string name="edit_with">Edit with</string>
     <string name="edit">Edit</string>
@@ -188,6 +189,7 @@
     <string name="append">Append with \'_1\'</string>
     <string name="apply_to_all">Apply to all</string>
     <string name="system_folder_restriction">The system does not allow the operation in this folder, please pick another one</string>
+    <string name="rename_in_sd_card_system_restriction">The system does not allow renaming in this folder</string>
 
     <!-- File picker -->
     <string name="select_folder">Select a folder</string>

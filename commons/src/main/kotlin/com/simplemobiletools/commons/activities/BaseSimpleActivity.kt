@@ -104,7 +104,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             val color = if (baseConfig.isUsingSystemTheme) {
                 resources.getColor(R.color.you_status_bar_color)
             } else {
-                getProperPrimaryColor()
+                getProperStatusBarColor()
             }
 
             updateActionbarColor(color)
@@ -122,7 +122,10 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            android.R.id.home -> finish()
+            android.R.id.home -> {
+                hideKeyboard()
+                finish()
+            }
             else -> return super.onOptionsItemSelected(item)
         }
         return true
@@ -152,7 +155,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
     }
 
-    fun updateActionbarColor(color: Int = getProperPrimaryColor()) {
+    fun updateActionbarColor(color: Int = getProperStatusBarColor()) {
         updateActionBarTitle(supportActionBar?.title.toString(), color)
         supportActionBar?.setBackgroundDrawable(ColorDrawable(color))
         updateStatusbarColor(color)
@@ -195,7 +198,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun updateMenuItemColors(
-        menu: Menu?, useCrossAsBack: Boolean = false, baseColor: Int = getProperPrimaryColor(), updateHomeAsUpColor: Boolean = true,
+        menu: Menu?, useCrossAsBack: Boolean = false, baseColor: Int = getProperStatusBarColor(), updateHomeAsUpColor: Boolean = true,
         isContextualMenu: Boolean = false, forceWhiteIcons: Boolean = false
     ) {
         if (menu == null) {
@@ -311,7 +314,12 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
                         if (isRPlus()) {
                             putExtra(DocumentsContract.EXTRA_INITIAL_URI, createAndroidDataOrObbUri(checkedDocumentPath))
                         }
-                        startActivityForResult(this, requestCode)
+
+                        try {
+                            startActivityForResult(this, requestCode)
+                        } catch (e: Exception) {
+                            showErrorToast(e)
+                        }
                     }
                 }
             } else {
@@ -333,7 +341,12 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
                 } else {
                     toast(R.string.wrong_root_selected)
                     val intent = Intent(Intent.ACTION_OPEN_DOCUMENT_TREE)
-                    startActivityForResult(intent, requestCode)
+
+                    try {
+                        startActivityForResult(intent, requestCode)
+                    } catch (e: Exception) {
+                        showErrorToast(e)
+                    }
                 }
             } else {
                 funAfterSAFPermission?.invoke(false)
@@ -360,7 +373,12 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
                 } else {
                     toast(R.string.wrong_root_selected_usb)
                     val intent = Intent(Intent.ACTION_OPEN_DOCUMENT_TREE)
-                    startActivityForResult(intent, requestCode)
+
+                    try {
+                        startActivityForResult(intent, requestCode)
+                    } catch (e: Exception) {
+                        showErrorToast(e)
+                    }
                 }
             } else {
                 funAfterSAFPermission?.invoke(false)
@@ -441,6 +459,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     // synchronous return value determines only if we are showing the SAF dialog, callback result tells if the SD or OTG permission has been granted
     fun handleSAFDialog(path: String, callback: (success: Boolean) -> Unit): Boolean {
+        hideKeyboard()
         return if (isShowingSAFDialog(path) || isShowingOTGDialog(path)) {
             funAfterSAFPermission = callback
             true
@@ -451,6 +470,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun handleSAFDialogSdk30(path: String, callback: (success: Boolean) -> Unit): Boolean {
+        hideKeyboard()
         return if (!packageName.startsWith("com.simplemobiletools")) {
             callback(true)
             false
@@ -464,6 +484,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun handleSAFCreateDocumentDialogSdk30(path: String, callback: (success: Boolean) -> Unit): Boolean {
+        hideKeyboard()
         return if (!packageName.startsWith("com.simplemobiletools")) {
             callback(true)
             false
@@ -477,6 +498,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun handleAndroidSAFDialog(path: String, callback: (success: Boolean) -> Unit): Boolean {
+        hideKeyboard()
         return if (!packageName.startsWith("com.simplemobiletools")) {
             callback(true)
             false
@@ -490,6 +512,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun handleOTGPermission(callback: (success: Boolean) -> Unit) {
+        hideKeyboard()
         if (baseConfig.OTGTreeUri.isNotEmpty()) {
             callback(true)
             return
@@ -507,6 +530,8 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
                 try {
                     startActivityForResult(this, OPEN_DOCUMENT_TREE_OTG)
+                } catch (e: ActivityNotFoundException) {
+                    toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
                 } catch (e: Exception) {
                     toast(R.string.unknown_error_occurred)
                 }
@@ -516,6 +541,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     @SuppressLint("NewApi")
     fun deleteSDK30Uris(uris: List<Uri>, callback: (success: Boolean) -> Unit) {
+        hideKeyboard()
         if (isRPlus()) {
             funAfterSdk30Action = callback
             try {
@@ -531,6 +557,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     @SuppressLint("NewApi")
     fun updateSDK30Uris(uris: List<Uri>, callback: (success: Boolean) -> Unit) {
+        hideKeyboard()
         if (isRPlus()) {
             funAfterUpdate30File = callback
             try {
@@ -795,7 +822,13 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
                     putExtra(Intent.EXTRA_TITLE, filename)
                     addCategory(Intent.CATEGORY_OPENABLE)
 
-                    startActivityForResult(this, SELECT_EXPORT_SETTINGS_FILE_INTENT)
+                    try {
+                        startActivityForResult(this, SELECT_EXPORT_SETTINGS_FILE_INTENT)
+                    } catch (e: ActivityNotFoundException) {
+                        toast(R.string.system_service_disabled, Toast.LENGTH_LONG)
+                    } catch (e: Exception) {
+                        showErrorToast(e)
+                    }
                 }
             }
         } else {
