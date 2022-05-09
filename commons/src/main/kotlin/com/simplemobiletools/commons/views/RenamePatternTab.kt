@@ -65,9 +65,9 @@ class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(c
                 return@handleSAFDialog
             }
 
-            activity?.handleSAFDialogSdk30(firstPath) {
+            activity?.checkManageMediaOrHandleSAFDialogSdk30(firstPath) {
                 if (!it) {
-                    return@handleSAFDialogSdk30
+                    return@checkManageMediaOrHandleSAFDialogSdk30
                 }
 
                 ignoreClicks = true
@@ -75,7 +75,7 @@ class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(c
                 numbersCnt = pathsCnt.toString().length
                 for (path in validPaths) {
                     if (stopLooping) {
-                        return@handleSAFDialogSdk30
+                        return@checkManageMediaOrHandleSAFDialogSdk30
                     }
 
                     try {

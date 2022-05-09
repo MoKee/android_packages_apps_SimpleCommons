@@ -58,16 +58,16 @@ class RenameSimpleTab(context: Context, attrs: AttributeSet) : RelativeLayout(co
                 return@handleSAFDialog
             }
 
-            activity?.handleSAFDialogSdk30(firstPath) {
+            activity?.checkManageMediaOrHandleSAFDialogSdk30(firstPath) {
                 if (!it) {
-                    return@handleSAFDialogSdk30
+                    return@checkManageMediaOrHandleSAFDialogSdk30
                 }
 
                 ignoreClicks = true
                 var pathsCnt = validPaths.size
                 for (path in validPaths) {
                     if (stopLooping) {
-                        return@handleSAFDialogSdk30
+                        return@checkManageMediaOrHandleSAFDialogSdk30
                     }
 
                     val fullName = path.getFilenameFromPath()
