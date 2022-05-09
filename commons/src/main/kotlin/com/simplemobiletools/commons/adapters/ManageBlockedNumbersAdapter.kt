@@ -31,6 +31,10 @@ class ManageBlockedNumbersAdapter(
     }
 
     override fun actionItemPressed(id: Int) {
+        if (selectedKeys.isEmpty()) {
+            return
+        }
+
         when (id) {
             R.id.cab_copy_number -> copyNumberToClipboard()
             R.id.cab_delete -> deleteSelection()
@@ -53,7 +57,7 @@ class ManageBlockedNumbersAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val blockedNumber = blockedNumbers[position]
-        holder.bindView(blockedNumber, true, true) { itemView, adapterPosition ->
+        holder.bindView(blockedNumber, true, true) { itemView, _ ->
             setupView(itemView, blockedNumber)
         }
         bindViewHolder(holder)
@@ -76,42 +80,42 @@ class ManageBlockedNumbersAdapter(
                 setTint(activity.getProperTextColor())
             }
 
-            overflow_menu_icon.setOnClickListener { overflowMenu ->
+            overflow_menu_icon.setOnClickListener {
                 showPopupMenu(overflow_menu_anchor, blockedNumber)
             }
         }
     }
 
     private fun showPopupMenu(view: View, blockedNumber: BlockedNumber) {
+        finishActMode()
         val theme = activity.getPopupMenuTheme()
-        val wrapper: Context = ContextThemeWrapper(activity, theme)
+        val contextTheme = ContextThemeWrapper(activity, theme)
 
-        PopupMenu(wrapper, view, Gravity.END)
-            .apply {
-                inflate(R.menu.cab_blocked_numbers)
-                setOnMenuItemClickListener { item: MenuItem? ->
-                    val blockedNumberId = blockedNumber.id.toInt()
-                    when (item!!.itemId) {
-                        R.id.cab_copy_number -> {
-                            executeItemMenuOperation(blockedNumberId) {
-                                copyNumberToClipboard()
-                            }
-                        }
-                        R.id.cab_delete -> {
-                            executeItemMenuOperation(blockedNumberId) {
-                                deleteSelection()
-                            }
+        PopupMenu(contextTheme, view, Gravity.END).apply {
+            inflate(getActionMenuId())
+            setOnMenuItemClickListener { item ->
+                val blockedNumberId = blockedNumber.id.toInt()
+                when (item.itemId) {
+                    R.id.cab_copy_number -> {
+                        executeItemMenuOperation(blockedNumberId) {
+                            copyNumberToClipboard()
                         }
                     }
-                    true
+                    R.id.cab_delete -> {
+                        executeItemMenuOperation(blockedNumberId) {
+                            deleteSelection()
+                        }
+                    }
                 }
-                show()
+                true
             }
+            show()
+        }
     }
 
-    private fun executeItemMenuOperation(blockedNumberId: Int, block: () -> Unit) {
+    private fun executeItemMenuOperation(blockedNumberId: Int, callback: () -> Unit) {
         selectedKeys.add(blockedNumberId)
-        block.invoke()
+        callback()
         selectedKeys.remove(blockedNumberId)
     }
 
