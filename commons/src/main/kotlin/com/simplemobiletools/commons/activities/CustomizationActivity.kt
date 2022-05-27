@@ -73,7 +73,9 @@ class CustomizationActivity : BaseSimpleActivity() {
                     runOnUiThread {
                         setupThemes()
                         val hideGoogleRelations = resources.getBoolean(R.bool.hide_google_relations)
-                        apply_to_all_holder.beVisibleIf(storedSharedTheme == null && curSelectedThemeId != THEME_AUTO && curSelectedThemeId != THEME_SYSTEM && !hideGoogleRelations)
+                        apply_to_all_holder.beVisibleIf(
+                            storedSharedTheme == null && curSelectedThemeId != THEME_AUTO && curSelectedThemeId != THEME_SYSTEM && !hideGoogleRelations
+                        )
                     }
                 } catch (e: Exception) {
                     toast(R.string.update_thank_you)
@@ -222,7 +224,9 @@ class CustomizationActivity : BaseSimpleActivity() {
             }
 
             val hideGoogleRelations = resources.getBoolean(R.bool.hide_google_relations)
-            apply_to_all_holder.beVisibleIf(curSelectedThemeId != THEME_AUTO && curSelectedThemeId != THEME_SYSTEM && curSelectedThemeId != THEME_SHARED && !hideGoogleRelations)
+            apply_to_all_holder.beVisibleIf(
+                curSelectedThemeId != THEME_AUTO && curSelectedThemeId != THEME_SYSTEM && curSelectedThemeId != THEME_SHARED && !hideGoogleRelations
+            )
             updateMenuItemColors(menu, true, getCurrentStatusBarColor())
         }
     }

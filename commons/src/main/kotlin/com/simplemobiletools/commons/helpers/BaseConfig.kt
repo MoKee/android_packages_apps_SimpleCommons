@@ -140,7 +140,7 @@ open class BaseConfig(val context: Context) {
         set(customNavigationBarColor) = prefs.edit().putInt(CUSTOM_NAVIGATION_BAR_COLOR, customNavigationBarColor).apply()
 
     var widgetBgColor: Int
-        get() = prefs.getInt(WIDGET_BG_COLOR, DEFAULT_WIDGET_BG_COLOR)
+        get() = prefs.getInt(WIDGET_BG_COLOR, context.resources.getInteger(R.integer.default_widget_bg_color))
         set(widgetBgColor) = prefs.edit().putInt(WIDGET_BG_COLOR, widgetBgColor).apply()
 
     var widgetTextColor: Int
@@ -447,6 +447,10 @@ open class BaseConfig(val context: Context) {
     var lastBlockedNumbersExportPath: String
         get() = prefs.getString(LAST_BLOCKED_NUMBERS_EXPORT_PATH, "")!!
         set(lastBlockedNumbersExportPath) = prefs.edit().putString(LAST_BLOCKED_NUMBERS_EXPORT_PATH, lastBlockedNumbersExportPath).apply()
+
+    var blockUnknownNumbers: Boolean
+        get() = prefs.getBoolean(BLOCK_UNKNOWN_NUMBERS, false)
+        set(blockUnknownNumbers) = prefs.edit().putBoolean(BLOCK_UNKNOWN_NUMBERS, blockUnknownNumbers).apply()
 
     var fontSize: Int
         get() = prefs.getInt(FONT_SIZE, context.resources.getInteger(R.integer.default_font_size))

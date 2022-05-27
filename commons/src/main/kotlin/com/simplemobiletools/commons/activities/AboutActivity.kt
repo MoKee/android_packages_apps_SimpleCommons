@@ -15,7 +15,6 @@ import com.simplemobiletools.commons.extensions.*
 import com.simplemobiletools.commons.helpers.*
 import com.simplemobiletools.commons.models.FAQItem
 import kotlinx.android.synthetic.main.activity_about.*
-import java.util.*
 
 class AboutActivity : BaseSimpleActivity() {
     private var appName = ""
@@ -184,6 +183,8 @@ class AboutActivity : BaseSimpleActivity() {
     private fun setupInvite() {
         if (resources.getBoolean(R.bool.hide_google_relations)) {
             about_invite_holder.beGone()
+        } else if (about_rate_us_holder.isGone()) {
+            about_invite_holder.background = resources.getDrawable(R.drawable.ripple_top_corners, theme)
         }
 
         about_invite_holder.setOnClickListener {
@@ -278,7 +279,7 @@ class AboutActivity : BaseSimpleActivity() {
     }
 
     private fun setupPrivacyPolicy() {
-        if (resources.getBoolean(R.bool.hide_google_relations) || resources.getBoolean(R.bool.hide_all_external_links)) {
+        if (resources.getBoolean(R.bool.hide_all_external_links)) {
             about_privacy_policy_holder.beGone()
         }
 

@@ -1,7 +1,6 @@
 package com.simplemobiletools.commons.helpers
 
 import android.content.Context
-import android.graphics.Color
 import android.graphics.drawable.Drawable
 import android.os.Build
 import android.os.Looper
@@ -9,8 +8,6 @@ import android.util.Log
 import androidx.annotation.ChecksSdkIntAtLeast
 import com.simplemobiletools.commons.R
 import com.simplemobiletools.commons.overloads.times
-import java.util.HashMap
-import java.util.LinkedHashMap
 
 const val EXTERNAL_STORAGE_PROVIDER_AUTHORITY = "com.android.externalstorage.documents"
 const val EXTRA_SHOW_ADVANCED = "android.content.extra.SHOW_ADVANCED"
@@ -35,7 +32,6 @@ const val SHOW_FAQ_BEFORE_MAIL = "show_faq_before_mail"
 const val INVALID_NAVIGATION_BAR_COLOR = -1
 const val CHOPPED_LIST_DEFAULT_SIZE = 50
 const val SAVE_DISCARD_PROMPT_INTERVAL = 1000L
-val DEFAULT_WIDGET_BG_COLOR = Color.parseColor("#AA000000")
 const val SD_OTG_PATTERN = "^/storage/[A-Za-z0-9]{4}-[A-Za-z0-9]{4}$"
 const val SD_OTG_SHORT = "^[A-Za-z0-9]{4}-[A-Za-z0-9]{4}$"
 const val KEY_PHONE = "phone"
@@ -157,6 +153,7 @@ const val LAST_RENAME_PATTERN_USED = "last_rename_pattern_used"
 const val LAST_EXPORTED_SETTINGS_FOLDER = "last_exported_settings_folder"
 const val LAST_EXPORTED_SETTINGS_FILE = "last_exported_settings_file"
 const val LAST_BLOCKED_NUMBERS_EXPORT_PATH = "last_blocked_numbers_export_path"
+const val BLOCK_UNKNOWN_NUMBERS = "block_unknown_numbers"
 const val FONT_SIZE = "font_size"
 const val WAS_MESSENGER_RECORDER_SHOWN = "was_messenger_recorder_shown"
 const val DEFAULT_TAB = "default_tab"
@@ -195,6 +192,8 @@ const val LICENSE_EVENT_BUS = 33554432
 const val LICENSE_AUDIO_RECORD_VIEW = 67108864
 const val LICENSE_SMS_MMS = 134217728
 const val LICENSE_APNG = 268435456
+const val LICENSE_PDF_VIEWER = 536870912
+const val LICENSE_M3U_PARSER = 1073741824
 
 // global intents
 const val OPEN_DOCUMENT_TREE_FOR_ANDROID_DATA_OR_OBB = 1000

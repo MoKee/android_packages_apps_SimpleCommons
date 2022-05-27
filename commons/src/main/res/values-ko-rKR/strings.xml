@@ -89,6 +89,8 @@
     <string name="must_make_default_dialer">You have to make this app the default dialer app to make use of blocked numbers.</string>
     <string name="set_as_default">Set as default</string>
     <string name="block_confirmation">Are you sure you want to block \"%s\"?</string>
+    <string name="block_unknown_calls">Block calls from not stored contacts</string>
+    <string name="block_unknown_messages">Block messages from not stored contacts</string>
 
     <!-- Favorites -->
     <string name="favorites">즐겨찾기</string>
@@ -736,6 +738,7 @@
         ]]>
     </string>
     <string name="purchase">구매</string>
+    <string name="order_simple_phone">Order Simple Phone</string>
     <string name="update_thank_you">Simple Thank You를 최신 버전으로 업데이트 해 주세요.</string>
     <string name="before_asking_question_read_faq">질문하기 전에 FAQ를 먼저 읽어 주세요. 해답이 있을지도 모릅니다.</string>
     <string name="before_rate_read_faq">Before you rate us, please check the app settings and read the Frequently Asked Questions first. If you have any problems, maybe the solution is there.</string>
@@ -977,6 +980,8 @@
     <string name="audio_record_view_title">Audio Record View (audio visualization)</string>
     <string name="sms_mms_title">SMS MMS (SMS and MMS handling)</string>
     <string name="apng_title">APNG Android (animated WebP support)</string>
+    <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
+    <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
 
     <!-- Google Play listing -->
     <string name="deprecated_app">구버전 경고: 이 버전의 앱은 더이상 관리되지 않습니다. Pro 버전을 설치해 주세요: https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>

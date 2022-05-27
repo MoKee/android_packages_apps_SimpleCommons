@@ -87,6 +87,8 @@
     <string name="must_make_default_dialer">Tem de tornar esta aplicação como padrão para poder bloquear números.</string>
     <string name="set_as_default">Definir como padrão</string>
     <string name="block_confirmation">Tem a certeza de que pretende bloquear \"%s\"\?</string>
+    <string name="block_unknown_calls">Block calls from not stored contacts</string>
+    <string name="block_unknown_messages">Block messages from not stored contacts</string>
     <!-- Favorites -->
     <string name="favorites">Favoritos</string>
     <string name="add_favorites">Adicionar favoritos</string>
@@ -717,6 +719,7 @@
     <string name="device_os">SO do dispositivo: %s</string>
     <string name="donate_please">Olá,&lt;br&gt;&lt;br&gt; esperamos que esteja a gostar desta aplicação. Se estiver interessado em ajudar ao seu desenvolvimento e dado que não contem anúncios, pode comprar a aplicação &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.thankyou&gt;Simple Thank You&lt;/a&gt; o que também fará com que esta solicitação deixe de apareçer novamente.&lt;br&gt;&lt;br&gt; Obrigado!</string>
     <string name="purchase">Comprar</string>
+    <string name="order_simple_phone">Order Simple Phone</string>
     <string name="update_thank_you">Por favor atualize a aplicação Simple Thank You para a versão mais recente</string>
     <string name="before_asking_question_read_faq">Antes de colocar uma questão, verifique as FAQ. Pode ser que a solução esteja lá.</string>
     <string name="before_rate_read_faq">Antes de dar uma avaliação, analise as definições da aplicação e leia as FAQ. Pode ser que a solução para o seu problema esteja aí mesmo.</string>
@@ -914,6 +917,8 @@
     <string name="audio_record_view_title">Audio Record View (visualização de áudio)</string>
     <string name="sms_mms_title">SMS MMS (gestão de SMS e MMS)</string>
     <string name="apng_title">APNG Android (suporte a animação WebP)</string>
+    <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
+    <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">AVISO: Esta versão da aplicação já não é mantida em desenvolvimento. Pode obter a versão Pro em https://play.google.com/store/apps/details\?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Não se esqueça de desinstalar qualquer aplicação paga no prazo de 2 horas para ser reembolsado automaticamente. Para ser reembolsado posteriormente, contacte-nos para hello@simplemobiletools.com. Assim é mais fácil testar :)</string>

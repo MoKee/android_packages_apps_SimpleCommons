@@ -87,6 +87,8 @@
     <string name="must_make_default_dialer">You have to make this app the default dialer app to make use of blocked numbers.</string>
     <string name="set_as_default">Set as default</string>
     <string name="block_confirmation">Are you sure you want to block \"%s\"?</string>
+    <string name="block_unknown_calls">Block calls from not stored contacts</string>
+    <string name="block_unknown_messages">Block messages from not stored contacts</string>
 
     <!-- Favorites -->
     <string name="favorites">Favorites</string>
@@ -766,6 +768,7 @@
         ]]>
     </string>
     <string name="purchase">Purchase</string>
+    <string name="order_simple_phone">Order Simple Phone</string>
     <string name="update_thank_you">Please update Simple Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Before you ask a question, please check the app settings and read the Frequently Asked Questions first. Maybe the solution is there.</string>
     <string name="before_rate_read_faq">Before you rate us, please check the app settings and read the Frequently Asked Questions first. If you have any problems, maybe the solution is there.</string>
@@ -1009,6 +1012,8 @@
     <string name="audio_record_view_title">Audio Record View (audio visualization)</string>
     <string name="sms_mms_title">SMS MMS (SMS and MMS handling)</string>
     <string name="apng_title">APNG Android (animated WebP support)</string>
+    <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
+    <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
 
     <!-- Google Play listing -->
     <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
