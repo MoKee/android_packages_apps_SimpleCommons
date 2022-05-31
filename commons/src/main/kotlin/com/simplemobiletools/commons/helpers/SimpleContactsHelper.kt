@@ -1,6 +1,7 @@
 package com.simplemobiletools.commons.helpers
 
 import android.content.Context
+import android.database.Cursor
 import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.graphics.Paint
@@ -380,22 +381,16 @@ class SimpleContactsHelper(val context: Context) {
         }
     }
 
-    fun exists(number: String): Boolean {
-        if (!context.hasPermission(PERMISSION_READ_CONTACTS)) {
-            return false
-        }
-
-        val uri = Uri.withAppendedPath(PhoneLookup.CONTENT_FILTER_URI, Uri.encode(number))
-        val projection = arrayOf(PhoneLookup._ID)
-
-        try {
-            val cursor = context.contentResolver.query(uri, projection, null, null, null)
-            cursor?.use {
-                return it.moveToFirst()
+    fun exists(number: String, privateCursor: Cursor?, callback: (Boolean) -> Unit) {
+        SimpleContactsHelper(context).getAvailableContacts(false) { contacts ->
+            val contact = contacts.firstOrNull { it.doesHavePhoneNumber(number) }
+            if (contact != null) {
+                callback.invoke(true)
+            } else {
+                val privateContacts = MyContactsContentProvider.getSimpleContacts(context, privateCursor)
+                val privateContact = privateContacts.firstOrNull { it.doesHavePhoneNumber(number) }
+                callback.invoke(privateContact != null)
             }
-        } catch (ignored: Exception) {
         }
-
-        return false
     }
 }
