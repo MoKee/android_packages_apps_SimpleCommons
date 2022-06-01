@@ -639,7 +639,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
                 copyMoveCallback = callback
                 var fileCountToCopy = fileDirItems.size
                 if (isCopyOperation) {
-                    if(canManageMedia()){
+                    if (canManageMedia()) {
                         val fileUris = getFileUrisFromFileDirItems(fileDirItems).second
                         updateSDK30Uris(fileUris) { sdk30UriSuccess ->
                             if (sdk30UriSuccess) {
@@ -657,7 +657,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
                     ) {
                         handleSAFDialog(source) { safSuccess ->
                             if (safSuccess) {
-                                if(canManageMedia()){
+                                if (canManageMedia()) {
                                     val fileUris = getFileUrisFromFileDirItems(fileDirItems).second
                                     updateSDK30Uris(fileUris) { sdk30UriSuccess ->
                                         if (sdk30UriSuccess) {
