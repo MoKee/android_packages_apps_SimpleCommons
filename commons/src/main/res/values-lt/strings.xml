@@ -216,6 +216,7 @@
     <string name="protection_setup_successfully">Slaptažodis nustatytas sėkmingai. Prašome įdiegti programėlę iš naujo jei pamiršite slaptažodį.</string>
     <string name="fingerprint_setup_successfully">Apsauga nustatyta sėkmingai. Prašome įdiegti programėlę iš naujo jei bus problemų su apsaugos nustatymu iš naujo.</string>
     <string name="tomorrow">Rytoj</string>
+    <string name="every_day">Kiekvieną dieną</string>
     <string name="seconds_raw">sekundės</string>
     <string name="minutes_raw">minutės</string>
     <string name="hours_raw">valandos</string>
@@ -458,7 +459,6 @@
     <string name="share_text">Sveikas, pažiūrėk %1$s %2$s</string>
     <string name="invite_via">Pakviesti per</string>
     <string name="donate">Paaukoti</string>
-    <string name="donate_underlined"><u>Paaukoti</u></string>
     <string name="follow_us">Sekti mus</string>
     <string name="copyright">v %1$s\nVisos teisės saugomos© Paprasti mobilūs įrankiai %2$d</string>
     <string name="other">Kita</string>

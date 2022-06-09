@@ -39,6 +39,7 @@
     <string name="dark_theme">Цемра</string>
     <string name="auto_theme">Аўтаматычна</string>
     <string name="custom">Карыстальніцкія</string>
+    <string name="system_default">Па змаўчаньні</string>
     <string name="delete">Выдаліць</string>
     <string name="remove">Выдаліць</string>
     <string name="rename">Перайменаваць</string>
@@ -58,6 +59,7 @@
     <string name="no">Не</string>
     <string name="today">Сёння</string>
     <string name="tomorrow">Заўтра</string>
+    <string name="every_day">Штодзень</string>
     <string name="seconds_raw">секунды</string>
     <string name="minutes_raw">хвіліны</string>
     <string name="hours_raw">гадзіны</string>

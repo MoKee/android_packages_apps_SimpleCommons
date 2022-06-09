@@ -150,6 +150,7 @@
     <string name="black_white">Svart &amp; hvitt</string>
     <string name="custom">Tilpasset</string>
     <string name="shared">Delt</string>
+    <string name="system_default">Systemstandard</string>
     <string name="whats_new">Hva er nytt</string>
     <string name="whats_new_disclaimer">* bare de større oppdateringene er oppført her, det er alltid noen mindre forbedringer også</string>
     <string name="delete">Slett</string>
@@ -217,6 +218,7 @@
     <string name="yesterday">I går</string>
     <string name="today">I dag</string>
     <string name="tomorrow">I morgen</string>
+    <string name="every_day">Hver dag</string>
     <string name="seconds_raw">sekunder</string>
     <string name="minutes_raw">minutter</string>
     <string name="hours_raw">timer</string>
@@ -433,7 +435,6 @@
     <string name="email_label">Send tilbakemelding eller forslag til</string>
     <string name="invite_via">Inviter via</string>
     <string name="donate">Gi et bidrag</string>
-    <string name="donate_underlined"><u>Gi et bidrag</u></string>
     <string name="follow_us">Følg oss</string>
     <string name="other">Annet</string>
     <string name="additional_info">Tilleggsinformasjon</string>

@@ -20,6 +20,7 @@
     <string name="no">না</string>
     <string name="today">আজ</string>
     <string name="tomorrow">আগামীকাল</string>
+    <string name="every_day">প্রতিদিন</string>
     <string name="snooze">স্নুজ</string>
     <string name="dismiss">Dismiss</string>
     <string name="settings">Settings</string>

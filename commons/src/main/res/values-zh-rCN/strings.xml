@@ -231,6 +231,7 @@
     <string name="black_white">黑白</string>
     <string name="custom">自定义</string>
     <string name="shared">共享</string>
+    <string name="system_default">系统默认</string>
     <string name="whats_new">更新日志</string>
     <string name="whats_new_disclaimer">* 此处仅列举了重大更新，更多修正可在使用中体验</string>
     <string name="delete">删除</string>
@@ -321,6 +322,7 @@
     <string name="yesterday">昨天</string>
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>
+    <string name="every_day">每天</string>
     <string name="hide_year">隐藏年份</string>
     <string name="seconds_raw">秒</string>
     <string name="minutes_raw">分钟</string>
@@ -584,7 +586,6 @@
     <string name="rate_us">给我们评分</string>
     <string name="rate">评分</string>
     <string name="donate">捐赠</string>
-    <string name="donate_underlined"><u>捐赠</u></string>
     <string name="follow_us">关注我们</string>
     <string name="copyright">v %1$s Copyright © Simple Mobile Tools %2$d</string>
     <string name="support">支持</string>

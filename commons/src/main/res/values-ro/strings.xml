@@ -64,6 +64,7 @@
     <string name="dark_theme">Întunecat</string>
     <string name="auto_theme">Auto</string>
     <string name="custom">Personalizat</string>
+    <string name="system_default">Implicit sistem</string>
     <string name="delete">Ștergeţi</string>
     <string name="remove">Eliminați</string>
     <string name="rename">Redenumiţi</string>
@@ -86,6 +87,7 @@
     <string name="no">Nu</string>
     <string name="today">Azi</string>
     <string name="tomorrow">Mâine</string>
+    <string name="every_day">Zilnic</string>
     <string name="seconds_raw">secunde</string>
     <string name="minutes_raw">minute</string>
     <string name="hours_raw">ore</string>

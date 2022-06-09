@@ -45,6 +45,7 @@
     <string name="dark_theme">Тъмен</string>
     <string name="auto_theme">Автоматично</string>
     <string name="custom">Персонализирано</string>
+    <string name="system_default">Система по подразбиране</string>
     <string name="delete">Изтриване</string>
     <string name="remove">Премахване</string>
     <string name="rename">Преименуване</string>
@@ -66,6 +67,7 @@
     <string name="no">Не</string>
     <string name="today">днес</string>
     <string name="tomorrow">Утре</string>
+    <string name="every_day">всеки ден</string>
     <string name="seconds_raw">секунди</string>
     <string name="minutes_raw">минути</string>
     <string name="hours_raw">часа</string>

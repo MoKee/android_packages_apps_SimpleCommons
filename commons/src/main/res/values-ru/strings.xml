@@ -221,6 +221,7 @@
     <string name="black_white">Чёрно-белая</string>
     <string name="custom">Своя</string>
     <string name="shared">Общая</string>
+    <string name="system_default">По умолчанию</string>
     <string name="whats_new">Что нового</string>
     <string name="whats_new_disclaimer">* здесь представлены только значительные изменения, но всегда присутствуют и мелкие исправления</string>
     <string name="delete">Удалить</string>
@@ -309,6 +310,7 @@
     <string name="yesterday">Вчера</string>
     <string name="today">Сегодня</string>
     <string name="tomorrow">Завтра</string>
+    <string name="every_day">Каждый день</string>
     <string name="hide_year">Скрыть год</string>
     <string name="seconds_raw">секунд</string>
     <string name="minutes_raw">минут</string>
@@ -641,7 +643,6 @@
     <string name="invite_via">Пригласить с помощью</string>
     <string name="rate">Оценка</string>
     <string name="donate">Поддержать разработчика</string>
-    <string name="donate_underlined"><u>Поддержать разработчика</u></string>
     <string name="follow_us">Подписаться на нас</string>
     <string name="copyright">v %1$s\nАвторские права © Simple Mobile Tools %2$d</string>
     <string name="other">Другие</string>

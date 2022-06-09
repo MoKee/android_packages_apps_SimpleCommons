@@ -224,6 +224,7 @@
     <string name="black_white">Čiernobiela</string>
     <string name="custom">Vlastná</string>
     <string name="shared">Zdieľaná</string>
+    <string name="system_default">Predvolené systémom</string>
     <string name="whats_new">Novinky</string>
     <string name="whats_new_disclaimer">* sú tu vypísané iba väčšie aktualizácie, stále sú vykonané aj menšie opravy</string>
     <string name="delete">Vymazať</string>
@@ -314,6 +315,7 @@
     <string name="yesterday">Včera</string>
     <string name="today">Dnes</string>
     <string name="tomorrow">Zajtra</string>
+    <string name="every_day">Každý deň</string>
     <string name="hide_year">Skryť rok</string>
     <string name="seconds_raw">sekundy</string>
     <string name="minutes_raw">minúty</string>
@@ -654,7 +656,6 @@
     <string name="invite_via">Pozvať cez</string>
     <string name="rate">Ohodnotiť</string>
     <string name="donate">Podporiť</string>
-    <string name="donate_underlined"><u>Podporiť</u></string>
     <string name="follow_us">Sledujte nás</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="other">Iný</string>

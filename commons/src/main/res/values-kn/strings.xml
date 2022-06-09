@@ -160,6 +160,7 @@
     <string name="black_white">ಕಪ್ಪು &amp; ಬಿಳುಪು</string>
     <string name="custom">ಕಸ್ಟಮ್</string>
     <string name="shared">ಹಂಚಿದೆ</string>
+    <string name="system_default">ಸಿಸ್ಟಂ ಡೀಫಾಲ್ಟ್</string>
     <string name="whats_new">ಹೊಸತೇನಿದೆ</string>
     <string name="delete">ಅಳಿಸು</string>
     <string name="remove">ತೆಗೆದುಹಾಕಿ</string>
@@ -199,6 +200,7 @@
     <string name="no">ಬೇಡ</string>
     <string name="today">ಈ ದಿನ</string>
     <string name="tomorrow">ನಾಳೆ</string>
+    <string name="every_day">ಪ್ರತಿದಿನ</string>
     <string name="seconds_raw">ಸೆಕೆಂಡುಗಳು</string>
     <string name="minutes_raw">ನಿಮಿಷಗಳು</string>
     <string name="hours_raw">ಗಂಟೆಗಳು</string>

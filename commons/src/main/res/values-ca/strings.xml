@@ -175,6 +175,7 @@
     <string name="black_white">Blanc &amp; Negre</string>
     <string name="custom">Personalizat</string>
     <string name="shared">Compartit</string>
+    <string name="system_default">Per defecte del sistema</string>
     <string name="whats_new">Que hi ha nou</string>
     <string name="whats_new_disclaimer">* Només les actualitzacions més grans s’enumeren aquí. Sempre hi ha petites millores també.</string>
     <string name="delete">Eliminar</string>
@@ -242,6 +243,7 @@
     <string name="yesterday">Ahir</string>
     <string name="today">Avui</string>
     <string name="tomorrow">Demà</string>
+    <string name="every_day">Cada dia</string>
     <string name="seconds_raw">segons</string>
     <string name="minutes_raw">minuts</string>
     <string name="hours_raw">hores</string>
@@ -476,7 +478,6 @@
     <string name="share_text">Hola, vine i mira %1$s a %2$s</string>
     <string name="invite_via">Convida amb</string>
     <string name="donate">Donar</string>
-    <string name="donate_underlined"><u>Donar</u></string>
     <string name="follow_us">Segueix-nos</string>
     <string name="other">Altres</string>
     <string name="additional_info">Informació adicional</string>

@@ -192,6 +192,7 @@
     <string name="black_white">Црно &amp; бело</string>
     <string name="custom">Прилагођено</string>
     <string name="shared">Deljeno</string>
+    <string name="system_default">Подразумевано</string>
     <string name="whats_new">Шта је ново</string>
     <string name="whats_new_disclaimer">Само веће промене су овде наведене, постоје и друга мања унапређења која нису наведена</string>
     <string name="delete">Избриши</string>
@@ -268,6 +269,7 @@
     <string name="yesterday">Јуче</string>
     <string name="today">Данас</string>
     <string name="tomorrow">Сутра</string>
+    <string name="every_day">Сваког дана</string>
     <string name="seconds_raw">секунди</string>
     <string name="minutes_raw">минута</string>
     <string name="hours_raw">сати</string>
@@ -560,7 +562,6 @@
     <string name="invite_via">Позови преко</string>
     <string name="rate">Оцените</string>
     <string name="donate">Донирајте</string>
-    <string name="donate_underlined"><u>Донирај</u></string>
     <string name="follow_us">Пратите нас</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="other">Друго</string>

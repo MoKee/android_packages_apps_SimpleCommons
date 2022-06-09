@@ -39,6 +39,7 @@
     <string name="yes">Այո</string>
     <string name="today">Այսօր</string>
     <string name="tomorrow">Վաղը</string>
+    <string name="every_day">Ամեն օր</string>
     <string name="seconds_raw">վայրկյան</string>
     <string name="minutes_raw">րոպե</string>
     <string name="hours_raw">ժամ</string>

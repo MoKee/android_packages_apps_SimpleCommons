@@ -1,33 +1,218 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="ok">ଠିକ୍ ଅଛି</string>
+    <string name="cancel">ବାତିଲ୍ କର</string>
     <string name="edit">ସମ୍ପାଦନ</string>
     <string name="set_as">ଏହି ଭାବେ ସେଟ୍ କରନ୍ତୁ</string>
+    <string name="copy_to_clipboard">କ୍ଲିପବୋର୍ଡରେ କପି କରିନିଅନ୍ତୁ</string>
     <string name="unknown">ଅଜ୍ଞାତ</string>
     <string name="details">ବିବରଣୀଗୁଡିକ</string>
     <string name="none">କିଛି ନୁହେଁ</string>
+    <string name="notification">ବିଜ୍ଞପ୍ତି</string>
     <string name="email">ଇମେଲ୍</string>
     <string name="previous">ପୂର୍ବବର୍ତ୍ତୀ</string>
     <string name="next">ପରବର୍ତ୍ତୀ</string>
+    <string name="zero">ଶୁନ</string>
+    <string name="one">ଏକ</string>
+    <string name="two">ଦୁଇ</string>
+    <string name="three">ତିନି</string>
+    <string name="four">ଚାରି</string>
+    <string name="five">ପାଞ୍ଚ</string>
+    <string name="six">ଛଅ</string>
+    <string name="seven">ସାତ</string>
+    <string name="eight">ଆଠ</string>
+    <string name="nine">ନଅ</string>
+    <string name="value_cannot_be_empty">ମୂଲ୍ୟ ଖାଲି ଛଡ଼ା ଯାଇପାରିବ ନାହିଁ</string>
     <string name="home">ହୋମ୍</string>
     <string name="work">କାର୍ଯ୍ୟ</string>
+    <string name="grid">ଗ୍ରିଡ୍</string>
+    <string name="list">ତାଲିକା</string>
+    <string name="select_photo">ଫଟୋ ଚୟନ କରନ୍ତୁ</string>
+    <string name="copy">କପି କରନ୍ତୁ</string>
+    <string name="folder">ଫୋଲ୍ଡର୍</string>
     <string name="skip">ସ୍କିପ୍</string>
     <string name="path">ପଥ</string>
     <string name="duration">ଅବଧି</string>
+    <string name="artist">କଳାକାର</string>
     <string name="exposure_time">ଏକ୍ସପୋଜର୍ ସମୟ</string>
     <string name="camera">କ୍ୟାମେରା</string>
     <string name="default_color">ଡିଫଲ୍ଟ</string>
+    <string name="theme">ଥିମ୍</string>
     <string name="save">ସଞ୍ଚୟ</string>
+    <string name="discard">ପରିତ୍ୟାଗ କର</string>
+    <string name="light_theme">ହାଲୁକା</string>
     <string name="dark_theme">ଅନ୍ଧାର</string>
     <string name="auto_theme">ସ୍ଵତଃ</string>
+    <string name="white">ଧଳା</string>
+    <string name="black_white">କଳା ଓ ଧଳା</string>
     <string name="custom">କଷ୍ଟମ୍</string>
+    <string name="system_default">ସିଷ୍ଟମ୍ ଡିଫଲ୍ଟ</string>
+    <string name="delete">ବିଲୋପ କରନ୍ତୁ</string>
+    <string name="rename">ନାମ ବଦଳାନ୍ତୁ</string>
+    <string name="undo">ପୂର୍ବବତ୍</string>
     <string name="send_sms">SMS ପଠାନ୍ତୁ</string>
+    <string name="sort_by">ଏହା ଅନୁଯାୟୀ ସଜାନ୍ତୁ</string>
+    <string name="size">ଆକାର</string>
+    <string name="last_modified">ଶେଷ ସଂଶୋଧନ</string>
     <string name="title">ଟାଇଟଲ୍</string>
+    <string name="ascending">ଆରୋହଣ</string>
+    <string name="descending">ଅବରୋହଣ</string>
+    <string name="change_order">କ୍ରମ ବଦଳାନ୍ତୁ</string>
+    <string name="yes">ହଁ</string>
+    <string name="no">ନାହିଁ</string>
+    <string name="yesterday">ଗତକାଲି</string>
+    <string name="today">ଆଜି</string>
+    <string name="tomorrow">ଆସନ୍ତାକାଲି</string>
     <string name="seconds_raw">ସେକେଣ୍ଡ</string>
     <string name="minutes_raw">ମିନିଟ୍</string>
     <string name="hours_raw">ଘଣ୍ଟା</string>
+    <plurals name="seconds">
+        <item quantity="one">%d ସେକେଣ୍ଡ</item>
+        <item quantity="other">%d ସେକେଣ୍ଡ</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%d ମିନିଟ୍</item>
+        <item quantity="other">%d ମିନିଟ୍</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d ଘଣ୍ଟା</item>
+        <item quantity="other">%d ଘଣ୍ଟା</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d ଦିନ</item>
+        <item quantity="other">%d ଦିନ</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d ସପ୍ତାହ</item>
+        <item quantity="other">%d ସପ୍ତାହ</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="one">%d ମାସ</item>
+        <item quantity="other">%d ମାସ</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="one">%d ବର୍ଷ</item>
+        <item quantity="other">%d ବର୍ଷ</item>
+    </plurals>
+    <plurals name="in_seconds">
+        <item quantity="one">%d ସେକେଣ୍ଡ</item>
+        <item quantity="other">%d ସେକେଣ୍ଡ</item>
+    </plurals>
+    <plurals name="in_minutes">
+        <item quantity="one">%d ମିନିଟ୍</item>
+        <item quantity="other">%d ମିନିଟ୍</item>
+    </plurals>
+    <plurals name="in_hours">
+        <item quantity="one">%d ଘଣ୍ଟା</item>
+        <item quantity="other">%d ଘଣ୍ଟା</item>
+    </plurals>
+    <plurals name="in_days">
+        <item quantity="one">%d ଦିନ</item>
+        <item quantity="other">%d ଦିନ</item>
+    </plurals>
+    <plurals name="in_weeks">
+        <item quantity="one">%d ସପ୍ତାହ</item>
+        <item quantity="other">%d ସପ୍ତାହ</item>
+    </plurals>
+    <plurals name="in_months">
+        <item quantity="one">%d ମାସ</item>
+        <item quantity="other">%d ମାସ</item>
+    </plurals>
+    <plurals name="in_years">
+        <item quantity="one">%d ବର୍ଷ</item>
+        <item quantity="other">%d ବର୍ଷ</item>
+    </plurals>
+    <plurals name="by_seconds">
+        <item quantity="one">%d ସେକେଣ୍ଡ</item>
+        <item quantity="other">%d ସେକେଣ୍ଡ</item>
+    </plurals>
+    <plurals name="by_minutes">
+        <item quantity="one">%d ମିନିଟ୍</item>
+        <item quantity="other">%d ମିନିଟ୍</item>
+    </plurals>
+    <plurals name="by_hours">
+        <item quantity="one">%d ଘଣ୍ଟା</item>
+        <item quantity="other">%d ଘଣ୍ଟା</item>
+    </plurals>
+    <plurals name="by_days">
+        <item quantity="one">%d ଦିନ</item>
+        <item quantity="other">%d ଦିନ</item>
+    </plurals>
+    <plurals name="by_weeks">
+        <item quantity="one">%d ସପ୍ତାହ</item>
+        <item quantity="other">%d ସପ୍ତାହ</item>
+    </plurals>
+    <plurals name="by_months">
+        <item quantity="one">%d ମାସ</item>
+        <item quantity="other">%d ମାସ</item>
+    </plurals>
+    <plurals name="by_years">
+        <item quantity="one">%d ବର୍ଷ</item>
+        <item quantity="other">%d ବର୍ଷ</item>
+    </plurals>
+    <string name="language">ଭାଷା</string>
     <string name="text">ଟେକ୍ସଟ୍</string>
     <string name="usb">USB</string>
+    <string name="january">ଜାନୁଆରୀ</string>
+    <string name="february">ଫେବୃଆରୀ</string>
+    <string name="march">ମାର୍ଚ୍ଚ</string>
+    <string name="april">ଅପ୍ରେଲ</string>
+    <string name="may">ମଇ</string>
+    <string name="june">ଜୁନ</string>
+    <string name="july">ଜୁଲାଇ</string>
+    <string name="august">ଅଗଷ୍ଟ</string>
+    <string name="september">ସେପ୍ଟେମ୍ବର</string>
+    <string name="october">ଅକ୍ଟୋବର</string>
+    <string name="november">ନଭେମ୍ବର</string>
+    <string name="december">ଡିସେମ୍ବର</string>
+    <string name="in_january">ଜାନୁଆରୀରେ</string>
+    <string name="in_february">ଫେବୃଆରୀରେ</string>
+    <string name="in_march">ମାର୍ଚ୍ଚରେ</string>
+    <string name="in_april">ଅପ୍ରେଲରେ</string>
+    <string name="in_may">ମଇରେ</string>
+    <string name="in_june">ଜୁନରେ</string>
+    <string name="in_july">ଜୁଲାଇରେ</string>
+    <string name="in_august">ଅଗଷ୍ଟରେ</string>
+    <string name="in_september">ସେପ୍ଟେମ୍ବରରେ</string>
+    <string name="in_october">ଅକ୍ଟୋବରରେ</string>
+    <string name="in_november">ନଭେମ୍ବରରେ</string>
+    <string name="in_december">ଡିସେମ୍ବରରେ</string>
+    <string name="monday">ସୋମବାର</string>
+    <string name="tuesday">ମଙ୍ଗଳବାର</string>
+    <string name="wednesday">ବୁଧବାର</string>
+    <string name="thursday">ଗୁରୁବାର</string>
+    <string name="friday">ଶୁକ୍ରବାର</string>
+    <string name="saturday">ଶନିବାର</string>
+    <string name="sunday">ରବିବାର</string>
+    <string name="monday_letter">ସୋ</string>
+    <string name="tuesday_letter">ମ</string>
+    <string name="wednesday_letter">ବୁ</string>
+    <string name="thursday_letter">ମ</string>
+    <string name="friday_letter">ଶୁ</string>
+    <string name="saturday_letter">ଶ</string>
+    <string name="sunday_letter">ଶ</string>
+    <string name="monday_short">ସୋମ</string>
+    <string name="tuesday_short">ମଙ୍ଗଳ</string>
+    <string name="wednesday_short">ବୁଧ</string>
+    <string name="thursday_short">ଗୁରୁ</string>
+    <string name="friday_short">ଶୁକ୍ର</string>
+    <string name="saturday_short">ଶନି</string>
+    <string name="sunday_short">ରବି</string>
+    <string name="more_info">ଅଧିକ ସୂଚନା</string>
+    <string name="support">ସମର୍ଥନ</string>
+    <string name="help_us">ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତୁ</string>
+    <string name="social">ସାମାଜିକ</string>
     <string name="other">ଅନ୍ୟାନ୍ୟ</string>
+    <string name="privacy_policy">ଗୋପନୀୟତା ନୀତି</string>
+    <string name="version_placeholder">ସଂସ୍କରଣ %s</string>
     <string name="calendar_short">କ୍ୟାଲେଣ୍ଡର୍</string>
     <string name="camera_short">କ୍ୟାମେରା</string>
+    <string name="keyboard_short">କୀବୋର୍ଡ୍</string>
+    <string name="other_help">ଅନ୍ୟ ସାହାଯ୍ୟ</string>
+    <string name="translation_bengali">ବଙ୍ଗଳା</string>
+    <string name="translation_english">ଇଂରାଜୀ</string>
+    <string name="translation_hindi">ହିନ୍ଦୀ</string>
+    <string name="translation_nepali">ନେପାଳୀ</string>
+    <string name="why_upgrade_basic_version">ମୌଳିକ</string>
+    <string name="why_upgrade_time_zone_support">ସମୟ ମଣ୍ଡଳ ସମର୍ଥନ</string>
 </resources>

@@ -229,6 +229,7 @@
     <string name="black_white">Noir et Blanc</string>
     <string name="custom">Personnalisé</string>
     <string name="shared">Partagé</string>
+    <string name="system_default">Valeurs par défaut du système</string>
     <string name="whats_new">Quoi de neuf ?</string>
     <string name="whats_new_disclaimer">* seules les mises à jour les plus importantes sont indiquées ici. Les améliorations mineures ne sont pas détaillées.</string>
     <string name="delete">Supprimer</string>
@@ -320,6 +321,7 @@
     <string name="yesterday">Hier</string>
     <string name="today">Aujourd\'hui</string>
     <string name="tomorrow">Demain</string>
+    <string name="every_day">Chaque jour</string>
     <string name="hide_year">Cacher l\'année</string>
     <string name="seconds_raw">secondes</string>
     <string name="minutes_raw">minutes</string>
@@ -610,7 +612,6 @@
     <string name="rate_us">Notez-nous</string>
     <string name="rate">Évaluer</string>
     <string name="donate">Effectuer un don</string>
-    <string name="donate_underlined"><u>Effectuer un don</u></string>
     <string name="follow_us">Suivez-nous</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile outils %2$d</string>
     <string name="support">Aide</string>

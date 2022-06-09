@@ -166,6 +166,7 @@
     <string name="black_white">E Zezë dhe e Bardhë</string>
     <string name="custom">I personalizuar</string>
     <string name="shared">Shpërndaje</string>
+    <string name="system_default">Paracaktimet e sistemit</string>
     <string name="whats_new">Çfarë risish ka</string>
     <string name="whats_new_disclaimer">* vetëm azhurnimet më të mëdha janë renditur këtu, ka gjithmonë edhe disa përmirësime më të vogla</string>
     <string name="delete">Fshi</string>
@@ -199,6 +200,7 @@
     <string name="no">Jo</string>
     <string name="today">Sot</string>
     <string name="tomorrow">Nesër</string>
+    <string name="every_day">Çdo ditë</string>
     <string name="seconds_raw">sekonda</string>
     <string name="minutes_raw">minuta</string>
     <string name="hours_raw">orë</string>

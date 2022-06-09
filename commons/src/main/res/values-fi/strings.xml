@@ -154,6 +154,7 @@
     <string name="black_white">Musta &amp; Valkoinen</string>
     <string name="custom">Oma</string>
     <string name="shared">Jaettu</string>
+    <string name="system_default">Järjestelmän oletus</string>
     <string name="whats_new">Mitä uutta</string>
     <string name="whats_new_disclaimer">* tässä mainitaan vain isot muutokset, ei pieniä korjauksia</string>
     <string name="delete">Poista</string>
@@ -208,6 +209,7 @@
     <string name="fingerprint_setup_successfully">Suojaus onnistui. Asenna sovellus uudelleen jos kohtaat ongelmia.</string>
     <string name="today">Tänään</string>
     <string name="tomorrow">Huomenna</string>
+    <string name="every_day">Joka päivä</string>
     <string name="seconds_raw">sekuntia</string>
     <string name="minutes_raw">minuutit</string>
     <string name="hours_raw">tunnit</string>
@@ -396,7 +398,6 @@
     <string name="invite_via">Kutsu sovelluksella</string>
     <string name="rate">Arvostele</string>
     <string name="donate">Lahjoita</string>
-    <string name="donate_underlined"><u>Lahjoita</u></string>
     <string name="follow_us">Seuraa</string>
     <string name="other">Muu</string>
     <string name="additional_info">Lisätietoa</string>

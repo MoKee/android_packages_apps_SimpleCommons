@@ -201,6 +201,7 @@
     <string name="black_white">أسود وأبيض</string>
     <string name="custom">تخصيص</string>
     <string name="shared">مشترك</string>
+    <string name="system_default">الإعداد الافتراضي للنظام</string>
     <string name="whats_new">ما الجديد</string>
     <string name="whats_new_disclaimer">* يتم فقط سرد التحديثات الكبرى هنا ، وهناك دائماً بعض التحسينات ألاصغر أيضاً</string>
     <string name="delete">حذف</string>
@@ -280,6 +281,7 @@
     <string name="yesterday">البارحة</string>
     <string name="today">اليوم</string>
     <string name="tomorrow">غدًا</string>
+    <string name="every_day">كل يوم</string>
     <string name="seconds_raw">ثوانٍ</string>
     <string name="minutes_raw">دقائق</string>
     <string name="hours_raw">ساعات</string>
@@ -661,7 +663,6 @@
     <string name="invite_via">دعوة عبر</string>
     <string name="rate">تقييم</string>
     <string name="donate">تبرع</string>
-    <string name="donate_underlined"><u>التبرع</u></string>
     <string name="follow_us">تابعونا</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="other">غير ذلك</string>

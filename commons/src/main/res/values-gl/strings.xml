@@ -151,6 +151,7 @@
     <string name="black_white">Blanco &amp; Negro</string>
     <string name="custom">Personalizado</string>
     <string name="shared">Compartido</string>
+    <string name="system_default">Predefinida do sistema</string>
     <string name="whats_new">Qué hay de nuevo</string>
     <string name="whats_new_disclaimer">* Sólo las actualizaciones más grandes se enumeran aquí, siempre hay algunas pequeñas mejoras también</string>
     <string name="delete">Eliminar</string>
@@ -206,6 +207,7 @@
     <string name="fingerprint_setup_successfully">Configuración de protección con éxito. Por favor, vuelva a instalar la aplicación en caso de problemas al restablecerla.</string>
     <string name="today">Hoxe</string>
     <string name="tomorrow">Mañá</string>
+    <string name="every_day">Cada día</string>
     <string name="seconds_raw">segundos</string>
     <string name="minutes_raw">minutos</string>
     <string name="hours_raw">horas</string>
@@ -333,6 +335,7 @@
     <string name="file_operations">Operaciones de ficheros</string>
     <string name="text">Texto</string>
     <string name="thumbnails">Iconas</string>
+    <string name="groups_tab">Grupos</string>
     <string name="importing">Importando…</string>
     <string name="exporting">Exportando…</string>
     <string name="importing_successful">Importación correcta</string>
@@ -380,7 +383,6 @@
     <string name="share_text">Hola, ven y mira %1$s en %2$s</string>
     <string name="invite_via">Invitar con</string>
     <string name="donate">Donar</string>
-    <string name="donate_underlined"><u>Donar</u></string>
     <string name="follow_us">Síguenos</string>
     <string name="other">Outro</string>
     <string name="additional_info">Información adicional</string>

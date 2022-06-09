@@ -51,6 +51,7 @@
     <string name="auto_theme">자동</string>
     <string name="white">흰색</string>
     <string name="custom">맞춤</string>
+    <string name="system_default">시스템 기본값</string>
     <string name="delete">삭제</string>
     <string name="remove">삭제</string>
     <string name="rename">이름 변경</string>
@@ -74,6 +75,7 @@
     <string name="no">아니오</string>
     <string name="today">오늘</string>
     <string name="tomorrow">내일</string>
+    <string name="every_day">매일</string>
     <string name="seconds_raw">초</string>
     <string name="minutes_raw">분</string>
     <string name="hours_raw">시간</string>

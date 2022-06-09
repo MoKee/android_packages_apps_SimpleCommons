@@ -37,6 +37,7 @@
     <string name="dark_theme">Madalim</string>
     <string name="auto_theme">Ang Auto</string>
     <string name="custom">Custom</string>
+    <string name="system_default">Default na system</string>
     <string name="delete">Burahin</string>
     <string name="remove">Tanggalin</string>
     <string name="rename">Baguhin ang pangalan</string>
@@ -56,6 +57,7 @@
     <string name="no">Hindi</string>
     <string name="today">Ngayon</string>
     <string name="tomorrow">Bukas</string>
+    <string name="every_day">Bawat araw</string>
     <string name="seconds_raw">segundo</string>
     <string name="minutes_raw">minuto</string>
     <string name="hours_raw">oras</string>

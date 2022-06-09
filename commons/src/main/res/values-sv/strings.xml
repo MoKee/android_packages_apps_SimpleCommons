@@ -173,6 +173,7 @@
     <string name="black_white">Svartvitt</string>
     <string name="custom">Anpassat</string>
     <string name="shared">Delat</string>
+    <string name="system_default">Systemstandard</string>
     <string name="whats_new">Vad är nytt</string>
     <string name="whats_new_disclaimer">* bara de större uppdateringarna visas här, det görs också alltid några mindre förbättringar</string>
     <string name="delete">Ta bort</string>
@@ -239,6 +240,7 @@
     <string name="yesterday">Igår</string>
     <string name="today">Idag</string>
     <string name="tomorrow">Imorgon</string>
+    <string name="every_day">Varje dag</string>
     <string name="seconds_raw">sekunder</string>
     <string name="minutes_raw">minuter</string>
     <string name="hours_raw">timmar</string>
@@ -459,7 +461,6 @@
     <string name="share_text">Hej, läs om %1$s på %2$s</string>
     <string name="invite_via">Bjud in via</string>
     <string name="donate">Donera</string>
-    <string name="donate_underlined"><u>Donera</u></string>
     <string name="follow_us">Följ oss</string>
     <string name="other">Annan</string>
     <string name="additional_info">Ytterligare info</string>

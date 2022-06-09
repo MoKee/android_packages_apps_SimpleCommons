@@ -30,6 +30,7 @@
     <string name="title">શીર્ષક</string>
     <string name="today">આજે</string>
     <string name="tomorrow">આવતીકાલે</string>
+    <string name="every_day">દરરોજ</string>
     <string name="seconds_raw">સેકન્ડસ</string>
     <string name="minutes_raw">મિનીટ્સ</string>
     <string name="hours_raw">કલાક</string>

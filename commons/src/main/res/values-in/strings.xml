@@ -179,6 +179,7 @@
     <string name="black_white">Black &amp; White</string>
     <string name="custom">Khusus</string>
     <string name="shared">Shared</string>
+    <string name="system_default">Sistem standar</string>
     <string name="whats_new">Apa yang Baru</string>
     <string name="whats_new_disclaimer">* hanya pembaruan besar yang tercantum di sini, selalu ada beberapa peningkatan yang lebih kecil juga</string>
     <string name="delete">Hapus</string>
@@ -246,6 +247,7 @@
     <string name="yesterday">Kemarin</string>
     <string name="today">Hari ini</string>
     <string name="tomorrow">Besok</string>
+    <string name="every_day">Setiap hari</string>
     <string name="seconds_raw">detik</string>
     <string name="minutes_raw">menit</string>
     <string name="hours_raw">jam</string>
@@ -461,7 +463,6 @@
     <string name="invite_via">Undang melalui</string>
     <string name="rate">Beri peringkat</string>
     <string name="donate">Donasi</string>
-    <string name="donate_underlined"><u>Donasi</u></string>
     <string name="follow_us">Ikuti kami</string>
     <string name="copyright">v %1$s\nHak cipta © Simple Mobile Tools %2$d</string>
     <string name="other">Lainnya</string>

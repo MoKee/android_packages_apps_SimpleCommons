@@ -29,6 +29,7 @@
     <string name="light_theme">हल्का</string>
     <string name="auto_theme">स्वत:</string>
     <string name="custom">कस्टम</string>
+    <string name="system_default">सिस्टम डिफ़ॉल्ट</string>
     <string name="delete">हटाएं</string>
     <string name="remove">हटाएं</string>
     <string name="share">साझा करें</string>
@@ -43,6 +44,7 @@
     <string name="yes">हां</string>
     <string name="today">आज</string>
     <string name="tomorrow">कल</string>
+    <string name="every_day">प्रत्येक दिन</string>
     <string name="seconds_raw">सेकंड</string>
     <string name="minutes_raw">मिनट</string>
     <string name="hours_raw">घंटे</string>

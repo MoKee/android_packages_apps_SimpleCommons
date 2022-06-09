@@ -17,6 +17,7 @@
     <string name="copy_to_clipboard">Zkopírovat do schránky</string>
     <string name="copy_number_to_clipboard">Kopírovat číslo do schránky</string>
     <string name="value_copied_to_clipboard">Hodnota zkopírována do schránky</string>
+    <string name="value_copied_to_clipboard_show">Hodnota zkopírována do schránky:\n%s</string>
     <string name="dial_number">Vytočit číslo</string>
     <string name="unknown">Neznámá</string>
     <string name="always">Vždy</string>
@@ -40,6 +41,7 @@
     <string name="no_contacts_found">Nenalezeny žádné kontakty</string>
     <string name="request_the_required_permissions">Vyžádat požadovaná oprávnění</string>
     <string name="no_access_to_contacts">Aplikace nemohla získat přístup k vašim kontaktům</string>
+    <string name="no_phone_call_permission">Aplikace nemá oprávnění iniciovat telefonní hovory, povolte ho v nastavení zařízení.</string>
     <string name="insert_text_here">Zde vložte text</string>
     <string name="call_person">Volat %s</string>
     <string name="zero">Nula</string>
@@ -52,10 +54,18 @@
     <string name="seven">Sedm</string>
     <string name="eight">Osm</string>
     <string name="nine">Devět</string>
+    <string name="value_cannot_be_empty">Hodnota nemůže být prázdná</string>
     <string name="home">Doma</string>
     <string name="work">Práce</string>
+    <string name="mobile">Mobilní</string>
+    <string name="main_number">Hlavní</string>
+    <string name="work_fax">Pracovní fax</string>
+    <string name="home_fax">Domácí fax</string>
+    <string name="pager">Pager</string>
+    <string name="no_phone_number_found">Nebylo nalezeno žádné telefonní číslo</string>
     <string name="change_view_type">Změnit typ zobrazení</string>
     <string name="grid">Mřížka</string>
+    <string name="uneven_grid">Nerovnoměrná mřížka</string>
     <string name="list">Seznam</string>
     <string name="increase_column_count">Zvýšit počet sloupců</string>
     <string name="reduce_column_count">Snížit počet sloupců</string>
@@ -107,6 +117,7 @@
     <string name="rename_date_time_pattern">%Y - rok\n%M - měsíc\n%D - den\n%h - hodina\n%m - minuta\n%s - sekunda\n%i - číslo se zvyšuje od 1</string>
     <string name="filename_without_txt">Název souboru (bez .txt)</string>
     <string name="filename_without_json">Název souboru (bez .json)</string>
+    <string name="cannot_hide_files">Od systému Android 11 již nelze takto skrývat soubory a složky</string>
     <string name="copy">Kopírovat</string>
     <string name="move">Přesunout</string>
     <string name="copy_move">Kopírovat / Přesunout</string>
@@ -155,6 +166,7 @@
     <string name="select_folder">Zvolte složku</string>
     <string name="select_file">Zvolte soubor</string>
     <string name="confirm_storage_access_title">Potvrďte přístup k externímu úložišti</string>
+    <string name="confirm_folder_access_title">Potvrdit přístup ke složce</string>
     <string name="confirm_storage_access_text">Na následující obrazovce prosím zvolte kořenovou složku SD karty pro povolení oprávnění k zápisu</string>
     <string name="confirm_storage_access_text_sd">Pokud nevidíte SD kartu, vyzkoušejte následující</string>
     <string name="confirm_storage_access_android_text">Na další obrazovce povolte aplikaci přístup k vybranému úložišti stisknutím tlačítka \"Použít tuto složku\" v dolní části.</string>
@@ -192,6 +204,7 @@
     <string name="sd_card_usb_same">Cesta k SD kartě a USB zařízení nesmí být stejná</string>
     <string name="app_on_sd_card">Zdá se, že máte aplikaci nainstalovanou na SD kartě, což způsobí nedostupnost widgetů. Ani je neuvidíte na seznamu dostupných widgetů.
          Jde o systémové omezení, čili pokud chcete widgety používat, musíte přesunout aplikaci zpět na interní úložiště.</string>
+    <string name="wrong_folder_selected">Vybrána nesprávná složka. Vyberte cestu \'%s\'</string>
     <string name="properties">Vlastnosti</string>
     <string name="path">Cesta</string>
     <string name="items_selected">Počet zvolených položek</string>
@@ -243,6 +256,7 @@
     <string name="black_white">Černý &amp; bílý</string>
     <string name="custom">Vlastní</string>
     <string name="shared">Sdíleno</string>
+    <string name="system_default">Systémové výchozí</string>
     <string name="whats_new">Co je nového</string>
     <string name="whats_new_disclaimer">* jsou zde uvedeny pouze větší změny, vždy jsou doprovázeny také menšími změnami</string>
     <string name="delete">Smazat</string>
@@ -271,7 +285,10 @@
     <string name="toggle_filename">Přepnout viditelnost názvů souborů</string>
     <string name="move_to_top">Přesunout na začátek</string>
     <string name="move_to_bottom">Přesunout na konec</string>
+    <string name="pin_item">Připnout položku</string>
+    <string name="unpin_item">Odepnout položku</string>
     <string name="send_sms">Odeslání SMS</string>
+    <string name="send_email">Poslat e-mail</string>
     <string name="call">Volání</string>
     <string name="sort_by">Seřadit dle</string>
     <string name="name">Názvu</string>
@@ -337,6 +354,7 @@
     <string name="yesterday">Včera</string>
     <string name="today">Dnes</string>
     <string name="tomorrow">Zítra</string>
+    <string name="every_day">Každý den</string>
     <string name="hide_year">Skrýt rok</string>
     <string name="seconds_raw">sekundy</string>
     <string name="minutes_raw">minuty</string>
@@ -515,6 +533,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Zbývající čas do vypnutí budíku:\n%s</string>
     <string name="reminder_triggers_in">Zbývající čas do připomínky:\n%s</string>
+    <string name="time_remaining">Zbývající čas:\n%s</string>
     <string name="alarm_warning">Před tím, než se začnete spoléhat na budík, prosím ujistěte se, zda funguje správně. Mohlo by dojít k potížím díky omezením systému týkajících se úspory baterie.</string>
     <string name="reminder_warning">Než se na ně budete moci spolehnout, ujistěte se, že připomenutí fungují správně. Zkontrolujte baterii a nastavení oznámení v zařízení, jestli nic neblokuje připomenutí nebo nezabíjí aplikaci na pozadí.</string>
     <string name="notifications_disabled">Oznámení této aplikace jsou zakázány. Přejděte do nastavení zařízení pro jejich povolení.</string>
@@ -618,6 +637,7 @@
     <string name="importing_some_entries_failed">Import některých položek se nezdařil</string>
     <string name="exporting_some_entries_failed">Export některých položek se nezdařil</string>
     <string name="no_entries_for_importing">Nebyly nalezeny žádné položky pro import</string>
+    <string name="no_new_entries_for_importing">Nebyly nalezeny žádné nové položky pro import</string>
     <string name="no_entries_for_exporting">Nebyly nalezeny žádné položky pro export</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Zdá se, že máte k zařízení připojeno zařízení USB. Chcete-li se ujistit, zda se soubory zobrazují správně, musíte udělit další oprávnění.</string>
@@ -687,13 +707,13 @@
     <string name="rate_us">Ohodnoťte nás</string>
     <string name="rate">Ohodnotit</string>
     <string name="donate">Přispět</string>
-    <string name="donate_underlined"><u>Přispět</u></string>
     <string name="follow_us">Sledujte nás</string>
     <string name="copyright">v %1$s\nAutorská práva © Simple Mobile Tools %2$d</string>
     <string name="support">Podpora</string>
     <string name="help_us">Pomozte nám</string>
     <string name="social">Sociální sítě</string>
     <string name="other">Ostatní</string>
+    <string name="privacy_policy">Zásady ochrany osobních údajů</string>
     <string name="version_placeholder">Verze %s</string>
     <string name="hello">Ahoj :)</string>
     <string name="about_footer">Vytvořeno s ❤️ na Slovensku</string>
@@ -778,6 +798,7 @@
     <string name="translation_czech">Česko</string>
     <string name="translation_welsh">Velština</string>
     <string name="translation_danish">Dánština</string>
+    <string name="translation_english">Čeština</string>
     <string name="translation_german">Němčina</string>
     <string name="translation_greek">Řečtina</string>
     <string name="translation_spanish">Španělština</string>

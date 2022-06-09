@@ -167,6 +167,7 @@
     <string name="black_white">Zwart &amp; Wit</string>
     <string name="custom">Aangepast</string>
     <string name="shared">Gedeeld</string>
+    <string name="system_default">Systeemstandaard</string>
     <string name="whats_new">Wat is er nieuw</string>
     <string name="whats_new_disclaimer">* Alleen de belangrijkste veranderingen worden hier vermeld</string>
     <string name="delete">Verwijderen</string>
@@ -235,6 +236,7 @@
     <string name="yesterday">Gisteren</string>
     <string name="today">Vandaag</string>
     <string name="tomorrow">Morgen</string>
+    <string name="every_day">Iedere dag</string>
     <string name="seconds_raw">seconden</string>
     <string name="minutes_raw">minuten</string>
     <string name="hours_raw">uren</string>
@@ -455,7 +457,6 @@
     <string name="invite_via">Uitnodigen via</string>
     <string name="rate">Beoordelen</string>
     <string name="donate">Doneren</string>
-    <string name="donate_underlined"><u>Doneren</u></string>
     <string name="follow_us">Volg ons</string>
     <string name="other">Anders</string>
     <string name="additional_info">Extra informatie</string>

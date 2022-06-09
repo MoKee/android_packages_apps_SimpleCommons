@@ -27,6 +27,7 @@
     <string name="dark_theme">Donker</string>
     <string name="auto_theme">Outo</string>
     <string name="custom">Gepasmaakte</string>
+    <string name="system_default">Stelselstandaard</string>
     <string name="delete">Vee uit</string>
     <string name="remove">Verwyder</string>
     <string name="rename">Hernoem</string>
@@ -45,6 +46,7 @@
     <string name="no">Nee</string>
     <string name="today">Vandag</string>
     <string name="tomorrow">Môre</string>
+    <string name="every_day">Elke dag</string>
     <string name="seconds_raw">sekondes</string>
     <string name="minutes_raw">minute</string>
     <string name="hours_raw">ure</string>

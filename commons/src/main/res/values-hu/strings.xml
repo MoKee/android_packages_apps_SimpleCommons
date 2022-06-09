@@ -17,6 +17,7 @@
     <string name="copy_to_clipboard">Másolás vágólapra</string>
     <string name="copy_number_to_clipboard">Szám másolása a vágólapra</string>
     <string name="value_copied_to_clipboard">Érték másolva a vágólapra</string>
+    <string name="value_copied_to_clipboard_show">Az érték a vágólapra másolva\n%s</string>
     <string name="dial_number">Tárcsázás</string>
     <string name="unknown">Ismeretlen</string>
     <string name="always">Mindig</string>
@@ -40,6 +41,7 @@
     <string name="no_contacts_found">Nem található névjegy</string>
     <string name="request_the_required_permissions">A szükséges engedélyek kérése</string>
     <string name="no_access_to_contacts">Az alkalmazás nem tudta elérni a névjegyeket</string>
+    <string name="no_phone_call_permission">Az alkalmazásnak nincs jogosultsága telefonhívás-kezdeményezésre, kérjük, adja meg a beállításokban</string>
     <string name="insert_text_here">Ide írjon szöveget</string>
     <string name="call_person">%s hívása</string>
     <string name="zero">Nulla</string>
@@ -52,10 +54,18 @@
     <string name="seven">Hét</string>
     <string name="eight">Nyolc</string>
     <string name="nine">Kilenc</string>
+    <string name="value_cannot_be_empty">Az érték nem lehet üres</string>
     <string name="home">Otthon</string>
     <string name="work">Munka</string>
+    <string name="mobile">Mobil</string>
+    <string name="main_number">Elsődleges</string>
+    <string name="work_fax">Munkahelyi Fax</string>
+    <string name="home_fax">Otthoni Fax</string>
+    <string name="pager">Személyhívó</string>
+    <string name="no_phone_number_found">Nem található telefonszám</string>
     <string name="change_view_type">Nézet típus változtatása</string>
     <string name="grid">Rács</string>
+    <string name="uneven_grid">Egyenetlen rács</string>
     <string name="list">Lista</string>
     <string name="increase_column_count">Növelje az oszlopok számát</string>
     <string name="reduce_column_count">Csökkentse az oszlopok számát</string>
@@ -107,6 +117,7 @@
     <string name="rename_date_time_pattern">%Y - év\n%M - hónap\n%D - nap\n%h - óra\n%m - perc\n%s - másodperc\n%i - 1-től növekvő szám</string>
     <string name="filename_without_txt">Fájlnév ( .txt nélkül )</string>
     <string name="filename_without_json">Fájlnév ( .json nélkül )</string>
+    <string name="cannot_hide_files">Android 11-től kezdve már nem lehet elrejteni / felfedni fájlokat vagy mappákat</string>
     <string name="copy">Másolás</string>
     <string name="move">Áthelyezés</string>
     <string name="copy_move">Másolás / Áthelyezés</string>
@@ -155,6 +166,7 @@
     <string name="select_folder">Válasszon egy mappát</string>
     <string name="select_file">Válasszon egy fájlt</string>
     <string name="confirm_storage_access_title">Külső tárolóelérés megerősítése</string>
+    <string name="confirm_folder_access_title">Mappahozzáférések megerősítése</string>
     <string name="confirm_storage_access_text">Az írási engedély garantálásához, kérjük, a következő képernyőn válassza az SD-kártya gyökérkönyvtárát</string>
     <string name="confirm_storage_access_text_sd">Ha nem látja az SD-kártyát, próbálja meg a következőt</string>
     <string name="confirm_storage_access_android_text">Engedélyezze a következő képernyőn alul a „Mappa használata” gomb megnyomásával, hogy az alkalmazás hozzáférjen a kiválasztott tárhelyhez.</string>
@@ -184,6 +196,7 @@
     <string name="sd_card_usb_same">Az SD kártya és az USB eszköz elérési útvonala nem lehet azonos</string>
     <string name="app_on_sd_card">Úgy tűnik, hogy az alkalmazás az SD-kártyára van telepítve, ami miatt az alkalmazásikonok nem érhetők el. Nem láthatja őket a rendelkezésre álló kisalkalmazások listáján.
         Ez egy rendszerkorlátozás, ezért ha még szeretné használni ezeket, vissza kell helyeznie az alkalmazást a belső tárhelyre.</string>
+    <string name="wrong_folder_selected">Hibás mappa lett kiválasztva, válassza a \'%s\' útvonalat</string>
     <string name="properties">Tulajdonságok</string>
     <string name="path">Elérési útvonal</string>
     <string name="items_selected">Elem kiválasztva</string>
@@ -235,6 +248,7 @@
     <string name="black_white">Fekete és fehér</string>
     <string name="custom">Egyéni</string>
     <string name="shared">Megosztva</string>
+    <string name="system_default">Rendszer alapértelmezett</string>
     <string name="whats_new">Újdonságok</string>
     <string name="whats_new_disclaimer">* itt csak a nagyobb frissítések vannak felsorolva, de mindig vannak kisebb javítások is</string>
     <string name="delete">Törlés</string>
@@ -263,7 +277,10 @@
     <string name="toggle_filename">Fájlnév láthatóság módosítása</string>
     <string name="move_to_top">Legfelülre helyezés</string>
     <string name="move_to_bottom">Legalulra helyezés</string>
+    <string name="pin_item">Elemrögzítés</string>
+    <string name="unpin_item">Elemfeloldás</string>
     <string name="send_sms">SMS küldése</string>
+    <string name="send_email">E-mail küldése</string>
     <string name="call">Hívás</string>
     <string name="sort_by">Rendezés</string>
     <string name="name">Név</string>
@@ -327,6 +344,7 @@
     <string name="yesterday">Tegnap</string>
     <string name="today">Ma</string>
     <string name="tomorrow">Holnap</string>
+    <string name="every_day">Minden nap</string>
     <string name="hide_year">Évszám-elrejtés</string>
     <string name="seconds_raw">másodperc</string>
     <string name="minutes_raw">perc</string>
@@ -449,6 +467,7 @@
     </plurals>
     <string name="alarm_goes_off_in">A riasztásig hátralévő idő eltűnik:\n%s</string>
     <string name="reminder_triggers_in">Az emlékeztető aktiválásáig hátralévő idő:\n%s</string>
+    <string name="time_remaining">Hátralévő idő:\n%s</string>
     <string name="alarm_warning">Győződjön meg róla, hogy a riasztás megfelelően működik, mielőtt napi szinten használná. Az akkumulátor takarékossággal kapcsolatos rendszerkorlátozások miatt helytelenül is működhetnek.</string>
     <string name="reminder_warning">Ellenőrizze, hogy az emlékeztetők megfelelően működnek-e, mielőtt azokat használná. Ellenőrizze a készüléke akkumulátor- és értesítési beállításait, hogy semmi se akadályozza az emlékeztetőket, semmi se állítsa le az alkalmazást a háttérben.</string>
     <string name="notifications_disabled">Az alkalmazás értesítései le vannak tiltva. Kérjük, lépjen be a készülék beállításaiba és engedélyezze ezeket.</string>
@@ -550,6 +569,7 @@
     <string name="importing_some_entries_failed">Egyes elemek importálása nem sikerült</string>
     <string name="exporting_some_entries_failed">Egyes elemek exportálása nem sikerült</string>
     <string name="no_entries_for_importing">Nem találhatóak elemek az importáláshoz</string>
+    <string name="no_new_entries_for_importing">Nem találhatók új importálandó elemek</string>
     <string name="no_entries_for_exporting">Az exportáláshoz nem találhatóak bejegyzések</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Úgy tűnik, a készülékhez egy USB eszköz van csatlakoztatva. További engedélyeket kell megadnia, hogy a fájlok megfelelően jelenjenek meg.</string>
@@ -619,13 +639,13 @@
     <string name="rate_us">Értékeljen minket</string>
     <string name="rate">Értékelés</string>
     <string name="donate">Támogatás</string>
-    <string name="donate_underlined"><u>Támogatás</u></string>
     <string name="follow_us">Kövessen minket</string>
     <string name="copyright">%1$s verzió\nSzerzői jogok: © Simple Mobile Tools %2$d</string>
     <string name="support">Támogatás</string>
     <string name="help_us">Segítsen nekünk</string>
     <string name="social">Közösség</string>
     <string name="other">Egyéb</string>
+    <string name="privacy_policy">Adatvédelmi Irányelvek</string>
     <string name="version_placeholder">%s verzió</string>
     <string name="hello">Szióka :)</string>
     <string name="about_footer">❤️-ből készült Szlovákiában</string>
@@ -710,6 +730,7 @@
     <string name="translation_czech">Csehország</string>
     <string name="translation_welsh">Walesi</string>
     <string name="translation_danish">Dán</string>
+    <string name="translation_english">Angol</string>
     <string name="translation_german">Német</string>
     <string name="translation_greek">Görög</string>
     <string name="translation_spanish">Spanyol</string>

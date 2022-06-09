@@ -183,6 +183,7 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="black_white">Blanco &amp; Negro</string>
     <string name="custom">Personalizado</string>
     <string name="shared">Compartido</string>
+    <string name="system_default">Utilizar valores por defecto</string>
     <string name="whats_new">Novedades</string>
     <string name="whats_new_disclaimer">* Sólo las actualizaciones más grandes se enumeran aquí, siempre hay algunas pequeñas mejoras también</string>
     <string name="delete">Borrar</string>
@@ -256,6 +257,7 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="yesterday">Ayer</string>
     <string name="today">Hoy</string>
     <string name="tomorrow">Mañana</string>
+    <string name="every_day">Cada día</string>
     <string name="seconds_raw">segundos</string>
     <string name="minutes_raw">minutos</string>
     <string name="hours_raw">horas</string>
@@ -500,7 +502,6 @@ Una vez lanzado, solo ajusta otra vez el icono naranja por defecto #F57C00: Pued
     <string name="invite_via">Invitar con</string>
     <string name="rate">Puntuar</string>
     <string name="donate">Donar</string>
-    <string name="donate_underlined"><u>Donar</u></string>
     <string name="follow_us">Síguenos</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="other">Otro</string>

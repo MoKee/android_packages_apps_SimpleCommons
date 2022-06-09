@@ -27,6 +27,7 @@
     <string name="yes">დიახ</string>
     <string name="today">დღეს</string>
     <string name="tomorrow">ხვალ</string>
+    <string name="every_day">ყოველ დღე</string>
     <string name="seconds_raw">წამი</string>
     <string name="minutes_raw">წუთი</string>
     <string name="hours_raw">საათი</string>

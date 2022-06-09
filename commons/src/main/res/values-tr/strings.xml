@@ -52,8 +52,14 @@
     <string name="seven">Yedi</string>
     <string name="eight">Sekiz</string>
     <string name="nine">Dokuz</string>
+    <string name="value_cannot_be_empty">Değer boş olamaz</string>
     <string name="home">Ev</string>
     <string name="work">İş</string>
+    <string name="mobile">Cep</string>
+    <string name="main_number">Ana</string>
+    <string name="work_fax">İş Faksı</string>
+    <string name="home_fax">Ev Faksı</string>
+    <string name="no_phone_number_found">Telefon numarası bulunamadı</string>
     <string name="change_view_type">Önizleme türünü değiştir</string>
     <string name="grid">Izgara</string>
     <string name="list">Liste</string>
@@ -235,6 +241,7 @@
     <string name="black_white">Siyah ve beyaz</string>
     <string name="custom">Özel</string>
     <string name="shared">Paylaşılan</string>
+    <string name="system_default">Sistem varsayılanı</string>
     <string name="whats_new">Yenilikler</string>
     <string name="whats_new_disclaimer">* yalnızca büyük güncellemeler burada listelenmiştir; daima bazı küçük geliştirmeler de vardır</string>
     <string name="delete">Sil</string>
@@ -263,7 +270,10 @@
     <string name="toggle_filename">Dosya adı görünürlüğünü değiştir</string>
     <string name="move_to_top">En üste git</string>
     <string name="move_to_bottom">En alta git</string>
+    <string name="pin_item">Öğeyi sabitle</string>
+    <string name="unpin_item">Öğeyi sabitlemeyi kaldır</string>
     <string name="send_sms">SMS gönder</string>
+    <string name="send_email">E-posta gönder</string>
     <string name="call">Arama</string>
     <string name="sort_by">Sıralama ölçütü</string>
     <string name="name">Ad</string>
@@ -327,6 +337,7 @@
     <string name="yesterday">Dün</string>
     <string name="today">Bugün</string>
     <string name="tomorrow">Yarın</string>
+    <string name="every_day">Her gün</string>
     <string name="hide_year">Yılı gizle</string>
     <string name="seconds_raw">saniye</string>
     <string name="minutes_raw">dakika</string>
@@ -449,6 +460,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Alarmın çalmasına şu kadar kaldı:\n%s</string>
     <string name="reminder_triggers_in">Hatırlatıcı tetiklenene kadar kalan süre:\n%s</string>
+    <string name="time_remaining">Kalan Süre:%s</string>
     <string name="alarm_warning">Lütfen alarma güvenmeden önce düzgün çalıştığından emin olun. Pil tasarrufu ile ilgili sistem kısıtlamaları nedeniyle yanlış davranabilir.</string>
     <string name="reminder_warning">Lütfen güvenmeden önce hatırlatıcıların düzgün çalıştığından emin olun. Hatırlatıcıları engelleyen veya arka planda uygulamayı sonlandıran bir şey yoksa cihazınızın pilini ve bildirim ayarlarını kontrol edin.</string>
     <string name="notifications_disabled">Bu uygulamanın bildirimleri devre dışı bırakıldı. Lütfen bunları etkinleştirmek için cihaz ayarlarınıza gidin.</string>
@@ -550,6 +562,7 @@
     <string name="importing_some_entries_failed">Bazı öğeler içe aktarılamadı</string>
     <string name="exporting_some_entries_failed">Bazı öğeler dışa aktarılamadı</string>
     <string name="no_entries_for_importing">İçe aktarılacak giriş bulunamadı</string>
+    <string name="no_new_entries_for_importing">İçe aktarılacak giriş bulunamadı</string>
     <string name="no_entries_for_exporting">Dışa aktarılacak öğe bulunamadı</string>
     <string name="usb">USB</string>
     <string name="usb_detected">Cihazınıza takılı bir USB var gibi görünüyor. Dosyalarının düzgün görüntülendiğinden emin olmak için ek izinler vermeniz gerekir.</string>
@@ -619,13 +632,13 @@
     <string name="rate_us">Bizi değerlendirin</string>
     <string name="rate">Oyla</string>
     <string name="donate">Bağış yapın</string>
-    <string name="donate_underlined"><u>Bağış yapın</u></string>
     <string name="follow_us">Bizi takip edin</string>
     <string name="copyright">v %1$s\nTelif hakkı © Simple Mobile Tools %2$d</string>
     <string name="support">Destek</string>
     <string name="help_us">Bize yardımda bulun</string>
     <string name="social">Sosyal</string>
     <string name="other">Diğer</string>
+    <string name="privacy_policy">Gizlilik politikası</string>
     <string name="version_placeholder">Sürüm %s</string>
     <string name="hello">Merhaba :)</string>
     <string name="about_footer">Slovakya\'da ❤️ ile yapılmıştır</string>
@@ -702,6 +715,7 @@
     <string name="translation_czech">Çekçe</string>
     <string name="translation_welsh">Galce</string>
     <string name="translation_danish">Danimarkaca</string>
+    <string name="translation_english">İngilizce</string>
     <string name="translation_german">Almanca</string>
     <string name="translation_greek">Yunanca</string>
     <string name="translation_spanish">İspanyolca</string>

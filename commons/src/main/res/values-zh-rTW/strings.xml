@@ -211,6 +211,7 @@
     <string name="black_white">黑白主題</string>
     <string name="custom">自訂</string>
     <string name="shared">分享</string>
+    <string name="system_default">系統預設</string>
     <string name="whats_new">更新了什麼</string>
     <string name="whats_new_disclaimer">*此處僅列出大更新，尚有一些小改善</string>
     <string name="delete">刪除</string>
@@ -294,6 +295,7 @@
     <string name="yesterday">昨天</string>
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>
+    <string name="every_day">每天</string>
     <string name="hide_year">隱藏年份</string>
     <string name="seconds_raw">秒鐘</string>
     <string name="minutes_raw">分鐘</string>
@@ -540,7 +542,6 @@
     <string name="invite_via">邀請</string>
     <string name="rate">評價</string>
     <string name="donate">捐贈</string>
-    <string name="donate_underlined"><u>捐贈</u></string>
     <string name="follow_us">追蹤我們</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="other">其他</string>

@@ -221,6 +221,7 @@
     <string name="black_white">Czerń i biel</string>
     <string name="custom">Własny</string>
     <string name="shared">Wspólny</string>
+    <string name="system_default">Domyślny systemu</string>
     <string name="whats_new">Co nowego</string>
     <string name="whats_new_disclaimer">* Wymienione są tylko większe zmiany</string>
     <string name="delete">Usuń</string>
@@ -309,6 +310,7 @@
     <string name="yesterday">Wczoraj</string>
     <string name="today">Dzisiaj</string>
     <string name="tomorrow">Jutro</string>
+    <string name="every_day">Codziennie</string>
     <string name="hide_year">Ukryj rok</string>
     <string name="seconds_raw">sekundy</string>
     <string name="minutes_raw">minuty</string>
@@ -643,7 +645,6 @@
     <string name="invite_via">Wybierz sposób:</string>
     <string name="rate">Oceń</string>
     <string name="donate">Przekaż datek</string>
-    <string name="donate_underlined"><u>Przekaż datek</u></string>
     <string name="follow_us">Śledź nas</string>
     <string name="copyright">Wersja %1$s\n© Simple Mobile Tools %2$d</string>
     <string name="other">Inny</string>

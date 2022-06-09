@@ -27,6 +27,7 @@
     <string name="yes">አዎ</string>
     <string name="today">ዛሬ</string>
     <string name="tomorrow">ነገ</string>
+    <string name="every_day">በየቀኑ</string>
     <string name="seconds_raw">ሰኮንዶች</string>
     <string name="minutes_raw">ደቂቃዎች</string>
     <string name="hours_raw">ሰዓቶች</string>

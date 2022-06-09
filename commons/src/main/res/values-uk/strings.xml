@@ -197,6 +197,7 @@
     <string name="black_white">Чорно-біла</string>
     <string name="custom">Спеціальний</string>
     <string name="shared">Спільні</string>
+    <string name="system_default">За замовчуванням системи</string>
     <string name="whats_new">Що нового?</string>
     <string name="whats_new_disclaimer">* тут представлені тільки значні зміни, але завжди присутні і дрібні виправлення</string>
     <string name="delete">Видалити</string>
@@ -274,6 +275,7 @@
     <string name="yesterday">Вчора</string>
     <string name="today">Сьогодні</string>
     <string name="tomorrow">Завтра</string>
+    <string name="every_day">Щодня</string>
     <string name="seconds_raw">с.</string>
     <string name="minutes_raw">хв.</string>
     <string name="hours_raw">год.</string>
@@ -598,7 +600,6 @@
     <string name="invite_via">Запросити через</string>
     <string name="rate">Оцінити</string>
     <string name="donate">Пожертвувати</string>
-    <string name="donate_underlined"><u>Пожертвувати</u></string>
     <string name="follow_us">Слідкуйте за нами</string>
     <string name="copyright">v %1$s\nАвторське право © Simple Mobile Tools %2$d</string>
     <string name="other">Інший</string>
@@ -679,6 +680,7 @@
     <string name="indicator_fast_scroll_title">Індикатор швидкого прокручування (літери на панелі)</string>
     <string name="event_bus_title">Event Bus (комунікація всередині додатку)</string>
     <string name="audio_record_view_title">Аудіовізуалізація </string>
+    <string name="sms_mms_title">SMS MMS (SMS та MMS обробка)</string>
     <string name="deprecated_app">НЕ ПІДТРИМУЄТЬСЯ: Ця версія програми більше не підтримується, завантажте версію Pro, перейшовши за посиланням:
 https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Не забувайте, що якщо Ви видалите будь-який платний додаток протягом 2 годин, Вам буде автоматично повернута сума оплати. Якщо Ви хочете повернути гроші в інший момент, просто зв\'яжіться з нами за адресою hello@simplemobiletools.com і Ви отримаєте гроші назад.</string>

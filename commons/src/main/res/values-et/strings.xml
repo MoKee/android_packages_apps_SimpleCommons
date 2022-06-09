@@ -225,6 +225,7 @@
     <string name="black_white">Must &amp; Valge</string>
     <string name="custom">Kohandatud</string>
     <string name="shared">Jagatud</string>
+    <string name="system_default">Süsteemi vaikeväärtused</string>
     <string name="whats_new">Mis on uut</string>
     <string name="whats_new_disclaimer">* siin on loetletud ainult suuremad värskendused, samuti on ka mõned väiksemad parandused</string>
     <string name="delete">Kustuta</string>
@@ -317,6 +318,7 @@
     <string name="yesterday">Eile</string>
     <string name="today">Täna</string>
     <string name="tomorrow">Homme</string>
+    <string name="every_day">Iga päev</string>
     <string name="hide_year">Peida aasta</string>
     <string name="seconds_raw">sekundit</string>
     <string name="minutes_raw">minutit</string>
@@ -609,7 +611,6 @@
     <string name="rate_us">Hinda meid</string>
     <string name="rate">Hinda</string>
     <string name="donate">Toeta</string>
-    <string name="donate_underlined"><u>Toeta</u></string>
     <string name="follow_us">Jälgi meid</string>
     <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
     <string name="support">Toeta</string>

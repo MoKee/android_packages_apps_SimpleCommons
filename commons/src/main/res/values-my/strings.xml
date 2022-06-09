@@ -21,6 +21,7 @@
     <string name="date_taken">ရိုက်ကူးခဲ့သောနေ့</string>
     <string name="today">ယနေ့</string>
     <string name="tomorrow">နက်ဖြန်</string>
+    <string name="every_day">နေ့တိုင်း</string>
     <string name="snooze">မှေးရန်</string>
     <string name="dismiss">Dismiss</string>
     <string name="widgets">ဝိဂျက်များ</string>

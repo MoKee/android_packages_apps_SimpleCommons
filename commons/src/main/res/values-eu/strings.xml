@@ -30,6 +30,7 @@
     <string name="dark_theme">Iluna</string>
     <string name="auto_theme">Automatikoa</string>
     <string name="custom">Pertsonalizatua</string>
+    <string name="system_default">Sistemaren lehenetsia</string>
     <string name="delete">Ezabatu</string>
     <string name="remove">Kendu</string>
     <string name="rename">Aldatu izena</string>
@@ -48,6 +49,7 @@
     <string name="no">Ez</string>
     <string name="today">Gaur</string>
     <string name="tomorrow">Bihar</string>
+    <string name="every_day">Egunero</string>
     <string name="seconds_raw">segundo</string>
     <string name="minutes_raw">minutu</string>
     <string name="hours_raw">ordu</string>

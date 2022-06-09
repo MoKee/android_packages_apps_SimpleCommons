@@ -218,6 +218,7 @@
     <string name="yesterday">Dünən</string>
     <string name="today">Bugün</string>
     <string name="tomorrow">Sabah</string>
+    <string name="every_day">Hər gün</string>
     <string name="seconds_raw">saniyələr</string>
     <string name="minutes_raw">dəqiqələr</string>
     <string name="hours_raw">saatlar</string>
@@ -437,7 +438,6 @@
     <string name="share_text">Ey! gəl sən də %2$s\'də %1$s\'ə nəzər yetir!</string>
     <string name="invite_via">Dəvət et</string>
     <string name="donate">İanə et</string>
-    <string name="donate_underlined"><u>İanə et</u></string>
     <string name="follow_us">İzlə</string>
     <string name="copyright">v %1$s\nMüəllif Hüquqları © Simple Mobile Tools %2$d</string>
     <string name="other">Digər</string>
