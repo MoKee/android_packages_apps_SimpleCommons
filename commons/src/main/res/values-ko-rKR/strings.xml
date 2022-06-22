@@ -196,6 +196,7 @@
     <string name="system_folder_copy_restriction">The system does not allow copying into this folder, please pick another one</string>
     <string name="rename_in_sd_card_system_restriction">The system does not allow renaming in this folder</string>
     <string name="rename_internal_system_restriction">Cannot rename folders directly on internal storage, only subfolders</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
 
     <!-- File picker -->
     <string name="select_folder">폴더 선택</string>
@@ -232,6 +233,7 @@
 
     <!-- Storages -->
     <string name="select_storage">저장공간 선택</string>
+    <string name="storage">Storage</string>
     <string name="internal">내장 메모리</string>
     <string name="sd_card">외장 메모리</string>
     <string name="root">루트</string>

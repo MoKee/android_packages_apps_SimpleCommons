@@ -42,11 +42,8 @@ import com.simplemobiletools.commons.dialogs.WritePermissionDialog.Mode
 import com.simplemobiletools.commons.helpers.*
 import com.simplemobiletools.commons.models.*
 import com.simplemobiletools.commons.views.MyTextView
+import java.io.*
 import kotlinx.android.synthetic.main.dialog_title.view.*
-import java.io.File
-import java.io.FileNotFoundException
-import java.io.FileOutputStream
-import java.io.OutputStream
 import java.util.*
 
 fun AppCompatActivity.updateActionBarTitle(text: String, color: Int = getProperStatusBarColor()) {
@@ -321,7 +318,7 @@ fun Activity.launchViewIntent(url: String) {
     ensureBackgroundThread {
         Intent(Intent.ACTION_VIEW, Uri.parse(url)).apply {
             try {
-                startActivity(intent)
+                startActivity(this)
             } catch (e: ActivityNotFoundException) {
                 toast(R.string.no_browser_found)
             } catch (e: Exception) {
@@ -912,7 +909,7 @@ fun BaseSimpleActivity.renameFile(
             }
         }
     } else if (isAccessibleWithSAFSdk30(oldPath)) {
-        if (canManageMedia() && isPathOnInternalStorage(oldPath)) {
+        if (canManageMedia() && !File(oldPath).isDirectory && isPathOnInternalStorage(oldPath)) {
             renameCasually(oldPath, newPath, isRenamingMultipleFiles, callback)
         } else {
             handleSAFDialogSdk30(oldPath) {
@@ -923,8 +920,21 @@ fun BaseSimpleActivity.renameFile(
                 try {
                     ensureBackgroundThread {
                         val success = renameDocumentSdk30(oldPath, newPath)
-                        runOnUiThread {
-                            callback?.invoke(success, Android30RenameFormat.NONE)
+                        if (success) {
+                            updateInMediaStore(oldPath, newPath)
+                            rescanPath(newPath) {
+                                runOnUiThread {
+                                    callback?.invoke(true, Android30RenameFormat.NONE)
+                                }
+                                if (!oldPath.equals(newPath, true)) {
+                                    deleteFromMediaStore(oldPath)
+                                }
+                                scanPathRecursively(newPath)
+                            }
+                        } else {
+                            runOnUiThread {
+                                callback?.invoke(false, Android30RenameFormat.NONE)
+                            }
                         }
                     }
                 } catch (e: Exception) {
@@ -1018,7 +1028,11 @@ private fun BaseSimpleActivity.renameCasually(
                 }
             }
         } else {
-            showErrorToast(exception)
+            if (exception is IOException && File(oldPath).isDirectory && isRestrictedWithSAFSdk30(oldPath)) {
+                toast(R.string.cannot_rename_folder)
+            } else {
+                showErrorToast(exception)
+            }
             callback?.invoke(false, Android30RenameFormat.NONE)
         }
         return
