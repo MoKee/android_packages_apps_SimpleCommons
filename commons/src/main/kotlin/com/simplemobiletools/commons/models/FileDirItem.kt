@@ -2,6 +2,7 @@ package com.simplemobiletools.commons.models
 
 import android.content.Context
 import android.net.Uri
+import android.provider.MediaStore
 import com.bumptech.glide.signature.ObjectKey
 import com.simplemobiletools.commons.extensions.*
 import com.simplemobiletools.commons.helpers.*
@@ -14,13 +15,15 @@ open class FileDirItem(
     var children: Int = 0,
     var size: Long = 0L,
     var modified: Long = 0L,
+    var mediaStoreId: Long = 0L
 ) :
     Comparable<FileDirItem> {
     companion object {
         var sorting = 0
     }
 
-    override fun toString() = "FileDirItem(path=$path, name=$name, isDirectory=$isDirectory, children=$children, size=$size, modified=$modified)"
+    override fun toString() =
+        "FileDirItem(path=$path, name=$name, isDirectory=$isDirectory, children=$children, size=$size, modified=$modified, mediaStoreId=$mediaStoreId)"
 
     override fun compareTo(other: FileDirItem): Int {
         return if (isDirectory && !other.isDirectory) {
@@ -142,4 +145,14 @@ open class FileDirItem(
     }
 
     fun getKey() = ObjectKey(getSignature())
+
+    fun assembleContentUri(): Uri {
+        val uri = when {
+            path.isImageFast() -> MediaStore.Images.Media.EXTERNAL_CONTENT_URI
+            path.isVideoFast() -> MediaStore.Video.Media.EXTERNAL_CONTENT_URI
+            else -> MediaStore.Files.getContentUri("external")
+        }
+
+        return Uri.withAppendedPath(uri, mediaStoreId.toString())
+    }
 }

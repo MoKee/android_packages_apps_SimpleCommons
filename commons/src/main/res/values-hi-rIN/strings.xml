@@ -13,6 +13,8 @@
     <string name="edit_with">Edit with</string>
     <string name="edit">Edit</string>
     <string name="no_app_found">No valid app found</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">Set as</string>
     <string name="copy_to_clipboard">Copy to clipboard</string>
     <string name="copy_number_to_clipboard">Copy number to clipboard</string>
@@ -102,6 +104,7 @@
 
     <!-- Filters -->
     <string name="filter">Filter</string>
+    <string name="filter_pro">Filter (Pro)</string>
     <string name="no_items_found">No items found.</string>
     <string name="change_filter">Change filter</string>
 
@@ -328,7 +331,9 @@
     <string name="undo">Undo</string>
     <string name="redo">Redo</string>
     <string name="print">Print</string>
+    <string name="print_pro">Print (Pro)</string>
     <string name="create_shortcut">Create shortcut</string>
+    <string name="create_shortcut_pro">Create shortcut (Pro)</string>
     <string name="add_number_to_contact">Add number to contact</string>
     <string name="view_contact_details">View contact details</string>
     <string name="call_from_sim_1">Call from SIM 1</string>
@@ -405,6 +410,7 @@
     <string name="protection_setup_successfully">Password setup successfully. Please reinstall the app in case you forget it.</string>
     <string name="fingerprint_setup_successfully">Protection setup successfully. Please reinstall the app in case of problems with reseting it.</string>
     <string name="lock_folder">Lock folder</string>
+    <string name="lock_folder_pro">Lock folder (Pro)</string>
     <string name="unlock_folder">Unlock folder</string>
     <string name="lock_folder_notice">This protection works in this app only, it is not supposed to replace a real systemwide folder encryption.</string>
 
@@ -1014,6 +1020,7 @@
     <string name="apng_title">APNG Android (animated WebP support)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
 
     <!-- Google Play listing -->
     <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>

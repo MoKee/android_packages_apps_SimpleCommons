@@ -14,6 +14,8 @@
     <string name="edit_with">Rediger med</string>
     <string name="edit">Edit</string>
     <string name="no_app_found">Ingen gyldig app funnet</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">Sett som</string>
     <string name="copy_to_clipboard">Kopier til utklippstavle</string>
     <string name="copy_number_to_clipboard">Copy number to clipboard</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Skriv inn minst 2 tegn for å starte søket.</string>
     <!-- Filters -->
     <string name="filter">Filter</string>
+    <string name="filter_pro">Filter (Pro)</string>
     <string name="no_items_found">Ingen elementer funnet.</string>
     <string name="change_filter">Endre filter</string>
     <!-- Permissions -->
@@ -309,7 +312,9 @@
     <string name="undo">Angre</string>
     <string name="redo">Annuler angre</string>
     <string name="print">Skriv ut</string>
+    <string name="print_pro">Skriv ut (Pro)</string>
     <string name="create_shortcut">Opprett snarvei</string>
+    <string name="create_shortcut_pro">Opprett snarvei (Pro)</string>
     <string name="add_number_to_contact">Legg til nummer i kontakt</string>
     <string name="view_contact_details">Vis kontaktdetaljer</string>
     <string name="call_from_sim_1">Call from SIM 1</string>
@@ -384,6 +389,7 @@
     <string name="protection_setup_successfully">Passord er stilt inn. Installer appen på nytt hvis du glemmer det.</string>
     <string name="fingerprint_setup_successfully">Beskyttelse er stilt inn. Installer appen på nytt i tilfelle problemer med å tilbakestille.</string>
     <string name="lock_folder">Lås mappe</string>
+    <string name="lock_folder_pro">Lås mappe (Pro)</string>
     <string name="unlock_folder">Lås opp mappe</string>
     <string name="lock_folder_notice">This protection works in this app only, it is not supposed to replace a real systemwide folder encryption.</string>
     <!-- Times -->
@@ -957,6 +963,7 @@
     <string name="apng_title">APNG Android (animated WebP support)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at hello@simplemobiletools.com and you will get it. That makes it easy to try it out :)</string>

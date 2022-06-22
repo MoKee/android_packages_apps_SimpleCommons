@@ -431,7 +431,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
     }
 
-    fun startAboutActivity(appNameId: Int, licenseMask: Int, versionName: String, faqItems: ArrayList<FAQItem>, showFAQBeforeMail: Boolean) {
+    fun startAboutActivity(appNameId: Int, licenseMask: Long, versionName: String, faqItems: ArrayList<FAQItem>, showFAQBeforeMail: Boolean) {
         hideKeyboard()
         Intent(applicationContext, AboutActivity::class.java).apply {
             putExtra(APP_ICON_IDS, getAppIconIDs())
@@ -605,7 +605,11 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     fun launchMediaManagementIntent(callback: () -> Unit) {
         Intent(Settings.ACTION_REQUEST_MANAGE_MEDIA).apply {
             data = Uri.parse("package:$packageName")
-            startActivityForResult(this, MANAGE_MEDIA_RC)
+            try {
+                startActivityForResult(this, MANAGE_MEDIA_RC)
+            } catch (e: Exception) {
+                showErrorToast(e)
+            }
         }
         funAfterManageMediaPermission = callback
     }
@@ -641,7 +645,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
                 if (isCopyOperation) {
                     val recycleBinPath = fileDirItems.first().isRecycleBinPath(this)
                     if (canManageMedia() && !recycleBinPath) {
-                        val fileUris = getFileUrisFromFileDirItems(fileDirItems).second
+                        val fileUris = getFileUrisFromFileDirItems(fileDirItems)
                         updateSDK30Uris(fileUris) { sdk30UriSuccess ->
                             if (sdk30UriSuccess) {
                                 startCopyMove(fileDirItems, destination, isCopyOperation, copyPhotoVideoOnly, copyHidden)
@@ -660,7 +664,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
                             if (safSuccess) {
                                 val recycleBinPath = fileDirItems.first().isRecycleBinPath(this)
                                 if (canManageMedia() && !recycleBinPath) {
-                                    val fileUris = getFileUrisFromFileDirItems(fileDirItems).second
+                                    val fileUris = getFileUrisFromFileDirItems(fileDirItems)
                                     updateSDK30Uris(fileUris) { sdk30UriSuccess ->
                                         if (sdk30UriSuccess) {
                                             startCopyMove(fileDirItems, destination, isCopyOperation, copyPhotoVideoOnly, copyHidden)

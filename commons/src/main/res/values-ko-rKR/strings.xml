@@ -13,6 +13,8 @@
     <string name="edit_with">편집 앱으로 열기</string>
     <string name="edit">Edit</string>
     <string name="no_app_found">연결 가능한 앱 없음</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">다른 앱에 설정</string>
     <string name="copy_to_clipboard">Copy to clipboard</string>
     <string name="copy_number_to_clipboard">Copy number to clipboard</string>
@@ -104,6 +106,7 @@
 
     <!-- Filters -->
     <string name="filter">필터</string>
+    <string name="filter_pro">필터 (Pro)</string>
     <string name="no_items_found">항목을 찾지 못함</string>
     <string name="change_filter">필터 변경</string>
 
@@ -325,7 +328,9 @@
     <string name="undo">뒤로</string>
     <string name="redo">앞으로</string>
     <string name="print">인쇄</string>
+    <string name="print_pro">인쇄 (Pro)</string>
     <string name="create_shortcut">바로가기 생성</string>
+    <string name="create_shortcut_pro">바로가기 생성 (Pro)</string>
     <string name="add_number_to_contact">Add number to contact</string>
     <string name="view_contact_details">View contact details</string>
     <string name="call_from_sim_1">Call from SIM 1</string>
@@ -401,6 +406,7 @@
     <string name="protection_setup_successfully">암호 설정이 완료되었습니다. 암호를 기억하지 못하는 경우 앱을 다시 설치하시기 바랍니다.</string>
     <string name="fingerprint_setup_successfully">보안 설정이 성공적으로 완료되었습니다. 재설정 시 문제가 발생하면 앱을 다시 설치하시기 바랍니다.</string>
     <string name="lock_folder">폴더 잠그기</string>
+    <string name="lock_folder_pro">폴더 잠그기 (Pro)</string>
     <string name="unlock_folder">폴더 잠금 해제</string>
     <string name="lock_folder_notice">이 보안 설정은 이 앱에서만 작동하며, 실제 시스템 폴더 암호화를 대체할 수 없습니다.</string>
 
@@ -982,6 +988,7 @@
     <string name="apng_title">APNG Android (animated WebP support)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
 
     <!-- Google Play listing -->
     <string name="deprecated_app">구버전 경고: 이 버전의 앱은 더이상 관리되지 않습니다. Pro 버전을 설치해 주세요: https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
