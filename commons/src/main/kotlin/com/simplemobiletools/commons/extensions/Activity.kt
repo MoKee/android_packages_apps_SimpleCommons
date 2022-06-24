@@ -954,6 +954,7 @@ fun BaseSimpleActivity.renameFile(
             val document = getSomeDocumentFile(oldPath)
             if (document == null || (File(oldPath).isDirectory != document.isDirectory)) {
                 runOnUiThread {
+                    toast(R.string.unknown_error_occurred)
                     callback?.invoke(false, Android30RenameFormat.NONE)
                 }
                 return@handleSAFDialog
@@ -1087,6 +1088,7 @@ private fun BaseSimpleActivity.renameCasually(
                             val tempDestination = try {
                                 createTempFile(File(sourceFile.path)) ?: return@updateSDK30Uris
                             } catch (exception: Exception) {
+                                showErrorToast(exception)
                                 callback?.invoke(false, Android30RenameFormat.NONE)
                                 return@updateSDK30Uris
                             }
@@ -1129,6 +1131,7 @@ private fun BaseSimpleActivity.renameCasually(
                                     }
                                 }
                             } else {
+                                toast(R.string.unknown_error_occurred)
                                 callback?.invoke(false, Android30RenameFormat.NONE)
                             }
                         }
@@ -1140,6 +1143,7 @@ private fun BaseSimpleActivity.renameCasually(
                 }
             }
         } else {
+            toast(R.string.unknown_error_occurred)
             callback?.invoke(false, Android30RenameFormat.NONE)
         }
     }
