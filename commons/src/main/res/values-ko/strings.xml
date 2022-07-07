@@ -33,6 +33,7 @@
     <string name="folder">폴더</string>
     <string name="skip">건너뛰기</string>
     <string name="loading">로딩 중…</string>
+    <string name="storage">저장소</string>
     <string name="sd_card">SD 카드</string>
     <string name="path">경로</string>
     <string name="duration">길이</string>

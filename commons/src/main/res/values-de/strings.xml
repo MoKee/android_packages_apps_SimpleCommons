@@ -145,6 +145,7 @@
         <item quantity="other">%d Elemente werden gelöscht</item>
     </plurals>
     <string name="select_storage">Speicher auswählen</string>
+    <string name="storage">Speicher</string>
     <string name="internal">Intern</string>
     <string name="sd_card">SD-Karte</string>
     <string name="root">Hauptverzeichnis</string>

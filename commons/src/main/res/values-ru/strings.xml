@@ -166,6 +166,7 @@
         <item quantity="other">%d контактов</item>
     </plurals>
     <string name="select_storage">Выбрать хранилище</string>
+    <string name="storage">Память</string>
     <string name="internal">Внутренняя память</string>
     <string name="sd_card">SD-карта</string>
     <string name="root">Корневая папка</string>
@@ -712,7 +713,6 @@
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">Без рекламы</string>
     <string name="why_upgrade_no_internet_access">Без доступа к интернету</string>
-    <string name="why_upgrade_footer">+ 100% гарантия возврата денег</string>
     <string name="why_upgrade_advanced_photo_editor">Расширенный редактор фото</string>
     <string name="why_upgrade_heic_support">Поддержка файлов HEIC/HEIF</string>
     <string name="why_upgrade_batch_renaming">Расширенное переименование пакетного файла</string>

@@ -120,6 +120,7 @@
         <item quantity="other">Po fshin %d artikuj</item>
     </plurals>
     <string name="select_storage">Zgjidhni hapësirën ruajtëse</string>
+    <string name="storage">Hapësira ruajtëse</string>
     <string name="internal">I brendshëm</string>
     <string name="sd_card">Në kartën SD</string>
     <string name="root">Rrënja</string>

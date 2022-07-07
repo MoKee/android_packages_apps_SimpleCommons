@@ -158,6 +158,7 @@
         <item quantity="other">%d contactos</item>
     </plurals>
     <string name="select_storage">Selecionar armazenamento</string>
+    <string name="storage">Armazenamento</string>
     <string name="internal">Interno</string>
     <string name="sd_card">Cartão SD</string>
     <string name="root">Raiz</string>
@@ -603,8 +604,6 @@
     <string name="rate_us_prompt">Olá,\n\nparece que você está usando este app por um bom tempo, e nós realmente agradecemos por isso.\n\nSe pudermos lhe pedir um favor, por favor, avalie-nos no Google Play. Isso ajudar-nos-ia muito.\n\nNão importa como você decida, você não verá essa mensagem novamente.\n\nObrigado!</string>
     <string name="rate_our_app">Avalie a nossa aplicação, por favor :)</string>
     <string name="thank_you">Obrigado</string>
-    <string name="widget_locked">            O widget está bloqueado.&lt;br&gt;Por favor, compre a &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt; para o desbloquear.
-        </string>
     <string name="app_launcher_short">Launcher de aplicações</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendário</string>
@@ -659,7 +658,6 @@ Uma vez iniciada, basta repor o ícone predefinido laranja #F57C00. Poderá ter 
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">Sem anúncios</string>
     <string name="why_upgrade_no_internet_access">Sem acesso à internet</string>
-    <string name="why_upgrade_footer">+ 100% Garantia de Reembolso</string>
     <string name="why_upgrade_improved_design">Design aprimorado</string>
     <string name="why_upgrade_advanced_photo_editor">Editor avançado de fotos</string>
     <string name="why_upgrade_heic_support">Suporte a ficheiros HEIC/HEIF</string>

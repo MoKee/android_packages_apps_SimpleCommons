@@ -147,6 +147,7 @@
         <item quantity="other">حذف %d عناصر</item>
     </plurals>
     <string name="select_storage">حدد وحدة التخزين</string>
+    <string name="storage">التخزين</string>
     <string name="internal">الداخلية</string>
     <string name="sd_card">بطاقة SD</string>
     <string name="root">الجذر</string>

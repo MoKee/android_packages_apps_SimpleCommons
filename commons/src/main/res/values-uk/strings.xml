@@ -143,6 +143,7 @@
         <item quantity="other">Видалення %d об\'єктів</item>
     </plurals>
     <string name="select_storage">Виберіть сховище</string>
+    <string name="storage">Пам\'ять</string>
     <string name="internal">Внутрішня пам\'ять</string>
     <string name="sd_card">SD-карта</string>
     <string name="root">Коренева папка</string>

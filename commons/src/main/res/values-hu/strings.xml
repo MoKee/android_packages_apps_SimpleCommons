@@ -189,6 +189,7 @@
         <item quantity="other">%d névjegy</item>
     </plurals>
     <string name="select_storage">Tárhely-választás</string>
+    <string name="storage">Tároló</string>
     <string name="internal">Belső</string>
     <string name="sd_card">SD kártya</string>
     <string name="root">Gyökérkönyvtár</string>
@@ -663,8 +664,6 @@
     <string name="rate_our_app">Kérjük, értékelje alkalmazásunkat :)</string>
     <string name="thank_you">Köszönjük!</string>
     <string name="widget_locked_pro">A kisalkalmazás zárolt.\nFeloldásához kérjük frissítsen a Pro verzióra.</string>
-    <string name="widget_locked">            A kisalkalmazás nem ingyenes.&lt;br&gt;Használatához vásárolja meg a következőt: &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt;.
-        </string>
     <string name="app_launcher_short">Alkalmazásindító-fiók</string>
     <string name="calculator_short">Számológép</string>
     <string name="calendar_short">Naptár</string>
@@ -771,7 +770,6 @@
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">Reklámmentes</string>
     <string name="why_upgrade_no_internet_access">Nincs szükség internetre</string>
-    <string name="why_upgrade_footer">100%-os pénz-visszafizetési garancia</string>
     <string name="why_upgrade_improved_design">Tökéletesített megjelenés</string>
     <string name="why_upgrade_advanced_photo_editor">Kiemelkedő fényképszerkesztő</string>
     <string name="why_upgrade_heic_support">HEIC/HEIF fájltámogatás</string>

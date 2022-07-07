@@ -46,6 +46,7 @@
     <string name="select_file">Selectează un fișier</string>
     <string name="confirm_selection">Confirmați selecția</string>
     <string name="loading">Se încarcă…</string>
+    <string name="storage">Stocare</string>
     <string name="sd_card">Card SD</string>
     <string name="path">Cale</string>
     <string name="duration">Durată</string>

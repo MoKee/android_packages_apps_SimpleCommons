@@ -155,6 +155,7 @@
         <item quantity="other">%d liên hệ</item>
     </plurals>
     <string name="select_storage">Chọn bộ nhớ</string>
+    <string name="storage">Lưu trữ</string>
     <string name="internal">Nội bộ</string>
     <string name="sd_card">Thẻ SD</string>
     <string name="root">Gốc</string>
@@ -569,8 +570,6 @@
     <string name="rate_our_app">Hãy đánh giá ứng dụng của chúng tôi :)</string>
     <string name="thank_you">Cảm ơn</string>
     <string name="widget_locked_pro">Tiện ích bị khóa.\nVui lòng nâng cấp lên phiên bản Pro để mở khóa.</string>
-    <string name="widget_locked">            Tiện ích bị khoá.&lt;br&gt;Hãy mua &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt; để mở khóa nó.
-        </string>
     <string name="app_launcher_short">Trình khởi chạy ứng dụng</string>
     <string name="calculator_short">Máy tính</string>
     <string name="calendar_short">Lịch</string>
@@ -622,7 +621,6 @@
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">Không quảng cáo</string>
     <string name="why_upgrade_no_internet_access">Không quyền truy cập mạng</string>
-    <string name="why_upgrade_footer">Đảm bảo hoàn tiền 100%</string>
     <string name="why_upgrade_improved_design">Thiết kế được cải tiến</string>
     <string name="why_upgrade_advanced_photo_editor">Trình chỉnh sửa ảnh nâng cao</string>
     <string name="why_upgrade_heic_support">Hỗ trợ tệp HEIC/HEIF</string>

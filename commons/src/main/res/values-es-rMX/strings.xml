@@ -129,6 +129,7 @@
         <item quantity="other">Eliminando %d elementos</item>
     </plurals>
     <string name="select_storage">Seleccione almacenamiento</string>
+    <string name="storage">Almacenamiento</string>
     <string name="internal">Almacenamiento interno</string>
     <string name="sd_card">Tarjeta SD</string>
     <string name="root">Raíz /</string>

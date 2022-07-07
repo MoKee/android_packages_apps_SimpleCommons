@@ -120,6 +120,7 @@
         <item quantity="other">%d items verwijderen</item>
     </plurals>
     <string name="select_storage">Opslag kiezen</string>
+    <string name="storage">Opslag</string>
     <string name="internal">Interne opslag</string>
     <string name="sd_card">SD-kaart</string>
     <string name="root">Hoofdmap</string>

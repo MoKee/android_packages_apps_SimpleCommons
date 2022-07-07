@@ -164,6 +164,7 @@
         <item quantity="other">%d contatti</item>
     </plurals>
     <string name="select_storage">Seleziona archiviazione</string>
+    <string name="storage">Archivio</string>
     <string name="internal">Interna</string>
     <string name="sd_card">Scheda SD</string>
     <string name="root">Root</string>
@@ -616,8 +617,6 @@
     <string name="rate_our_app">Sei pregato di valutare la nostra app :)</string>
     <string name="thank_you">Grazie</string>
     <string name="widget_locked_pro">Il widget è bloccato.\nSei pregato di passare alla versione Pro per sbloccarlo.</string>
-    <string name="widget_locked">            Il widget è bloccato.&lt;br&gt;Sei pregato di acquistare &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt; per sbloccarlo.
-        </string>
     <string name="app_launcher_short">Launcher dell\'App</string>
     <string name="calculator_short">Calcolatrice</string>
     <string name="calendar_short">Calendario</string>
@@ -668,7 +667,6 @@
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">Senza pubblicità</string>
     <string name="why_upgrade_no_internet_access">Nessun accesso a Internet</string>
-    <string name="why_upgrade_footer">Garanzia di Rimborso oltre al 100%</string>
     <string name="why_upgrade_improved_design">Design migliorato</string>
     <string name="why_upgrade_advanced_photo_editor">Editor fotografico avanzato</string>
     <string name="why_upgrade_heic_support">Supporto ai file HEIC/HEIF</string>

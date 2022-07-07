@@ -132,6 +132,7 @@
         <item quantity="other">%d個項目刪除中</item>
     </plurals>
     <string name="select_storage">選擇儲存空間</string>
+    <string name="storage">儲存裝置</string>
     <string name="internal">內部儲存空間</string>
     <string name="sd_card">SD 卡</string>
     <string name="root">根目錄</string>

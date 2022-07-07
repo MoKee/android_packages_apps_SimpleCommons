@@ -28,6 +28,7 @@
     <string name="folder">Папка</string>
     <string name="skip">Прескочи</string>
     <string name="loading">Зареждане…</string>
+    <string name="storage">Хранилище</string>
     <string name="sd_card">SD карта</string>
     <string name="path">Път</string>
     <string name="duration">Времетраене</string>

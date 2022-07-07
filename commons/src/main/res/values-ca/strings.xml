@@ -128,6 +128,7 @@
         <item quantity="other">Eliminant %d elements</item>
     </plurals>
     <string name="select_storage">Selecciona emmagatzematge</string>
+    <string name="storage">Emmagatzematge</string>
     <string name="internal">Emmagatzematge intern</string>
     <string name="sd_card">Targeta SD</string>
     <string name="root">Arrel /</string>

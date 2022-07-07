@@ -98,6 +98,7 @@
         <item quantity="other">%d உருப்படிகளை நீக்குகின்றன</item>
     </plurals>
     <string name="select_storage">சேமிப்பகத்தைத் தேர்வுசெய்க</string>
+    <string name="storage">சேமிப்பகம்</string>
     <string name="sd_card">SD அட்டை</string>
     <string name="properties">பண்புகள்</string>
     <string name="path">பாதை</string>

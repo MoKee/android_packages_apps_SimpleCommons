@@ -126,6 +126,7 @@
         <item quantity="other">%d アイテムを削除しています</item>
     </plurals>
     <string name="select_storage">ストレージを選択</string>
+    <string name="storage">ストレージ</string>
     <string name="internal">内部</string>
     <string name="sd_card">SDカード</string>
     <string name="root">ルート</string>

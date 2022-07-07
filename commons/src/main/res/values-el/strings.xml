@@ -129,6 +129,7 @@
         <item quantity="other">Διαγραφή %d στοιχεία</item>
     </plurals>
     <string name="select_storage">Επιλέξτε αποθήκευση</string>
+    <string name="storage">Αποθηκευτικός χώρος</string>
     <string name="internal">Εσωτερική</string>
     <string name="sd_card">Κάρτα SD</string>
     <string name="sd_card_usb_same">SD card και USB οι διαδρομές συσκευών δεν μπορούν να είναι οι ίδιες</string>

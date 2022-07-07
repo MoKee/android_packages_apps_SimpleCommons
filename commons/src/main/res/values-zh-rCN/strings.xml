@@ -173,6 +173,7 @@
         <item quantity="other">%d 个联系人</item>
     </plurals>
     <string name="select_storage">选择存储器</string>
+    <string name="storage">存储</string>
     <string name="internal">内部存储器</string>
     <string name="sd_card">SD 卡</string>
     <string name="root">根目录</string>
@@ -607,8 +608,6 @@
     <string name="rate_our_app">请给我们的应用评分 :)</string>
     <string name="thank_you">谢谢</string>
     <string name="widget_locked_pro">小部件已锁定。\n请升级到专业版以解锁它。</string>
-    <string name="widget_locked">            小部件已锁定。&lt;br&gt;请购买 &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt; 以解锁它。
-        </string>
     <string name="app_launcher_short">应用启动器</string>
     <string name="calculator_short">计算器</string>
     <string name="calendar_short">日历</string>
@@ -712,7 +711,6 @@
     <string name="why_upgrade_pro_version">专业版</string>
     <string name="why_upgrade_no_ads">无广告</string>
     <string name="why_upgrade_no_internet_access">无网络连接</string>
-    <string name="why_upgrade_footer">+100%退款保证</string>
     <string name="why_upgrade_improved_design">改进了设计</string>
     <string name="why_upgrade_advanced_photo_editor">高级照片编辑器</string>
     <string name="why_upgrade_heic_support">HEIC/HEIF 文件支持</string>

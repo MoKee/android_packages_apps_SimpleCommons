@@ -166,6 +166,7 @@
         <item quantity="other">%d kontaktów</item>
     </plurals>
     <string name="select_storage">Wybierz pamięć</string>
+    <string name="storage">Pamięć</string>
     <string name="internal">Wewnętrzna</string>
     <string name="sd_card">Karta pamięci</string>
     <string name="root">Folder główny</string>
@@ -713,7 +714,6 @@
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">Brak reklam</string>
     <string name="why_upgrade_no_internet_access">Brak dostępu do internetu</string>
-    <string name="why_upgrade_footer">100% gwarancji zwrotu pieniędzy</string>
     <string name="why_upgrade_advanced_photo_editor">Zaawansowany edytor zdjęć</string>
     <string name="why_upgrade_heic_support">Obsługa plików HEIC/HEIF</string>
     <string name="why_upgrade_batch_renaming">Zaawansowana zmiana nazwy pliku wsadowego</string>

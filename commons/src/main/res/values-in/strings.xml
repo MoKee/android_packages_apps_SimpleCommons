@@ -127,6 +127,7 @@
         <item quantity="other">Menghapus %d berkas</item>
     </plurals>
     <string name="select_storage">Pilih Penyimpanan</string>
+    <string name="storage">Penyimpanan</string>
     <string name="internal">Internal</string>
     <string name="sd_card">Kartu SD</string>
     <string name="root">Akar</string>

@@ -138,6 +138,7 @@
         <item quantity="other">Обрисано %d ставки</item>
     </plurals>
     <string name="select_storage">Избор складишта</string>
+    <string name="storage">Складиште</string>
     <string name="internal">Интерно</string>
     <string name="sd_card">SD Картица</string>
     <string name="root">Рут</string>

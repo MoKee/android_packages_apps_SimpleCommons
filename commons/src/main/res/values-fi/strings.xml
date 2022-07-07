@@ -112,6 +112,7 @@
     <string name="confirm_selection">Vahvista valinta</string>
     <string name="loading">Ladataan…</string>
     <string name="select_storage">Valitse tallennustila</string>
+    <string name="storage">Tallennustila</string>
     <string name="internal">Sisäinen</string>
     <string name="sd_card">Muistikortti</string>
     <string name="sd_card_usb_same">Muistikortin ja USB-laitteen polut eivät voi olla samat</string>

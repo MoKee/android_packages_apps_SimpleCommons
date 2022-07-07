@@ -167,6 +167,7 @@
         <item quantity="other">%d kontaktov</item>
     </plurals>
     <string name="select_storage">Zvoľte úložisko</string>
+    <string name="storage">Úložisko</string>
     <string name="internal">Interné</string>
     <string name="sd_card">SD karta</string>
     <string name="root">Koreňový priečinok</string>
@@ -673,8 +674,6 @@
     <string name="rate_our_app">Ohodnoťte prosím našu aplikáciu :)</string>
     <string name="thank_you">Ďakujeme</string>
     <string name="widget_locked_pro">Widget je uzamknutý.\nPre odomknutie aktualizujte na verziu Pro.</string>
-    <string name="widget_locked">            Widget je uzamknutý.&lt;br&gt;Pre odemkutie si zakúpte aplikáciu &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt;.
-        </string>
     <string name="app_launcher_short">Spúšťač aplikácií</string>
     <string name="calculator_short">Kalkulačka</string>
     <string name="calendar_short">Kalendár</string>
@@ -728,7 +727,6 @@
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">Žiadne reklamy</string>
     <string name="why_upgrade_no_internet_access">Bez prístupu na internet</string>
-    <string name="why_upgrade_footer">100% záruka vrátenia peňazí</string>
     <string name="why_upgrade_improved_design">Vylepšený dizajn</string>
     <string name="why_upgrade_advanced_photo_editor">Pokročilý editor fotografií</string>
     <string name="why_upgrade_heic_support">Podpora souborov HEIC/HEIF</string>

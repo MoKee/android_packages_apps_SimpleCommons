@@ -9,6 +9,7 @@
     <string name="invalid_file_format">Neplatný formát souboru</string>
     <string name="out_of_memory_error">Chyba nedostatku paměti</string>
     <string name="an_error_occurred">Vyskytla se chyba: %s</string>
+    <string name="error">Chyba: %s</string>
     <string name="open_with">Otevřít pomocí</string>
     <string name="edit_with">Upravit pomocí</string>
     <string name="edit">Editace</string>
@@ -82,6 +83,8 @@
     <string name="must_make_default_dialer">Aby bylo možné blokovat čísla, musíte tuto aplikaci nastavit jako výchozí aplikaci pro volání.</string>
     <string name="set_as_default">Nastavit jako výchozí</string>
     <string name="block_confirmation">Opravdu chcete zablokovat \"%s\"?</string>
+    <string name="block_unknown_calls">Blokovat hovory od neuložených kontaktů</string>
+    <string name="block_unknown_messages">Blokovat zprávy od neuložených kontaktů</string>
     <string name="favorites">Oblíbené</string>
     <string name="add_favorites">Přidat oblíbené</string>
     <string name="add_to_favorites">Přidat do oblíbených</string>
@@ -146,6 +149,7 @@
     <string name="could_not_create_file">Nepodařilo se vytvořit soubor %s</string>
     <string name="no_new_items">Nebyly nalezeny žádné nové položky</string>
     <string name="no_space">Cíl nemá dostatek místa.\nVyžadováno %1$s, k dispozici %2$s</string>
+    <string name="system_service_disabled">Systémová služba pro výběr souborů a složek není k dispozici</string>
     <string name="create_new">Vytvořit nový</string>
     <string name="folder">Složka</string>
     <string name="file">Soubor</string>
@@ -163,6 +167,9 @@
     <string name="skip">Přeskočit</string>
     <string name="append">Připnout s \'_1\'</string>
     <string name="apply_to_all">Použít pro všechny</string>
+    <string name="system_folder_restriction">Systém neumožňuje operaci v této složce, vyberte prosím jinou</string>
+    <string name="system_folder_copy_restriction">Systém neumožňuje kopírování do této složky, vyberte prosím jinou</string>
+    <string name="rename_in_sd_card_system_restriction">Systém neumožňuje přejmenování v této složce</string>
     <string name="select_folder">Zvolte složku</string>
     <string name="select_file">Zvolte soubor</string>
     <string name="confirm_storage_access_title">Potvrďte přístup k externímu úložišti</string>
@@ -170,8 +177,11 @@
     <string name="confirm_storage_access_text">Na následující obrazovce prosím zvolte kořenovou složku SD karty pro povolení oprávnění k zápisu</string>
     <string name="confirm_storage_access_text_sd">Pokud nevidíte SD kartu, vyzkoušejte následující</string>
     <string name="confirm_storage_access_android_text">Na další obrazovce povolte aplikaci přístup k vybranému úložišti stisknutím tlačítka \"Použít tuto složku\" v dolní části.</string>
+    <string name="confirm_storage_access_android_text_specific">Na další obrazovce povolte přístup k \'&lt;b&gt;%s&lt;/b&gt;\' stisknutím \'&lt;b&gt;Použít tuto složku&lt;/b&gt;\' v dolní části.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Pro vytvoření nové složky stiskněte \'&lt;b&gt;Uložit&lt;/b&gt;\' v dolní části další obrazovky.</string>
     <string name="confirm_selection">Potvrďte výběr</string>
     <string name="loading">Načítání…</string>
+    <string name="access_storage_prompt">Udělte prosím naší aplikaci přístup ke všem svým souborům, bez toho by nemusela dobře fungovat.</string>
     <plurals name="items">
         <item quantity="one">%d položka</item>
         <item quantity="few">%d položky</item>
@@ -197,6 +207,7 @@
         <item quantity="other">%d kontaktů</item>
     </plurals>
     <string name="select_storage">Vybrat uložiště</string>
+    <string name="storage">Úložiště</string>
     <string name="internal">Interní</string>
     <string name="sd_card">SD karta</string>
     <string name="root">Root</string>
@@ -223,6 +234,9 @@
     <string name="song_title">Název skladby</string>
     <string name="gps_coordinates">GPS souřadnice</string>
     <string name="altitude">Nadmořská výška</string>
+    <string name="remove_exif">Odebrat EXIF</string>
+    <string name="remove_exif_confirmation">Jste si jisti, že chcete odebrat hodnoty EXIF jako GPS souřadnice, typ fotoaparátu atd?</string>
+    <string name="exif_removed">Hodnoty EXIF byly úspěšně odebrány</string>
     <string name="background_color">Barva pozadí</string>
     <string name="text_color">Barva textu</string>
     <string name="primary_color">Hlavní barva</string>
@@ -250,6 +264,7 @@
     <string name="light_theme">Světlý</string>
     <string name="dark_theme">Tmavý</string>
     <string name="auto_theme">Automaticky</string>
+    <string name="auto_light_dark_theme">Automaticky světlý/tmavý</string>
     <string name="solarized">Solarizovaný</string>
     <string name="dark_red">Tmavě červený</string>
     <string name="white">Bílá</string>
@@ -554,6 +569,7 @@
     <string name="color_customization">Vlastní nastavení barev</string>
     <string name="customize_colors">Přizpůsobit barvy</string>
     <string name="customize_colors_locked">Přizpůsobení barev (uzamčeno)</string>
+    <string name="feature_locked">Uzamčeno</string>
     <string name="customize_widget_colors">Přizpůsobit barvy widgetu</string>
     <string name="customize_notifications">Přizpůsobit oznámení</string>
     <string name="use_english_language">Použít anglický jazyk</string>
@@ -694,6 +710,10 @@
     <string name="more_info">Další informace</string>
     <string name="upgrade">Upgradovat</string>
     <string name="upgrade_calendar">Musíte migrovat lokálně uložené události ručně prostřednictvím exportu do souboru .ics a následně importovat. V nabídce hlavní obrazovky naleznete tlačítka export/import.</string>
+    <string name="upgraded_to_pro">Ahoj,\n\nzdá se, že již máte Pro verzi aplikace. Tuto aplikaci již nebudete potřebovat, můžete ji odinstalovat.</string>
+    <string name="upgraded_to_pro_calendar">Musíte migrovat lokálně uložené události ručně prostřednictvím exportu do souboru .ics a následně importovat. V horní nabídce najdete tlačítka pro export a import.</string>
+    <string name="upgraded_to_pro_notes">Poznámky musíte do verze Pro migrovat ručně.</string>
+    <string name="upgraded_to_pro_contacts">Musíte migrovat lokálně uložené události ručně prostřednictvím exportu do souboru .ics a následně importovat. V horní nabídce najdete tlačítka pro export a import.</string>
     <string name="about">O aplikaci</string>
     <string name="website">Webová stránka</string>
     <string name="website_label">Pro zdrojové kódy navštivte</string>
@@ -721,18 +741,18 @@
     <string name="app_version">Verze aplikace: %s</string>
     <string name="device_os">OS zařízení: %s</string>
     <string name="purchase">Zakoupit</string>
+    <string name="order_simple_phone">Objednat Simple Phone</string>
     <string name="update_thank_you">Prosím aktualizujte Simple Thank You na nejnovější verzi</string>
     <string name="before_asking_question_read_faq">Než se něco zeptáte, nejprve zkontrolujte nastavení aplikace a přečtěte si prosím FAQ. Možná tam najdete svou odpověď.</string>
     <string name="before_rate_read_faq">Než nás ohodnotíte, zkontrolujte prosím nastavení aplikace a přečtěte si FAQ. Pokud máte nějaké problémy, možná tam najdete řešení.</string>
     <string name="make_sure_latest">Také se ujistěte, že používáte nejnovější verzi aplikace.</string>
+    <string name="make_sure_upgrade">Všimněte si také, že tato verze aplikace již není vyvíjena, pořiďte si verzi Pro, která přináší mnohá vylepšení.</string>
     <string name="read_it">Čtěte</string>
     <string name="read_faq">Číst FAQ</string>
     <string name="rate_us_prompt">Ahoj,\n\nzdá se, že tuto aplikaci už nějakou dobu používáte a opravdu si toho vážíme.\n\nPokud vás můžeme požádat o laskavost, napište nám recenzi na Google Play. To by nám hodně pomohlo.\n\nBez ohledu na to, jak se rozhodnete, tuto zprávu vícekrát neuvidíte.\n\nDíky!</string>
     <string name="rate_our_app">Ohodnoťte prosím naši aplikaci :)</string>
     <string name="thank_you">Děkujeme</string>
     <string name="widget_locked_pro">Widget je uzamčen.\nPro odemčení aktualizujte na verzi Pro.</string>
-    <string name="widget_locked">            Widget je uzamčen.&lt;br&gt;Pro odemčení zakupte aplikaci &lt;a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou"&gt;Simple Thank You&lt;/a&gt;.
-        </string>
     <string name="app_launcher_short">Spouštěč aplikací</string>
     <string name="calculator_short">Kalkulačka</string>
     <string name="calendar_short">Kalendář</string>
@@ -839,7 +859,6 @@
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="why_upgrade_no_ads">Bez reklam</string>
     <string name="why_upgrade_no_internet_access">Není připojení k Internetu</string>
-    <string name="why_upgrade_footer">+ 100% záruka vrácení peněz</string>
     <string name="why_upgrade_improved_design">Vylepšený design</string>
     <string name="why_upgrade_advanced_photo_editor">Pokročilý editor fotografií</string>
     <string name="why_upgrade_heic_support">Podpora souborů HEIC/HEIF</string>
@@ -855,6 +874,7 @@
     <string name="why_upgrade_private_contact_sharing">Volitelné soukromé sdílení kontaktů v rámci našich aplikací</string>
     <string name="why_upgrade_customizable_contact_ringtones">Přizpůsobitelné vyzváněcí tóny kontaktů</string>
     <string name="why_upgrade_contact_filtering">Filtrování kontaktů</string>
+    <string name="why_upgrade_contact_private_contacts">Soukromě uložené kontakty</string>
     <string name="why_upgrade_checklists">Seznamy</string>
     <string name="why_upgrade_different_note_per_widget">Různé poznámky a barvy na widgety</string>
     <string name="why_upgrade_note_locking">Závěrečné poznámky</string>
@@ -896,6 +916,8 @@
     <string name="audio_record_view_title">Zobrazení zvukového záznamu (vizualizace zvuku)</string>
     <string name="sms_mms_title">SMS MMS (SMS a MMS)</string>
     <string name="apng_title">APNG Android (podpora animovaných WebP)</string>
+    <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
+    <string name="m3u_parser_title">M3U Parser (zpracování souborů se seznamem skladeb m3u)</string>
     <string name="deprecated_app">ZASTARALÁ: Tato verze aplikace již není udržována, získejte verzi Pro na https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Nezapomeňte, že pokud odinstalujete všechny placené aplikace do 2 hodin, platba budete automaticky vrácena. Pokud chcete vrátit peníze později, kontaktujte nás na hello@simplemobiletools.com a získáte je zpět. To vám usnadní vyzkoušení :)</string>
     <string name="developer_description">Skupina jednoduchých aplikací s otevřeným zdrojovým kódem pro Android s přizpůsobitelnými widgety, bez reklam a zbytečných oprávnění.</string>
