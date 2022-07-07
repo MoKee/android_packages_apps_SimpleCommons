@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.dialog_message.view.*
 // similar fo ConfirmationDialog, but has a callback for negative button too
 class ConfirmationAdvancedDialog(
     activity: Activity, message: String = "", messageId: Int = R.string.proceed_with_deletion, positive: Int = R.string.yes,
-    negative: Int, val callback: (result: Boolean) -> Unit
+    negative: Int, val cancelOnTouchOutside: Boolean = true, val callback: (result: Boolean) -> Unit
 ) {
     var dialog: AlertDialog
 
@@ -24,8 +24,12 @@ class ConfirmationAdvancedDialog(
             builder.setNegativeButton(negative) { dialog, which -> negativePressed() }
         }
 
+        if (!cancelOnTouchOutside) {
+            builder.setOnCancelListener { negativePressed() }
+        }
+
         dialog = builder.create().apply {
-            activity.setupDialogStuff(view, this)
+            activity.setupDialogStuff(view, this, cancelOnTouchOutside = cancelOnTouchOutside)
         }
     }
 
