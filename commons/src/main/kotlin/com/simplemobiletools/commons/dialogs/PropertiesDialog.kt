@@ -51,7 +51,7 @@ class PropertiesDialog() {
         mPropertyView = mDialogView.properties_holder!!
         addProperties(path)
 
-        val builder = AlertDialog.Builder(mActivity)
+        val builder = activity.getAlertDialogBuilder()
             .setPositiveButton(R.string.ok, null)
 
         if (!path.startsWith("content://") && path.canModifyEXIF() && activity.isPathOnInternalStorage(path)) {
@@ -60,10 +60,11 @@ class PropertiesDialog() {
             }
         }
 
-        builder.create().apply {
-            mActivity.setupDialogStuff(mDialogView, this, R.string.properties)
-            getButton(AlertDialog.BUTTON_NEUTRAL).setOnClickListener {
-                removeEXIFFromPath(path)
+        builder.apply {
+            mActivity.setupDialogStuff(mDialogView, this, R.string.properties) { alertDialog ->
+                alertDialog.getButton(AlertDialog.BUTTON_NEUTRAL).setOnClickListener {
+                    removeEXIFFromPath(path)
+                }
             }
         }
     }
@@ -247,7 +248,7 @@ class PropertiesDialog() {
             }
         }
 
-        val builder = AlertDialog.Builder(mActivity)
+        val builder = activity.getAlertDialogBuilder()
             .setPositiveButton(R.string.ok, null)
 
         if (!paths.any { it.startsWith("content://") } && paths.any { it.canModifyEXIF() } && paths.any { activity.isPathOnInternalStorage(it) }) {
@@ -256,10 +257,11 @@ class PropertiesDialog() {
             }
         }
 
-        builder.create().apply {
-            mActivity.setupDialogStuff(mDialogView, this, R.string.properties)
-            getButton(AlertDialog.BUTTON_NEUTRAL).setOnClickListener {
-                removeEXIFFromPaths(paths)
+        builder.apply {
+            mActivity.setupDialogStuff(mDialogView, this, R.string.properties) { alertDialog ->
+                alertDialog.getButton(AlertDialog.BUTTON_NEUTRAL).setOnClickListener {
+                    removeEXIFFromPaths(paths)
+                }
             }
         }
     }

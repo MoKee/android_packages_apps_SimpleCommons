@@ -7,6 +7,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.simplemobiletools.commons.R
 import com.simplemobiletools.commons.activities.BaseSimpleActivity
+import com.simplemobiletools.commons.extensions.getAlertDialogBuilder
 import com.simplemobiletools.commons.extensions.humanizePath
 import com.simplemobiletools.commons.extensions.setupDialogStuff
 import kotlinx.android.synthetic.main.dialog_write_permission.view.*
@@ -20,7 +21,7 @@ class WritePermissionDialog(activity: Activity, val mode: Mode, val callback: ()
         object CreateDocumentSDK30 : Mode()
     }
 
-    var dialog: AlertDialog
+    private var dialog: AlertDialog? = null
 
     init {
         val layout = if (mode == Mode.SdCard) R.layout.dialog_write_permission else R.layout.dialog_write_permission_otg
@@ -60,19 +61,21 @@ class WritePermissionDialog(activity: Activity, val mode: Mode, val callback: ()
             }
         }
 
-        dialog = AlertDialog.Builder(activity)
+        activity.getAlertDialogBuilder()
             .setPositiveButton(R.string.ok) { dialog, which -> dialogConfirmed() }
             .setOnCancelListener {
                 BaseSimpleActivity.funAfterSAFPermission?.invoke(false)
                 BaseSimpleActivity.funAfterSAFPermission = null
             }
-            .create().apply {
-                activity.setupDialogStuff(view, this, dialogTitle)
+            .apply {
+                activity.setupDialogStuff(view, this, dialogTitle) { alertDialog ->
+                    dialog = alertDialog
+                }
             }
     }
 
     private fun dialogConfirmed() {
-        dialog.dismiss()
+        dialog?.dismiss()
         callback()
     }
 }
