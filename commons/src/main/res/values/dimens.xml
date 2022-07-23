@@ -11,6 +11,7 @@
     <dimen name="section_margin">32dp</dimen>
 
     <dimen name="material_dialog_corner_radius">28dp</dimen>
+    <dimen name="material_button_corner_radius">24dp</dimen>
     <dimen name="social_logo">40dp</dimen>
     <dimen name="color_sample_size">30dp</dimen>
     <dimen name="shortcut_size">64dp</dimen>
@@ -47,7 +48,7 @@
     <dimen name="bigger_text_size">16sp</dimen>
     <dimen name="middle_text_size">17sp</dimen>
     <dimen name="big_text_size">18sp</dimen>
-    <dimen name="actionbar_text_size">20sp</dimen>
+    <dimen name="actionbar_text_size">21sp</dimen>
     <dimen name="extra_big_text_size">22sp</dimen>
 
     <dimen name="cab_popup_menu_min_width">168dp</dimen>

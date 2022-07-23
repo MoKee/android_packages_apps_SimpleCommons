@@ -3,13 +3,12 @@ package com.simplemobiletools.commons.activities
 import android.os.Bundle
 import android.text.Html
 import android.text.method.LinkMovementMethod
-import android.view.Menu
 import com.simplemobiletools.commons.R
 import com.simplemobiletools.commons.extensions.*
 import com.simplemobiletools.commons.helpers.APP_ICON_IDS
 import com.simplemobiletools.commons.helpers.APP_LAUNCHER_NAME
+import com.simplemobiletools.commons.helpers.NavigationIcon
 import kotlinx.android.synthetic.main.activity_contributors.*
-import java.util.*
 
 class ContributorsActivity : BaseSimpleActivity() {
     override fun getAppIconIDs() = intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList()
@@ -49,8 +48,8 @@ class ContributorsActivity : BaseSimpleActivity() {
         }
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        updateMenuItemColors(menu)
-        return super.onCreateOptionsMenu(menu)
+    override fun onResume() {
+        super.onResume()
+        setupToolbar(contributors_toolbar, NavigationIcon.Arrow)
     }
 }

@@ -2,7 +2,6 @@ package com.simplemobiletools.commons.activities
 
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.Menu
 import android.widget.LinearLayout
 import com.simplemobiletools.commons.R
 import com.simplemobiletools.commons.extensions.*
@@ -53,9 +52,9 @@ class LicenseActivity : BaseSimpleActivity() {
         }
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        updateMenuItemColors(menu)
-        return super.onCreateOptionsMenu(menu)
+    override fun onResume() {
+        super.onResume()
+        setupToolbar(license_toolbar, NavigationIcon.Arrow)
     }
 
     private fun initLicenses() = arrayOf(

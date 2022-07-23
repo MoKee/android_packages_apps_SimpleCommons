@@ -33,7 +33,7 @@ fun Context.getProperPrimaryColor() = when {
 }
 
 fun Context.getProperStatusBarColor() = when {
-    baseConfig.isUsingSystemTheme -> resources.getColor(R.color.you_primary_color, theme)
+    baseConfig.isUsingSystemTheme -> resources.getColor(R.color.you_status_bar_color, theme)
     else -> baseConfig.primaryColor
 }
 
@@ -169,7 +169,7 @@ fun Context.toggleAppIconColor(appId: String, colorIndex: Int, color: Int, enabl
 fun Context.getAppIconColors() = resources.getIntArray(R.array.md_app_icon_colors).toCollection(ArrayList())
 
 @SuppressLint("NewApi")
-fun Context.getBottomTabsBackgroundColor(): Int {
+fun Context.getBottomNavigationBackgroundColor(): Int {
     val baseColor = baseConfig.backgroundColor
     val bottomColor = when {
         baseConfig.isUsingSystemTheme -> resources.getColor(R.color.you_status_bar_color, theme)

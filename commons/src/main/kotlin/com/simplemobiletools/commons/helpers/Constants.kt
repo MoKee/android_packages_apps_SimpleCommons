@@ -326,6 +326,13 @@ const val DATE_FORMAT_FOURTEEN = "yy/MM/dd"
 const val TIME_FORMAT_12 = "hh:mm a"
 const val TIME_FORMAT_24 = "HH:mm"
 
+// possible icons at the top left corner
+enum class NavigationIcon {
+    Cross,
+    Arrow,
+    None
+}
+
 val appIconColorStrings = arrayListOf(
     ".Red",
     ".Pink",

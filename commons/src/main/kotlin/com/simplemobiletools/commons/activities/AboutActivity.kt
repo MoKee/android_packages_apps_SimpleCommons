@@ -6,7 +6,6 @@ import android.content.Intent.*
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
-import android.view.Menu
 import androidx.core.net.toUri
 import com.simplemobiletools.commons.R
 import com.simplemobiletools.commons.dialogs.ConfirmationAdvancedDialog
@@ -64,7 +63,8 @@ class AboutActivity : BaseSimpleActivity() {
 
     override fun onResume() {
         super.onResume()
-        updateTextColors(about_scrollview)
+        updateTextColors(about_nested_scrollview)
+        setupToolbar(about_toolbar, NavigationIcon.Arrow)
 
         setupFAQ()
         setupEmail()
@@ -80,11 +80,6 @@ class AboutActivity : BaseSimpleActivity() {
         setupPrivacyPolicy()
         setupLicense()
         setupVersion()
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        updateMenuItemColors(menu)
-        return super.onCreateOptionsMenu(menu)
     }
 
     private fun setupFAQ() {

@@ -4,17 +4,16 @@ import android.os.Bundle
 import android.text.Html
 import android.text.method.LinkMovementMethod
 import android.view.LayoutInflater
-import android.view.Menu
 import android.widget.LinearLayout
 import com.simplemobiletools.commons.R
 import com.simplemobiletools.commons.extensions.*
 import com.simplemobiletools.commons.helpers.APP_FAQ
 import com.simplemobiletools.commons.helpers.APP_ICON_IDS
 import com.simplemobiletools.commons.helpers.APP_LAUNCHER_NAME
+import com.simplemobiletools.commons.helpers.NavigationIcon
 import com.simplemobiletools.commons.models.FAQItem
 import kotlinx.android.synthetic.main.activity_faq.*
 import kotlinx.android.synthetic.main.item_faq.view.*
-import java.util.*
 
 class FAQActivity : BaseSimpleActivity() {
     override fun getAppIconIDs() = intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList()
@@ -55,8 +54,8 @@ class FAQActivity : BaseSimpleActivity() {
         }
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        updateMenuItemColors(menu)
-        return super.onCreateOptionsMenu(menu)
+    override fun onResume() {
+        super.onResume()
+        setupToolbar(faq_toolbar, NavigationIcon.Arrow)
     }
 }
