@@ -11,7 +11,6 @@ import android.content.Intent
 import android.graphics.BitmapFactory
 import android.graphics.Color
 import android.graphics.PorterDuff
-import android.graphics.drawable.ColorDrawable
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
@@ -50,6 +49,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     var isAskingPermissions = false
     var useDynamicTheme = true
     var showTransparentTop = false
+    var showTransparentNavigation = false
     var checkedDocumentPath = ""
     var configItemsToExport = LinkedHashMap<String, Any>()
 
@@ -136,7 +136,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     override fun attachBaseContext(newBase: Context) {
-        if (newBase.baseConfig.useEnglish) {
+        if (newBase.baseConfig.useEnglish && !isTiramisuPlus()) {
             super.attachBaseContext(MyContextWrapper(newBase).wrap(newBase, "en"))
         } else {
             super.attachBaseContext(newBase)
@@ -160,13 +160,15 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun updateActionbarColor(color: Int = getProperStatusBarColor()) {
-        updateActionBarTitle(supportActionBar?.title.toString(), color)
-        supportActionBar?.setBackgroundDrawable(ColorDrawable(color))
         updateStatusbarColor(color)
         setTaskDescription(ActivityManager.TaskDescription(null, null, color))
     }
 
     fun updateNavigationBarColor(color: Int = baseConfig.navigationBarColor, isColorPreview: Boolean = false) {
+        if (showTransparentNavigation) {
+            return
+        }
+
         if (baseConfig.isUsingSystemTheme && !isColorPreview) {
             val navBarColor = getBottomNavigationBackgroundColor()
             window.navigationBarColor = navBarColor
@@ -209,10 +211,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
     }
 
-    fun updateMenuItemColors(
-        menu: Menu?, useCrossAsBack: Boolean = false, baseColor: Int = getProperStatusBarColor(), updateHomeAsUpColor: Boolean = true,
-        isContextualMenu: Boolean = false, forceWhiteIcons: Boolean = false
-    ) {
+    fun updateMenuItemColors(menu: Menu?, useCrossAsBack: Boolean = false, baseColor: Int = getProperStatusBarColor(), forceWhiteIcons: Boolean = false) {
         if (menu == null) {
             return
         }
@@ -227,12 +226,6 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
                 menu.getItem(i)?.icon?.setTint(color)
             } catch (ignored: Exception) {
             }
-        }
-
-        if (updateHomeAsUpColor && !isContextualMenu) {
-            val drawableId = if (useCrossAsBack) R.drawable.ic_cross_vector else R.drawable.ic_arrow_left_vector
-            val icon = resources.getColoredDrawableWithColor(drawableId, color)
-            supportActionBar?.setHomeAsUpIndicator(icon)
         }
     }
 
@@ -509,6 +502,25 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS).apply {
             putExtra(Settings.EXTRA_APP_PACKAGE, packageName)
             startActivity(this)
+        }
+    }
+
+    @RequiresApi(Build.VERSION_CODES.TIRAMISU)
+    fun launchChangeAppLanguageIntent() {
+        try {
+            Intent(Settings.ACTION_APP_LOCALE_SETTINGS).apply {
+                data = Uri.fromParts("package", packageName, null)
+                startActivity(this)
+            }
+        } catch (e: Exception) {
+            try {
+                Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
+                    data = Uri.fromParts("package", packageName, null)
+                    startActivity(this)
+                }
+            } catch (e: Exception) {
+                showErrorToast(e)
+            }
         }
     }
 
@@ -962,7 +974,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     private fun getExportSettingsFilename(): String {
         val appName = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.simplemobiletools.")
-        return "$appName-settings_${getCurrentFormattedDateTime()}.txt"
+        return "$appName-settings_${getCurrentFormattedDateTime()}"
     }
 
     @SuppressLint("InlinedApi")
